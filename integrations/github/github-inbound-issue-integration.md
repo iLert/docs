@@ -6,7 +6,7 @@ date: '2020-04-21T07:00:00.000Z'
 weight: 1
 ---
 
-# Github Inbound Issue Integration
+# Github Inbound Issue
 
 With the iLert Github Issue integration, you can create incidents in iLert based on repository issues from Github.
 

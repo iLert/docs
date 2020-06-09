@@ -8,7 +8,7 @@ date: '2020-04-21T07:00:00.000Z'
 weight: 1
 ---
 
-# Github Inbound Check Run \(Actions\) Integration
+# Github Inbound Check Run \(Actions\)
 
 With the iLert Github Check Run integration, you can add incidents in iLert based on "check run" from Github \(e.g. Github Actions\).
 

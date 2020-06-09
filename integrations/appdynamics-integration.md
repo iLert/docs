@@ -8,7 +8,7 @@ date: '2020-02-28T05:02:05.000Z'
 type: post
 ---
 
-# AppDynamics Integration
+# AppDynamics
 
 AppDynamics provides application performance management \(APM\) and IT operations analytics across cloud computing environments as well as inside the data center.
 

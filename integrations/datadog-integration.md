@@ -6,7 +6,7 @@ date: '2018-12-29T05:02:05.000Z'
 weight: 1
 ---
 
-# Datadog Integration
+# Datadog
 
 ## In iLert: Create Datadog alert source <a id="alert-source"></a>
 

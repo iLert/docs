@@ -9,7 +9,7 @@ weight: 1
 type: post
 ---
 
-# Amazon CloudWatch Integration
+# Amazon CloudWatch
 
 Amazon CloudWatch is a monitoring service for AWS cloud resources and applications running in the AWS Cloud. Amazon CloudWatch can monitor AWS resources, such as EC2 instances, Amazon DynamoDB tables, and Amazon RDS DB instances, as well as application and service generated metrics and log files.
 

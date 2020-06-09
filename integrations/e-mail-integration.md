@@ -6,7 +6,7 @@ date: '2018-12-29T05:02:05.000Z'
 weight: 1
 ---
 
-# E-mail Integration
+# E-mail
 
 E-mail integration is the easiest way to integrate iLert with your monitoring system. Each alert source in iLert has its own email address \(eg nagios@musterfirma.ilertnow.com \). As soon as your monitoring system sends an e-mail to this address, iLert will create an incident and initiate the alerting process.
 
