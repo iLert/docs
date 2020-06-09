@@ -35,7 +35,7 @@ iLert provides the following inbound integration options:
 * Use our [**Event API**](https://api.ilert.com/api-docs/) directly
 * **SMS integration**: Send alerts to iLert via SMS
 
-
+![](../.gitbook/assets/integration_types.png)
 
 ## Escalation policy <a id="escalation-chain"></a>
 
