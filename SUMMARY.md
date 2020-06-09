@@ -34,4 +34,9 @@
 * [Datadog Integration](integrations/datadog-integration.md)
 * [Discord Integration](integrations/discord-integration.md)
 * [Dynatrace Integration](integrations/dynatrace-integration.md)
+* [E-mail Integration](integrations/e-mail-integration.md)
+* [Google Cloud Function Integration](integrations/google-cloud-function-integration.md)
+* [Github Inbound Check Run \(Actions\) Integration](integrations/github-inbound-check-run-actions-integration.md)
+* [Github Inbound Issue Integration](integrations/github-inbound-issue-integration.md)
+* [Github Outbound Issue Integration](integrations/github-outbound-issue-integration.md)
 
