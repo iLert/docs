@@ -1,2 +1,2 @@
-# Github
+# Github Integration
 

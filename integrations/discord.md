@@ -6,7 +6,7 @@ date: '2020-04-23T05:02:05.000Z'
 weight: 1
 ---
 
-# Discord
+# Discord Integration
 
 This documentation is currently under maintenance and will be available soon.
 

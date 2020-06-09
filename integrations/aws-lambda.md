@@ -8,7 +8,7 @@ date: '2020-05-12T05:02:05.000Z'
 weight: 1
 ---
 
-# AWS Lambda
+# AWS Lambda Integration
 
 Beforehand make sure that you have created an AWS lambda function in your AWS project and got its public `URL` handy. You might also create an additional authorization value e.g. a secure random string that you are evaluating in the HTTP request `Authorization` header when you function is invoked by iLert, we acutally suggest using this.
 

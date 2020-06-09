@@ -10,7 +10,7 @@ date: '2020-05-12T05:02:05.000Z'
 weight: 1
 ---
 
-# Google Cloud Function
+# Google Cloud Function Integration
 
 Beforehand make sure that you have created an Google Cloud Function function in your Google Cloud project and got its public `URL` handy. You might also create an additional authorization value e.g. a secure random string that you are evaluating in the HTTP request `Authorization` header when you function is invoked by iLert, we acutally suggest using this.
 

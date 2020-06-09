@@ -11,7 +11,7 @@ weight: 1
 type: post
 ---
 
-# AWS Personal Health Dashboard
+# AWS Personal Health Dashboard Integration
 
 AWS Personal Health Dashboard provides alerts and remediation guidance when AWS is experiencing events that may impact you.
 

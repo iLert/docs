@@ -8,7 +8,7 @@ date: '2020-02-28T05:02:05.000Z'
 type: post
 ---
 
-# Dynatrace
+# Dynatrace Integration
 
 With the iLert Dynatrace integration, you can add incidents in iLert based on problems from Dynatrace.
 
