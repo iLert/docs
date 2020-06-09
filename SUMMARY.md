@@ -2,13 +2,24 @@
 
 * [iLert Documentation](README.md)
 
-## contact
-
-* [Contact](contact/contact.md)
-
 ## Getting Started
 
 * [Introduction to iLert](getting-started/introduction-to-ilert.md)
 * [iLert domains, emails & phone numbers](getting-started/ilert-domains-emails-and-phone-numbers.md)
 * [Stakeholder engagement](getting-started/stakeholder-engagement.md)
+
+## FAQs
+
+* [What is iLert?](faqs/what-is-ilert.md)
+* [Do monitoring tools that send alerts make iLert redundant?](faqs/do-monitoring-tools-that-send-alerts-make-ilert-redundant.md)
+* [How to integrate iLert?](faqs/how-to-integrate-ilert.md)
+* [Is iLert a piece of monitoring software?](faqs/is-ilert-a-piece-of-monitoring-software.md)
+* [iLert supports issue-specific notifications and escalation](faqs/ilert-supports-issue-specific-notifications-and-escalation.md)
+* [Availability of iLert services](faqs/availability-of-ilert-services.md)
+* [Sending an alert when internet connection is down?](faqs/sending-an-alert-when-internet-connection-is-down.md)
+* [Supported monitoring tools](faqs/supported-monitoring-tools.md)
+* [Receive alerts when websites or services are unavailable](faqs/receive-alerts-when-websites-or-services-are-unavailable.md)
+* [Which requirements does iLert have?](faqs/which-requirements-does-ilert-have.md)
+* [Does iLert have some sort of filtering mechanism?](faqs/does-ilert-have-some-sort-of-filtering-mechanism.md)
+* [Supported communication channels for iLert?](faqs/supported-communication-channels-for-ilert.md)
 
