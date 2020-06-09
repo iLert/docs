@@ -4,8 +4,8 @@
 
 ## Getting Started
 
-* [Introduction to iLert](getting-started/introduction-to-ilert.md)
-* [iLert domains, emails & phone numbers](getting-started/ilert-domains-emails-and-phone-numbers.md)
+* [Introduction to iLert](getting-started/intro.md)
+* [iLert domains, emails & phone numbers](getting-started/phone-numbers.md)
 * [Stakeholder engagement](getting-started/stakeholder-engagement.md)
 
 ## Integrations
