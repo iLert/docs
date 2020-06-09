@@ -23,3 +23,15 @@
 * [Does iLert have some sort of filtering mechanism?](faqs/does-ilert-have-some-sort-of-filtering-mechanism.md)
 * [Supported communication channels for iLert?](faqs/supported-communication-channels-for-ilert.md)
 
+## Integrations
+
+* [Amazon CloudWatch Integration](integrations/amazon-cloudwatch-integration.md)
+* [AppDynamics Integration](integrations/appdynamics-integration.md)
+* [AWS Lambda Integration](integrations/aws-lambda-integration.md)
+* [AWS Personal Health Dashboard Integration](integrations/aws-personal-health-dashboard-integration.md)
+* [Azure Function Integration](integrations/azure-function-integration.md)
+* [Check\_MK Integration](integrations/check_mk-integration.md)
+* [Datadog Integration](integrations/datadog-integration.md)
+* [Discord Integration](integrations/discord-integration.md)
+* [Dynatrace Integration](integrations/dynatrace-integration.md)
+
