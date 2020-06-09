@@ -37,7 +37,7 @@
 * [E-mail](integrations/e-mail-integration.md)
 * [Google Cloud Function](integrations/google-cloud-function-integration.md)
 * [Github](integrations/github/README.md)
-  * [Github Outbound Issue](integrations/github/github-outbound-issue-integration.md)
-  * [Github Inbound Issue](integrations/github/github-inbound-issue-integration.md)
-  * [Github Inbound Check Run \(Actions\)](integrations/github/github-inbound-check-run-actions-integration.md)
+  * [Outbound Issue](integrations/github/github-outbound-issue-integration.md)
+  * [Inbound Issue](integrations/github/github-inbound-issue-integration.md)
+  * [Inbound Check Run \(Actions\)](integrations/github/github-inbound-check-run-actions-integration.md)
 
