@@ -47,6 +47,10 @@
 * [TOPdesk Integration](integrations/topdesk/README.md)
   * [TOPdesk Inbound Integration](integrations/topdesk/inbound.md)
   * [TOPdesk Outbound Integration](integrations/topdesk/outbound.md)
+* [UptimeRobot Integration](integrations/uptime-robot.md)
+* [Webhook Integration](integrations/webhook.md)
+* [Zabbix Integration](integrations/zabbix.md)
+* [Zendesk Integration](integrations/zendesk.md)
 
 ## FAQs
 
