@@ -19,7 +19,7 @@ With iLert CloudWatch Integration, you can receive CloudWatch alerts through iLe
 
 1. Switch to the tab "alert sources" and click on the button "Create new alert source"
 2. Assign name and select escalation chain
-3. Select and save "Amazon CloudWatch" in the Integration Type field.
+3. Select and save "Amazon CloudWatch" in the Integration Type field. ![](../.gitbook/assets/cw1%20%281%29.png) 
 4. The URL shown on the next page is the HTTP endpoint for the SNS topic in Amazon and will be needed in later steps.
 
 ## In AWS SNS: create topic <a id="create-topic"></a>
