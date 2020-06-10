@@ -44,6 +44,9 @@
 * [SolarWinds Integration](integrations/solarwinds.md)
 * [Single Sign-On Setup](integrations/sso.md)
 * [StatusCake Integration](integrations/statuscake.md)
+* [TOPdesk Integration](integrations/topdesk/README.md)
+  * [TOPdesk Inbound Integration](integrations/topdesk/inbound.md)
+  * [TOPdesk Outbound Integration](integrations/topdesk/outbound.md)
 
 ## FAQs
 
