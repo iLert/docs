@@ -18,19 +18,27 @@ With iLert CloudWatch Integration, you can receive CloudWatch alerts through iLe
 ## In iLert: Create CloudWatch alert source <a id="create-alert-source"></a>
 
 1. Switch to the tab "alert sources" and click on the button "Create new alert source"
+
 2. Assign name and select escalation chain
-3. Select and save "Amazon CloudWatch" in the Integration Type field. ![](../.gitbook/assets/cw1%20%281%29.png) 
-4. The URL shown on the next page is the HTTP endpoint for the SNS topic in Amazon and will be needed in later steps. ![](../.gitbook/assets/cw2.png) 
+
+3. Select and save "Amazon CloudWatch" in the Integration Type field. 
+
+![](../.gitbook/assets/cw1%20%281%29.png)
+
+4. The URL shown on the next page is the HTTP endpoint for the SNS topic in Amazon and will be needed in later steps.  
+
+![](../.gitbook/assets/cw2.png)
 
 ## In AWS SNS: create topic <a id="create-topic"></a>
 
 > If you have already created an SNS topic for your CloudWatch alarms that you want to reuse, you can proceed to step 3.
 
 1. In the SNS Dashboard click on "Create topic" ![](../.gitbook/assets/cw3.png) 
-2. Name the topic and click on "Create topic". ![](../.gitbook/assets/cw4.png) 
-3. Click on "Create subscription" on the Topic Detail page ![](../.gitbook/assets/cw5.png) 
-4. Select "HTTPS" as the protocol and transfer the URL from the above-created alert source to iLert at Endpoint and click on "Create subscription". ![](../.gitbook/assets/cw6.png) 
-5. The subscription is automatically confirmed by iLert when it is created. After updating the overview, the status "PendingConfirmation" should disappear and the ID should be displayed. ![](../.gitbook/assets/cw7.png) 
+
+1. Name the topic and click on "Create topic". ![](../.gitbook/assets/cw4.png) 
+2. Click on "Create subscription" on the Topic Detail page ![](../.gitbook/assets/cw5.png) 
+3. Select "HTTPS" as the protocol and transfer the URL from the above-created alert source to iLert at Endpoint and click on "Create subscription". ![](../.gitbook/assets/cw6.png) 
+4. The subscription is automatically confirmed by iLert when it is created. After updating the overview, the status "PendingConfirmation" should disappear and the ID should be displayed. ![](../.gitbook/assets/cw7.png) 
 
 ## In AWS CloudWatch: Create alarm and link to topic <a id="create-alarm"></a>
 
