@@ -35,6 +35,8 @@ iLert provides the following inbound integration options:
 * Use our [**Event API**](https://api.ilert.com/api-docs/) directly
 * **SMS integration**: Send alerts to iLert via SMS
 
+![](../.gitbook/assets/integration_types.png)
+
 ## Escalation policy <a id="escalation-chain"></a>
 
 An escalation policy connects an alert source with the users that are responsible for this alert source. It defines which users or on-call schedules should be notified when an incident is created.

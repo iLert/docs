@@ -30,16 +30,22 @@ We recommend grouping stakeholders into teams. That way, you can subscribe an en
 
 To manage teams, click on the cog icon and go to _Users and teams_. Note that you need to have the admin role to manage teams.
 
+![](../.gitbook/assets/teams.png)
+
 ## Subscribe a stakeholder to an incident <a id="3"></a>
 
 Stakeholders - or any other iLert user - can be subscribed to incident by any incident responder within the web interface or the mobile app.
 
 Before you add a stakeholder to an incident, make sure to change the incident summary text so that stakeholders will be able to understand the impact of the incident. On the incident page, click on _Manage stakeholders of this incident_.
 
+![](../.gitbook/assets/manage_stakeholder.png)
+
 After being added to an incident, stakeholders will immediately receive a notification using their preferred contact methods and will receive additional notifications for any of the following events:
 
 * a status update is posted on the incident with the checkbox _Send as update to stakeholders_ enabled
 * when the incident is resolved
+
+![](../.gitbook/assets/status_update.png)
 
 ## FAQ
 
