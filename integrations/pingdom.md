@@ -13,15 +13,30 @@ With Pingdom integration, you can easily integrate Pingdom into iLert. The integ
 ## In iLert: Create Pingdom alert source <a id="create-alarm-source"></a>
 
 1. Switch to the tab "alert sources" and click on the button "Create new alert source"
+
 2. Assign name and select escalation chain
+
 3. In the field Integration type select "Pingdom" and save.
+
+![](../.gitbook/assets/pi1.jpg)
+
 4. The Pingdom Webhook URL shown on the next page is required in Pingdom
+
+![](../.gitbook/assets/pi2.jpg)
 
 ## In Pingdom: Create new integration <a id="create-integration"></a>
 
 1. Click on "Integrations" in the Pingdom Dashboard and click on "Integrations" on the right side of the menu
+
+![](../.gitbook/assets/pi3.png)
+
 2. On the following page, click on the button "Add integration". In the pop-up dialog, select the integration type "Webhook" and assign a name \(eg iLert\). In the "URL" field, copy the Webhook URL from the alert source set up in iLert and click on "Save integration".
+
+![](../.gitbook/assets/pi4.png)
+
 3. The integration can now be used in pingdom checks. Switch to a pingdom check and click on "Edit". Activate the iLert Webhook integration and click on "Modify check".
+
+![](../.gitbook/assets/pi5.jpg)
 
 ## FAQ <a id="faq"></a>
 

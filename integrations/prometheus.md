@@ -19,43 +19,46 @@ With Prometheus Integration, you can easily integrate Prometheus with iLert. Tha
 ## In iLert: Create Prometheus alert source <a id="create-alarm-source"></a>
 
 1. Switch to the tab "alert sources" and click on the button "Create new alert source"
+
 2. Assign name and select escalation chain
+
 3. Select and save in the **Prometheus** Integration Type field.
+
+![](../.gitbook/assets/pr1.png)
+
 4. The next page will generate a URL. You will need this URL below when setting up in Prometheus
+
+![](../.gitbook/assets/pr2.png)
 
 ## In Prometheus Alertmanager: Add Webhook receiver <a id="add-webhook"></a>
 
 1. Add a [Webhook configuration](https://prometheus.io/docs/alerting/configuration/#webhook_config) from the alert manager in the configuration file. Use the URL generated in iLert as the Webhook URL:
 
-   \`\`\`
+```yaml
+receivers:
+- name: 'ilert.web.hook'
+  webhook_configs:
+  - url: 'https://api.ilert.com/api/v1/events/prometheus/e6bcfcbf-a38f-462a-af9d-1687809b7594'
+```
 
-   receivers:
+2. You can now configure any route in the Alert Manager. In the following example, all alerts that do not match another [route](https://prometheus.io/docs/alerting/configuration/#route) are sent to iLert:
 
-2. name: 'ilert.web.hook'
+```yaml
+route:
+group_by: ['alertname']
+group_wait: 10s
+group_interval: 10s
+repeat_interval: 1h
+receiver: 'ilert.web.hook'
+```
 
-   webhook\_configs:
+3. Restart the alert manager
 
-   * url: '[https://api.ilert.com/api/v1/events/prometheus/e6bcfcbf-a38f-462a-af9d-1687809b7594](https://api.ilert.com/api/v1/events/prometheus/e6bcfcbf-a38f-462a-af9d-1687809b7594)'
+4. Optional: Send a test alert through the [Alert Manager API](https://prometheus.io/docs/alerting/clients/).
 
-     \`\`\`
-
-3. You can now configure any route in the Alert Manager. In the following example, all alerts that do not match another [route](https://prometheus.io/docs/alerting/configuration/#route) are sent to iLert:
-
-   ```text
-   route:
-   group_by: ['alertname']
-   group_wait: 10s
-   group_interval: 10s
-   repeat_interval: 1h
-   receiver: 'ilert.web.hook'
-   ```
-
-4. Restart the alert manager
-5. Optional: Send a test alert through the [Alert Manager API](https://prometheus.io/docs/alerting/clients/).
-
-   ```text
-   curl -d '[{"labels":{"Alertname":"iLert Test"},"annotations":{"summary":"iLert Test"}}]' http://localhost:9093/api/v1/alerts
-   ```
+```bash
+curl -d '[{"labels":{"Alertname":"iLert Test"},"annotations":{"summary":"iLert Test"}}]' http://localhost:9093/api/v1/alerts
+```
 
 ## FAQ <a id="faq"></a>
 
