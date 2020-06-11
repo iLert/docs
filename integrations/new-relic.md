@@ -15,17 +15,33 @@ With New Relic Integration, you can easily integrate New Relic Alerts with iLert
 ## In iLert: Create New Relic alert source <a id="create-alarm-source"></a>
 
 1. **Go to the alert sources tab** and click on the "Create new alert source" button
+
 2. Assign name and select escalation chain
+
 3. Select and save in the field Integration Type **New Relic**.
+
+![](../.gitbook/assets/nr1.png)
+
 4. On the next page, a Webhook URL is generated. You will need this URL below when setting up in New Relic.
+
+![](../.gitbook/assets/nr2.png)
 
 ## In New Relic Alerts: Add Webhook notification channel <a id="add-webhook"></a>
 
 1. Go to the **Alerts → Notification channels** tab and click **New notification channel**.
+
+![](../.gitbook/assets/nr3.png)
+
 2. Select **Channel Type** Webhook and insert the generated in iLert field **Base URL**.
+
+
+
 3. After you click on **Create channel** , you have the opportunity to test the integration. Click **Send a test notification**.
+
 4. Check if an incident has been created in iLert.
+
 5. After creating the **Notification Channel** in New Relic, add it to one or more **alert policies**. Go to the **Alert policies** tab and click **Add alert policy**.
+
 6. The integration is now set up!
 
 ## FAQ <a id="faq"></a>
