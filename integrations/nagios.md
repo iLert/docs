@@ -18,8 +18,16 @@ With the iLert Nagios Notification Plugin, you can easily integrate Nagios with 
 ## In iLert: create Nagios alert source <a id="create-alarm-source"></a>
 
 1. Create a new alert source in iLert
+
+![](../.gitbook/assets/na1.png)
+
 2. From the tool integration menu, select the type Nagios and click save.
+
+![](../.gitbook/assets/na2.png)
+
 3. An API key is generated. You will need the API key below when setting up the plugin.
+
+![](../.gitbook/assets/na3.png)
 
 ## In Nagios: install the notification plugin <a id="installation-guide"></a>
 
