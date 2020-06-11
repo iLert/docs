@@ -17,20 +17,42 @@ With PRTG integration, you can easily integrate PRTG with iLert. You can easily 
 ## In iLert: Create PRTG alert source <a id="create-alarm-source"></a>
 
 1. Switch to the tab "alert sources" and click on the button "Create new alert source"
+
 2. Assign name and select escalation chain
+
 3. In the Integration Type field, select "PRTG Network Monitor"
+
+![](../.gitbook/assets/pg1.png)
+
 4. Save
+
 5. The "PRTG URL" and "PRTG Postdata" fields displayed on the next page are required in PRTG
+
+![](../.gitbook/assets/pg2.png)
 
 ## In PRTG: Create new notification <a id="create-notification"></a>
 
 1. Switch to the notification settings
+
+![](../.gitbook/assets/pg3.png)
+
 2. Add a new notification
+
 3. As notification method select "Execute HTTP ACTION"
+
 4. Transfer the "URL" and "Postdata" fields from the alert source set up in iLert. The API key is included in Postdata.
+
+![](../.gitbook/assets/pg4.png)
+
 5. Save
+
 6. Next we will use the newly created iLert notification method in PRTG. To do this, switch to the root group in the device overview and select the "Notifications" tab.
+
+![](../.gitbook/assets/pg5.png)
+
 7. Create the following status triggers. **Note**: We recommend the option "repeat this every 5 minutes" in case your internet connection goes down.
+
+![](../.gitbook/assets/pg6.png)
 
 ## FAQ <a id="faq"></a>
 
