@@ -19,16 +19,34 @@ With iLert Stackdriver Integration, you can receive Stackdriver Incidents throug
 ## In iLert: Create a Stackdriver alert source <a id="create-alarm-source"></a>
 
 1. Switch to the tab "alert sources" and click on the button "Create new alert source"
+
 2. Assign name and select escalation chain
+
 3. Select and save in the Google Stackdriver Integration Type field.
+
+![](../.gitbook/assets/sd1.png)
+
 4. The URL shown on the next page is the HTTP endpoint for the Webhook in Stackdriver and will be needed immediately.
+
+![](../.gitbook/assets/sd2.png)
 
 ## In Stackdriver: Create Webhook Notification <a id="create-webhook-notification"></a>
 
 1. Open "Account settings".
+
+![](../.gitbook/assets/sd3.png)
+
 2. In the "Notifications" settings, select the tab "WEBHOOKS" and click on "Add Webhook".
+
+![](../.gitbook/assets/sd4.png)
+
 3. Assign a name on the following page \(eg iLert\) and in the field "ENDPOINT URL" accept the Webhook URL from the alert source set up in iLert and click on "Save".
+
+![](../.gitbook/assets/sd5.png)
+
 4. After you've created the iLert webhook, you can use it as a notification in any Alerting Policy in Stackdriver. The following screenshot will create a new Alerting Policy with iLert as the notification method.
+
+![](../.gitbook/assets/sd6.png)
 
 ## FAQ <a id="faq"></a>
 
