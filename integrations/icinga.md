@@ -21,9 +21,15 @@ With the iLert Icinga Notification Plugin, you can easily integrate Icinga with 
 
 1. Go to the "Alert sources" tab and click "Add a new alert source"
 
+![](../.gitbook/assets/ici1.png)
+
  2. Enter a name and select your desired escalation policy. Select "Icinga 2.x" as the **Integration Type** and click **Save**.
 
+![](../.gitbook/assets/ici2.png)
+
  3. On the next page, an API Key is generated. You will need this **API Key** below when setting up the Icinga Plugin.
+
+![](../.gitbook/assets/ici3.png)
 
 ## In Icinga: install notification plugin <a id="in-icinga"></a>
 
@@ -34,7 +40,7 @@ wget https://github.com/iLert/ilert-icinga/releases/latest/download/ilert-icinga
 unzip ilert-icinga.zip
 ```
 
-1. Move the plugin file `ilert-icinga.py` into the `/usr/local/bin` directory 
+2. Move the plugin file `ilert-icinga.py` into the `/usr/local/bin` directory 
 
 ```bash
 mv ilert-icinga.py /usr/local/bin > chmod 755 /usr/local/bin/ilert-icinga.py
@@ -42,7 +48,7 @@ mv ilert-icinga.py /usr/local/bin > chmod 755 /usr/local/bin/ilert-icinga.py
 
 > The file must be executable by both Icinga and the cron daemon
 
-1. Open the plugin configuration file `ilert-icinga.conf` and paste the **API Key** in the pager field of the user definition, e.g.
+3. Open the plugin configuration file `ilert-icinga.conf` and paste the **API Key** in the pager field of the user definition, e.g.
 
 ```text
 object User "ilert" {
@@ -55,7 +61,7 @@ object User "ilert" {
 }
 ```
 
-1. Copy the file to the Icinga configuration directory \(varies depending on the installation\)
+4. Copy the file to the Icinga configuration directory \(varies depending on the installation\)
 
 ```bash
 mv ilert-icinga.conf /etc/icinga2/conf.d/
@@ -82,13 +88,13 @@ template Service "generic-service" {
 }
 ```
 
-1. Edit the crontab file from the icinga user
+6. Edit the crontab file from the icinga user
 
 ```bash
 crontab -u icinga -e
 ```
 
-1. Add the following entry:
+7. Add the following entry:
 
 ```bash
 * * * * * /usr/local/bin/ilert-icinga.py -m send
@@ -96,13 +102,15 @@ crontab -u icinga -e
 
 > Via this cron job, events are sent to iLert every minute that failed in the first send attempt \(e.g. due to a network error\).
 
-1. Restart Icinga:
+8. Restart Icinga:
 
 ```bash
 /etc/init.d/icinga restart
 ```
 
-1. After server restart you should see the iLert user in Icinga
+9. After server restart you should see the iLert user in Icinga
+
+![](../.gitbook/assets/ici4.png)
 
 ## FAQ <a id="faq"></a>
 
