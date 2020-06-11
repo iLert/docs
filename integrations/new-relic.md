@@ -38,9 +38,13 @@ With New Relic Integration, you can easily integrate New Relic Alerts with iLert
 
 3. After you click on **Create channel** , you have the opportunity to test the integration. Click **Send a test notification**.
 
+![](../.gitbook/assets/nr5.png)
+
 4. Check if an incident has been created in iLert.
 
 5. After creating the **Notification Channel** in New Relic, add it to one or more **alert policies**. Go to the **Alert policies** tab and click **Add alert policy**.
+
+![](../.gitbook/assets/nr6.png)
 
 6. The integration is now set up!
 
