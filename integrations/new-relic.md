@@ -34,7 +34,7 @@ With New Relic Integration, you can easily integrate New Relic Alerts with iLert
 
 2. Select **Channel Type** Webhook and insert the generated in iLert field **Base URL**.
 
-
+![](../.gitbook/assets/nr4_png.png)
 
 3. After you click on **Create channel** , you have the opportunity to test the integration. Click **Send a test notification**.
 
