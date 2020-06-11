@@ -15,45 +15,84 @@ With SolarWinds Integration you can easily integrate SolarWinds Orion products \
 ## In iLert: Create alert source <a id="create-alarm-source"></a>
 
 1. Switch to the "alert sources" tab and click the "Create new alert source" button
+
 2. Assign name and select escalation chain
+
 3. Select and save "SolarWinds" in the Integration type field.
+
+![](../.gitbook/assets/sw1.png)
+
 4. A URL is generated on the next page. You will need this URL below when setting up SolarWinds
+
+![](../.gitbook/assets/sw2.png)
 
 ## In SolarWinds: Create alert definition <a id="alert-definition"></a>
 
 1. Switch to the **Settings → All Settings** tab and click **Manage Alerts**
+
+![](../.gitbook/assets/sw3.png)
+
 2. Click on **ADD NEW ALERT**
+
+![](../.gitbook/assets/sw4.png)
+
 3. Fill out the **Alert Properties** according to your requirements and click on **NEXT**
+
+![](../.gitbook/assets/sw5.png)
+
 4. Define the **trigger condition** on the next page and click on **NEXT**. The **trigger condition** defines the conditions under which you want to be alerted via iLert. You can use the full flexibility of SolarWinds here. In this example we define the following condition: Immediate alarm for all **nodes** that are not in the status **up**.
+
+![](../.gitbook/assets/sw6.png)
+
 5. Define **reset condition** and click on **NEXT**. As soon as the **reset condition** occurs, the associated incident is eliminated in iLert.
+
+![](../.gitbook/assets/sw7.png)
+
 6. Select **Time of Day** according to your requirements and click on **NEXT**.
+
+![](../.gitbook/assets/sw8.png)
+
 7. **TRIGGER ACTIONS**: Click **Add Action** and select **Send a GET or POST Request to a Web Server** to add **trigger action**.
+
+![](../.gitbook/assets/sw9.png)
+
+![](../.gitbook/assets/sw10.png)
+
 8. Enter the `HTTP POST` Action URL generated in iLert in the **URL** field and select Use **HTTP / S POST** . Enter the following in the **Body to POST** field:
 
-   ```text
-   iLertEventType = ALERT &
-   iLertIncidentKey = $ {N = Alerting M = AlertObjectID} - $ {N = Alerting M = AlertActiveID} &
-   iLertEventSummary = $ {N = SwisEntity; M = DisplayName} ($ {N = SwisEntity; M = IP_Address}): $ {N = SwisEntity; M = StatusDescription} &
-   iLertUrl = $ {N = Alerting M = AlertDetailsUrl} &
-   AcknowledgeUrl = $ {N = Alerting M = AcknowledgeUrl} &
-   Alert Name = $ {N = Alerting M = Alert Name} &
-   AlertActiveID = $ {N = Alerting M = AlertActiveID} &
-   AlertObjectID = $ {N = Alerting M = AlertObjectID} &
-   Object Type = $ {N = Alerting M = Object Type} &
-   Severity = $ {N = Alerting M = Severity}
-   ```
+```text
+iLertEventType = ALERT &
+iLertIncidentKey = $ {N = Alerting M = AlertObjectID} - $ {N = Alerting M = AlertActiveID} &
+iLertEventSummary = $ {N = SwisEntity; M = DisplayName} ($ {N = SwisEntity; M = IP_Address}): $ {N = SwisEntity; M = StatusDescription} &
+iLertUrl = $ {N = Alerting M = AlertDetailsUrl} &
+AcknowledgeUrl = $ {N = Alerting M = AcknowledgeUrl} &
+Alert Name = $ {N = Alerting M = Alert Name} &
+AlertActiveID = $ {N = Alerting M = AlertActiveID} &
+AlertObjectID = $ {N = Alerting M = AlertObjectID} &
+Object Type = $ {N = Alerting M = Object Type} &
+Severity = $ {N = Alerting M = Severity}
+```
+
+![](../.gitbook/assets/sw11.png)
 
 9. **Optional**: Activate the **Repeat this action action every X minutes until the alert is acknowledged** option in the **execution settings**. This is for security, if an alert could not be sent to iLert \(e.g. due to a network problem\).
+
+![](../.gitbook/assets/sw12.png)
+
 10. On **ADD ACTION** and  then click **NEXT**.
+
 11. **RESET ACTIONS**:  Click **Add Action** and select **Send a GET or POST Request to a Web Server** to add **Reset Action**. Enter the `HTTP POST` Action URL generated in iLert in the **URL** field and select Use **HTTP / S POST** . Enter the following in the **Body to POST** field :
 
-    ```text
-    iLertEventType = RESOLVE &
-    iLertIncidentKey = $ {N = Alerting M = AlertObjectID} - $ {N = Alerting M = AlertActiveID} &
-    iLertEventSummary = $ {N = SwisEntity; M = DisplayName} ($ {N = SwisEntity; M = IP_Address}): $ {N = SwisEntity; M = StatusDescription}
-    ```
+```text
+iLertEventType = RESOLVE &
+iLertIncidentKey = $ {N = Alerting M = AlertObjectID} - $ {N = Alerting M = AlertActiveID} &
+iLertEventSummary = $ {N = SwisEntity; M = DisplayName} ($ {N = SwisEntity; M = IP_Address}): $ {N = SwisEntity; M = StatusDescription}
+```
+
+![](../.gitbook/assets/sw13.png)
 
 12. On **ADD ACTION** and then click **NEXT**.
+
 13. Click **SUBMIT** on the **SUMMARY** page.
 
 ## FAQ <a id="faq"></a>
