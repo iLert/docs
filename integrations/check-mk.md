@@ -15,8 +15,16 @@ With the iLert Check\_MK notification plugin you can easily integrate Check\_MK 
 ## In iLert: create alert source <a id="create-alarm-source"></a>
 
 1. Create a new alert source in iLert
-2. Select the type Nagios / Icinga and click save.
+
+![](../.gitbook/assets/mk1.png)
+
+2. Select the type **Nagios / Icinga** and click save.
+
+![](../.gitbook/assets/mk2.png)
+
 3. An API key is generated. You will need the API conclusions below when setting up the plugin.
+
+![](../.gitbook/assets/mk3.png)
 
 ## In Check\_MK: configure iLert Plugin <a id="configure-ilert-plugin"></a>
 
@@ -87,14 +95,30 @@ Move the iLert alerting script to the `notifications` directory of Check\_MK:
 Log in to Check\_MK's web GUI and continue there.
 
 1. Navigate to the "Users" menu and click on "New User".
+
+![](../.gitbook/assets/mk4.jpg)
+
 2. Fill in the fields marked below. Add the user to the contact groups to which the hosts or services that you want to be alerted for. Click on "Save".
+
+![](../.gitbook/assets/mk5.jpg)
+
 3. Go to the notification settings of this user \(by clicking on the "Notifications" icon\).    
+
+![](../.gitbook/assets/mk6.jpg)
+
 4. Click on "New Rule" and select iLert Check\_MK Plugin as the "Notification Method". Enter your iLert API key \(see above\) as a parameter.    
+
+![](../.gitbook/assets/mk7.jpg)
+
 5. Go back to the user list and activate your changes by clicking on "1 Changes":    
+
+![](../.gitbook/assets/mk8.jpg)
 
 ## Test the integration <a id="test"></a>
 
 You can test the integration directly in Check\_MK to verify that everything is working. To do this, open a host or service check in the Web GUI and click on the "Execute" icon \(Hammer Icon\). In "Fake check results" you can manually set the state of a host or service. Click on "Down" \(for a host\) or "Critical" \(for a service\) and then confirm with "Yes!". You should now see an incident in iLert.
+
+![](../.gitbook/assets/mk9.jpg)
 
 ## FAQ <a id="faq"></a>
 
