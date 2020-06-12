@@ -11,6 +11,8 @@
 ## REST API
 
 * [iLert REST API](rest-api/ilert-rest-api.md)
+* [API Samples](rest-api/api-samples/README.md)
+  * [Sending events from PowerShell](rest-api/api-samples/sending-events-from-powershell.md)
 
 ## Client Libraries
 
