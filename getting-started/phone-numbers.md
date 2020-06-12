@@ -33,19 +33,82 @@ You can find information on our domains, notification email addresses, phone num
 
 The number that iLert uses to send SMS notifications depends on the target country:
 
-| Country | Number | Description |
-| :--- | :--- | :--- |
-| USA and Canada | +1 256 391 4978; +1 240 258 2894 |  |
-| Germany | +49 157 3598 1212; +49 157 3598 3922; +49 157 3598 7811 |  |
-| Austria | +43 676 800 104 503 |  |
-| Switzerland | +41 798 076 081 |  |
-| Great Britain | +44 7723 487 389 |  |
-| Belgium | +32 460 229 075 |  |
-| Sweden | +46 79 064 52 58 |  |
-| Chile | +56 9 3761 0047 |  |
-| Netherlands | +31 97014201761 | Incident actions via SMS are not supported |
-| Poland | +48 732 230 768 |  |
-| Rest of the world | +1 256 391 4978; +1 240 258 2894 |  |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Country</th>
+      <th style="text-align:left">Number</th>
+      <th style="text-align:left">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">USA and Canada</td>
+      <td style="text-align:left">
+        <p>+1 256 391 4978</p>
+        <p>+1 240 258 2894</p>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Germany</td>
+      <td style="text-align:left">
+        <p>+49 157 3598 1212</p>
+        <p>+49 157 3598 3922</p>
+        <p>+49 157 3598 7811</p>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Austria</td>
+      <td style="text-align:left">+43 676 800 104 503</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Switzerland</td>
+      <td style="text-align:left">+41 798 076 081</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Great Britain</td>
+      <td style="text-align:left">+44 7723 487 389</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Belgium</td>
+      <td style="text-align:left">+32 460 229 075</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Sweden</td>
+      <td style="text-align:left">+46 79 064 52 58</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Chile</td>
+      <td style="text-align:left">+56 9 3761 0047</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Netherlands</td>
+      <td style="text-align:left">+31 97014201761</td>
+      <td style="text-align:left">Incident actions via SMS are not supported</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Poland</td>
+      <td style="text-align:left">+48 732 230 768</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Rest of the world</td>
+      <td style="text-align:left">
+        <p>+1 256 391 4978</p>
+        <p>+1 240 258 2894</p>
+      </td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>
 
 ## Phone call phone numbers <a id="voice-alerts"></a>
 
