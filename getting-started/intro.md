@@ -30,8 +30,8 @@ An alert source represents the connection between your tools \(usually a monitor
 
 iLert provides the following inbound integration options:
 
-* [**Tool integrations**](/integrations): these are pre-built integrations by iLert. If you're missing a tool, feel free to [suggest](/contact) an integration that you'd like to see in iLert.
-* [**Email integration**](/integrations/email/): 
+* [**Tool integrations**](../integrations/jira.md): these are pre-built integrations by iLert. If you're missing a tool, feel free to suggest an integration that you'd like to see in iLert.
+* [**Email integration**](../integrations/email.md): 
 * Use our [**Event API**](https://api.ilert.com/api-docs/) directly
 * **SMS integration**: Send alerts to iLert via SMS
 
@@ -62,5 +62,5 @@ You have the following response options:
 2. Mark the incident as resolved
 3. Escalation to the next user
 
-You can find a list of caller IDs for sms and phone calls [here](/getting-started/resource-info).
+You can find a list of caller IDs for sms and phone calls [here](phone-numbers.md).
 
