@@ -59,9 +59,9 @@ Stakeholders will only see the incidents to which they have been added as stakeh
 
 Mobile app screenshots when logged in as stakeholder:
 
-| Navigation menu | Incident view |
-| :--- | :--- |
-|  |  |
+![Navigation menu](../.gitbook/assets/sh_menu.png)
+
+![Incident view](../.gitbook/assets/sh_mobile_view_incident.png)
 
 ### Is there a way to automatically notify stakeholders about ongoing incidents?
 
