@@ -7,6 +7,7 @@
 * [Introduction to iLert](getting-started/intro.md)
 * [iLert domains, emails & phone numbers](getting-started/phone-numbers.md)
 * [Stakeholder engagement](getting-started/stakeholder-engagement.md)
+* [FAQ](getting-started/faq.md)
 
 ## REST API
 
@@ -37,21 +38,6 @@
 ## Heartbeat Monitors
 
 * [Heartbeat Monitoring](heartbeat-monitors/heartbeat-monitoring.md)
-
-## FAQs
-
-* [What is iLert?](faqs/what-is-ilert.md)
-* [Do monitoring tools that send alerts make iLert redundant?](faqs/alerting-tool-redundancy.md)
-* [How to integrate iLert?](faqs/integrating-ilert.md)
-* [Is iLert a piece of monitoring software?](faqs/is-ilert-monitoring.md)
-* [iLert supports issue-specific notifications and escalation](faqs/issue-specific-escalation.md)
-* [Availability of iLert services](faqs/measures-taken-availablility-of-ilert.md)
-* [Sending an alert when internet connection is down?](faqs/monitoring-internet-connection.md)
-* [Supported monitoring tools](faqs/monitoring-tools.md)
-* [Receive alerts when websites or services are unavailable](faqs/receive-alerts-on-website-downtime.md)
-* [Which requirements does iLert have?](faqs/requirements-for-ilert.md)
-* [Does iLert have some sort of filtering mechanism?](faqs/single-alert-notification.md)
-* [Supported communication channels for iLert?](faqs/supported-communication-channels.md)
 
 ## Integrations
 
