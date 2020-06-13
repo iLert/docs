@@ -13,39 +13,27 @@ iLert integrates with monitoring, ticketing, chat, and collaboration tools.
 
 ## Which monitoring tools does iLert support?
 
-Please have a look at our integrations sections. If you're missing an integration, please contact us at support@ilert.com and we will make it available. Alternatively, you can use our [email integration](../integrations/email.md)
+Please have a look at our integrations sections. If you're missing an integration, please contact us at support@ilert.com and we will make it available. Alternatively, you can use our [email integration](../integrations/email.md).
 
-## How is the integration of iLert with my existing monitoring tools carried out?
+## Which alerting channels does iLert support?
 
-Each alert source within iLert has its own email address \(for example, nagios@example.ilertnow.com\). When the monitoring system sends an email to this address, iLert immediately creates an incident and initiates the alerting process.
+iLert supports bi-directional alerting via
 
-In addition, we make available plugins for certain monitoring systems \(currently Nagios and Icinga\) that enable close interoperability with iLert. For example, with Nagios, this enables the handling of not just PROBLEM events but also RECOVERY and ACKNOWLEDGEMENT events. This means that whenever an incident is taken on or fixed by Nagios, this development is automatically reflected in iLert.
-
-## I don't want to be notified of every single alert in my monitoring system. Does iLert have some sort of filtering mechanism?
-
-Yes, iLert has filtering mechanisms. For each individual alarm source, it is possible to define which alerts should be ignored, or which should be bundled into a common incident. For example, alerts can be automatically deduplicated or filtered according to specific words.
-
-## What communication channels does iLert support?
-
-iLert is capable of sending alerts via email, SMS, voice messaging, and push notifications to iPhone and Android.
+* **SMS**: ****iLert supports sending SMS alerts worldwide. For many countries, SMS alerts are sent from a local number. See [here](phone-numbers.md#sms-alerts) for details.
+* **Phone calls**: ****iLert supports international voice calls and converts the incident summary text into speech using text-to-speech technology.
+* **Emails**
+* **Push notifications** on iOS and Android
+* **Chat tools** such as Slack and Microsoft Teams
 
 ## Do I need to have a phone line available in order to use iLert?
 
-No. iLert is offered as a pure Software as a Service solution and has no specific hardware or software assumptions nor requirements. This means you do not need to have a phone line, server, or any other component in order to use the software.
+No. iLert is offered as a Software as a Service solution and has no specific hardware or software requirements. This means you do not need to have a phone line, server, or any other component in order to use iLert.
 
-## Does iLert support issue-specific notifications and escalation?
+## How can I send alerts to iLert when our email server or internet connection is down?
 
-Yes, the notification behaviour can be customized for each specific alarm cause. It is possible to define separate notification rules for each source of alarm. There is no limit to how many alarm sources can be set up.
+We offer several options to prepare for a situation like this:
 
-## Our monitoring system is already capable of sending SMS messages when issues are encountered. Does this make iLert redundant?
-
-Merely sending SMS messages constitutes a "send and forget" strategy, and does not represent a reliable method of communication. iLert follows up on the delivery of each single message and reacts automatically when the recipient does not respond. This could be in the form of, for example, a telephone call following an unanswered email, or the forwarding of an alert to the next point of contact in the escalation chain.
-
-## How can I send an alert to iLert when our email server or internet connection is down?
-
-We recommend having the email server and internet connection monitored by a separate external service. The alerts from this service can then, in turn, be forwarded to iLert.
-
-## What measures have been taken to ensure continuous uptime for iLert?
-
-iLert's infrastructure is distributed across three data centers which are independent from each other and at different physical locations. All data is replicated between both centers in real-time. Each component is structurally redundant such that the failure of a single component does not jeopardize the functioning of iLert. This is also the case with our phone and SMS providers. We work with 3 providers for each communication method. We also conduct daily backups. Should you have further questions on this topic, please get in touch with us.
+* Monitor your internet connection using our [uptime monitoring](https://www.ilert.com/product/uptime-monitoring) feature
+* Create an SMS alert source in iLert and send alerts to iLert via SMS using a hardware SMS gateway
+* Create a heartbeat alert source in iLert to monitor the connectivity between your network and iLert. 
 
