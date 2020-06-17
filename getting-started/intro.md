@@ -31,7 +31,7 @@ An alert source represents the connection between your tools \(usually a monitor
 iLert provides the following inbound integration options:
 
 * [**Tool integrations**](../integrations/jira.md): these are pre-built integrations by iLert. If you're missing a tool, feel free to suggest an integration that you'd like to see in iLert.
-* [**Email integration**](../integrations/email.md): 
+* [**Email integration**](../integrations/email/): 
 * Use our [**Event API**](https://api.ilert.com/api-docs/) directly
 * **SMS integration**: Send alerts to iLert via SMS
 

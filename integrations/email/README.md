@@ -17,7 +17,7 @@ E-mail integration is the easiest way to integrate iLert with your monitoring sy
 3. In the field Integration type select "E-Mail"
 4. Assign and save an e-mail address for the alert source
 
-![](../.gitbook/assets/em1.png)
+![](../../.gitbook/assets/em1.png)
 
 Your email alert source is now active. Any e-mail sent to the e-mail address will be processed by iLert and the alert will be triggered according to the selected escalation chain. The default setting creates an incident in iLert for each incoming email. The next section explains advanced settings, such as deduplicating or filtering emails.
 
@@ -28,7 +28,7 @@ You can use the advanced settings
 * control in which state of the alert source incidents are created and
 * Define filter rule for emails
 
-![](../.gitbook/assets/em2.png)
+![](../../.gitbook/assets/em2.png)
 
 ### Incident creation
 
@@ -42,6 +42,10 @@ You can use the advanced settings
 ### Email Filter
 
 You can define filter rule for sender address and e-mail subject. All emails that do not meet the defined conditions will be ignored by iLert. The filter function is used, for example, to ignore certain e-mails from monitoring systems. If your monitoring system sends an e-mail when a problem has resolved \(eg when a server is back\), iLert will create a new one in the default setting. You can avoid this with a filter rule that ignores emails, eg with the word "RECOVERY" \(for Nagios\) in the subject line.
+
+### Incident Resolution based on Emails
+
+{% page-ref page="automatically-resolve-incidents-with-emails.md" %}
 
 ## FAQ <a id="faq"></a>
 
