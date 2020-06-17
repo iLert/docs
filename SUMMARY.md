@@ -21,7 +21,7 @@
 ## Single Sign On
 
 * [Setting up SSO with G-Suite](single-sign-on/setting-up-sso-with-g-suite.md)
-* [Setting up SSO with Microsoft Azure Active Directory](single-sign-on/setting-up-sso-with-azure-adfs.md)
+* [Setting up SSO with Microsoft Azure Active Directory](single-sign-on/setting-up-sso-with-azure-active-directory.md)
 * [Setting up SSO with Okta](single-sign-on/setting-up-sso-with-okta.md)
 
 ## Mobile App
