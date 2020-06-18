@@ -48,7 +48,7 @@
 * [Datadog Integration](integrations/datadog.md)
 * [Discord Integration](integrations/discord.md)
 * [Dynatrace Integration](integrations/dynatrace.md)
-* [E-mail Integration](integrations/email/README.md)
+* [Email Integration](integrations/email/README.md)
   * [Automatically resolve Incidents with Emails](integrations/email/automatically-resolve-incidents-with-emails.md)
 * [Google Cloud Function Integration](integrations/gcf.md)
 * [Github Integration](integrations/github/README.md)
