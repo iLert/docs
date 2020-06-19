@@ -1,14 +1,14 @@
 ---
 description: >-
-  iLert's intelligent Email alert source allows you to parse incident
-  identifiers and resolve open incidents based on incoming emails.
+  iLert's intelligent Email alert source allows you to parse incident keys and
+  resolve open incidents based on incoming emails.
 ---
 
 # Automatically resolve Incidents with Emails
 
 ## Configuring auto Email Incident-Resolution
 
-When creating or editing your email alert sources in iLert you may choose the incident creation type **Open and resolve incidents based incident keys extracted from emails**.
+When creating or editing your email alert sources in iLert,  choose the incident creation type **Open and resolve incidents based incident keys extracted from emails**.
 
 ![](../../.gitbook/assets/screenshot-2020-06-17-at-14.46.18.png)
 
