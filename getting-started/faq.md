@@ -37,3 +37,15 @@ We offer several options to prepare for a situation like this:
 * Create an SMS alert source in iLert and send alerts to iLert via SMS using a hardware SMS gateway
 * Create a heartbeat alert source in iLert to monitor the connectivity between your network and iLert. 
 
+## How can I change the account owner?
+
+The account owner can manage account level settings such as your subscription, billing address, and SSO. Only one user can be the account owner and only the account owner can change the account owner.
+
+{% hint style="info" %}
+Once you change the account owner, you will be logged out immediately and cannot change the account settings.
+{% endhint %}
+
+To change the account, go to **Account settings** and click on the **change** account owner link.
+
+![](../.gitbook/assets/screenshot-2020-07-01-at-13.22.48.png)
+
