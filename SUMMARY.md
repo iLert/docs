@@ -7,7 +7,6 @@
 * [Introduction to iLert](getting-started/intro.md)
 * [iLert domains, emails & phone numbers](getting-started/phone-numbers.md)
 * [Stakeholder engagement](getting-started/stakeholder-engagement.md)
-* [Rate Limiting](getting-started/alertsource-throttle.md)
 * [FAQ](getting-started/faq.md)
 
 ## REST API
@@ -86,4 +85,5 @@
 ---
 
 * [Contact](contact.md)
+* [Rate Limiting](alertsource-throttle.md)
 
