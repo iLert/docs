@@ -6,7 +6,7 @@ date: '2018-12-29T05:02:05.000Z'
 weight: 1
 ---
 
-# Zabbix Integration
+# Zabbix Integration via script
 
 ## System Requirements <a id="requirements"></a>
 
@@ -21,7 +21,7 @@ weight: 1
 
 3. Set the **Integration type** to Zabbix.
 
-![](../.gitbook/assets/zb1.png)
+![](../../.gitbook/assets/zb1.png)
 
 4. An API key is generated on the next page. You will need the API key below when setting up the plugin.
 
@@ -48,11 +48,11 @@ When in doubt, check the file `zabbix_server.conf`.
 
 1. Go to the **Administration → Media types** tab and click the **Create media type** button.
 
-![](../.gitbook/assets/zb2.png)
+![](../../.gitbook/assets/zb2.png)
 
 2. On the **media type** configuration page, enter "iLert" as name, select "Script" as **type** and `ilert-zabbix.py` as **script name** .
 
-![](../.gitbook/assets/zb3.png)
+![](../../.gitbook/assets/zb3.png)
 
 3. Add three **script parameters** by clicking on **Add** three times and enter the following macros in the specified order.
 
@@ -62,7 +62,7 @@ When in doubt, check the file `zabbix_server.conf`.
 * `{ALERT.SUBJECT }`
 * `{ALERT.MESSAGE }`
 
-![](../.gitbook/assets/zb4.png)
+![](../../.gitbook/assets/zb4.png)
 
 4. Click the **Add** button to save the media type.
 
@@ -70,33 +70,33 @@ When in doubt, check the file `zabbix_server.conf`.
 
 1. Go to the **Administration → User groups** tab and click the **Create user group** button.
 
-![](../.gitbook/assets/zb5.png)
+![](../../.gitbook/assets/zb5.png)
 
 2. Set the name for the iLert group \(eg "iLert group"\).
 
-![](../.gitbook/assets/zb6.png)
+![](../../.gitbook/assets/zb6.png)
 
 3. Switch to the **Permissions** tab and select the **host groups** that the iLert group should have read access to send notifications. Without read access, iLert cannot receive notifications for the hosts in the group \(see also [here](https://www.zabbix.com/documentation/3.4/manual/quickstart/notification)\).
 
 4. Click the Add button to save the group.
 
-![](../.gitbook/assets/zb7.png)
+![](../../.gitbook/assets/zb7.png)
 
 5. Switch to the Users tab and click the **Create user** button.
 
-![](../.gitbook/assets/zb8.png)
+![](../../.gitbook/assets/zb8.png)
 
 6. Assign **alias** and **name** and add the user to the iLert group. No further details such as password are necessary as this user will not log in to Zabbix.
 
-![](../.gitbook/assets/zb9.png)
+![](../../.gitbook/assets/zb9.png)
 
 7. Switch to the **Media** tab and click the **Add** link
 
-![](../.gitbook/assets/zb10.png)
+![](../../.gitbook/assets/zb10.png)
 
 8. In the **media** window, select iLert as **Type** , enter the API key generated above in the **Send to** field and click the **Add** button
 
-![](../.gitbook/assets/zb11.png)
+![](../../.gitbook/assets/zb11.png)
 
 9. Click the **Add** button in the **Users** tab to save the user.
 
@@ -104,11 +104,11 @@ When in doubt, check the file `zabbix_server.conf`.
 
 1. Switch to the **Configuration → Actions** tab and click the **Create action** button
 
-![](../.gitbook/assets/zb12.png)
+![](../../.gitbook/assets/zb12.png)
 
 2. Give the action a name, eg "iLert notifications".
 
-![](../.gitbook/assets/zb13.png)
+![](../../.gitbook/assets/zb13.png)
 
 3. Perform the following actions on the **Operations**, **Recovery operations** and **Acknowledgment operations** tabs
 
@@ -136,7 +136,7 @@ When in doubt, check the file `zabbix_server.conf`.
   }
   ```
 
-![](../.gitbook/assets/zb14.png)
+![](../../.gitbook/assets/zb14.png)
 
 #### Recovery operations
 
@@ -149,7 +149,7 @@ When in doubt, check the file `zabbix_server.conf`.
   }
   ```
 
-![](../.gitbook/assets/zb15.png)
+![](../../.gitbook/assets/zb15.png)
 
 #### Acknowledgment operations
 
@@ -162,7 +162,7 @@ When in doubt, check the file `zabbix_server.conf`.
   }
   ```
 
-![](../.gitbook/assets/zb16.png)
+![](../../.gitbook/assets/zb16.png)
 
 6. Click the **Add** button to save the action
 
