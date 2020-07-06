@@ -82,7 +82,7 @@
 * [Webhook Integration](integrations/webhook.md)
 * [Zabbix Integration](integrations/zabbix/README.md)
   * [Zabbix Native Integration](integrations/zabbix/native.md)
-  * [Zabbix Integration via script](integrations/zabbix/script.md)
+  * [Zabbix Integration via Script](integrations/zabbix/script.md)
 * [Zendesk Integration](integrations/zendesk.md)
 
 ---

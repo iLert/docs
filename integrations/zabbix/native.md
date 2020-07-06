@@ -12,7 +12,7 @@ weight: 1
 
 * Zabbix 4.4+
 
-## In iLert: Create alert source <a id="create-alarm-source"></a>
+## In iLert: Create an alert source <a id="create-alarm-source"></a>
 
 1. Go to **Alert sources** and click on **Add a new alert source**.
 
@@ -40,37 +40,37 @@ weight: 1
 
 ![](../../.gitbook/assets/zbn5.png)
 
-1. Set the **.ILERT.ALERT.SOURCE.KEY** variable to the alert source api key that you generated in iLert
-2. Optional: you can rewrite standard incident summary with custom template via **.ILERT.INCIDENT.SUMMARY** variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
+1. Set the `.ILERT.ALERT.SOURCE.KEY` variable to the alert source api key that you generated in iLert
+2. **Optional**: you can overwrite the standard incident summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
 
 ![](../../.gitbook/assets/zbn6.png)
 
-1. Click the **Update** button to save the media type.
+1. Click on the **Update** button to save the media type.
 
 ### Create iLert user and group
 
-1. Go to the **Administration → User groups** tab and click the **Create user group** button.
+1. Go to the **Administration → User groups** tab and click on the **Create user group** button.
 
 ![](../../.gitbook/assets/zbn7.png)
 
-1. Set the name for the iLert group \(eg "iLert group"\).
+1. Set the name for the iLert group \(eg. "iLert group"\).
 
 ![](../../.gitbook/assets/zbn8.png)
 
-1. Switch to the **Permissions** tab and select the **host groups** that the iLert group should have read access to send notifications. Without read access, iLert cannot receive notifications for the hosts in the group \(see also [here](https://www.zabbix.com/documentation/4.4/manual/quickstart/notification)\).
-2. Click the Add button to save the group.
+1. Switch to the **Permissions** tab and select the **host groups** that the iLert group should have read access to, for sending notifications. Without read access, iLert cannot receive notifications for the hosts in the group \(see also [here](https://www.zabbix.com/documentation/4.4/manual/quickstart/notification)\).
+2. Click the **Add** button to save the group.
 
 ![](../../.gitbook/assets/zbn9.png)
 
-1. Switch to the Users tab and click the **Create user** button.
+1. Switch to the Users tab and click on the **Create user** button.
 
 ![](../../.gitbook/assets/zbn10.png)
 
-1. Assign **alias** and **name** and add the user to the iLert group. No further details such as password are necessary as this user will not log in to Zabbix.
+1. Assign an **alias** and **name** and add the user to the iLert group. No further details such as a password are required as this user will not log in to Zabbix.
 
 ![](../../.gitbook/assets/zbn11.png)
 
-1. Switch to the **Media** tab and click the **Add** link
+1. Switch to the **Media** tab and click on the **Add** link
 2. In the **media** window, select iLert as **Type** , enter any text, as this value is not used, but is required in the **Send to** field and click the **Add** button
 
 ![](../../.gitbook/assets/zbn12.png)
@@ -94,7 +94,7 @@ weight: 1
 ![](../../.gitbook/assets/zbn16.png)
 
 1. Change the default subject and default message if you want.
-2. Click on the New link under Operations and select the **iLert** group created above under Send to User groups.
+2. Click on the **New** link under **Operations** and select the **iLert** group created above under Send to User groups.
 
 ![](../../.gitbook/assets/zbn17.png)
 
@@ -104,7 +104,7 @@ weight: 1
 
 **Are incidents automatically resolved in iLert?**
 
-Yes, as soon as the status of an incident is OK in Zabbix, the associated incident is resolved in iLert.
+Yes, as soon as the status of an incident is OK in Zabbix, the associated incident will be resolved in iLert.
 
 **Can I link Zabbix to multiple alert sources in iLert?**
 
@@ -112,9 +112,9 @@ Yes, create several **iLert users** in Zabbix and store the corresponding **API 
 
 **What if my internet connection is lost? Are the events generated in Zabbix lost?**
 
-No events are lost. The zabbix server tries to send the events to iLert every 30 seconds with 10 attempts \(can be configured in media type settings\). As soon as your connection is available again, all events are sent to iLert. We also recommend that you monitor your Internet connection with an external monitoring service. You can then send these alerts to iLert.
+No events are lost. The zabbix server tries to send the events to iLert every 30 seconds with 10 attempts \(can be configured in media type settings\). As soon as your connection is available again, all events are sent to iLert. We also recommend that you monitor your Internet connection with an external monitoring service. You can then send these alerts to iLert too.
 
 **The plugin does not work. How do I find the mistake?**
 
-Please look first in the **Problems View** in Zabbix under actions column. If you can not find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
+Please look at the **Problems View** in Zabbix under the actions column first. If you can not find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
 

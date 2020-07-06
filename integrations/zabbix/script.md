@@ -6,7 +6,7 @@ date: '2018-12-29T05:02:05.000Z'
 weight: 1
 ---
 
-# Zabbix Integration via script
+# Zabbix Integration via Script
 
 ## System Requirements <a id="requirements"></a>
 
