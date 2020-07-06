@@ -43,6 +43,7 @@
 * [AppDynamics Integration](integrations/appdynamics.md)
 * [AWS Lambda Integration](integrations/aws-lambda.md)
 * [AWS Personal Health Dashboard Integration](integrations/aws-phd.md)
+* [Autotask Integration](integrations/autotask.md)
 * [Azure Function Integration](integrations/azure-functions.md)
 * [Check\_MK Integration](integrations/check-mk.md)
 * [Datadog Integration](integrations/datadog.md)
@@ -85,4 +86,5 @@
 ---
 
 * [Contact](contact.md)
+* [Rate Limiting](alertsource-throttle.md)
 
