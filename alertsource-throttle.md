@@ -16,6 +16,7 @@ The following rate limits apply:
 | API | 700 | 1 Minute |
 | UI | 250 | 1 Minute |
 | Integration Key \(Alert source\) | 50 | 1 Minute |
+| Heartbeat Key | 5 | 1 Minute |
 
 Exceeding a limit will cause a client to be rejected with 429 responses until a new window starts. There are no other consequences.
 
