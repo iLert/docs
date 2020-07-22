@@ -25,11 +25,8 @@ With the iLert Autotask integration, you can create incidents in iLert based on 
 1. In the **First Name** section, enter a first name eg. iLert
 2. In the **Last Name** section, enter a last name eg. API
 3. In the **Email** section, enter an email eg. support@ilert.com
-4. Click the **Generate key** button to generate a username and then the **Generate Secret** button to generate a password. You will need **Username**, **Secret** and **API Integration Code** below when setting up the alert source.
-
-> Note: If you do not have the **API Integration Code** please contact Autotask support team.
-
-1. In the **Integration Vendor** section, choose iLert or your custom internal integration
+4. Click the **Generate key** button to generate a username and then the **Generate Secret** button to generate a password. You will need **Username** and **Secret** below when setting up the alert source.
+5. In the **Integration Vendor** section, choose iLert or your custom internal integration
 
 ![](../.gitbook/assets/autotask3%20%281%29.png)
 
@@ -41,13 +38,11 @@ With the iLert Autotask integration, you can create incidents in iLert based on 
 
 1. In the **Name** section, enter a name eg. iLert
 2. In the **Integration Type** section, choose "Autotask"
-3. In the **Autotask Settings -&gt; Autotask Instance** section, choose your Autotask Server eg. America East 2 \[14\]
-4. In the **Autotask Settings -&gt; Username** section, paste the API user username generated above
-5. In the **Autotask Settings -&gt; Secret** section, paste the API user secret generated above
-6. In the **Autotask Settings -&gt; API Integration Code** section, enter your api code
-7. select your desired escalation policy and click the **Save** button
+3. In the **Autotask Settings -&gt; Username** section, paste the API user username generated above
+4. In the **Autotask Settings -&gt; Secret** section, paste the API user secret generated above
+5. select your desired escalation policy and click the **Save** button
 
-![](../.gitbook/assets/autotask5.png)
+![](../.gitbook/assets/ilert%20%281%29.png)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the extension callout in Autotask.
 
