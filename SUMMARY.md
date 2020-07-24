@@ -81,8 +81,8 @@
 * [UptimeRobot Integration](integrations/uptime-robot.md)
 * [Webhook Integration](integrations/webhook.md)
 * [Zabbix Integration](integrations/zabbix/README.md)
-  * [Zabbix Native Integration](integrations/zabbix/native.md)
-  * [Zabbix Integration via Script](integrations/zabbix/script.md)
+  * [Zabbix 4.4+ Integration](integrations/zabbix/native.md)
+  * [Zabbix 2.2 - 4.3 Integration](integrations/zabbix/script.md)
 * [Zendesk Integration](integrations/zendesk.md)
 
 ---

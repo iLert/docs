@@ -6,7 +6,11 @@ date: '2018-12-29T05:02:05.000Z'
 weight: 1
 ---
 
-# Zabbix Integration via Script
+# Zabbix 2.2 - 4.3 Integration
+
+{% hint style="info" %}
+Are you using Zabbix 4.4 or higher? Please refer our [Zabbix 4.4+ Integration](native.md) guide.
+{% endhint %}
 
 ## System Requirements <a id="requirements"></a>
 
