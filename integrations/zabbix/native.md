@@ -8,11 +8,11 @@ weight: 1
 
 # Zabbix 4.4+ Integration
 
+## System Requirements <a id="requirements"></a>
+
 {% hint style="info" %}
 Are you using Zabbix 4.3 or lower? Please refer our  [Zabbix 2.2 - 4.3 Integration](script.md) guide.
 {% endhint %}
-
-## System Requirements <a id="requirements"></a>
 
 * Zabbix 4.4+
 
