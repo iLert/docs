@@ -40,7 +40,7 @@ Are you using Zabbix 4.3 or lower? Please refer our  [Zabbix 2.2 - 4.3 Integrati
 
 ![](../../.gitbook/assets/zbn4.png)
 
-1. Select Import file [media\_ilert.xml](https://github.com/iLert/docs/tree/a6ca40eea91b6e1c9a00c47229f767d9f1e0b7b8/integrations/zabbix/media_ilert.xml) and click the **Import** button at the bottom to import the iLert media type.
+1. Select import file `media_ilert.xml` and click the **Import** button at the bottom to import the iLert media type.
 
 ![](../../.gitbook/assets/zbn5.png)
 
