@@ -51,7 +51,7 @@ curl -o media_ilert.xml \
 
 ![](../../.gitbook/assets/zbn5.png)
 
-4. Set the `.ILERT.ALERT.SOURCE.KEY` variable to the alert source api key that you generated in iLert
+4. Go to **Media types** and open the imported **iLert** media type. Set the `.ILERT.ALERT.SOURCE.KEY` variable to the alert source api key that you generated in iLert
 
 5. **Optional**: you can overwrite the standard incident summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
 
