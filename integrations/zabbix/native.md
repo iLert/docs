@@ -22,12 +22,13 @@ Are you using Zabbix 4.3 or lower? Please refer to our  [Zabbix 2.2 - 4.3 Integr
 
 ![](../../.gitbook/assets/zbn1.png)
 
-1. Set a name \(e.g. "Zabbix"\) and select your desired escalation policy.
-2. Set the **Integration type** to Zabbix.
+2. Set a name \(e.g. "Zabbix"\) and select your desired escalation policy.
+
+3. Set the **Integration type** to Zabbix.
 
 ![](../../.gitbook/assets/zbn2.png)
 
-1. An API key is generated on the next page. You will need the API key below when setting up the media type in Zabbix.
+4. An API key is generated on the next page. You will need the API key below when setting up the media type in Zabbix.
 
 ![](../../.gitbook/assets/zbn3.png)
 
@@ -36,20 +37,22 @@ Are you using Zabbix 4.3 or lower? Please refer to our  [Zabbix 2.2 - 4.3 Integr
 ### Import iLert media type \(if needed\)
 
 1. Download the iLert Zabbix Media Type file: [https://raw.githubusercontent.com/iLert/ilert-zabbix/master/media\_ilert.xml](https://raw.githubusercontent.com/iLert/ilert-zabbix/master/media_ilert.xml)
+
 2. Go to the **Administration → Media types** tab and click the **Import** button.
 
 ![](../../.gitbook/assets/zbn4.png)
 
-1. Select import file `media_ilert.xml` and click the **Import** button at the bottom to import the iLert media type.
+3. Select import file `media_ilert.xml` and click the **Import** button at the bottom to import the iLert media type.
 
 ![](../../.gitbook/assets/zbn5.png)
 
-1. Set the `.ILERT.ALERT.SOURCE.KEY` variable to the alert source api key that you generated in iLert
-2. **Optional**: you can overwrite the standard incident summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
+4. Set the `.ILERT.ALERT.SOURCE.KEY` variable to the alert source api key that you generated in iLert
+
+5. **Optional**: you can overwrite the standard incident summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
 
 ![](../../.gitbook/assets/zbn6.png)
 
-1. Click on the **Update** button to save the media type.
+6. Click on the **Update** button to save the media type.
 
 ### Create iLert user and group
 
@@ -57,29 +60,31 @@ Are you using Zabbix 4.3 or lower? Please refer to our  [Zabbix 2.2 - 4.3 Integr
 
 ![](../../.gitbook/assets/zbn7.png)
 
-1. Set the name for the iLert group \(eg. "iLert group"\).
+2. Set the name for the iLert group \(eg. "iLert group"\).
 
 ![](../../.gitbook/assets/zbn8.png)
 
-1. Switch to the **Permissions** tab and select the **host groups** that the iLert group should have read access to, for sending notifications. Without read access, iLert cannot receive notifications for the hosts in the group \(see also [here](https://www.zabbix.com/documentation/4.4/manual/quickstart/notification)\).
-2. Click the **Add** button to save the group.
+3. Switch to the **Permissions** tab and select the **host groups** that the iLert group should have read access to, for sending notifications. Without read access, iLert cannot receive notifications for the hosts in the group \(see also [here](https://www.zabbix.com/documentation/4.4/manual/quickstart/notification)\).
+
+4. Click the **Add** button to save the group.
 
 ![](../../.gitbook/assets/zbn9.png)
 
-1. Switch to the Users tab and click on the **Create user** button.
+5. Switch to the Users tab and click on the **Create user** button.
 
 ![](../../.gitbook/assets/zbn10.png)
 
-1. Assign an **alias** and **name** and add the user to the iLert group. No further details such as a password are required as this user will not log in to Zabbix.
+6. Assign an **alias** and **name** and add the user to the iLert group. No further details such as a password are required as this user will not log in to Zabbix.
 
 ![](../../.gitbook/assets/zbn11.png)
 
-1. Switch to the **Media** tab and click on the **Add** link
-2. In the **media** window, select iLert as **Type** , enter any text, as this value is not used, but is required in the **Send to** field and click the **Add** button
+7. Switch to the **Media** tab and click on the **Add** link
+
+8. In the **media** window, select iLert as **Type** , enter any text, as this value is not used, but is required in the **Send to** field and click the **Add** button
 
 ![](../../.gitbook/assets/zbn12.png)
 
-1. Click the **Add** button in the **Users** tab to save the user.
+9. Click the **Add** button in the **Users** tab to save the user.
 
 ![](../../.gitbook/assets/zbn13.png)
 
@@ -89,20 +94,21 @@ Are you using Zabbix 4.3 or lower? Please refer to our  [Zabbix 2.2 - 4.3 Integr
 
 ![](../../.gitbook/assets/zbn14.png)
 
-1. Give the action a name, eg "iLert notifications".
+2. Give the action a name, eg "iLert notifications".
 
 ![](../../.gitbook/assets/zbn15.png)
 
-1. Perform the following actions on the **Operations**, **Recovery operations** and **Acknowledgment operations** tabs
+3. Perform the following actions on the **Operations**, **Recovery operations** and **Acknowledgment operations** tabs
 
 ![](../../.gitbook/assets/zbn16.png)
 
-1. Change the default subject and default message if you want.
-2. Click on the **New** link under **Operations** and select the **iLert** group created above under Send to User groups.
+4. Change the default subject and default message if you want.
+
+5. Click on the **New** link under **Operations** and select the **iLert** group created above under Send to User groups.
 
 ![](../../.gitbook/assets/zbn17.png)
 
-1. Click the **Add** button to save the action
+6. Click the **Add** button to save the action
 
 ## FAQ <a id="faq"></a>
 
