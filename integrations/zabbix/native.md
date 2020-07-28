@@ -38,6 +38,11 @@ Are you using Zabbix 4.3 or lower? Please refer to our  [Zabbix 2.2 - 4.3 Integr
 
 1. Download the iLert Zabbix Media Type file: [https://raw.githubusercontent.com/iLert/ilert-zabbix/master/media\_ilert.xml](https://raw.githubusercontent.com/iLert/ilert-zabbix/master/media_ilert.xml)
 
+```text
+curl -o media_ilert.xml \
+   https://raw.githubusercontent.com/iLert/ilert-zabbix/master/media_ilert.xml
+```
+
 2. Go to the **Administration → Media types** tab and click the **Import** button.
 
 ![](../../.gitbook/assets/zbn4.png)
