@@ -51,11 +51,9 @@ curl -o media_ilert.xml \
 
 ![](../../.gitbook/assets/zbn5.png)
 
-4. Go to **Media types** and open the imported **iLert** media type. Set the `.ILERT.ALERT.SOURCE.KEY` variable to the alert source api key that you generated in iLert
+4. **Optional**: Go to **Media types** and open the imported **iLert** media type. you can overwrite the standard incident summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
 
-5. **Optional**: you can overwrite the standard incident summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
-
-![](../../.gitbook/assets/zbn6.png)
+![](../../.gitbook/assets/6.png)
 
 6. Click on the **Update** button to save the media type.
 
@@ -85,9 +83,13 @@ curl -o media_ilert.xml \
 
 7. Switch to the **Media** tab and click on the **Add** link
 
-8. In the **media** window, select iLert as **Type** , enter any text, as this value is not used, but is required in the **Send to** field and click the **Add** button
+8. In the **media** window, select iLert as **Type** 
 
-![](../../.gitbook/assets/zbn12.png)
+9.  In the **Send to** field enter the alert source api key that you generated in iLert
+
+10. Click the **Add** button
+
+![](../../.gitbook/assets/9.png)
 
 9. Click the **Add** button in the **Users** tab to save the user.
 
@@ -123,7 +125,7 @@ Yes, as soon as the status of an incident is OK in Zabbix, the associated incide
 
 **Can I link Zabbix to multiple alert sources in iLert?**
 
-Yes, create several **iLert users** in Zabbix and store the corresponding **API key** in the **media type**.
+Yes, create several **iLert users** in Zabbix and store the corresponding **API key** in the user **Send To** field.
 
 **What if my internet connection is lost? Are the events generated in Zabbix lost?**
 

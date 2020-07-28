@@ -198,7 +198,7 @@ Yes, as soon as the status of an incident is OK in Zabbix, the associated incide
 
 **Can I link Zabbix to multiple alert sources in iLert?**
 
-Yes, create several **iLert users** in Zabbix and store the corresponding **API key** in the **media type**.
+Yes, create several **iLert users** in Zabbix and store the corresponding **API key** in the user **Send To** field.
 
 **What if my internet connection is lost? Are the events generated in Zabbix lost?**
 
