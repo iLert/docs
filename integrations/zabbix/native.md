@@ -51,7 +51,7 @@ curl -o media_ilert.xml \
 
 ![](../../.gitbook/assets/zbn5.png)
 
-4. **Optional**: Go to **Media types** and open the imported **iLert** media type. you can overwrite the standard incident summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
+4. **Optional**: Go to **Media types** and open the imported **iLert** media type. You can overwrite the default incident summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
 
 ![](../../.gitbook/assets/6.png)
 
