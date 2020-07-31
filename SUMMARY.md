@@ -59,6 +59,7 @@
 * [Google Stackdriver Integration](integrations/google-stackdriver.md)
 * [Grafana Integration](integrations/grafana.md)
 * [Icinga Integration](integrations/icinga.md)
+* [Kentix AlarmManager](integrations/kentix-alarmmanager.md)
 * [Instana Integration](integrations/instana.md)
 * [Jira Integration](integrations/jira.md)
 * [Microsoft Teams Integration](integrations/microsoft-teams.md)
