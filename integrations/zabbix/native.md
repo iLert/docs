@@ -28,7 +28,7 @@ Are you using Zabbix 4.3 or lower? Please refer to our  [Zabbix 2.2 - 4.3 Integr
 
 ![](../../.gitbook/assets/zbn2.png)
 
-4. An API key is generated on the next page. You will need the API key below when setting up the media type in Zabbix.
+4. An API key is generated on the next page. You will need the API key below when creating an iLert user in Zabbix.
 
 ![](../../.gitbook/assets/zbn3.png)
 
