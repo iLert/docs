@@ -8,13 +8,13 @@ weight: 1
 
 # Jira Integration
 
-## In JIRA: Create iLert users and create API tokens <a id="jira-preparation"></a>
+## In JIRA: Create iLert user and create API token <a id="jira-preparation"></a>
 
 1. Optional: create a dedicated iLert user in JIRA. This has the advantage that you can distinguish the JIRA tickets created by iLert.
 
-2. Go to Profile Settings, go to the Security tab, and click **Create and Manage API Tokens**.
+2. Go to **Atlassian account settings**  **→** **Security** and click on **Create and Manage API Tokens**.
 
-![](../.gitbook/assets/ji1.png)
+![](../.gitbook/assets/screenshot-2020-08-05-at-13.15.25.png)
 
 3. Click on the button **Create API token**  
 
@@ -52,7 +52,7 @@ Select the desired Project and Issue Type that should be used to create issues a
 
 ## Custom Variables and request configuration <a id="custom"></a>
 
-Optionally you may choose to customize the request that will be made to your JIRA instance, by choosing the custom fields option. \(This will actually overwrite the HTTP request body content `fields` with your provided variables. Our template editor will help you to send a valid request\), you may also click on "Show me the available issue type fields" in case you do not have the keys handy.
+Optionally you may choose to customize the request that will be made to your JIRA instance, by choosing the custom fields option. \(This will overwrite the HTTP request body content `fields` with your provided variables. Our template editor will help you to send a valid request\), you may also click on "Show me the available issue type fields" in case you do not have the keys handy.
 
 ![](../.gitbook/assets/ji10.png)
 
