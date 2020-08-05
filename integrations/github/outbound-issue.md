@@ -6,7 +6,7 @@ date: '2020-04-21T07:00:00.000Z'
 weight: 1
 ---
 
-# Github Outbound Issue Integration
+# GitHub Outbound Issue Integration
 
 ## In Github: Create iLert user and create API token <a id="github-preparation"></a>
 

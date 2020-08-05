@@ -1,14 +1,12 @@
 ---
 title: Github Inbound Check Run (Actions) Integration
 seoTitle: 'iLert: Github Actions Integration for Alerting | Incident Response | Uptime'
-description: >-
-  The iLert Github Actions integration helps you to easily connect iLert with
-  Github.
+description: Create incidents in iLert based on Check runs from GitHub.
 date: '2020-04-21T07:00:00.000Z'
 weight: 1
 ---
 
-# Github Inbound Check Run \(Actions\) Integration
+# GitHub Inbound Check Run \(Actions\) Integration
 
 With the iLert Github Check Run integration, you can add incidents in iLert based on "check run" from Github \(e.g. Github Actions\).
 
