@@ -1,7 +1,7 @@
 ---
 title: Github Outbound Issue Integration
 seoTitle: 'iLert: Github Integration for Alerting | Incident Response | Uptime'
-description: The iLert Github integration helps you to easily connect iLert with Github.
+description: Create issues in GitHub based on incidents from iLert.
 date: '2020-04-21T07:00:00.000Z'
 weight: 1
 ---
