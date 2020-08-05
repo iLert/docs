@@ -10,15 +10,13 @@ weight: 1
 
 # Microsoft Teams Integration
 
+{% hint style="info" %}
 **Admin permission required**
 
 To set up the integration, you must have admin rights in iLert.
+{% endhint %}
 
 ## In Microsoft Teams: Add an iLert Connector to a channel <a id="add-to-channel"></a>
-
-**Review by Microsoft still pending**
-
-Please note that our app is still being reviewed by Microsoft and is not yet generally available in the Microsoft Teams Store.
 
 1. Go to the Microsoft Teams Store and install iLert App
 

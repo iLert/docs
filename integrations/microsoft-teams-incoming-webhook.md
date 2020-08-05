@@ -16,10 +16,6 @@ To set up the integration, you must have admin rights in iLert.
 
 ## In Microsoft Teams: Add an iLert Connector to a channel <a id="add-to-channel"></a>
 
-**Review by Microsoft still pending**
-
-Please note that our app is still being reviewed by Microsoft and is not yet generally available in the Microsoft Teams Store.
-
 1. Select the channel in which you want to publish iLert Incidents and click **Connectors**
 
 ![](../.gitbook/assets/mtiw1.png)
