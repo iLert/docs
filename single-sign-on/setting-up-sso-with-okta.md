@@ -29,8 +29,6 @@ On the next page enter **the application name** \(e.g. iLert\), choose an applic
 
 On the next page you need to fill in the information that you can find in your iLert account settings
 
-![](../.gitbook/assets/okta6.png)
-
 ## Setting up SSO in iLert
 
 Log in to your iLert account as **account owner**, navigate to your **Account Settings** \(cog right-side navigation\) and click on the **Single sign-on** tab.
