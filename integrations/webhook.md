@@ -10,8 +10,6 @@ weight: 1
 
 ## In iLert: Create webhook connection <a id="create-webhook"></a>
 
-**Admin authorization required** To set up the integration, you must have admin rights in iLert.
-
 1. Switch to the **alert sources** tab and open the alert source whose incidents you want to publish via a webhook. Click on **Connections → Add new connection**
 
 ![](../.gitbook/assets/wh1.png)
