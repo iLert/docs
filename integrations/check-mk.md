@@ -32,7 +32,7 @@ Download the [Check\_MK](https://github.com/iLert/ilert-nagios) plugin package a
 
 ```text
 > wget https://github.com/iLert/ilert-nagios/archive/v1.5.zip
-> unzip ilert-nagios-1.4.zip
+> unzip ilert-nagios-1.5.zip
 ```
 
 For Check\_MK you need the two files `ilert_nagios.py` and `ilert_check_mk.sh`. You can delete the remaining files in the directory. Move the plugin file `ilert_nagios.py` into the directory `/usr/local/bin` . Both files must be executable by both Check\_MK and the cron daemon:
@@ -43,9 +43,11 @@ For Check\_MK you need the two files `ilert_nagios.py` and `ilert_check_mk.sh`. 
 > chmod 755 ilert_check_mk.sh
 ```
 
-### Standalone version of Check\_MK
+### 
 
-If you are using the standalone version of Check\_MK, follow the instructions below. If you are using the OMD version, please go the next section.
+{% tabs %}
+{% tab title="Standalone version of Check\_MK" %}
+If you are using the standalone version of Check\_MK, follow the instructions below. If you are using the OMD version, please go the tab **OMD version of Check\_MK**.
 
 ```text
 > crontab -u nagios -e
@@ -64,9 +66,9 @@ Move the iLert alerting script to the notifications directory of Check\_MK:
 ```text
 > mv ilert_check_mk.sh /usr/share/check_mk/notifications
 ```
+{% endtab %}
 
-### OMD version of Check\_MK
-
+{% tab title="OMD version of Check\_MK" %}
 If you are using the OMD version of Check\_MK, follow the instructions below.
 
 ```text
@@ -91,6 +93,8 @@ Move the iLert alerting script to the `notifications` directory of Check\_MK:
 ```text
 > mv ilert_check_mk.sh /omd/sites/{site-name}/local/share/check_mk/notifications
 ```
+{% endtab %}
+{% endtabs %}
 
 Log in to Check\_MK's web GUI and continue there.
 
