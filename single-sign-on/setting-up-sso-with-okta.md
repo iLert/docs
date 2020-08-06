@@ -43,15 +43,15 @@ Copy your **SAML Endpoint URL** and **Audience Restriction** values into the Okt
 
 ![](../.gitbook/assets/okta7.png)
 
-On the next page choose **I'm an Okta customer adding an internal app** in the **Are you a customer or partnet?** section and **This is an internal app that we have created** in the **App type** section, than click on the **Finish** button
+On the next page choose **I'm an Okta customer adding an internal app** in the **Are you a customer or partner?** section and **This is an internal app that we have created** in the **App type** section, than click on the **Finish** button
 
 ![](../.gitbook/assets/okta8.png)
 
-On the next  click on the **View Setup Instructions** button
+On the next page click on the **View Setup Instructions** button
 
 ![](../.gitbook/assets/okta9.png)
 
-Here you can find all values you need for iLert SSO
+Here you can find all the values you need for iLert SSO
 
 ![](../.gitbook/assets/okta10.png)
 
@@ -59,7 +59,7 @@ Transfer the values to iLert's SSO settings
 
 ![](../.gitbook/assets/okta11.png)
 
-Save the the iLert SSO settings. SSO is now configured, however to make the login process work properly you will have to do one more things.
+Save the the iLert SSO settings. SSO is now configured, however to make the login process work properly you will have to do one more thing.
 
 ## Adding Okta Users to your Okta SAML App
 
@@ -69,7 +69,7 @@ Head to your app's **Assignments** and click on the **Assign** button and than o
 
 ![](../.gitbook/assets/okta12.png)
 
-Click on the **Assign** button beside users that should be able to login to your iLert account. Confirm the assignment afterwards and click on **Done** button
+Click on the **Assign** button beside your users that should be able to login to your iLert account. Confirm the assignment afterwards and click on the **Done** button
 
 ![](../.gitbook/assets/okta13.png)
 
@@ -81,7 +81,7 @@ Your users should now be able to login to iLert using their Okta accounts.
 
 ![](../.gitbook/assets/screenshot-2020-06-17-at-13.58.03.png)
 
-### Auto-provisioning Azure AD Users in iLert
+### Auto-provisioning Okta Users in iLert
 
 You can easily auto-provision users on their first SSO login by enabling the checkbox for **Provision new users on first sso login** in your iLert account's settings. This way user accounts will be automatically setup with the role **User** in iLert. Keep in mind that this will require your account to have enough seats booked.
 
