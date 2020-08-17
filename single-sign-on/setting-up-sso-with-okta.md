@@ -47,7 +47,11 @@ On the next page choose **I'm an Okta customer adding an internal app** in the *
 
 ![](../.gitbook/assets/okta8.png)
 
-On the next page click on the **View Setup Instructions** button
+Before continuing with the the setup, make sure that the application username update settings are adjusted accordingly. This prevents the loss of account bindings in case of username updates in Okta. _\(You can read more about these bindings at the end of this page\)_
+
+![](../.gitbook/assets/screenshot-2020-08-17-at-15.07.14.png)
+
+After saving, click on the **View Setup Instructions** button
 
 ![](../.gitbook/assets/okta9.png)
 
@@ -88,6 +92,32 @@ You can easily auto-provision users on their first SSO login by enabling the che
 ### Disable login with username and password
 
 You can optionally disable the login for username and password combinations on your iLert account and enforce users to use SSO by disabling the checkbox for Allow login with username and password in your iLert account's settings.
+
+### Understanding Okta &lt;-&gt; iLert account bindings
+
+Okta connects to your LDAP or OAuth2.0 or other identitiy provider and gives you quick access to import or export these users and groups for different kinds of applications, such as iLert.
+
+When assigning a user in Okta to your iLert application, Okta creates a binding based on the configured application settings. If setup correctly, as described in this guide, this should be based on the username, which by default is the primary email address of the selected user. \(These assignments are indivual for each relationship of a user and an application\).
+
+![](../.gitbook/assets/screenshot-2020-08-17-at-15.00.54.png)
+
+If a user changes his primary email address the assignment \(User Name\) for the application will stay the same.
+
+![](../.gitbook/assets/screenshot-2020-08-17-at-14.57.25.png)
+
+And even if a user or admin changes the username itself \(if this guide has been followed correctly\) the user name assignment of the application will not be updated.
+
+![As can be seen here the username of the user is changed@5cf.de however the username assignment of the application is still chris@5cf.de](../.gitbook/assets/screenshot-2020-08-17-at-15.00.49.png)
+
+In iLert itself the Okta assigned application user name will be read from the SAML 2.0 NameID field and mapped explicitly to an internal user id. Which means that even if your users email addresses or usernames are changed, they will still be able login to their existing iLert account.
+
+![](../.gitbook/assets/screenshot-2020-08-17-at-15.04.20.png)
+
+In case of a username change, Okta might inform you in some cases that the changed user still exists and has to be deprovisioned manually from the application itself, however you can ignore these warnings.
+
+{% hint style="info" %}
+Please note that the email address can be changed without breaking the login or account binding. However the notifications of the iLert user will still be send to the old email address. The iLert user can safely change the email address for his notifications under profile settings.
+{% endhint %}
 
 
 
