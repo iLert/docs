@@ -30,6 +30,8 @@ The Kentix AlarmManager Webhook Payload \(Data\)
     "input2-alarm": "$INPUT_ALARM[2]$",
     "connection": "$CONNECTION_VALUE$",
     "connection-alarm": "$CONNECTION_ALARM$",
+    "latency": "$LATENCY_VALUE$",
+    "latency-alarm": "$LATENCY_ALARM$",
     "extpower": "$EXTPOWER_VALUE$",
     "extpower-alarm": "$EXTPOWER_ALARM$"
 }
