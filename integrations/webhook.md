@@ -34,7 +34,7 @@ To get more information on the **status** or **eventType** fields, visit the _Te
      "summary": "PROBLEM Host Alert: app.compute is DOWN",
      "details": "details,
      "reportTime": "2019-08-29T09: 52: 39.551Z",
-     "eventType": "incident-created",
+     "eventType": "incident-acknowledged",
      "alertSource": {
          "id": 2101194,
          "name": "Nagios Network and Hosts"
