@@ -66,13 +66,14 @@ In case of a valid template the border will turn green. As you may have noticed 
 | incidentDetails | Full incident details |
 | incidentSummary | Incident summary |
 | incidentStatus | PENDING, ACCEPTED or RESOLVED |
+| incidentUrl | URL that links to the incident in iLert |
 | alertSourceId | The ID of the incident's alert source |
 | alertSourceName | The name of the incident's alert source |
 | escalationPolicyId | The ID of the escalation policy of the incident's alert source |
 | escalationPolicyName | The name of the escalation policy of the incident's alert source |
 | reportTime | ISO-8601 representation of the incident report time |
-| incidentUrl | URL that links to the incident in iLert |
 | link | If present, the first link in the incident's payload e.g. links to the origin monitoring tool that send the event initially |
+| eventType | incident-created, incident-assigned, incident-auto-escalated, incident-auto-resolved, incident-acknowledged, incident-rejected, incident-raised, incident-comment-added, incident-resolved |
 
 ## FAQ <a id="faq"></a>
 
@@ -87,6 +88,8 @@ Special characters in the user name or password must be [encoded URL](https://ww
 **Can you also specify the HTTP port?**
 
 Yes. By default, port 80 is used for HTTP connections and port 443 for HTTPS connections. You can overwrite the port number by adding a colon : after the host address and the port.
+
+incident-created, incident-assigned, incident-auto-escalated, incident-auto-resolved, incident-acknowledged, incident-rejected, incident-raised, incident-comment-added, incident-resolved
 
 Example: [https://example.com:8443/webhooks/ilert](https://example.com:8443/webhooks/ilert)
 
