@@ -39,7 +39,6 @@
 
 ## Integrations
 
-* [Email Outbound Integration](integrations/email-outbound-integration.md)
 * [Amazon CloudWatch Integration](integrations/amazon-cloudwatch.md)
 * [AppDynamics Integration](integrations/appdynamics.md)
 * [AWS Lambda Integration](integrations/aws-lambda.md)
@@ -52,6 +51,7 @@
 * [Dynatrace Integration](integrations/dynatrace.md)
 * [Email Integration](integrations/email/README.md)
   * [Automatically resolve Incidents with Emails](integrations/email/automatically-resolve-incidents-with-emails.md)
+* [Email Outbound Integration](integrations/email-outbound-integration.md)
 * [Google Cloud Function Integration](integrations/gcf.md)
 * [GitHub Integration](integrations/github/README.md)
   * [GitHub Inbound Check Run \(Actions\) Integration](integrations/github/inbound-check-run-actions.md)
