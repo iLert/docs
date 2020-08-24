@@ -24,6 +24,9 @@ weight: 1
 
 ## Webhook payload <a id="payload"></a>
 
+A sample webhook payload can be seen below.  
+To get more information on the **status** or **eventType** fields, visit the _Template variables explained_ section of this page.
+
 ```text
 {
      "id": "2983781",
@@ -31,6 +34,7 @@ weight: 1
      "summary": "PROBLEM Host Alert: app.compute is DOWN",
      "details": "details,
      "reportTime": "2019-08-29T09: 52: 39.551Z",
+     "eventType": "incident-created",
      "alertSource": {
          "id": 2101194,
          "name": "Nagios Network and Hosts"
