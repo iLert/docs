@@ -39,6 +39,7 @@
 
 ## Integrations
 
+* [Email Outbound Integration](integrations/email-outbound-integration.md)
 * [Amazon CloudWatch Integration](integrations/amazon-cloudwatch.md)
 * [AppDynamics Integration](integrations/appdynamics.md)
 * [AWS Lambda Integration](integrations/aws-lambda.md)
