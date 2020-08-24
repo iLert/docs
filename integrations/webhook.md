@@ -58,6 +58,22 @@ In case of a valid template the border will turn green. As you may have noticed 
 
 ![](../.gitbook/assets/wh6.png)
 
+## Template variables explained
+
+| Variable key | Description |
+| :--- | :--- |
+| incidentId | The ID of the incident |
+| incidentDetails | Full incident details |
+| incidentSummary | Incident summary |
+| incidentStatus | PENDING, ACCEPTED or RESOLVED |
+| alertSourceId | The ID of the incident's alert source |
+| alertSourceName | The name of the incident's alert source |
+| escalationPolicyId | The ID of the escalation policy of the incident's alert source |
+| escalationPolicyName | The name of the escalation policy of the incident's alert source |
+| reportTime | ISO-8601 representation of the incident report time |
+| incidentUrl | URL that links to the incident in iLert |
+| link | If present, the first link in the incident's payload e.g. links to the origin monitoring tool that send the event initially |
+
 ## FAQ <a id="faq"></a>
 
 **Do you support authentication?**
