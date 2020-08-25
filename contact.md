@@ -2,7 +2,7 @@
 description: Get in touch and let us know how we can help.
 ---
 
-# Contact
+# Contact us
 
 ## Support
 
