@@ -6,5 +6,5 @@ description: >-
 
 # iLert REST API
 
-iLert tries to offer a flexible REST API for any of our customers, you can find its specific documentation here: [https://api.ilert.com/api-docs](https://api.ilert.com/api-docs/)
+iLert offers a flexible REST API for any of our customers, you can find the documentation here: [https://api.ilert.com/api-docs](https://api.ilert.com/api-docs/)
 

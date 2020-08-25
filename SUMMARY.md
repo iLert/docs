@@ -24,18 +24,10 @@
 * [Setting up SSO with Microsoft Azure Active Directory](single-sign-on/setting-up-sso-with-azure-active-directory.md)
 * [Setting up SSO with Okta](single-sign-on/setting-up-sso-with-okta.md)
 
-## Mobile App
-
-* [The iLert iOS App](mobile-app/the-ilert-ios-app.md)
-* [The iLert Android App](mobile-app/the-ilert-android-app.md)
-
-## Uptime Monitors
+## Uptime & Heartbeat Monitors <a id="uptime-monitors"></a>
 
 * [Uptime Monitoring](uptime-monitors/uptime-monitoring.md)
-
-## Heartbeat Monitors
-
-* [Heartbeat Monitoring](heartbeat-monitors/heartbeat-monitoring.md)
+* [Heartbeat Monitoring](uptime-monitors/heartbeat-monitoring.md)
 
 ## Integrations
 
