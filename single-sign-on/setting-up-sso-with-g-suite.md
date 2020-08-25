@@ -1,4 +1,4 @@
-# Setting up SSO with G-Suite
+# Setting up SSO with GSuite
 
 {% hint style="info" %}
 **Account owner permissions required**
