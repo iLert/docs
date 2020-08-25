@@ -79,7 +79,7 @@ iLert provides the following inbound integration options:
   </tbody>
 </table>
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 
 
