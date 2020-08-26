@@ -45,7 +45,15 @@ The account owner can manage account level settings such as your subscription, b
 Once you change the account owner, you will be logged out immediately and cannot change the account settings.
 {% endhint %}
 
-To change the account, go to **Account settings** and click on the **change** account owner link.
+To change the account owner, go to **Account settings** and click on the **change** account owner link.
 
 ![](../.gitbook/assets/screenshot-2020-07-01-at-13.22.48.png)
+
+## How can I update the payment method?
+
+To update the payment method, log in as the account owner and go to **Account settings** --&gt; **Subscription** and click on **Update** next to your payment method and enter your new payment information.
+
+![](../.gitbook/assets/screenshot-2020-03-12-at-14.51.44.png)
+
+
 
