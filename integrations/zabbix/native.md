@@ -34,13 +34,19 @@ Are you using Zabbix 4.3 or lower? Please refer to our  [Zabbix 2.2 - 4.3 Integr
 
 ## In Zabbix <a id="zabbix"></a>
 
-### Import iLert media type \(if needed\)
+### Import iLert media type \(optional as of Zabbix 5.0.4\)
 
-1. Download the iLert Zabbix Media Type file: [https://raw.githubusercontent.com/iLert/ilert-zabbix/master/media\_ilert.xml](https://raw.githubusercontent.com/iLert/ilert-zabbix/master/media_ilert.xml)
+{% hint style="info" %}
+**Are you using Zabbix 5.0.4 or higher?**
+
+You can skip this section, if you're using Zabbix 5.0.4+, because as of Zabbix 5.0.4, the iLert media type is included in the distribution Zabbix.
+{% endhint %}
+
+1. Download the iLert Zabbix Media Type file from the Zabbix repository 
 
 ```text
 curl -o media_ilert.xml \
-   https://raw.githubusercontent.com/iLert/ilert-zabbix/master/media_ilert.xml
+   https://git.zabbix.com/projects/ZBX/repos/zabbix/browse/templates/media/ilert/media_ilert.xml
 ```
 
 2. Go to the **Administration → Media types** tab and click the **Import** button.
@@ -131,7 +137,13 @@ Yes, create several **iLert users** in Zabbix and store the corresponding **API 
 
 No events are lost. The zabbix server tries to send the events to iLert every 30 seconds with 10 attempts \(can be configured in media type settings\). As soon as your connection is available again, all events are sent to iLert. We also recommend that you monitor your Internet connection with an external monitoring service. You can then send these alerts to iLert too.
 
-**The plugin does not work. How do I find the mistake?**
+**The plugin does not work. How do I find the issue?**
 
 Please look at the **Problems View** in Zabbix under the actions column first. If you can not find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
+
+## Further References <a id="faq"></a>
+
+This blog post in the Zabbix blog outlines how to use Zabbix and iLert with multiple on-call teams, where each team is responsible for a set of host groups in Zabbix, and therefore, will only receive alerts for the services it is responsible for: 
+
+[Working with multiple on-call teams using Zabbix and iLert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/)
 
