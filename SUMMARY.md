@@ -84,4 +84,5 @@
 * [Contact us](contact.md)
 * [Rate Limiting](alertsource-throttle.md)
 * [iLert Agent - ilagent](ilagent.md)
+* [iLert Release Notes](ilert-release-notes.md)
 
