@@ -1,25 +1,28 @@
 ---
 description: >-
-  Besides analysing and creating incidents from inbound emails, iLert also
-  allows you to create flexible outbound emails for your integration wishes.
+  Our email outbound integration allows you to send emails for incidents and
+  incident updates to any emails address (e.g. to group addresses or people
+  outside of iLert).
 ---
 
 # Email Outbound Integration
 
-Navigate to your **Alert sources** and click on the desired alert source where the connection \(outbound integration\) should created.
+We will create an outbound email connection for an alert source.
+
+Navigate to your **Alert sources** and click on the desired alert source where the connection \(outbound integration\) should be created.
 
 ![](../.gitbook/assets/screenshot-2020-09-03-at-17.01.54.png)
 
-In the connections view, you should click on **Add new connection** to get to the creation form.
+In the connections view, click on **Add new connection** to get to the creation form.
 
 ![](../.gitbook/assets/screenshot-2020-09-03-at-17.02.53.png)
 
-In the connection creation view you should choose **Email** as connection type.  
-You may now decide if this connection should be triggered **automatically** and assign it any kind of incident events that you would like to spawn new emails or select **manually** and turn it into an incident action \(as seen at the end of this document\)
+In the connection creation view, choose **Email** as connection type.  
+You may now decide if this connection should be triggered **automatically** and select the incident events for which you would like to send emails or select **manually** and turn it into an incident action \(as seen at the end of this document\).
 
 ![](../.gitbook/assets/screenshot-2020-09-03-at-17.04.56.png)
 
-Dont forget to give your connection a **label** and enter a comma separated list of emails _\(one is fine\),_ that should receive the connections emails on incident events, in the **send to** field.
+Don't forget to give your connection a **label** and enter a comma separated list of emails _\(one is fine\),_ that should receive the connections emails on incident events, in the **send to** field.
 
 The form already prompts you with a **default template** for each email **subject** and email **body**. You may adjust it to your liking and add or exchange additional template variables from iLert listed below.
 
