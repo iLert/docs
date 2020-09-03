@@ -100,3 +100,7 @@ Yes, iLert evaluates the `TO` , `CC` and `BCC` fields as well as the `DELIVERED-
 
 Yes, see [Automatically resolve Incidents with Emails](automatically-resolve-incidents-with-emails.md) for further information
 
+**I need more examples that illustrate regex incident key extraction from emails, where can I find them?**
+
+Take a look [here](email-key-extraction-and-resolve-examples.md)
+
