@@ -6,6 +6,20 @@ description: >-
 
 # iLert Release Notes
 
+## September 2020
+
+### New features
+
+* Incident Actions
+
+### New and updated integrations
+
+* [Email Outbound Integration](integrations/email-outbound-integration.md)
+
+### Improvements
+
+* Ability to select incident events in outbound integrations. Example: trigger webhooks for incident creation and resolution events, but ignore remaining incident event types.
+
 ## May 2020
 
 ### New features
