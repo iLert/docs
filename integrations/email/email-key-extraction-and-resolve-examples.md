@@ -19,21 +19,21 @@ This regex will pull any kind of uuid matching somewhere in the email subject an
 
 A very common use case might be a monitoring tool that sends emails containing the actual alert origin embedded in the text like so:  
   
-Some static text \(the alert origin\) Some information about the state
+_Some static text \(the alert origin\) Some information about the state_
 
 These payloads are a perfect fit for iLert's key extraction and auto-resolve feature.  
-Lets assume we have the following in-actions **email subjects**, which are send to us in 2 emails following each other:
+Lets assume we have the following **email subjects**, which are send to us in two emails following each other:
 
 1. **Service: SuperService BayArea \(bayarea.super\) is CRITICAL**
 2. **Service: SuperService BayArea \(bayarea.super\) is OK**
 
 We have to setup a regex that extracts the inner service identification to use the extracted value as incident key, which will help us group the incoming emails in a single incident.
 
-Our regex: `(?<=Service:)(.*)(?=is)`
+_Our regex_: `(?<=Service:)(.*)(?=is)`
 
-In both cases this regex will extract from **Service:** to **is** in the example above **SuperService BayArea \(bayarea.super\)** which iLert will turn into the following incident key hash **4b3884726b14a3e36be821730240262c** to automatically map all other incoming emails with the same hash to the incident.
+In both cases this regex will extract from **Service:** to **is** in the example above **SuperService BayArea \(bayarea.super\)** which iLert will turn into an incident key hash to automatically map all other incoming emails with the same text to the incident.
 
-By adjusting a few more settings for the email alert source's resolve options, we can also make use of the third part of the subject the state and let all OK subjects resolve open incidents automatically.
+By adjusting a few more settings for the email alert source's resolve options, we can also make use of the third part of the subject the state and let all **OK** containing subjects resolve open incidents automatically.
 
 ![](../../.gitbook/assets/screenshot-2020-09-02-at-15.02.15.png)
 
