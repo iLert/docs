@@ -42,6 +42,7 @@
 * [Discord Integration](integrations/discord.md)
 * [Dynatrace Integration](integrations/dynatrace.md)
 * [Email Integration](integrations/email/README.md)
+  * [Email Key Extraction and Resolve Examples](integrations/email/email-key-extraction-and-resolve-examples.md)
   * [Automatically resolve Incidents with Emails](integrations/email/automatically-resolve-incidents-with-emails.md)
 * [Email Outbound Integration](integrations/email-outbound-integration.md)
 * [Google Cloud Function Integration](integrations/gcf.md)
