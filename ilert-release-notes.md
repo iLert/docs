@@ -15,10 +15,46 @@ description: >-
 ### New and updated integrations
 
 * [Email Outbound Integration](integrations/email-outbound-integration.md)
+* [Kentix AlarmManager](integrations/kentix-am.md)
 
 ### Improvements
 
 * Ability to select incident events in outbound integrations. Example: trigger webhooks for incident creation and resolution events, but ignore remaining incident event types.
+
+## August 2020
+
+### New features
+
+* Ability to re-route incidents to escalation policies and on-call schedules
+* Suggested responders: when re-routing an incident, iLert now suggests you the best responder based on historic data
+
+### New and updated integrations
+
+* [Autotask](integrations/autotask.md)
+* [Zabbix](integrations/zabbix/native.md) \(updated\): Starting Zabbix 4.4, iLert can be integrated as a media type into Zabbix. Zabbix 5.0.4+ includes iLert as a media type by default. See also Zabbix blog post: [Working with multiple on-call teams using Zabbix and iLert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/) 
+* [Prometheus](integrations/prometheus.md) \(updated\): improved readabiltiy of prometheus incidents
+
+### Improvements
+
+* Alert source overview page now includes outbound connections
+* User profile: low priority notifications rules are entirely optional, i.e. a user can now chose to not receive any notification for low priority incidents
+
+## July 2020
+
+### New Features
+
+* [Heartbeat Monitoring](uptime-monitors/heartbeat-monitoring.md)
+
+## June 2020
+
+### Updated integrations
+
+* [Email](integrations/email/): added ability to resolve incidents via email
+
+### Improvements
+
+* [Stakeholder engagement](getting-started/stakeholder-engagement.md): stakeholders can now unsubscribe from incident update notifications
+* Email login: Users can now login via email \(in addition to username\) . Usernames in iLert are deprecated and will be removed in the future.
 
 ## May 2020
 
