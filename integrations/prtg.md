@@ -12,39 +12,37 @@ weight: 1
 
 # PRTG Network Monitor Integration
 
-With PRTG integration, you can easily integrate PRTG with iLert. You can easily extend your existing PRTG system with SMS, push and voice notifications as well as rosters from iLert.
+With PRTG integration, you can easily integrate PRTG with iLert and extend your existing PRTG monitoring with SMS, push and voice notifications as well as on-call schedules from iLert.
 
 ## In iLert: Create PRTG alert source <a id="create-alarm-source"></a>
 
-1. Switch to the tab "alert sources" and click on the button "Create new alert source"
+1. Go to **Alert sources** and click on **Add a new alert source**
 
-2. Assign name and select escalation chain
+2. Enter a name for your alert source \(e.g. "PRTG"\) and select your desired escalation policy.
 
-3. In the Integration Type field, select "PRTG Network Monitor"
+3. In the Integration Type field, select **PRTG Network Monitor** and click on Save
 
-![](../.gitbook/assets/pg1.png)
+![](../.gitbook/assets/screenshot-2020-09-22-at-08.53.15.png)
 
-4. Save
+5. On the next page,  **PRTG URL** and **PRTG Postdata** fields will be displayed.  You will need those two fields in the PRTG setup.
 
-5. The "PRTG URL" and "PRTG Postdata" fields displayed on the next page are required in PRTG
-
-![](../.gitbook/assets/pg2.png)
+![](../.gitbook/assets/screenshot-2020-09-22-at-09.04.21.png)
 
 ## In PRTG: Create new notification <a id="create-notification"></a>
 
-1. Switch to the notification settings
+1. Got to notification settings
 
 ![](../.gitbook/assets/pg3.png)
 
 2. Add a new notification
 
-3. As notification method select "Execute HTTP ACTION"
+3. As notification method select **Execute HTTP ACTION**
 
-4. Transfer the "URL" and "Postdata" fields from the alert source set up in iLert. The API key is included in Postdata.
+4. Copy the **URL** and **Postdata** fields from the iLert alert source. The API key is included in Postdata.
 
 ![](../.gitbook/assets/pg4.png)
 
-5. Save
+5. Click on **Save**
 
 6. Next we will use the newly created iLert notification method in PRTG. To do this, switch to the root group in the device overview and select the "Notifications" tab.
 
@@ -60,9 +58,9 @@ With PRTG integration, you can easily integrate PRTG with iLert. You can easily 
 
 Yes, as soon as the condition of a sensor in PRTG is OK again, the associated incident is resolved in iLert.
 
-**What if an alert is confirmed in PRTG, is the associated incident also confirmed in iLert?**
+**What if an alert is acknowledged in PRTG, is the associated incident also acknowledged in iLert?**
 
-No, in PRTG it is unfortunately not possible to send notifications for confirmations.
+No, in PRTG it is unfortunately not possible to send notifications for acknowledgements.
 
 **What if my internet connection is interrupted? Are the events generated in PRTG lost?**
 
