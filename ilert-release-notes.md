@@ -20,6 +20,7 @@ description: >-
 ### Improvements
 
 * Ability to select incident events in outbound integrations. Example: trigger webhooks for incident creation and resolution events, but ignore remaining incident event types.
+* Call routing now supports support hours and outbound integrations
 
 ## August 2020
 
