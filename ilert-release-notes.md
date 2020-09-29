@@ -11,16 +11,25 @@ description: >-
 ### New features
 
 * Incident Actions
+* Support for outbound connections in Call Routing Numbers
+* Support Hours for Call Routing Numbers
 
 ### New and updated integrations
 
 * [Email Outbound Integration](integrations/email-outbound-integration.md)
 * [Kentix AlarmManager](integrations/kentix-am.md)
+* Datadog Outbound Integration now supports regions
+* Prometheus incident detail formatting has been updated
+* Slack channels \(connections\) can now be managed in iLert directly
 
 ### Improvements
 
 * Ability to select incident events in outbound integrations. Example: trigger webhooks for incident creation and resolution events, but ignore remaining incident event types.
-* Call routing now supports support hours and outbound integrations
+* Every call routing number is now referenced to an alert source, helping you connect incoming calls to e.g. Slack. You can now also manage support hours for your call routing number.
+* Optimized bulk incident actions like accept and resolve
+* Uptime monitor TCP and UDP modes now support first packet and expected packet
+* Further improvements on our API to optimize response time and delivery for our mobile app
+* New API endpoint /numbers
 
 ## August 2020
 
