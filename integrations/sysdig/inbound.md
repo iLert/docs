@@ -54,7 +54,7 @@ Yes
 
 No, unfortunately Sysdig accepted event is not compatible with iLert accepted event.
 
-**Can I connect TOPdesk with multiple alert sources from iLert?**
+**Can I connect Sysdig with multiple alert sources from iLert?**
 
 Yes, simply create more notification channels in Sysdig.
 
