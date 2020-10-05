@@ -38,15 +38,15 @@ description: >-
 
 ![](../../.gitbook/assets/ilert%20%284%29.png)
 
-6. Optional: You can define tags and event filter. More information aber it you can find here: [https://docs.sysdig.com/en/events.html](https://docs.sysdig.com/en/events.html)
+6. Optional: You can define tags and event filters. More information aber it you can find here: [https://docs.sysdig.com/en/events.html](https://docs.sysdig.com/en/events.html)
 
-7. Finished! You can now test the connection by clicking on the button **Test this connection**. Then a test ticket will be published in Sysdig.
+7. Finished! You can now test the connection by clicking on the button **Test this connection**. Then a test event will be created in Sysdig.
 
 ![](../../.gitbook/assets/ilert%20%286%29.png)
 
 ## FAQ <a id="faq"></a>
 
-**Are updates to an incident published in the Sysdig Ticket?**
+**Are updates for an incident adapted in the corresponding Sysdig Event?**
 
 Yes, the state of the iLert Incident is reflected in the brief description of the Sysdig event, eg \[RESOLVED\] Host compute.infra is DOWN.
 
