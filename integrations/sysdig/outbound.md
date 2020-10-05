@@ -26,7 +26,7 @@ description: >-
 
 ![](../../.gitbook/assets/tpdko8.png)
 
-3. Select **Sysdig** as **type** and fill in all fields. Enter a name, the API Token that you copied [in the last step]().
+3. Select **Sysdig** as **type** and fill in all fields. Enter a name, the API Token that you copied in the last step.
 
 ![](../../.gitbook/assets/ilert%20%283%29.png)
 
