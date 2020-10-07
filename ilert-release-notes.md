@@ -6,6 +6,20 @@ description: >-
 
 # iLert Release Notes
 
+## October 2020
+
+### New features
+
+
+
+### New and updated integrations
+
+* Sysdig Inbound and Outbound Integration
+
+### Improvements
+
+
+
 ## September 2020
 
 ### New features
