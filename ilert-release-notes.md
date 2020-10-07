@@ -53,7 +53,7 @@ description: >-
 
 ### New Features
 
-* [Heartbeat Monitoring](uptime-monitors/heartbeat-monitoring.md)
+* [Heartbeat Monitoring](uptime-monitors/heartbeat-monitoring/)
 
 ## June 2020
 

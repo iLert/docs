@@ -71,7 +71,7 @@ iLert provides the following inbound integration options:
       <td style="text-align:left">Send alerts to iLert via SMS.</td>
     </tr>
     <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="../uptime-monitors/heartbeat-monitoring.md"><b>Hearbeat monitoring</b></a>
+      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="../uptime-monitors/heartbeat-monitoring/"><b>Hearbeat monitoring</b></a>
       </td>
       <td style="text-align:left">A heartbeat alert source will automatically create an incident if it does
         not receive a heartbeat signal from your app at regular intervals.</td>

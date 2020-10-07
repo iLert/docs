@@ -27,7 +27,9 @@
 ## Uptime & Heartbeat Monitors <a id="uptime-monitors"></a>
 
 * [Uptime Monitoring](uptime-monitors/uptime-monitoring.md)
-* [Heartbeat Monitoring](uptime-monitors/heartbeat-monitoring.md)
+* [Heartbeat Monitoring](uptime-monitors/heartbeat-monitoring/README.md)
+  * [Prometheus Heartbeat Example](uptime-monitors/heartbeat-monitoring/prometheus-heartbeat-example.md)
+  * [CLI Heartbeat Examples](uptime-monitors/heartbeat-monitoring/cli-heartbeat-examples.md)
 
 ## Integrations
 
