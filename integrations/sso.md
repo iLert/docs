@@ -10,5 +10,13 @@ weight: 1
 
 # Single Sign-On Setup
 
-This documentation is currently under maintenance and will be available soon.
+This page has been split and moved here:
+
+{% page-ref page="../single-sign-on/setting-up-sso-with-g-suite.md" %}
+
+{% page-ref page="../single-sign-on/setting-up-sso-with-azure-active-directory.md" %}
+
+{% page-ref page="../single-sign-on/setting-up-sso-with-okta.md" %}
+
+
 
