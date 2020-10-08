@@ -1,5 +1,5 @@
 ---
-description: The simplest way to monitor service / device health.
+description: 'The simplest way to monitor service, device or workflow health.'
 ---
 
 # Heartbeat Monitoring
