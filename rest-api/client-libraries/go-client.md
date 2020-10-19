@@ -10,7 +10,7 @@ You can find the official iLert Go client on our Github organization: [https://g
 
 Install as usual via `import ("github.com/iLert/ilert-go")`
 
-```text
+```go
 package main
 
 import (
