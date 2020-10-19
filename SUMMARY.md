@@ -13,6 +13,7 @@
 
 * [iLert REST API](rest-api/ilert-rest-api.md)
 * [Client Libraries](rest-api/client-libraries/README.md)
+  * [Go Client](rest-api/client-libraries/go-client.md)
   * [Rust Client](rest-api/client-libraries/rust-client.md)
   * [Javascript / Node.js Client](rest-api/client-libraries/javascript-node.js-client.md)
 * [API Samples](rest-api/api-samples/README.md)
