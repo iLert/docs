@@ -10,7 +10,7 @@ description: >-
 
 ### New features
 
-
+* Added new [Responder role](getting-started/user-roles-and-permissions.md#responder).
 
 ### New and updated integrations
 
@@ -18,7 +18,7 @@ description: >-
 
 ### Improvements
 
-
+* Call routing: added mailbox transcription to incident details and made voicemail links easier accessible in the incident links section
 
 ## September 2020
 
