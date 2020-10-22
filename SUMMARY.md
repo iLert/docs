@@ -39,6 +39,7 @@
 * [AppDynamics Integration](integrations/appdynamics.md)
 * [AWS Lambda Integration](integrations/aws-lambda.md)
 * [AWS Personal Health Dashboard Integration](integrations/aws-phd.md)
+* [AWS Budget Integration](integrations/awsbudget.md)
 * [Autotask Integration](integrations/autotask.md)
 * [Azure Function Integration](integrations/azure-functions.md)
 * [Check\_MK Integration](integrations/check-mk.md)
