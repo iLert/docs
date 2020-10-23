@@ -6,6 +6,14 @@ description: >-
 
 # iLert Mobile Release Notes
 
+## Oktober 2020
+
+### New features
+
+* Responder UI view
+
+### Improvements
+
 ## September 2020
 
 ### New features
