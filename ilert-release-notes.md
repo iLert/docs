@@ -20,8 +20,6 @@ description: >-
 ### Improvements
 
 * Call routing: added mailbox transcription to incident details and made voicemail links easier accessible in the incident links section
-* Each user that is part of an active schedule, is able to manage his on-call notification preferences in his profile settings
-* Optimizations for our REST API
 
 ## September 2020
 
