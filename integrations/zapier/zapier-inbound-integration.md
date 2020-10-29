@@ -40,7 +40,7 @@ description: >-
 
 ![](../../.gitbook/assets/screenshot_29_10_20__16_40%20%281%29.png)
 
-5. In the **Action Event** section choose the **Create Incident** action ****to create an incident when an Jira issue is created. Then click on the **Continue** button.
+5. In the **Action Event** section choose the **Create Incident** action ****to create an incident when a Jira issue is created. Then click on the **Continue** button.
 
 ![](../../.gitbook/assets/screenshot_29_10_20__16_45.png)
 
@@ -48,15 +48,15 @@ description: >-
 
 ![](../../.gitbook/assets/screenshot_29_10_20__16_47.png)
 
-7. On the next slide, in the **Integration Key** section, choose the Alert Source that you created before. In the **Incident key** section, we recommend to enter an incident key, so you can accept or resolved an incident in another Zaps. In the **Summary** section, enter or insert an incident summary. You can optionally enter or insert **Details**, **Priority** and **URL**. Then click on the **Continue** button.
+7. On the next slide, in the **Integration Key** section, choose the Alert Source that you created before. In the **Incident key** section, we recommend to enter an incident key, so you can accept or resolve an incident in other Zaps. In the **Summary** section, enter or insert an incident summary. You can optionally enter or insert **Details**, **Priority** and **URL**. Then click on the **Continue** button.
 
 ![](../../.gitbook/assets/screenshot_29_10_20__23_15.png)
 
-8. On the next slide, click on the **Test & Continue** to test incident creation.
+8. On the next slide, click on **Test & Continue** to test incident creation.
 
 ![](../../.gitbook/assets/screenshot_29_10_20__23_22.png)
 
-9. On the next slide, click on the **Turn On Zap** to activate your confugation.
+9. On the next slide, click on **Turn On Zap** to activate your confugation.
 
 ![](../../.gitbook/assets/screenshot_29_10_20__23_25.png)
 
