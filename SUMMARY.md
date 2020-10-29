@@ -76,6 +76,7 @@
 * [SMS Integration](integrations/sms-integration.md)
 * [SolarWinds Integration](integrations/solarwinds.md)
 * [Single Sign-On Setup](integrations/sso.md)
+* [Server Density](integrations/serverdensity.md)
 * [StatusCake Integration](integrations/statuscake.md)
 * [Sysdig Integration](integrations/sysdig/README.md)
   * [Sysdig Inbound Integration](integrations/sysdig/inbound.md)
