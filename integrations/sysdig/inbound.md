@@ -6,7 +6,7 @@ description: >-
 
 # Sysdig Inbound Integration
 
-With the iLert Sysdig integration, you can create incidents in iLert based on Sysdig event.
+With the iLert Sysdig integration you can create incidents in iLert based on Sysdig event.
 
 ## In iLert <a id="in-ilert"></a>
 

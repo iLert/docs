@@ -6,7 +6,7 @@ description: >-
 
 # Server Density
 
-With the iLert Server Density integration, you can create incidents in iLert based on Server Density notifications.
+With the iLert Server Density integration you can create incidents in iLert based on Server Density notifications.
 
 ## In iLert <a id="in-ilert"></a>
 
