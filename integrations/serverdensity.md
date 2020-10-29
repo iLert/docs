@@ -42,15 +42,15 @@ With the iLert Server Density integration you can create incidents in iLert base
 
 5. Click on **+** \(plus\) button
 
-### Configure an alert for service or device <a id="create-action-sequences"></a>
+### Configure an alert for a service or device <a id="create-action-sequences"></a>
 
-1. Go to **Services** or **Devices** and choose one that interests you**.** Click on the **Alerting tab**
+1. Go to **Services** or **Devices** and choose the one that interests you**.** Click on the **Alerting tab**
 
 2. Create an alert or use an existing one
 
 3. Click on the **alert action** that interests you
 
-4. Choose "iLert" unter **Trigger webhook** group
+4. Choose "iLert" under **Trigger webhook** group
 
 ![](../.gitbook/assets/my_website_-_server_density.png)
 
@@ -62,7 +62,7 @@ Yes
 
 **Will incidents in iLert be accepted automatically?**
 
-No, unfortunately Server Density accepted event is not compatible with iLert accepted event.
+No, unfortunately Server Density's notification is not compatible with iLert's accepted event.
 
 **Can I connect Server Density with multiple alert sources from iLert?**
 
