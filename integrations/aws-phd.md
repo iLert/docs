@@ -15,7 +15,7 @@ type: post
 
 AWS Personal Health Dashboard provides alerts and remediation guidance when AWS is experiencing events that may impact you.
 
-With iLert AWS Personal Health Dashboard Integration, you can receive AWS Personal Health Dashboard issues through iLert and easily extend AWS Personal Health Dashboard functionality with SMS, push, voice, and iLert rosters.
+With iLert AWS Personal Health Dashboard Integration, you can receive AWS Personal Health Dashboard issues through iLert and easily extend AWS Personal Health Dashboard functionality with SMS, push, voice, and iLert on-call schedules.
 
 ## In iLert <a id="in-ilert"></a>
 

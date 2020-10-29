@@ -13,7 +13,7 @@ type: post
 
 Amazon CloudWatch is a monitoring service for AWS cloud resources and applications running in the AWS Cloud. Amazon CloudWatch can monitor AWS resources, such as EC2 instances, Amazon DynamoDB tables, and Amazon RDS DB instances, as well as application and service generated metrics and log files.
 
-With iLert CloudWatch Integration, you can receive CloudWatch alerts through iLert and easily extend CloudWatch with SMS, push, voice, and iLert rosters.
+With iLert CloudWatch Integration, you can receive CloudWatch alerts through iLert and easily extend CloudWatch with SMS, push, voice, and iLert on-call schedules.
 
 ## In iLert: Create CloudWatch alert source <a id="create-alert-source"></a>
 
