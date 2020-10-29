@@ -10,7 +10,7 @@ With iLert AWS Budget Integration, you can receive AWS Budget alert through iLer
 
 ## In iLert <a id="in-ilert"></a>
 
-### Create AWS Budget alert source <a id="create-alert-source"></a>
+### Create an AWS Budget alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click "Create new alert source"
 
@@ -26,13 +26,13 @@ With iLert AWS Budget Integration, you can receive AWS Budget alert through iLer
 
 ### Create an SNS topic <a id="create-sns-topic"></a>
 
-> If you have already created an SNS topic for your AWS Budget that you want to reuse, you can proceed to step 3.
+> If you have already created an SNS topic for your AWS Budget, that you want to reuse, you can proceed to step 3.
 
-1. In the SNS Dashboard click on **Create topic**
+1. On the SNS Dashboard click on **Create topic**
 
 ![](../.gitbook/assets/awsphd0.png)
 
-2. Name the topic and click on **Create topic**
+2. Give the topic a name and click on **Create topic**
 
 ![](../.gitbook/assets/simple_notification_service.png)
 
@@ -58,7 +58,7 @@ With iLert AWS Budget Integration, you can receive AWS Budget alert through iLer
 
 You can now link any AWS Budget to the topic you have created. The following section describes how to create a budget and make the link.
 
-1. In AWS, click on **Profile Menu** icon and select **My Billing Dashboard**
+1. In AWS, click on the **Profile Menu** icon and select **My Billing Dashboard**
 
 ![](../.gitbook/assets/simple_notification_service%20%283%29.png)
 
@@ -70,11 +70,11 @@ You can now link any AWS Budget to the topic you have created. The following sec
 
 ![](../.gitbook/assets/billing_management_console%20%282%29.png)
 
-4. On the **Set your budget** page, choose settings that interests you and click on **Configure thresholds**
+4. On the **Set your budget** page, choose the settings according to your liking and click on **Configure thresholds**
 
 ![](../.gitbook/assets/billing_management_console%20%284%29.png)
 
-5. On the **Configure thresholds** page, in the **Amazon SNS** section, paste the **SNS ARN** that you generated before and make sure that you configure topic permission right \(you should see ✅ sign\), then click on **Confirm budget**
+5. On the **Configure thresholds** page, in the **Amazon SNS** section, paste the **SNS ARN** that you generated before and make sure that you configured the right topic permissions \(you should see ✅ sign\), then click on **Confirm budget**
 
 ![](../.gitbook/assets/billing_management_console%20%285%29.png)
 
