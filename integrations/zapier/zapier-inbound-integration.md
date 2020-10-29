@@ -44,7 +44,7 @@ description: >-
 
 ![](../../.gitbook/assets/screenshot_29_10_20__16_45.png)
 
-6. On the next slide, add if needed and choose your iLert account. Then click on the **Continue** button.
+6. On the next slide, choose your iLert account. Then click on the **Continue** button.
 
 ![](../../.gitbook/assets/screenshot_29_10_20__16_47.png)
 
