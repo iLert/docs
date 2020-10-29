@@ -30,7 +30,7 @@ description: >-
 
 ![](../../.gitbook/assets/screenshot_29_10_20__16_35.png)
 
-3. Choose account and customize the settings of you trigger source, then click on the **Done Editing** button
+3. Choose your account and customize the settings of you trigger source, then click on the **Done Editing** button
 
 4. Click on the **Choose an Action** button to add iLert action
 
