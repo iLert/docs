@@ -64,7 +64,7 @@
 * [Instana Integration](integrations/instana.md)
 * [Jira Integration](integrations/jira/README.md)
   * [Jira Inbound Integration](integrations/jira/inbound.md)
-  * [Jira Outbound Integration](integrations/jira/jira-outbound-integration.md)
+  * [Jira Outbound Integration](integrations/jira/outbound.md)
 * [Microsoft Teams Integration](integrations/microsoft-teams.md)
 * [Microsoft Teams Integration via Incoming Webhook](integrations/microsoft-teams-incoming-webhook.md)
 * [Nagios Integration](integrations/nagios.md)
