@@ -1,6 +1,6 @@
 ---
 description: >-
-  The iLert Jira outbound Integration helps you to easily connect iLert with
+  The iLert Jira Outbound Integration helps you to easily connect iLert with
   Jira.
 ---
 
