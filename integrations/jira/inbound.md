@@ -6,5 +6,5 @@ description: >-
 
 # Jira Inbound Integration
 
-Comming soon...
+Coming soon...
 
