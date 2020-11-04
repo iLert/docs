@@ -96,7 +96,7 @@ description: >-
   * [Google Cloud Functions](integrations/gcf.md)
   * [Microsoft Azure Functions](integrations/azure-functions.md)
 * [Icinga v2.x](integrations/icinga.md) \(updated\): there is a dedicated plugin for Icinga now on our [GitHub repo](https://github.com/iLert/ilert-icinga). You can now override the incident priority from within Icinga and we include the comments that you enter in Icinga when ack’ing a problem in the event log of the incident.
-* [JIRA](integrations/jira.md) \(updated\): When you setup a connection from your alert source in iLert to your JIRA instance, projects and issue types are now dynamically fetched from your JIRA instance, so you can select the issue types when iLert syncs an incident to JIRA. You can even include custom fields.
+* [JIRA](integrations/jira/) \(updated\): When you setup a connection from your alert source in iLert to your JIRA instance, projects and issue types are now dynamically fetched from your JIRA instance, so you can select the issue types when iLert syncs an incident to JIRA. You can even include custom fields.
 * [Webhook](integrations/webhook.md) \(updated\): you can now fully customize the payload for outbound webhooks.
 
 ### Improvements

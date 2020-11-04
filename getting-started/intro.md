@@ -45,7 +45,7 @@ iLert provides the following inbound integration options:
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><a href="../integrations/jira.md"><b>Tool integrations</b></a>
+      <td style="text-align:left"><a href="../integrations/jira/"><b>Tool integrations</b></a>
       </td>
       <td style="text-align:left">
         <p></p>
