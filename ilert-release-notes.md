@@ -6,6 +6,26 @@ description: >-
 
 # iLert Release Notes
 
+## November 2020
+
+### New features
+
+* New Notification Reports
+* Enhanced Email Deduplication for Email-Threads
+* Connectors and Connections are now available [via API](https://api.ilert.com/api-docs/#tag/Connections)
+* New [Go Client](https://github.com/iLert/ilert-go) with full API support
+* New [Terraform Provider](https://registry.terraform.io/providers/iLert/ilert/latest/docs) with full API support
+
+### New and updated integrations
+
+* Zapier [Inbound](integrations/zapier/inbound.md) and [Outbound](integrations/zapier/outbound.md) Integration
+* Jira [Inbound](integrations/jira/inbound.md) Integration
+* Server Density [Inbound](integrations/serverdensity.md) Integration
+
+### Improvements
+
+
+
 ## October 2020
 
 ### New features
