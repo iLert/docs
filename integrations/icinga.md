@@ -15,7 +15,7 @@ With the iLert Icinga Notification Plugin, you can easily integrate Icinga with 
 * Icinga 2.x.
 * Python 2.7.3 \(or higher\)
 
-> Are you using Icinga 1.x? Please refer to our [Nagios integration guide](/integrations/nagios).
+> Are you using Icinga 1.x? Please refer to our [Nagios integration guide](nagios.md).
 
 ## In iLert: create Icinga alert source <a id="create-alarm-source"></a>
 
@@ -141,7 +141,7 @@ object NotificationCommand "ilert-notification" {
 
 **Does the plugin also support Icinga 1.x?**
 
-No, you should use the [iLert Nagios Integration](/integrations/nagios).
+No, you should use the [iLert Nagios Integration](nagios.md).
 
 **The plugin does not work. How do I find the mistake?**
 
