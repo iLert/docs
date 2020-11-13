@@ -11,16 +11,17 @@ description: >-
 ### New features
 
 * New Notification Reports
-* Enhanced Email Deduplication for Email-Threads
 * Connectors and Connections are now available [via API](https://api.ilert.com/api-docs/#tag/Connections)
 * New [Go Client](https://github.com/iLert/ilert-go) with full API support
 * New [Terraform Provider](https://registry.terraform.io/providers/iLert/ilert/latest/docs) with full API support
 
 ### New and updated integrations
 
-* Zapier [Inbound](integrations/zapier/inbound.md) and [Outbound](integrations/zapier/outbound.md) Integration
-* Jira [Inbound](integrations/jira/inbound.md) Integration
-* Server Density [Inbound](integrations/serverdensity.md) Integration
+* New: Zapier [Inbound](integrations/zapier/inbound.md) and [Outbound](integrations/zapier/outbound.md) Integration
+* New: Jira [Inbound](integrations/jira/inbound.md) Integration
+* New: Server Density [Inbound](integrations/serverdensity.md) Integration
+* Updated [Email integration](integrations/email/): email deduplication now also works for email threads
+* Updated [Pingdom integration](integrations/pingdom.md): incidents created by Pingdom now include a backlink to Pingdom
 
 ### Improvements
 
@@ -30,12 +31,12 @@ description: >-
 
 ### New features
 
-* Added new [Responder role](getting-started/user-roles-and-permissions.md#responder).
+* Added new [Responder role](getting-started/user-roles-and-permissions.md#responder)
 * On-call duty notifications
 
 ### New and updated integrations
 
-* Sysdig Inbound and Outbound Integration
+* [Sysdig Inbound and Outbound Integration](integrations/sysdig/)
 
 ### Improvements
 
