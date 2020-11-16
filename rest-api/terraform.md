@@ -1,10 +1,10 @@
 ---
 description: >-
-  The iLert Terraform Integration helps you to easily create and manage iLert
-  resources.
+  iLert's Hashicorp Terraform Integration helps you to easily create and manage
+  iLert resources.
 ---
 
-# HashiCorp Terraform
+# Terraform
 
 You can find the official iLert Terraform Provider documentation [here](https://registry.terraform.io/providers/iLert/ilert/latest/docs) and [the source code for it](https://github.com/iLert/terraform-provider-ilert) on our Github organization.
 
@@ -58,5 +58,5 @@ resource "ilert_alert_source" "example" {
 }
 ```
 
-Please feel free to reach out to us with a Github issue in case you need help or have feature requests.
+Please feel free to [reach out to us](../contact.md) with a Github issue in case you need help or have feature requests.
 

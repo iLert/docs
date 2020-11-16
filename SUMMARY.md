@@ -17,6 +17,7 @@
   * [Go Client](rest-api/client-libraries/go-client.md)
   * [Rust Client](rest-api/client-libraries/rust-client.md)
   * [Javascript / Node.js Client](rest-api/client-libraries/javascript-node.js-client.md)
+* [Terraform](rest-api/terraform.md)
 * [API Samples](rest-api/api-samples/README.md)
   * [Sending events from PowerShell](rest-api/api-samples/sending-events-from-powershell.md)
 
@@ -63,7 +64,6 @@
 * [Kentix AlarmManager](integrations/kentix-am.md)
 * [Instana Integration](integrations/instana.md)
 * [HashiCorp Consul](integrations/consul.md)
-* [HashiCorp Terraform](integrations/terraform.md)
 * [Jira Integration](integrations/jira/README.md)
   * [Jira Inbound Integration](integrations/jira/inbound.md)
   * [Jira Outbound Integration](integrations/jira/outbound.md)
