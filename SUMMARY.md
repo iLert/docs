@@ -63,6 +63,7 @@
 * [Icinga Integration](integrations/icinga.md)
 * [Kentix AlarmManager](integrations/kentix-am.md)
 * [Instana Integration](integrations/instana.md)
+* [HashiCorp Consul](integrations/consul.md)
 * [Jira Integration](integrations/jira/README.md)
   * [Jira Inbound Integration](integrations/jira/inbound.md)
   * [Jira Outbound Integration](integrations/jira/outbound.md)
