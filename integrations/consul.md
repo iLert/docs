@@ -28,7 +28,7 @@ With the iLert HashiCorp Consul integration you can create incidents in iLert ba
 
 1. Install Consul-Alerts as per the guide at [https://github.com/AcalephStorage/consul-alerts/blob/master/README.md](https://github.com/AcalephStorage/consul-alerts/blob/master/README.md)
 
-2. Once Consul-Alerts is running, we can configure the iLert integration key using curl.
+2. Once the Consul-Alerts are running, we can set the iLert integration key using curl.
 
 ```bash
 curl -X PUT -d 'YOUR_API_KEY' http://localhost:8500/v1/kv/consul-alerts/config/notifiers/ilert/api-key
@@ -50,7 +50,7 @@ Yes, Consul-Alerts will resolve the iLert incident once health checks are passin
 
 **Will incidents in iLert be accepted automatically?**
 
-No, unfortunately Consul events are not compatible with iLert accepted event.
+No, unfortunately Consul events are not compatible with iLert accept events.
 
 **Can I connect Consul Server with multiple alert sources from iLert?**
 
