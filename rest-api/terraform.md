@@ -6,7 +6,11 @@ description: >-
 
 # Terraform
 
-You can find the official iLert Terraform Provider documentation [here](https://registry.terraform.io/providers/iLert/ilert/latest/docs) and [the source code for it](https://github.com/iLert/terraform-provider-ilert) on our Github organization.
+{% hint style="success" %}
+You can find the official iLert Terraform Provider documentation in the [Terraform Registry](https://registry.terraform.io/providers/iLert/ilert/latest/docs)
+{% endhint %}
+
+The the source code of the provider is also available on [Github](https://github.com/iLert/terraform-provider-ilert).
 
 ```text
 provider "ilert" {
