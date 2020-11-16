@@ -6,6 +6,8 @@ description: >-
 
 # Terraform
 
+Make monitoring and alerting part of your **Infrastructure as Code** projects and automate your requirments efficiently with iLert's Terraform provider.
+
 {% hint style="success" %}
 You can find the official iLert Terraform Provider documentation in the [Terraform Registry](https://registry.terraform.io/providers/iLert/ilert/latest/docs)
 {% endhint %}
