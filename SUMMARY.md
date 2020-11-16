@@ -59,6 +59,7 @@
   * [GitHub Outbound Issue Integration](integrations/github/outbound-issue.md)
 * [Google Stackdriver Integration](integrations/google-stackdriver.md)
 * [Grafana Integration](integrations/grafana.md)
+* [HashiCorp Terraform](integrations/terraform.md)
 * [Icinga Integration](integrations/icinga.md)
 * [Kentix AlarmManager](integrations/kentix-am.md)
 * [Instana Integration](integrations/instana.md)
