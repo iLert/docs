@@ -1,7 +1,5 @@
 ---
-description: >-
-  The iLert Datadog Outbound Integration helps you to easily connect iLert with
-  Datadog.
+description: Create events in Datadog from iLert incidents.
 ---
 
 # Datadog Outbound Integration
