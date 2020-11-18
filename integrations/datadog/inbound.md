@@ -60,7 +60,7 @@ With the iLert Datadog integration, you can create incidents in iLert based on D
 
 Yes, as soon as an Incident is closed in Datadog, the corresponding Incident is automatically resolved in iLert.
 
-**Can I link New Relic to several alert sources in iLert?**
+**Can I link Datadog to several alert sources in iLert?**
 
-Yes, create a webhook in Datadog for each alert source.With the iLert TOPdesk integration, you can create incidents in iLert based on TOPdesk event such as tickets or calls.
+Yes, create a webhook in Datadog for each alert source.
 
