@@ -32,6 +32,10 @@ The iLert Zapier-App is currently not available to all Zapier users. We are work
 
 5. On the next slide, choose **an alert source** and **trigger types** e.g. Incident Created. Then click on the **Continue** button.
 
+{% hint style="warning" %}
+NOTE: you can't use an Zapier alert source here, as it will lead to an infinite loop
+{% endhint %}
+
 ![](../../.gitbook/assets/edit_a_step___zapier%20%283%29.png)
 
 6. On the next slide, click on the **Test Trigger** button to see example data. Then click on the **Continue** button.
