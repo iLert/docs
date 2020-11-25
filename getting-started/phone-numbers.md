@@ -112,6 +112,17 @@ The number that iLert uses to send SMS notifications depends on the target count
 
 ## Phone call phone numbers <a id="voice-alerts"></a>
 
+The number that iLert uses to send voice notifications depends on the target country:
+
+
+
+| Country | Number | Description |
+| :--- | :--- | :--- |
+| USA and Canada | +1 240 258 2894 |  |
+| Germany | +49 157 3598 1212 |  |
+| United Kingdom | +44 7723 487389 | starting December 1st, 2020 |
+| Rest of the world | +49 157 3598 1212 |  |
+
 1. +49 157 3598 1212
 2. +49 221 8282 9337
 3. +1 240 2582 894

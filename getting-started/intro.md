@@ -126,3 +126,11 @@ You have the following response options:
 
 You can find a list of caller IDs for sms and phone calls [here](phone-numbers.md#sms-alerts).
 
+To set your notification preferences
+
+1. Click on your name on then top right and select **My profile**
+2. Go to the **Notification settings** tab
+3. Change your notification preferences and click **Save**
+
+![](../.gitbook/assets/screenshot-2020-11-25-at-13.30.30.png)
+
