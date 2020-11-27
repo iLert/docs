@@ -109,7 +109,7 @@ No.
   <thead>
     <tr>
       <th style="text-align:left">When I create an Autotask ticket with status...</th>
-      <th style="text-align:left">...than iLert Incident...</th>
+      <th style="text-align:left">...then an iLert Incident...</th>
     </tr>
   </thead>
   <tbody>
@@ -122,8 +122,8 @@ No.
       <td style="text-align:left"><b>Complete</b> or <b>Denied</b>
       </td>
       <td style="text-align:left">
-        <p>will not be created</p>
-        <p>and error 400 occurs</p>
+        <p>will not be created and a</p>
+        <p>400 (bad request) error occurs</p>
       </td>
     </tr>
     <tr>
@@ -150,8 +150,8 @@ No.
   <thead>
     <tr>
       <th style="text-align:left">When I update an Autotask ticket with status...</th>
-      <th style="text-align:left">...and iLert incident...</th>
-      <th style="text-align:left">...than iLert Incident...</th>
+      <th style="text-align:left">...and the<b> </b>iLert incident...</th>
+      <th style="text-align:left">...then the iLert Incident...</th>
     </tr>
   </thead>
   <tbody>
@@ -172,8 +172,8 @@ No.
       </td>
       <td style="text-align:left">does not exist</td>
       <td style="text-align:left">
-        <p>will not be created</p>
-        <p>and error 400 occurs</p>
+        <p>will not be created and a</p>
+        <p>400 (bad request) error occurs</p>
       </td>
     </tr>
     <tr>
@@ -185,29 +185,38 @@ No.
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><b>Waiting Customer</b> or <b>In Progress</b> or</p>
-        <p><b>Waiting Materials </b>or<b> Scheduled </b>or<b> Escalate</b> or</p>
+        <p><b>Waiting Customer</b> or <b>Waiting Materials </b>or<b> </b>
+        </p>
+        <p><b>Scheduled </b>or<b> Escalate</b> or</p>
         <p><b>Waiting Vendor</b> or <b>Waiting Approval</b> or</p>
         <p><b>Waiting Dispatch</b> or <b>Approved</b>
         </p>
       </td>
       <td style="text-align:left">does not exist</td>
       <td style="text-align:left">
-        <p>will not be created</p>
-        <p>and error 400 occurs</p>
+        <p>will not be created and a</p>
+        <p>400 (bad request) error occurs</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">
         <p><b>Waiting Customer</b> or <b>In Progress</b> or</p>
-        <p><b>Waiting Materials </b>or<b> Scheduled </b>or<b> Escalate</b> or</p>
-        <p><b>Waiting Vendor</b> or <b>Waiting Approval</b> or</p>
+        <p><b>Waiting Materials </b>or<b> Scheduled </b>or<b> </b>
+        </p>
+        <p><b>Escalate</b> or <b>Waiting Vendor</b> or</p>
+        <p><b>Waiting Approval</b> or</p>
         <p><b>Waiting Dispatch</b> or <b>Approved</b>
         </p>
       </td>
       <td style="text-align:left">exists</td>
       <td style="text-align:left">change status to <b>Accepted</b>
       </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>In Progress</b>
+      </td>
+      <td style="text-align:left">does not exist</td>
+      <td style="text-align:left">is created</td>
     </tr>
     <tr>
       <td style="text-align:left">Any other</td>
