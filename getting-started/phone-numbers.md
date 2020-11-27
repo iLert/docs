@@ -38,7 +38,6 @@ The number that iLert uses to send SMS notifications depends on the target count
     <tr>
       <th style="text-align:left">Country</th>
       <th style="text-align:left">Number</th>
-      <th style="text-align:left">Description</th>
     </tr>
   </thead>
   <tbody>
@@ -48,7 +47,6 @@ The number that iLert uses to send SMS notifications depends on the target count
         <p>+1 256 391 4978</p>
         <p>+1 240 258 2894</p>
       </td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Germany</td>
@@ -57,47 +55,38 @@ The number that iLert uses to send SMS notifications depends on the target count
         <p>+49 157 3598 3922</p>
         <p>+49 157 3598 7811</p>
       </td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Austria</td>
       <td style="text-align:left">+43 676 800 104 503</td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Switzerland</td>
       <td style="text-align:left">+41 798 076 081</td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">United Kingdom</td>
       <td style="text-align:left">+44 7723 487 389</td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Belgium</td>
       <td style="text-align:left">+32 460 229 075</td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Sweden</td>
       <td style="text-align:left">+46 79 064 52 58</td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Chile</td>
       <td style="text-align:left">+56 9 3761 0047</td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Netherlands</td>
       <td style="text-align:left">+31 97014201761</td>
-      <td style="text-align:left">Incident actions via SMS are not supported</td>
     </tr>
     <tr>
       <td style="text-align:left">Poland</td>
       <td style="text-align:left">+48 732 230 768</td>
-      <td style="text-align:left"></td>
     </tr>
     <tr>
       <td style="text-align:left">Rest of the world</td>
@@ -105,7 +94,6 @@ The number that iLert uses to send SMS notifications depends on the target count
         <p>+1 256 391 4978</p>
         <p>+1 240 258 2894</p>
       </td>
-      <td style="text-align:left"></td>
     </tr>
   </tbody>
 </table>
@@ -123,9 +111,7 @@ The number that iLert uses to send voice notifications depends on the target cou
 | United Kingdom | +44 7723 487389 | starting December 1st, 2020 |
 | Australia | +61 480 020 343 | starting December 1st, 2020 |
 | Sweden | +46 72800060 | starting December 1st, 2020 |
-| Austria |  | starting December 1st, 2020 |
-| France |  | starting December 1st, 2020 |
 | Belgium | +32 460 22 90 75 | starting December 1st, 2020 |
-| Netherlands | +31 97010252693 |  |
+| Netherlands | +31 97010252693 | starting December 1st, 2020 |
 | Rest of the world | +49 157 3598 1212 |  |
 
