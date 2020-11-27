@@ -143,7 +143,7 @@ With the iLert Autotask integration, you can create incidents in iLert based on 
     <tr>
       <th style="text-align:left">When I update an Autotask ticket with status...</th>
       <th style="text-align:left">...and the<b> </b>iLert incident...</th>
-      <th style="text-align:left">...then the iLert Incident...</th>
+      <th style="text-align:left">...then the/an iLert Incident...</th>
     </tr>
   </thead>
   <tbody>
@@ -198,8 +198,7 @@ With the iLert Autotask integration, you can create incidents in iLert based on 
       <td style="text-align:left"><b>Complete</b> or <b>Denied</b>
       </td>
       <td style="text-align:left">exists</td>
-      <td style="text-align:left">change status to <b>Resolved</b>
-      </td>
+      <td style="text-align:left">change status to <b>Resolved</b> if not already resolved</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -212,8 +211,7 @@ With the iLert Autotask integration, you can create incidents in iLert based on 
         </p>
       </td>
       <td style="text-align:left">exists</td>
-      <td style="text-align:left">change status to <b>Accepted</b>
-      </td>
+      <td style="text-align:left">change status to <b>Accepted</b> if not already accepted</td>
     </tr>
     <tr>
       <td style="text-align:left">Any other</td>
