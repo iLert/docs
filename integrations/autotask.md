@@ -105,6 +105,15 @@ With the iLert Autotask integration, you can create incidents in iLert based on 
       <td style="text-align:left">is created</td>
     </tr>
     <tr>
+      <td style="text-align:left"><b>In Progress</b>
+      </td>
+      <td style="text-align:left">is created</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Any other</td>
+      <td style="text-align:left">is created</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><b>Complete</b> or <b>Denied</b>
       </td>
       <td style="text-align:left">
@@ -114,20 +123,17 @@ With the iLert Autotask integration, you can create incidents in iLert based on 
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><b>Waiting Customer</b> or <b>In Progress</b> or</p>
-        <p><b>Waiting Materials </b>or<b> Scheduled </b>or<b> Escalate</b> or</p>
+        <p><b>Waiting Customer</b> or <b>Waiting Materials </b>or<b> </b>
+        </p>
+        <p><b>Scheduled </b>or<b> Escalate</b> or</p>
         <p><b>Waiting Vendor</b> or <b>Waiting Approval</b> or</p>
         <p><b>Waiting Dispatch</b> or <b>Approved</b>
         </p>
       </td>
       <td style="text-align:left">
-        <p>will not be created</p>
-        <p>and error 400 occurs</p>
+        <p>will not be created and a</p>
+        <p>400 (bad request) error occurs</p>
       </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Any other</td>
-      <td style="text-align:left">is created</td>
     </tr>
   </tbody>
 </table>
@@ -148,25 +154,12 @@ With the iLert Autotask integration, you can create incidents in iLert based on 
       <td style="text-align:left">is created</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>New</b>
-      </td>
-      <td style="text-align:left">exists</td>
-      <td style="text-align:left">doesn&apos;t change</td>
-    </tr>
-    <tr>
       <td style="text-align:left"><b>Complete</b> or <b>Denied</b>
       </td>
       <td style="text-align:left">does not exist</td>
       <td style="text-align:left">
         <p>will not be created and a</p>
         <p>400 (bad request) error occurs</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Complete</b> or <b>Denied</b>
-      </td>
-      <td style="text-align:left">exists</td>
-      <td style="text-align:left">change status to <b>Resolved</b>
       </td>
     </tr>
     <tr>
@@ -185,6 +178,30 @@ With the iLert Autotask integration, you can create incidents in iLert based on 
       </td>
     </tr>
     <tr>
+      <td style="text-align:left"><b>In Progress</b>
+      </td>
+      <td style="text-align:left">does not exist</td>
+      <td style="text-align:left">is created</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Any other</td>
+      <td style="text-align:left">does not exist</td>
+      <td style="text-align:left">is created</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>New</b>
+      </td>
+      <td style="text-align:left">exists</td>
+      <td style="text-align:left">doesn&apos;t change</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Complete</b> or <b>Denied</b>
+      </td>
+      <td style="text-align:left">exists</td>
+      <td style="text-align:left">change status to <b>Resolved</b>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left">
         <p><b>Waiting Customer</b> or <b>In Progress</b> or</p>
         <p><b>Waiting Materials </b>or<b> Scheduled </b>or<b> </b>
@@ -197,17 +214,6 @@ With the iLert Autotask integration, you can create incidents in iLert based on 
       <td style="text-align:left">exists</td>
       <td style="text-align:left">change status to <b>Accepted</b>
       </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>In Progress</b>
-      </td>
-      <td style="text-align:left">does not exist</td>
-      <td style="text-align:left">is created</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Any other</td>
-      <td style="text-align:left">does not exist</td>
-      <td style="text-align:left">is created</td>
     </tr>
     <tr>
       <td style="text-align:left">Any other</td>
