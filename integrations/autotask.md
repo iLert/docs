@@ -103,3 +103,122 @@ Yes, simply create more Extension Callouts in Autotask.
 
 No.
 
+**What happens in iLert when I create or update my ticket in Autotask?**
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">When I create an Autotask ticket with status...</th>
+      <th style="text-align:left">...than iLert Incident...</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>New</b>
+      </td>
+      <td style="text-align:left">is created</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Complete</b> or <b>Denied</b>
+      </td>
+      <td style="text-align:left">
+        <p>will not be created</p>
+        <p>and error 400 occurs</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><b>Waiting Customer</b> or <b>In Progress</b> or</p>
+        <p><b>Waiting Materials </b>or<b> Scheduled </b>or<b> Escalate</b> or</p>
+        <p><b>Waiting Vendor</b> or <b>Waiting Approval</b> or</p>
+        <p><b>Waiting Dispatch</b> or <b>Approved</b>
+        </p>
+      </td>
+      <td style="text-align:left">
+        <p>will not be created</p>
+        <p>and error 400 occurs</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Any other</td>
+      <td style="text-align:left">is created</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">When I update an Autotask ticket with status...</th>
+      <th style="text-align:left">...and iLert incident...</th>
+      <th style="text-align:left">...than iLert Incident...</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b>New</b>
+      </td>
+      <td style="text-align:left">does not exist</td>
+      <td style="text-align:left">is created</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>New</b>
+      </td>
+      <td style="text-align:left">exists</td>
+      <td style="text-align:left">doesn&apos;t change</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Complete</b> or <b>Denied</b>
+      </td>
+      <td style="text-align:left">does not exist</td>
+      <td style="text-align:left">
+        <p>will not be created</p>
+        <p>and error 400 occurs</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Complete</b> or <b>Denied</b>
+      </td>
+      <td style="text-align:left">exists</td>
+      <td style="text-align:left">change status to <b>Resolved</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><b>Waiting Customer</b> or <b>In Progress</b> or</p>
+        <p><b>Waiting Materials </b>or<b> Scheduled </b>or<b> Escalate</b> or</p>
+        <p><b>Waiting Vendor</b> or <b>Waiting Approval</b> or</p>
+        <p><b>Waiting Dispatch</b> or <b>Approved</b>
+        </p>
+      </td>
+      <td style="text-align:left">does not exist</td>
+      <td style="text-align:left">
+        <p>will not be created</p>
+        <p>and error 400 occurs</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><b>Waiting Customer</b> or <b>In Progress</b> or</p>
+        <p><b>Waiting Materials </b>or<b> Scheduled </b>or<b> Escalate</b> or</p>
+        <p><b>Waiting Vendor</b> or <b>Waiting Approval</b> or</p>
+        <p><b>Waiting Dispatch</b> or <b>Approved</b>
+        </p>
+      </td>
+      <td style="text-align:left">exists</td>
+      <td style="text-align:left">change status to <b>Accepted</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Any other</td>
+      <td style="text-align:left">does not exist</td>
+      <td style="text-align:left">is created</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Any other</td>
+      <td style="text-align:left">exists</td>
+      <td style="text-align:left">doesn&apos;t change</td>
+    </tr>
+  </tbody>
+</table>
+
