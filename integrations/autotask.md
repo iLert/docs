@@ -89,21 +89,7 @@ With the iLert Autotask integration, you can create incidents in iLert based on 
 
 ![](../.gitbook/assets/autotask14%20%281%29.png)
 
-## FAQ <a id="faq"></a>
-
-**Will incidents in iLert be resolved automatically?**
-
-Yes, as soon as an Autotask Ticket is completed, the incident in iLert will be resolved automatically.
-
-**Can I connect Autotask with multiple alert sources from iLert?**
-
-Yes, simply create more Extension Callouts in Autotask.
-
-**Can I customize the incident messages?**
-
-No.
-
-**What happens in iLert when I create or update my ticket in Autotask?**
+## Autotask Incident Lifecycle
 
 <table>
   <thead>
@@ -230,4 +216,20 @@ No.
     </tr>
   </tbody>
 </table>
+
+## FAQ <a id="faq"></a>
+
+**Will incidents in iLert be resolved automatically?**
+
+Yes, as soon as an Autotask Ticket is completed, the incident in iLert will be resolved automatically.
+
+**Can I connect Autotask with multiple alert sources from iLert?**
+
+Yes, simply create more Extension Callouts in Autotask.
+
+**Can I customize the incident messages?**
+
+No.
+
+
 
