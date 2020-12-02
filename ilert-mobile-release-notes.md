@@ -6,6 +6,28 @@ description: >-
 
 # iLert Mobile Release Notes
 
+## November 2020
+
+### New features
+
+* Manage alert sources in the app
+* User catalog
+* Onboarding for vcard push notifications
+* Manage on-call notifications in the app
+* App information
+* App reset in iOS app settings
+* Native language settings for the app
+* Added more custom sounds for notifications
+* Added timeline filter to the incident view
+* Added account role description in user settings
+
+### Improvements
+
+* Problem with push notification actions fixed where an action may not have been triggered
+* Problem with shift override in some cases the change was not immediately visible
+
+
+
 ## October 2020
 
 ### New features
