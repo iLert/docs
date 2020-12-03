@@ -6,7 +6,7 @@ description: >-
 
 # Autotask Inbound Integration
 
-With the iLert Autotask integration, you can create incidents in iLert based on tickets from Autotask.
+With the iLert Autotask inbound integration, you can create incidents in iLert based on tickets from Autotask.
 
 ## In Autotask: Create an API user <a id="create-api-user"></a>
 
@@ -20,11 +20,11 @@ With the iLert Autotask integration, you can create incidents in iLert based on 
 
 1. In the **First Name** section, enter a first name eg. iLert
 2. In the **Last Name** section, enter a last name eg. API
-3. In the **Email** section, enter an email eg. support@ilert.com
+3. In the **Email** section, enter an email
 4. Click the **Generate key** button to generate a username and then the **Generate Secret** button to generate a password. You will need **Username** and **Secret** below when setting up the alert source.
 5. In the **Integration Vendor** section, choose iLert or your custom internal integration
 
-![](../../.gitbook/assets/autotask3%20%281%29.png)
+![](../../.gitbook/assets/autotask3%20%283%29.png)
 
 ## In iLert: Create an Autotask alert source <a id="create-alert-source"></a>
 
