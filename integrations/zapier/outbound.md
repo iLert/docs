@@ -6,10 +6,6 @@ description: >-
 
 # Zapier Outbound Integration
 
-{% hint style="danger" %}
-The iLert Zapier-App is currently not available to all Zapier users. We are working on it to make the app available for all in the near future. Many thanks for your understanding.
-{% endhint %}
-
 ## In Zapier <a id="in-ilert"></a>
 
 ### Create a Zap <a id="create-action-sequences"></a>
