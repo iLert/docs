@@ -6,6 +6,22 @@ description: >-
 
 # iLert Release Notes
 
+## December 2020
+
+### New features
+
+
+
+### New and updated integrations
+
+* Autotask Outbound Integration
+
+### Improvements
+
+* Links and Images for Incidents with automatic connections
+* Fixed potential collision where incident was accepted at the same time between voice call and alert source integration / api call
+* Added new public numbers to /api/v1/numbers resource
+
 ## November 2020
 
 ### New features
@@ -22,10 +38,6 @@ description: >-
 * New: Server Density [Inbound](integrations/serverdensity.md) Integration
 * Updated [Email integration](integrations/email/): email deduplication now also works for email threads
 * Updated [Pingdom integration](integrations/pingdom.md): incidents created by Pingdom now include a backlink to Pingdom
-
-### Improvements
-
-
 
 ## October 2020
 
