@@ -52,15 +52,19 @@ With the iLert Autotask outbound integration, you can create tickets in Autotask
 
 ![](../../.gitbook/assets/ilert%20%2818%29.png)
 
-6. Finished! You can now test the connection by clicking on the button **Test this connection**. Then a test ticket will be published in Autotask.
+6. Finished! You can now test the connection by clicking on the button **Test this connection**. Then a test ticket will be created in Autotask.
 
 ![](../../.gitbook/assets/ilert%20%2816%29.png)
 
 ## FAQ <a id="faq"></a>
 
-**Are updates to an incident published in the Autoask?**
+**Are updates to an incident published in Autotask?**
 
 Yes.
+
+**Can Autotask alert sources use Autotask connections?**
+
+No, please create a different alert source.
 
 \*\*\*\*
 
