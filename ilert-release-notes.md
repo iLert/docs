@@ -88,7 +88,7 @@ description: >-
 
 ### New and updated integrations
 
-* [Autotask](integrations/autotask.md)
+* [Autotask](integrations/autotask/)
 * [Zabbix](integrations/zabbix/native.md) \(updated\): Starting Zabbix 4.4, iLert can be integrated as a media type into Zabbix. Zabbix 5.0.4+ includes iLert as a media type by default. See also Zabbix blog post: [Working with multiple on-call teams using Zabbix and iLert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/) 
 * [Prometheus](integrations/prometheus.md) \(updated\): improved readabiltiy of prometheus incidents
 
