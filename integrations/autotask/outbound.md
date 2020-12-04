@@ -1,7 +1,5 @@
 ---
-description: >-
-  The iLert Autotask Outbound Integration helps you to easily connect Autotask
-  with iLert.
+description: Create tickets in Autotask PSA from iLert incidents.
 ---
 
 # Autotask Outbound Integration

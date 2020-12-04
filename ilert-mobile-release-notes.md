@@ -10,33 +10,26 @@ description: >-
 
 ### New features
 
-* Manage alert sources in the app
-* User catalog
-* Onboarding for vcard push notifications
-* Manage on-call notifications in the app
-* App information
+* View alert sources in the app
+* User directory
+* iLert vCard: during onboarding, an iLert contact is created containing all [phone numbers](getting-started/phone-numbers.md#sms-alerts) for SMS and voice notifications
+* Manage on-call reminder notifications in the app
+* Added app information section
 * App reset in iOS app settings
-* Native language settings for the app
+* Switch between English and German in the native settings for the app
 * Added more custom sounds for notifications
 * Added timeline filter to the incident view
-* Added account role description in user settings
 
 ### Improvements
 
 * Problem with push notification actions fixed where an action may not have been triggered
 * Problem with shift override in some cases the change was not immediately visible
 
-
-
 ## October 2020
 
 ### New features
 
 * Responder UI view
-
-### Improvements
-
-
 
 ## September 2020
 
