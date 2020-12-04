@@ -14,13 +14,14 @@ description: >-
 
 ### New and updated integrations
 
-* Autotask Outbound Integration
+* New: [Autotask Outbound Integration](integrations/autotask/outbound.md)
 
 ### Improvements
 
 * Links and Images for Incidents with automatic connections
-* Fixed potential collision where incident was accepted at the same time between voice call and alert source integration / api call
-* Added new public numbers to /api/v1/numbers resource
+* Adedd [international caller IDs for voice alerts](getting-started/phone-numbers.md#voice-alerts) for USA and Canada, UK, Australia, Belgium and Netherlands
+
+
 
 ## November 2020
 
