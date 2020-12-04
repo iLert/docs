@@ -1,7 +1,5 @@
 ---
-description: >-
-  The iLert Autotask Inbound Integration helps you to easily connect iLert with
-  Autotask.
+description: Create incidents in iLert from tickets in Autotask PSA.
 ---
 
 # Autotask Inbound Integration
