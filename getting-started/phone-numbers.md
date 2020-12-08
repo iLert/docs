@@ -111,59 +111,14 @@ The number that iLert uses to send voice notifications depends on the target cou
 
 
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Country</th>
-      <th style="text-align:left">Number</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">USA and Canada</td>
-      <td style="text-align:left">+1 240 258 2894</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Germany</td>
-      <td style="text-align:left">+49 157 3598 1212</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
-      <td style="text-align:left">United Kingdom</td>
-      <td style="text-align:left">+44 7723 487389</td>
-      <td style="text-align:left">starting December 1st, 2020</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Australia</td>
-      <td style="text-align:left">+61 480 020 343</td>
-      <td style="text-align:left">starting December 1st, 2020</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Sweden</td>
-      <td style="text-align:left">
-        <p>+46 72800060</p>
-        <p>+46 72890428</p>
-      </td>
-      <td style="text-align:left"><del>starting December 1st, 2020 </del>
-        <br />(rollout has been cancelled and is pending)</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Belgium</td>
-      <td style="text-align:left">+32 460 22 90 75</td>
-      <td style="text-align:left">starting December 1st, 2020</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Netherlands</td>
-      <td style="text-align:left">+31 97010252693</td>
-      <td style="text-align:left">starting December 1st, 2020</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Rest of the world</td>
-      <td style="text-align:left">+49 157 3598 1212</td>
-      <td style="text-align:left"></td>
-    </tr>
-  </tbody>
-</table>
+| Country | Number | Description |
+| :--- | :--- | :--- |
+| USA and Canada | +1 240 258 2894 |  |
+| Germany | +49 157 3598 1212 |  |
+| United Kingdom | +44 7723 487389 | starting December 1st, 2020 |
+| Australia | +61 480 020 343 | starting December 1st, 2020 |
+| Sweden | - | ~~starting December 1st, 2020~~  \(rollout has been cancelled and is pending\) |
+| Belgium | +32 460 22 90 75 | starting December 1st, 2020 |
+| Netherlands | +31 97010252693 | starting December 1st, 2020 |
+| Rest of the world | +49 157 3598 1212 |  |
 
