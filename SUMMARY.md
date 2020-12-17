@@ -47,7 +47,7 @@
 * [Azure Function Integration](integrations/azure-functions.md)
 * [checkmk Integration \(legacy\)](integrations/check-mk.md)
 * [checkmk Integrations](integrations/checkmk/README.md)
-  * [checkmk Integration \(native\)](integrations/checkmk/checkmk-native.md)
+  * [checkmk Integration \(native\)](integrations/checkmk/native.md)
 * [Datadog Integration](integrations/datadog/README.md)
   * [Datadog Inbound Integration](integrations/datadog/inbound.md)
   * [Datadog Outbound Integration](integrations/datadog/outbound.md)
