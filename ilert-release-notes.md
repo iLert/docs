@@ -37,6 +37,7 @@ description: >-
 * New: Zapier [Inbound](integrations/zapier/inbound.md) and [Outbound](integrations/zapier/outbound.md) Integration
 * New: Jira [Inbound](integrations/jira/inbound.md) Integration
 * New: Server Density [Inbound](integrations/serverdensity.md) Integration
+* New: [Consul](integrations/consul.md) integration
 * Updated [Email integration](integrations/email/): email deduplication now also works for email threads
 * Updated [Pingdom integration](integrations/pingdom.md): incidents created by Pingdom now include a backlink to Pingdom
 
