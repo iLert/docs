@@ -19,7 +19,7 @@ description: >-
 ### Improvements
 
 * New on-call schedule styles for all schedule views
-* SAML2 SSO auto-provision now supports custom provision attributes
+* SAML2 SSO auto-provision now supports [custom provision attributes](https://docs.ilert.com/single-sign-on/setting-up-sso-with-azure-active-directory#passing-additional-attributes-during-auto-provisioning)
 
 ## December 2020
 

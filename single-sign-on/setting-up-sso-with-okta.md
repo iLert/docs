@@ -119,5 +119,15 @@ In case of a username change, Okta might inform you in some cases that the chang
 Please note that the email address can be changed without breaking the login or account binding. However the notifications of the iLert user will still be send to the old email address. The iLert user can safely change the email address for his notifications under profile settings.
 {% endhint %}
 
+### Passing additional attributes during auto-provisioning
 
+You may pass optional attributes in the SAML2 response to adjust the created user.
+
+| Attribute | Values | Default |
+| :--- | :--- | :--- |
+| firstName | String | parsed from email \(claim\) |
+| lastName | String | parsed from email \(claim\) |
+| role | STAKEHOLDER, GUEST, RESPONDER, USER, ADMIN | USER |
+| position | String | none |
+| department | String | none |
 
