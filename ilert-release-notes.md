@@ -6,6 +6,21 @@ description: >-
 
 # iLert Release Notes
 
+## 
+
+## Januar 2021
+
+### New features
+
+* 
+### New and updated integrations
+
+* 
+### Improvements
+
+* New on-call schedule styles for all schedule views
+* SAML2 SSO auto-provision now supports custom provision attributes
+
 ## December 2020
 
 ### New features

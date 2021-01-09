@@ -109,5 +109,17 @@ You can easily auto-provision users on their first SSO login by enabling the che
 
 You can optionally disable the login for username and password combinations on your iLert account and enforce users to use SSO by disabling the checkbox for Allow login with username and password in your iLert account's settings.
 
+### Passing additional attributes during auto-provisioning
+
+You may pass optional attributes in the SAML2 response to adjust the created user.
+
+| Attribute | Values | Default |
+| :--- | :--- | :--- |
+| firstName | String | parsed from email \(claim\) |
+| lastName | String | parsed from email \(claim\) |
+| role | STAKEHOLDER, GUEST, RESPONDER, USER, ADMIN | USER |
+| position | String | none |
+| department | String | none |
+
 
 
