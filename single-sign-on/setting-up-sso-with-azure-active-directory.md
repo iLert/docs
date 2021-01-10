@@ -42,7 +42,7 @@ Configure the basic SAML Settings
 Log in to your iLert account as **account owner**, navigate to your **Account Settings** \(cog right-side navigation\) and click on the **Single sign-on** tab.
 
 {% hint style="info" %}
-SSO with SAML requires your account to be on a Premium or Enterprise Plan, please always feel free to reach out in case you have any questions.
+SSO with SAML requires your account to be on a Premium or Enterprise Plan.
 {% endhint %}
 
 ![](../.gitbook/assets/ilert.png)
@@ -81,9 +81,9 @@ You have now properly adjusted the SAML claim name of your app.
 
 ## Adding Azure Users to your Azure AD SAML App
 
-Right now both your iLert account and your Azure AD App are properly configured. However you have not yet added any users to your app, which means no one is able to login currently. Lets change that.
+Right now both your iLert account and your Azure AD App are properly configured. However you have not yet added any users to your app, which means no one is able to login currently. Let's change that.
 
-Head to your app's settings and click on **Users and Groups**.
+Go to your app's settings and click on **Users and Groups**.
 
 ![](../.gitbook/assets/ilert_sso___users_and_groups_-_microsoft_azure.png)
 
@@ -103,11 +103,13 @@ Your users should now be able to login to iLert using their Azure AD accounts.
 
 ### Auto-provisioning Azure AD Users in iLert
 
-You can easily auto-provision users on their first SSO login by enabling the checkbox for **Provision new users on first sso login** in your iLert account's settings. This way user accounts will be automatically setup with the role **User** in iLert. Keep in mind that this will require your account to have enough seats booked.
+You can auto-provision users on their first SSO login by enabling the checkbox for **Provision new users on first sso login** in your iLert account's settings. This way user accounts will be automatically setup with the role **User** in iLert. Optionally, you can also pass in the user's role via custom SAML attributes. See  below for more information.
+
+Keep in mind that auto-provisioning new users will require your account to have enough seats booked.
 
 ### Disable login with username and password
 
-You can optionally disable the login for username and password combinations on your iLert account and enforce users to use SSO by disabling the checkbox for Allow login with username and password in your iLert account's settings.
+You can optionally disable the login for username and password combinations on your iLert account and enforce users to use SSO by disabling the checkbox for **Allow login with username and password** in your iLert account's settings.
 
 ### Passing additional attributes during auto-provisioning
 
