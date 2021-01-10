@@ -10,12 +10,6 @@ description: >-
 
 ## Januar 2021
 
-### New features
-
-* 
-### New and updated integrations
-
-* 
 ### Improvements
 
 * New on-call schedule styles for all schedule views
@@ -26,7 +20,7 @@ description: >-
 ### New features
 
 * Irregular Schedules new calendar UI
-* Call Routing Numbers: You may now choose if an incident is resolved on agent/caller hang-up 
+* Call Routing: You may now choose if an incident is resolved on agent/caller hang-up 
 
 ### New and updated integrations
 
