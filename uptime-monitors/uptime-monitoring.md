@@ -43,13 +43,13 @@ The API even offers to create shareable links to automatically build status dash
 
 ## Frequently asked questions
 
-### From which locations do I have to expect uptime checks
+### From which locations do I have to expect uptime checks?
 
 Currently when choosing iLert's **Europe** region you should at least expect checks from _Frankfurt_ and _Dublin_. When choosing iLert's **United States** region you should at least expect checks from _Virginia_ and _California_.
 
 ### How can I detect HTTP uptime checks?
 
-The checks will always contain the `user-agent` HTTP header with the value: `iLert`
+The checks will always contain the `user-agent` HTTP header. The header value **will always start** with : `iLert`
 
 ### How can I detect TCP/UDP uptime checks?
 
