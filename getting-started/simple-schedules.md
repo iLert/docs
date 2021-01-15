@@ -6,9 +6,9 @@ Simple schedules work like regular calendars and do not support recurring shifts
 
 To create a simple schedule, navigate to **On-call schedules,** click on **Create new on-call schedule** and chose **Create simple schedule**.
 
-![](../.gitbook/assets/ilert%20%2824%29.png)
+![Week view](../.gitbook/assets/ilert%20%2824%29.png)
 
-![](../.gitbook/assets/ilert%20%2825%29.png)
+![Month view](../.gitbook/assets/ilert%20%2825%29.png)
 
 Enter a name for the schedule, pick a timezone \(by default the account-level timezone\) and choose a default shift duration. The default shift duration is the duration of a shift that is set when you drag a user to the schedule. Follow the instructions below to create shifts.
 
