@@ -1,7 +1,7 @@
 ---
 description: >-
-  iLert's Hashicorp Terraform Integration helps you to easily create and manage
-  iLert resources.
+  iLert's Hashicorp Terraform Integration helps you to create and manage iLert
+  resources.
 ---
 
 # Terraform

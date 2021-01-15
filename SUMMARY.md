@@ -13,7 +13,9 @@
 ## REST API
 
 * [iLert REST API](rest-api/ilert-rest-api.md)
+* [Rate Limiting](rest-api/alertsource-throttle.md)
 * [Client Libraries](rest-api/client-libraries/README.md)
+  * [iLert Agent - ilagent](rest-api/client-libraries/ilagent.md)
   * [Go Client](rest-api/client-libraries/go-client.md)
   * [Rust Client](rest-api/client-libraries/rust-client.md)
   * [Javascript / Node.js Client](rest-api/client-libraries/javascript-node.js-client.md)
@@ -107,8 +109,6 @@
 ---
 
 * [Contact us](contact.md)
-* [Rate Limiting](alertsource-throttle.md)
-* [iLert Agent - ilagent](ilagent.md)
 * [iLert Release Notes](ilert-release-notes.md)
 * [iLert Mobile Release Notes](ilert-mobile-release-notes.md)
 

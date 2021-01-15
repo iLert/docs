@@ -6,9 +6,7 @@ description: >-
 
 # iLert Release Notes
 
-## 
-
-## Januar 2021
+## January 2021
 
 ### Improvements
 

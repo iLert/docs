@@ -178,7 +178,3 @@ To change a user's role
 
 ![](../.gitbook/assets/screenshot-2020-10-21-at-18.12.57.png)
 
-{% hint style="info" %}
-If you need help with the roles or are looking for different permission [feel free to get in touch](../contact.md)
-{% endhint %}
-
