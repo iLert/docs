@@ -8,6 +8,7 @@
 * [iLert domains, emails & phone numbers](getting-started/phone-numbers.md)
 * [User roles and permissions](getting-started/user-roles-and-permissions.md)
 * [Stakeholder engagement](getting-started/stakeholder-engagement.md)
+* [Simple schedules](getting-started/simple-schedules.md)
 * [FAQ](getting-started/faq.md)
 
 ## REST API
