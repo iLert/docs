@@ -1,9 +1,7 @@
 ---
 title: AppDynamics Integration
 seoTitle: 'iLert: AppDynamics Integration for Alerting | Incident Response | Uptime'
-description: >-
-  The iLert AppDynmics integration guide helps you to easily connect iLert with
-  AppDynamics.
+description: Create incidents in iLert based on custom thresholds from AppDynamics
 date: '2020-02-28T05:02:05.000Z'
 type: post
 ---
@@ -12,7 +10,7 @@ type: post
 
 AppDynamics provides application performance management \(APM\) and IT operations analytics across cloud computing environments as well as inside the data center.
 
-With the iLert AppDynamics integration, you can create incidents in iLert based on custom thresholds from AppDynamics.
+With iLert's AppDynamics integration, you can automatically create incidents in iLert based on custom thresholds from AppDynamics. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When a threshold in AppDynamics is exceeded, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
 
 ## In iLert: create an AppDynamics alert source <a id="create-alert-source"></a>
 

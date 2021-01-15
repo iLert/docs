@@ -1,9 +1,7 @@
 ---
 title: AWS Lambda Integration
 seoTitle: 'iLert: AWS Lambda Integration for Alerting | Incident Response | Uptime'
-description: >-
-  The iLert AWS Lambda Integration helps you to easily connect iLert with AWS
-  Lambda.
+description: Invoke AWS Lambda functions based on incidents in iLert
 date: '2020-05-12T05:02:05.000Z'
 weight: 1
 ---
