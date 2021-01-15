@@ -6,6 +6,23 @@ description: >-
 
 # iLert Mobile Release Notes
 
+## Januar 2021
+
+### New features
+
+* 
+### Improvements
+
+* Possible problems with the stakeholder mode fixed
+* Possible problem with modifying the escalation policy fixed
+
+## December 2020
+
+### Improvements
+
+* Possible problem with the vCard sync process fixed
+* Possible problem with the displayed notification badge count fixed
+
 ## November 2020
 
 ### New features
