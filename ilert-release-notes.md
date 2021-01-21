@@ -8,6 +8,10 @@ description: >-
 
 ## January 2021
 
+### New features
+
+* [Team based organisation](getting-started/teams.md)
+
 ### Improvements
 
 * New on-call schedule styles for all schedule views
