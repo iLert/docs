@@ -11,6 +11,7 @@ description: >-
 A user in iLert can have one of the following roles:
 
 * Stakeholder
+* Guest
 * Responder
 * User
 * Admin
@@ -19,6 +20,10 @@ A user in iLert can have one of the following roles:
 ### Stakeholder
 
 Stakeholders will only be able to see the incidents to which they have added as a subscriber won't be able to see any other data, such as other incidents, alert sources, escalation policies, etc. Additionally, they can't login to the web application. Instead, they can use the iLert mobile app to get insights into current incidents that they are subscribed to and manage their profile and notification settings. This role is only available as part of our Premium plan
+
+### Guest
+
+Guests users have access to the application, however they cannot see any resources or users unless they are added as member of a team, which gives them \(depending on their team role\) the permission to see or even edit the resources of the specific team.
 
 ### Responder
 
@@ -51,6 +56,7 @@ The table below gives an overview of the role permissions.
       </th>
       <th style="text-align:center"><b>Stakeholder</b>
       </th>
+      <th style="text-align:left">Guest</th>
       <th style="text-align:center"><b>Responder</b>
       </th>
       <th style="text-align:center"><b>User</b>
@@ -65,6 +71,7 @@ The table below gives an overview of the role permissions.
     <tr>
       <td style="text-align:left">Access web app</td>
       <td style="text-align:center">&#x274C;</td>
+      <td style="text-align:left">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
@@ -73,6 +80,7 @@ The table below gives an overview of the role permissions.
     <tr>
       <td style="text-align:left">Use mobile app</td>
       <td style="text-align:center">&#x2705;</td>
+      <td style="text-align:left">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
@@ -81,6 +89,7 @@ The table below gives an overview of the role permissions.
     <tr>
       <td style="text-align:left">Modify profile settings</td>
       <td style="text-align:center">&#x2705;</td>
+      <td style="text-align:left">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
@@ -89,6 +98,7 @@ The table below gives an overview of the role permissions.
     <tr>
       <td style="text-align:left">Subscribe to incidents</td>
       <td style="text-align:center">&#x2705;</td>
+      <td style="text-align:left">&#x274C;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
@@ -97,6 +107,7 @@ The table below gives an overview of the role permissions.
     <tr>
       <td style="text-align:left">Manage incidents</td>
       <td style="text-align:center">&#x274C;</td>
+      <td style="text-align:left">&#x274C;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
@@ -105,6 +116,7 @@ The table below gives an overview of the role permissions.
     <tr>
       <td style="text-align:left">View objects, e.g. schedules and escalation policies</td>
       <td style="text-align:center">&#x274C;</td>
+      <td style="text-align:left">&#x274C;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
@@ -113,6 +125,7 @@ The table below gives an overview of the role permissions.
     <tr>
       <td style="text-align:left">Add him/herself as override to a schedule</td>
       <td style="text-align:center">&#x274C;</td>
+      <td style="text-align:left">&#x274C;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
@@ -121,6 +134,7 @@ The table below gives an overview of the role permissions.
     <tr>
       <td style="text-align:left">Add (anyone) as overrides to schedules</td>
       <td style="text-align:center">&#x274C;</td>
+      <td style="text-align:left">&#x274C;</td>
       <td style="text-align:center">&#x274C;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
@@ -129,6 +143,7 @@ The table below gives an overview of the role permissions.
     <tr>
       <td style="text-align:left">Modify objects, e.g. schedules and escalation policies</td>
       <td style="text-align:center">&#x274C;</td>
+      <td style="text-align:left">&#x274C;</td>
       <td style="text-align:center">&#x274C;</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
@@ -137,6 +152,7 @@ The table below gives an overview of the role permissions.
     <tr>
       <td style="text-align:left">Manage teams</td>
       <td style="text-align:center">&#x274C;</td>
+      <td style="text-align:left">&#x274C;</td>
       <td style="text-align:center">&#x274C;</td>
       <td style="text-align:center">&#x274C;</td>
       <td style="text-align:center">&#x2705;</td>
@@ -145,6 +161,7 @@ The table below gives an overview of the role permissions.
     <tr>
       <td style="text-align:left">Manage users</td>
       <td style="text-align:center">&#x274C;</td>
+      <td style="text-align:left">&#x274C;</td>
       <td style="text-align:center">&#x274C;</td>
       <td style="text-align:center">&#x274C;</td>
       <td style="text-align:center">&#x2705;</td>
@@ -156,6 +173,7 @@ The table below gives an overview of the role permissions.
         <p>settings and subscription</p>
       </td>
       <td style="text-align:center">&#x274C;</td>
+      <td style="text-align:left">&#x274C;</td>
       <td style="text-align:center">&#x274C;</td>
       <td style="text-align:center">&#x274C;</td>
       <td style="text-align:center">&#x274C;</td>
