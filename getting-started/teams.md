@@ -103,7 +103,7 @@ Besides plain resource read and write permissions which are based on [global rol
 The permission for addition and removal of team ownerships is validated under the following axiom:
 
 {% hint style="danger" %}
-Adding or removing an ownership \(describing the assignment of a resource to a team\) is only allowed if the operating user is member of the team \(refered in the ownership\) with write level team permissions. This accounts to all global user roles, except for admins and account owners. A resource delete operation is in this case equal to a change on all ownerships.
+Adding or removing an ownership \(_describing the assignment of a resource to a team_\) is only allowed if the operating user is member of the team \(_referred in the ownership_\) with write level team permissions. This accounts to all global user roles, except for admins and account owners. A resource delete operation is in this case equal to a removal of all ownerships.
 {% endhint %}
 
 An example to put this axiom into action:
