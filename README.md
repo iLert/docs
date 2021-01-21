@@ -6,6 +6,8 @@ description: >-
 
 # iLert Documentation
 
+{% page-ref page="getting-started/teams.md" %}
+
 {% page-ref page="rest-api/client-libraries/" %}
 
 {% page-ref page="contact.md" %}

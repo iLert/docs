@@ -10,16 +10,16 @@ description: >-
 
 A user in iLert can have one of the following roles:
 
-* Stakeholder
-* Guest
-* Responder
-* User
-* Admin
-* Account Owner
+* [Stakeholder](user-roles-and-permissions.md#stakeholder)
+* [Guest](user-roles-and-permissions.md#guest)
+* [Responder](user-roles-and-permissions.md#responder)
+* [User](user-roles-and-permissions.md#user)
+* [Admin](user-roles-and-permissions.md#admin)
+* [Account Owner](user-roles-and-permissions.md#account-owner)
 
 ### Stakeholder
 
-Stakeholders will only be able to see the incidents to which they have added as a subscriber won't be able to see any other data, such as other incidents, alert sources, escalation policies, etc. Additionally, they can't login to the web application. Instead, they can use the iLert mobile app to get insights into current incidents that they are subscribed to and manage their profile and notification settings. This role is only available as part of our Premium plan
+Stakeholders will only be able to see the incidents to which they have added as a subscriber won't be able to see any other data, such as other incidents, alert sources, escalation policies, etc. Additionally, they can't login to the web application. Instead, they can use the iLert mobile app to get insights into current incidents that they are subscribed to and manage their profile and notification settings. This role is only available as part of our Premium plan.
 
 ### Guest
 
@@ -31,7 +31,7 @@ Responders can use the web ui and mobile app to manage incidents just like **Use
 
 ### User
 
-Users can create or modify entities like alert sources or on-call schedules, however they cannot create or modify \(or invite\) other users \(of any role\), as well as change account setttings. Users are also not able to create or modify Teams.
+Users can create or modify entities like alert sources or on-call schedules, however they cannot create or modify \(or invite\) other users \(of any role\), as well as change account setttings. Users are also not able to create or modify Teams. Although users may edit public resources globally, they may not change the ownership of resource \(team context\).
 
 ### Team Admin
 
@@ -39,7 +39,7 @@ Users can create or modify entities like alert sources or on-call schedules, how
 
 ### Admin
 
-An Admin is a **User** with elevated priviliges. He may not access or modify the account settings. However he can create and modify **Users** as well as **Teams**, he may also change the role of **Users** and can create and edit connectors**.**
+An Admin is a **User** with elevated priviliges. He may not access or modify the account settings. However he can create and modify **Users** as well as **Teams**, he may also change the role of **Users** and can create and edit connectors**.** An **Admin** has the right to add and remove team ownerships to/from resources.
 
 ### Account Owner
 
@@ -177,6 +177,15 @@ The table below gives an overview of the role permissions.
       <td style="text-align:center">&#x274C;</td>
       <td style="text-align:center">&#x274C;</td>
       <td style="text-align:center">&#x274C;</td>
+      <td style="text-align:center">&#x2705;</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Add or remove team ownerships to/from resources</td>
+      <td style="text-align:center">&#x274C;</td>
+      <td style="text-align:left">&#x274C;</td>
+      <td style="text-align:center">&#x274C;</td>
+      <td style="text-align:center">&#x274C;</td>
+      <td style="text-align:center">&#x2705;</td>
       <td style="text-align:center">&#x2705;</td>
     </tr>
   </tbody>

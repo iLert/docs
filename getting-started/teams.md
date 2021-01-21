@@ -91,11 +91,24 @@ The following team roles are available:
 * Team User
 * Team Admin
 
-The permissions of team roles match the permissions of [base roles](user-roles-and-permissions.md#role-permissions), except that they are limited to the team's context \(meaning resources that this team has ownerships of\).
+The permissions of team roles match the permissions of[ global roles](user-roles-and-permissions.md#role-permissions), except that they are limited to the team's context \(meaning resources that this team has ownerships of\).
 
 {% hint style="warning" %}
 Global stakeholder users cannot be assigned more permissive roles within a team.
 {% endhint %}
+
+## Resource ownership adjustments
+
+Besides plain resource read and write permissions which are based on [global roles](user-roles-and-permissions.md) and may be overwritten in a team context by the equivalent team roles, as described above in [Team roles](teams.md#team-roles).  
+The permission for addition and removal of team ownerships is validated under the following axiom:
+
+{% hint style="danger" %}
+Adding or removing an ownership \(describing the assignment of a resource to a team\) is only allowed if the operating user is member of the team \(refered in the ownership\) with write level team permissions. This accounts to all global user roles, except for admins and account owners. A resource delete operation is in this case equal to a change on all ownerships.
+{% endhint %}
+
+An example to put this axiom into action:
+
+A user \(with global **User** role\) that is a member of _Team1_ \(with team role **User**\) is not able to delete an alert source that is owned by _Team1_ and Team2. Because he is neither an **Admin** nor a write-level team member of _Team2_. He may only remove the ownership of _Team1_ of which he is a team member and leave the resource ownership solemnly to _Team2_.
 
 ## Resource Visibility
 
