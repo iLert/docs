@@ -6,11 +6,11 @@ description: >-
 
 # Team-based organisation
 
-iLerts flexible teams feature allows you to easily manage complex permission scenarios and keep the ui experience for your users and teams on a high level. It enables productivity while managing hundreds of alert sources and users, as well as hundred-thousands of incidents.
+iLerts flexible teams feature allows you to easily manage complex permission scenarios and keep the UI experience for your users and teams simple by only showing the resources owned by the selected team. It enables productivity while managing hundreds of alert sources and users, as well as hundred-thousands of incidents.
 
 ## Team Filter
 
-The team filter lets you switch between different team contexs, it gives you the following option depending on the corresponding teams existing in your account.
+The team filter lets you switch between different team contexs. It gives you the following options depending on the corresponding teams existing in your account.
 
 * **All teams** essentially removes any filter and shows you all objects that you have permission to view, including those that are not associated with any teams
 * **My teams** shows you all objects of the teams that you are a member of
@@ -24,19 +24,21 @@ In case your account requires a large amount of teams, the team filter will auto
 
 ![](../.gitbook/assets/screenshot-2021-01-20-at-13.35.31.png)
 
-The team filter is also automatically available in the mobile app:
+The team filter is also available in the mobile app:
 
 ![](../.gitbook/assets/img_7069.jpg)
 
 The team filter selection is stored for each user and synced across devices - meaning users will always continue where they left off, even when changing from desktop to the mobile app.
 
 {% hint style="info" %}
-Please note: that the team filter will automatically disappear when the user has no selectable teams available. Also note: that the team filter has no effect in the team management ui, as all resources and users in the permission context of the current user may be assigned to the team.
+**Visibility of the team filter**
+
+The team filter will automatically disappear when the user has no selectable teams available. Pleaes note that the team filter has no effect in the team management UI, as all resources and users in the permission context of the current user may be assigned to the team.
 {% endhint %}
 
 ## Creating Teams
 
-Teams can be created by **Account owners** and **Admin** users. Existing team members may also be managed by users that have been elevated to **Admins** in the team itself \(see [Team Roles](teams.md#team-roles)\).
+Teams can be created by **Admin** users and the account owner. Existing team members may also be managed by users that have been elevated to **Admins** in the team itself \(see [Team Roles](teams.md#team-roles)\).
 
 To create a new team, navigate to the list view using the **Teams** link in the settings navigation menu.
 
@@ -50,7 +52,7 @@ You may now add new members or resources to the team.
 
 ![](../.gitbook/assets/screenshot-2021-01-21-at-22.18.16.png)
 
-Keep in mind that you may also directly manage the team ownerships of resources in their edit views for example alert sources:
+You may also directly manage the team ownerships of resources in their edit views, for example alert sources:
 
 ![](../.gitbook/assets/screenshot-2021-01-21-at-22.20.30.png)
 
@@ -75,7 +77,7 @@ Such objects will be marked with the icognito icon in the list views.
 ## Team Roles
 
 {% hint style="success" %}
-We suggest to keep all global users that do not require elevated permissions on the **Responder** role level when working extensively with teams. This will allow for a maximum of flexibility when assigning team context based permissions.
+When working with teams, we recommend to keep all global users that do not require elevated permissions on the **Responder** role and use team roles instead. For example, instead of assigning a user the **User** role as their base role, use the **Responder** role as their base and assign the user the team role **User.**
 {% endhint %}
 
 Team roles extend the permissions of base roles within the context of a team. For example if you have been assigned the **Responder** role as your base role, and have been assigned the **Team User** role within a team, you will be granted the permissions of the User role within that team. 
