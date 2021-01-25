@@ -1,7 +1,7 @@
 ---
 description: >-
-  Use team-based organisation to show only relevant information to users and
-  restrict access and write permissions to the specific users.
+  Create teams to manage access to resources and simplify the user interface to
+  show only the incidents and resources relevant to a team.
 ---
 
 # Team-based organisation
