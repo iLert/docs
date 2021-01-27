@@ -1,7 +1,7 @@
 ---
 description: >-
-  The iLert Zapier Inbound Integration helps you to easily connect iLert with
-  Zapier.
+  User iLert as a Zapier Action and create / acknowledge / resolve an incident
+  for any trigger from Zapier.
 ---
 
 # Zapier Inbound Integration
@@ -10,7 +10,9 @@ description: >-
 
 ### Create a Zapier alert source \(optional\) <a id="create-alert-source"></a>
 
-> You can connect Zapier with an exiting alert source of any integration type. If you already have an alert source, then skip this step.
+{% hint style="info" %}
+You can connect Zapier with an existing alert source of any integration type. Skip this step, if you'd like to connect Zapier with an existing alert source.
+{% endhint %}
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 

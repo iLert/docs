@@ -1,5 +1,5 @@
 ---
-description: The iLert Zapier Integration helps you to easily connect to Zapier.
+description: 'Integrate iLert with 2,000+ apps through Zapier'
 ---
 
 # Zapier Integration
