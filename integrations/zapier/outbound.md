@@ -1,7 +1,7 @@
 ---
 description: >-
-  The iLert Zapier Outbound Integration helps you to easily connect Zapier with
-  iLert.
+  User iLert as the trigger in Zapier and perform any action in Zapier for new
+  or updated incidents in iLert.
 ---
 
 # Zapier Outbound Integration
