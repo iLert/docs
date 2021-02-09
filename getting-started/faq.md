@@ -55,5 +55,7 @@ To update the payment method, log in as the account owner and go to **Account se
 
 ![](../.gitbook/assets/screenshot-2020-03-12-at-14.51.44.png)
 
+## Where can I download my invoices?
 
+The download your invoices, log in as the account owner and go to **Account settings** --&gt; **Invoices.**
 
