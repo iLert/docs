@@ -10,7 +10,8 @@ description: >-
 
 ### New features
 
-* 
+* Add teams support
+
 ### Improvements
 
 * Possible problems with the stakeholder mode fixed
