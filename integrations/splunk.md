@@ -1,10 +1,10 @@
 ---
-description: The iLert Splunk Integration helps you to easily connect iLert with Splunk.
+description: >-
+  With the iLert Splunk integration, you can create incidents in iLert based on
+  Splunk alerts.
 ---
 
 # Splunk Integration
-
-With the iLert Splunk integration, you can create incidents in iLert based on Splunk alert.
 
 ## In iLert <a id="in-ilert"></a>
 
@@ -32,17 +32,19 @@ With the iLert Splunk integration, you can create incidents in iLert based on Sp
 
 ![](../.gitbook/assets/screenshot_08_02_21__20_45.png)
 
-3. On the modal window, name the alert e.g. **iLert,** choose **Webhook** in the **When triggered** section**,** paste the **Webhook URL** that you generated in iLert and click on **Save**
+3. On the modal window name the alert e.g. **iLert,** choose **Webhook** in the **When triggered** section and ****paste the **Webhook URL** that you generated in iLert and click on **Save**
 
 ![](../.gitbook/assets/screenshot_08_02_21__20_48.png)
+
+Finished! Your Splunk alerts will now create incidents in iLert.
 
 ## FAQ <a id="faq"></a>
 
 **Will incidents in iLert be resolved automatically?**
 
-No, unfortunately Splunk event is not compatible with iLert resolve event.
+No, unfortunately Splunk alerts do not fire resolve events.
 
 **Can I connect Splunk with multiple alert sources from iLert?**
 
-Yes, simply create more alerts in Splunk.
+Yes, simply create more action sequences in Splunk.
 
