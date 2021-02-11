@@ -1,12 +1,10 @@
 ---
 description: >-
-  The iLert Zammad Inbound Integration helps you to easily connect iLert with
-  Zammad.
+  With the iLert Zammad integration, you can create incidents in iLert based on
+  Zammad tickets.
 ---
 
 # Zammad Inbound Integration
-
-With the iLert Zammad integration, you can create incidents in iLert based on Zammad tickets.
 
 ## In iLert <a id="in-ilert"></a>
 
@@ -34,17 +32,19 @@ With the iLert Zammad integration, you can create incidents in iLert based on Za
 
 ![](../../.gitbook/assets/screenshot_07_02_21__13_18.png)
 
-3. Click on **New Trigger.** On the modal window, in the **Conditions for effected objects** section choose the condition **State is open,** name the trigger e.g. **iLert Trigger - Open Ticket** , in the **Execute changes on object** section choose **Webhook** and paste the **Webhook URL** that you generated in iLert then click on **Submit**
+3. Click on **New Trigger.** On the modal window, in the **Conditions for effected objects** section choose the condition **State is open,** name the trigger e.g. **iLert Trigger - Open Ticket** , in the **Execute changes on object** section choose **Webhook** and paste the **Webhook URL** that you have generated in iLert and then click on **Submit**
 
 ![](../../.gitbook/assets/screenshot_07_02_21__13_24.png)
 
-4. Click on **New Trigger.** On the modal window, in the **Conditions for effected objects** section choose the condition **Owner has changed,** name the trigger e.g. **iLert Trigger - Owner changed** , in the **Execute changes on object** section choose **Webhook** and paste the **Webhook URL** that you generated in iLert then click on **Submit**
+4. Click on **New Trigger.** On the modal window, in the **Conditions for effected objects** section choose the condition **Owner has changed,** name the trigger e.g. **iLert Trigger - Owner changed** , in the **Execute changes on object** section choose **Webhook** and paste the **Webhook URL** that you have generated in iLert and then click on **Submit**
 
 ![](../../.gitbook/assets/screenshot_07_02_21__13_26.png)
 
-4. Click on **New Trigger.** On the modal window, in the **Conditions for effected objects** section choose the condition **State has changed,** name the trigger e.g. **iLert Trigger - Ticket changed** , in the **Execute changes on object** section choose **Webhook** and paste the **Webhook URL** that you generated in iLert then click on **Submit**
+4. Click on **New Trigger.** On the modal window, in the **Conditions for effected objects** section choose the condition **State has changed,** name the trigger e.g. **iLert Trigger - Ticket changed** , in the **Execute changes on object** section choose **Webhook** and paste the **Webhook URL** that you have generated in iLert and then click on **Submit**
 
 ![](../../.gitbook/assets/screenshot_07_02_21__13_27.png)
+
+Your Zammad triggers are now in place and will trigger appropriate iLert incident actions of your created alert source.
 
 ## FAQ <a id="faq"></a>
 

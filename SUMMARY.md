@@ -83,6 +83,7 @@
 * [Prometheus Integration](integrations/prometheus.md)
 * [PRTG Network Monitor Integration](integrations/prtg.md)
 * [Push Notifications](integrations/push-notification.md)
+* [Search Guard Integration](integrations/search-guard.md)
 * [ServiceNow Integration](integrations/service-now/README.md)
   * [ServiceNow Inbound Integration](integrations/service-now/inbound.md)
   * [ServiceNow Outbound Integration](integrations/service-now/outbound.md)
