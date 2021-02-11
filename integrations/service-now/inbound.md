@@ -1,12 +1,10 @@
 ---
 description: >-
-  The iLert ServiceNow Inbound Integration helps you to easily connect iLert
-  with ServiceNow.
+  With the iLert ServiceNow integration, you can create incidents in iLert based
+  on ServiceNow incidents.
 ---
 
 # ServiceNow Inbound Integration
-
-With the iLert ServiceNow integration, you can create incidents in iLert based on ServiceNow incidents.
 
 ## In iLert <a id="in-ilert"></a>
 
