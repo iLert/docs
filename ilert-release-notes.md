@@ -6,6 +6,16 @@ description: >-
 
 # iLert Release Notes
 
+## February 2021
+
+### New and updated integrations:
+
+* New: [Zammad Inbound](integrations/zammad/inbound.md) and [Outbound](integrations/zammad/outbound.md) Integration
+* New: [Mattermost Outbound](integrations/mattermost-intergration.md) Integration
+* New: [Splunk Inbound](integrations/splunk.md) Integration
+* New: [Elastic Search Guard Inbound](integrations/search-guard.md) Integration
+* New: [ServiceNow Inbound](integrations/service-now/inbound.md) Integration
+
 ## January 2021
 
 ### New features
