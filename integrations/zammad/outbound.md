@@ -6,6 +6,10 @@ description: >-
 
 # Zammad Outbound Integration
 
+{% hint style="warning" %}
+To set up this integration, you must have admin rights in iLert.
+{% endhint %}
+
 ## In Zammad <a id="in-topdesk"></a>
 
 ### Create an API key <a id="create-api-user"></a>

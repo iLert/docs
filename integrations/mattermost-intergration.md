@@ -4,10 +4,10 @@ description: >-
   Mattermost channels.
 ---
 
-# Mattermost Intergration
+# Mattermost Integration
 
 {% hint style="warning" %}
-To set up the integration, you must have admin rights in iLert.
+To set up this integration, you must have admin rights in iLert.
 {% endhint %}
 
 ## In Mattermost <a id="add-to-channel"></a>

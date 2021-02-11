@@ -109,7 +109,7 @@
   * [Zabbix 4.4+ Integration](integrations/zabbix/native.md)
   * [Zabbix 2.2 - 4.3 Integration](integrations/zabbix/script.md)
 * [Zendesk Integration](integrations/zendesk.md)
-* [Mattermost Intergration](integrations/mattermost-intergration.md)
+* [Mattermost Integration](integrations/mattermost-intergration.md)
 * [Zammad Integration](integrations/zammad/README.md)
   * [Zammad Inbound Integration](integrations/zammad/inbound.md)
   * [Zammad Outbound Integration](integrations/zammad/outbound.md)
