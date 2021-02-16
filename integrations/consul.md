@@ -16,17 +16,17 @@ With the iLert HashiCorp Consul integration you can create incidents in iLert ba
 
 2. Enter a name and select your desired escalation policy. Select "API" as the **Integration Type** and click on **Save**.
 
-![](../.gitbook/assets/ilert%20%2815%29.png)
+![](../.gitbook/assets/ilert%20%2828%29.png)
 
 3. On the next page, an API Key is generated. You will need this API Key below when setting up the Consul-Alerts tool.
 
-![](../.gitbook/assets/ilert%20%2814%29.png)
+![](../.gitbook/assets/ilert%20%2829%29.png)
 
 ## In Consul Server <a id="in-topdesk"></a>
 
 ### Configure Consul-Alerts
 
-1. Install Consul-Alerts as per the guide at [https://github.com/AcalephStorage/consul-alerts/blob/master/README.md](https://github.com/AcalephStorage/consul-alerts/blob/master/README.md)
+1. Install Consul-Alerts as per the guide at [https://github.com/iLert/consul-alerts/blob/master/README.md](https://github.com/iLert/consul-alerts/blob/master/README.md)
 
 2. Once the Consul-Alerts are running, we can set the iLert integration key using curl.
 
