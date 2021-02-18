@@ -15,6 +15,7 @@ description: >-
 * New: [Splunk Inbound](integrations/splunk.md) Integration
 * New: [Elastic Search Guard Inbound](integrations/search-guard.md) Integration
 * New: [ServiceNow Inbound](integrations/service-now/inbound.md) Integration
+* Updated PRTG integration: custom incident summary and details based on PRTG placeholders.
 
 ## January 2021
 
