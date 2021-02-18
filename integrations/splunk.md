@@ -20,7 +20,7 @@ description: >-
 
 ![](../.gitbook/assets/screenshot_08_02_21__20_39%20%281%29.png)
 
-## In Splunk <a id="in-topdesk"></a>
+## In Splunk <a id="in-splunk"></a>
 
 ### Create action sequences <a id="create-action-sequences"></a>
 
