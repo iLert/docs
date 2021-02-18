@@ -22,7 +22,7 @@ description: >-
 
 ## In Splunk <a id="in-splunk"></a>
 
-### Create action sequences <a id="create-action-sequences"></a>
+### Create a search <a id="create-action-sequences"></a>
 
 1. Go to Splunk and then to **Search & Reporting.** Create a search for which you’d like to create an alert.
 
