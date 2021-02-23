@@ -30,6 +30,7 @@
 * [Setting up SSO with GSuite](single-sign-on/setting-up-sso-with-g-suite.md)
 * [Setting up SSO with Microsoft Azure Active Directory](single-sign-on/setting-up-sso-with-azure-active-directory.md)
 * [Setting up SSO with Okta](single-sign-on/setting-up-sso-with-okta.md)
+* [Auto provisioning users & teams](single-sign-on/auto-provisioning-users-and-teams.md)
 
 ## Uptime & Heartbeat Monitors <a id="uptime-monitors"></a>
 

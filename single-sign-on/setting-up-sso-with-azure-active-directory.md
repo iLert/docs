@@ -113,15 +113,7 @@ You can optionally disable the login for username and password combinations on y
 
 ### Passing additional attributes during auto-provisioning
 
-You may pass optional attributes in the SAML2 response to adjust the created user.
-
-| Attribute | Values | Default |
-| :--- | :--- | :--- |
-| firstName | String | parsed from email \(claim\) |
-| lastName | String | parsed from email \(claim\) |
-| role | STAKEHOLDER, GUEST, RESPONDER, USER, ADMIN | USER |
-| position | String | none |
-| department | String | none |
+Besides the `NameID` you may pass additional parameters for the user or the team to be automatically setup on the first login, please checkout our [auto provisioning section](auto-provisioning-users-and-teams.md).
 
 
 
