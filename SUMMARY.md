@@ -30,7 +30,7 @@
 * [Getting started with call routing](call-routing/getting-started-with-call-routing.md)
 * [Routing calls based on support hours](call-routing/routing-calls-based-on-support-hours/README.md)
   * [Managing office hours call behaviour](call-routing/routing-calls-based-on-support-hours/managing-office-hours-call-behaviour.md)
-* [Handling calls from automated voice calls](call-routing/handling-calls-from-automated-voice-calls.md)
+* [Handling automated incoming voice calls](call-routing/handling-calls-from-automated-voice-calls.md)
 * [Managing call routing incidents](call-routing/managing-call-routing-incidents.md)
 * [Adding webhooks and outbound chat messages](call-routing/adding-webhooks-and-outbound-chat-messages.md)
 

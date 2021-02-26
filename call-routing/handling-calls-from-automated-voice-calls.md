@@ -4,7 +4,7 @@ description: >-
   iLert's call routing number solution.
 ---
 
-# Handling calls from automated voice calls
+# Handling automated incoming voice calls
 
 After your call routing number has been setup, you can choose the `Voicemail only mode` option to skip the routing and greeting configuration and strictly send incoming calls to the Voicemail. When choosing this mode, the first routing option will always be selected as escalation policy to escalate the related incident.
 

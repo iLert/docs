@@ -8,6 +8,11 @@ description: >-
 
 ## February 2021
 
+### New features:
+
+* [Advanced support hours routing](call-routing/routing-calls-based-on-support-hours/) for call routing numbers
+* Auto provision [teams and mobile](single-sign-on/auto-provisioning-users-and-teams.md) numbers with SSO
+
 ### New and updated integrations:
 
 * New: [Zammad Inbound](integrations/zammad/inbound.md) and [Outbound](integrations/zammad/outbound.md) Integration
@@ -16,6 +21,10 @@ description: >-
 * New: [Elastic Search Guard Inbound](integrations/search-guard.md) Integration
 * New: [ServiceNow Inbound](integrations/service-now/inbound.md) Integration
 * Updated PRTG integration: custom incident summary and details based on PRTG placeholders.
+
+### Improvements:
+
+* Call Routing Number User Interface rework
 
 ## January 2021
 
