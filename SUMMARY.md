@@ -25,6 +25,15 @@
 * [API Samples](rest-api/api-samples/README.md)
   * [Sending events from PowerShell](rest-api/api-samples/sending-events-from-powershell.md)
 
+## Call Routing
+
+* [Getting started with call routing](call-routing/getting-started-with-call-routing.md)
+* [Routing calls based on support hours](call-routing/routing-calls-based-on-support-hours/README.md)
+  * [Managing office hours call behaviour](call-routing/routing-calls-based-on-support-hours/managing-office-hours-call-behaviour.md)
+* [Handling calls from automated voice calls](call-routing/handling-calls-from-automated-voice-calls.md)
+* [Managing call routing incidents](call-routing/managing-call-routing-incidents.md)
+* [Adding webhooks and outbound chat messages](call-routing/adding-webhooks-and-outbound-chat-messages.md)
+
 ## Single Sign On
 
 * [Setting up SSO with GSuite](single-sign-on/setting-up-sso-with-g-suite.md)
