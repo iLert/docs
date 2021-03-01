@@ -100,6 +100,7 @@
   * [ServiceNow Outbound Integration](integrations/service-now/outbound.md)
 * [Slack Integration](integrations/slack.md)
 * [Splunk Integration](integrations/splunk.md)
+* [SignalFx Integration](integrations/signalfx.md)
 * [SMS Integration](integrations/sms-integration.md)
 * [SolarWinds Integration](integrations/solarwinds.md)
 * [Single Sign-On Setup](integrations/sso.md)

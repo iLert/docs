@@ -14,7 +14,7 @@ description: >-
 
 2. Enter a name and select your desired escalation policy. Select "Kubernetes" as the **Integration Type** and click on **Save**.
 
-![](../.gitbook/assets/ilert%20%2831%29.png)
+![](../.gitbook/assets/ilert%20%2833%29.png)
 
 3. On the next page, a API Key is generated. You will need it below when setting up the **ilert-kube-agent** deployment.
 
