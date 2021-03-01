@@ -10,6 +10,21 @@ description: >-
 
 ### New features:
 
+* 
+### New and updated integrations:
+
+* New: [SignalFx Inbound](integrations/signalfx.md) Integration
+* New: [Terraform Cloud / Terraform Enterprice Inbount](integrations/terraform-cloud-terraform-enterprice.md) Integration
+* New: [Sentry Inbound](integrations/sentry-integration.md) Integration
+* New: [Kubernetes Inbound](integrations/kubernetes.md) Integration
+
+### Improvements:
+
+* 
+## February 2021
+
+### New features:
+
 * [Advanced support hours routing](call-routing/routing-calls-based-on-support-hours/) for call routing numbers
 * Auto provision [teams and mobile](single-sign-on/auto-provisioning-users-and-teams.md) numbers with SSO
 
