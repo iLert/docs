@@ -80,6 +80,7 @@
 * [Grafana Integration](integrations/grafana.md)
 * [Icinga Integration](integrations/icinga.md)
 * [Kentix AlarmManager](integrations/kentix-am.md)
+* [Kubernetes Integration](integrations/kubernetes.md)
 * [Instana Integration](integrations/instana.md)
 * [HashiCorp Consul](integrations/consul.md)
 * [Jira Integration](integrations/jira/README.md)
