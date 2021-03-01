@@ -103,6 +103,7 @@
 * [SMS Integration](integrations/sms-integration.md)
 * [SolarWinds Integration](integrations/solarwinds.md)
 * [Single Sign-On Setup](integrations/sso.md)
+* [Sentry Integration](integrations/sentry-integration.md)
 * [Server Density](integrations/serverdensity.md)
 * [StatusCake Integration](integrations/statuscake.md)
 * [Zapier Integration](integrations/zapier/README.md)
