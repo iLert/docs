@@ -9,7 +9,9 @@
 * [User roles and permissions](getting-started/user-roles-and-permissions.md)
 * [Team-based organisation](getting-started/teams.md)
 * [Stakeholder engagement](getting-started/stakeholder-engagement.md)
-* [Simple schedules](getting-started/simple-schedules.md)
+* [On-call schedules](getting-started/on-call-schedules/README.md)
+  * [Recurring schedules](getting-started/on-call-schedules/recurring-schedules.md)
+  * [Static schedules](getting-started/on-call-schedules/simple-schedules.md)
 * [FAQ](getting-started/faq.md)
 
 ## REST API
