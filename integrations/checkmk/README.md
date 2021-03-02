@@ -2,7 +2,7 @@
 description: iLert supports all versions of checkmk.
 ---
 
-# checkmk Integrations
+# Checkmk Integration
 
 {% page-ref page="native.md" %}
 

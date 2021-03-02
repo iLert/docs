@@ -59,7 +59,7 @@
   * [Autotask Inbound Integration](integrations/autotask/inbound.md)
   * [Autotask Outbound Integration](integrations/autotask/outbound.md)
 * [Azure Function Integration](integrations/azure-functions.md)
-* [checkmk Integrations](integrations/checkmk/README.md)
+* [Checkmk Integration](integrations/checkmk/README.md)
   * [Checkmk Integration \(v 1.x\)](integrations/checkmk/check-mk.md)
   * [Checkmk Integration \(v 2.0+ \)](integrations/checkmk/native.md)
 * [Datadog Integration](integrations/datadog/README.md)
