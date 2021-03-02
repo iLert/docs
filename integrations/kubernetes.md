@@ -22,7 +22,7 @@ description: >-
 
 ## In Kubernetes <a id="in-splunk"></a>
 
-### a. Deploy ilert-kube-agent with helm <a id="create-action-sequences"></a>
+### a. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with helm \(recommended\) <a id="create-action-sequences"></a>
 
 1. Add helm charts repo and update it
 
@@ -39,7 +39,27 @@ helm upgrade --install --namespace kube-systems \
     --set config.settings.apiKey="<YOUR KEY HERE>"
 ```
 
-### b. Deploy ilert-kube-agent with manifest <a id="create-action-sequences"></a>
+### b. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with terraform \(recommended\) <a id="create-action-sequences"></a>
+
+1. Define module and paste the API Key that you generated in iLert 
+
+```text
+module "ilert-kube-agent" {
+  source  = "iLert/ilert-kube-agent/kubernetes"
+  version = "0.3.7"
+  replicas = 2
+  api_key = "<YOUR KEY HERE>"
+}
+```
+
+2. Apply changes
+
+```text
+terraform init
+terraform apply
+```
+
+### c. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with manifest <a id="create-action-sequences"></a>
 
 1. Clone the ilert-kube-agent repository
 
@@ -72,26 +92,6 @@ kubectl --namespace kube-system get pod -l app=ilert-kube-agent
 NAME                               READY   STATUS    RESTARTS   AGE
 ilert-kube-agent-64f7dfd4d-nsnzp   1/1     Running   0          37h
 ilert-kube-agent-64f7dfd4d-zx7fb   1/1     Running   0          37h
-```
-
-### c. Deploy ilert-kube-agent with terraform <a id="create-action-sequences"></a>
-
-1. Define module and paste the API Key that you generated in iLert 
-
-```text
-module "ilert-kube-agent" {
-  source  = "iLert/ilert-kube-agent/kubernetes"
-  version = "0.3.7"
-  replicas = 2
-  api_key = "<YOUR KEY HERE>"
-}
-```
-
-2. Apply changes
-
-```text
-terraform init
-terraform apply
 ```
 
 ###  <a id="create-action-sequences"></a>
