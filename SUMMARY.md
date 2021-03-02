@@ -6,12 +6,12 @@
 
 * [Introduction to iLert](getting-started/intro.md)
 * [iLert domains, emails & phone numbers](getting-started/phone-numbers.md)
-* [User roles and permissions](getting-started/user-roles-and-permissions.md)
-* [Team-based organisation](getting-started/teams.md)
-* [Stakeholder engagement](getting-started/stakeholder-engagement.md)
 * [On-call schedules](getting-started/on-call-schedules/README.md)
   * [Recurring schedules](getting-started/on-call-schedules/recurring-schedules.md)
   * [Static schedules](getting-started/on-call-schedules/simple-schedules.md)
+* [User roles and permissions](getting-started/user-roles-and-permissions.md)
+* [Team-based organisation](getting-started/teams.md)
+* [Stakeholder engagement](getting-started/stakeholder-engagement.md)
 * [FAQ](getting-started/faq.md)
 
 ## Call Routing
