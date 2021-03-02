@@ -14,19 +14,6 @@
   * [Static schedules](getting-started/on-call-schedules/simple-schedules.md)
 * [FAQ](getting-started/faq.md)
 
-## REST API
-
-* [iLert REST API](rest-api/ilert-rest-api.md)
-* [Rate Limiting](rest-api/alertsource-throttle.md)
-* [Client Libraries](rest-api/client-libraries/README.md)
-  * [iLert Agent - ilagent](rest-api/client-libraries/ilagent.md)
-  * [Go Client](rest-api/client-libraries/go-client.md)
-  * [Rust Client](rest-api/client-libraries/rust-client.md)
-  * [Javascript / Node.js Client](rest-api/client-libraries/javascript-node.js-client.md)
-* [Terraform](rest-api/terraform.md)
-* [API Samples](rest-api/api-samples/README.md)
-  * [Sending events from PowerShell](rest-api/api-samples/sending-events-from-powershell.md)
-
 ## Call Routing
 
 * [Getting started with call routing](call-routing/getting-started-with-call-routing.md)
@@ -49,6 +36,19 @@
 * [Heartbeat Monitoring](uptime-monitors/heartbeat-monitoring/README.md)
   * [Prometheus Heartbeat Example](uptime-monitors/heartbeat-monitoring/prometheus-heartbeat-example.md)
   * [CLI Heartbeat Examples](uptime-monitors/heartbeat-monitoring/cli-heartbeat-examples.md)
+
+## REST API
+
+* [iLert REST API](rest-api/ilert-rest-api.md)
+* [Rate Limiting](rest-api/alertsource-throttle.md)
+* [Client Libraries](rest-api/client-libraries/README.md)
+  * [iLert Agent - ilagent](rest-api/client-libraries/ilagent.md)
+  * [Go Client](rest-api/client-libraries/go-client.md)
+  * [Rust Client](rest-api/client-libraries/rust-client.md)
+  * [Javascript / Node.js Client](rest-api/client-libraries/javascript-node.js-client.md)
+* [Terraform](rest-api/terraform.md)
+* [API Samples](rest-api/api-samples/README.md)
+  * [Sending events from PowerShell](rest-api/api-samples/sending-events-from-powershell.md)
 
 ## Integrations
 
