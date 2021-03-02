@@ -6,7 +6,7 @@ description: iLert supports all versions of checkmk.
 
 {% page-ref page="native.md" %}
 
-{% page-ref page="../check-mk.md" %}
+{% page-ref page="check-mk.md" %}
 
 
 

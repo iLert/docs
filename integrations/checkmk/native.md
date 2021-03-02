@@ -1,12 +1,10 @@
 ---
-description: >-
-  The iLert checkmk native integration ships with checkmk version >= 2.0.0 and
-  allows for an even easier setup.
+description: The iLert checkmk native integration ships with checkmk version >= 2.0.0.
 ---
 
-# checkmk Integration \(native\)
+# Checkmk Integration \(v 2.0+ \)
 
-With the iLert checkmk notification plugin you can easily integrate checkmk into iLert and extend your existing checkmk system with SMS, push and voice notifications as well as on-call schedules from iLert. 
+With the native iLert notification integration in checkmk, you can automatically create incidents in iLert from checkmk alert. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When checkmk creates an alerts, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start. 
 
 ## In iLert: create alert source <a id="create-alarm-source"></a>
 
@@ -36,7 +34,7 @@ With the iLert checkmk notification plugin you can easily integrate checkmk into
 
 ## FAQ <a id="faq"></a>
 
-**Which alarm types \(Notification Types\) are processed?**
+**Which notification types are processed?**
 
 The plugin processes the notification types `PROBLEM` , `ACKNOWLEDGEMENT` and `RECOVERY`. The remaining Notification Types \(including `FLAPPING*` and `DOWNTIME*`\) are ignored.
 
