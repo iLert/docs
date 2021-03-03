@@ -121,3 +121,7 @@ To add an override in the mobiel app, open the **Who is on-call?** screen and ta
 
 If an incident occurs during a time with no coverage in your schedule, then the incident will be escalated immediately to the next escalation level, without waiting for the escalation timeout. If no one is on-call on the entire escalation policy, no one will be notified. 
 
+#### Can I choose my own shift colour?
+
+No, shift colours are automatically assigned to a user and are permanent. 
+
