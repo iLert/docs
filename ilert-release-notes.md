@@ -8,21 +8,21 @@ description: >-
 
 ## March 2021
 
-### New and updated integrations:
+### New and updated integrations
 
 * New: [SignalFx Inbound](integrations/signalfx.md) Integration
-* New: [Terraform Cloud / Terraform Enterprice Inbount](integrations/terraform-cloud-terraform-enterprice.md) Integration
+* New: [Terraform Cloud / Terraform Enterprice Inbound](integrations/terraform-cloud-terraform-enterprice.md) Integration
 * New: [Sentry Inbound](integrations/sentry-integration.md) Integration
 * New: [Kubernetes Inbound](integrations/kubernetes.md) Integration
 
 ## February 2021
 
-### New features:
+### New features
 
 * [Advanced support hours routing](call-routing/routing-calls-based-on-support-hours/) for call routing numbers
 * Auto provision [teams and mobile](single-sign-on/auto-provisioning-users-and-teams.md) numbers with SSO
 
-### New and updated integrations:
+### New and updated integrations
 
 * New: [Zammad Inbound](integrations/zammad/inbound.md) and [Outbound](integrations/zammad/outbound.md) Integration
 * New: [Mattermost Outbound](integrations/mattermost.md) Integration
@@ -31,7 +31,7 @@ description: >-
 * New: [ServiceNow Inbound](integrations/service-now/inbound.md) Integration
 * Updated PRTG integration: custom incident summary and details based on PRTG placeholders.
 
-### Improvements:
+### Improvements
 
 * Call Routing Number User Interface rework
 
