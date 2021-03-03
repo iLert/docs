@@ -14,7 +14,7 @@ After enabling the support hours routing option you can enable the specific supp
 
 ![](../../.gitbook/assets/image%20%2822%29.png)
 
-You may only select routing targets \(escalation policies\) which are chosen above in the **IVR menu**.
+You may only select routing targets \(escalation policies\) which are added above in the **IVR menu**.
 
 ![](../../.gitbook/assets/image%20%2816%29.png)
 

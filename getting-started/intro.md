@@ -107,6 +107,10 @@ An escalation policy connects an alert source with the users that are responsibl
 
 On-call schedules determine who will be notified when an incident is created based on the time of day. Only one user per schedule can be on-call at a time. You can reference an on-call schedule in an escalation policy.
 
+{% page-ref page="on-call-schedules/" %}
+
+
+
 ### Notifications
 
 In iLert, each user defines in his profile how he will be notified of an incident. A user with admin rights can also maintain the notification settings for other users. iLert supports the following notification channels:

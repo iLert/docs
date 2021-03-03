@@ -1,5 +1,5 @@
 ---
-description: Setting up your call routing number to fit your hotline needs.
+description: Reach the right on-call responder immediately by calling a phone number
 ---
 
 # Getting started with call routing
@@ -8,8 +8,10 @@ You can find your call routing numbers in your account in the call routing servi
 
 ![](../.gitbook/assets/image%20%2818%29.png)
 
-{% hint style="success" %}
-Each call routing number has a unqiue phone number that will be set up for you by your account manager. You may have mulitple call routing numbers, we support different countries and try to provide you with a number that fits best to your local needs.
+{% hint style="info" %}
+**How to get a call routing number?**
+
+Each call routing number has a unqiue phone number that will be set up for you by our support. You may have mulitple call routing numbers from different countries and cities. Pleaes contact our support at support@ilert.com and we will provision a phone number that fits best to your local needs.
 {% endhint %}
 
 ### General settings
@@ -18,7 +20,7 @@ When your number has been added to your account, you may configure it to your li
 
 ![](../.gitbook/assets/image%20%2815%29.png)
 
-The general settings area allows you to configure a **name** \(that will be read out to your on-call staff, or as we call them **agents**, whenever they receive a call\) as well as the **language** and **greeting** of your call routing number.
+The general settings area allows you to configure a **name** as well as the **language** and **greeting** of your call routing number. The **name** will be read out to your on-call staff, or as we call them **agents**, whenever they receive a call. 
 
 The greeting that a caller of your number hears when they are calling is by default a combination of your provided **greeting** and the automatically generated **IVR menu**, that consists of the different routing options which you have chosen. A preview is always generated for you up front.
 
@@ -35,16 +37,16 @@ When picking up the call, the agent may decide to accept or decline the call. If
 We offer an additional setting for Premium and Enterprise customers called `Simultaneous calling` which will call all agents in the escalation policy in parallel, connecting the caller to the first agent that picks up and accepts.
 
 {% hint style="info" %}
-Please note that escalation times in escalation policies are skipped for policies that are used as routing options - as a call always happens in real time. If an agent declines a call, the next agent in the policy will be called asap.
+Please note that escalation times in escalation policies are skipped for policies that are used as routing options - as a call always happens in real time. If an agent declines a call, the next agent in the policy will be called immediately.
 {% endhint %}
 
 ### Voicemail setup
 
-If no user is left and no voicemail has been configured \(see below\) the caller will hear a message that no one is currently available and the call we be ended. The incident that has been created for this incoming call will be escalated once again to the targeted escalation policy.
+If no user is left and no voicemail has been configured \(see below\) the caller will hear a message that no one is currently available and the call will be ended. The incident that has been created for this incoming call will be escalated once again to the targeted escalation policy using regular incident notification and escalation rules.
 
 ![](../.gitbook/assets/image%20%2811%29.png)
 
-Yet if a voicemail is present instead, the caller will be redirected to the voicemail. In case he leaves a voicemail, the voicemail will be attached to the incident of the incoming call and escalated once again to the targeted escalation.
+Yet if a voicemail is present instead, the caller will be redirected to the voicemail. In case she leaves a voicemail, the voicemail will be attached to the incident of the incoming call and escalated once again to the targeted escalation.
 
 ### Whats next?
 

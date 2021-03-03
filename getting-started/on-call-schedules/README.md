@@ -4,12 +4,12 @@ description: Maximize accountability and transparency with on-call schedules
 
 # On-call schedules
 
-Use schedules to dynamically determine to whom an incident will be assigned to based on the time of the day. 
+Use schedules to dynamically determine to whom an incident will be assigned to based on the time of the day. A few things to know about schedules:
 
 * Only one user per schedule can be on-call at a time.
-* The members of a schedule will only be notified about inidents, if the schedule is part of an escalation policy.
+* Schedules are used in escalation policy. The members of a schedule will only be notified about inidents, if the schedule is part of an escalation policy.
 * To preserve the history of a schedule, any changes to schedules apply to current and future dates only. Shifts that are in the past cannot be deleted or modified.
-* Schedules can be embedded into any calendar application that supports the iCal format. See below for instructions.
+* Schedules can be embedded into any calendar application that supports the iCal format.
 
 ## Create / modify a schedule
 
@@ -65,25 +65,26 @@ iLert offers two types of schedules - **recurring and static schedules**, which 
   </tbody>
 </table>
 
-Refer to the sub sections for further information:
+{% page-ref page="recurring-schedules.md" %}
 
-* [Create a recurring schedule](recurring-schedules.md)
-* [Create a static schedule](simple-schedules.md)
+{% page-ref page="simple-schedules.md" %}
 
 ## Overrides
 
 {% hint style="info" %}
 **Responder role permissions required**
+
+Overrides can be added by users with **Responder** role privileges. A responder can only add herself as an override. Users with **User** privileges can add any user as an override.
 {% endhint %}
 
 Overrides are one-time changes to a schedule. Example uses of overrides are when a user becomes sick, goes on vacation, or would like to swap a shift with another user.
 
-The main benefits of overrides are that they are easy to add, they do not change the underlying structure of the schedule, they only require Responder role permission, and they can be added via the mobile app. Please note that a responder can only add herself as an override.
+The main benefits of overrides are that they are easy to add, they do not change the underlying structure of the schedule, they only require Responder role permission, and they can be added via the mobile app.
 
 To schedule an override in the web app
 
-1. navigate to a schedule
-2. click on the **Schedule override** button or click on click on a shift in the timeline view
+1. Navigate to a schedule
+2. Click on the **Schedule override** button or click on click on a shift in the timeline view
 3. In the **Schedule override** dialog, select the user to you want to add as an override
 
 ![](../../.gitbook/assets/image%20%2827%29.png)
