@@ -8,9 +8,6 @@ description: >-
 
 ## March 2021
 
-### New features:
-
-* 
 ### New and updated integrations:
 
 * New: [SignalFx Inbound](integrations/signalfx.md) Integration
@@ -18,9 +15,6 @@ description: >-
 * New: [Sentry Inbound](integrations/sentry-integration.md) Integration
 * New: [Kubernetes Inbound](integrations/kubernetes.md) Integration
 
-### Improvements:
-
-* 
 ## February 2021
 
 ### New features:
