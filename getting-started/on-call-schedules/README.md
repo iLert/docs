@@ -57,7 +57,7 @@ iLert offers two types of schedules - **recurring and static schedules**, which 
       <td style="text-align:left">
         <ul>
           <li>Use if you can&#x2019;t plan your schedule beyond a specific time frame
-            and want to schedule</li>
+            and want to schedule them manually on a regular basis.</li>
           <li>Shifts are created manually by dragging and dropping users onto the calendar</li>
         </ul>
       </td>
