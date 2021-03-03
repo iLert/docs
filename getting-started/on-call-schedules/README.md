@@ -27,7 +27,7 @@ iLert offers two types of schedules - **recurring and static schedules**, which 
     <tr>
       <th style="text-align:left"><a href="recurring-schedules.md">Recurring schedule</a>
       </th>
-      <th style="text-align:left"><a href="simple-schedules.md">Static schedule</a>
+      <th style="text-align:left"><a href="static-schedules.md">Static schedule</a>
       </th>
     </tr>
   </thead>
@@ -67,7 +67,7 @@ iLert offers two types of schedules - **recurring and static schedules**, which 
 
 {% page-ref page="recurring-schedules.md" %}
 
-{% page-ref page="simple-schedules.md" %}
+{% page-ref page="static-schedules.md" %}
 
 ## Overrides
 
