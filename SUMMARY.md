@@ -53,6 +53,13 @@
 ## Integrations
 
 * [Amazon CloudWatch Integration](integrations/amazon-cloudwatch.md)
+* [Azure Alerts Integration](integrations/azure-alerts/README.md)
+  * [Azure Activity Logs](integrations/azure-alerts/activity-logs.md)
+  * [Azure Metric](integrations/azure-alerts/metric.md)
+  * [Azure Logs](integrations/azure-alerts/logs.md)
+  * [Azure Service Health](integrations/azure-alerts/service-health.md)
+  * [Azure Sentinel](integrations/azure-alerts/sentinel.md)
+  * [Budget Alert](integrations/azure-alerts/budget.md)
 * [AppDynamics Integration](integrations/appdynamics.md)
 * [AWS Lambda Integration](integrations/aws-lambda.md)
 * [AWS Personal Health Dashboard Integration](integrations/aws-phd.md)
