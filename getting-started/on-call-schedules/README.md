@@ -27,7 +27,7 @@ iLert offers two types of schedules - **recurring and static schedules**, which 
     <tr>
       <th style="text-align:left"><a href="recurring-schedules.md">Recurring schedule</a>
       </th>
-      <th style="text-align:left"><a href="simple-schedules.md">Recurring schedule</a>
+      <th style="text-align:left"><a href="simple-schedules.md">Static schedule</a>
       </th>
     </tr>
   </thead>
