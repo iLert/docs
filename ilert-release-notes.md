@@ -11,7 +11,7 @@ description: >-
 ### New and updated integrations
 
 * New: [SignalFx Inbound](integrations/signalfx.md) Integration
-* New: [Terraform Cloud / Terraform Enterprice Inbound](integrations/terraform-cloud-terraform-enterprice.md) Integration
+* New: [Terraform Cloud / Terraform Enterprise Inbound](integrations/terraform-cloud-terraform-enterprice.md) Integration
 * New: [Sentry Inbound](integrations/sentry-integration.md) Integration
 * New: [Kubernetes Inbound](integrations/kubernetes.md) Integration
 
