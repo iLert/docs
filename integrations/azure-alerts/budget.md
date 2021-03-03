@@ -1,7 +1,5 @@
 ---
-description: >-
-  With the iLert Azure Alerts integration for Budget Alert, you can create
-  incidents in iLert based on Azure Cost Budget.
+description: Create incidents in iLert based on Azure Cost Budget.
 ---
 
 # Budget Alert

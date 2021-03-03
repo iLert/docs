@@ -1,7 +1,5 @@
 ---
-description: >-
-  With the iLert Azure Alerts integration for Azure Metric, you can create
-  incidents in iLert based on Azure Metric.
+description: Create incidents in iLert based on Azure Metric.
 ---
 
 # Azure Metric

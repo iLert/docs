@@ -1,7 +1,5 @@
 ---
-description: >-
-  With the iLert Azure Alerts integration for Azure Activity Logs, you can
-  create incidents in iLert based on Azure Activity Logs queries.
+description: Create incidents in iLert based on Azure Activity Logs queries.
 ---
 
 # Azure Activity Logs

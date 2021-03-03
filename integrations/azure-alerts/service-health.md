@@ -1,7 +1,5 @@
 ---
-description: >-
-  With the iLert Azure Alerts integration for Azure Service Health, you can
-  create incidents in iLert based on Azure Service Health alerts.
+description: Create incidents in iLert based on Azure Service Health alerts.
 ---
 
 # Azure Service Health

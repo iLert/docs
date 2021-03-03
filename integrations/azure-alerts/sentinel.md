@@ -1,7 +1,5 @@
 ---
-description: >-
-  With the iLert Azure Alerts integration for Azure Sentinel, you can create
-  incidents in iLert based on Azure Sentinel queries.
+description: Create incidents in iLert based on Azure Sentinel queries.
 ---
 
 # Azure Sentinel

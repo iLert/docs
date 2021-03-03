@@ -1,7 +1,5 @@
 ---
-description: >-
-  With the iLert Azure Alerts integration for Azure Logs, you can create
-  incidents in iLert based on Azure Logs queries.
+description: Create incidents in iLert based on Azure Logs queries.
 ---
 
 # Azure Logs
