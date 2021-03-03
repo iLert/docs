@@ -10,6 +10,12 @@ description: >-
 
 ### New and updated integrations
 
+* New: Azure Alerts Integration for [Azure Activity Logs](integrations/azure-alerts/activity-logs.md)
+* New: Azure Alerts Integration for [Budget Alert](integrations/azure-alerts/budget.md)
+* New: Azure Alerts Integration for [Azure Logs](integrations/azure-alerts/logs.md)
+* New: Azure Alerts Integration for [Azure Metric](integrations/azure-alerts/metric.md)
+* New: Azure Alerts Integration for [Azure Sentinel](integrations/azure-alerts/sentinel.md)
+* New: Azure Alerts Integration for [Service Health](integrations/azure-alerts/service-health.md)
 * New: [SignalFx Inbound](integrations/signalfx.md) Integration
 * New: [Terraform Cloud / Terraform Enterprise Inbound](integrations/terraform-cloud-terraform-enterprice.md) Integration
 * New: [Sentry Inbound](integrations/sentry-integration.md) Integration
