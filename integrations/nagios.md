@@ -34,8 +34,8 @@ With the iLert Nagios Notification Plugin, you can easily integrate Nagios with 
 Download the [iLert Nagios plugin](https://github.com/iLert/ilert-nagios) and unzip it:
 
 ```text
-> wget https://github.com/iLert/ilert-nagios/archive/v1.5.zip
-> unzip ilert-nagios-1.5.zip
+> https://github.com/iLert/ilert-nagios/releases/download/latest/ilert-nagios.zip
+> unzip ilert-nagios.zip
 ```
 
 Put the plugin file `nagios_ilert.py` in the directory `/usr/local/bin`. The file must be executable by both Nagios and the cron daemon:

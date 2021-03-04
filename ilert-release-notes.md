@@ -21,6 +21,11 @@ description: >-
 * New: [Sentry Inbound](integrations/sentry-integration.md) Integration
 * New: [Kubernetes Inbound](integrations/kubernetes.md) Integration
 
+### Improvements <a id="improvements"></a>
+
+* [Nagios](integrations/nagios.md) / [CheckMK](integrations/checkmk/check-mk.md) Plugin: Use proxy for the outbound traffic via `--proxy` flag
+* [Nagios](integrations/nagios.md) / [CheckMK](integrations/checkmk/check-mk.md) Plugin: Disable SSL certification validation \(e.g. to use self-signed certificates\) via `--insecure` flag
+
 ## February 2021
 
 ### New features

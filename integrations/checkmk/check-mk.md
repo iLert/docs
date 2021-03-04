@@ -29,8 +29,8 @@ With the iLert checkmk notification plugin you can easily integrate checkmk into
 Download the [checkmk](https://github.com/iLert/ilert-nagios) plugin package and unzip it:
 
 ```text
-> wget https://github.com/iLert/ilert-nagios/archive/v1.5.zip
-> unzip ilert-nagios-1.5.zip
+> https://github.com/iLert/ilert-nagios/releases/download/latest/ilert-nagios.zip
+> unzip ilert-nagios.zip
 ```
 
 For checkmk you need the two files `ilert_nagios.py` and `ilert_check_mk.sh`. You can delete the remaining files in the directory. Move the plugin file `ilert_nagios.py` into the directory `/usr/local/bin` . Both files must be executable by both checkmk and the cron daemon:
