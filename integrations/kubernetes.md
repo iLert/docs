@@ -46,7 +46,7 @@ helm upgrade --install --namespace kube-systems \
 ```text
 module "ilert-kube-agent" {
   source  = "iLert/ilert-kube-agent/kubernetes"
-  version = "0.3.7"
+  version = "0.3.8"
   replicas = 2
   api_key = "<YOUR KEY HERE>"
 }
@@ -81,7 +81,7 @@ git clone https://github.com/iLert/ilert-kube-agent.git
 3. Apply the deployment manifest to your kubernetes cluster
 
 ```text
-kubectl apply -f example/standard/
+kubectl apply -f deployment/standard/
 ```
 
 4. Verify that the ilert-kube-agent pods are running and ready
