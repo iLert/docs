@@ -20,9 +20,9 @@ description: >-
 
 ![](../.gitbook/assets/ilert%20%2830%29.png)
 
-## In Kubernetes <a id="in-splunk"></a>
+## In Kubernetes <a id="in-kubernetes"></a>
 
-### a. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with helm \(recommended\) <a id="create-action-sequences"></a>
+### a. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with helm \(recommended\) <a id="deploy-a"></a>
 
 1. Add helm charts repo and update it
 
@@ -39,7 +39,7 @@ helm upgrade --install --namespace kube-systems \
     --set config.settings.apiKey="<YOUR KEY HERE>"
 ```
 
-### b. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with terraform \(recommended\) <a id="create-action-sequences"></a>
+### b. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with terraform \(recommended\) <a id="deploy-b"></a>
 
 1. Define module and paste the API Key that you generated in iLert 
 
@@ -59,7 +59,7 @@ terraform init
 terraform apply
 ```
 
-### c. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with manifest <a id="create-action-sequences"></a>
+### c. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with manifest <a id="deploy-c"></a>
 
 1. Clone the ilert-kube-agent repository
 
