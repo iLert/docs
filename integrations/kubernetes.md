@@ -34,7 +34,7 @@ helm repo update
 2. Deploy ilert-kube-agent with the API Key  that you generated in iLert 
 
 ```text
-helm upgrade --install --namespace kube-systems \
+helm upgrade --install --namespace kube-system \
     ilert-kube-agent ilert/ilert-kube-agent \
     --set config.settings.apiKey="<YOUR KEY HERE>"
 ```
