@@ -83,7 +83,7 @@ iLert provides the following inbound integration options:
 
 
 
-### Connectors and connections / outbond integrations
+### Connectors and connections / outbound integrations
 
 Connectors and connections allow you to extend your incident response and communication to other tools. They allow you to either manually or automatically perform actions on incidents, such as
 
