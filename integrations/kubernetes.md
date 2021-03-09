@@ -46,7 +46,7 @@ helm upgrade --install --namespace kube-system \
 ```text
 module "ilert-kube-agent" {
   source  = "iLert/ilert-kube-agent/kubernetes"
-  version = "0.3.8"
+  version = "0.3.9"
   replicas = 2
   api_key = "<YOUR KEY HERE>"
 }
