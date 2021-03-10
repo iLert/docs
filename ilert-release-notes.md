@@ -18,7 +18,7 @@ description: >-
 * New: Azure Alerts Integration for [Service Health](integrations/azure-alerts/service-health.md)
 * New: [SignalFx Inbound](integrations/signalfx.md) Integration
 * New: [Terraform Cloud / Terraform Enterprise Inbound](integrations/terraform-cloud-terraform-enterprise.md) Integration
-* New: [Sentry Inbound](integrations/sentry-integration.md) Integration
+* New: [Sentry Inbound](integrations/sentry.md) Integration
 * New: [Kubernetes Inbound](integrations/kubernetes.md) Integration
 
 ### Improvements <a id="improvements"></a>
