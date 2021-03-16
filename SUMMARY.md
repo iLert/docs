@@ -68,6 +68,7 @@
   * [Autotask Inbound Integration](integrations/autotask/inbound.md)
   * [Autotask Outbound Integration](integrations/autotask/outbound.md)
 * [Azure Function Integration](integrations/azure-functions.md)
+* [Cloudflare Integration](integrations/cloudflare.md)
 * [Checkmk Integration](integrations/checkmk/README.md)
   * [Checkmk Integration \(v 1.x\)](integrations/checkmk/check-mk.md)
   * [Checkmk Integration \(v 2.0+ \)](integrations/checkmk/native.md)
@@ -103,6 +104,7 @@
 * [Prometheus Integration](integrations/prometheus.md)
 * [PRTG Network Monitor Integration](integrations/prtg.md)
 * [Push Notifications](integrations/push-notification.md)
+* [Raygun Integration](integrations/raygun.md)
 * [Search Guard Integration](integrations/search-guard.md)
 * [ServiceNow Integration](integrations/service-now/README.md)
   * [ServiceNow Inbound Integration](integrations/service-now/inbound.md)
@@ -115,7 +117,10 @@
 * [Single Sign-On Setup](integrations/sso.md)
 * [Sentry Integration](integrations/sentry.md)
 * [Server Density](integrations/serverdensity.md)
+* [Sematext Integration](integrations/sematext.md)
+* [Sumologic Integration](integrations/sumologic.md)
 * [StatusCake Integration](integrations/statuscake.md)
+* [StatusPage Integration](integrations/statuspage-integration.md)
 * [Zapier Integration](integrations/zapier/README.md)
   * [Zapier Inbound Integration](integrations/zapier/inbound.md)
   * [Zapier Outbound Integration](integrations/zapier/outbound.md)
@@ -136,6 +141,9 @@
 * [Zammad Integration](integrations/zammad/README.md)
   * [Zammad Inbound Integration](integrations/zammad/inbound.md)
   * [Zammad Outbound Integration](integrations/zammad/outbound.md)
+* [Zoom Integration](integrations/zoom/README.md)
+  * [Zoom Meeting Integration](integrations/zoom/meeting.md)
+  * [Zoom Chat Integration](integrations/zoom/chat.md)
 
 ---
 
