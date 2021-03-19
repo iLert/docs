@@ -50,9 +50,22 @@ description: Create StatusPage inicdents from iLert incidents.
 
 7. Finished! Now an StatusPage incident will be created for each incident in automatic trigger mode or via manual incident action.
 
+## StatusPage Incident Lifecycle
+
+| When an iLert incident ... event occurs  | ...and the ****StatusPage incident... | ...then the/an StatusPage incident... |
+| :--- | :--- | :--- |
+| **Created, re-assigned, escalated, priority raised** | does not exist | is created with status **identified** |
+| **Accepted** | does not exist | is created with status **in\_progress** |
+| **Resolved** | does not exist | is created with status **resolved** |
+| **Comment added** | does not exist | is created with status **identified** |
+| **Re-assigned, escalated, priority raised** | exists | doesn't change |
+| **Accepted** | exists | change status to **in\_progress** |
+| **Resolved** | exists | change status to **resolved** |
+| **Comment added** | exists | change body to comment content |
+
 ## FAQ <a id="faq"></a>
 
-**Can I link multiple Zoom Accounts to an iLert account?**
+**Can I link multiple StatusPage Accounts to an iLert account?**
 
 Yes.
 
