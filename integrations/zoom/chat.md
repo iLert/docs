@@ -58,7 +58,7 @@ Yes, the following updates to an incident are currently being released:
 * **Manual Assignments** : An incident is manually assigned to someone.
 * **Actions** : An incident is accepted or resolved.
 
-**Can I choose which updates to an incident will be published in Microsoft Teams?**
+**Can I choose which updates to an incident will be published in Zoom Chat?**
 
 Yes.
 

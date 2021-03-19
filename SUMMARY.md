@@ -89,6 +89,7 @@
 * [Google Stackdriver Integration](integrations/google-stackdriver.md)
 * [Grafana Integration](integrations/grafana.md)
 * [Icinga Integration](integrations/icinga.md)
+* [Cisco Webex](integrations/webex.md)
 * [Kentix AlarmManager](integrations/kentix-am.md)
 * [Kubernetes Integration](integrations/kubernetes.md)
 * [Instana Integration](integrations/instana.md)
