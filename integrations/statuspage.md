@@ -52,16 +52,80 @@ description: Create StatusPage inicdents from iLert incidents.
 
 ## StatusPage Incident Lifecycle
 
-| When an iLert incident ... event occurs  | ...and the ****StatusPage incident... | ...then the/an StatusPage incident... |
-| :--- | :--- | :--- |
-| **Created, re-assigned, escalated, priority raised** | does not exist | is created with status **identified** |
-| **Accepted** | does not exist | is created with status **in\_progress** |
-| **Resolved** | does not exist | is created with status **resolved** |
-| **Comment added** | does not exist | is created with status **identified** |
-| **Re-assigned, escalated, priority raised** | exists | doesn't change |
-| **Accepted** | exists | change status to **in\_progress** |
-| **Resolved** | exists | change status to **resolved** |
-| **Comment added** | exists | add update with comment content |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">When an iLert incident ... event occurs</th>
+      <th style="text-align:left">...and the<b> </b>StatusPage incident...</th>
+      <th style="text-align:left">...then the/an StatusPage incident...</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">
+        <p><b>Created, re-assigned, </b>
+        </p>
+        <p><b>escalated, priority raised</b>
+        </p>
+      </td>
+      <td style="text-align:left">does not exist</td>
+      <td style="text-align:left">is created with status <b>investigating</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Accepted</b>
+      </td>
+      <td style="text-align:left">does not exist</td>
+      <td style="text-align:left">is created with status <b>identified</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Resolved</b>
+      </td>
+      <td style="text-align:left">does not exist</td>
+      <td style="text-align:left">is created with status <b>resolved</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Comment added</b>
+      </td>
+      <td style="text-align:left">does not exist</td>
+      <td style="text-align:left">is created with status <b>identified</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p><b>Re-assigned, escalated, </b>
+        </p>
+        <p><b>priority raised</b>
+        </p>
+      </td>
+      <td style="text-align:left">exists</td>
+      <td style="text-align:left">change status to <b>investigating</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Accepted</b>
+      </td>
+      <td style="text-align:left">exists</td>
+      <td style="text-align:left">change status to <b>identified</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Resolved</b>
+      </td>
+      <td style="text-align:left">exists</td>
+      <td style="text-align:left">change status to <b>resolved</b>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b>Comment added</b>
+      </td>
+      <td style="text-align:left">exists</td>
+      <td style="text-align:left">add update with comment content</td>
+    </tr>
+  </tbody>
+</table>
 
 ## FAQ <a id="faq"></a>
 
