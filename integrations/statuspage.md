@@ -61,7 +61,7 @@ description: Create StatusPage inicdents from iLert incidents.
 | **Re-assigned, escalated, priority raised** | exists | doesn't change |
 | **Accepted** | exists | change status to **in\_progress** |
 | **Resolved** | exists | change status to **resolved** |
-| **Comment added** | exists | change body to comment content |
+| **Comment added** | exists | add update with comment content |
 
 ## FAQ <a id="faq"></a>
 
