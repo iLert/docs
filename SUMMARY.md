@@ -99,6 +99,7 @@
   * [Jira Outbound Integration](integrations/jira/outbound.md)
 * [Microsoft Teams Integration](integrations/microsoft-teams.md)
 * [Microsoft Teams Integration via Incoming Webhook](integrations/microsoft-teams-incoming-webhook.md)
+* [MXToolBox Integration](integrations/mxtoolbox.md)
 * [Nagios Integration](integrations/nagios.md)
 * [New Relic Integration](integrations/new-relic.md)
 * [Pingdom Integration](integrations/pingdom.md)
