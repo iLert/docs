@@ -1,3 +1,9 @@
+---
+description: >-
+  The iLert Microsoft Teams Integration helps you to bring incidents into your
+  channels via incoming connectors.
+---
+
 # Microsoft Teams Integration \(legacy\)
 
 ## In Microsoft Teams: Add an iLert Connector to a channel <a id="add-to-channel"></a>

@@ -2,8 +2,8 @@
 title: Microsoft Teams Integration via Incoming Webhook
 seoTitle: 'iLert: Microsoft Teams Integration for Alerting | Incident Response | Uptime'
 description: >-
-  The iLert Microsoft Teams Integration helps you to easily connect iLert with
-  Microsoft Teams.
+  The iLert Microsoft Teams Integration helps you to bring incidents into your
+  channels without installing the app.
 date: '2018-12-29T05:02:05.000Z'
 weight: 1
 ---
