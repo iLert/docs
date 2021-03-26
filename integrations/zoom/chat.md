@@ -1,7 +1,7 @@
 ---
 description: >-
   The iLert Zoom Chat Integration helps you to bring iLert incidents into your
-  Zoom channels.
+  Zoom channels, acknowledge or resolve incidents without leaving the chat.
 ---
 
 # Zoom Chat Integration

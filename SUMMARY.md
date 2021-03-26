@@ -147,8 +147,8 @@
   * [Zammad Inbound Integration](integrations/zammad/inbound.md)
   * [Zammad Outbound Integration](integrations/zammad/outbound.md)
 * [Zoom Integration](integrations/zoom/README.md)
-  * [Zoom Meeting Integration](integrations/zoom/meeting.md)
   * [Zoom Chat Integration](integrations/zoom/chat.md)
+  * [Zoom Meeting Integration](integrations/zoom/meeting.md)
 
 ---
 
