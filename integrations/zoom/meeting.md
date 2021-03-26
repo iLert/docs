@@ -4,15 +4,15 @@ description: Create Zoom Meeting from iLert incidents.
 
 # Zoom Meeting Integration
 
+## In iLert <a id="create-alarm-source"></a>
+
+### Create the Zoom Meeting Connector and link it to the alert source
+
 {% hint style="info" %}
 **Admin permission required**
 
 To set up the integration, you must have admin rights in iLert.
 {% endhint %}
-
-## In iLert <a id="create-alarm-source"></a>
-
-### Create the Zoom Meeting Connector and link it to the alert source
 
 1. ****Click the gear icon and then click on the **Connectors** link
 
