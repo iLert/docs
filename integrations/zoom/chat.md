@@ -42,7 +42,7 @@ To set up the integration, you must have admin rights in iLert.
 
 6. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the Zoom Chat channel.
 
-![](../../.gitbook/assets/screenshot_16_03_21__16_30.png)
+![](../../.gitbook/assets/zoom%20%282%29.png)
 
 ## FAQ <a id="faq"></a>
 

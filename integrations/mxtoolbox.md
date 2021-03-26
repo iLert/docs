@@ -16,7 +16,7 @@ description: >-
 
 2. Enter a name and select your desired escalation policy. Select "MXToolBox" as the **Integration Type** and click on **Save**.
 
-![](../.gitbook/assets/ilert%20%2840%29.png)
+![](../.gitbook/assets/ilert%20%2842%29.png)
 
 3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the notification callback in MXToolBox.
 
