@@ -65,7 +65,7 @@ Yes.
 **How can I uninstall the iLert App from my Zoom account?**
 
 1. Login to your Zoom Account and navigate to the Zoom App Marketplace
-2. Click on the **Manage** link and then on the **Installed Apps** link or search for the **iLert** app
+2. Click on the **Manage** link and then on the **Installed Apps** link \(alternatively you may also search for the **iLert** app\)
 3. Click on the **iLert** app
 4. Click on the **Uninstall** button
 
