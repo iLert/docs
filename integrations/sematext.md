@@ -6,6 +6,8 @@ description: >-
 
 # Sematext Integration
 
+Sematext Cloud is an all-in-one infrastructure performance and log monitoring, real user, frontend, API, website, and uptime monitoring SaaS.
+
 ## In iLert <a id="in-ilert"></a>
 
 ### Create a Sematext alert source <a id="create-alert-source"></a>
