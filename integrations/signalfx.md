@@ -6,6 +6,8 @@ description: >-
 
 # SignalFx Integration
 
+SignalFx enables real-time cloud monitoring and observability for infrastructure, microservices, and applications by collecting and analyzing metrics and traces across every component in your cloud environment. Built on a massively-scalable streaming architecture, SignalFx applies advanced analytics and data science-directed troubleshooting to let operators find the root cause of issues in seconds.
+
 ## In iLert <a id="in-ilert"></a>
 
 ### Create a SignalFx alert source <a id="create-alert-source"></a>
