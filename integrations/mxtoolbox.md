@@ -6,6 +6,8 @@ description: >-
 
 # MXToolBox Integration
 
+MxToolbox supports global Internet operations by providing free, fast and accurate network diagnostic and lookup tools. Millions of technology professionals use MxToolbox to help diagnose and resolve a wide range of infrastructure issues.
+
 ## In iLert <a id="in-ilert"></a>
 
 ### Create a MXToolBox alert source <a id="create-alert-source"></a>
