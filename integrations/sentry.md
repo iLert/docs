@@ -6,6 +6,8 @@ description: >-
 
 # Sentry Integration
 
+Sentry's platform helps developers diagnose, fix, and optimize the performance of their code.
+
 ## In iLert <a id="in-ilert"></a>
 
 ### Create a Sentry alert source <a id="create-alert-source"></a>
