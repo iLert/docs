@@ -24,9 +24,9 @@ The A2A pub/sub functionality provides topics for high-throughput, push-based, m
 
 ![](../../.gitbook/assets/ilert%20%2845%29.png)
 
-## In AWS Console <a id="in-splunk"></a>
+## In AWS Console <a id="in-aws-console"></a>
 
-### Create a SNS topic subscrition <a id="create-action-sequences"></a>
+### Create a SNS topic subscrition <a id="create-sns-topic-subscription"></a>
 
 {% hint style="info" %}
 If you already have an Amazon SNS topic, please skip the steps 1 and 2.
