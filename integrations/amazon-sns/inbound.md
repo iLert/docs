@@ -65,6 +65,77 @@ All attributes are optional
 | incidentUrl2 | optional | Any URL string |
 | incidentUrl3 | optional | Any URL string |
 
+#### Example
+
+{% tabs %}
+{% tab title="Java" %}
+```java
+AmazonSNSClient snsClient = new AmazonSNSClient(new BasicAWSCredentials("AWS_ACCESS_KEY","AWS_SECRET_KEY"));
+
+String msg = "Test incident details";
+String subject = "Test alert for Amazon SNS Integration";
+
+PublishRequest publishRequest = new PublishRequest("arn:aws:sns:xxxxxxxxx:xxxxxxxxxx:MyTopic", msg, subject);
+
+publishRequest.addMessageAttributesEntry("eventType", new MessageAttributeValue()
+                    .withDataType("String").withStringValue("ALERT"));
+publishRequest.addMessageAttributesEntry("incidentKey", new MessageAttributeValue()
+                    .withDataType("String").withStringValue("my-uniq-incident-string"));
+publishRequest.addMessageAttributesEntry("priority", new MessageAttributeValue()
+                    .withDataType("String").withStringValue("HIGH"));
+publishRequest.addMessageAttributesEntry("incidentUrl1", new MessageAttributeValue()
+                    .withDataType("String").withStringValue("https://www.ilert.com"));
+
+PublishResult publishResult = snsClient.publish(publishRequest);
+```
+{% endtab %}
+
+{% tab title="Go" %}
+```go
+package main
+
+import (
+	"github.com/aws/aws-sdk-go/aws"
+	"github.com/aws/aws-sdk-go/aws/session"
+	"github.com/aws/aws-sdk-go/service/sns"
+
+	"fmt"
+	"os"
+)
+
+func main() {
+	// Initialize a session that the SDK will use to load
+	// credentials from the shared credentials file. (~/.aws/credentials).
+	sess := session.Must(session.NewSessionWithOptions(session.Options{
+		SharedConfigState: session.SharedConfigEnable,
+	}))
+
+	svc := sns.New(sess)
+
+	result, err := svc.Publish(&sns.PublishInput{
+		Message:  aws.String("Test incident details"),
+		Subject:  aws.String("Test alert for Amazon SNS Integration"),
+		TopicArn: aws.String("arn:aws:sns:xxxxxxxxx:xxxxxxxxxx:MyTopic"),
+		MessageAttributes: map[string]*sns.MessageAttributeValue{
+			"eventType":    {StringValue: aws.String("ALERT")},
+			"incidentKey":  {StringValue: aws.String("my-uniq-incident-string")},
+			"priority":     {StringValue: aws.String("HIGH")},
+			"incidentUrl1": {StringValue: aws.String("https://www.ilert.com")},
+		},
+	})
+	
+	if err != nil {
+		fmt.Println(err.Error())
+		os.Exit(1)
+	}
+
+	fmt.Println(*result.MessageId)
+}
+
+```
+{% endtab %}
+{% endtabs %}
+
 ## FAQ <a id="faq"></a>
 
 **Will incidents in iLert be resolved automatically?**
