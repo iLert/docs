@@ -4,7 +4,7 @@ description: The iLert AWS Budget Integration helps you to easily connect iLert 
 
 # AWS Budget Integration
 
-AWS Budgets allows you to set custom budgets to track your cost and usage from the simplest to the most complex use cases.
+[AWS Budgets](https://aws.amazon.com/aws-cost-management/aws-budgets/) allows you to set custom budgets to track your cost and usage from the simplest to the most complex use cases.
 
 With iLert AWS Budget Integration, you can receive AWS Budget alert through iLert and easily extend AWS Budget functionality with SMS, push, voice, and iLert on-call schedules.
 

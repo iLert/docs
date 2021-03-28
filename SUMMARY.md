@@ -64,6 +64,8 @@
 * [AWS Lambda Integration](integrations/aws-lambda.md)
 * [AWS Personal Health Dashboard Integration](integrations/aws-phd.md)
 * [AWS Budget Integration](integrations/awsbudget.md)
+* [Amazon SNS Integration](integrations/amazon-sns/README.md)
+  * [Amazon SNS Inbound Integration](integrations/amazon-sns/inbound.md)
 * [Autotask Integration](integrations/autotask/README.md)
   * [Autotask Inbound Integration](integrations/autotask/inbound.md)
   * [Autotask Outbound Integration](integrations/autotask/outbound.md)
