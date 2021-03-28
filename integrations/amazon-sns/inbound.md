@@ -117,10 +117,10 @@ func main() {
 		Subject:  aws.String("Test alert for Amazon SNS Integration"),
 		TopicArn: aws.String("arn:aws:sns:xxxxxxxxx:xxxxxxxxxx:MyTopic"),
 		MessageAttributes: map[string]*sns.MessageAttributeValue{
-			"eventType":    {StringValue: aws.String("ALERT")},
-			"incidentKey":  {StringValue: aws.String("my-uniq-incident-string")},
-			"priority":     {StringValue: aws.String("HIGH")},
-			"incidentUrl1": {StringValue: aws.String("https://www.ilert.com")},
+			"eventType":    {StringValue: aws.String("ALERT"), DataType: aws.String("String")},
+			"incidentKey":  {StringValue: aws.String("my-uniq-incident-string"), DataType: aws.String("String")},
+			"priority":     {StringValue: aws.String("HIGH"), DataType: aws.String("String")},
+			"incidentUrl1": {StringValue: aws.String("https://www.ilert.com"), DataType: aws.String("String")},
 		},
 	})
 	
