@@ -143,6 +143,7 @@
   * [Zabbix 2.2 - 4.3 Integration](integrations/zabbix/script.md)
 * [Zendesk Integration](integrations/zendesk.md)
 * [Mattermost Integration](integrations/mattermost.md)
+* [X-Pack Alerting \(Elasticsearch Watcher\) Integration](integrations/eswatcher.md)
 * [Zammad Integration](integrations/zammad/README.md)
   * [Zammad Inbound Integration](integrations/zammad/inbound.md)
   * [Zammad Outbound Integration](integrations/zammad/outbound.md)

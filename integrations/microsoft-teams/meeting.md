@@ -24,7 +24,7 @@ To set up the integration, you must have admin rights in iLert.
 
 3. On the next page, choose **Microsoft Teams Meeting** as type, name the connector and click on the save button to authorize iLert App with your Microsoft Teams account.
 
-![](../../.gitbook/assets/ilert%20%2840%29.png)
+![](../../.gitbook/assets/ilert%20%2841%29.png)
 
 4. On the next page, agree with the requested permissions and click on the **Authorize** button
 
@@ -34,11 +34,11 @@ To set up the integration, you must have admin rights in iLert.
 
 6. On the next page choose **Microsoft Teams Meeting** as the type, choose the connector created in step 3, name it, choose **Trigger mode** and click on the **Save** button.
 
-![](../../.gitbook/assets/ilert%20%2836%29.png)
+![](../../.gitbook/assets/ilert%20%2837%29.png)
 
 7. Finished! Now a Microsoft Teams Meeting will be created  for each incident in automatic trigger mode or via manual incident action.
 
-![](../../.gitbook/assets/ilert%20%2838%29.png)
+![](../../.gitbook/assets/ilert%20%2839%29.png)
 
 ## FAQ <a id="faq"></a>
 
