@@ -20,7 +20,7 @@ description: >-
 
 3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the Watcher in X-Pack.
 
-![](../.gitbook/assets/ilert%20%2842%29.png)
+![](../.gitbook/assets/ilert%20%2843%29.png)
 
 ## In X-Pack Alerting <a id="in-splunk"></a>
 

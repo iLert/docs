@@ -18,57 +18,64 @@ The A2A pub/sub functionality provides topics for high-throughput, push-based, m
 
 2. Enter a name and select your desired escalation policy. Select "Amazon SNS" as the **Integration Type** and click on **Save**.
 
-![](../../.gitbook/assets/ilert%20%2836%29.png)
+![](../../.gitbook/assets/ilert%20%2841%29.png)
 
 3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the SNS subscription in AWS Console.
 
-![](../../.gitbook/assets/ilert%20%2842%29.png)
+![](../../.gitbook/assets/ilert%20%2845%29.png)
 
 ## In AWS Console <a id="in-splunk"></a>
 
 ### Create a SNS topic subscrition <a id="create-action-sequences"></a>
 
-1. Go to Kibana and then to **Management -&gt; Watcher**, then click on the **Create** button and on the **Create advanced watch** button**.**
+{% hint style="info" %}
+If you already have an Amazon SNS topic, please skip the steps 1 and 2.
+{% endhint %}
 
-![](../../.gitbook/assets/kibana%20%281%29.png)
+1. Go to the AWS Console and then to **Amazon SNS**, then click on the **Topic** link and on the **Create topic** button**.**
 
-2. On the next page, name the watcher e.g. iLert, define conditions and actions the **Webhook URL** that you generated in iLert as follows:
+![](../../.gitbook/assets/simple_notification_service%20%287%29.png)
 
-![](../../.gitbook/assets/kibana.png)
+2. On the next page, choose **Standard** topic, name the topic e.g. iLert and click on the **Create topic** button
 
-```text
-{
-    ...
-    [CONFIGURATIONS OF YOUR X-PACK ALERTING ALERT]
-    ...
-    "actions" : {
-        "ilert" : {
-            "webhook" : {
-                "scheme" : "https",
-                "method" : "POST",
-                "host" : "api.ilert.com",
-                "port" : 443,
-                "path" : "/api/v1/events/eswatcher/[YOUR API KEY]",
-                "headers" : {
-                    "Content-Type" : "application/json"
-                },
-                "params": {},
-                "body" : "{{#toJson}}ctx{{/toJson}}"
-            }
-        }
-    }
-}
-```
+![](../../.gitbook/assets/simple_notification_service%20%284%29.png)
 
-Finished! Your X-Pack alerts will now create incidents in iLert.
+3. On the topic overview page, click on the **Create subscription** button
+
+![](../../.gitbook/assets/simple_notification_service%20%285%29.png)
+
+3. On the next page, in the **Protocol** section choose **HTTPS**, on the **Endpoint** section paste the **Webhook URL** that you generated in iLert and click on the **Create subscription** button
+
+![](../../.gitbook/assets/simple_notification_service%20%286%29.png)
+
+Finished! Your Amazon SNS notifications will now create incidents in iLert.
+
+## Custom attributes
+
+{% hint style="info" %}
+All attributes are optional
+{% endhint %}
+
+| Attribute | Preconditions | Allowed values |
+| :--- | :--- | :--- |
+| eventType | optional | ALERT, ACCEPT, RESOLVE |
+| incidentKey | required if eventType used | Any string |
+| priority | optional | HIGH, LOW |
+| incidentUrl1 | optional | Any URL string |
+| incidentUrl2 | optional | Any URL string |
+| incidentUrl3 | optional | Any URL string |
 
 ## FAQ <a id="faq"></a>
 
 **Will incidents in iLert be resolved automatically?**
 
-No, unfortunately Watcher's notification is not compatible with iLert's resolve event.
+No, but you can use the **eventType** custom attribute to resolve an incident in specified **incidentKey**.
 
-**Can I connect X-Pack Alerting with multiple alert sources from iLert?**
+**Can I accept an incident via Amazon SNS?**
 
-Yes, simply add more watchers in X-Pack Alerting.
+Yes, use the **eventType** custom attribute to resolve an incident in specified **incidentKey**.
+
+**Can I connect Amazon SNS Alerting with multiple alert sources from iLert?**
+
+Yes, simply add more Amazon SNS topics or add more topic subscriptions to the same topic and use the **incidentKey** custom attribute.
 
