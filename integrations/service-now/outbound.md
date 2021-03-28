@@ -6,6 +6,8 @@ description: >-
 
 # ServiceNow Outbound Integration
 
+[ServiceNow](http://www.servicenow.com/) is a platform-as-a-service \(PaaS\) provider of enterprise Service Management \(SM\) software.
+
 ## In iLert: Create ServiceNow Connector and link to alert source <a id="alarm-sources"></a>
 
 1. Click the gear icon → **Connectors**
