@@ -48,8 +48,8 @@ exports.handler = async (event) => {
           Message: incidentEvent.details ? incidentEvent.details : incidentEvent.summary,
           TopicArn: topicArn,
           MessageAttributes: {
-            "eventType": { StringValue: incidentEvent.eventType },
-            "status": { StringValue: incidentEvent.status },
+            "event": { StringValue: incidentEvent.eventType, DataType: "String" },
+            "status": { StringValue: incidentEvent.status, DataType: "String" },
           },
         };
         
@@ -77,11 +77,11 @@ exports.handler = async (event) => {
 
 4. Change the **topicArn** variable to the Amazon SNS topic arn and click on the **Deploy** button
 
-![](../../.gitbook/assets/myincidenthandler_-_lambda%20%281%29.png)
+![](../../.gitbook/assets/myincidenthandler_-_lambda.png)
 
 5. In the **Function overview** section, click on the **Add trigger** button
 
-![](../../.gitbook/assets/myincidenthandler_-_lambda%20%282%29.png)
+![](../../.gitbook/assets/myincidenthandler_-_lambda%20%283%29.png)
 
 6. On the next page, choose **API Gateway** as trigger type, in the **API** section choose **Create an API**, in the **API type** section choose **REST API**, in the **Security** section choose **API key** and click on the **Add** button
 
@@ -89,7 +89,7 @@ exports.handler = async (event) => {
 
 7. On the next page an **API endpoint** and an **API key** are generated. You will need this URL and key below when setting up the AWS Lambda connector in iLert.
 
-![](../../.gitbook/assets/myincidenthandler_-_lambda.png)
+![](../../.gitbook/assets/myincidenthandler_-_lambda%20%281%29.png)
 
 ## In iLert <a id="in-ilert"></a>
 
