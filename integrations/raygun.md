@@ -1,8 +1,12 @@
 ---
-description: The iLert Raygun Integration helps you to easily connect iLert with Raygun.
+description: >-
+  With the iLert Raygun integration, you can create incidents in iLert based on
+  Raygun crash reports.
 ---
 
 # Raygun Integration
+
+[Raygun](https://raygun.com/) is a cloud-based platform that provides error, crash, and performance monitoring for your web and mobile applications.
 
 ## In iLert <a id="in-ilert"></a>
 
