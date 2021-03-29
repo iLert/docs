@@ -24,7 +24,7 @@ To set up the integration, you must have admin rights in iLert.
 
 3. On the next page, choose **Microsoft Teams Meeting** as type, name the connector and click on the save button to authorize iLert App with your Microsoft Teams account.
 
-![](../../.gitbook/assets/ilert%20%2842%29.png)
+![](../../.gitbook/assets/ilert%20%2843%29.png)
 
 4. On the next page, agree with the requested permissions and click on the **Authorize** button
 

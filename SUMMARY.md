@@ -66,6 +66,7 @@
 * [AWS Budget Integration](integrations/awsbudget.md)
 * [Amazon SNS Integration](integrations/amazon-sns/README.md)
   * [Amazon SNS Inbound Integration](integrations/amazon-sns/inbound.md)
+  * [Amazon SNS Outbound via AWS Lambda](integrations/amazon-sns/outbound-via-lambda.md)
 * [Autotask Integration](integrations/autotask/README.md)
   * [Autotask Inbound Integration](integrations/autotask/inbound.md)
   * [Autotask Outbound Integration](integrations/autotask/outbound.md)
