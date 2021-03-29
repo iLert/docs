@@ -26,7 +26,7 @@ To set up the integration, you must have admin rights in iLert.
 
 3. On the next page, choose **Microsoft Teams Chat** as type, name the connector and click on the save button to authorize iLert App with your Microsoft Teams account.
 
-![](../../.gitbook/assets/ilert%20%2841%29.png)
+![](../../.gitbook/assets/ilert%20%2843%29.png)
 
 4. On the next page, agree with the requested permissions and click on the **Authorize** button
 
@@ -36,7 +36,7 @@ To set up the integration, you must have admin rights in iLert.
 
 6. On the next page choose **Microsoft Teams Chat** as the type, choose the connector created in step 3, name it**,** choose **incident events** to publish, choose **Your team**, then choose **Your channel** and click on the **Save** button.
 
-![](../../.gitbook/assets/ilert%20%2846%29.png)
+![](../../.gitbook/assets/ilert%20%2848%29.png)
 
 6. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the Microsoft Teams channel.
 

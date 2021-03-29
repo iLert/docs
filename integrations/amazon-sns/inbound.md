@@ -18,11 +18,11 @@ The A2A pub/sub functionality provides topics for high-throughput, push-based, m
 
 2. Enter a name and select your desired escalation policy. Select "Amazon SNS" as the **Integration Type** and click on **Save**.
 
-![](../../.gitbook/assets/ilert%20%2842%29.png)
+![](../../.gitbook/assets/ilert%20%2844%29.png)
 
 3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the SNS subscription in AWS Console.
 
-![](../../.gitbook/assets/ilert%20%2847%29.png)
+![](../../.gitbook/assets/ilert%20%2849%29.png)
 
 ## In AWS Console <a id="in-aws-console"></a>
 

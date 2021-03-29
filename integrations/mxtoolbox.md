@@ -18,11 +18,11 @@ MxToolbox supports global Internet operations by providing free, fast and accura
 
 2. Enter a name and select your desired escalation policy. Select "MXToolBox" as the **Integration Type** and click on **Save**.
 
-![](../.gitbook/assets/ilert%20%2848%29.png)
+![](../.gitbook/assets/ilert%20%2850%29.png)
 
 3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the notification callback in MXToolBox.
 
-![](../.gitbook/assets/ilert%20%2838%29.png)
+![](../.gitbook/assets/ilert%20%2839%29.png)
 
 ## In MXToolBox <a id="in-splunk"></a>
 

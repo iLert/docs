@@ -111,15 +111,15 @@ To set up the integration, you must have admin rights in iLert.
 
 3. On the next page, choose **AWS Lambda** as type, name the connector, paste the **API key** that you generated in AWS Lambda and click on the **Save** button
 
-![](../../.gitbook/assets/ilert%20%2849%29.png)
+![](../../.gitbook/assets/ilert%20%2851%29.png)
 
 4. Go to the alert sources tab and open the alert source whose incidents you want to publish to Amazon SNS. Click on the **Incident actions** tab and then on the **Add new incident action** button
 
-![](../../.gitbook/assets/ilert%20%2845%29.png)
+![](../../.gitbook/assets/ilert%20%2847%29.png)
 
 6. On the next page choose **AWS Lambda** as the type, choose the connector created in step 3, name it, choose **Trigger mode,**  paste the **API URL** that you generated in AWS Lambda and click on the **Save** button.
 
-![](../../.gitbook/assets/ilert%20%2840%29.png)
+![](../../.gitbook/assets/ilert%20%2842%29.png)
 
 7. Finished! Now an Amazon SNS notification will be created  for each incident in automatic trigger mode or via manual incident action.
 
