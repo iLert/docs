@@ -30,7 +30,7 @@ description: Receive and respond to iLert incidents in Cisco Webex.
 
 ![](../.gitbook/assets/screenshot_19_03_21__07_54.png)
 
-6. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the Cisco Webex room.
+6. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the Cisco Webex space.
 
 ![](../.gitbook/assets/screenshot_19_03_21__07_21.png)
 
@@ -40,7 +40,7 @@ description: Receive and respond to iLert incidents in Cisco Webex.
 
 Yes.
 
-**Are updates to an incident published on the Cisco Webex room?**
+**Are updates to an incident published on the Cisco Webex space?**
 
 Yes, the following updates to an incident are currently being released:
 
