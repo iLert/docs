@@ -6,7 +6,7 @@ description: >-
 
 # Zoom Chat Integration
 
-## In iLert <a id="create-alarm-source"></a>
+## In iLert <a id="in-ilert"></a>
 
 ### Create the Zoom Chat Connector and link it to the alert source
 
