@@ -6,7 +6,7 @@ description: >-
 
 # HashiCorp Consul
 
-With the iLert HashiCorp Consul integration you can create incidents in iLert based on HashiCorp Consul Health Check events.
+[HashiCorp Consul](https://www.consul.io/) is a service mesh solution providing a full featured control plane with service discovery, configuration, and segmentation functionality.
 
 ## In iLert <a id="in-ilert"></a>
 
