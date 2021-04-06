@@ -14,11 +14,11 @@ description: Create iLert incidents directly from Cortex XSOAR.
 
 2. Enter a name and select your desired escalation policy. Select "Cortex XSOAR" as the **Integration Type** and click on **Save**.
 
-![](../.gitbook/assets/ilert%20%2828%29.png)
+![](../.gitbook/assets/ilert%20%2854%29.png)
 
 3. On the next page, an **API Key** is generated. You will need this API Key below when setting up the Cortex XSOAR integration.
 
-![](../.gitbook/assets/ilert%20%2853%29.png)
+![](../.gitbook/assets/ilert%20%2855%29.png)
 
 ## In Cortex XSOAR Server <a id="in-cortex-xsoar"></a>
 
