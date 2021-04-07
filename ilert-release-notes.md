@@ -6,6 +6,17 @@ description: >-
 
 # iLert Release Notes
 
+## April 2021
+
+### New and updated integrations
+
+* New: [Zoom Chat](integrations/zoom/chat.md) Integration
+* New: [Zoom Meeting](integrations/zoom/meeting.md) Integration
+* New: [Microsoft Teams Chat](integrations/microsoft-teams/chat.md) Integration
+* New: [Microsoft Teams Meeting](integrations/microsoft-teams/meeting.md) Integration
+* New: [MXToolBox](integrations/mxtoolbox.md) Integration
+* New: [Azure Alert Sentinel](integrations/azure-alerts/sentinel.md) Integration
+
 ## March 2021
 
 ### New and updated integrations

@@ -6,6 +6,13 @@ description: >-
 
 # iLert Mobile Release Notes
 
+## March 2021
+
+### Improvements
+
+* Possible problems with the schedule override fixed
+* Possible problem with incident images fixed
+
 ## Januar 2021
 
 ### New features
