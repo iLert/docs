@@ -73,7 +73,7 @@
   * [Autotask Outbound Integration](integrations/autotask/outbound.md)
 * [Azure Function Integration](integrations/azure-functions.md)
 * [Cloudflare Integration](integrations/cloudflare.md)
-* [Cortex XSOAR Integration](integrations/cortex-xsoar.md)
+* [Cortex XSOAR \(formerly Demisto\) Integration](integrations/cortex-xsoar.md)
 * [Checkmk Integration](integrations/checkmk/README.md)
   * [Checkmk Integration \(v 1.x\)](integrations/checkmk/check-mk.md)
   * [Checkmk Integration \(v 2.0+ \)](integrations/checkmk/native.md)

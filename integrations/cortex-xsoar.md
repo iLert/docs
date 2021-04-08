@@ -1,8 +1,8 @@
 ---
-description: Create iLert incidents directly from Cortex XSOAR.
+description: Create iLert incidents directly from Cortex XSOAR (formerly Demisto).
 ---
 
-# Cortex XSOAR Integration
+# Cortex XSOAR \(formerly Demisto\) Integration
 
 [Cortex XSOAR](https://www.paloaltonetworks.com/cortex/xsoar) is the industry’s only extended security orchestration, automation and response platform that unifies case management, automation, real-time collaboration and threat intelligence management to transform every stage of the incident lifecycle. Teams can manage alerts across all sources, standardize processes with playbooks, take action on threat intelligence and automate response for any security use case, resulting in significantly faster responses that require less manual review.
 
