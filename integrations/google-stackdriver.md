@@ -4,17 +4,15 @@ seoTitle: >-
   iLert: Google Stackdriver Integration for Alerting | Incident Response |
   Uptime
 description: >-
-  The iLert Google Stackdriver Integration helps you to easily connect iLert
-  with Google Stackdriver.
+  The iLert Google Cloud's operations suite (formerly Stackdriver)  Integration
+  helps you to easily connect iLert with Google Cloud's operations.
 date: '2018-12-29T05:02:05.000Z'
 weight: 1
 ---
 
-# Google Stackdriver Integration
+# Google Cloud's operations suite \(formerly Stackdriver\) Integration
 
-[Stackdriver](http://www.stackdriver.com/) is a SaaS monitoring and log management software for Google Cloud Platform and Amazon Web Services.
-
-With iLert Stackdriver Integration, you can receive Stackdriver Incidents through iLert and Stackdriver to easily extend SMS, Push, Voice, and iLert rosters.
+With [Google Cloud's operations suite](https://cloud.google.com/products/operations) you can  monitor, troubleshoot, and improve application performance on your Google Cloud environment.
 
 ## In iLert: Create a Stackdriver alert source <a id="create-alarm-source"></a>
 
