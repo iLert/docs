@@ -77,7 +77,10 @@ iLert offers two types of schedules - **recurring and static schedules**, which 
 Overrides can be added by users with **Responder** role privileges. A responder can only add herself as an override. Users with **User** privileges can add any user as an override.
 {% endhint %}
 
-Overrides are one-time changes to a schedule. Example uses of overrides are when a user becomes sick, goes on vacation, or would like to swap a shift with another user.
+Overrides are one-time changes to a schedule. Example uses of overrides include
+
+*  when a user becomes sick, goes on vacation, or would like to swap a shift with another user
+* scheduling different shifts for holidays
 
 The main benefits of overrides are that they are easy to add, they do not change the underlying structure of the schedule, they only require Responder role permission, and they can be added via the mobile app.
 
@@ -93,7 +96,7 @@ Overrides can be deleted and overriden by another override. To delete an overrid
 
 ![](../../.gitbook/assets/image%20%2826%29.png)
 
-To add an override in the mobiel app, open the **Who is on-call?** screen and tap on **Override shift** on the shift you want to override. 
+To add an override in the mobile app, open the **Who is on-call?** screen and tap on **Override shift** on the shift you want to override. 
 
 <table>
   <thead>
