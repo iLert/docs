@@ -17,6 +17,10 @@ description: >-
 * New: [MXToolBox](integrations/mxtoolbox.md) Integration
 * New: [Azure Alert Sentinel](integrations/azure-alerts/sentinel.md) Integration
 
+### New features
+
+* On-calls REST API [resource](https://api.ilert.com/api-docs/#tag/On-Calls)
+
 ## March 2021
 
 ### New and updated integrations
