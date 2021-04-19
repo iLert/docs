@@ -30,7 +30,13 @@ To set up this integration, you must have admin rights in iLert.
 
 5. Click on **Create**
 
-9. The modal window will open, copy the generated access token
+{% hint style="warning" %}
+An agent token has a group scope
+
+An agent token has a group scope so if you want to use a group that the current user is not a member of, you need to create a token with the admin scope for all groups.
+{% endhint %}
+
+6. The modal window will open, copy the generated access token
 
 ![](../../.gitbook/assets/screenshot_07_02_21__13_36.png)
 
@@ -73,4 +79,12 @@ Yes, the state of the iLert Incident is reflected in the brief description of th
 **Can I choose which updates are to be published to a Zammad Ticket?**
 
 Currently not. If you wish to, we look forward to your feedback via chat or e-mail
+
+**Can I use custom group for the Zammad tickets?**
+
+Yes, you need to create an agent token and include the user in the group or create an admin token with the group scope.
+
+**Can I use multiple Zammad groups?**
+
+Yes, just create an incident action for each Zammad group.
 
