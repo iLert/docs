@@ -4,7 +4,7 @@ description: >-
   channels via incoming connectors.
 ---
 
-# Microsoft Teams Integration \(legacy\)
+# Microsoft Teams Integration
 
 ## In Microsoft Teams: Add an iLert Connector to a channel <a id="add-to-channel"></a>
 

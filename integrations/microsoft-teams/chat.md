@@ -6,6 +6,10 @@ description: >-
 
 # Microsoft Teams Integration Chat
 
+{% hint style="warning" %}
+This connector is currently in BETA and will be accessable soon
+{% endhint %}
+
 ## In iLert <a id="create-alarm-source"></a>
 
 ### Create the Microsoft Teams Chat Connector and link it to the alert source
