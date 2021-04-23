@@ -50,3 +50,11 @@ Yes, as soon as an alert with "ok" has been resolved in SignalFx, the associated
 
 Yes, simply add more recipients in SignalFx alert rule.
 
+**Can I connect single alert source with multiple SignalFx detectors?**
+
+Yes, simply use the alert source URL in the recipients setting for each SignalFx detector.
+
+**Can I create a webhook template for the recipient setting so I don't have to copy the alert source URL every time for each detector?**
+
+Yes, use the webhook integration template in the **Data Setup -&gt; Integrations -&gt; Webhook page**
+
