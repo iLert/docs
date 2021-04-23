@@ -24,13 +24,17 @@ With the native iLert notification integration in checkmk, you can automatically
 
 ## In checkmk: configure iLert notification <a id="configure-ilert-plugin"></a>
 
-1. Navigate to the **Notifications** menu and click on **New Rule**.
+1. Navigate to the **Setup** --&gt; **Events** --&gt; **Notifications**
 
-![](../../.gitbook/assets/checkmk_local_site_cmk_-_notification_configuration.png)
+![](../../.gitbook/assets/picture-1.png)
+
+2. In the **Notification configuration**, click on **Add rule**
+
+![](../../.gitbook/assets/picture-2.png)
 
 2. In the **Notification Method** section choose iLert method. Enter enter the **API key** and click on **Save**.
 
-![](../../.gitbook/assets/checkmk_local_site_cmk_-_edit_notification_rule_0.png)
+![](../../.gitbook/assets/picture-4.png)
 
 ## FAQ <a id="faq"></a>
 
