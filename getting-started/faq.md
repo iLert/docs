@@ -47,7 +47,7 @@ Once you change the account owner, you will be logged out immediately and cannot
 
 To change the account owner, go to **Account settings** and click on the **change** account owner link.
 
-![](../.gitbook/assets/screenshot-2020-07-01-at-13.22.48.png)
+![](../.gitbook/assets/screenshot-2021-04-26-at-16.02.28.png)
 
 ## How can I update the payment method?
 
