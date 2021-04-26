@@ -26,7 +26,7 @@ With iLert's Prometheus integration, you can automatically create incidents in i
 
 ![](../.gitbook/assets/screenshot-2021-04-26-at-13.04.18.png)
 
-4. A webhook URL will be generated on the next page. You will this URL later in Prometheus.
+4. A webhook URL will be generated on the next page. You will need this URL later in Prometheus.
 
 ![](../.gitbook/assets/screenshot-2021-04-26-at-13.05.18.png)
 
