@@ -17,7 +17,7 @@ You can find information on our domains, notification email addresses, phone num
 | Web application | [https://app.ilert.com](https://app.ilert.com) and [https://your-domain.ilert.com](https://your-domain.ilert.com) |
 | Website | [https://www.ilert.com](https://www.ilert.com) |
 | Documentation | [https://docs.ilert.com](https://docs.ilert.com) |
-| API | [https://api.ilert.com](https://api.ilert.com) |
+| API | [https://api.ilert.com/api/v1/numbers](https://api.ilert.com/api/v1/numbers) |
 | API documentation | [https://api.ilert.com/api-docs](https://api.ilert.com/api-docs) |
 | Service Status | [http://status.ilert.com](http://status.ilert.com) |
 

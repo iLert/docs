@@ -87,6 +87,15 @@ The table below gives an overview of the role permissions.
       <td style="text-align:center">&#x2705;</td>
     </tr>
     <tr>
+      <td style="text-align:left">View reports*</td>
+      <td style="text-align:center">&#x274C;</td>
+      <td style="text-align:left">&#x2705;</td>
+      <td style="text-align:center">&#x2705;</td>
+      <td style="text-align:center">&#x2705;</td>
+      <td style="text-align:center">&#x2705;</td>
+      <td style="text-align:center">&#x2705;</td>
+    </tr>
+    <tr>
       <td style="text-align:left">Modify profile settings</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:left">&#x2705;</td>
@@ -190,6 +199,9 @@ The table below gives an overview of the role permissions.
     </tr>
   </tbody>
 </table>
+
+\*_The actual data that is shown in reports will depend on the permissions of the current user.  
+If the user has no access to a schedule for example, he will not see the on-call-duty data of this schedule when browsing reports. \(_[_Read more here_](teams.md#report-visibility)_\)_
 
 ## Change a user's role
 
