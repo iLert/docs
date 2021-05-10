@@ -141,9 +141,9 @@ An incident is visible to a user in a team context if
 
 This way incidents may still be shared across team contexts or re-assigned by higher level permission users to ensure the most flexible workflow for your users in any scenario.
 
-## Report visibility
+## Data Visibility in Report
 
-The context and permission of teams will automatically adopt onto incident, on-call and even notification reports. Meaning that the selected team filter will have a direct impact on the shown resources in the report, as well as the user permissions on the data accessable in the shared form of the report.
+The current team context will automatically be reflected in incident, on-call and notification reports. Meaning that the selected team filter will have a direct impact on the shown resources in the report, as well as the user permissions on the data accessible in any shared reports.
 
 {% hint style="info" %}
 Further restriction of resource permissions to a user will reflect onto shared report urls even after they are created e.g. when hiding an alert source from a user by placing it in a private team without his access, the shared incident report will also hide the incidents from this alert source automatically. 
