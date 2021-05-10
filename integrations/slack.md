@@ -76,5 +76,9 @@ Yes, the following updates for an incident are currently being published:
 
 **Can I choose which updates to an incident are published in Slack?**
 
-Currently not. If you wish, we look forward to your feedback via chat or email.
+Yes.
+
+**Can I manage alert sources from private teams using the `/ilert` Slash command?**
+
+No, alert sources of private teams can only  be added via the iLert web interface, in the alert source's **Incident actions** configuration tab.
 
