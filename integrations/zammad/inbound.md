@@ -46,6 +46,13 @@ description: >-
 
 Your Zammad triggers are now in place and will trigger appropriate iLert incident actions of your created alert source.
 
+## Zammad Ticket Priorities
+
+| When I create a Zammad ticket with priority... | ...then iLert Incident priority... |
+| :--- | :--- |
+| **High \(id: 3\)** | is high |
+| Any other | is low |
+
 ## FAQ <a id="faq"></a>
 
 **Will incidents in iLert be resolved automatically?**
