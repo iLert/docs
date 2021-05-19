@@ -26,15 +26,15 @@ And create a new connector. Choose AWS lambda as type \(you may add the addition
 
 Click on save to save the connector.
 
-## Create the connection <a id="connection"></a>
+## Create the incident action <a id="connection"></a>
 
-Visit the alert source \(view\) whose incidents should trigger your serverless function. Navigate to the connections tab and create a new connection.
+Visit the alert source \(view\) whose incidents should trigger your serverless function. Navigate to the **Incident actions** tab and click on the **Create new incident action** button.
 
-![](../.gitbook/assets/s3.png)
+![](../.gitbook/assets/new_incident_action%20%281%29.png)
 
 Choose AWS lambda as type and select your previously created connector. Enter a name and the url targeting your public function. You may also customize the HTTP request body that is used to invoke your function.
 
-![](../.gitbook/assets/s4%20%282%29.png)
+![](../.gitbook/assets/ilert%20%2856%29.png)
 
-Click on save to create the connection, you may test the connection in the following screen.
+Click on save to create the incident action, you may test the incident action in the following screen.
 

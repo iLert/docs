@@ -16,7 +16,7 @@ weight: 1
 
 2. Select **Webhook** as **type** and fill out all fields. In the **Filter Incident Events** field, select the incident events for which you want to receive a webhook call. Webhook events are sent as `HTTP POST` to the specified URL. The URL must be accessible from the internet. Click on **Save**.
 
-![](../.gitbook/assets/ilert%20%2856%29.png)
+![](../.gitbook/assets/ilert%20%2857%29.png)
 
 3. Finished!
 
