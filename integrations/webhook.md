@@ -8,19 +8,17 @@ weight: 1
 
 # Webhook Integration
 
-## In iLert: Create webhook connection <a id="create-webhook"></a>
+## In iLert: Create webhook incident action <a id="create-webhook"></a>
 
-1. Switch to the **alert sources** tab and open the alert source whose incidents you want to publish via a webhook. Click on **Connections → Add new connection**
+1. Switch to the **alert sources** tab and open the alert source whose incidents you want to publish via a webhook. Click on **Incident actions → Create new incident action**
 
-![](../.gitbook/assets/wh1.png)
+![](../.gitbook/assets/new_incident_action.png)
 
-2. Select **Webhook** as **type** and fill out all fields. In the **Webhook Trigger** field, select the incident events for which you want to receive a webhook call. Webhook events are sent as `HTTP POST` to the specified URL. The URL must be accessible from the internet. Click on **Save**.
+2. Select **Webhook** as **type** and fill out all fields. In the **Filter Incident Events** field, select the incident events for which you want to receive a webhook call. Webhook events are sent as `HTTP POST` to the specified URL. The URL must be accessible from the internet. Click on **Save**.
 
-![](../.gitbook/assets/wh2.png)
+![](../.gitbook/assets/ilert%20%2856%29.png)
 
-3. Finished! You can now test the connection by clicking the **Test this connection** button.
-
-![](../.gitbook/assets/wh3.png)
+3. Finished!
 
 ## Webhook payload <a id="payload"></a>
 
@@ -52,7 +50,7 @@ To get more information on the **status** or **eventType** fields, visit the _Te
 
 In case you want to customize the HTTP Post request body of your webhook, you can simply enable the custom fields option.
 
-![](../.gitbook/assets/wh4.png)
+![](../.gitbook/assets/notification_center.png)
 
 This will allow you to add any kind of custom body that you want to send. In case of an invalid template the border will become yellow or red.
 
