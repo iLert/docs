@@ -1,10 +1,10 @@
 ---
-description: Create tickets in Autotask PSA from iLert incidents.
+description: Create tickets in Autotask PSA based on incidents from iLert.
 ---
 
 # Autotask Outbound Integration
 
-With the iLert Autotask outbound integration, you can create tickets in Autotask based on incidents from iLert.
+[Datto’s Autotask](https://www.datto.com/products/autotask-psa) Professional Services Automation \(PSA\) is a powerful and intuitive cloud-based PSA platform providing a singular view of the entire business - enabling MSPs to centralize business operations and make data-driven decisions to improve service, productivity and profitability.
 
 ## In Autotask <a id="create-api-user"></a>
 
@@ -42,17 +42,17 @@ With the iLert Autotask outbound integration, you can create tickets in Autotask
 
 ![](../../.gitbook/assets/ilert%20%2821%29.png)
 
-4. Go to the alert sources tab and open the alert source whose incidents you want to publish in Autotask. Click on **Connections** and then on **Create Connection**.
+4. Go to the alert sources tab and open the alert source whose incidents you want to publish in Autotask. Click on **Incident actions** and then on **Create incident action**.
 
-![](../../.gitbook/assets/ilert%20%2820%29.png)
+![](../../.gitbook/assets/new_incident_action%20%282%29.png)
 
-5. Select **Autotask** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the connector name.
+5. Select **Autotask** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the incident action name.
 
-![](../../.gitbook/assets/ilert%20%2818%29.png)
+![](../../.gitbook/assets/ilert%20%2858%29.png)
 
-6. Finished! You can now test the connection by clicking on the button **Test this connection**. Then a test ticket will be created in Autotask.
+6. Finished! You can now test the incident action by clicking on the button **Test this connection**. Then a test ticket will be created in Autotask.
 
-![](../../.gitbook/assets/ilert%20%2816%29.png)
+![](../../.gitbook/assets/ilert%20%2857%29.png)
 
 ## FAQ <a id="faq"></a>
 
