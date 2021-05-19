@@ -44,15 +44,15 @@ description: Create tickets in Autotask PSA based on incidents from iLert.
 
 4. Go to the alert sources tab and open the alert source whose incidents you want to publish in Autotask. Click on **Incident actions** and then on **Create incident action**.
 
-![](../../.gitbook/assets/new_incident_action%20%282%29.png)
+![](../../.gitbook/assets/new_incident_action%20%283%29.png)
 
 5. Select **Autotask** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the incident action name.
 
-![](../../.gitbook/assets/ilert%20%2858%29.png)
+![](../../.gitbook/assets/ilert%20%2859%29.png)
 
 6. Finished! You can now test the incident action by clicking on the button **Test this connection**. Then a test ticket will be created in Autotask.
 
-![](../../.gitbook/assets/ilert%20%2857%29.png)
+![](../../.gitbook/assets/ilert%20%2858%29.png)
 
 ## FAQ <a id="faq"></a>
 

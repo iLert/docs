@@ -34,7 +34,7 @@ Visit the alert source \(view\) whose incidents should trigger your serverless f
 
 Choose AWS lambda as type and select your previously created connector. Enter a name and the url targeting your public function. You may also customize the HTTP request body that is used to invoke your function.
 
-![](../.gitbook/assets/ilert%20%2856%29.png)
+![](../.gitbook/assets/ilert%20%2857%29.png)
 
 Click on save to create the incident action, you may test the incident action in the following screen.
 

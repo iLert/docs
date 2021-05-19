@@ -36,15 +36,15 @@ description: Create JIRA issues from iLert incidents.
 
 ![](../../.gitbook/assets/ji7.png)
 
-4. **Go to** the alert sources tab and open the alert source whose incidents you want to publish in JIRA. Click **Connections → Add New Connection**.
+4. **Go to** the alert sources tab and open the alert source whose incidents you want to publish in JIRA. Click **Incident actions → Create new incident action**.
 
-![](../../.gitbook/assets/ji8.png)
+![](../../.gitbook/assets/new_incident_action%20%282%29.png)
 
 5. Select **JIRA** as the **type** and in the secondary dropdown select the connector created in step 3. iLert will now try to fetch the available Projects and Issue Types from your provided Jira instance.
 
-![](../../.gitbook/assets/ji9.png)
+![](../../.gitbook/assets/ilert%20%2856%29.png)
 
-Select the desired Project and Issue Type that should be used to create issues and give the connection a name, before clicking on save.
+Select the desired Project and Issue Type that should be used to create issues and give the incident action a name, before clicking on save.
 
 ## Custom Variables and request configuration <a id="custom"></a>
 
@@ -62,7 +62,7 @@ In case of a valid template the border will turn green. As you may have noticed 
 
 Just save the connector and your done. You can now test the connection by clicking on the button **Test this connection**. A test issue will be published in the respective JIRA project. In case of a bad request we will show the response of your JIRA instance, which makes it easier for you to understand what went wrong.
 
-![](../../.gitbook/assets/ji13.png)
+![](../../.gitbook/assets/ilert%20%2861%29.png)
 
 In case your connection has been setup correctly you will see a successful message.
 
