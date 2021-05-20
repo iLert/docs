@@ -26,15 +26,15 @@ description: Create JIRA issues from iLert incidents.
 
 1. Click the gear icon → **Connectors**
 
-![](../../.gitbook/assets/ji5.png)
+![](../../.gitbook/assets/go_to_connectors.png)
 
 2. Click **Add Connector**
 
-![](../../.gitbook/assets/ji6.png)
+![](../../.gitbook/assets/create_connector_button.png)
 
 3. Select **JIRA** as **type** and fill in all fields. Enter as URL the URL of your JIRA instance and as password the API key above.
 
-![](../../.gitbook/assets/ji7.png)
+![](../../.gitbook/assets/ilert%20%2863%29.png)
 
 4. **Go to** the alert sources tab and open the alert source whose incidents you want to publish in JIRA. Click **Incident actions → Create new incident action**.
 
