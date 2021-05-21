@@ -33,6 +33,7 @@ To get more information on the **status** or **eventType** fields, visit the _Te
      "details": "details",
      "reportTime": "2019-08-29T09: 52: 39.551Z",
      "eventType": "incident-acknowledged",
+     "priority": "LOW",
      "alertSource": {
          "id": 2101194,
          "name": "Nagios Network and Hosts"
@@ -68,6 +69,7 @@ In case of a valid template the border will turn green. As you may have noticed 
 | incidentDetails | Full incident details |
 | incidentSummary | Incident summary |
 | incidentStatus | PENDING, ACCEPTED or RESOLVED |
+| incidentPriority | HIGH or LOW |
 | incidentUrl | URL that links to the incident in iLert |
 | alertSourceId | The ID of the incident's alert source |
 | alertSourceName | The name of the incident's alert source |
