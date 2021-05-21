@@ -68,27 +68,27 @@ weight: 1
 
 1. Click on the gear icon and then on **Connectors** button
 
-![](../../.gitbook/assets/tpdko7.png)
+![](../../.gitbook/assets/go_to_connectors%20%282%29.png)
 
 2. Click on **Add Connector**
 
-![](../../.gitbook/assets/tpdko8.png)
+![](../../.gitbook/assets/create_connector_button%20%284%29.png)
 
 3. Select **TOPdesk** as **type** and fill in all fields. Enter a name, the URL of your TOPdesk server, username and password of the API user that you created [in the last step]().
 
-![](../../.gitbook/assets/tpdko9.png)
+![](../../.gitbook/assets/ilert%20%2868%29.png)
 
-4. Go to the alert sources tab and open the alert source whose incidents you want to publish in TOPdesk. Click on **Connections** and then on **Add New Connection**.
+4. Go to the alert sources tab and open the alert source whose incidents you want to publish in TOPdesk. Click on **Incident actions** and then on **Create incident action**.
 
-![](../../.gitbook/assets/tpdko10.png)
+![](../../.gitbook/assets/new_incident_action%20%289%29.png)
 
-5. Select **TOPdesk** as the **type**, select the connector created in step 3, fill in all fields. In the **Name** field, specify the connector name.
+5. Select **TOPdesk** as the **type**, select the connector created in step 3, fill in all fields. In the **Name** field, specify the incident action name.
 
-![](../../.gitbook/assets/tpdko11.png)
+![](../../.gitbook/assets/ilert%20%2862%29.png)
 
-6. Finished! You can now test the connection by clicking on the button **Test this connection**. Then a test ticket will be published in TOPdesk.
+6. Finished! You can now test the incident action by clicking on the button **Test this connection**. Then a test ticket will be published in TOPdesk.
 
-![](../../.gitbook/assets/tpdko12.png)
+![](../../.gitbook/assets/ilert%20%2869%29.png)
 
 ## FAQ <a id="faq"></a>
 

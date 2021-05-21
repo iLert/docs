@@ -30,7 +30,7 @@ To get more information on the **status** or **eventType** fields, visit the _Te
      "id": "2983781",
      "status": "ACCEPTED",
      "summary": "PROBLEM Host Alert: app.compute is DOWN",
-     "details": "details,
+     "details": "details",
      "reportTime": "2019-08-29T09: 52: 39.551Z",
      "eventType": "incident-acknowledged",
      "alertSource": {

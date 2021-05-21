@@ -46,29 +46,29 @@ An agent token has a group scope so if you want to use a group that the current 
 
 1. Click on the gear icon and then on the **Connectors** button
 
-![](../../.gitbook/assets/tpdko7.png)
+![](../../.gitbook/assets/go_to_connectors%20%284%29.png)
 
 2. Click on **Add Connector**
 
-![](../../.gitbook/assets/tpdko8.png)
+![](../../.gitbook/assets/create_connector_button%20%282%29.png)
 
 3. Select **Zammad** as **type** and fill in all fields. Enter a name, the URL of your Zammad server and the access token that you have created in the previous step.
 
 ![](../../.gitbook/assets/screenshot_07_02_21__13_39.png)
 
-4. Go to the alert sources tab and open the alert source whose incidents you want to publish in Zammad. Click on **Connections** and then on **Add New Connection**.
+4. Go to the alert sources tab and open the alert source whose incidents you want to publish in Zammad. Click on **Incident actions** and then on **Create incident action**.
 
-![](../../.gitbook/assets/tpdko10.png)
+![](../../.gitbook/assets/new_incident_action%20%2812%29.png)
 
 5. Select **Zammad** as the **type**; ****futhermore ****select the connector created in step 3, fill in all fields.  
 In the **Email** field enter the existing customer email of Zammad.
 
-![](../../.gitbook/assets/screenshot_07_02_21__13_41.png)
+![](../../.gitbook/assets/ilert%20%2879%29.png)
 
 6. Finished! You can now test the connection by clicking on the button **Test this connection**.  
 A test ticket will be created in Zammad.
 
-![](../../.gitbook/assets/screenshot_07_02_21__13_43.png)
+![](../../.gitbook/assets/ilert%20%2877%29.png)
 
 ## FAQ <a id="faq"></a>
 

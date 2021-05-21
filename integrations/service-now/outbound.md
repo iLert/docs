@@ -12,27 +12,27 @@ description: >-
 
 1. Click the gear icon → **Connectors**
 
-![](../../.gitbook/assets/sn5.png)
+![](../../.gitbook/assets/go_to_connectors%20%281%29.png)
 
-2. Click **Add Connector**
+2. Click **Create Connector**
 
-![](../../.gitbook/assets/sn6.png)
+![](../../.gitbook/assets/create_connector_button%20%286%29.png)
 
 3. Select **ServiceNow** as **type** and fill out all fields.
 
-![](../../.gitbook/assets/sn7.png)
+![](../../.gitbook/assets/ilert%20%2870%29.png)
 
-4. Switch to the **alert sources** tab and open the alert source whose incidents you want to publish in ServiceNow. Click on **Connections → Add new connection**
+4. Switch to the **alert sources** tab and open the alert source whose incidents you want to publish in ServiceNow. Click on **Incident actions → Create incident action**
 
-![](../../.gitbook/assets/sn8.png)
+![](../../.gitbook/assets/new_incident_action%20%2810%29.png)
 
 5. Select **ServiceNow** as the **type**, select the connector created in step 3, fill in all fields.
 
-![](../../.gitbook/assets/sn9.png)
+![](../../.gitbook/assets/ilert%20%2881%29.png)
 
 6. Finished! You can now test the connection by clicking the **Test this connection** button. A test issue is then published in ServiceNow.
 
-![](../../.gitbook/assets/sn10.png)
+![](../../.gitbook/assets/ilert%20%2867%29.png)
 
 ## In ServiceNow: Create iLert user <a id="create-user"></a>
 

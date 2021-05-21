@@ -30,27 +30,27 @@ weight: 1
 
 1. Click on the gear icon → **Connectors**
 
-![](../../.gitbook/assets/ghoi5.png)
+![](../../.gitbook/assets/go_to_connectors%20%287%29.png)
 
 2. Click on **Add Connector**
 
-![](../../.gitbook/assets/ghoi6.png)
+![](../../.gitbook/assets/create_connector_button%20%281%29.png)
 
 3. Select **Github** as **type** and fill in all fields. Enter a name and the API key from above.
 
 ![](../../.gitbook/assets/ghoi7.png)
 
-4. **Go to** the alert sources tab and open the alert source whose incidents you want to publish in Github. Click on **Connections → Add New Connection**.
+4. **Go to** the alert sources tab and open the alert source whose incidents you want to publish in Github. Click on **Incident actions → Create incident action**.
 
-![](../../.gitbook/assets/ghoi8.png)
+![](../../.gitbook/assets/new_incident_action%20%285%29.png)
 
 5. Select **Github** as the **type** then select the connector created in step 3 and fill in all fields. In the **Owner** and the **Repository** fields specify the owner and repository of the Github project where the iLert incidents should be published as Github Issue.
 
-![](../../.gitbook/assets/ghoi9.png)
+![](../../.gitbook/assets/ilert%20%2873%29.png)
 
-6. Finished! You can now test the connection by clicking on the button **Test this connection**. Then a test issue will be published in the respective Github project.
+6. Finished! You can now test the incident action by clicking on the button **Test this connection**. Then a test issue will be published in the respective Github project.
 
-![](../../.gitbook/assets/ghoi10.png)
+![](../../.gitbook/assets/ilert%20%2864%29.png)
 
 ## FAQ <a id="faq"></a>
 
