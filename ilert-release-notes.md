@@ -6,6 +6,18 @@ description: >-
 
 # iLert Release Notes
 
+## May 2021
+
+### New and updated integrations
+
+* The incident priority of Zammad, ServiceNOW and SearchGuard Inbound Integrations is now fully managed in the alert source
+
+### New features
+
+* Added option for account owners to disable report sharing
+* Added API keys, which may now be created by each user and provided during API calls instead of basic auth
+* Added option to logout of all mobile devices using the web UI
+
 ## April 2021
 
 ### New and updated integrations

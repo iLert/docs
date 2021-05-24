@@ -82,3 +82,7 @@ Yes.
 
 No, alert sources of private teams can only  be added via the iLert web interface, in the alert source's **Incident actions** configuration tab.
 
+**Why am I not seeing all of my Slack channels in the Connections UI?**
+
+This could be due to missing permission for private channels. Please try to invite the iLert Slack Bot into the desired \(missing\) channels and refresh the page.
+
