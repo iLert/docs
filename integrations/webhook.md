@@ -81,7 +81,7 @@ In case of a valid template the border will turn green. As you may have noticed 
 
 ## FAQ <a id="faq"></a>
 
-**Do you support authentication?**
+### **Do you support authentication?**
 
 Yes, **HTTP Basic Auth** is supported. The username and password must be specified in the URL.
 
@@ -89,7 +89,7 @@ Example: https: // username: password@example.com / webhooks / ilert
 
 Special characters in the user name or password must be [encoded URL](https://www.w3schools.com/tags/ref_urlencode.asp).
 
-**Can you also specify the HTTP port?**
+### **Can you also specify the HTTP port?**
 
 Yes. By default, port 80 is used for HTTP connections and port 443 for HTTPS connections. You can overwrite the port number by adding a colon : after the host address and the port.
 
