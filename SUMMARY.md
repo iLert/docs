@@ -5,7 +5,7 @@
 ## Getting Started
 
 * [Introduction to iLert](getting-started/intro.md)
-* [iLert domains, emails & phone numbers](getting-started/phone-numbers.md)
+* [iLert domains, ips, emails & phone numbers](getting-started/phone-numbers.md)
 * [On-call schedules](getting-started/on-call-schedules/README.md)
   * [Recurring schedules](getting-started/on-call-schedules/recurring-schedules.md)
   * [Static schedules](getting-started/on-call-schedules/static-schedules.md)

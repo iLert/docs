@@ -11,6 +11,7 @@ description: >-
 ### New and updated integrations
 
 * The incident priority of Zammad, ServiceNOW and SearchGuard Inbound Integrations is now fully managed in the alert source
+* DingTalk Outbound Integration
 
 ### New features
 

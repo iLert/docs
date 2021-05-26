@@ -6,7 +6,7 @@ date: '2018-12-29T05:02:05.000Z'
 weight: 2
 ---
 
-# iLert domains, emails & phone numbers
+# iLert domains, ips, emails & phone numbers
 
 You can find information on our domains, notification email addresses, phone numbers below. We suggest whitelisting these in your tools and email clients.
 
@@ -20,6 +20,17 @@ You can find information on our domains, notification email addresses, phone num
 | API | [https://api.ilert.com/api/v1/numbers](https://api.ilert.com/api/v1/numbers) |
 | API documentation | [https://api.ilert.com/api-docs](https://api.ilert.com/api-docs) |
 | Service Status | [http://status.ilert.com](http://status.ilert.com) |
+
+## IP addresses <a id="email-services"></a>
+
+iLert uses flexible serverless infrastructures to provide uptime checks and webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../contact.md#support) if interested in using static IPs in case firewall whitelisting is required for your use case. Additional IPs of other regions e.g. US will be provided on request.
+
+| Address | Region | Description |
+| :--- | :--- | :--- |
+| 18.159.7.25 | Frankfurt | Uptime checks, webhooks |
+| 3.123.64.23 | Frankfurt | Uptime checks, webhooks |
+| 54.73.206.214 | Dublin | Uptime checks, webhooks |
+| 52.215.200.26 | Dublin | Uptime checks, webhooks |
 
 ## Email addresses <a id="email-services"></a>
 
