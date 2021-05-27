@@ -81,6 +81,7 @@
   * [Datadog Inbound Integration](integrations/datadog/inbound.md)
   * [Datadog Outbound Integration](integrations/datadog/outbound.md)
 * [Discord Integration](integrations/discord.md)
+* [DingTalk Integration](integrations/dingtalk.md)
 * [Dynatrace Integration](integrations/dynatrace.md)
 * [Email Integration](integrations/email/README.md)
   * [Email Key Extraction and Resolve Examples](integrations/email/email-key-extraction-and-resolve-examples.md)
