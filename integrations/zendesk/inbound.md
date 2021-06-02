@@ -22,7 +22,7 @@ description: Create incidents in iLert from tickets in Zendesk.
 
 ## In Zendesk <a id="in-topdesk"></a>
 
-### Create Webhook
+### Create a Target
 
 1. Go to Zendesk and then to **Settings -&gt; Extensions** and click on the **Add target** button
 
@@ -43,7 +43,7 @@ description: Create incidents in iLert from tickets in Zendesk.
 
 ![](../../.gitbook/assets/a_-_agent%20%282%29.png)
 
-### Create Trigger
+### Create a Trigger
 
 1. Go to Zendesk and then to **Business Rules -&gt; Triggers** and click on the **Add trigger** button
 
