@@ -149,7 +149,7 @@
   * [Zabbix 4.4+ Integration](integrations/zabbix/native.md)
   * [Zabbix 2.2 - 4.3 Integration](integrations/zabbix/script.md)
 * [Zendesk Integration](integrations/zendesk/README.md)
-  * [Zendesk Inbount Integration](integrations/zendesk/inbount.md)
+  * [Zendesk Inbound Integration](integrations/zendesk/inbound.md)
   * [Zendesk Outbound Integration](integrations/zendesk/zendesk-outbound-integration.md)
 * [Mattermost Integration](integrations/mattermost.md)
 * [X-Pack Alerting \(Elasticsearch Watcher\) Integration](integrations/eswatcher.md)
