@@ -63,16 +63,16 @@ With the iLert SolarWinds Integration you can easily integrate SolarWinds Orion 
 ![](../.gitbook/assets/sw11.png)
 
 ```text
-iLertEventType = ALERT &
-iLertIncidentKey = $ {N = Alerting M = AlertObjectID} - $ {N = Alerting M = AlertActiveID} &
-iLertEventSummary = $ {N = SwisEntity; M = DisplayName} ($ {N = SwisEntity; M = IP_Address}): $ {N = SwisEntity; M = StatusDescription} &
-iLertUrl = $ {N = Alerting M = AlertDetailsUrl} &
-AcknowledgeUrl = $ {N = Alerting M = AcknowledgeUrl} &
-Alert Name = $ {N = Alerting M = Alert Name} &
-AlertActiveID = $ {N = Alerting M = AlertActiveID} &
-AlertObjectID = $ {N = Alerting M = AlertObjectID} &
-Object Type = $ {N = Alerting M = Object Type} &
-Severity = $ {N = Alerting M = Severity}
+iLertEventType=ALERT&
+iLertIncidentKey=${N=Alerting;M=AlertObjectID}-${N=Alerting;M=AlertActiveID}&
+iLertEventSummary=${N=SwisEntity;M=DisplayName} (${N=SwisEntity;M=IP_Address}): ${N=SwisEntity;M=StatusDescription}&
+iLertUrl=${N=Alerting;M=AlertDetailsUrl}&
+AcknowledgeUrl=${N=Alerting;M=AcknowledgeUrl}&
+AlertName=${N=Alerting;M=AlertName}&
+AlertActiveID=${N=Alerting;M=AlertActiveID}&
+AlertObjectID=${N=Alerting;M=AlertObjectID}&
+ObjectType=${N=Alerting;M=ObjectType}&
+Severity=${N=Alerting;M=Severity}
 ```
 
 9. **Optional**: Activate the **Repeat this action action every X minutes until the alert is acknowledged** option in the **execution settings**. This is for safety, if an alert could not be sent to iLert \(e.g. due to a network problem\).
@@ -86,9 +86,9 @@ Severity = $ {N = Alerting M = Severity}
 ![](../.gitbook/assets/sw13.png)
 
 ```text
-iLertEventType = RESOLVE &
-iLertIncidentKey = $ {N = Alerting M = AlertObjectID} - $ {N = Alerting M = AlertActiveID} &
-iLertEventSummary = $ {N = SwisEntity; M = DisplayName} ($ {N = SwisEntity; M = IP_Address}): $ {N = SwisEntity; M = StatusDescription}
+iLertEventType=RESOLVE&
+iLertIncidentKey=${N=Alerting;M=AlertObjectID}-${N=Alerting;M=AlertActiveID}&
+iLertEventSummary=${N=SwisEntity;M=DisplayName} (${N=SwisEntity;M=IP_Address}): ${N=SwisEntity;M=StatusDescription}
 ```
 
 12. On **ADD ACTION** and then click **NEXT**.
