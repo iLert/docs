@@ -130,6 +130,10 @@ Resources and users of public teams, are shown to all users with read permission
 Unassigned resources \(without any owners / teams\) are treated as public resources.
 {% endhint %}
 
+## User Visibility
+
+User visibility is almost identical to the described behaviour in Resource Visibility [above](teams.md#resource-visibility) except it has less restrictions. In general all users are public and can be seen by all roles excepts **Guests**. However when a user is added as member of a private team he becomes a _private user_. From now on, he is only visible to either users with elevated permissions e.g. **Admins** / **Account Owners** or members of the teams he is a member of.
+
 ## Incident Visibility
 
 An incident is visible to a user in a team context if
@@ -166,6 +170,10 @@ The roles giving lesser permission e.g. a global User with a Responder team role
 ### Is it possible to manage multiple teams that cannot see each other and their resources at all in the same account?
 
 Absolutely. To achieve this, all users should have the global **Responder** role, while being placed in their specific teams with the **User** team role, this way users will always have to assign new resources to their team.Then all teams should be configured to be private, a user or resource should never be in more than one team, this way their context are completely separated. Do not forget to place the **Account owner** in its own private team to hide him from the others and to delete the Default escalation policy.
+
+### I am a Team Admin trying to add a user to my team but he does not appear in the users dropdown. What am I doing wrong?
+
+If you are certain that the user you are searching for exists in your iLert organization and he does not appear in the dropdown - there is a good chance that you have no permission to access him. Most likely this is related to him already being a member of a private team, take a look [here](teams.md#user-visibility).
 
 
 

@@ -6,6 +6,23 @@ description: >-
 
 # iLert Release Notes
 
+## June 2021
+
+### New and updated integrations
+
+* Zendesk inbound integration
+* Additional DingTalk Action that does not require a connector setup
+
+### New features
+
+* added `team-context` HTTP header to control team context on a per request basis when using api keys
+* escalation policy detail view has been added
+
+### Improvements
+
+* improved team details in settings view
+* preventing ongoing call routing sessions from intervention through accept and resolve actions through mobile
+
 ## May 2021
 
 ### New and updated integrations
