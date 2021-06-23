@@ -73,7 +73,8 @@ description: Create incidents in iLert from tickets in Zendesk.
   "assignee_name": "{{ticket.assignee.name}}",
   "account": "{{ticket.account}}",
   "link": "{{ticket.link}}",
-  "latest_comment": "{{ticket.latest_comment}}"
+  "latest_comment": "{{ticket.latest_comment}}",
+  "latest_comment_author_name": "{% for comment in ticket.comments limit:1 offset:0 %}{{comment.author.name}}{% endfor %}"
 }
 ```
 
@@ -165,17 +166,37 @@ description: Create incidents in iLert from tickets in Zendesk.
   </tbody>
 </table>
 
+## Additional Custom Ticket Details <a id="faq"></a>
+
+You may provide an additional field for the Zendesk trigger template to render additional information into iLert incident details.
+
+```javascript
+{
+  "additional_ticket_details": {
+        "test": "{{ticket.title}}",
+        "two": 3,
+        "three": ["one", "two", "three"]
+    }
+}
+```
+
+The `additional_ticket_details` map's values will be displayed in a human readable format in the incident's detail section.
+
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+### **Will incidents in iLert be resolved automatically?**
 
 Yes, as soon as an Zendesk Ticket is completed, the incident in iLert will be resolved automatically.
 
-**Can I connect Zendesk with multiple alert sources from iLert?**
+### **Can I connect Zendesk with multiple alert sources from iLert?**
 
 Yes, simply create more Webhooks in Zendesk.
 
-**Can I customize the incident messages?**
+### **Can I customize the incident messages?**
 
 No.
+
+### Are Zendesk comments synced with iLert incidents?
+
+Yes, if the variables `latest_comment` and `latest_comment_author_name` are provided in your Zendesk trigger JSON template the comments will be synced to iLert incidents.
 

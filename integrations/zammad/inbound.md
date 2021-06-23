@@ -57,11 +57,15 @@ The Zammad ticket priority is mapped to the iLert incident priority according to
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+### **Will incidents in iLert be resolved automatically?**
 
 Yes
 
-**Can I connect Zammad with multiple alert sources from iLert?**
+### **Can I connect Zammad with multiple alert sources from iLert?**
 
 Yes, simply create more action sequences in Zammad.
+
+### Will Zammad comments be synced to iLert?
+
+Yes, Zammad comments will automatically be attached to iLert incidents.
 
