@@ -8,7 +8,6 @@ description: Get in touch and let us know how we can help.
 
 We're here to help with any questions you might have
 
-* **Slack**: Join our Slack workspace: [https://slack.ilert.net](https://slack.ilert.net)
 * **Email**: [support@ilert.com](mailto:support@ilert.com)
 
 ## Sales
