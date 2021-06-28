@@ -1,9 +1,7 @@
 ---
 title: TOPdesk Outbound Integration
 seoTitle: 'iLert: TOPdesk Outbound Integration for Alerting | Incident Response | Uptime'
-description: >-
-  The iLert TOPdesk Outbound Integration helps you to easily connect TOPdesk
-  with iLert.
+description: Create tickets in TOPdesk based on incident events from iLert
 date: '2020-04-29T05:02:05.000Z'
 weight: 1
 ---
