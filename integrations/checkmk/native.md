@@ -4,7 +4,7 @@ description: The iLert checkmk native integration ships with checkmk version >= 
 
 # Checkmk Integration \(v 2.0+ \)
 
-With the native iLert notification integration in checkmk, you can automatically create incidents in iLert from checkmk alert. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When checkmk creates an alerts, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start. 
+With the native iLert notification integration in Checkmk, you can automatically create incidents in iLert from Checkmk alerts. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When checkmk creates an alert, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start. 
 
 ## In iLert: create alert source <a id="create-alarm-source"></a>
 
