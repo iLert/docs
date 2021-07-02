@@ -6,6 +6,20 @@ description: >-
 
 # iLert Mobile Release Notes
 
+## June 2021
+
+###  New features
+
+* Critical alerts 🎉
+* Secure app with passcode
+* Support for Face ID and Touch ID when unlocking the device
+* Custom sounds for low and high priority notifications
+* Manually sync iLert vCard
+
+### Improvements
+
+* Bug fixes and performance improvements
+
 ## March 2021
 
 ### Improvements
