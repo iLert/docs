@@ -6,6 +6,13 @@ description: >-
 
 # iLert Release Notes
 
+## July 2021
+
+New and updated integrations
+
+* Zendesk inbound integration now supports attaching comments to incidents
+* Zammad inbound integration now supports attaching comments to incidents
+
 ## June 2021
 
 ### New and updated integrations
@@ -15,13 +22,16 @@ description: >-
 
 ### New features
 
-* added `team-context` HTTP header to control team context on a per request basis when using api keys
-* escalation policy detail view has been added
+* Added `team-context` HTTP header to control team context on a per request basis when using api keys
+* Escalation policy detail view has been added
+* Attaching comments to incidents is now additionally possible through the events [API](https://api.ilert.com/api-docs/#tag/Events/paths/~1events/post)
 
 ### Improvements
 
-* improved team details in settings view
-* preventing ongoing call routing sessions from intervention through accept and resolve actions through mobile
+* Improved team details in settings view
+* Preventing ongoing call routing sessions from intervention through accept and resolve actions through mobile
+* Email bounces are now made visible in the user contact information
+* Updated algorithm to improve search results in list views
 
 ## May 2021
 
