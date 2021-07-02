@@ -10,7 +10,7 @@ description: >-
 
 ###  New features
 
-* Critical alerts 🎉
+* Critical alerts 🚨🚨🚨
 * Secure app with passcode
 * Support for Face ID and Touch ID when unlocking the device
 * Custom sounds for low and high priority notifications
