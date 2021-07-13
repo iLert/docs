@@ -116,7 +116,7 @@ The number that iLert uses to send SMS notifications depends on the target count
   </tbody>
 </table>
 
-## Phone call phone numbers <a id="voice-alerts"></a>
+## Phone call numbers <a id="voice-alerts"></a>
 
 The number that iLert uses to send voice notifications depends on the target country:
 
