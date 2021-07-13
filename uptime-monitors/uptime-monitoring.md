@@ -57,7 +57,7 @@ You may provide your own id-value for `On connect send` when creating your uptim
 
 ### I cannot rely on user-agent headers for my firewall, is there a way to whitelist ip addresses of the checks?
 
-Basically it is not possible to whitelist the ip addresses for all of our agents, as there are just too many IP blocks that may change at any time. However we do offer static IP agents in our Premium plan - the static ip addresses are listed [here](../getting-started/phone-numbers.md#email-services).
+Basically it is not possible to whitelist the ip addresses for all of our agents, as there are just too many IP blocks that may change at any time. However we do offer static IP agents in our Premium plan - the static ip addresses are listed [here](../getting-started/phone-numbers/#email-services).
 
 ### I am looking for uptime checks from a specific region / country?
 

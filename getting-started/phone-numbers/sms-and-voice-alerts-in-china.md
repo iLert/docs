@@ -1,0 +1,32 @@
+---
+description: >-
+  You may find information regarding iLert voice and SMS alerts for Chinese
+  landline and mobile devices below.
+---
+
+# SMS and voice alerts in China
+
+### Call Limitations to China
+
+Due to strict spam monitoring and regulations on communications terminating to China, calls with short durations or repeated calls of the same number within a rolling hour have a high chance of being blocked. This is not something unique to iLert's platform it is a universal behaviour for all international traffic terminating to China.
+
+### Receiving voice alerts in China
+
+With the help of our platform solution and our partners iLert still tries to offer voice alerting to all China customers. Since China's monitoring happens downstream from iLert and iLert's partners, we have no control over the blocking process. Call delivery to China will be made on a best-effort basis.
+
+### What you need to know
+
+* By default China voice calls are not enabled, please contact our [support](../../contact.md#support) if you need to alert Chinese devices from your account
+* SMS alerting for China is currently not possible
+* Call delivery to China will be made on a best-effort basis
+* If a high number of unique incidents are triggering voice alerts for your Chinese number **in a single hour**, there is a chance that calls will be skipped to prevent blocking \(this is logged in the incidents timeline\), we suggest to always add a secondary notification preference a long voice alerts for Chinese users
+* We suggest installing the iLert mobile app as it keeps all of our outbound numbers in sync with your devices contacts
+
+### Which alternatives are available?
+
+* Email notifications are still an effective tool for users that are on-duty
+* Push notifications using the iLert mobile app for iOS or Android \(did you know, we offer iOS critical alerts and override DND mode for Android\)
+* Webhooks and outbound integrations can help you piping alerts through third-party or custom solutions
+
+
+

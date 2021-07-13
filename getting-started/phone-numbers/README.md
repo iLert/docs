@@ -23,7 +23,7 @@ You can find information on our domains, notification email addresses, phone num
 
 ## IP addresses <a id="email-services"></a>
 
-iLert uses flexible serverless infrastructures to provide uptime checks and webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../contact.md#support) if interested in using static IPs in case firewall whitelisting is required for your use case. Additional IPs of other regions e.g. US will be provided on request.
+iLert uses flexible serverless infrastructures to provide uptime checks and webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../../contact.md#support) if interested in using static IPs in case firewall whitelisting is required for your use case. Additional IPs of other regions e.g. US will be provided on request.
 
 | Address | Region | Description |
 | :--- | :--- | :--- |

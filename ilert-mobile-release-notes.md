@@ -51,7 +51,7 @@ description: >-
 
 * View alert sources in the app
 * User directory
-* iLert vCard: during onboarding, an iLert contact is created containing all [phone numbers](getting-started/phone-numbers.md#sms-alerts) for SMS and voice notifications
+* iLert vCard: during onboarding, an iLert contact is created containing all [phone numbers](getting-started/phone-numbers/#sms-alerts) for SMS and voice notifications
 * Manage on-call reminder notifications in the app
 * Added app information section
 * App reset in iOS app settings

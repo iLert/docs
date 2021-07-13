@@ -19,7 +19,7 @@ Please have a look at our integrations sections. If you're missing an integratio
 
 iLert supports bi-directional alerting via
 
-* **SMS**: ****iLert supports sending SMS alerts worldwide. For many countries, SMS alerts are sent from a local number. See [here](phone-numbers.md#sms-alerts) for details.
+* **SMS**: ****iLert supports sending SMS alerts worldwide. For many countries, SMS alerts are sent from a local number. See [here](phone-numbers/#sms-alerts) for details.
 * **Phone calls**: ****iLert supports international voice calls and converts the incident summary text into speech using text-to-speech technology.
 * **Emails**
 * **Push notifications** on iOS and Android

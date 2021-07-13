@@ -126,7 +126,7 @@ New and updated integrations
 ### Improvements
 
 * Links and Images for Incidents with automatic connections
-* Adedd [international caller IDs for voice alerts](getting-started/phone-numbers.md#voice-alerts) for USA and Canada, UK, Australia, Belgium and Netherlands
+* Adedd [international caller IDs for voice alerts](getting-started/phone-numbers/#voice-alerts) for USA and Canada, UK, Australia, Belgium and Netherlands
 
 
 

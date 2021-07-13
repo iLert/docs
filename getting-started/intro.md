@@ -128,7 +128,7 @@ You have the following response options:
 2. Mark the incident as resolved
 3. Escalation to the next user
 
-You can find a list of caller IDs for sms and phone calls [here](phone-numbers.md#sms-alerts).
+You can find a list of caller IDs for sms and phone calls [here](phone-numbers/#sms-alerts).
 
 To set your notification preferences
 
