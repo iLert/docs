@@ -4,9 +4,7 @@ description: Create Microsoft Teams Meeting from iLert incidents.
 
 # Microsoft Teams Integration Meeting
 
-{% hint style="warning" %}
-This connector is currently in BETA and will be accessable soon
-{% endhint %}
+[Microsoft Teams](https://www.microsoft.com/en-ww/microsoft-teams/group-chat-software) is the hub for team collaboration in Microsoft 365 that integrates the people, content, and tools your team needs to be more engaged and effective.
 
 ## In iLert <a id="create-alarm-source"></a>
 
