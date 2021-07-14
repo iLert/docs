@@ -65,5 +65,5 @@ Mobile app screenshots when logged in as stakeholder:
 
 ### Is there a way to automatically notify stakeholders about ongoing incidents?
 
-No, not yet. Currently, stakeholders have to be manually subscribed to an incident by an incident responder.
+Yes. You can add our **Subscribe stakeholders** incident action and configure it to trigger automatically. See [here](https://docs.ilert.com/integrations/stakeholder-subscription) for more information.
 
