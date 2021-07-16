@@ -97,7 +97,7 @@ curl -o media_ilert.xml \
 
 ![](../../.gitbook/assets/9.png)
 
-9. Click the **Add** button in the **Users** tab to save the user.
+11. Click the **Add** button in the **Users** tab to save the user.
 
 ![](../../.gitbook/assets/zbn13.png)
 
