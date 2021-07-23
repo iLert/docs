@@ -133,7 +133,7 @@
 * [Sematext Integration](integrations/sematext.md)
 * [Sumologic Integration](integrations/sumologic.md)
 * [StatusCake Integration](integrations/statuscake.md)
-* [StatusPage Integration](integrations/statuspage.md)
+* [StatusPage Integration](integrations/statuspage-io.md)
 * [Zapier Integration](integrations/zapier/README.md)
   * [Zapier Inbound Integration](integrations/zapier/inbound.md)
   * [Zapier Outbound Integration](integrations/zapier/outbound.md)
