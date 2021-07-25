@@ -170,11 +170,6 @@ The number that iLert uses to send voice notifications depends on the target cou
       <td style="text-align:left">starting December 1st, 2020</td>
     </tr>
     <tr>
-      <td style="text-align:left">Rest of the world</td>
-      <td style="text-align:left">+49 157 3598 1212</td>
-      <td style="text-align:left"></td>
-    </tr>
-    <tr>
       <td style="text-align:left">China</td>
       <td style="text-align:left">
         <p>+1 201-277-1264</p>
@@ -188,6 +183,11 @@ The number that iLert uses to send voice notifications depends on the target cou
         <p>+1 201-277-4120</p>
         <p>+1 202-951-5860</p>
       </td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Rest of the world</td>
+      <td style="text-align:left">+49 157 3598 1212</td>
       <td style="text-align:left"></td>
     </tr>
   </tbody>
