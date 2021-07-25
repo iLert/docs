@@ -51,7 +51,7 @@ Yet if a voicemail is present instead, the caller will be redirected to the voic
 ### Advanced configuration
 
 * [Routing calls based on support hours](routing-calls-based-on-support-hours/)
-* [Handling automated incoming voice calls](handling-calls-from-automated-voice-calls.md)
+* [Handling automated incoming voice calls](voicemail-only-mode.md)
 * [Managing call routing incidents](managing-call-routing-incidents.md)
 * [Adding webhooks and outbound chat messages](adding-webhooks-and-outbound-chat-messages.md)
 
