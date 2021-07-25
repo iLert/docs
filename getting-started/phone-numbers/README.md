@@ -17,13 +17,13 @@ You can find information on our domains, notification email addresses, phone num
 | Web application | [https://app.ilert.com](https://app.ilert.com) and [https://your-domain.ilert.com](https://your-domain.ilert.com) |
 | Website | [https://www.ilert.com](https://www.ilert.com) |
 | Documentation | [https://docs.ilert.com](https://docs.ilert.com) |
-| API | [https://api.ilert.com/api/v1/numbers](https://api.ilert.com/api/v1/numbers) |
+| API | [https://api.ilert.com/api/v1](https://api.ilert.com/api/v1) |
 | API documentation | [https://api.ilert.com/api-docs](https://api.ilert.com/api-docs) |
 | Service Status | [http://status.ilert.com](http://status.ilert.com) |
 
 ## IP addresses <a id="email-services"></a>
 
-iLert uses flexible serverless infrastructures to provide uptime checks and webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../../contact.md#support) if interested in using static IPs in case firewall whitelisting is required for your use case. Additional IPs of other regions e.g. US will be provided on request.
+iLert uses flexible serverless infrastructures to provide uptime checks and webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../../contact.md#support) if you are interested in using static IPs in case firewall whitelisting is required for your use case. 
 
 | Address | Region | Description |
 | :--- | :--- | :--- |
@@ -31,6 +31,8 @@ iLert uses flexible serverless infrastructures to provide uptime checks and webh
 | 3.123.64.23 | Frankfurt | Uptime checks, webhooks |
 | 54.73.206.214 | Dublin | Uptime checks, webhooks |
 | 52.215.200.26 | Dublin | Uptime checks, webhooks |
+
+Additional IPs of other regions e.g. US will be provided on request.
 
 ## Email addresses <a id="email-services"></a>
 
