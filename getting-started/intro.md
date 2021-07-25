@@ -83,21 +83,21 @@ iLert provides the following inbound integration options:
 
 
 
-### Connectors and connections / outbound integrations
+### Connectors and incident actions / outbound integrations
 
-Connectors and connections allow you to extend your incident response and communication to other tools. They allow you to either manually or automatically perform actions on incidents, such as
+Connectors and incident actions allow you to extend your incident response and communication to other tools. They allow you to either manually or automatically perform actions on incidents, such as
 
 * Create ticket in JIRA
 * Post a message in Slack
 * Post a webhook to a defined HTTP end point
 * Trigger a serverless function in AWS, GCP or Azure
 
-A **connector** is created globally in iLert and usually contains all the information to connect with the target system. A **connection** is created at the alert source level and uses its connector to perform a concrete action. Example: Let's say we want to create an issue in JIRA for every incident in iLert. We need to create ...
+A **connector** is created globally in iLert and usually contains all the information to connect with the target system \(e.g. a URL, an API key or username and password, etc.\). An **incident action** is created at the alert source level and uses its connector to perform a concrete action. Example: Let's say we want to create an issue in JIRA for every incident in iLert. We need to create ...
 
 * ... a JIRA **connector** that contains the URL of the JIRA server and the credentials to connect to it.
-* ... a **connection** at the alert source level that contains information such as whether to trigger the connection manually or automatically for every incident, the JIRA project ID and issue type, and any custom fields that we might want to set in the JIRA issue.
+* ... an **incident action** at the alert source level that contains information such as whether to trigger the connection manually or automatically for every incident, the JIRA project ID and issue type, and any custom fields that we might want to set in the JIRA issue.
 
-We often refer to connectors as **outbound integrations**.
+We often refer to connectors and incident actions as **outbound integrations**.
 
 ### Escalation policy
 
