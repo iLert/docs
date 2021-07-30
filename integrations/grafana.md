@@ -8,13 +8,11 @@ weight: 1
 
 # Grafana Integration
 
-
-
 ## In iLert: Create Grafana alert source
 
-1. **Go to the alert sources tab** and click on the "Create new alert source" button
+1. Go to A**lert sources** and click on the **Create new alert source** button
 
-2. Assign name and select escalation chain
+2. Set a name for your Grafana alert sourc and select an escalation policy
 
 3. In the field Integration type select **Grafana** and save.
 
@@ -26,15 +24,15 @@ weight: 1
 
 ## In Grafana: Add iLert Webhook as Alerting Channel <a id="add-webhook"></a>
 
-1. Go to the sidebar tab Alerting → Notification channels and click on the green New channel button.
+1. In the sidebar, go to **Alerting** → **Notification channels** and click on the **New channel** button.
 
 ![](../.gitbook/assets/gr3.png)
 
-2. Select **Type** webhook and in the field **Url** insert the webhookurl generated in iLert, Http Method should be set to "POST".
+2. Select **Type** webhook and in the field **URL** insert the webhookurl generated in iLert. Set the HTTP Method to **POST**.
 
 ![](../.gitbook/assets/gr4.png)
 
-3. Before you click on **Save** , you have the opportunity to test the integration. Click **Send Test**
+3. Optionally test the integration by cliking on the **Send Test** button. Click on **Save**
 
 ![](../.gitbook/assets/gr5.png)
 
