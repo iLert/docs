@@ -21,6 +21,7 @@ In case of malformed values or states which are not allowed e.g.`role = ADMIN wi
 | role | STAKEHOLDER, GUEST, RESPONDER, USER, ADMIN | RESPONDER |  |
 | mobileRegionCode | Region Code e.g. DE | None |  |
 | mobileNumber | Phone Number without country e.g. 0221 123 123 | None | Requires mobileRegionCode to be set |
+| userProfileImage | absolute URL to image of user \(500x500px\) | None |  |
 
 ### Auto provision team details
 

@@ -6,9 +6,26 @@ description: >-
 
 # iLert Release Notes
 
+## August 2021
+
+### New and updated integrations
+
+* Microsoft Teams Chat \(new bot\)
+* Microsoft Teams Meeting \(new bot\)
+
+### New features
+
+* My on-calls view \(giving overview of all on-call duties of a user\)
+* Avatar upload \(in user contact details\)
+
+### Improvements
+
+* updates for on-calls API
+* updates for schedule shifts API
+
 ## July 2021
 
-New and updated integrations
+### New and updated integrations
 
 * Zendesk inbound integration now supports attaching comments to incidents
 * Zammad inbound integration now supports attaching comments to incidents
