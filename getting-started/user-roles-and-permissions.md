@@ -19,7 +19,7 @@ A user in iLert can have one of the following roles:
 
 ### Stakeholder
 
-Stakeholders will only be able to see the incidents to which they have added as a subscriber won't be able to see any other data, such as other incidents, alert sources, escalation policies, etc. Additionally, they can't login to the web application. Instead, they can use the iLert mobile app to get insights into current incidents that they are subscribed to and manage their profile and notification settings. This role is only available as part of our Premium plan.
+Stakeholders will only be able to see the incidents to which they have been added as a subscriber and won't be able to see any other data, such as other incidents, alert sources, escalation policies, etc. Additionally, they can't login to the web application. Instead, they can use the iLert mobile app to get insights into current incidents that they are subscribed to and manage their profile and notification settings. This role is only available as part of our Premium plan.
 
 ### Guest
 
