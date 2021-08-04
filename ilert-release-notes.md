@@ -8,15 +8,15 @@ description: >-
 
 ## August 2021
 
+### New features
+
+* [My on-call shifts](getting-started/on-call-schedules/my-on-call-shifts.md) page
+* Avatar upload \(in user contact details\)
+
 ### New and updated integrations
 
 * Microsoft Teams Chat \(new bot\)
 * Microsoft Teams Meeting \(new bot\)
-
-### New features
-
-* My on-calls view \(giving overview of all on-call duties of a user\)
-* Avatar upload \(in user contact details\)
 
 ### Improvements
 
