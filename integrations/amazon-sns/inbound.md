@@ -48,6 +48,10 @@ If you already have an Amazon SNS topic, please skip the steps 1 and 2.
 
 ![](../../.gitbook/assets/simple_notification_service%20%286%29.png)
 
+{% hint style="warning" %}
+Do not activate the checkbox **Enable raw message delivery**. iLert won't process those messages otherwise.
+{% endhint %}
+
 Finished! Your Amazon SNS notifications will now create incidents in iLert.
 
 ## Custom attributes
@@ -60,7 +64,6 @@ All attributes are optional
 | :--- | :--- | :--- |
 | eventType | optional | ALERT, ACCEPT, RESOLVE |
 | incidentKey | required if eventType used | Any string |
-| priority | optional | HIGH, LOW |
 | incidentUrl1 | optional | Any URL string |
 | incidentUrl2 | optional | Any URL string |
 | incidentUrl3 | optional | Any URL string |
