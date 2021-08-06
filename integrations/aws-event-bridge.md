@@ -54,6 +54,18 @@ description: Create events in Amazon EventBridge using iLert incidents.
 
 
 
+## Event types sent to Amazon EventBridge event bus
+
+* incident-created
+* incident-acknowledged
+* incident-resolved
+* incident-assigned
+* incident-auto-escalated
+* incident-auto-resolved
+* incident-rejected
+* incident-raised
+* incident-comment-added
+
 ## Sample event payload sent to Amazon EventBridge event bus
 
 {% tabs %}
