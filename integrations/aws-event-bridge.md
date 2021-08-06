@@ -54,6 +54,149 @@ description: Create events in Amazon EventBridge using iLert incidents.
 
 
 
+## Sample event payload sent to Amazon EventBridge event bus
+
+{% tabs %}
+{% tab title="incident-created" %}
+```javascript
+{
+  "version": "0",
+  "id": "cb5fbc21-5156-2073-1f94-116d1dadae0e",
+  "detail-type": "incident-created",
+  "source": "aws.partner/ilert.com/test/cc23670e-ad3e-4c38-8d45-d22c36ced352",
+  "account": "61xxxxxxxx53",
+  "time": "2021-08-06T08:16:16Z",
+  "region": "eu-central-1",
+  "resources": [
+    "ilert"
+  ],
+  "detail": {
+    "id": "3710705",
+    "summary": "test incident",
+    "details": "My server is down",
+    "reportTime": "2021-08-06T08:16:01.154Z",
+    "status": "PENDING",
+    "eventType": "incident-created",
+    "priority": "HIGH",
+    "alertSource": {
+      "id": 2193327,
+      "name": "Test"
+    },
+    "assignedTo": null
+  }
+}
+
+```
+{% endtab %}
+
+{% tab title="incident-auto-escalated" %}
+```javascript
+{
+  "version": "0",
+  "id": "e133ebe4-414e-aaf3-dc34-ffc006ecfc89",
+  "detail-type": "incident-auto-escalated",
+  "source": "aws.partner/ilert.com/test/cc23670e-ad3e-4c38-8d45-d22c36ced352",
+  "account": "61xxxxxxxx53",
+  "time": "2021-08-06T08:16:04Z",
+  "region": "eu-central-1",
+  "resources": [
+    "ilert"
+  ],
+  "detail": {
+    "id": "3710705",
+    "summary": "test incident",
+    "details": "My server is down",
+    "reportTime": "2021-08-06T08:16:01.154Z",
+    "status": "PENDING",
+    "eventType": "incident-auto-escalated",
+    "priority": "HIGH",
+    "alertSource": {
+      "id": 2193327,
+      "name": "Test"
+    },
+    "assignedTo": {
+      "id": 2193122,
+      "username": "text",
+      "firstName": "FirstName",
+      "lastName": "LastName",
+      "email": "example@acme.com"
+    }
+  }
+}
+
+```
+{% endtab %}
+
+{% tab title="incident-acknowledged" %}
+```javascript
+{
+  "version": "0",
+  "id": "48150448-798c-ed2f-cef8-27e8840b5956",
+  "detail-type": "incident-acknowledged",
+  "source": "aws.partner/ilert.com/test/cc23670e-ad3e-4c38-8d45-d22c36ced352",
+  "account": "61xxxxxxxx53",
+  "time": "2021-08-06T08:25:48Z",
+  "region": "eu-central-1",
+  "resources": [
+    "ilert"
+  ],
+  "detail": {
+    "id": "3710705",
+    "summary": "test incident",
+    "details": "My server is down",
+    "reportTime": "2021-08-06T08:16:01.154Z",
+    "status": "ACCEPTED",
+    "eventType": "incident-acknowledged",
+    "priority": "HIGH",
+    "alertSource": {
+      "id": 2193327,
+      "name": "Test"
+    },
+    "assignedTo": {
+      "id": 2193122,
+      "username": "text",
+      "firstName": "FirstName",
+      "lastName": "LastName",
+      "email": "example@acme.com"
+    }
+  }
+}
+
+```
+{% endtab %}
+
+{% tab title="incident-resolved" %}
+```javascript
+{
+  "version": "0",
+  "id": "761e5e6c-9200-f366-210c-f70a4e54b167",
+  "detail-type": "incident-resolved",
+  "source": "aws.partner/ilert.com/test/cc23670e-ad3e-4c38-8d45-d22c36ced352",
+  "account": "61xxxxxxxx53",
+  "time": "2021-08-06T08:26:01Z",
+  "region": "eu-central-1",
+  "resources": [
+    "ilert"
+  ],
+  "detail": {
+    "id": "3710705",
+    "summary": "test incident",
+    "details": "My server is down",
+    "reportTime": "2021-08-06T08:16:01.154Z",
+    "status": "RESOLVED",
+    "eventType": "incident-resolved",
+    "priority": "HIGH",
+    "alertSource": {
+      "id": 2193327,
+      "name": "Test"
+    },
+    "assignedTo": null
+  }
+}
+```
+{% endtab %}
+{% endtabs %}
+
 ## FAQ <a id="faq"></a>
 
 **Can I link multiple Amazon EventBridge sources to an iLert account?**
