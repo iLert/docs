@@ -4,7 +4,7 @@ description: >-
   your channels, acknowledge or resolve incidents without leaving the chat.
 ---
 
-# Microsoft Teams Integration Chat
+# Microsoft Teams Chat Integration
 
 [Microsoft Teams](https://www.microsoft.com/en-ww/microsoft-teams/group-chat-software) is the hub for team collaboration in Microsoft 365 that integrates the people, content, and tools your team needs to be more engaged and effective.
 
