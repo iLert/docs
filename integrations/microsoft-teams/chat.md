@@ -28,17 +28,9 @@ To install the bot application, you must have admin rights in Microsoft Teams.
 
 ![](../../.gitbook/assets/general__demo____microsoft_teams%20%282%29.png)
 
-4. On the welcome message click on the **Connect** button or use `@iLert connect` command to connect your iLert account with Microsoft Teams
+4. You should have received a welcome message in the previously selected channel, if you do not see the message or you want to reconnect use the `@iLert connect` command  to bring it up again. Click on the **Connect** button in the message, this will take you to iLert's login page to finish your connection.
 
 ![](../../.gitbook/assets/general__demo____microsoft_teams.png)
-
-5. Login to your iLert account and the Microsoft Teams connect will be created automatically
-
-![](../../.gitbook/assets/ilert%20%2898%29.png)
-
-## In iLert <a id="in-ilert"></a>
-
-### Link the Microsoft Teams Chat Connector to the alert source <a id="link-the-microsoft-teams-chat-connector-to-the-alert-source"></a>
 
 {% hint style="info" %}
 **Admin permission required**
@@ -46,15 +38,25 @@ To install the bot application, you must have admin rights in Microsoft Teams.
 To set up the integration, you must have admin rights in iLert.
 {% endhint %}
 
-1. ****Go to the alert sources tab and open the alert source whose incidents you want to post into Microsoft Teams channel. Click on the **Incident actions** tab and then on the **Add new incident action** button
+5. Login to the iLert account which you want to connect to Microsoft Teams and iLert will automatically setup the connection for you - _depending on your login state in Microsoft 365 you will have to login to Microsoft again, afterwards you will be automatically taken back to iLert_ and you should see a success message with your newly created connector.
+
+![](../../.gitbook/assets/ilert%20%2898%29.png)
+
+## In iLert <a id="in-ilert"></a>
+
+Now that the initial connection between your Microsoft Teams and iLert accounts has been setup, you may choose alert sources which should send update messages to your Microsoft Teams channels - this is done by creating Incident Actions in iLert.
+
+### Link the Microsoft Teams Chat Connector to the alert source <a id="link-the-microsoft-teams-chat-connector-to-the-alert-source"></a>
+
+1. ****Go to the alert sources tab and open the alert source whose incident's updates you want to publish into Microsoft Teams channels. Click on the **Incident actions** tab and then on the **Add new incident action** button
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
-2. On the next page choose **Microsoft Teams** as the type, choose the connector created before, name it**,** choose **Chat** as Teams Action, choose **Your team**, then choose **Your channel** and click on the **Save** button.
+2. On the next page choose **Microsoft Teams** as the type, choose the connector created before, name your action**,** choose **Chat** as Teams Action, choose **Your team**, then choose **Your channel** and click on the **Save** button.
 
 ![](../../.gitbook/assets/ilert%20%2897%29.png)
 
-6. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the Microsoft Teams channel.
+6. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted in your Microsoft Teams channel.
 
 ![](../../.gitbook/assets/general__roman____microsoft_teams.png)
 
@@ -66,7 +68,7 @@ Yes.
 
 **Are updates to an incident published on the Microsoft Teams Chat channel?**
 
-Yes, the following updates to an incident are currently being released:
+Yes, the following updates to an incident are currently being published:
 
 * **Escalations** : An incident is assigned to another user through an automatic escalation.
 * **Manual Assignments** : An incident is manually assigned to someone.
@@ -74,7 +76,7 @@ Yes, the following updates to an incident are currently being released:
 
 **Can I choose which updates to an incident will be published in Microsoft Teams Chat?**
 
-Yes.
+No.
 
 **How can I uninstall the iLert App from my Microsoft Teams account?**
 
