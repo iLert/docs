@@ -2,13 +2,33 @@
 description: Create Microsoft Teams Meeting from iLert incidents.
 ---
 
-# Microsoft Teams Integration Meeting
+# Microsoft Teams Meeting Integration
 
 [Microsoft Teams](https://www.microsoft.com/en-ww/microsoft-teams/group-chat-software) is the hub for team collaboration in Microsoft 365 that integrates the people, content, and tools your team needs to be more engaged and effective.
 
-## In iLert <a id="create-alarm-source"></a>
+## In Microsoft Teams <a id="in-microsoft-teams"></a>
 
-### Create the Microsoft Teams Meeting Connector and link it to the alert source
+### Install the iLert bot application
+
+{% hint style="info" %}
+**Admin permission required**
+
+To install the bot application, you must have admin rights in Microsoft Teams.
+{% endhint %}
+
+1. Open the application in Microsoft Teams: [https://teams.microsoft.com/l/app/8f3b287d-df09-44e2-93b3-35e0dfa90756](https://teams.microsoft.com/l/app/8f3b287d-df09-44e2-93b3-35e0dfa90756)
+
+2. Add the iLert bot to a team
+
+![](../../.gitbook/assets/general__demo____microsoft_teams%20%281%29.png)
+
+3. Choose a team and channel name and click on the **Set up a bot** button
+
+![](../../.gitbook/assets/general__demo____microsoft_teams%20%282%29.png)
+
+4. You should have received a welcome message in the previously selected channel, if you do not see the message or you want to reconnect use the `@iLert connect` command  to bring it up again. Click on the **Connect** button in the message, this will take you to iLert's login page to finish your connection.
+
+![](../../.gitbook/assets/general__demo____microsoft_teams.png)
 
 {% hint style="info" %}
 **Admin permission required**
@@ -16,29 +36,25 @@ description: Create Microsoft Teams Meeting from iLert incidents.
 To set up the integration, you must have admin rights in iLert.
 {% endhint %}
 
-1. ****Click the gear icon and then click on the **Connectors** link
+5. Login to the iLert account which you want to connect to Microsoft Teams and iLert will automatically setup the connection for you - _depending on your login state in Microsoft 365 you will have to login to Microsoft again, afterwards you will be automatically taken back to iLert_ and you should see a success message with your newly created connector.
 
-![](../../.gitbook/assets/screenshot_16_03_21__15_46.png)
+![](../../.gitbook/assets/ilert%20%2898%29.png)
 
-2. Click the **Add Connector** button
+## In iLert <a id="in-ilert"></a>
 
-![](../../.gitbook/assets/screenshot_16_03_21__15_48.png)
+Now that the initial connection between your Microsoft Teams and iLert accounts has been setup, you may choose alert sources which should send update messages to your Microsoft Teams channels - this is done by creating Incident Actions in iLert.
 
-3. On the next page, choose **Microsoft Teams Meeting** as type, name the connector and click on the save button to authorize iLert App with your Microsoft Teams account.
+### Link the Microsoft Teams Meeting Connector to the alert source
 
-![](../../.gitbook/assets/ilert%20%2845%29.png)
-
-4. On the next page, agree with the requested permissions and click on the **Authorize** button
-
-5. Go to the alert sources tab and open the alert source whose incidents you want to create Microsoft Teams Meeting. Click on the **Incident actions** tab and then on the **Add new incident action** button
+1. ****Go to the alert sources tab and open the alert source whose incident's updates you want to publish into Microsoft Teams channels. Click on the **Incident actions** tab and then on the **Add new incident action** button
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
-6. On the next page choose **Microsoft Teams Meeting** as the type, choose the connector created in step 3, name it, choose **Trigger mode** and click on the **Save** button.
+2. On the next page choose **Microsoft Teams** as the type, choose the connector created before, name your action**,** choose **Meeting** as Teams Action, choose **Your team**, then choose **Your channel** and click on the **Save** button.
 
-![](../../.gitbook/assets/ilert%20%2837%29.png)
+![](../../.gitbook/assets/ilert%20%2899%29.png)
 
-7. Finished! Now a Microsoft Teams Meeting will be created  for each incident in automatic trigger mode or via manual incident action.
+3. Finished! Now a Microsoft Teams Meeting will be created via manual incident action.
 
 ![](../../.gitbook/assets/ilert%20%2840%29.png)
 

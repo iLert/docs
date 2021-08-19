@@ -56,7 +56,7 @@ Now that the initial connection between your Microsoft Teams and iLert accounts 
 
 ![](../../.gitbook/assets/ilert%20%2897%29.png)
 
-6. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted in your Microsoft Teams channel.
+3. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted in your Microsoft Teams channel.
 
 ![](../../.gitbook/assets/general__roman____microsoft_teams.png)
 

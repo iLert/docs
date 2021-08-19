@@ -110,7 +110,7 @@
   * [Jira Outbound Integration](integrations/jira/outbound.md)
 * [Microsoft Teams Integration](integrations/microsoft-teams/README.md)
   * [Microsoft Teams Chat Integration](integrations/microsoft-teams/chat.md)
-  * [Microsoft Teams Integration Meeting](integrations/microsoft-teams/meeting.md)
+  * [Microsoft Teams Meeting Integration](integrations/microsoft-teams/meeting.md)
   * [Microsoft Teams Integration via Incoming Webhook](integrations/microsoft-teams/incoming-webhook.md)
 * [MXToolBox Integration](integrations/mxtoolbox.md)
 * [Nagios Integration](integrations/nagios.md)
