@@ -42,11 +42,11 @@ To set up the integration, you must have admin rights in iLert.
 
 ## In iLert <a id="in-ilert"></a>
 
-Now that the initial connection between your Microsoft Teams and iLert accounts has been setup, you may choose alert sources which should send update messages to your Microsoft Teams channels - this is done by creating Incident Actions in iLert.
+Now that the initial connection between your Microsoft Teams and iLert accounts has been setup, you may choose alert sources for which you want to configure meeting actions.
 
-### Link the Microsoft Teams Meeting Connector to the alert source
+### Link the Microsoft Teams Connector to the alert source
 
-1. ****Go to the alert sources tab and open the alert source whose incident's updates you want to publish into Microsoft Teams channels. Click on the **Incident actions** tab and then on the **Add new incident action** button
+1. ****Go to the alert sources tab and open the alert source for which you want to configure the meeting action. Click on the **Incident actions** tab and then on the **Add new incident action** button
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
@@ -54,7 +54,7 @@ Now that the initial connection between your Microsoft Teams and iLert accounts 
 
 ![](../../.gitbook/assets/ilert%20%2899%29.png)
 
-3. Finished! Now a Microsoft Teams Meeting will be created via manual incident action.
+3. Finished! A Microsoft Teams Meeting incident action will now be available on each incident that is created by your alert source. Triggering the action \(use **...** in the top right actions bar\) will add a **Join Meeting Link** to the incident in iLert as well as post a message into your configured Microsoft Teams channel with the meeting's details.
 
 ![](../../.gitbook/assets/ilert%20%2840%29.png)
 

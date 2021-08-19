@@ -10,6 +10,10 @@ weight: 1
 
 # Microsoft Teams Integration via Incoming Webhook
 
+{% hint style="warning" %}
+If possible we suggest to use [iLert's Microsoft Teams Bot](chat.md) for the setup, this guide and integration is only suggested in case you do not want to grant any permissions to iLert
+{% endhint %}
+
 ## In Microsoft Teams: Add an iLert Connector to a channel <a id="add-to-channel"></a>
 
 {% hint style="info" %}
