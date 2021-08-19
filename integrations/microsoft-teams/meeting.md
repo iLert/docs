@@ -56,7 +56,7 @@ Now that the initial connection between your Microsoft Teams and iLert accounts 
 
 3. Finished! A Microsoft Teams Meeting incident action will now be available on each incident that is created by your alert source. Triggering the action \(use **...** in the top right actions bar\) will add a **Join Meeting Link** to the incident in iLert as well as post a message into your configured Microsoft Teams channel with the meeting's details.
 
-![](../../.gitbook/assets/ilert%20%2840%29.png)
+![](../../.gitbook/assets/ilert%20%28100%29.png)
 
 ## FAQ <a id="faq"></a>
 
