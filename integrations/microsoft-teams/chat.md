@@ -8,9 +8,37 @@ description: >-
 
 [Microsoft Teams](https://www.microsoft.com/en-ww/microsoft-teams/group-chat-software) is the hub for team collaboration in Microsoft 365 that integrates the people, content, and tools your team needs to be more engaged and effective.
 
-## In iLert <a id="create-alarm-source"></a>
+## In Microsoft Teams <a id="in-microsoft-teams"></a>
 
-### Create the Microsoft Teams Chat Connector and link it to the alert source
+### Install the iLert bot application
+
+{% hint style="info" %}
+**Admin permission required**
+
+To install the bot application, you must have admin rights in Microsoft Teams.
+{% endhint %}
+
+1. Open the application in Microsoft Teams: [https://teams.microsoft.com/l/app/8f3b287d-df09-44e2-93b3-35e0dfa90756](https://teams.microsoft.com/l/app/8f3b287d-df09-44e2-93b3-35e0dfa90756)
+
+2. Add the iLert bot to a team
+
+![](../../.gitbook/assets/general__demo____microsoft_teams%20%281%29.png)
+
+3. Choose a team and channel name and click on the **Set up a bot** button
+
+![](../../.gitbook/assets/general__demo____microsoft_teams%20%282%29.png)
+
+4. On the welcome message click on the **Connect** button or use `@iLert connect` command to connect your iLert account with Microsoft Teams
+
+![](../../.gitbook/assets/general__demo____microsoft_teams.png)
+
+5. Login to your iLert account and the Microsoft Teams connect will be created automatically
+
+![](../../.gitbook/assets/ilert%20%2898%29.png)
+
+## In iLert <a id="in-ilert"></a>
+
+### Link the Microsoft Teams Chat Connector to the alert source <a id="link-the-microsoft-teams-chat-connector-to-the-alert-source"></a>
 
 {% hint style="info" %}
 **Admin permission required**
@@ -18,27 +46,13 @@ description: >-
 To set up the integration, you must have admin rights in iLert.
 {% endhint %}
 
-1. ****Click the gear icon and then click on the **Connectors** link
-
-![](../../.gitbook/assets/screenshot_16_03_21__15_46.png)
-
-2. Click the **Add Connector** button
-
-![](../../.gitbook/assets/screenshot_16_03_21__15_48.png)
-
-3. On the next page, choose **Microsoft Teams Chat** as type, name the connector and click on the save button to authorize iLert App with your Microsoft Teams account.
-
-![](../../.gitbook/assets/ilert%20%2843%29.png)
-
-4. On the next page, agree with the requested permissions and click on the **Authorize** button
-
-5. Go to the alert sources tab and open the alert source whose incidents you want to post into Microsft Teams channel. Click on the **Incident actions** tab and then on the **Add new incident action** button
+1. ****Go to the alert sources tab and open the alert source whose incidents you want to post into Microsoft Teams channel. Click on the **Incident actions** tab and then on the **Add new incident action** button
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
-6. On the next page choose **Microsoft Teams Chat** as the type, choose the connector created in step 3, name it**,** choose **incident events** to publish, choose **Your team**, then choose **Your channel** and click on the **Save** button.
+2. On the next page choose **Microsoft Teams** as the type, choose the connector created before, name it**,** choose **Chat** as Teams Action, choose **Your team**, then choose **Your channel** and click on the **Save** button.
 
-![](../../.gitbook/assets/ilert%20%2848%29.png)
+![](../../.gitbook/assets/ilert%20%2897%29.png)
 
 6. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the Microsoft Teams channel.
 
