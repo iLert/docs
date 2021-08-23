@@ -132,6 +132,7 @@
 * [SMS Integration](integrations/sms-integration.md)
 * [SolarWinds Integration](integrations/solarwinds.md)
 * [Single Sign-On Setup](integrations/sso.md)
+* [Sensu Integration](integrations/sensu.md)
 * [Sentry Integration](integrations/sentry.md)
 * [Server Density](integrations/serverdensity.md)
 * [Sematext Integration](integrations/sematext.md)
