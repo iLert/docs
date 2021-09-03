@@ -1,24 +1,25 @@
 ---
 description: >-
-  The iLert Sensu Integration helps you to create incidents into your channels
+  The iLert Sensu Integration helps you to publish incidents into your channels
   or resolve incidents.
 ---
 
 # Sensu Integration
 
-[Sensu](https://sensu.io/) is a tool that functions as an observability Pipeline that delivers monitoring as code on any cloud.
+[Sensu](https://sensu.io/) is a tool that functions as an observability pipeline which delivers monitoring as code on any cloud.
 
 ## In iLert
 
-1. Go to the "Alert sources" tab and click "Create new alert source"
+1. Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
 ![](../.gitbook/assets/screenshot-cloudelca.ilert.com-2021.08.31-21_08_34.png)
 
-2. Enter a name and select your desired escalation policy. Select "Sensu" as the **Integration Type** and click **Save**.
+2. Enter a name and select your desired escalation policy.   
+Select "Sensu" as the **Integration Type** and click **Save**.
 
 ![](../.gitbook/assets/screenshot-cloudelca.ilert.com-2021.08.31-21_04_34.png)
 
-3. On the next page, a API key is generated. You will need the API Key when setting up the handler in Sensu.
+3. On the next page, an **API key** is generated. You will need the API Key when setting up the handler in Sensu.
 
 ![](../.gitbook/assets/screenshot-cloudelca.ilert.com-2021.08.31-21_05_48.png)
 
@@ -36,7 +37,8 @@ sensuctl asset add iLert/sensu-ilert
 sensuctl asset info iLert/sensu-ilert
 ```
 
-3. In the following command, replace &lt;ilert\_key&gt; with your iLert API key. Then run the updated command:
+3. In the following command, replace **&lt;ilert\_key&gt;** with your iLert API key.   
+Then run the updated command:
 
 ```text
 sensuctl handler create ilert \
@@ -51,7 +53,8 @@ sensuctl handler create ilert \
 sensuctl handler info ilert --format yaml
 ```
 
-5. Trigger an event. You can try with **file\_exists** check and iLert handler workflow in place, you can remove a file to cause Sensu to send a non-OK event. You can refer to the next section.
+5. Trigger an event. You can try it with the **file\_exists** check and an iLert handler workflow in place - remove a file to cause Sensu to send a non-OK event.  
+You can refer to the next section for more instructions.
 
 ## Triggering an event
 
@@ -111,7 +114,7 @@ sensuctl check create file_exists \
 sensuctl check info file_exists --format yaml
 ```
 
-### Trigger `file_exists` check <a id="trigger-an-event"></a>
+### Trigger a `file_exists` check <a id="trigger-an-event"></a>
 
 1. Remove the file `/tmp/my-file.txt`:
 
@@ -119,13 +122,13 @@ sensuctl check info file_exists --format yaml
 rm /tmp/my-file.txtCopy
 ```
 
-2, This will make sure the file is **not** there for Sensu to find the next time the `file_exists` check runs. After about 10 seconds, Sensu will detect that `my-file.txt` is missing and reflect that in an event. To view the event with `sensuctl`, run:
+2. This will make sure the file is **not** there for Sensu to find the next time the `file_exists` check runs. After about 10 seconds, Sensu will detect that `my-file.txt` is missing and reflect that in an event. To view the event with `sensuctl`, run:
 
 ```text
 sensuctl event listCopy
 ```
 
-3. The response should show that the file removal resulted in a CRITICAL \(2\) event:
+3. The response should show that the file removal resulted in a _CRITICAL \(2\)_ event:
 
 ```text
      Entity         Check                                      Output                                   Status   Silenced             Timestamp                             UUID                  
@@ -133,9 +136,9 @@ sensuctl event listCopy
   host01         file_exists   CheckFileExists CRITICAL - 0 files matched pattern /tmp/my-file.txt           2   false      2021-03-15 19:28:21 +0000 UTC   1b4266ae-7200-4728-a0n4-2f50f7a56613Copy
 ```
 
-4. Open the Sensu web UI to see the events the `file_exists` check is generating. Visit http://127.0.0.1:3000, and log in as the admin user \(created during initialization when you installed the Sensu backend\). The failing check’s events will be listed on the Events page.
+4. Open the Sensu web UI to see the events the `file_exists` check is generating. Visit http://127.0.0.1:3000, and log in as the admin user \(created during initialization when you installed the Sensu backend\). The failing check’s events will be listed on the **Events** page.
 
-5. The Incident should be created on the Sensu Alert Source on the iLert's side as well
+5. The Incident should be created on the Sensu Alert Source on iLert's side as well
 
 6. To complete your workflow, restore the file that you removed so Sensu sends a resolution to iLert:
 
