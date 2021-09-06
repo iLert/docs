@@ -24,7 +24,7 @@ description: >-
 
 ## In ServiceNow <a id="in-servicenow"></a>
 
-### Create business rule <a id="create-action-sequences"></a>
+### Create business rule <a id="create-business-rule"></a>
 
 1. Go to ServiceNow, search for **Incidents**, ****then open the header menu and choose **Configure -&gt; Business Rules**
 
@@ -77,7 +77,7 @@ description: >-
 
 ![](../../.gitbook/assets/screenshot_08_02_21__22_46.png)
 
-## ServiceNow Incident Lifecycle <a id="faq"></a>
+## ServiceNow Incident Lifecycle <a id="lifecycle"></a>
 
 <table>
   <thead>
