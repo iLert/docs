@@ -22,7 +22,7 @@ description: >-
 
 ![](../../.gitbook/assets/screenshot_09_02_21__07_52.png)
 
-## In ServiceNow <a id="in-topdesk"></a>
+## In ServiceNow <a id="in-servicenow"></a>
 
 ### Create business rule <a id="create-action-sequences"></a>
 
