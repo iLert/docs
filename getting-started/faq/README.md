@@ -13,13 +13,13 @@ iLert integrates with monitoring, ticketing, chat, and collaboration tools.
 
 ## Which monitoring tools does iLert support?
 
-Please have a look at our integrations sections. If you're missing an integration, please contact us at support@ilert.com and we will make it available. Alternatively, you can use our [email integration](../integrations/email/).
+Please have a look at our integrations sections. If you're missing an integration, please contact us at support@ilert.com and we will make it available. Alternatively, you can use our [email integration](../../integrations/email/).
 
 ## Which alerting channels does iLert support?
 
 iLert supports bi-directional alerting via
 
-* **SMS**: ****iLert supports sending SMS alerts worldwide. For many countries, SMS alerts are sent from a local number. See [here](phone-numbers/#sms-alerts) for details.
+* **SMS**: ****iLert supports sending SMS alerts worldwide. For many countries, SMS alerts are sent from a local number. See [here](../phone-numbers/#sms-alerts) for details.
 * **Phone calls**: ****iLert supports international voice calls and converts the incident summary text into speech using text-to-speech technology.
 * **Emails**
 * **Push notifications** on iOS and Android
@@ -47,13 +47,13 @@ Once you change the account owner, you will be logged out immediately and cannot
 
 To change the account owner, go to **Account settings** and click on the **change** account owner link.
 
-![](../.gitbook/assets/screenshot-2021-04-26-at-16.02.28.png)
+![](../../.gitbook/assets/screenshot-2021-04-26-at-16.02.28.png)
 
 ## How can I update the payment method?
 
 To update the payment method, log in as the account owner and go to **Account settings** --&gt; **Subscription** and click on **Update** next to your payment method and enter your new payment information.
 
-![](../.gitbook/assets/screenshot-2020-03-12-at-14.51.44.png)
+![](../../.gitbook/assets/screenshot-2020-03-12-at-14.51.44.png)
 
 ## Where can I download my invoices?
 

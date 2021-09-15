@@ -14,7 +14,8 @@
 * [Stakeholder engagement](getting-started/stakeholder-engagement.md)
 * [iLert domains, ips, emails & phone numbers](getting-started/phone-numbers/README.md)
   * [SMS and voice alerts in China](getting-started/phone-numbers/sms-and-voice-alerts-in-china.md)
-* [FAQ](getting-started/faq.md)
+* [FAQ](getting-started/faq/README.md)
+  * [Renaming of Incidents to Alerts](getting-started/faq/renaming-of-incidents-to-alerts.md)
 
 ## Call Routing
 
