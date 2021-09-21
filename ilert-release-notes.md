@@ -6,6 +6,25 @@ description: >-
 
 # iLert Release Notes
 
+## September 2021
+
+### New features
+
+* added policy routingKeys to the [event API](https://api.ilert.com/api-docs/#tag/Events/paths/~1events/post)
+* added a new uptime monitor type: SSL
+
+### New and updated integrations
+
+* added dynamic user-, priority- and policy mapping to our [ServiceNow integration](integrations/service-now/inbound.md)
+* updated [Jira inbound integration](integrations/jira/inbound.md) to support incident creation on update events
+* added new fields for [ServiceNow outbound](integrations/service-now/outbound.md) incident creation
+
+### Improvements
+
+* added response keywords check for HTTP uptime monitors
+* added option to delete user avatar
+* increased displayed team name sizes in action dropdowns and list views
+
 ## August 2021
 
 ### New features
