@@ -42,7 +42,11 @@ You need admin permissions to manage Jira webhooks.
 
 ![](../../.gitbook/assets/webhooks_-_jira%20%281%29.png)
 
-4. Scroll to bottom and click on the **Create** button
+4. Scroll down and make sure that the request body is **not excluded**
+
+![](../../.gitbook/assets/screenshot_23_09_21__13_18.png)
+
+5. Scroll to bottom and click on the **Create** button
 
 ## FAQ <a id="faq"></a>
 
