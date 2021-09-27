@@ -4,55 +4,63 @@ seoTitle: >-
   iLert: Google Stackdriver Integration for Alerting | Incident Response |
   Uptime
 description: >-
-  The iLert Google Cloud's operations suite (formerly Stackdriver)  Integration
-  helps you to easily connect iLert with Google Cloud's operations.
+  With the iLert Google Cloud Monitoring integration, you can create incidents
+  in iLert based on Google Cloud Alerts.
 date: '2018-12-29T05:02:05.000Z'
 weight: 1
 ---
 
-# Google Cloud's operations suite \(formerly Stackdriver\) Integration
+# Google Cloud Monitoring \(formerly Stackdriver\) Integration
 
-With [Google Cloud's operations suite](https://cloud.google.com/products/operations) you can  monitor, troubleshoot, and improve application performance on your Google Cloud environment.
+With [Google Cloud Monitoring](https://cloud.google.com/monitoring) you can gain visibility into the performance, availability, and health of your applications and infrastructure.
 
-## In iLert: Create a Stackdriver alert source <a id="create-alarm-source"></a>
+## In iLert <a id="in-ilert"></a>
+
+### Create a Google Cloud Monitoring alert source
 
 1. Switch to the tab "alert sources" and click on the button "Create new alert source"
 
 2. Assign name and select escalation chain
 
-3. Select and save in the Google Stackdriver Integration Type field.
+3. Select and save in the Google Cloud Monitoring Integration Type field.
 
-![](../.gitbook/assets/sd1.png)
+![](../.gitbook/assets/screenshot_27_09_21__17_08.png)
 
-4. The URL shown on the next page is the HTTP endpoint for the Webhook in Stackdriver and will be needed immediately.
+4. On the next page, a Webhook URL is generated. You will need this URL below when setting up the Motification Channel in Google Cloud Console.
 
-![](../.gitbook/assets/sd2.png)
+![](../.gitbook/assets/screenshot_27_09_21__17_10.png)
 
-## In Stackdriver: Create Webhook Notification <a id="create-webhook-notification"></a>
+## In Google Cloud Console <a id="create-webhook-notification"></a>
 
-1. Open "Account settings".
+### Create Webhook Notification Channel
 
-![](../.gitbook/assets/sd3.png)
+1. Go to Google Cloud Console and search for Monitoring
 
-2. In the "Notifications" settings, select the tab "WEBHOOKS" and click on "Add Webhook".
+![](../.gitbook/assets/screenshot_27_09_21__17_12.png)
 
-![](../.gitbook/assets/sd4.png)
+2. On the Monitoring page go to **Alerting** and click on the **Edit Notification channels** button
 
-3. Assign a name on the following page \(eg iLert\) and in the field "ENDPOINT URL" accept the Webhook URL from the alert source set up in iLert and click on "Save".
+![](../.gitbook/assets/screenshot_27_09_21__17_15.png)
 
-![](../.gitbook/assets/sd5.png)
+3. On the Notification Channels page click on the **Add New** button beside the Webhooks channels.
 
-4. After you've created the iLert webhook, you can use it as a notification in any Alerting Policy in Stackdriver. The following screenshot will create a new Alerting Policy with iLert as the notification method.
+![](../.gitbook/assets/screenshot_27_09_21__17_17.png)
 
-![](../.gitbook/assets/sd6.png)
+3. Assign a **Display Name** on the following modal \(e.g. iLert\) and in the field "Endpoint URL" paste the **Webhook URL** that you generated in iLert and click on the **Save** button.
+
+![](../.gitbook/assets/screenshot_27_09_21__17_21.png)
+
+4. After you've created the iLert webhook, you can use it as a notification in any Alerting Policy in Google Cloud Monitoring. The following screenshot will create a new Alerting Policy with iLert as the notification method.
+
+![](../.gitbook/assets/screenshot_27_09_21__17_25.png)
 
 ## FAQ <a id="faq"></a>
 
 **Will incidents in iLert be resolved automatically?**
 
-Yes, as soon as the state of an incident in Stackdriver is `RESOLVED`, the associated incident in iLert is resolved.
+Yes, as soon as the state of an incident in Google Cloud Monitoring is `RESOLVED`, the associated incident in iLert is resolved.
 
-**Can I link Stackdriver to multiple alert sources in iLert?**
+**Can I link Google Cloud Monitoring to multiple alert sources in iLert?**
 
-Yes, create a webhook for each alert source in Stackdriver. You can then choose which Webhook to use for alerting for each Alerting Policy in Stackdriver.
+Yes, create a webhook for each alert source in Google Cloud Monitoring. You can then choose which Webhook to use for alerting for each Alerting Policy in Google Cloud.
 

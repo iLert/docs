@@ -97,7 +97,7 @@
   * [GitHub Inbound Check Run \(Actions\) Integration](integrations/github/inbound-check-run-actions.md)
   * [GitHub Inbound Issue Integration](integrations/github/inbound-issue.md)
   * [GitHub Outbound Issue Integration](integrations/github/outbound-issue.md)
-* [Google Cloud's operations suite \(formerly Stackdriver\) Integration](integrations/google-stackdriver.md)
+* [Google Cloud Monitoring \(formerly Stackdriver\) Integration](integrations/google-stackdriver.md)
 * [Grafana Integration](integrations/grafana.md)
 * [Icinga Integration](integrations/icinga.md)
 * [Cisco Webex](integrations/webex.md)
