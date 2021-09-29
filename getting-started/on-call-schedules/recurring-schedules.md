@@ -26,5 +26,5 @@ By default, the on-call coverage is 24 hours a day, 7 days a week, i.e. users ar
 
 ![](../../.gitbook/assets/image%20%2833%29.png)
 
-Restricting your on-call coverage will result in gaps in your schedule, where no one is on call. If an incident occurs during a time with no coverage in your schedule, then the incident will be escalated immediately to the next escalation level, without waiting for the escalation timeout. If no one is on-call on the entire escalation policy, no one will be notified. 
+Restricting your on-call coverage will result in gaps in your schedule, where no one is on call. If an alert occurs during a time with no coverage in your schedule, then the alert will be escalated immediately to the next escalation level, without waiting for the escalation timeout. If no one is on-call on the entire escalation policy, no one will be notified. 
 
