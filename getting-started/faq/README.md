@@ -4,7 +4,7 @@
 
 iLert is a software for alerting, on-call management and uptime monitoring and helps dev and ops teams to increase the uptime of critical services. Core features of iLert include
 
-* **Reliable alerting** via voice, SMS, push notifications, Slack and more and frictionless acknowledgement, allowing you acknowledge an incident on the same channel where you reveived the alert \(e.g. by replying to an SMS\).
+* **Reliable alerting** via voice, SMS, push notifications, Slack and more and frictionless acknowledgement, allowing you acknowledge an alert on the same channel where you reveived the alert \(e.g. by replying to an SMS\).
 * **On-call management & escalations**: easily manage on-call duty with on-call schedules and automatic escalations.
 * **Uptime & performance monitoring:** monitor your website, server, or API using various checks such as HTTP, ICMP ping or TCP.
 * **Call routing:** route incoming calls using on-call schedules and escalation policies to the right on-call person.
@@ -20,7 +20,7 @@ Please have a look at our integrations sections. If you're missing an integratio
 iLert supports bi-directional alerting via
 
 * **SMS**: ****iLert supports sending SMS alerts worldwide. For many countries, SMS alerts are sent from a local number. See [here](../phone-numbers/#sms-alerts) for details.
-* **Phone calls**: ****iLert supports international voice calls and converts the incident summary text into speech using text-to-speech technology.
+* **Phone calls**: ****iLert supports international voice calls and converts the alert summary text into speech using text-to-speech technology.
 * **Emails**
 * **Push notifications** on iOS and Android
 * **Chat tools** such as Slack and Microsoft Teams
