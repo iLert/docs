@@ -54,11 +54,11 @@ With PRTG integration, you can easily integrate PRTG with iLert and extend your 
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as the condition of a sensor in PRTG is OK again, the associated incident is resolved in iLert.
+Yes, as soon as the condition of a sensor in PRTG is OK again, the associated alert is resolved in iLert.
 
-**What if an alert is acknowledged in PRTG, is the associated incident also acknowledged in iLert?**
+**What if an alert is acknowledged in PRTG, is the associated alert also acknowledged in iLert?**
 
 No, in PRTG it is unfortunately not possible to send notifications for acknowledgements.
 

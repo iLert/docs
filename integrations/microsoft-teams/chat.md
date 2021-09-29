@@ -1,7 +1,7 @@
 ---
 description: >-
-  The iLert Microsoft Teams Chat Integration helps you to bring incidents into
-  your channels, acknowledge or resolve incidents without leaving the chat.
+  The iLert Microsoft Teams Chat Integration helps you to bring alerts into
+  your channels, acknowledge or resolve alerts without leaving the chat.
 ---
 
 # Microsoft Teams Chat Integration
@@ -44,11 +44,12 @@ To set up the integration, you must have admin rights in iLert.
 
 ## In iLert <a id="in-ilert"></a>
 
-Now that the initial connection between your Microsoft Teams and iLert accounts has been setup, you may choose alert sources which should send update messages to your Microsoft Teams channels - this is done by creating Incident Actions in iLert.
+Now that the initial connection between your Microsoft Teams and iLert accounts has been setup, you may choose alert sources which should send update messages to your Microsoft Teams channels - this is done by creating Alert Actions in iLert.
 
 ### Link the Microsoft Teams Chat Connector to the alert source <a id="link-the-microsoft-teams-chat-connector-to-the-alert-source"></a>
 
-1. Go to the alert sources tab and open the alert source whose incident's updates you want to publish into Microsoft Teams channels. Click on the **Incident actions** tab and then on the **Add new incident action** button.
+
+1. Go to the alert sources tab and open the alert source whose alert's updates you want to publish into Microsoft Teams channels. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
@@ -66,15 +67,15 @@ Now that the initial connection between your Microsoft Teams and iLert accounts 
 
 Yes.
 
-**Are updates to an incident published on the Microsoft Teams Chat channel?**
+**Are updates to an alert published on the Microsoft Teams Chat channel?**
 
-Yes, the following updates to an incident are currently being published:
+Yes, the following updates to an alert are currently being published:
 
-* **Escalations** : An incident is assigned to another user through an automatic escalation.
-* **Manual Assignments** : An incident is manually assigned to someone.
-* **Actions** : An incident is accepted or resolved.
+* **Escalations** : An alert is assigned to another user through an automatic escalation.
+* **Manual Assignments** : An alert is manually assigned to someone.
+* **Actions** : An alert is accepted or resolved.
 
-**Can I choose which updates to an incident will be published in Microsoft Teams Chat?**
+**Can I choose which updates to an alert will be published in Microsoft Teams Chat?**
 
 No.
 

@@ -1,10 +1,10 @@
 ---
-description: Create incidents in iLert from tickets in Autotask PSA.
+description: Create alerts in iLert from tickets in Autotask PSA.
 ---
 
 # Autotask Inbound Integration
 
-With the iLert Autotask inbound integration, you can create incidents in iLert based on tickets from Autotask.
+With the iLert Autotask inbound integration, you can create alerts in iLert based on tickets from Autotask.
 
 ## In Autotask: Create an API user <a id="create-api-user"></a>
 
@@ -83,13 +83,13 @@ With the iLert Autotask inbound integration, you can create incidents in iLert b
 
 ![](../../.gitbook/assets/autotask14%20%281%29.png)
 
-## Autotask Incident Lifecycle
+## Autotask Alert Lifecycle
 
 <table>
   <thead>
     <tr>
       <th style="text-align:left">When I create an Autotask ticket with status...</th>
-      <th style="text-align:left">...then an iLert Incident...</th>
+      <th style="text-align:left">...then an iLert Alert...</th>
     </tr>
   </thead>
   <tbody>
@@ -138,8 +138,8 @@ With the iLert Autotask inbound integration, you can create incidents in iLert b
   <thead>
     <tr>
       <th style="text-align:left">When I update an Autotask ticket with status...</th>
-      <th style="text-align:left">...and the<b> </b>iLert incident...</th>
-      <th style="text-align:left">...then the/an iLert Incident...</th>
+      <th style="text-align:left">...and the<b> </b>iLert alert...</th>
+      <th style="text-align:left">...then the/an iLert Alert...</th>
     </tr>
   </thead>
   <tbody>
@@ -219,15 +219,15 @@ With the iLert Autotask inbound integration, you can create incidents in iLert b
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as an Autotask Ticket is completed, the incident in iLert will be resolved automatically.
+Yes, as soon as an Autotask Ticket is completed, the alert in iLert will be resolved automatically.
 
 **Can I connect Autotask with multiple alert sources from iLert?**
 
 Yes, simply create more Extension Callouts in Autotask.
 
-**Can I customize the incident messages?**
+**Can I customize the alert messages?**
 
 No.
 

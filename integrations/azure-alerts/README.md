@@ -1,5 +1,5 @@
 ---
-description: Create incidents in iLert based on Azure Alerts rules.
+description: Create alerts in iLert based on Azure Alerts rules.
 ---
 
 # Azure Alerts Integration

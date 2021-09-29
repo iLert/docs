@@ -1,7 +1,7 @@
 ---
 description: >-
   With the Zammad Outbound Integration you can create Zammad Tickets right from
-  iLert incidents.
+  iLert alerts.
 ---
 
 # Zammad Outbound Integration
@@ -56,7 +56,7 @@ An agent token has a group scope so if you want to use a group that the current 
 
 ![](../../.gitbook/assets/screenshot_07_02_21__13_39.png)
 
-4. Go to the alert sources tab and open the alert source whose incidents you want to publish in Zammad. Click on **Incident actions** and then on **Create incident action**.
+4. Go to the alert sources tab and open the alert source whose alerts you want to publish in Zammad. Click on **Alert actions** and then on **Create alert action**.
 
 ![](../../.gitbook/assets/new_incident_action%20%2812%29.png)
 
@@ -72,9 +72,9 @@ A test ticket will be created in Zammad.
 
 ## FAQ <a id="faq"></a>
 
-**Are updates to an incident added to the Zammad Ticket?**
+**Are updates to an alert added to the Zammad Ticket?**
 
-Yes, the state of the iLert Incident is reflected in the brief description of the Zammad ticket eg. _\[RESOLVED\] Host compute.infra is DOWN._
+Yes, the state of the iLert Alert is reflected in the brief description of the Zammad ticket eg. _\[RESOLVED\] Host compute.infra is DOWN._
 
 **Can I choose which updates are to be published to a Zammad Ticket?**
 
@@ -86,5 +86,5 @@ Yes, you need to create an agent token and include the user in the group or crea
 
 **Can I use multiple Zammad groups?**
 
-Yes, just create an incident action for each Zammad group.
+Yes, just create an alert action for each Zammad group.
 

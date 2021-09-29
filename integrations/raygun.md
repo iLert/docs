@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert Raygun integration, you can create incidents in iLert based on
+  With the iLert Raygun integration, you can create alerts in iLert based on
   Raygun crash reports.
 ---
 
@@ -36,13 +36,13 @@ description: >-
 
 ![](../.gitbook/assets/screenshot_16_03_21__17_17.png)
 
-Finished! Your Raygun crash reports will now create incidents in iLert.
+Finished! Your Raygun crash reports will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as an alert has been completed in Raygun, the associated incident in iLert will be resolved automatically.
+Yes, as soon as an alert has been completed in Raygun, the associated alert in iLert will be resolved automatically.
 
 **Can I connect Raygun with multiple alert sources from iLert?**
 

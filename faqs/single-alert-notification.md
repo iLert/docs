@@ -14,5 +14,5 @@ weight: 3
 
 **I don't want to be notified of every single alert in my monitoring system. Does iLert have some sort of filtering mechanism?**
 
-Yes, iLert has filtering mechanisms. For each individual alert source, it is possible to define which alerts should be ignored, or which should be bundled into a common incident. For example, alerts can be automatically deduplicated or filtered according to specific words.
+Yes, iLert has filtering mechanisms. For each individual alert source, it is possible to define which alerts should be ignored, or which should be bundled into a common alert. For example, alerts can be automatically deduplicated or filtered according to specific words.
 

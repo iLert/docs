@@ -42,17 +42,17 @@ Please note that escalation times in escalation policies are skipped for policie
 
 ### Voicemail setup
 
-If no user is left and no voicemail has been configured \(see below\) the caller will hear a message that no one is currently available and the call will be ended. The incident that has been created for this incoming call will be escalated once again to the targeted escalation policy using regular incident notification and escalation rules.
+If no user is left and no voicemail has been configured \(see below\) the caller will hear a message that no one is currently available and the call will be ended. The alert that has been created for this incoming call will be escalated once again to the targeted escalation policy using regular alert notification and escalation rules.
 
 ![](../.gitbook/assets/image%20%2811%29.png)
 
-Yet if a voicemail is present instead, the caller will be redirected to the voicemail. In case she leaves a voicemail, the voicemail will be attached to the incident of the incoming call and escalated once again to the targeted escalation.
+Yet if a voicemail is present instead, the caller will be redirected to the voicemail. In case she leaves a voicemail, the voicemail will be attached to the alert of the incoming call and escalated once again to the targeted escalation.
 
 ### Advanced configuration
 
 * [Routing calls based on support hours](routing-calls-based-on-support-hours/)
 * [Handling automated incoming voice calls](voicemail-only-mode.md)
-* [Managing call routing incidents](managing-call-routing-incidents.md)
+* [Managing call routing alerts](managing-call-routing-incidents.md)
 * [Adding webhooks and outbound chat messages](adding-webhooks-and-outbound-chat-messages.md)
 
 

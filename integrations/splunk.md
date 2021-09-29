@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert Splunk integration, you can create incidents in iLert based on
+  With the iLert Splunk integration, you can create alerts in iLert based on
   Splunk alerts.
 ---
 
@@ -36,11 +36,11 @@ description: >-
 
 ![](../.gitbook/assets/screenshot_08_02_21__20_48.png)
 
-Finished! Your Splunk alerts will now create incidents in iLert.
+Finished! Your Splunk alerts will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 No, unfortunately Splunk alerts do not fire resolve events.
 

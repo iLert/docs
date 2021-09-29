@@ -50,9 +50,9 @@ The integration is now set up and the new Alert Contact can be activated in your
 
 ## FAQ <a id="faq"></a>
 
-**Are incidents automatically resolved in iLert?**
+**Are alerts automatically resolved in iLert?**
 
-Yes, as soon as an alert is resolved with "ok" in UptimeRobot, the associated incident is automatically resolved in iLert.
+Yes, as soon as an alert is resolved with "ok" in UptimeRobot, the associated alert is automatically resolved in iLert.
 
 **Can I link UptimeRobot to multiple alert sources in iLert?**
 

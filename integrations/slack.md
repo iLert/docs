@@ -8,7 +8,7 @@ weight: 1
 
 # Slack Integration
 
-Slack is a popular instant messaging service for team communication and collaboration. With the Slack integration you receive messages about incidents in Slack channels and can accept and fix incidents within Slack.
+Slack is a popular instant messaging service for team communication and collaboration. With the Slack integration you receive messages about alerts in Slack channels and can accept and fix alerts within Slack.
 
 ## In iLert: Authorize with a Slack Workspace <a id="authorize"></a>
 
@@ -34,7 +34,7 @@ Slack is a popular instant messaging service for team communication and collabor
 
 ## In Slack: Add alert sources to Slack channels <a id="alarm-sources"></a>
 
-1. Open Slack and go to a channel to publish iLert incidents. Enter the ![slash command](https://slack.com/help/articles/201259356) `/ilert` press Enter:
+1. Open Slack and go to a channel to publish iLert alerts. Enter the ![slash command](https://slack.com/help/articles/201259356) `/ilert` press Enter:
 
 ![](../.gitbook/assets/sl5.png)
 
@@ -48,15 +48,15 @@ Slack is a popular instant messaging service for team communication and collabor
 
 4. You have now linked an alert source to a Slack Channel.
 
-5. Create a test incident in the alert source in iLert. To do this, click on the link of the alert source in Slack \(New Relic in the example above\).
+5. Create a test alert in the alert source in iLert. To do this, click on the link of the alert source in Slack \(New Relic in the example above\).
 
-6. A notice now appears on the overview page of the alert source that incidents from this alert source will be published in Slack.
+6. A notice now appears on the overview page of the alert source that alerts from this alert source will be published in Slack.
 
 ![](../.gitbook/assets/sl8.png)
 
-7. Click on **Create Incident** and create test incident.
+7. Click on **Create Alert** and create test alert.
 
-8. A message is now published in the configured channel with the incident information. You can accept the incident within Slack or mark it as fixed.
+8. A message is now published in the configured channel with the alert information. You can accept the alert within Slack or mark it as fixed.
 
 ![](../.gitbook/assets/sl9.png)
 
@@ -66,21 +66,21 @@ Slack is a popular instant messaging service for team communication and collabor
 
 No, only one Slack workspace can be linked to an iLert account.
 
-**Are updates to an incident published in Slack?**
+**Are updates to an alert published in Slack?**
 
-Yes, the following updates for an incident are currently being published:
+Yes, the following updates for an alert are currently being published:
 
-* **Escalations** : An incident is automatically assigned to another user.
-* **Manual assignments** : An incident is assigned to someone manually.
-* **Actions** : An incident is accepted or corrected.
+* **Escalations** : An alert is automatically assigned to another user.
+* **Manual assignments** : An alert is assigned to someone manually.
+* **Actions** : An alert is accepted or corrected.
 
-**Can I choose which updates to an incident are published in Slack?**
+**Can I choose which updates to an alert are published in Slack?**
 
 Yes.
 
 **Can I manage alert sources from private teams using the `/ilert` Slash command?**
 
-No, alert sources of private teams can only  be added via the iLert web interface, in the alert source's **Incident actions** configuration tab.
+No, alert sources of private teams can only  be added via the iLert web interface, in the alert source's **Alert actions** configuration tab.
 
 **Why am I not seeing all of my Slack channels in the Connections UI?**
 

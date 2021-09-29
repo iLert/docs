@@ -1,7 +1,7 @@
 ---
 description: >-
   Use N-ABLE N-central notification channels and service groups to create
-  incidents in iLert.
+  alerts in iLert.
 ---
 
 # N-central Integration
@@ -32,7 +32,7 @@ Login to N-ABLE N-central and navigate to the users menu.
 
 ![](../.gitbook/assets/image%20%2844%29.png)
 
-Go ahead and click on the **email address** of the user for whose notifications you want to create incidents in iLert for. \(We recommend creating a user just for this purpose, however that is not necessary\).
+Go ahead and click on the **email address** of the user for whose notifications you want to create alerts in iLert for. \(We recommend creating a user just for this purpose, however that is not necessary\).
 
 In the user's edit view, click on the _**User Details**_ tab and then on the **Notification Method** sub-tab.
 

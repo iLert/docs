@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert X-Pack Alerting integration, you can create incidents in iLert
+  With the iLert X-Pack Alerting integration, you can create alerts in iLert
   based on Watcher alerts.
 ---
 
@@ -64,11 +64,11 @@ To set up the integration, you must have X-Pack license with Watcher feature ena
 }
 ```
 
-Finished! Your X-Pack alerts will now create incidents in iLert.
+Finished! Your X-Pack alerts will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 No, unfortunately Watcher's notification is not compatible with iLert's resolve event.
 

@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert Zammad integration, you can create incidents in iLert based on
+  With the iLert Zammad integration, you can create alerts in iLert based on
   Zammad tickets.
 ---
 
@@ -44,20 +44,20 @@ description: >-
 
 ![](../../.gitbook/assets/screenshot_07_02_21__13_27.png)
 
-Your Zammad triggers are now in place and will trigger appropriate iLert incident actions of your created alert source.
+Your Zammad triggers are now in place and will trigger appropriate iLert alert actions of your created alert source.
 
-## Mapping of Zammand Ticket Priority to Incident Priority
+## Mapping of Zammand Ticket Priority to Alert Priority
 
-The Zammad ticket priority is mapped to the iLert incident priority according to the following table:
+The Zammad ticket priority is mapped to the iLert alert priority according to the following table:
 
-| Zammand ticket priority | iLert incident priority |
+| Zammand ticket priority | iLert alert priority |
 | :--- | :--- |
 | **High \(id: 3\)** | High |
 | Any other | Low |
 
 ## FAQ <a id="faq"></a>
 
-### **Will incidents in iLert be resolved automatically?**
+### **Will alerts in iLert be resolved automatically?**
 
 Yes
 
@@ -67,5 +67,5 @@ Yes, simply create more action sequences in Zammad.
 
 ### Will Zammad comments be synced to iLert?
 
-Yes, Zammad comments will automatically be attached to iLert incidents.
+Yes, Zammad comments will automatically be attached to iLert alerts.
 

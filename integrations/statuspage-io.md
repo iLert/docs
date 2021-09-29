@@ -1,5 +1,5 @@
 ---
-description: Create StatusPage inicdents from iLert incidents.
+description: Create StatusPage inicdents from iLert alerts.
 ---
 
 # StatusPage Integration
@@ -40,7 +40,7 @@ description: Create StatusPage inicdents from iLert incidents.
 
 ![](../.gitbook/assets/screenshot_16_03_21__17_49.png)
 
-4. Go to the alert sources tab and open the alert source whose incidents you want to create StatusPage Incidents. Click on the **Incident actions** tab and then on the **Add new incident action** button
+4. Go to the alert sources tab and open the alert source whose alerts you want to create StatusPage Incidents. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
@@ -48,16 +48,16 @@ description: Create StatusPage inicdents from iLert incidents.
 
 ![](../.gitbook/assets/screenshot_16_03_21__17_51.png)
 
-7. Finished! Now an StatusPage incident will be created for each incident in automatic trigger mode or via manual incident action.
+7. Finished! Now an StatusPage alert will be created for each alert in automatic trigger mode or via manual alert action.
 
 ## StatusPage Incident Lifecycle
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">When an iLert incident ... event occurs</th>
-      <th style="text-align:left">...and the<b> </b>StatusPage incident...</th>
-      <th style="text-align:left">...then the/an StatusPage incident...</th>
+      <th style="text-align:left">When an iLert alert ... event occurs</th>
+      <th style="text-align:left">...and the<b> </b>StatusPage alert...</th>
+      <th style="text-align:left">...then the/an StatusPage alert...</th>
     </tr>
   </thead>
   <tbody>

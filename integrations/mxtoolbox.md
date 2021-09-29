@@ -1,6 +1,6 @@
 ---
 description: >-
-  Create iLert incidents from MXToolBox alerts and get alerted through iLert for
+  Create iLert alerts from MXToolBox alerts and get alerted through iLert for
   high priority issues.
 ---
 
@@ -52,13 +52,13 @@ MxToolbox supports global Internet operations by providing free, fast and accura
 }
 ```
 
-Finished! Your MXToolBox alerts will now create incidents in iLert.
+Finished! Your MXToolBox alerts will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as an alert has been completed in MXToolBox, the associated incident in iLert will be resolved automatically.
+Yes, as soon as an alert has been completed in MXToolBox, the associated alert in iLert will be resolved automatically.
 
 **Can I connect MXToolBox with multiple alert sources from iLert?**
 

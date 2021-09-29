@@ -1,14 +1,14 @@
 ---
 title: Github Inbound Issue Integration
 seoTitle: 'iLert: Github Issue Integration for Alerting | Incident Response | Uptime'
-description: Create incidents in iLert based on issues from GitHub repositories.
+description: Create alerts in iLert based on issues from GitHub repositories.
 date: '2020-04-21T07:00:00.000Z'
 weight: 1
 ---
 
 # GitHub Inbound Issue Integration
 
-With the iLert Github Issue integration, you can create incidents in iLert based on repository issues from Github.
+With the iLert Github Issue integration, you can create alerts in iLert based on repository issues from Github.
 
 ## In iLert: Create a Github alert source <a id="create-alert-source"></a>
 
@@ -44,15 +44,15 @@ With the iLert Github Issue integration, you can create incidents in iLert based
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as the Github issue is closed, the incident in iLert will be resolved automatically.
+Yes, as soon as the Github issue is closed, the alert in iLert will be resolved automatically.
 
 **Can I connect Github with multiple alert sources from iLert?**
 
 Yes, simply create more webhooks in Github.
 
-**Can I customize the incident messages?**
+**Can I customize the alert messages?**
 
 No.
 

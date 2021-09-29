@@ -8,13 +8,13 @@ weight: 1
 
 # Webhook Integration
 
-## In iLert: Create webhook incident action <a id="create-webhook"></a>
+## In iLert: Create webhook alert action <a id="create-webhook"></a>
 
-1. Switch to the **alert sources** tab and open the alert source whose incidents you want to publish via a webhook. Click on **Incident actions → Create new incident action**
+1. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish via a webhook. Click on **Alert actions → Create new alert action**
 
 ![](../.gitbook/assets/new_incident_action.png)
 
-2. Select **Webhook** as **type** and fill out all fields. In the **Filter Incident Events** field, select the incident events for which you want to receive a webhook call. Webhook events are sent as `HTTP POST` to the specified URL. The URL must be accessible from the internet. Click on **Save**.
+2. Select **Webhook** as **type** and fill out all fields. In the **Filter Alert Events** field, select the alert events for which you want to receive a webhook call. Webhook events are sent as `HTTP POST` to the specified URL. The URL must be accessible from the internet. Click on **Save**.
 
 ![](../.gitbook/assets/ilert%20%2860%29.png)
 
@@ -65,18 +65,18 @@ In case of a valid template the border will turn green. As you may have noticed 
 
 | Variable key | Description |
 | :--- | :--- |
-| incidentId | The ID of the incident |
-| incidentDetails | Full incident details |
-| incidentSummary | Incident summary |
+| incidentId | The ID of the alert |
+| incidentDetails | Full alert details |
+| incidentSummary | Alert summary |
 | incidentStatus | PENDING, ACCEPTED or RESOLVED |
 | incidentPriority | HIGH or LOW |
-| incidentUrl | URL that links to the incident in iLert |
-| alertSourceId | The ID of the incident's alert source |
-| alertSourceName | The name of the incident's alert source |
-| escalationPolicyId | The ID of the escalation policy of the incident's alert source |
-| escalationPolicyName | The name of the escalation policy of the incident's alert source |
-| reportTime | ISO-8601 representation of the incident report time |
-| link | If present, the first link in the incident's payload e.g. links to the origin monitoring tool that send the event initially |
+| incidentUrl | URL that links to the alert in iLert |
+| alertSourceId | The ID of the alert's alert source |
+| alertSourceName | The name of the alert's alert source |
+| escalationPolicyId | The ID of the escalation policy of the alert's alert source |
+| escalationPolicyName | The name of the escalation policy of the alert's alert source |
+| reportTime | ISO-8601 representation of the alert report time |
+| link | If present, the first link in the alert's payload e.g. links to the origin monitoring tool that send the event initially |
 | eventType | incident-created, incident-assigned, incident-auto-escalated, incident-auto-resolved, incident-acknowledged, incident-rejected, incident-raised, incident-comment-added, incident-resolved |
 
 ## FAQ <a id="faq"></a>

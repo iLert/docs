@@ -40,9 +40,9 @@ With Pingdom integration, you can easily integrate Pingdom into iLert. The integ
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as the state of a check in Pingdom is OK again, the incident in iLert will be fixed.
+Yes, as soon as the state of a check in Pingdom is OK again, the alert in iLert will be fixed.
 
 **Can I link Pingdom to multiple alert sources in iLert?**
 

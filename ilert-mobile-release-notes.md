@@ -25,7 +25,7 @@ description: >-
 ### Improvements
 
 * Possible problems with the schedule override fixed
-* Possible problem with incident images fixed
+* Possible problem with alert images fixed
 
 ## Januar 2021
 
@@ -57,7 +57,7 @@ description: >-
 * App reset in iOS app settings
 * Switch between English and German in the native settings for the app
 * Added more custom sounds for notifications
-* Added timeline filter to the incident view
+* Added timeline filter to the alert view
 
 ### Improvements
 
@@ -74,9 +74,9 @@ description: >-
 
 ### New features
 
-* Ability to trigger the Incident Actions
-* Ability to re-route incidents to escalation policies and on-call schedules
-* Suggested responders: when re-routing an incident, iLert now suggests you the best responder based on historic data
+* Ability to trigger the alerts Actions
+* Ability to re-route alerts to escalation policies and on-call schedules
+* Suggested responders: when re-routing an alert, iLert now suggests you the best responder based on historic data
 
 ### Improvements
 
@@ -96,7 +96,7 @@ description: >-
 
 ### New features
 
-* [Stakeholder engagement](getting-started/stakeholder-engagement.md): keep stakeholders in the loop during critical incidents \([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/)\)
+* [Stakeholder engagement](getting-started/stakeholder-engagement.md): keep stakeholders in the loop during critical alerts \([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/)\)
 
 ### Improvements
 
@@ -107,8 +107,8 @@ description: >-
 ### New features
 
 * [Single Sign On](integrations/sso.md): Single sign on makes it easy to manage access to your iLert account using an identity provider of your choice.
-* Ability to click on the voicemail and this phone number in the incident details
-* Ability to create a new incident
+* Ability to click on the voicemail and this phone number in the alert details
+* Ability to create a new alert
 * Add dark mode
 
 ### Improvements

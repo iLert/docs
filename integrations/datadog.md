@@ -58,9 +58,9 @@ weight: 1
 
 ## FAQ <a id="faq"></a>
 
-**Are incidents in iLert automatically resolved?**
+**Are alerts in iLert automatically resolved?**
 
-Yes, as soon as an Incident is closed in Datadog, the corresponding Incident is automatically resolved in iLert.
+Yes, as soon as an Alert is closed in Datadog, the corresponding Alert is automatically resolved in iLert.
 
 **Can I link New Relic to several alert sources in iLert?**
 

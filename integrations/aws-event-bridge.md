@@ -1,5 +1,5 @@
 ---
-description: Create events in Amazon EventBridge using iLert incidents.
+description: Create events in Amazon EventBridge using iLert alerts.
 ---
 
 # Amazon EventBridge Integration
@@ -8,9 +8,9 @@ description: Create events in Amazon EventBridge using iLert incidents.
 
 ## In iLert <a id="in-ilert"></a>
 
-### Create the Amazon EventBridge Incident Action
+### Create the Amazon EventBridge Alert Action
 
-1. ****Go to the alert sources tab and open the alert source whose incidents you want to publish to Amazon EventBridge. Click on the **Incident actions** tab and then on the **Add new incident action** button
+1. ****Go to the alert sources tab and open the alert source whose alerts you want to publish to Amazon EventBridge. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../.gitbook/assets/ilert%20%2890%29.png)
 
@@ -50,7 +50,7 @@ description: Create events in Amazon EventBridge using iLert incidents.
 
 ![](../.gitbook/assets/notification_center%20%283%29.png)
 
-7. Finished! Now an Amazon EventBridge notification will be created for each incident that is created to the linked alert source in iLert.
+7. Finished! Now an Amazon EventBridge notification will be created for each alert that is created to the linked alert source in iLert.
 
 
 
@@ -215,13 +215,13 @@ description: Create events in Amazon EventBridge using iLert incidents.
 
 Yes.
 
-**Can I choose which updates to an incident will be published in Amazon EventBridge?**
+**Can I choose which updates to an alert will be published in Amazon EventBridge?**
 
 Yes.
 
 **How can I remove the Partner Event Source?**
 
-The partner event source will be automatically removed with the incident action.
+The partner event source will be automatically removed with the alert action.
 
 ##  <a id="in-ilert"></a>
 

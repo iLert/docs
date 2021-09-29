@@ -6,7 +6,7 @@ description: >-
 
 # Sysdig Inbound Integration
 
-With the iLert Sysdig integration you can create incidents in iLert based on Sysdig event.
+With the iLert Sysdig integration you can create alerts in iLert based on Sysdig event.
 
 ## In iLert <a id="in-ilert"></a>
 
@@ -46,11 +46,11 @@ With the iLert Sysdig integration you can create incidents in iLert based on Sys
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 Yes
 
-**Will incidents in iLert be accepted automatically?**
+**Will alerts in iLert be accepted automatically?**
 
 No, unfortunately Sysdig accepted event is not compatible with iLert accepted event.
 

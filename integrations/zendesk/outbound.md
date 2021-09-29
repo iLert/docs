@@ -42,7 +42,7 @@ To set up the integration, you must have admin rights in iLert.
 
 ![](../../.gitbook/assets/ilert%20%2895%29.png)
 
-4. Go to **Alert sources** and select the alert source you want to connect with Zendesk. Click on **Incident Actions → Add new incident action**.
+4. Go to **Alert sources** and select the alert source you want to connect with Zendesk. Click on **Alert Actions → Add new alert action**.
 
 ![](../../.gitbook/assets/ilert%20%2892%29.png)
 
@@ -56,9 +56,9 @@ To set up the integration, you must have admin rights in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Are tickets updated in Zendesk if the incident is updated in iLert?**
+**Are tickets updated in Zendesk if the alert is updated in iLert?**
 
-Yes, status updates to iLert Incidents are reflected in the title of the Zendesk ticket, e.g. `RESOLVED` host compute.infra is `DOWN`.
+Yes, status updates to iLert Alerts are reflected in the title of the Zendesk ticket, e.g. `RESOLVED` host compute.infra is `DOWN`.
 
 **Can I choose which updates to publish to a ticket in Zendesk?**
 

@@ -23,7 +23,7 @@
 * [Routing calls based on support hours](call-routing/routing-calls-based-on-support-hours/README.md)
   * [Managing office hours call behaviour](call-routing/routing-calls-based-on-support-hours/managing-office-hours-call-behaviour.md)
 * [Voicemail only mode](call-routing/voicemail-only-mode.md)
-* [Managing call routing incidents](call-routing/managing-call-routing-incidents.md)
+* [Managing call routing alerts](call-routing/managing-call-routing-incidents.md)
 * [Adding webhooks and outbound chat messages](call-routing/adding-webhooks-and-outbound-chat-messages.md)
 
 ## Single Sign On
@@ -90,7 +90,7 @@
 * [Dynatrace Integration](integrations/dynatrace.md)
 * [Email Integration](integrations/email/README.md)
   * [Email Key Extraction and Resolve Examples](integrations/email/email-key-extraction-and-resolve-examples.md)
-  * [Automatically resolve Incidents with Emails](integrations/email/automatically-resolve-incidents-with-emails.md)
+  * [Automatically resolve Alerts with Emails](integrations/email/automatically-resolve-incidents-with-emails.md)
 * [Email Outbound Integration](integrations/email-outbound-integration.md)
 * [Google Cloud Function Integration](integrations/gcf.md)
 * [GitHub Integration](integrations/github/README.md)

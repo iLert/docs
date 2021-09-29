@@ -6,7 +6,7 @@ description: >-
 
 # Server Density
 
-With the iLert Server Density integration you can create incidents in iLert based on Server Density notifications.
+With the iLert Server Density integration you can create alerts in iLert based on Server Density notifications.
 
 ## In iLert <a id="in-ilert"></a>
 
@@ -56,11 +56,11 @@ With the iLert Server Density integration you can create incidents in iLert base
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 Yes
 
-**Will incidents in iLert be accepted automatically?**
+**Will alerts in iLert be accepted automatically?**
 
 No, unfortunately Server Density's notification is not compatible with iLert's accepted event.
 

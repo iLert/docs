@@ -39,7 +39,7 @@ Additional IPs of other regions e.g. US will be provided on request.
 | Name | Description | Email |
 | :--- | :--- | :--- |
 | Notifications | Email notifications sent by iLert | notifications@ilertnow.com |
-| Incoming Emails | Emails sent by your tools to trigger incidents in iLert | {alert-source}@{your-domain}.ilertnow.com |
+| Incoming Emails | Emails sent by your tools to trigger alerts in iLert | {alert-source}@{your-domain}.ilertnow.com |
 | Help & Support | Our support email | support@ilert.com |
 
 ## SMS phone numbers <a id="sms-alerts"></a>

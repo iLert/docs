@@ -1,12 +1,12 @@
 ---
 description: >-
-  Create iLert incidents from JIRA issues and get alerted through iLert for high
+  Create iLert alerts from JIRA issues and get alerted through iLert for high
   priority issues.
 ---
 
 # Jira Inbound Integration
 
-With the iLert Jira integration you can create incidents in iLert based on Jira issues.
+With the iLert Jira integration you can create alerts in iLert based on Jira issues.
 
 ## In iLert <a id="in-ilert"></a>
 
@@ -50,11 +50,11 @@ You need admin permissions to manage Jira webhooks.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 Yes
 
-**Will incidents in iLert be accepted automatically?**
+**Will alerts in iLert be accepted automatically?**
 
 No, unfortunately Jira events are not compatible with iLert accepted event.
 

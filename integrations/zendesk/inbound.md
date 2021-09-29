@@ -1,5 +1,5 @@
 ---
-description: Create incidents in iLert from tickets in Zendesk.
+description: Create alerts in iLert from tickets in Zendesk.
 ---
 
 # Zendesk Inbound Integration
@@ -88,7 +88,7 @@ description: Create incidents in iLert from tickets in Zendesk.
   <thead>
     <tr>
       <th style="text-align:left">When I create an Zendesk ticket with status...</th>
-      <th style="text-align:left">...then an iLert Incident...</th>
+      <th style="text-align:left">...then an iLert Alert...</th>
     </tr>
   </thead>
   <tbody>
@@ -119,8 +119,8 @@ description: Create incidents in iLert from tickets in Zendesk.
   <thead>
     <tr>
       <th style="text-align:left">When I update an Zendesk ticket with status...</th>
-      <th style="text-align:left">...and the<b> </b>iLert incident...</th>
-      <th style="text-align:left">...then the/an iLert Incident...</th>
+      <th style="text-align:left">...and the<b> </b>iLert alert...</th>
+      <th style="text-align:left">...then the/an iLert Alert...</th>
     </tr>
   </thead>
   <tbody>
@@ -168,7 +168,7 @@ description: Create incidents in iLert from tickets in Zendesk.
 
 ## Additional Custom Ticket Details <a id="faq"></a>
 
-You may provide an additional field for the Zendesk trigger template to render additional information into iLert incident details.
+You may provide an additional field for the Zendesk trigger template to render additional information into iLert alert details.
 
 ```javascript
 {
@@ -180,23 +180,23 @@ You may provide an additional field for the Zendesk trigger template to render a
 }
 ```
 
-The `additional_ticket_details` map's values will be displayed in a human readable format in the incident's detail section.
+The `additional_ticket_details` map's values will be displayed in a human readable format in the alert's detail section.
 
 ## FAQ <a id="faq"></a>
 
-### **Will incidents in iLert be resolved automatically?**
+### **Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as an Zendesk Ticket is completed, the incident in iLert will be resolved automatically.
+Yes, as soon as an Zendesk Ticket is completed, the alert in iLert will be resolved automatically.
 
 ### **Can I connect Zendesk with multiple alert sources from iLert?**
 
 Yes, simply create more Webhooks in Zendesk.
 
-### **Can I customize the incident messages?**
+### **Can I customize the alert messages?**
 
 No.
 
-### Are Zendesk comments synced with iLert incidents?
+### Are Zendesk comments synced with iLert alerts?
 
-Yes, if the variables `latest_comment` and `latest_comment_author_name` are provided in your Zendesk trigger JSON template the comments will be synced to iLert incidents.
+Yes, if the variables `latest_comment` and `latest_comment_author_name` are provided in your Zendesk trigger JSON template the comments will be synced to iLert alerts.
 

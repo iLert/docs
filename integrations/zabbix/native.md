@@ -57,7 +57,7 @@ curl -o media_ilert.xml \
 
 ![](../../.gitbook/assets/zbn5.png)
 
-4. **Optional**: Go to **Media types** and open the imported **iLert** media type. You can overwrite the default incident summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
+4. **Optional**: Go to **Media types** and open the imported **iLert** media type. You can overwrite the default alert summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
 
 ![](../../.gitbook/assets/6.png)
 
@@ -125,9 +125,9 @@ curl -o media_ilert.xml \
 
 ## FAQ <a id="faq"></a>
 
-**Are incidents automatically resolved in iLert?**
+**Are alerts automatically resolved in iLert?**
 
-Yes, as soon as the status of an incident is OK in Zabbix, the associated incident will be resolved in iLert.
+Yes, as soon as the status of an alert is OK in Zabbix, the associated alert will be resolved in iLert.
 
 **Can I link Zabbix to multiple alert sources in iLert?**
 

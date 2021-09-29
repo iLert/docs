@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert Amazon SNS integration, you can create incidents in iLert based
+  With the iLert Amazon SNS integration, you can create alerts in iLert based
   on SNS notifications.
 ---
 
@@ -52,7 +52,7 @@ If you already have an Amazon SNS topic, please skip the steps 1 and 2.
 Do not activate the checkbox **Enable raw message delivery**. iLert won't process those messages otherwise.
 {% endhint %}
 
-Finished! Your Amazon SNS notifications will now create incidents in iLert.
+Finished! Your Amazon SNS notifications will now create alerts in iLert.
 
 ## Custom attributes
 
@@ -141,7 +141,7 @@ func main() {
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 No, but you can use the **eventType** custom attribute to resolve an incident in specified **incidentKey**.
 

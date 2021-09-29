@@ -1,5 +1,5 @@
 ---
-description: Create incidents in iLert based on Azure Metric.
+description: Create alerts in iLert based on Azure Metric.
 ---
 
 # Azure Metric
@@ -66,13 +66,13 @@ All Azure Metric based alerts are supported. However, this documentation page de
 
 ![](../../.gitbook/assets/create_alert_rule_-_microsoft_azure1.png)
 
-Finished! Your Azure Metric alerts will now create incidents in iLert.
+Finished! Your Azure Metric alerts will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as an alert has been resolved in Azure Alerts, the associated incident in iLert will be resolved automatically.
+Yes, as soon as an alert has been resolved in Azure Alerts, the associated alert in iLert will be resolved automatically.
 
 **Can I connect Azure Alerts with multiple alert sources from iLert?**
 

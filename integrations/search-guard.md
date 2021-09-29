@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert Search Guard integration, you can create incidents in iLert
+  With the iLert Search Guard integration, you can create alerts in iLert
   based on Search Guard alerts.
 ---
 
@@ -54,11 +54,11 @@ description: >-
 ![](../.gitbook/assets/screenshot_10_02_21__23_06.png)
 
 5. Click on **Create** to save the watch.  
-Finished! Your Elastic Search Guard alerts will now create incidents in iLert.
+Finished! Your Elastic Search Guard alerts will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 No, unfortunately Search Guard watch\(es\) will not fire resolve events for alerts.
 

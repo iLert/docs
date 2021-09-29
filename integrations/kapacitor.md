@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert Kapacitor integration, you can create incidents in iLert based
+  With the iLert Kapacitor integration, you can create alerts in iLert based
   on Kapacitor alerts.
 ---
 
@@ -36,13 +36,13 @@ description: >-
 
 ![](../.gitbook/assets/chronograf.png)
 
-Finished! Your Kapacitor alerts will now create incidents in iLert.
+Finished! Your Kapacitor alerts will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as an alert has been completed in Kapacitor, the associated incident in iLert will be resolved automatically.
+Yes, as soon as an alert has been completed in Kapacitor, the associated alert in iLert will be resolved automatically.
 
 **Can I connect Kapacitor with multiple alert sources from iLert?**
 

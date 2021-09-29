@@ -4,7 +4,7 @@ seoTitle: >-
   iLert: Google Stackdriver Integration for Alerting | Incident Response |
   Uptime
 description: >-
-  With the iLert Google Cloud Monitoring integration, you can create incidents
+  With the iLert Google Cloud Monitoring integration, you can create alerts
   in iLert based on Google Cloud Alerts.
 date: '2018-12-29T05:02:05.000Z'
 weight: 1
@@ -56,9 +56,9 @@ With [Google Cloud Monitoring](https://cloud.google.com/monitoring) you can gain
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as the state of an incident in Google Cloud Monitoring is `RESOLVED`, the associated incident in iLert is resolved.
+Yes, as soon as the state of an alert in Google Cloud Monitoring is `RESOLVED`, the associated alert in iLert is resolved.
 
 **Can I link Google Cloud Monitoring to multiple alert sources in iLert?**
 

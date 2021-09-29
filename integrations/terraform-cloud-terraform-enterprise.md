@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert Terraform Cloud integration, you can create incidents in iLert
+  With the iLert Terraform Cloud integration, you can create alerts in iLert
   based on Terraform Cloud runs.
 ---
 
@@ -36,13 +36,13 @@ description: >-
 
 ![](../.gitbook/assets/screenshot_25_02_21__23_06.png)
 
-Finished! Your Terraform Cloud run problems will now create incidents in iLert.
+Finished! Your Terraform Cloud run problems will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as an alert has been completed in Terraform Cloud, the associated incident in iLert will be resolved automatically.
+Yes, as soon as an alert has been completed in Terraform Cloud, the associated alert in iLert will be resolved automatically.
 
 **Can I connect Terraform Cloud with multiple alert sources from iLert?**
 

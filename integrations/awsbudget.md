@@ -84,7 +84,7 @@ You can now link any AWS Budget to the topic you have created. The following sec
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 No.
 

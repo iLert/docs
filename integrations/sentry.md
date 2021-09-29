@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert Senty integration, you can create incidents in iLert based on
+  With the iLert Senty integration, you can create alerts in iLert based on
   Sentry issues.
 ---
 
@@ -42,13 +42,13 @@ Sentry's platform helps developers diagnose, fix, and optimize the performance o
 
 ![](../.gitbook/assets/screenshot_25_02_21__22_10.png)
 
-Finished! Your Sentry alerts will now create incidents in iLert.
+Finished! Your Sentry alerts will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as an alert has been resolved or ignored in Sentry, the associated incident in iLert will be resolved automatically.
+Yes, as soon as an alert has been resolved or ignored in Sentry, the associated alert in iLert will be resolved automatically.
 
 **Can I connect Sentry with multiple alert sources from iLert?**
 

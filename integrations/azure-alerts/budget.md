@@ -1,5 +1,5 @@
 ---
-description: Create incidents in iLert based on Azure Cost Budget.
+description: Create alerts in iLert based on Azure Cost Budget.
 ---
 
 # Budget Alert
@@ -66,11 +66,11 @@ description: Create incidents in iLert based on Azure Cost Budget.
 
 ![](../../.gitbook/assets/cost_management__nutzungsbasierte_bezahlung_-_microsoft_azure%20%281%29.png)
 
-Finished! Your Azure Activity Logs alerts will now create incidents in iLert.
+Finished! Your Azure Activity Logs alerts will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 No, unfortunately Azure Budget alert do not fire resolve events.
 

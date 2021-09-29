@@ -4,7 +4,7 @@ description: The iLert checkmk native integration ships with checkmk version >= 
 
 # Checkmk Integration \(v 2.0+ \)
 
-With the native iLert notification integration in Checkmk, you can automatically create incidents in iLert from Checkmk alerts. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When checkmk creates an alert, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start. 
+With the native iLert notification integration in Checkmk, you can automatically create alerts in iLert from Checkmk alerts. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When checkmk creates an alert, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start. 
 
 ## In iLert: create alert source <a id="create-alarm-source"></a>
 
@@ -57,9 +57,9 @@ checkmk has the following alarm types:
 | CUSTOM | Alarm triggered manually by command |
 | ALERT HANDLER | Alerthandler execution \(CEE from 1.4.0i2\) |
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as the state of a host / service is UP or OK again in checkmk, the associated incident is resolved in iLert. If a problem is acknowledged in checkmk, the associated incident in iLert is set to the status Accepted.
+Yes, as soon as the state of a host / service is UP or OK again in checkmk, the associated alert is resolved in iLert. If a problem is acknowledged in checkmk, the associated alert in iLert is set to the status Accepted.
 
 **Can I link checkmk to multiple alert sources in iLert?**
 

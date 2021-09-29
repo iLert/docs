@@ -1,5 +1,5 @@
 ---
-description: Create Zoom Meeting from iLert incidents.
+description: Create Zoom Meeting from iLert alerts.
 ---
 
 # Zoom Meeting Integration
@@ -30,7 +30,7 @@ To set up the integration, you must have admin rights in iLert.
 
 ![](../../.gitbook/assets/screenshot_16_03_21__15_53.png)
 
-5. Go to the alert sources tab and open the alert source whose incidents you want to create Zoom Meeting. Click on the **Incident actions** tab and then on the **Add new incident action** button
+5. Go to the alert sources tab and open the alert source whose alerts you want to create Zoom Meeting. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
@@ -38,7 +38,7 @@ To set up the integration, you must have admin rights in iLert.
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_06.png)
 
-7. Finished! Now a Zoom Meeting will be created  for each incident in automatic trigger mode or via manual incident action.
+7. Finished! Now a Zoom Meeting will be created  for each alert in automatic trigger mode or via manual alert action.
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_10.png)
 

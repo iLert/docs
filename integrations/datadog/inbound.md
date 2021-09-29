@@ -1,10 +1,10 @@
 ---
-description: Create incidents in iLert from Datadog events.
+description: Create alerts in iLert from Datadog events.
 ---
 
 # Datadog Inbound Integration
 
-With the iLert Datadog integration, you can create incidents in iLert based on Datadog events.
+With the iLert Datadog integration, you can create alerts in iLert based on Datadog events.
 
 ## In iLert: Create Datadog alert source <a id="alert-source"></a>
 
@@ -56,9 +56,9 @@ With the iLert Datadog integration, you can create incidents in iLert based on D
 
 ## FAQ <a id="faq"></a>
 
-**Are incidents in iLert automatically resolved?**
+**Are alerts in iLert automatically resolved?**
 
-Yes, as soon as an Incident is closed in Datadog, the corresponding Incident is automatically resolved in iLert.
+Yes, as soon as an Incident is closed in Datadog, the corresponding Alert is automatically resolved in iLert.
 
 **Can I link Datadog to several alert sources in iLert?**
 

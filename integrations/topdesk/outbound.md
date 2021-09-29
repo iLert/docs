@@ -1,7 +1,7 @@
 ---
 title: TOPdesk Outbound Integration
 seoTitle: 'iLert: TOPdesk Outbound Integration for Alerting | Incident Response | Uptime'
-description: Create tickets in TOPdesk based on incident events from iLert
+description: Create tickets in TOPdesk based on alert events from iLert
 date: '2020-04-29T05:02:05.000Z'
 weight: 1
 ---
@@ -76,25 +76,25 @@ weight: 1
 
 ![](../../.gitbook/assets/ilert%20%2868%29.png)
 
-4. Go to the alert sources tab and open the alert source whose incidents you want to publish in TOPdesk. Click on **Incident actions** and then on **Create incident action**.
+4. Go to the alert sources tab and open the alert source whose alerts you want to publish in TOPdesk. Click on **Alert actions** and then on **Create alert action**.
 
 ![](../../.gitbook/assets/new_incident_action%20%289%29.png)
 
-5. Select **TOPdesk** as the **type**, select the connector created in step 3, fill in all fields. In the **Name** field, specify the incident action name.
+5. Select **TOPdesk** as the **type**, select the connector created in step 3, fill in all fields. In the **Name** field, specify the alert action name.
 
 ![](../../.gitbook/assets/ilert%20%2862%29.png)
 
-6. Finished! You can now test the incident action by clicking on the button **Test this connection**. Then a test ticket will be published in TOPdesk.
+6. Finished! You can now test the alert action by clicking on the button **Test this connection**. Then a test ticket will be published in TOPdesk.
 
 ![](../../.gitbook/assets/ilert%20%2869%29.png)
 
 ## FAQ <a id="faq"></a>
 
-**Are updates to an incident published in the TOPdesk Ticket?**
+**Are updates to an alert published in the TOPdesk Ticket?**
 
-Yes, the state of the iLert Incident is reflected in the brief description of the TOPdesk ticket, eg \[RESOLVED\] Host compute.infra is DOWN.
+Yes, the state of the iLert Alert is reflected in the brief description of the TOPdesk ticket, eg \[RESOLVED\] Host compute.infra is DOWN.
 
-**Can I choose which updates to publish to an incident in TOPdesk?**
+**Can I choose which updates to publish to an alert in TOPdesk?**
 
 Currently not. If you wish, we look forward to your feedback via chat or e-mail.
 

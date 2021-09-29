@@ -1,6 +1,6 @@
 ---
 description: >-
-  Create iLert incidents from HashiCorp Consul Health Check events and get
+  Create iLert alerts from HashiCorp Consul Health Check events and get
   alerted through iLert for high priority issues.
 ---
 
@@ -40,19 +40,19 @@ curl -X PUT -d 'YOUR_API_KEY' http://localhost:8500/v1/kv/consul-alerts/config/n
 curl -X PUT -d 'true' http://localhost:8500/v1/kv/consul-alerts/config/notifiers/ilert/enabled
 ```
 
-4.  \(Optional\) Generating a test incident by having a health check fail to confirm the integration is working.
+4.  \(Optional\) Generating a test alert by having a health check fail to confirm the integration is working.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, Consul-Alerts will resolve the iLert incident once health checks are passing.
+Yes, Consul-Alerts will resolve the iLert alert once health checks are passing.
 
-**Will incidents in iLert be accepted automatically?**
+**Will alerts in iLert be accepted automatically?**
 
 No, unfortunately Consul events are not compatible with iLert accept events.
 
 **Can I connect Consul Server with multiple alert sources from iLert?**
 
-No, Consul-Alerts only supports sending incidents to a single alert source.
+No, Consul-Alerts only supports sending alerts to a single alert source.
 

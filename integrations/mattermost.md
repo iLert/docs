@@ -1,6 +1,6 @@
 ---
 description: >-
-  The iLert Mattermost Integration helps you to bring iLert incidents into your
+  The iLert Mattermost Integration helps you to bring iLert alerts into your
   Mattermost channels.
 ---
 
@@ -48,7 +48,7 @@ To set up this integration, you must have admin rights in iLert.
 
 ![](../.gitbook/assets/screenshot_07_02_21__16_53.png)
 
-4. **Go to** the alert sources tab and open the alert source whose incidents you want to publish to Mattermost. Click **Incident actions → Create incident action**.
+4. **Go to** the alert sources tab and open the alert source whose alerts you want to publish to Mattermost. Click **Alert actions → Create alert action**.
 
 ![](../.gitbook/assets/new_incident_action%20%287%29.png)
 
@@ -67,11 +67,11 @@ A test message will be posted in the Mattermost channel.
 
 Yes.
 
-**Are updates to an incident published in the Mattermost channel?**
+**Are updates to an alert published in the Mattermost channel?**
 
-Yes, the following updates to an incident are currently being published:
+Yes, the following updates to an alert are currently being published:
 
-* **Escalations** : An incident is assigned to another user through an automatic escalation.
-* **Manual Assignments** : An incident is manually assigned to someone.
-* **Actions** : An incident is accepted or resolved.
+* **Escalations** : An alert is assigned to another user through an automatic escalation.
+* **Manual Assignments** : An alert is manually assigned to someone.
+* **Actions** : An alert is accepted or resolved.
 

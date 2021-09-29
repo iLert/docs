@@ -24,7 +24,7 @@ weight: 1
 
 ![](../.gitbook/assets/sn7.png)
 
-4. Switch to the **alert sources** tab and open the alert source whose incidents you want to publish in ServiceNow. Click on **Connections → Add new connection**
+4. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish in ServiceNow. Click on **Connections → Add new connection**
 
 ![](../.gitbook/assets/sn8.png)
 
@@ -56,11 +56,11 @@ weight: 1
 
 ## FAQ <a id="faq"></a>
 
-**Are updates to an incident published in the ServiceNow Incident?**
+**Are updates to an alert published in the ServiceNow Alert?**
 
 Yes, the status of the iLert Incident is shown in the title of the JIRA ticket, eg `RESOLVED` Host compute.infra is `DOWN`.
 
-**Can I choose which updates to an incident are published in ServiceNow?**
+**Can I choose which updates to an alert are published in ServiceNow?**
 
 Currently not. If you wish, we look forward to your feedback via chat or email.
 

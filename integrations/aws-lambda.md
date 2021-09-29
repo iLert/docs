@@ -1,7 +1,7 @@
 ---
 title: AWS Lambda Integration
 seoTitle: 'iLert: AWS Lambda Integration for Alerting | Incident Response | Uptime'
-description: Invoke AWS Lambda functions based on incidents in iLert
+description: Invoke AWS Lambda functions based on alerts in iLert
 date: '2020-05-12T05:02:05.000Z'
 weight: 1
 ---
@@ -26,9 +26,9 @@ And create a new connector. Choose AWS lambda as type \(you may add the addition
 
 Click on save to save the connector.
 
-## Create the incident action <a id="connection"></a>
+## Create the alert action <a id="connection"></a>
 
-Visit the alert source \(view\) whose incidents should trigger your serverless function. Navigate to the **Incident actions** tab and click on the **Create new incident action** button.
+Visit the alert source \(view\) whose alerts should trigger your serverless function. Navigate to the **Alert actions** tab and click on the **Create new alert action** button.
 
 ![](../.gitbook/assets/new_incident_action%20%281%29.png)
 
@@ -36,5 +36,5 @@ Choose AWS lambda as type and select your previously created connector. Enter a 
 
 ![](../.gitbook/assets/ilert%20%2857%29.png)
 
-Click on save to create the incident action, you may test the incident action in the following screen.
+Click on save to create the alert action, you may test the alert action in the following screen.
 

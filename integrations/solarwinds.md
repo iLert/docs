@@ -10,7 +10,7 @@ weight: 1
 
 # SolarWinds Integration
 
-With the iLert SolarWinds Integration you can easily integrate SolarWinds Orion products \(eg [NPM](https://www.solarwinds.com/network-performance-monitor) and [SAM](https://www.solarwinds.com/server-application-monitor)\) into iLert. The integration extends SolarWinds with SMS, push and voice notification as well as on-call schedules from iLert. Incidents are created in iLert and automatically resolved. Furthermore, incidents in iLert that were created by SolarWinds contain links to the respective alerts in SolarWinds.
+With the iLert SolarWinds Integration you can easily integrate SolarWinds Orion products \(eg [NPM](https://www.solarwinds.com/network-performance-monitor) and [SAM](https://www.solarwinds.com/server-application-monitor)\) into iLert. The integration extends SolarWinds with SMS, push and voice notification as well as on-call schedules from iLert. Alerts are created in iLert and automatically resolved. Furthermore, alerts in iLert that were created by SolarWinds contain links to the respective alerts in SolarWinds.
 
 ## In iLert: create alert source <a id="create-alarm-source"></a>
 
@@ -44,7 +44,7 @@ With the iLert SolarWinds Integration you can easily integrate SolarWinds Orion 
 
 ![](../.gitbook/assets/sw6.png)
 
-5. Define **reset condition** and click on **NEXT**. As soon as the **reset condition** occurs, the associated incident is resolved in iLert.
+5. Define **reset condition** and click on **NEXT**. As soon as the **reset condition** occurs, the associated alert is resolved in iLert.
 
 ![](../.gitbook/assets/sw7.png)
 
@@ -97,11 +97,11 @@ iLertEventSummary=${N=SwisEntity;M=DisplayName} (${N=SwisEntity;M=IP_Address}): 
 
 ## FAQ <a id="faq"></a>
 
-**Are incidents automatically resolved in iLert?**
+**Are alerts automatically resolved in iLert?**
 
-Yes, as soon as the **reset condition** for an alert has occurred in SolarWinds, the associated incident in iLert is resolved.
+Yes, as soon as the **reset condition** for an alert has occurred in SolarWinds, the associated alert in iLert is resolved.
 
-**What if an alert is acknowledged in SolarWinds, is the associated incident also acknowledged in iLert?**
+**What if an alert is acknowledged in SolarWinds, is the associated alert also acknowledged in iLert?**
 
 No, in SolarWinds it is unfortunately not possible to perform an action after an **acknowledge**.
 
@@ -113,9 +113,9 @@ Yes, create several alert definitions in SolarWinds and store the corresponding 
 
 No, no alerts are lost if you have activated the option **Repeat this action action every X minutes until the alert is acknowledged** in SolarWinds \(see above\). We also recommend that you monitor your Internet connection with an external monitoring service, such as iLert's [Uptime monitoring](https://www.ilert.com/product/uptime-monitoring/). 
 
-**Can I change the content of the incident in iLert \(e.g. the summary\)?**
+**Can I change the content of the alert in iLert \(e.g. the summary\)?**
 
-Yes, you can configure this in the definition of the trigger action. In the HTTP Post Body, several variables in the format `variable1=value1&variable2=value2&variable3=value3...` are sent to iLert. To change the summary text of the incident, change the definition of the variable `iLertEventSummary` . All other variables that you add below `iLertEventSummary`  inserted in the description of the incident.
+Yes, you can configure this in the definition of the trigger action. In the HTTP Post Body, several variables in the format `variable1=value1&variable2=value2&variable3=value3...` are sent to iLert. To change the summary text of the alert, change the definition of the variable `iLertEventSummary` . All other variables that you add below `iLertEventSummary`  inserted in the description of the alert.
 
 **The integration doesn't work. How do I find the issue?**
 

@@ -1,5 +1,5 @@
 ---
-description: Create JIRA issues from iLert incidents.
+description: Create JIRA issues from iLert alerts.
 ---
 
 # Jira Outbound Integration
@@ -36,7 +36,7 @@ description: Create JIRA issues from iLert incidents.
 
 ![](../../.gitbook/assets/ilert%20%2876%29.png)
 
-4. **Go to** the alert sources tab and open the alert source whose incidents you want to publish in JIRA. Click **Incident actions → Create new incident action**.
+4. **Go to** the alert sources tab and open the alert source whose alerts you want to publish in JIRA. Click **Alert actions → Create new alert action**.
 
 ![](../../.gitbook/assets/new_incident_action%20%282%29.png)
 
@@ -44,7 +44,7 @@ description: Create JIRA issues from iLert incidents.
 
 ![](../../.gitbook/assets/ilert%20%2856%29.png)
 
-Select the desired Project and Issue Type that should be used to create issues and give the incident action a name, before clicking on save.
+Select the desired Project and Issue Type that should be used to create issues and give the alert action a name, before clicking on save.
 
 ## Custom Variables and request configuration <a id="custom"></a>
 
@@ -70,11 +70,11 @@ In case your connection has been setup correctly you will see a successful messa
 
 ## FAQ <a id="faq"></a>
 
-**Are updates to an incident published in the JIRA Ticket?**
+**Are updates to an alert published in the JIRA Ticket?**
 
-Yes, the state of the iLert Incident is reflected in the title of the JIRA ticket, eg \[RESOLVED\] Host compute.infra is DOWN.
+Yes, the state of the iLert Alert is reflected in the title of the JIRA ticket, eg \[RESOLVED\] Host compute.infra is DOWN.
 
-**Can I choose which updates to publish to an incident in JIRA?**
+**Can I choose which updates to publish to an alert in JIRA?**
 
 Currently not. If you wish, we look forward to your feedback via chat or e-mail.
 

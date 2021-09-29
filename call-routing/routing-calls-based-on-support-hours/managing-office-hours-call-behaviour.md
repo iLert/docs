@@ -18,7 +18,7 @@ In case an incoming call is made after office hours \(_outside support hours in 
 
 Additionally with this setup, individual escalations can be configured \(in the used escalation policies\) to handle cases where all agents did not accept calls outside of support hours.
 
-**To put in simple terms**: During office hours all team members get called simultaneously, the incident is no further escalated - Outside of office hours the one person on duty is called and the incident may be escalated further.
+**To put in simple terms**: During office hours all team members get called simultaneously, the alert is no further escalated - Outside of office hours the one person on duty is called and the alert may be escalated further.
 
 {% hint style="info" %}
 Please note that the `simultaneous calling` feature is only available for Premium and Enterprise customers.
