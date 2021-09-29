@@ -19,7 +19,7 @@ A user in iLert can have one of the following roles:
 
 ### Stakeholder
 
-Stakeholders will only be able to see the incidents to which they have been added as a subscriber and won't be able to see any other data, such as other incidents, alert sources, escalation policies, etc. Additionally, they can't login to the web application. Instead, they can use the iLert mobile app to get insights into current incidents that they are subscribed to and manage their profile and notification settings. This role is only available as part of our Premium plan.
+Stakeholders will only be able to see the alerts to which they have been added as a subscriber and won't be able to see any other data, such as other alerts, alert sources, escalation policies, etc. Additionally, they can't login to the web application. Instead, they can use the iLert mobile app to get insights into current alerts that they are subscribed to and manage their profile and notification settings. This role is only available as part of our Premium plan.
 
 ### Guest
 
@@ -27,7 +27,7 @@ Guests users have access to the application, however they cannot see any resourc
 
 ### Responder
 
-Responders can use the web ui and mobile app to manage incidents just like **Users**, however they have no permission to create or modify any objects, such as alert sources, schedules, or escalation policies. Besides taking actions on incidents, Responders can add themselves as overrides to schedules.
+Responders can use the web ui and mobile app to manage alerts just like **Users**, however they have no permission to create or modify any objects, such as alert sources, schedules, or escalation policies. Besides taking actions on alerts, Responders can add themselves as overrides to schedules.
 
 ### User
 
@@ -105,7 +105,7 @@ The table below gives an overview of the role permissions.
       <td style="text-align:center">&#x2705;</td>
     </tr>
     <tr>
-      <td style="text-align:left">Subscribe to incidents</td>
+      <td style="text-align:left">Subscribe to alerts</td>
       <td style="text-align:center">&#x2705;</td>
       <td style="text-align:left">&#x274C;</td>
       <td style="text-align:center">&#x2705;</td>
@@ -114,7 +114,7 @@ The table below gives an overview of the role permissions.
       <td style="text-align:center">&#x2705;</td>
     </tr>
     <tr>
-      <td style="text-align:left">Manage incidents</td>
+      <td style="text-align:left">Manage alerts</td>
       <td style="text-align:center">&#x274C;</td>
       <td style="text-align:left">&#x274C;</td>
       <td style="text-align:center">&#x2705;</td>
