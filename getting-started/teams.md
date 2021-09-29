@@ -1,12 +1,12 @@
 ---
 description: >-
   Create teams to manage access to resources and simplify the user interface to
-  show only the incidents and resources relevant to a team.
+  show only the alerts and resources relevant to a team.
 ---
 
 # Team-based organisation
 
-iLerts flexible teams feature allows you to easily manage complex permission scenarios and keep the UI experience for your users and teams simple by only showing the resources owned by the selected team. It enables productivity while managing hundreds of alert sources and users, as well as hundred-thousands of incidents.
+iLerts flexible teams feature allows you to easily manage complex permission scenarios and keep the UI experience for your users and teams simple by only showing the resources owned by the selected team. It enables productivity while managing hundreds of alert sources and users, as well as hundred-thousands of alerts.
 
 ## Team Filter
 
@@ -134,23 +134,23 @@ Unassigned resources \(without any owners / teams\) are treated as public resour
 
 User visibility is almost identical to the described behaviour in Resource Visibility [above](teams.md#resource-visibility) except it has less restrictions. In general all users are public and can be seen by all roles excepts **Guests**. However when a user is added as member of a private team he becomes a _private user_. From now on, he is only visible to either users with elevated permissions e.g. **Admins** / **Account Owners** or members of the teams he is a member of.
 
-## Incident Visibility
+## Alert Visibility
 
-An incident is visible to a user in a team context if
+An alert is visible to a user in a team context if
 
 * its alert source is part of the team context or
 * its escalation policy is part of the team context or
-* if the current user is subscribed to the incident as stakeholder
+* if the current user is subscribed to the alert as stakeholder
 * it's assigned to the current user directly
 
-This way incidents may still be shared across team contexts or re-assigned by higher level permission users to ensure the most flexible workflow for your users in any scenario.
+This way alerts may still be shared across team contexts or re-assigned by higher level permission users to ensure the most flexible workflow for your users in any scenario.
 
 ## Data Visibility in Report
 
-The current team context will automatically be reflected in incident, on-call and notification reports. Meaning that the selected team filter will have a direct impact on the shown resources in the report, as well as the user permissions on the data accessible in any shared reports.
+The current team context will automatically be reflected in alert, on-call and notification reports. Meaning that the selected team filter will have a direct impact on the shown resources in the report, as well as the user permissions on the data accessible in any shared reports.
 
 {% hint style="info" %}
-Further restriction of resource permissions to a user will reflect onto shared report urls even after they are created e.g. when hiding an alert source from a user by placing it in a private team without his access, the shared incident report will also hide the incidents from this alert source automatically. 
+Further restriction of resource permissions to a user will reflect onto shared report urls even after they are created e.g. when hiding an alert source from a user by placing it in a private team without his access, the shared alert report will also hide the alerts from this alert source automatically. 
 {% endhint %}
 
 ## FAQ
