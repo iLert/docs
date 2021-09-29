@@ -18,17 +18,17 @@ iLert is a platform for alerting, on-call management and uptime monitoring. It h
 
 ## Core concepts <a id="incident"></a>
 
-### Incident
+### Alert
 
-An incident is an issue that requires immediate attention and needs to be resolved. Incidents are reported by an alert source and immediately trigger the notification process using the alert source's escalation policy.
+An alert is an issue that requires immediate attention and needs to be resolved. Alerts are created by an alert source and immediately trigger the notification process using the alert source's escalation policy.
 
-An incident can have the following states:
+An alert can have the following states:
 
 | Status | Description |
 | :--- | :--- |
-| `PENDING` | The incident hasn't been acknowledged yet and will escalate until the incident is either acknowledged or resolved. |
-| `ACCEPTED` | The user to whom the incident is assigned to is working on resolving the incident and the escalation process is halted. |
-| `RESOLVED` | The incident is resolved and no more notifications are sent. A resolved Incident cannot be opened again. |
+| `PENDING` | The alert hasn't been acknowledged yet and will escalate until the alert is either acknowledged or resolved. |
+| `ACCEPTED` | The user to whom the alert is assigned to is working on resolving the alert and the escalation process is halted. |
+| `RESOLVED` | The alert is resolved and no more notifications are sent. A resolved alert cannot be opened again. |
 
 ### Alert source / inbound integration
 
@@ -73,7 +73,7 @@ iLert provides the following inbound integration options:
     <tr>
       <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="../uptime-monitors/heartbeat-monitoring/"><b>Hearbeat monitoring</b></a>
       </td>
-      <td style="text-align:left">A heartbeat alert source will automatically create an incident if it does
+      <td style="text-align:left">A heartbeat alert source will automatically create an alert if it does
         not receive a heartbeat signal from your app at regular intervals.</td>
     </tr>
   </tbody>
@@ -83,29 +83,29 @@ iLert provides the following inbound integration options:
 
 
 
-### Connectors and incident actions / outbound integrations
+### Connectors and alert actions / outbound integrations
 
-Connectors and incident actions allow you to extend your incident response and communication to other tools. They allow you to either manually or automatically perform actions on incidents, such as
+Connectors and alert actions allow you to extend your alert response and communication to other tools. They allow you to either manually or automatically perform actions on alerts, such as
 
 * Create ticket in JIRA
 * Post a message in Slack
 * Post a webhook to a defined HTTP end point
 * Trigger a serverless function in AWS, GCP or Azure
 
-A **connector** is created globally in iLert and usually contains all the information to connect with the target system \(e.g. a URL, an API key or username and password, etc.\). An **incident action** is created at the alert source level and uses its connector to perform a concrete action. Example: Let's say we want to create an issue in JIRA for every incident in iLert. We need to create ...
+A **connector** is created globally in iLert and usually contains all the information to connect with the target system \(e.g. a URL, an API key or username and password, etc.\). An **alert action** is created at the alert source level and uses its connector to perform a concrete action. Example: Let's say we want to create an issue in JIRA for every alert in iLert. We need to create ...
 
 * ... a JIRA **connector** that contains the URL of the JIRA server and the credentials to connect to it.
-* ... an **incident action** at the alert source level that contains information such as whether to trigger the connection manually or automatically for every incident, the JIRA project ID and issue type, and any custom fields that we might want to set in the JIRA issue.
+* ... an **alert action** at the alert source level that contains information such as whether to trigger the connection manually or automatically for every alert, the JIRA project ID and issue type, and any custom fields that we might want to set in the JIRA issue.
 
-We often refer to connectors and incident actions as **outbound integrations**.
+We often refer to connectors and alert actions as **outbound integrations**.
 
 ### Escalation policy
 
-An escalation policy connects an alert source with the users that are responsible for this alert source. It defines which users or on-call schedules should be notified when an incident is created.
+An escalation policy connects an alert source with the users that are responsible for this alert source. It defines which users or on-call schedules should be notified when an alert is created.
 
 ### On-call schedule
 
-On-call schedules determine who will be notified when an incident is created based on the time of day. Only one user per schedule can be on-call at a time. You can reference an on-call schedule in an escalation policy.
+On-call schedules determine who will be notified when an alert is created based on the time of day. Only one user per schedule can be on-call at a time. You can reference an on-call schedule in an escalation policy.
 
 {% page-ref page="on-call-schedules/" %}
 
@@ -113,7 +113,7 @@ On-call schedules determine who will be notified when an incident is created bas
 
 ### Notifications
 
-In iLert, each user defines in his profile how he will be notified of an incident. A user with admin rights can also maintain the notification settings for other users. iLert supports the following notification channels:
+In iLert, each user defines in his profile how he will be notified of an alert. A user with admin rights can also maintain the notification settings for other users. iLert supports the following notification channels:
 
 * E-mail
 * SMS
@@ -124,8 +124,8 @@ Notifications in iLert are bi-directional, that is, you can respond to a notific
 
 You have the following response options:
 
-1. Acknowledge the incident
-2. Mark the incident as resolved
+1. Acknowledge the alert
+2. Mark the alert as resolved
 3. Escalation to the next user
 
 You can find a list of caller IDs for sms and phone calls [here](phone-numbers/#sms-alerts).
