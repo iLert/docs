@@ -1,7 +1,7 @@
 ---
 description: >-
-  The iLert Sensu Integration helps you to publish incidents into your channels
-  or resolve incidents.
+  The iLert Sensu Integration helps you to publish alerts into your channels
+  or resolve alerts.
 ---
 
 # Sensu Integration
@@ -138,7 +138,7 @@ sensuctl event listCopy
 
 4. Open the Sensu web UI to see the events the `file_exists` check is generating. Visit http://127.0.0.1:3000, and log in as the admin user \(created during initialization when you installed the Sensu backend\). The failing check’s events will be listed on the **Events** page.
 
-5. The Incident should be created on the Sensu Alert Source on iLert's side as well
+5. The Alert should be created on the Sensu Alert Source on iLert's side as well
 
 6. To complete your workflow, restore the file that you removed so Sensu sends a resolution to iLert:
 

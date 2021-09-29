@@ -38,9 +38,9 @@ weight: 1
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-For incidents and issues in Instana: Yes, as soon as the state of an incident or issue is CLOSED in Instana, the incident in iLert will be resolved.
+For alerts and issues in Instana: Yes, as soon as the state of an alert or issue is CLOSED in Instana, the alert in iLert will be resolved.
 
-For Change and On / Offline Events: Every Change and On / Offline event generates a new Incident in iLert.
+For Change and On / Offline Events: Every Change and On / Offline event generates a new Alert in iLert.
 

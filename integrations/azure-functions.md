@@ -26,7 +26,7 @@ Click on save to save the connector.
 
 ## Create the connection <a id="connection"></a>
 
-Visit the alert source \(view\) whose incidents should trigger your serverless function. Navigate to the connections tab and create a new connection.
+Visit the alert source \(view\) whose alerts should trigger your serverless function. Navigate to the connections tab and create a new connection.
 
 ![](../.gitbook/assets/s3%20%282%29.png)
 

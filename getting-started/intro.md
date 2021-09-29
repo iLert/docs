@@ -14,7 +14,7 @@ weight: 1
 
 ## What is iLert? <a id="incident"></a>
 
-iLert is a platform for alerting, on-call management and uptime monitoring. It helps teams to reduce response times to critical incidents by extending monitoring tools with reliable alerting, automatic escalations, on-call schedules and other features to support the incident response process, such as [informing stakeholders](stakeholder-engagement.md) or creating tickets in external incident management tools.
+iLert is a platform for alerting, on-call management and uptime monitoring. It helps teams to reduce response times to critical alerts by extending monitoring tools with reliable alerting, automatic escalations, on-call schedules and other features to support the incident response process, such as [informing stakeholders](stakeholder-engagement.md) or creating tickets in external incident management tools.
 
 ## Core concepts <a id="incident"></a>
 

@@ -1,5 +1,5 @@
 ---
-description: Receive and respond to iLert incidents in Cisco Webex.
+description: Receive and respond to iLert alerts in Cisco Webex.
 ---
 
 # Cisco Webex
@@ -24,11 +24,11 @@ description: Receive and respond to iLert incidents in Cisco Webex.
 
 4. On the next page, agree with the requested permissions and click on the **Authorize** button
 
-5. Go to **Services -&gt; Alert sources** and open the alert source whose incidents you want to post to Cisco Webex. Click on the **Incident actions** tab and then on the **Add new incident action** button
+5. Go to **Services -&gt; Alert sources** and open the alert source whose alerts you want to post to Cisco Webex. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
-6. On the next page choose **Cisco Webex** as the type, choose the connector created in step 3, name it**,** choose **incident events** and ****the **space** to publish and click on the **Save** button.
+6. On the next page choose **Cisco Webex** as the type, choose the connector created in step 3, name it**,** choose **alert events** and ****the **space** to publish and click on the **Save** button.
 
 ![](../.gitbook/assets/screenshot_19_03_21__07_54.png)
 
@@ -42,15 +42,15 @@ description: Receive and respond to iLert incidents in Cisco Webex.
 
 Yes.
 
-**Are updates to an incident published on the Cisco Webex space?**
+**Are updates to an alert published on the Cisco Webex space?**
 
-Yes, the following updates to an incident are currently being released:
+Yes, the following updates to an alert are currently being released:
 
-* **Escalations** : An incident is assigned to another user through an automatic escalation.
-* **Manual Assignments** : An incident is manually assigned to someone.
-* **Actions** : An incident is accepted or resolved.
+* **Escalations** : An alert is assigned to another user through an automatic escalation.
+* **Manual Assignments** : An alert is manually assigned to someone.
+* **Actions** : An alert is accepted or resolved.
 
-**Can I choose which updates to an incident will be published in Cisco Webex?**
+**Can I choose which updates to an alert will be published in Cisco Webex?**
 
 Yes.
 

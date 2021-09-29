@@ -28,7 +28,7 @@ Click on save to save the connector.
 
 ## Create the connection <a id="connection"></a>
 
-Visit the alert source \(view\) whose incidents should trigger your serverless function. Navigate to the **Incident actions** tab and click on the **Create incident action** button.
+Visit the alert source \(view\) whose alerts should trigger your serverless function. Navigate to the **Alert actions** tab and click on the **Create alert action** button.
 
 ![](../.gitbook/assets/new_incident_action%20%284%29.png)
 
@@ -36,5 +36,5 @@ Choose Google Cloud Function as type and select your previously created connecto
 
 ![](../.gitbook/assets/ilert%20%2865%29.png)
 
-Click on save to create the incident action, you may test the connection in the following screen.
+Click on save to create the alert action, you may test the connection in the following screen.
 

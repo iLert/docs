@@ -1,6 +1,6 @@
 ---
 description: >-
-  Create iLert incidents from Sumologic alerts and get alerted through iLert for
+  Create iLert alerts from Sumologic alerts and get alerted through iLert for
   high priority issues.
 ---
 
@@ -61,11 +61,11 @@ description: >-
 }
 ```
 
-Finished! Your Sumologic alerts will now create incidents in iLert.
+Finished! Your Sumologic alerts will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 No, unfortunately Sumologic's notification is not compatible with iLert's resolve event.
 

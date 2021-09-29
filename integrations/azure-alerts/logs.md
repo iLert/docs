@@ -1,5 +1,5 @@
 ---
-description: Create incidents in iLert based on Azure Logs queries.
+description: Create alerts in iLert based on Azure Logs queries.
 ---
 
 # Azure Logs
@@ -62,11 +62,11 @@ description: Create incidents in iLert based on Azure Logs queries.
 
 ![](../../.gitbook/assets/7.png)
 
-Finished! Your Azure Logs alerts will now create incidents in iLert.
+Finished! Your Azure Logs alerts will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 No, unfortunately Azure Log alert do not fire resolve events.
 

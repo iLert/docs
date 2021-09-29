@@ -1,7 +1,7 @@
 ---
 description: >-
-  With the iLert ServiceNow integration, you can create incidents in iLert based
-  on ServiceNow incidents.
+  With the iLert ServiceNow integration, you can create alerts in iLert based
+  on ServiceNow alerts.
 ---
 
 # ServiceNow Inbound Integration
@@ -34,7 +34,7 @@ description: >-
 
 ![](../../.gitbook/assets/screenshot_08_02_21__22_42.png)
 
-3. Name the business rule e.g. **iLert Incidents**, choose **Advanced** option, in the **When to run** section choose **async** then choose **Insert** and **Update** options
+3. Name the business rule e.g. **iLert Alerts**, choose **Advanced** option, in the **When to run** section choose **async** then choose **Insert** and **Update** options
 
 ![](../../.gitbook/assets/screenshot_08_02_21__22_43.png)
 
@@ -83,7 +83,7 @@ description: >-
   <thead>
     <tr>
       <th style="text-align:left">When I create an ServiceNow ticket with status...</th>
-      <th style="text-align:left">...then an iLert Incident...</th>
+      <th style="text-align:left">...then an iLert Alert...</th>
     </tr>
   </thead>
   <tbody>
@@ -109,8 +109,8 @@ description: >-
   <thead>
     <tr>
       <th style="text-align:left">When I update an ServiceNow ticket with status...</th>
-      <th style="text-align:left">...and the<b> </b>iLert incident...</th>
-      <th style="text-align:left">...then the/an iLert Incident...</th>
+      <th style="text-align:left">...and the<b> </b>iLert alert...</th>
+      <th style="text-align:left">...then the/an iLert Alert...</th>
     </tr>
   </thead>
   <tbody>
@@ -152,7 +152,7 @@ description: >-
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 Yes
 

@@ -50,9 +50,9 @@ You need to have admin rights to setup this integration.
 
 ## FAQ <a id="faq"></a>
 
-**Are tickets updated in Zendesk if the incident is updated in iLert?**
+**Are tickets updated in Zendesk if the alert is updated in iLert?**
 
-Yes, status updates to iLert Incidents are reflected in the title of the Zendesk ticket, e.g. `RESOLVED` host compute.infra is `DOWN`.
+Yes, status updates to iLert Alerts are reflected in the title of the Zendesk ticket, e.g. `RESOLVED` host compute.infra is `DOWN`.
 
 **Can I choose which updates to publish to a ticket in Zendesk?**
 

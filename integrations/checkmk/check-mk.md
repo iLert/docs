@@ -118,7 +118,7 @@ Log in to checkmk's web GUI and continue there.
 
 ## Test the integration <a id="test"></a>
 
-You can test the integration directly in checkmk to verify that everything is working. To do this, open a host or service check in the Web GUI and click on the "Execute" icon \(Hammer Icon\). In "Fake check results" you can manually set the state of a host or service. Click on "Down" \(for a host\) or "Critical" \(for a service\) and then confirm with "Yes!". You should now see an incident in iLert.
+You can test the integration directly in checkmk to verify that everything is working. To do this, open a host or service check in the Web GUI and click on the "Execute" icon \(Hammer Icon\). In "Fake check results" you can manually set the state of a host or service. Click on "Down" \(for a host\) or "Critical" \(for a service\) and then confirm with "Yes!". You should now see an alert in iLert.
 
 ![](../../.gitbook/assets/mk9.jpg)
 
@@ -147,9 +147,9 @@ checkmk has the following notification types:
 
 No, events won't be lost. The plugin stores the events locally in a temporary directory \(by default in /tmp/ilert\_nagios\) and tries to send them to iLert every minute. This means that as soon as your connection is available again, cached events will be sent to iLert. In addition, we recommend that you monitor your Internet connection using our uptime monitoring feature.
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as the state of a host / service is UP or OK again in checkmk, the associated incident is resolved in iLert. If a problem is acknowledged in checkmk, the associated incident in iLert is set to the status Accepted.
+Yes, as soon as the state of a host / service is UP or OK again in checkmk, the associated alert is resolved in iLert. If a problem is acknowledged in checkmk, the associated alert in iLert is set to the status Accepted.
 
 **Can I link checkmk to multiple alert sources in iLert?**
 

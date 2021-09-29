@@ -1,5 +1,5 @@
 ---
-description: Create notifications in Amazon SNS  from iLert incidents.
+description: Create notifications in Amazon SNS  from iLert alerts.
 ---
 
 # Amazon SNS Outbound via AWS Lambda
@@ -113,7 +113,7 @@ To set up the integration, you must have admin rights in iLert.
 
 ![](../../.gitbook/assets/ilert%20%2851%29.png)
 
-4. Go to the alert sources tab and open the alert source whose incidents you want to publish to Amazon SNS. Click on the **Incident actions** tab and then on the **Add new incident action** button
+4. Go to the alert sources tab and open the alert source whose alerts you want to publish to Amazon SNS. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../../.gitbook/assets/ilert%20%2847%29.png)
 
@@ -121,5 +121,5 @@ To set up the integration, you must have admin rights in iLert.
 
 ![](../../.gitbook/assets/ilert%20%2842%29.png)
 
-7. Finished! Now an Amazon SNS notification will be created  for each incident in automatic trigger mode or via manual incident action.
+7. Finished! Now an Amazon SNS notification will be created  for each alert in automatic trigger mode or via manual alert action.
 

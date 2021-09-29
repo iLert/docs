@@ -1,5 +1,5 @@
 ---
-description: Create events in Datadog from iLert incidents.
+description: Create events in Datadog from iLert alerts.
 ---
 
 # Datadog Outbound Integration
@@ -34,25 +34,25 @@ description: Create events in Datadog from iLert incidents.
 
 ![](../../.gitbook/assets/datadog_il1.png)
 
-4. Go to the alert sources tab and open the alert source whose incidents you want to publish in Datadog. Click on **Incident actions** and then on **Create incident action**.
+4. Go to the alert sources tab and open the alert source whose alerts you want to publish in Datadog. Click on **Alert actions** and then on **Create alert action**.
 
 ![](../../.gitbook/assets/new_incident_action%20%286%29.png)
 
-5. Select **Datadog** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the incident action name.
+5. Select **Datadog** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the alert action name.
 
 ![](../../.gitbook/assets/ilert%20%2866%29.png)
 
-6. Finished! You can now test the incident action by clicking on the button **Test this incident action**. Then a test ticket will be published in Datadog.
+6. Finished! You can now test the alert action by clicking on the button **Test this alert action**. Then a test ticket will be published in Datadog.
 
 ![](../../.gitbook/assets/ilert%20%2872%29.png)
 
 ## FAQ <a id="faq"></a>
 
-**Are updates to an incident published in the Datadog?**
+**Are updates to an alert published in the Datadog?**
 
-Yes, the state of the iLert Incident is reflected in the Datadog events.
+Yes, the state of the iLert Alert is reflected in the Datadog events.
 
-**Can I choose which updates to publish to an incident in Datadog?**
+**Can I choose which updates to publish to an alert in Datadog?**
 
 Currently not. If you wish, we look forward to your feedback via chat or e-mail.
 

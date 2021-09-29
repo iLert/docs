@@ -192,9 +192,9 @@ Adjust the directory according to your `AlertScriptsPath` configuration in Zabbi
 
 ## FAQ <a id="faq"></a>
 
-**Are incidents automatically resolved in iLert?**
+**Are alerts automatically resolved in iLert?**
 
-Yes, as soon as the status of an incident is OK in Zabbix, the associated incident is resolved in iLert.
+Yes, as soon as the status of an alert is OK in Zabbix, the associated alert is resolved in iLert.
 
 **Can I link Zabbix to multiple alert sources in iLert?**
 

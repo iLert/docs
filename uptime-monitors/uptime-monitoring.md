@@ -16,7 +16,7 @@ To create a new uptime monitor head to **Uptime monitors** and choose **Create n
 
 ![](../.gitbook/assets/screenshot-2020-10-08-at-09.50.44.png)
 
-When creating a monitor you may choose the region from which the uptime checks will be made. Uptime monitor checks are always backed from multiple locations inside of a region to ensure alerting correctness. E.g. if you select region Europe your primary uptime checks will be made from Frankfurt, however if any of the Frankfurt checks identifies an issue a secondary opinion is gathered from Dublin if this check confirms the issue and incident will be created and you will be alerted.
+When creating a monitor you may choose the region from which the uptime checks will be made. Uptime monitor checks are always backed from multiple locations inside of a region to ensure alerting correctness. E.g. if you select region Europe your primary uptime checks will be made from Frankfurt, however if any of the Frankfurt checks identifies an issue a secondary opinion is gathered from Dublin if this check confirms the issue and alert will be created and you will be alerted.
 
 You can also see these single checks in the **Check result log** tab view.
 
@@ -33,7 +33,7 @@ In case you want to prevent others from seeing the shared link at a later time, 
 The **Uptime log** shows all status changes in a condensed table view.
 
 {% hint style="info" %}
-Every uptime monitor has a related alert source that is used to manage incidents created by failed uptime checks
+Every uptime monitor has a related alert source that is used to manage alerts created by failed uptime checks
 {% endhint %}
 
 ## Automatically managing uptime monitors

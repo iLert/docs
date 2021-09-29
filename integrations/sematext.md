@@ -1,6 +1,6 @@
 ---
 description: >-
-  Create iLert incidents from Sematext alerts and get alerted through iLert for
+  Create iLert alerts from Sematext alerts and get alerted through iLert for
   high priority issues.
 ---
 
@@ -56,13 +56,13 @@ Sematext Cloud is an all-in-one infrastructure performance and log monitoring, r
 
 ![](../.gitbook/assets/screenshot_16_03_21__17_08.png)
 
-Finished! Your Sematext alerts will now create incidents in iLert.
+Finished! Your Sematext alerts will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as an alert has been completed in Sematext, the associated incident in iLert will be resolved automatically.
+Yes, as soon as an alert has been completed in Sematext, the associated alert in iLert will be resolved automatically.
 
 **Can I connect Sematext with multiple alert sources from iLert?**
 

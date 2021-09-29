@@ -1,14 +1,14 @@
 ---
 title: TOPdesk Inbound Integration
 seoTitle: 'iLert: TOPdesk Inbound Integration for Alerting | Incident Response | Uptime'
-description: Create incidents in iLert based on tickets from TOPdesk
+description: Create alerts in iLert based on tickets from TOPdesk
 date: '2020-04-29T07:00:00.000Z'
 weight: 1
 ---
 
 # TOPdesk Inbound Integration
 
-With the iLert TOPdesk integration, you can create incidents in iLert based on TOPdesk event such as tickets or calls.
+With the iLert TOPdesk integration, you can create alerts in iLert based on TOPdesk event such as tickets or calls.
 
 ## In iLert <a id="in-ilert"></a>
 
@@ -42,7 +42,7 @@ With the iLert TOPdesk integration, you can create incidents in iLert based on T
 
 ![](../../.gitbook/assets/tpdki5%20%281%29.png)
 
-4. In the **Name** section, enter a name eg. `iLert Create Incident Action`
+4. In the **Name** section, enter a name eg. `iLert Create Alert Action`
 
 5. In the **Available** section, ensure that the **Active**, **Apply in the Self-Service Portal** and **Apply in the Operator's Section** checkboxes are checked
 
@@ -66,11 +66,11 @@ With the iLert TOPdesk integration, you can create incidents in iLert based on T
 
 ![](../../.gitbook/assets/tpdki6.1.png)
 
-11. _Optional_: Add more entries to the request body to show custom information in an iLert incident. You can find more TOPdesk variables in the **DataDict**
+11. _Optional_: Add more entries to the request body to show custom information in an iLert alert. You can find more TOPdesk variables in the **DataDict**
 
 ![](../../.gitbook/assets/tpdki7.png)
 
-**For example:** to add ticket caller to iLert incident details just add `persoonid` variable on the top-level of json body
+**For example:** to add ticket caller to iLert alert details just add `persoonid` variable on the top-level of json body
 
 ```javascript
 {
@@ -93,7 +93,7 @@ With the iLert TOPdesk integration, you can create incidents in iLert based on T
 
 ![](../../.gitbook/assets/tpdki5.png)
 
-16. In the **Name** section, enter a name eg. `iLert Create Incident Action`
+16. In the **Name** section, enter a name eg. `iLert Create Alert Action`
 
 17. In the **Available** section, ensure that the **Active**, **Apply in the Self-Service Portal** and **Apply in the Operator's Section** checkboxes are checked
 
@@ -131,15 +131,15 @@ With the iLert TOPdesk integration, you can create incidents in iLert based on T
 
 ![](../../.gitbook/assets/tpdki9%20%281%29.png)
 
-4. In the **Details** section **Name** field, enter a name eg. `iLert - Create Incident Event`
+4. In the **Details** section **Name** field, enter a name eg. `iLert - Create Alert Event`
 
 5. In the **Details** section **Active** field, ensure that checkbox is checked
 
 6. In the **Details** section **Choose type** field, choose **New card**
 
-7. In the **Linked actions** section, choose the action sequence `iLert - Create Incident Action` that you created in the last step
+7. In the **Linked actions** section, choose the action sequence `iLert - Create Alert Action` that you created in the last step
 
-8. _Optional_: You can choose another card type \(e.g. **Edit card**\) and add conditions or specifications for your use case \(e.g. Status changed to "Open"\). In this case an iLert incident will be created only if event conditions and specifications match.
+8. _Optional_: You can choose another card type \(e.g. **Edit card**\) and add conditions or specifications for your use case \(e.g. Status changed to "Open"\). In this case an iLert alert will be created only if event conditions and specifications match.
 
 ![](../../.gitbook/assets/tpdki10.1.png)
 
@@ -155,15 +155,15 @@ With the iLert TOPdesk integration, you can create incidents in iLert based on T
 
 ![](../../.gitbook/assets/tpdki9.png)
 
-13. In the **Details** section **Name** field, enter a name eg. `iLert - Resolve Incident Event`
+13. In the **Details** section **Name** field, enter a name eg. `iLert - Resolve Alert Event`
 
 14. In the **Details** section **Active** field, ensure that checkbox is checked
 
 15. In the **Details** section **Choose type** field, choose **Edit card**
 
-16. In the **Linked actions** section, choose the action sequence `iLert - Resolve incident` that you created in the last step
+16. In the **Linked actions** section, choose the action sequence `iLert - Resolve alert` that you created in the last step
 
-17. _Optional_: You can add conditions or specifications for your use case \(e.g. ticket was closed\). In this case an iLert incident will be resolved only if event conditions and specifications match.
+17. _Optional_: You can add conditions or specifications for your use case \(e.g. ticket was closed\). In this case an iLert alert will be resolved only if event conditions and specifications match.
 
 ![](../../.gitbook/assets/tpdki10.2.png)
 
@@ -171,7 +171,7 @@ With the iLert TOPdesk integration, you can create incidents in iLert based on T
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 Yes
 
@@ -179,7 +179,7 @@ Yes
 
 Yes, simply create more action sequences in TOPdesk.
 
-**Can I customize the incident messages?**
+**Can I customize the alert messages?**
 
-Yes, any custom field will be shown in the incident details.
+Yes, any custom field will be shown in the alert details.
 

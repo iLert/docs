@@ -42,11 +42,11 @@ With iLert Cloudflare Integration, you can receive Cloudflare alert through iLer
 
 ![](../.gitbook/assets/account___cloudflare_-_web_performance___security%20%282%29.png)
 
-Finished! Your Cloudflare notifications will now create incidents in iLert.
+Finished! Your Cloudflare notifications will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 No, unfortunately Cloudflare is not sent resolution notifications.
 

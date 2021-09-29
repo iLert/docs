@@ -1,5 +1,5 @@
 ---
-description: Receive and respond to iLert incidents in DingTalk.
+description: Receive and respond to iLert alerts in DingTalk.
 ---
 
 # DingTalk Integration
@@ -16,7 +16,7 @@ description: Receive and respond to iLert incidents in DingTalk.
 To set up the integration, you must have admin rights in iLert.
 {% endhint %}
 
-1. Go to DingTalk, select the group in which you want to publish iLert Incidents and click the **Context Menu** **-&gt;** **Group Assistant**
+1. Go to DingTalk, select the group in which you want to publish iLert Alerts and click the **Context Menu** **-&gt;** **Group Assistant**
 
 ![](../.gitbook/assets/dingtalk.png)
 
@@ -64,11 +64,11 @@ To set up the integration, you must have admin rights in iLert.
 
 ![](../.gitbook/assets/ilert%20%2882%29.png)
 
-5. Go to **Services -&gt; Alert sources** and open the alert source whose incidents you want to post to DingTalk. Click on the **Incident actions** tab and then on the **Add new incident action** button
+5. Go to **Services -&gt; Alert sources** and open the alert source whose alerts you want to post to DingTalk. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
-6. On the next page choose **DingTalk** as the type, choose the connector created in step 3, name it**,** choose **incident events** to publish and click on the **Save** button.
+6. On the next page choose **DingTalk** as the type, choose the connector created in step 3, name it**,** choose **alert events** to publish and click on the **Save** button.
 
 ![](../.gitbook/assets/ilert%20%2884%29.png)
 
@@ -82,15 +82,15 @@ To set up the integration, you must have admin rights in iLert.
 
 Yes.
 
-**Are updates to an incident published on the DingTalk group?**
+**Are updates to an alert published on the DingTalk group?**
 
-Yes, the following updates to an incident are currently being released:
+Yes, the following updates to an alert are currently being released:
 
-* **Escalations** : An incident is assigned to another user through an automatic escalation.
-* **Manual Assignments** : An incident is manually assigned to someone.
-* **Actions** : An incident is accepted or resolved.
+* **Escalations** : An alert is assigned to another user through an automatic escalation.
+* **Manual Assignments** : An alert is manually assigned to someone.
+* **Actions** : An alert is accepted or resolved.
 
-**Can I choose which updates to an incident will be published in DingTalk?**
+**Can I choose which updates to an alert will be published in DingTalk?**
 
 Yes.
 

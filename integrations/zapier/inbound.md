@@ -1,6 +1,6 @@
 ---
 description: >-
-  User iLert as a Zapier Action and create / acknowledge / resolve an incident
+  User iLert as a Zapier Action and create / acknowledge / resolve an alert
   for any trigger from Zapier.
 ---
 
@@ -42,7 +42,7 @@ You can connect Zapier with an existing alert source of any integration type. Sk
 
 ![](../../.gitbook/assets/screenshot_29_10_20__16_40%20%281%29.png)
 
-5. In the **Action Event** section choose the **Create Incident** action ****to create an incident when a Jira issue is created. Then click on the **Continue** button.
+5. In the **Action Event** section choose the **Create Alert** action ****to create an alert when a Jira issue is created. Then click on the **Continue** button.
 
 ![](../../.gitbook/assets/screenshot_29_10_20__16_45.png)
 
@@ -50,11 +50,11 @@ You can connect Zapier with an existing alert source of any integration type. Sk
 
 ![](../../.gitbook/assets/screenshot_29_10_20__16_47.png)
 
-7. On the next slide, in the **Integration Key** section, choose the Alert Source that you created before. In the **Incident key** section, we recommend to enter an incident key, so you can accept or resolve an incident in other Zaps. In the **Summary** section, enter or insert an incident summary. You can optionally enter or insert **Details**, **Priority** and **URL**. Then click on the **Continue** button.
+7. On the next slide, in the **Integration Key** section, choose the Alert Source that you created before. In the **Alert key** section, we recommend to enter an alert key, so you can accept or resolve an alert in other Zaps. In the **Summary** section, enter or insert an alert summary. You can optionally enter or insert **Details**, **Priority** and **URL**. Then click on the **Continue** button.
 
 ![](../../.gitbook/assets/screenshot_29_10_20__23_15.png)
 
-8. On the next slide, click on **Test & Continue** to test incident creation.
+8. On the next slide, click on **Test & Continue** to test alert creation.
 
 ![](../../.gitbook/assets/screenshot_29_10_20__23_22.png)
 
@@ -64,13 +64,13 @@ You can connect Zapier with an existing alert source of any integration type. Sk
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, you need to configure an **Accept Incident** action with **Incident Key** for this in your Zap
+Yes, you need to configure an **Accept Alert** action with **Alert Key** for this in your Zap
 
-**Will incidents in iLert be accepted automatically?**
+**Will alerts in iLert be accepted automatically?**
 
-Yes, you need to configure an **Resolve Incident** action with **Incident Key** for this in your Zap
+Yes, you need to configure an **Resolve Alert** action with **Alert Key** for this in your Zap
 
 **Can I connect Zapier with multiple alert sources from iLert?**
 

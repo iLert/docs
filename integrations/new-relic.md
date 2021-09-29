@@ -10,7 +10,7 @@ weight: 1
 
 # New Relic Integration
 
-With New Relic Integration, you can easily integrate New Relic Alerts with iLert. So you can easily extend New Relic with SMS, Push and Voice alerts, as well as iLert rosters. Incidents are created in iLert and automatically closed when the problem is resolved. In addition, the incidents in iLert created by New Relic include bounce links to the respective Incident in New Relic.
+With New Relic Integration, you can easily integrate New Relic Alerts with iLert. So you can easily extend New Relic with SMS, Push and Voice alerts, as well as iLert rosters. Alerts are created in iLert and automatically closed when the problem is resolved. In addition, the alerts in iLert created by New Relic include bounce links to the respective Incident in New Relic.
 
 ## In iLert: Create New Relic alert source <a id="create-alarm-source"></a>
 
@@ -40,7 +40,7 @@ With New Relic Integration, you can easily integrate New Relic Alerts with iLert
 
 ![](../.gitbook/assets/nr5.png)
 
-4. Check if an incident has been created in iLert.
+4. Check if an alert has been created in iLert.
 
 5. After creating the **Notification Channel** in New Relic, add it to one or more **alert policies**. Go to the **Alert policies** tab and click **Add alert policy**.
 
@@ -50,11 +50,11 @@ With New Relic Integration, you can easily integrate New Relic Alerts with iLert
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as an incident is closed in New Relic, the associated incident in iLert is automatically fixed.
+Yes, as soon as an alert is closed in New Relic, the associated alert in iLert is automatically fixed.
 
-**What if an incident is acknowledged in New Relic, is the associated incident also confirmed in iLert?**
+**What if an alert is acknowledged in New Relic, is the associated alert also confirmed in iLert?**
 
 Yes.
 

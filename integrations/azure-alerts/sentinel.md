@@ -1,5 +1,5 @@
 ---
-description: Create incidents in iLert based on Azure Sentinel queries.
+description: Create alerts in iLert based on Azure Sentinel queries.
 ---
 
 # Azure Sentinel
@@ -62,11 +62,11 @@ description: Create incidents in iLert based on Azure Sentinel queries.
 
 ![](../../.gitbook/assets/create_alert_rule_-_microsoft_azure.png)
 
-Finished! Your Azure Sentinels alerts will now create incidents in iLert.
+Finished! Your Azure Sentinels alerts will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
 No, unfortunately Azure Sentinel alert do not fire resolve events.
 

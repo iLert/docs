@@ -1,7 +1,7 @@
 ---
 title: Github Outbound Issue Integration
 seoTitle: 'iLert: Github Integration for Alerting | Incident Response | Uptime'
-description: Create issues in GitHub based on incidents from iLert.
+description: Create issues in GitHub based on alerts from iLert.
 date: '2020-04-21T07:00:00.000Z'
 weight: 1
 ---
@@ -40,25 +40,25 @@ weight: 1
 
 ![](../../.gitbook/assets/ghoi7.png)
 
-4. **Go to** the alert sources tab and open the alert source whose incidents you want to publish in Github. Click on **Incident actions → Create incident action**.
+4. **Go to** the alert sources tab and open the alert source whose alerts you want to publish in Github. Click on **Incident actions → Create alert action**.
 
 ![](../../.gitbook/assets/new_incident_action%20%285%29.png)
 
-5. Select **Github** as the **type** then select the connector created in step 3 and fill in all fields. In the **Owner** and the **Repository** fields specify the owner and repository of the Github project where the iLert incidents should be published as Github Issue.
+5. Select **Github** as the **type** then select the connector created in step 3 and fill in all fields. In the **Owner** and the **Repository** fields specify the owner and repository of the Github project where the iLert alerts should be published as Github Issue.
 
 ![](../../.gitbook/assets/ilert%20%2873%29.png)
 
-6. Finished! You can now test the incident action by clicking on the button **Test this connection**. Then a test issue will be published in the respective Github project.
+6. Finished! You can now test the alert action by clicking on the button **Test this connection**. Then a test issue will be published in the respective Github project.
 
 ![](../../.gitbook/assets/ilert%20%2864%29.png)
 
 ## FAQ <a id="faq"></a>
 
-**Are updates to an incident published in the Github Ticket?**
+**Are updates to an alert published in the Github Ticket?**
 
 Yes, the state of the iLert Incident is reflected in the title of the Github ticket, eg. \[RESOLVED\] Host compute.infra is DOWN.
 
-**Can I choose which updates should be published to an incident in Github?**
+**Can I choose which updates should be published to an alert in Github?**
 
 Currently not. If you wish we are looking forward to reading your feedback via chat or e-mail.
 

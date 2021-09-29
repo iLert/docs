@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert SignalFx integration, you can create incidents in iLert based
+  With the iLert SignalFx integration, you can create alerts in iLert based
   on SignalFx alerts.
 ---
 
@@ -26,7 +26,7 @@ SignalFx enables real-time cloud monitoring and observability for infrastructure
 
 ### Create a search <a id="create-action-sequences"></a>
 
-1. Go to SignalFx and then to **Alerts.** Create a detector or edit an existing detector for triggering incidents.
+1. Go to SignalFx and then to **Alerts.** Create a detector or edit an existing detector for triggering alerts.
 
 ![](../.gitbook/assets/detectors.png)
 
@@ -38,13 +38,13 @@ SignalFx enables real-time cloud monitoring and observability for infrastructure
 
 ![](../.gitbook/assets/detector_-_my_detector%20%281%29.png)
 
-Finished! Your SignalFx alerts will now create incidents in iLert.
+Finished! Your SignalFx alerts will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as an alert with "ok" has been resolved in SignalFx, the associated incident in iLert will be resolved automatically.
+Yes, as soon as an alert with "ok" has been resolved in SignalFx, the associated alert in iLert will be resolved automatically.
 
 **Can I connect SignalFx with multiple alert sources from iLert?**
 

@@ -122,7 +122,7 @@ The plugin processes the notification types `PROBLEM` , `ACKNOWLEDGEMENT` and `R
 
 There are no events lost. Because the plugin stores the events locally in a temporary directory \(by default in /tmp/ilert-icinga \) and tries to send them to iLert every minute. This means that as soon as your connection is available again, cached events will be sent to iLert. In addition, we recommend that you monitor your Internet connection using our uptime monitoring feature.
 
-**Can I override the alert source default incident priority via the Icinga plugin?**
+**Can I override the alert source default alert priority via the Icinga plugin?**
 
 Yes, use `ICINGA_PRIORITY` variable in the notification command template and set it to `LOW` or `HIGH` e.g.
 

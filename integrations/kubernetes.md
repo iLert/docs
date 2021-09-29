@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert Kubernetes integration, you can create incidents in iLert based
+  With the iLert Kubernetes integration, you can create alerts in iLert based
   on Kubernetes events and metrics.
 ---
 
@@ -96,13 +96,13 @@ ilert-kube-agent-64f7dfd4d-zx7fb   1/1     Running   0          37h
 
 ###  <a id="create-action-sequences"></a>
 
-Finished! Your Kubernetes alerts will now create incidents in iLert.
+Finished! Your Kubernetes alerts will now create alerts in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as an alert has been resolved in ilert-kube-agent, the associated incident in iLert will be resolved automatically.
+Yes, as soon as an alert has been resolved in ilert-kube-agent, the associated alert in iLert will be resolved automatically.
 
 **Can I connect multiple Kuberenetes namespaces with multiple alert sources from iLert?**
 

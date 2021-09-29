@@ -1,14 +1,14 @@
 ---
 title: Github Inbound Check Run (Actions) Integration
 seoTitle: 'iLert: Github Actions Integration for Alerting | Incident Response | Uptime'
-description: Create incidents in iLert based on Check runs from GitHub.
+description: Create alerts in iLert based on Check runs from GitHub.
 date: '2020-04-21T07:00:00.000Z'
 weight: 1
 ---
 
 # GitHub Inbound Check Run \(Actions\) Integration
 
-With the iLert Github Check Run integration, you can add incidents in iLert based on "check run" from Github \(e.g. Github Actions\).
+With the iLert Github Check Run integration, you can add alerts in iLert based on "check run" from Github \(e.g. Github Actions\).
 
 ## In iLert: Create Github alert source <a id="create-alert-source"></a>
 
@@ -42,15 +42,15 @@ With the iLert Github Check Run integration, you can add incidents in iLert base
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as the recovery conditions of check run are met, the incident in iLert will be resolved automatically.
+Yes, as soon as the recovery conditions of check run are met, the alert in iLert will be resolved automatically.
 
 **Can I connect Github with multiple alert sources from iLert?**
 
 Yes, simply create more webhooks in Github.
 
-**Can I customize the incident messages?**
+**Can I customize the alert messages?**
 
 No.
 

@@ -1,7 +1,7 @@
 ---
 title: Amazon CloudWatch Integration
 seoTitle: 'iLert: Amazon CloudWatch Integration for Alerting | Incident Response | Uptime'
-description: Create incidents in iLert from CloudWatch alarms.
+description: Create alerts in iLert from CloudWatch alarms.
 date: '2018-12-29T05:02:05.000Z'
 weight: 1
 type: post
@@ -11,7 +11,7 @@ type: post
 
 Amazon CloudWatch is a monitoring service for AWS cloud resources and applications running in the AWS Cloud. Amazon CloudWatch can monitor AWS resources, such as EC2 instances, Amazon DynamoDB tables, and Amazon RDS DB instances, as well as application and service generated metrics and log files.
 
-With iLert's CloudWatch integration, you can automatically create incidents in iLert from CloudWatch alarms. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When CloudWatch creates an alarm, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start. 
+With iLert's CloudWatch integration, you can automatically create alerts in iLert from CloudWatch alarms. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When CloudWatch creates an alarm, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start. 
 
 ## In iLert: Create CloudWatch alert source <a id="create-alert-source"></a>
 
@@ -67,9 +67,9 @@ You can now link any CloudWatch alarm to the topic you have created. The followi
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as the condition of an alarm is OK again in CloudWatch, the incident in iLert will be fixed.
+Yes, as soon as the condition of an alarm is OK again in CloudWatch, the alert in iLert will be fixed.
 
 **Can I link CloudWatch to multiple alert sources in iLert?**
 

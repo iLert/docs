@@ -2,7 +2,7 @@
 title: Discord Integration
 seoTitle: 'iLert: Discord for Alerting | Incident Response | Uptime'
 description: >-
-  The iLert Discord Integration helps you to bring iLert incidents into your
+  The iLert Discord Integration helps you to bring iLert alerts into your
   Discord channels
 date: '2020-04-23T05:02:05.000Z'
 weight: 1
@@ -46,7 +46,7 @@ weight: 1
 
 ![](../.gitbook/assets/ilert%20%2888%29.png)
 
-4. Go to the alert sources tab and open the alert source whose incidents you want to publish in Discord. Click on **Incident actions** and then on **Create incident action**.
+4. Go to the alert sources tab and open the alert source whose alerts you want to publish in Discord. Click on **Alert actions** and then on **Create alert action**.
 
 ![](../.gitbook/assets/new_incident_action%20%2812%29.png)
 
@@ -65,15 +65,15 @@ A test ticket will be created in Discord.
 
 Yes.
 
-**Are updates to an incident published on the Discord Chat channel?**
+**Are updates to an alert published on the Discord Chat channel?**
 
-Yes, the following updates to an incident are currently being released:
+Yes, the following updates to an alert are currently being released:
 
-* **Escalations** : An incident is assigned to another user through an automatic escalation.
-* **Manual Assignments** : An incident is manually assigned to someone.
-* **Actions** : An incident is accepted or resolved.
+* **Escalations** : An alert is assigned to another user through an automatic escalation.
+* **Manual Assignments** : An alert is manually assigned to someone.
+* **Actions** : An alert is accepted or resolved.
 
-**Can I choose which updates to an incident will be published in Discord Chat?**
+**Can I choose which updates to an alert will be published in Discord Chat?**
 
 Yes.
 

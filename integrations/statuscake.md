@@ -10,7 +10,7 @@ weight: 1
 
 # StatusCake Integration
 
-With the iLert StatusCake integration, you can create incidents in iLert based on alerts from StatusCake.
+With the iLert StatusCake integration, you can create alerts in iLert based on alerts from StatusCake.
 
 ## In iLert: Create a StatusCake alert source <a id="create-alert-source"></a>
 
@@ -50,15 +50,15 @@ With the iLert StatusCake integration, you can create incidents in iLert based o
 
 ## FAQ <a id="faq"></a>
 
-**Will incidents in iLert be resolved automatically?**
+**Will alerts in iLert be resolved automatically?**
 
-Yes, as soon as the StatusCake alert is closed, the incident in iLert will be resolved automatically.
+Yes, as soon as the StatusCake alert is closed, the alert in iLert will be resolved automatically.
 
 **Can I connect StatusCake with multiple alert sources from iLert?**
 
 Yes, simply create more Contact Groups in StatusCake.
 
-**Can I customize the incident messages?**
+**Can I customize the alert messages?**
 
 No.
 

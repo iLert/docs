@@ -30,11 +30,11 @@ description: >-
 
 ![](../../.gitbook/assets/ilert%20%283%29.png)
 
-4. Go to the alert sources tab and open the alert source whose incidents you want to publish in Sysdig. Click on **Incident actions** and then on **Create incident action**.
+4. Go to the alert sources tab and open the alert source whose alerts you want to publish in Sysdig. Click on **Alert actions** and then on **Create alert action**.
 
 ![](../../.gitbook/assets/new_incident_action%20%288%29.png)
 
-5. Select **Sysdig** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the incident action name.
+5. Select **Sysdig** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the alert action name.
 
 ![](../../.gitbook/assets/ilert%20%2878%29.png)
 
@@ -46,7 +46,7 @@ description: >-
 
 ## FAQ <a id="faq"></a>
 
-**Are updates for an incident adapted in the corresponding Sysdig Event?**
+**Are updates for an alert adapted in the corresponding Sysdig Event?**
 
-Yes, the state of the iLert Incident is reflected in the brief description of the Sysdig event, eg \[RESOLVED\] Host compute.infra is DOWN.
+Yes, the state of the iLert Alert is reflected in the brief description of the Sysdig event, eg \[RESOLVED\] Host compute.infra is DOWN.
 

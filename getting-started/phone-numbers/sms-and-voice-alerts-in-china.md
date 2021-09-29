@@ -19,9 +19,9 @@ With the help of our platform solution and our partners iLert still tries to off
 * By default China voice calls are not enabled, please contact our [support](../../contact.md#support) if you need to alert Chinese devices from your account
 * SMS alerting for China is currently not possible
 * Call delivery to China will be made on a best-effort basis
-* If a high number of unique incidents are triggering voice alerts for your Chinese number **in a single hour**, there is a chance that calls will be skipped to prevent blocking \(this is logged in the incidents timeline\), we suggest to always add a secondary notification preference a long voice alerts for Chinese users
+* If a high number of unique alerts are triggering voice alerts for your Chinese number **in a single hour**, there is a chance that calls will be skipped to prevent blocking \(this is logged in the alerts timeline\), we suggest to always add a secondary notification preference a long voice alerts for Chinese users
 * We suggest installing the iLert mobile app as it keeps all of our outbound numbers in sync with your devices contacts
-* Chinese call notifications do not support direct incident responses e.g. pressing a key to accept or resolve, we suggest using the mobile app for this
+* Chinese call notifications do not support direct alert responses e.g. pressing a key to accept or resolve, we suggest using the mobile app for this
 
 ### Which alternatives are available?
 

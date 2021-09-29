@@ -16,8 +16,8 @@ description: >-
 ### New and updated integrations
 
 * added dynamic user-, priority- and policy mapping to our [ServiceNow integration](integrations/service-now/inbound.md)
-* updated [Jira inbound integration](integrations/jira/inbound.md) to support incident creation on update events
-* added new fields for [ServiceNow outbound](integrations/service-now/outbound.md) incident creation
+* updated [Jira inbound integration](integrations/jira/inbound.md) to support alert creation on update events
+* added new fields for [ServiceNow outbound](integrations/service-now/outbound.md) alert creation
 
 ### Improvements
 
@@ -46,8 +46,8 @@ description: >-
 
 ### New and updated integrations
 
-* Zendesk inbound integration now supports attaching comments to incidents
-* Zammad inbound integration now supports attaching comments to incidents
+* Zendesk inbound integration now supports attaching comments to alerts
+* Zammad inbound integration now supports attaching comments to alerts
 
 ## June 2021
 
@@ -60,7 +60,7 @@ description: >-
 
 * Added `team-context` HTTP header to control team context on a per request basis when using api keys
 * Escalation policy detail view has been added
-* Attaching comments to incidents is now additionally possible through the events [API](https://api.ilert.com/api-docs/#tag/Events/paths/~1events/post)
+* Attaching comments to alerts is now additionally possible through the events [API](https://api.ilert.com/api-docs/#tag/Events/paths/~1events/post)
 
 ### Improvements
 
@@ -73,7 +73,7 @@ description: >-
 
 ### New and updated integrations
 
-* The incident priority of Zammad, ServiceNOW and SearchGuard Inbound Integrations is now fully managed in the alert source
+* The alert priority of Zammad, ServiceNOW and SearchGuard Inbound Integrations is now fully managed in the alert source
 * DingTalk Outbound Integration
 
 ### New features
@@ -131,7 +131,7 @@ description: >-
 * New: [Splunk Inbound](integrations/splunk.md) Integration
 * New: [Elastic Search Guard Inbound](integrations/search-guard.md) Integration
 * New: [ServiceNow Inbound](integrations/service-now/inbound.md) Integration
-* Updated PRTG integration: custom incident summary and details based on PRTG placeholders.
+* Updated PRTG integration: custom alert summary and details based on PRTG placeholders.
 
 ### Improvements
 
@@ -153,7 +153,7 @@ description: >-
 ### New features
 
 * Irregular Schedules new calendar UI
-* Call Routing: You may now choose if an incident is resolved on agent/caller hang-up 
+* Call Routing: You may now choose if an alert is resolved on agent/caller hang-up 
 
 ### New and updated integrations
 
@@ -161,7 +161,7 @@ description: >-
 
 ### Improvements
 
-* Links and Images for Incidents with automatic connections
+* Links and Images for Alerts with automatic connections
 * Adedd [international caller IDs for voice alerts](getting-started/phone-numbers/#voice-alerts) for USA and Canada, UK, Australia, Belgium and Netherlands
 
 
@@ -182,7 +182,7 @@ description: >-
 * New: Server Density [Inbound](integrations/serverdensity.md) Integration
 * New: [Consul](integrations/consul.md) integration
 * Updated [Email integration](integrations/email/): email deduplication now also works for email threads
-* Updated [Pingdom integration](integrations/pingdom.md): incidents created by Pingdom now include a backlink to Pingdom
+* Updated [Pingdom integration](integrations/pingdom.md): alerts created by Pingdom now include a backlink to Pingdom
 
 ## October 2020
 
@@ -197,13 +197,13 @@ description: >-
 
 ### Improvements
 
-* Call routing: added mailbox transcription to incident details and made voicemail links easier accessible in the incident links section
+* Call routing: added mailbox transcription to alert details and made voicemail links easier accessible in the alert links section
 
 ## September 2020
 
 ### New features
 
-* Incident Actions
+* Alert Actions
 * Support for outbound connections in Call Routing Numbers
 * Support Hours for Call Routing Numbers
 
@@ -212,14 +212,14 @@ description: >-
 * [Email Outbound Integration](integrations/email-outbound-integration.md)
 * [Kentix AlarmManager](integrations/kentix-am.md)
 * Datadog Outbound Integration now supports regions
-* Prometheus incident detail formatting has been updated
+* Prometheus alert detail formatting has been updated
 * Slack channels \(connections\) can now be managed in iLert directly
 
 ### Improvements
 
-* Ability to select incident events in outbound integrations. Example: trigger webhooks for incident creation and resolution events, but ignore remaining incident event types.
+* Ability to select alert events in outbound integrations. Example: trigger webhooks for alert creation and resolution events, but ignore remaining alert event types.
 * Every call routing number is now referenced to an alert source, helping you connect incoming calls to e.g. Slack. You can now also manage support hours for your call routing number.
-* Optimized bulk incident actions like accept and resolve
+* Optimized bulk alert actions like accept and resolve
 * Uptime monitor TCP and UDP modes now support first packet and expected packet
 * Further improvements on our API to optimize response time and delivery for our mobile app
 * New API endpoint /numbers
@@ -228,19 +228,19 @@ description: >-
 
 ### New features
 
-* Ability to re-route incidents to escalation policies and on-call schedules
-* Suggested responders: when re-routing an incident, iLert now suggests you the best responder based on historic data
+* Ability to re-route alerts to escalation policies and on-call schedules
+* Suggested responders: when re-routing an alert, iLert now suggests you the best responder based on historic data
 
 ### New and updated integrations
 
 * [Autotask](integrations/autotask/)
 * [Zabbix](integrations/zabbix/native.md) \(updated\): Starting Zabbix 4.4, iLert can be integrated as a media type into Zabbix. Zabbix 5.0.4+ includes iLert as a media type by default. See also Zabbix blog post: [Working with multiple on-call teams using Zabbix and iLert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/) 
-* [Prometheus](integrations/prometheus.md) \(updated\): improved readabiltiy of prometheus incidents
+* [Prometheus](integrations/prometheus.md) \(updated\): improved readabiltiy of prometheus alerts
 
 ### Improvements
 
 * Alert source overview page now includes outbound connections
-* User profile: low priority notifications rules are entirely optional, i.e. a user can now chose to not receive any notification for low priority incidents
+* User profile: low priority notifications rules are entirely optional, i.e. a user can now chose to not receive any notification for low priority alerts
 
 ## July 2020
 
@@ -252,18 +252,18 @@ description: >-
 
 ### Updated integrations
 
-* [Email](integrations/email/): added ability to resolve incidents via email
+* [Email](integrations/email/): added ability to resolve alerts via email
 
 ### Improvements
 
-* [Stakeholder engagement](getting-started/stakeholder-engagement.md): stakeholders can now unsubscribe from incident update notifications
+* [Stakeholder engagement](getting-started/stakeholder-engagement.md): stakeholders can now unsubscribe from alert update notifications
 * Email login: Users can now login via email \(in addition to username\) . Usernames in iLert are deprecated and will be removed in the future.
 
 ## May 2020
 
 ### New features
 
-* [Stakeholder engagement](getting-started/stakeholder-engagement.md): keep stakeholders in the loop during critical incidents \([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/)\).
+* [Stakeholder engagement](getting-started/stakeholder-engagement.md): keep stakeholders in the loop during critical alerts \([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/)\).
 
 ### New and updated integrations
 
@@ -273,8 +273,8 @@ description: >-
   * [AWS Lambda](integrations/aws-lambda.md)
   * [Google Cloud Functions](integrations/gcf.md)
   * [Microsoft Azure Functions](integrations/azure-functions.md)
-* [Icinga v2.x](integrations/icinga.md) \(updated\): there is a dedicated plugin for Icinga now on our [GitHub repo](https://github.com/iLert/ilert-icinga). You can now override the incident priority from within Icinga and we include the comments that you enter in Icinga when ack’ing a problem in the event log of the incident.
-* [JIRA](integrations/jira/) \(updated\): When you setup a connection from your alert source in iLert to your JIRA instance, projects and issue types are now dynamically fetched from your JIRA instance, so you can select the issue types when iLert syncs an incident to JIRA. You can even include custom fields.
+* [Icinga v2.x](integrations/icinga.md) \(updated\): there is a dedicated plugin for Icinga now on our [GitHub repo](https://github.com/iLert/ilert-icinga). You can now override the alert priority from within Icinga and we include the comments that you enter in Icinga when ack’ing a problem in the event log of the alert.
+* [JIRA](integrations/jira/) \(updated\): When you setup a connection from your alert source in iLert to your JIRA instance, projects and issue types are now dynamically fetched from your JIRA instance, so you can select the issue types when iLert syncs an alert to JIRA. You can even include custom fields.
 * [Webhook](integrations/webhook.md) \(updated\): you can now fully customize the payload for outbound webhooks.
 
 ### Improvements
@@ -288,7 +288,7 @@ description: >-
 ### New features
 
 * [Single Sign On](integrations/sso.md): Single sign on makes it easy to manage access to your iLert account using an identity provider of your choice.
-* **Incident Reporting** includes key metrics such MTTA and MTTR \([blog post](https://www.ilert.com/blog/2020-04-07-incident-reports-ilert-sso/#reports)\).
+* **Alert Reporting** includes key metrics such MTTA and MTTR \([blog post](https://www.ilert.com/blog/2020-04-07-alert-reports-ilert-sso/#reports)\).
 
 ### New integrations
 
@@ -300,7 +300,7 @@ description: >-
 
 ### Improvements
 
-* **Auto raise incident priority** lets you delay notifications and escalations until support hours start \([blog post](https://www.ilert.com/blog/2020-04-07-incident-reports-ilert-sso/#auto-raise)\)
+* **Auto raise alert priority** lets you delay notifications and escalations until support hours start \([blog post](https://www.ilert.com/blog/2020-04-07-alert-reports-ilert-sso/#auto-raise)\)
 
 
 

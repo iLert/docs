@@ -1,7 +1,7 @@
 ---
 description: >-
   User iLert as the trigger in Zapier and perform any action in Zapier for new
-  or updated incidents in iLert.
+  or updated alerts in iLert.
 ---
 
 # Zapier Outbound Integration
@@ -18,7 +18,7 @@ description: >-
 
 ![](../../.gitbook/assets/edit_a_step___zapier.png)
 
-3. In the section **Trigger Event** choose **New or Updated Incident** and click on the **Continue** button
+3. In the section **Trigger Event** choose **New or Updated Alert** and click on the **Continue** button
 
 ![](../../.gitbook/assets/edit_a_step___zapier%20%282%29.png)
 
@@ -26,7 +26,7 @@ description: >-
 
 ![](../../.gitbook/assets/edit_a_step___zapier%20%284%29.png)
 
-5. On the next slide, choose **an alert source** and **trigger types** e.g. Incident Created. Then click on the **Continue** button.
+5. On the next slide, choose **an alert source** and **trigger types** e.g. Alert Created. Then click on the **Continue** button.
 
 {% hint style="warning" %}
 NOTE: you can't use an Zapier alert source here, as it will lead to an infinite loop

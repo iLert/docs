@@ -1,5 +1,5 @@
 ---
-description: Create Microsoft Teams Meeting from iLert incidents.
+description: Create Microsoft Teams Meeting from iLert alerts.
 ---
 
 # Microsoft Teams Meeting Integration
@@ -46,7 +46,7 @@ Now that the initial connection between your Microsoft Teams and iLert accounts 
 
 ### Link the Microsoft Teams Connector to the alert source
 
-1. ****Go to the alert sources tab and open the alert source for which you want to configure the meeting action. Click on the **Incident actions** tab and then on the **Add new incident action** button
+1. ****Go to the alert sources tab and open the alert source for which you want to configure the meeting action. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
@@ -54,7 +54,7 @@ Now that the initial connection between your Microsoft Teams and iLert accounts 
 
 ![](../../.gitbook/assets/ilert%20%2899%29.png)
 
-3. Finished! A Microsoft Teams Meeting incident action will now be available on each incident that is created by your alert source. Triggering the action \(use **...** in the top right actions bar\) will add a **Join Meeting Link** to the incident in iLert as well as post a message into your configured Microsoft Teams channel with the meeting's details.
+3. Finished! A Microsoft Teams Meeting alert action will now be available on each alert that is created by your alert source. Triggering the action \(use **...** in the top right actions bar\) will add a **Join Meeting Link** to the alert in iLert as well as post a message into your configured Microsoft Teams channel with the meeting's details.
 
 ![](../../.gitbook/assets/ilert%20%28100%29.png)
 
