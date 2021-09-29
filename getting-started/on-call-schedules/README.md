@@ -4,7 +4,7 @@ description: Maximize accountability and transparency with on-call schedules
 
 # On-call schedules
 
-Use schedules to dynamically determine to whom an incident will be assigned to based on the time of the day. A few things to know about schedules:
+Use schedules to dynamically determine to whom an alert will be assigned to based on the time of the day. A few things to know about schedules:
 
 * Only one user per schedule can be on-call at a time.
 * Schedules are used in escalation policy. The members of a schedule will only be notified about inidents, if the schedule is part of an escalation policy.
@@ -122,7 +122,7 @@ To add an override in the mobile app, open the **Who is on-call?** screen and ta
 
 #### What happens if there is a gap in a schedule?
 
-If an incident occurs during a time with no coverage in your schedule, then the incident will be escalated immediately to the next escalation level, without waiting for the escalation timeout. If no one is on-call on the entire escalation policy, no one will be notified. 
+If an alert occurs during a time with no coverage in your schedule, then the alert will be escalated immediately to the next escalation level, without waiting for the escalation timeout. If no one is on-call on the entire escalation policy, no one will be notified. 
 
 #### Can I choose my own shift colour?
 
