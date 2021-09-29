@@ -48,7 +48,8 @@ Now that the initial connection between your Microsoft Teams and iLert accounts 
 
 ### Link the Microsoft Teams Chat Connector to the alert source <a id="link-the-microsoft-teams-chat-connector-to-the-alert-source"></a>
 
-1. ****Go to the alert sources tab and open the alert source whose alert's updates you want to publish into Microsoft Teams channels. Click on the **Alert actions** tab and then on the **Add new alert action** button
+
+1. Go to the alert sources tab and open the alert source whose alert's updates you want to publish into Microsoft Teams channels. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
