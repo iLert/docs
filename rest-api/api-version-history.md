@@ -35,7 +35,7 @@ Integrations that have been developed using the old API version do not have to b
 
 ### Renaming incidents to alerts
 
-In September 2021 we announced that we would rename incidents to alerts. Explaining that incidents would be reborn as new entity for the next big product extension incident communication v2 and status pages. Of course this also required us to change the API resources. `/api/1/incidents` became `/api/alerts` and `/api/incidents` will hold the new entity.
+In September 2021 we announced that we would [rename incidents to alerts](../getting-started/faq/renaming-of-incidents-to-alerts.md). Explaining that incidents would be reborn as new entity for the next big product extension incident communication v2 and status pages. Of course this also required us to change the API resources. `/api/1/incidents` became `/api/alerts` and `/api/incidents` will hold the new entity.
 
 #### What did we do to keep backwards compatibility?
 
