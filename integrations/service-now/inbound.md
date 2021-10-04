@@ -1,7 +1,7 @@
 ---
 description: >-
-  With the iLert ServiceNow integration, you can create alerts in iLert based
-  on ServiceNow alerts.
+  With the iLert ServiceNow integration, you can create alerts in iLert based on
+  ServiceNow alerts.
 ---
 
 # ServiceNow Inbound Integration
@@ -13,12 +13,11 @@ description: >-
 ### Create a ServiceNow alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
-
 2. Enter a name and select your desired escalation policy. Select "ServiceNow" as the **Integration Type** and click on **Save**.
 
 ![](../../.gitbook/assets/screenshot_09_02_21__07_51.png)
 
-3. On the next page, a **ServiceNow URL** is generated. You will need this URL below when setting up the hook in ServiceNow.
+1. On the next page, a **ServiceNow URL** is generated. You will need this URL below when setting up the hook in ServiceNow.
 
 ![](../../.gitbook/assets/screenshot_09_02_21__07_52.png)
 
@@ -26,54 +25,54 @@ description: >-
 
 ### Create business rule <a id="create-business-rule"></a>
 
-1. Go to ServiceNow, search for **Incidents**, ****then open the header menu and choose **Configure -&gt; Business Rules**
+1. Go to ServiceNow, search for **Incidents**, **\*\*then open the header menu and choose** Configure -&gt; Business Rules\*\*
 
 ![](../../.gitbook/assets/screenshot_08_02_21__22_40.png)
 
-2. In the **Business Rules** view click on **New** to create a new business rule
+1. In the **Business Rules** view click on **New** to create a new business rule
 
 ![](../../.gitbook/assets/screenshot_08_02_21__22_42.png)
 
-3. Name the business rule e.g. **iLert Alerts**, choose **Advanced** option, in the **When to run** section choose **async** then choose **Insert** and **Update** options
+1. Name the business rule e.g. **iLert Alerts**, choose **Advanced** option, in the **When to run** section choose **async** then choose **Insert** and **Update** options
 
 ![](../../.gitbook/assets/screenshot_08_02_21__22_43.png)
 
-4. Go to Advanced tab and paste the following code into the script section:
+1. Go to Advanced tab and paste the following code into the script section:
 
 ```text
 (function executeRule(current, previous /*null when async*/) {
 
-	var iLertUrl = "<your alert source URL here>";
-	
-	
-	function glideRecordToJson(gr) {
-		var obj = {};
-		for (var prop in gr) {
-			if (gr[prop]){
-				obj[prop] = gr.getValue(prop);
-			}
-		}
-		return obj;
-	}
+    var iLertUrl = "<your alert source URL here>";
 
-	var obj = glideRecordToJson(current);
-	obj.server_url = gs.getProperty("glide.servlet.uri");
-	var body = JSON.stringify(obj);
-	var request = new sn_ws.RESTMessageV2();
-	request.setEndpoint(iLertUrl);
-	request.setHttpMethod("POST");
-	request.setRequestBody(body);
-	request.setRequestHeader("Accept", "application/json");
-	request.setRequestHeader("Content-Type", "application/json");
-	
-	var response = request.execute();
-	gs.log(response.getBody());
-	
+
+    function glideRecordToJson(gr) {
+        var obj = {};
+        for (var prop in gr) {
+            if (gr[prop]){
+                obj[prop] = gr.getValue(prop);
+            }
+        }
+        return obj;
+    }
+
+    var obj = glideRecordToJson(current);
+    obj.server_url = gs.getProperty("glide.servlet.uri");
+    var body = JSON.stringify(obj);
+    var request = new sn_ws.RESTMessageV2();
+    request.setEndpoint(iLertUrl);
+    request.setHttpMethod("POST");
+    request.setRequestBody(body);
+    request.setRequestHeader("Accept", "application/json");
+    request.setRequestHeader("Content-Type", "application/json");
+
+    var response = request.execute();
+    gs.log(response.getBody());
+
 
 })(current, previous);
 ```
 
-5. Click on **Submit** or **Update** to save the business rule
+1. Click on **Submit** or **Update** to save the business rule
 
 ![](../../.gitbook/assets/screenshot_08_02_21__22_46.png)
 
@@ -93,7 +92,7 @@ description: >-
       <td style="text-align:left">is created</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>In Progress </b>or <b>Complete</b> or <b>Closed</b>
+      <td style="text-align:left"><b>In Progress</b> or <b>Complete</b> or <b>Closed</b>
       </td>
       <td style="text-align:left">
         <p>will not be created and a</p>
@@ -103,13 +102,11 @@ description: >-
   </tbody>
 </table>
 
-
-
 <table>
   <thead>
     <tr>
       <th style="text-align:left">When I update an ServiceNow ticket with status...</th>
-      <th style="text-align:left">...and the<b> </b>iLert alert...</th>
+      <th style="text-align:left">...and the iLert alert...</th>
       <th style="text-align:left">...then the/an iLert Alert...</th>
     </tr>
   </thead>
@@ -121,7 +118,7 @@ description: >-
       <td style="text-align:left">is created</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>In Progress </b>or <b>Complete</b> or <b>Closed</b>
+      <td style="text-align:left"><b>In Progress</b> or <b>Complete</b> or <b>Closed</b>
       </td>
       <td style="text-align:left">does not exist</td>
       <td style="text-align:left">

@@ -17,14 +17,12 @@ With PRTG integration, you can easily integrate PRTG with iLert and extend your 
 ## In iLert: Create PRTG alert source <a id="create-alarm-source"></a>
 
 1. Go to **Alert sources** and click on **Add a new alert source**
-
 2. Enter a name for your alert source \(e.g. "PRTG"\) and select your desired escalation policy.
-
 3. In the Integration Type field, select **PRTG Network Monitor** and click on Save
 
 ![](../.gitbook/assets/screenshot-2020-09-22-at-08.53.15.png)
 
-5. On the next page,  **PRTG URL** and **PRTG Postdata** fields will be displayed.  You will need those two fields in the PRTG setup.
+1. On the next page,  **PRTG URL** and **PRTG Postdata** fields will be displayed.  You will need those two fields in the PRTG setup.
 
 ![](../.gitbook/assets/screenshot-2020-09-22-at-09.04.21.png)
 
@@ -34,21 +32,18 @@ With PRTG integration, you can easily integrate PRTG with iLert and extend your 
 
 ![](../.gitbook/assets/pg3.png)
 
-2. Add a new notification
-
-3. As notification method select **Execute HTTP ACTION**
-
-4. Copy the **URL** and **Postdata** fields from the iLert alert source. The API key is included in Postdata.
+1. Add a new notification
+2. As notification method select **Execute HTTP ACTION**
+3. Copy the **URL** and **Postdata** fields from the iLert alert source. The API key is included in Postdata.
 
 ![](../.gitbook/assets/pg4.png)
 
-5. Click on **Save**
-
-6. Next we will use the newly created iLert notification method in PRTG. To do this, switch to the root group in the device overview and select the "Notifications" tab.
+1. Click on **Save**
+2. Next we will use the newly created iLert notification method in PRTG. To do this, switch to the root group in the device overview and select the "Notifications" tab.
 
 ![](../.gitbook/assets/pg5.png)
 
-7. Create the following status triggers. **Note**: We recommend the option "repeat this every 5 minutes" in case your internet connection goes down.
+1. Create the following status triggers. **Note**: We recommend the option "repeat this every 5 minutes" in case your internet connection goes down.
 
 ![](../.gitbook/assets/pg6.png)
 
@@ -72,5 +67,5 @@ Yes, create multiple iLert notifications in PRTG. You can then associate them wi
 
 **The integration does not work. How do I find the mistake?**
 
-If you can not find the error, please contact our support at [support@ilert.com](support@ilert.com).
+If you can not find the error, please contact our support at [support@ilert.com](https://github.com/iLert/docs/tree/dfe03283a452516a115a55f8c20942698e279d7b/integrations/support@ilert.com).
 

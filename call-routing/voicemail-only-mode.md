@@ -1,6 +1,6 @@
 # Voicemail only mode
 
-The `Voicemail only mode` option will skip any greeting and IVR menu and send every incoming calls to the voicemail. In  `Voicemail only mode` , the first routing option will be selected as escalation policy to escalate the related alert. 
+The `Voicemail only mode` option will skip any greeting and IVR menu and send every incoming calls to the voicemail. In `Voicemail only mode` , the first routing option will be selected as escalation policy to escalate the related alert.
 
 ![](../.gitbook/assets/image%20%2819%29.png)
 

@@ -13,12 +13,11 @@ Sentry's platform helps developers diagnose, fix, and optimize the performance o
 ### Create a Sentry alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
-
 2. Enter a name and select your desired escalation policy. Select "Sentry" as the **Integration Type** and click on **Save**.
 
 ![](../.gitbook/assets/screenshot_25_02_21__21_51.png)
 
-3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the hook in Sentry.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the hook in Sentry.
 
 ![](../.gitbook/assets/screenshot_25_02_21__21_52.png)
 
@@ -30,15 +29,15 @@ Sentry's platform helps developers diagnose, fix, and optimize the performance o
 
 ![](../.gitbook/assets/screenshot_25_02_21__21_58.png)
 
-2. On the next page,  **name** the integration e.g. iLert, paste the **Webhook URL** that you generated in iLert, enable **Alert Rule Action** option, give the read access to **Issue & Event** and in the **Webhooks** section choose **Issue** option, then click on **Save**
+1. On the next page,  **name** the integration e.g. iLert, paste the **Webhook URL** that you generated in iLert, enable **Alert Rule Action** option, give the read access to **Issue & Event** and in the **Webhooks** section choose **Issue** option, then click on **Save**
 
 ![](../.gitbook/assets/screenshot_25_02_21__22_53.png)
 
-3. Go to **Alerts** and click on **Create Alert Rule**
+1. Go to **Alerts** and click on **Create Alert Rule**
 
 ![](../.gitbook/assets/screenshot_25_02_21__22_08.png)
 
-4. On the next page,  **name** the alert rule e.g. iLert, in the **Then perform these actions** section choose **Send a notification via an  integration** and choose iLert, then click on **Create Alert Rule** button
+1. On the next page,  **name** the alert rule e.g. iLert, in the **Then perform these actions** section choose **Send a notification via an  integration** and choose iLert, then click on **Create Alert Rule** button
 
 ![](../.gitbook/assets/screenshot_25_02_21__22_10.png)
 

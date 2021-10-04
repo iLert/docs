@@ -4,8 +4,8 @@ seoTitle: >-
   iLert: Google Stackdriver Integration for Alerting | Incident Response |
   Uptime
 description: >-
-  With the iLert Google Cloud Monitoring integration, you can create alerts
-  in iLert based on Google Cloud Alerts.
+  With the iLert Google Cloud Monitoring integration, you can create alerts in
+  iLert based on Google Cloud Alerts.
 date: '2018-12-29T05:02:05.000Z'
 weight: 1
 ---
@@ -19,14 +19,12 @@ With [Google Cloud Monitoring](https://cloud.google.com/monitoring) you can gain
 ### Create a Google Cloud Monitoring alert source
 
 1. Switch to the tab "alert sources" and click on the button "Create new alert source"
-
 2. Assign name and select escalation chain
-
 3. Select and save in the Google Cloud Monitoring Integration Type field.
 
 ![](../.gitbook/assets/screenshot_27_09_21__17_08.png)
 
-4. On the next page, a Webhook URL is generated. You will need this URL below when setting up the Motification Channel in Google Cloud Console.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the Motification Channel in Google Cloud Console.
 
 ![](../.gitbook/assets/screenshot_27_09_21__17_10.png)
 
@@ -38,19 +36,19 @@ With [Google Cloud Monitoring](https://cloud.google.com/monitoring) you can gain
 
 ![](../.gitbook/assets/screenshot_27_09_21__17_12.png)
 
-2. On the Monitoring page go to **Alerting** and click on the **Edit Notification channels** button
+1. On the Monitoring page go to **Alerting** and click on the **Edit Notification channels** button
 
 ![](../.gitbook/assets/screenshot_27_09_21__17_15.png)
 
-3. On the Notification Channels page click on the **Add New** button beside the Webhooks channels.
+1. On the Notification Channels page click on the **Add New** button beside the Webhooks channels.
 
 ![](../.gitbook/assets/screenshot_27_09_21__17_17.png)
 
-3. Assign a **Display Name** on the following modal \(e.g. iLert\) and in the field "Endpoint URL" paste the **Webhook URL** that you generated in iLert and click on the **Save** button.
+1. Assign a **Display Name** on the following modal \(e.g. iLert\) and in the field "Endpoint URL" paste the **Webhook URL** that you generated in iLert and click on the **Save** button.
 
 ![](../.gitbook/assets/screenshot_27_09_21__17_21.png)
 
-4. After you've created the iLert webhook, you can use it as a notification in any Alerting Policy in Google Cloud Monitoring. The following screenshot will create a new Alerting Policy with iLert as the notification method.
+1. After you've created the iLert webhook, you can use it as a notification in any Alerting Policy in Google Cloud Monitoring. The following screenshot will create a new Alerting Policy with iLert as the notification method.
 
 ![](../.gitbook/assets/screenshot_27_09_21__17_25.png)
 

@@ -15,12 +15,11 @@ With the iLert Dynatrace integration, you can add alerts in iLert based on probl
 ## In iLert: Create a Dynatrace alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click "Create new alert source"
-
 2. Enter a name and select your desired escalation policy. Select "Dynatrace" as the **Integration Type** and click **Save**.
 
 ![](../.gitbook/assets/dyn5.png)
 
-3. On the next page, a Webhook URL is generated. You will need this URL below when setting up Dynatrace.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up Dynatrace.
 
 ![](../.gitbook/assets/dyn6.png)
 
@@ -32,17 +31,14 @@ With the iLert Dynatrace integration, you can add alerts in iLert based on probl
 
 ![](../.gitbook/assets/dyn1.png)
 
-2. Select **Custom integration** 
+1. Select **Custom integration** 
 
 ![](../.gitbook/assets/dyn2.png)
 
-3. In the **Name** section, enter a name \(e.g. "iLert Notification"\)
-
-4. In the **Webhook URL** section, set the **Webhook URL** to the one generated in iLert
-
-5. In the **Additional HTTP Headers** section, add the following headers `Accept`: `application/json` and `Content-Type`: `application/json`
-
-6. In the _Custom payload_ section, set the MIME type to `application/json` and copy and paste the following JSON payload:
+1. In the **Name** section, enter a name \(e.g. "iLert Notification"\)
+2. In the **Webhook URL** section, set the **Webhook URL** to the one generated in iLert
+3. In the **Additional HTTP Headers** section, add the following headers `Accept`: `application/json` and `Content-Type`: `application/json`
+4. In the _Custom payload_ section, set the MIME type to `application/json` and copy and paste the following JSON payload:
 
 ```text
 {
@@ -56,11 +52,11 @@ With the iLert Dynatrace integration, you can add alerts in iLert based on probl
 
 ![](../.gitbook/assets/dyn3.png)
 
-7. Click the **Send test notification** button and you should receive a **Custom integration test successful** dialog message
+1. Click the **Send test notification** button and you should receive a **Custom integration test successful** dialog message
 
 ![](../.gitbook/assets/dyn4.png)
 
-8. Click **Save**
+1. Click **Save**
 
 ## FAQ <a id="faq"></a>
 

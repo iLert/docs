@@ -15,12 +15,11 @@ With iLert's AppDynamics integration, you can automatically create alerts in iLe
 ## In iLert: create an AppDynamics alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click "Create new alert source"
-
-2. Enter a name and select your desired escalation policy. Select "AppDynamics" as the **Integration Type**.  
+2. Enter a name and select your desired escalation policy. Select "AppDynamics" as the **Integration Type**.
 
 ![](../.gitbook/assets/ad17.png)
 
-3. Click **Save**. You're going to need the alert source's API key in AppDynamics.  
+1. Click **Save**. You're going to need the alert source's API key in AppDynamics.  
 
 ![](../.gitbook/assets/ad18.png)
 
@@ -32,18 +31,15 @@ With iLert's AppDynamics integration, you can automatically create alerts in iLe
 
 ![](../.gitbook/assets/ad1.png)
 
-2. Give the template a name \(e.g. "iLert Notification"\) and add the following **Custom Templating Variables**:
-
-* `ilertApiKey` - set it to the alert sources's API key from above
-* `ilertEventType` - set it to `ALERT`
-
-3. In the **Request URL** section, set the the **Method** to `POST` and the **Raw URL** to `https://api.ilert.com/api/v1/events`   
+1. Give the template a name \(e.g. "iLert Notification"\) and add the following **Custom Templating Variables**:
+2. `ilertApiKey` - set it to the alert sources's API key from above
+3. `ilertEventType` - set it to `ALERT`
+4. In the **Request URL** section, set the the **Method** to `POST` and the **Raw URL** to `https://api.ilert.com/api/v1/events`
 
 ![](../.gitbook/assets/ad2.png)
 
-4. In the **Custom Request Headers** section, add the following header `Accept`: `application/json`
-
-5. In the _Payload_ section, set the MIME type to `application/json` and copy and paste the following JSON payload:
+1. In the **Custom Request Headers** section, add the following header `Accept`: `application/json`
+2. In the _Payload_ section, set the MIME type to `application/json` and copy and paste the following JSON payload:
 
 ```text
 {
@@ -57,11 +53,11 @@ With iLert's AppDynamics integration, you can automatically create alerts in iLe
 
 ![](../.gitbook/assets/ad3.png)
 
-6. In the **Response Handling Criteria** section, add the following **Success Criteria**
+1. In the **Response Handling Criteria** section, add the following **Success Criteria**
 
 ![](../.gitbook/assets/ad4.png)
 
-7. Under **Settings**, check **One Request Per Event** and click on **Save**
+1. Under **Settings**, check **One Request Per Event** and click on **Save**
 
 ![](../.gitbook/assets/ad5.png)
 
@@ -72,12 +68,11 @@ With iLert's AppDynamics integration, you can automatically create alerts in iLe
 You can now test the template to make sure an alert is created in iLert.
 
 1. Click the _Test_ button at the bottom of the page
-
 2. Click _Add Event Type_ and select any event and then click _Run Test_.
 
 ![](../.gitbook/assets/ad6.png)
 
-3. Go to iLert and check that an alert has been created by AppDynamics.
+1. Go to iLert and check that an alert has been created by AppDynamics.
 
 ### Create action
 
@@ -85,15 +80,15 @@ You can now test the template to make sure an alert is created in iLert.
 
 ![](../.gitbook/assets/ad7.png)
 
-2. Select **HTTP Request** from the list and click **OK**.
+1. Select **HTTP Request** from the list and click **OK**.
 
 ![](../.gitbook/assets/ad8.png)
 
-3. Give the action a name, e.g. "iLert Alert" and select the iLert **HTTP Request Template** from above and click on **Save**.
+1. Give the action a name, e.g. "iLert Alert" and select the iLert **HTTP Request Template** from above and click on **Save**.
 
 ![](../.gitbook/assets/ad9.png)
 
-4. Create another action that will be used to resolve alerts in iLert. Give the action a name \(e.g. “iLert Resolve”\) and select the same HTTP template again. Change the `iLertEventType` from `ALERT` to `RESOLVE`, then click **Save**.
+1. Create another action that will be used to resolve alerts in iLert. Give the action a name \(e.g. “iLert Resolve”\) and select the same HTTP template again. Change the `iLertEventType` from `ALERT` to `RESOLVE`, then click **Save**.
 
 ![](../.gitbook/assets/ad10.png)
 
@@ -103,17 +98,17 @@ You can now test the template to make sure an alert is created in iLert.
 
 ![](../.gitbook/assets/ad11.png)
 
-2. On the **Triggers** tab, create a new policy with the settings that should create alerts in iLert.
+1. On the **Triggers** tab, create a new policy with the settings that should create alerts in iLert.
 
 ![](../.gitbook/assets/ad12.png)
 
-3. Switch to the **Actions** tab and add the **iLert Alert** that you've created above. Then, click on **Save**. 
+1. Switch to the **Actions** tab and add the **iLert Alert** that you've created above. Then, click on **Save**. 
 
 ![](../.gitbook/assets/ad13.png)
 
 ![](../.gitbook/assets/ad14.png)
 
-4. Now repeat the last 3 steps with your desired recovery conditions to have alerts in iLert close automatically when your application, server or database in AppDynamics recovers.
+1. Now repeat the last 3 steps with your desired recovery conditions to have alerts in iLert close automatically when your application, server or database in AppDynamics recovers.
 
 ![](../.gitbook/assets/ad15.png)
 

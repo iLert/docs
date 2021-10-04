@@ -16,11 +16,11 @@ MxToolbox supports global Internet operations by providing free, fast and accura
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_37.png)
 
-2. Enter a name and select your desired escalation policy. Select "MXToolBox" as the **Integration Type** and click on **Save**.
+1. Enter a name and select your desired escalation policy. Select "MXToolBox" as the **Integration Type** and click on **Save**.
 
 ![](../.gitbook/assets/ilert%20%2850%29.png)
 
-3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the notification callback in MXToolBox.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the notification callback in MXToolBox.
 
 ![](../.gitbook/assets/ilert%20%2839%29.png)
 
@@ -32,11 +32,11 @@ MxToolbox supports global Internet operations by providing free, fast and accura
 
 ![](../.gitbook/assets/mozilla_firefox%20%281%29.png)
 
-2. On the next page,  click on the **Custom** tile
+1. On the next page,  click on the **Custom** tile
 
 ![](../.gitbook/assets/mozilla_firefox.png)
 
-3. Open the notification policy, in the **Callback** section paste the **Webhook URL** that you generated in iLert, in the **Format** section choose **Default.** Make sure that the **Webhook URL** was ****saved and the **payload** matches the following format: ****
+1. Open the notification policy, in the **Callback** section paste the **Webhook URL** that you generated in iLert, in the **Format** section choose **Default.** Make sure that the **Webhook URL** was **\*\*saved and the** payload **matches the following format: \*\***
 
 ```javascript
 {

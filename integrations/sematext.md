@@ -16,11 +16,11 @@ Sematext Cloud is an all-in-one infrastructure performance and log monitoring, r
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_37.png)
 
-2. Enter a name and select your desired escalation policy. Select "Sematext" as the **Integration Type** and click on **Save**.
+1. Enter a name and select your desired escalation policy. Select "Sematext" as the **Integration Type** and click on **Save**.
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_56.png)
 
-3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the notification hook in Sematext.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the notification hook in Sematext.
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_57.png)
 
@@ -32,11 +32,11 @@ Sematext Cloud is an all-in-one infrastructure performance and log monitoring, r
 
 ![](../.gitbook/assets/screenshot_16_03_21__17_00.png)
 
-2. On the next page,  click on the **Custom** tile
+1. On the next page,  click on the **Custom** tile
 
 ![](../.gitbook/assets/screenshot_16_03_21__17_03.png)
 
-3. On the next modal page, name the hook e.g. iLert, paste the **Webhook URL** that you generated in iLert, in the **Send data as** section choose **Json**, in the **HTTP method** section choose **POST**, in the **Parameters** section choose the following payload, then click on the **Save Notification Hook** button
+1. On the next modal page, name the hook e.g. iLert, paste the **Webhook URL** that you generated in iLert, in the **Send data as** section choose **Json**, in the **HTTP method** section choose **POST**, in the **Parameters** section choose the following payload, then click on the **Save Notification Hook** button
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_59.png)
 
@@ -52,7 +52,7 @@ Sematext Cloud is an all-in-one infrastructure performance and log monitoring, r
 }
 ```
 
-4. Edit your alert rule to send notification to iLert
+1. Edit your alert rule to send notification to iLert
 
 ![](../.gitbook/assets/screenshot_16_03_21__17_08.png)
 

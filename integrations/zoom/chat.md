@@ -1,7 +1,7 @@
 ---
 description: >-
-  The iLert Zoom Chat Integration helps you to bring iLert alerts into your
-  Zoom channels, acknowledge or resolve alerts without leaving the chat.
+  The iLert Zoom Chat Integration helps you to bring iLert alerts into your Zoom
+  channels, acknowledge or resolve alerts without leaving the chat.
 ---
 
 # Zoom Chat Integration
@@ -16,31 +16,31 @@ description: >-
 To set up the integration, you must have admin rights in iLert.
 {% endhint %}
 
-1. ****Click the gear icon and then click on the **Connectors** link
+1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
 
 ![](../../.gitbook/assets/screenshot_16_03_21__15_46.png)
 
-2. Click the **Add Connector** button
+1. Click the **Add Connector** button
 
 ![](../../.gitbook/assets/screenshot_16_03_21__15_48.png)
 
-3. On the next page, choose **Zoom Chat** as type, name the connector and click on the save button to authorize iLert App with your Zoom account.
+1. On the next page, choose **Zoom Chat** as type, name the connector and click on the save button to authorize iLert App with your Zoom account.
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_18.png)
 
-4. On the next page, agree with the requested permissions and click on the **Authorize** button
+1. On the next page, agree with the requested permissions and click on the **Authorize** button
 
 ![](../../.gitbook/assets/screenshot_16_03_21__15_53.png)
 
-5. Go to the alert sources tab and open the alert source whose alerts you want to create Zoom Meeting. Click on the **Alert actions** tab and then on the **Add new alert action** button
+1. Go to the alert sources tab and open the alert source whose alerts you want to create Zoom Meeting. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
-6. On the next page choose **Zoom Chat** as the type, choose the connector created in step 3, name it**,** choose **alert events** to publish and click on the **Save** button.
+1. On the next page choose **Zoom Chat** as the type, choose the connector created in step 3, name it**,** choose **alert events** to publish and click on the **Save** button.
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_27.png)
 
-6. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the Zoom Chat channel.
+1. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the Zoom Chat channel.
 
 ![](../../.gitbook/assets/zoom%20%282%29.png)
 

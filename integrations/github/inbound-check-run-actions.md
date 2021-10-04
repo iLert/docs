@@ -13,12 +13,11 @@ With the iLert Github Check Run integration, you can add alerts in iLert based o
 ## In iLert: Create Github alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click "Create new alert source"
-
 2. Enter a name and select your desired escalation policy. Select "Github" as **Integration Type** and click **Save**.
 
 ![](../../.gitbook/assets/ghch1.png)
 
-3. On the next page, a Webhook URL is generated. You will need this URL below when setting up in Github.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up in Github.
 
 ![](../../.gitbook/assets/ghch2.png)
 
@@ -30,15 +29,13 @@ With the iLert Github Check Run integration, you can add alerts in iLert based o
 
 ![](../../.gitbook/assets/ghch3.png)
 
-2. In the **Payload URL** section, set it to the **Webhook URL** generated in iLert
-
-3. In the **Content type** section, change to **application/json**
-
-4. In the **Which events would you like to trigger this webhook?** section, change it to **Let me select individual events** and select the **Check runs** events
+1. In the **Payload URL** section, set it to the **Webhook URL** generated in iLert
+2. In the **Content type** section, change to **application/json**
+3. In the **Which events would you like to trigger this webhook?** section, change it to **Let me select individual events** and select the **Check runs** events
 
 ![](../../.gitbook/assets/ghch4.png)
 
-5. Click **Save**
+1. Click **Save**
 
 ## FAQ <a id="faq"></a>
 

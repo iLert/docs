@@ -12,5 +12,3 @@ $response = Invoke-RestMethod 'https://api.ilert.com/api/v1/events ' -Method 'PO
 $response | ConvertTo-Json
 ```
 
-
-

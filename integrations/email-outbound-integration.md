@@ -1,8 +1,8 @@
 ---
 description: >-
-  Our email outbound integration allows you to send emails for alerts and
-  alert updates to any emails address (e.g. to group addresses or people
-  outside of iLert).
+  Our email outbound integration allows you to send emails for alerts and alert
+  updates to any emails address (e.g. to group addresses or people outside of
+  iLert).
 ---
 
 # Email Outbound Integration

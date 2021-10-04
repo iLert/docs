@@ -8,7 +8,7 @@ description: >-
 
 ## June 2021
 
-###  New features
+### New features
 
 * Critical alerts 🚨🚨🚨
 * Secure app with passcode

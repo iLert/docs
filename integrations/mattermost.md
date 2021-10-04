@@ -18,19 +18,19 @@ To set up this integration, you must have admin rights in iLert.
 
 ![](../.gitbook/assets/screenshot_07_02_21__16_44.png)
 
-2. Click on **Incoming Webhooks**
+1. Click on **Incoming Webhooks**
 
 ![](../.gitbook/assets/screenshot_07_02_21__16_45.png)
 
-3. On the next page click on the **Add incoming Webhook** button
+1. On the next page click on the **Add incoming Webhook** button
 
 ![](../.gitbook/assets/screenshot_07_02_21__16_47.png)
 
-4. On the next page, name the webhook e.g. **iLert**, choose **a channel** and click on the **Save** button.
+1. On the next page, name the webhook e.g. **iLert**, choose **a channel** and click on the **Save** button.
 
 ![](../.gitbook/assets/screenshot_07_02_21__16_49.png)
 
-5. Your webhook has now been set up. You will need the URL in the next step.
+1. Your webhook has now been set up. You will need the URL in the next step.
 
 ## In iLert <a id="create-alarm-source"></a>
 
@@ -40,24 +40,25 @@ To set up this integration, you must have admin rights in iLert.
 
 ![](../.gitbook/assets/go_to_connectors%20%283%29.png)
 
-2. Click on **Add Connector**
+1. Click on **Add Connector**
 
 ![](../.gitbook/assets/create_connector_button.png)
 
-3. Select **Mattermost** as **Type**. Assign a name for the connector, enter the URL from above and save it.
+1. Select **Mattermost** as **Type**. Assign a name for the connector, enter the URL from above and save it.
 
 ![](../.gitbook/assets/screenshot_07_02_21__16_53.png)
 
-4. **Go to** the alert sources tab and open the alert source whose alerts you want to publish to Mattermost. Click **Alert actions → Create alert action**.
+1. **Go to** the alert sources tab and open the alert source whose alerts you want to publish to Mattermost. Click **Alert actions → Create alert action**.
 
 ![](../.gitbook/assets/new_incident_action%20%287%29.png)
 
-5. Select **Mattermost** as the **type**, select the connector created in step 3 and give your connection a name.
+1. Select **Mattermost** as the **type**, select the connector created in step 3 and give your connection a name.
 
 ![](../.gitbook/assets/ilert%20%2874%29.png)
 
-6. Finished! You can now test the connection by clicking on the **Test this connection** button.  
-A test message will be posted in the Mattermost channel.
+1. Finished! You can now test the connection by clicking on the **Test this connection** button.  
+
+   A test message will be posted in the Mattermost channel.
 
 ![](../.gitbook/assets/ilert%20%2875%29.png)
 

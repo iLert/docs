@@ -11,12 +11,11 @@ description: Create alerts in iLert from tickets in Zendesk.
 ### Create a Zendesk alert source
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
-
 2. Enter a name and select your desired escalation policy. Select "Zendesk" as the **Integration Type** and click on **Save**.
 
 ![](../../.gitbook/assets/ilert%20%2886%29.png)
 
-3. On the next page, a **Webhook URL** is generated. You will need this URL below when setting up the Webhook in Zendesk.
+1. On the next page, a **Webhook URL** is generated. You will need this URL below when setting up the Webhook in Zendesk.
 
 ![](../../.gitbook/assets/ilert%20%2885%29.png)
 
@@ -28,18 +27,17 @@ description: Create alerts in iLert from tickets in Zendesk.
 
 ![](../../.gitbook/assets/a_-_agent.png)
 
-2. On the next page click the **HTTP target** link
+1. On the next page click the **HTTP target** link
 
 ![](../../.gitbook/assets/a_-_agent%20%283%29.png)
 
-3. On the next page:
-
-* In the **Title** section, enter a name eg. iLert
-* In the **URL** section, paste the **Webhook URL** that you generated in iLert
-* In the **Method** section, choose **POST**
-* In the **Content type** section, choose **JSON**
-* In the bottom section choose **Create target**
-* Click the **Submit** button
+1. On the next page:
+2. In the **Title** section, enter a name eg. iLert
+3. In the **URL** section, paste the **Webhook URL** that you generated in iLert
+4. In the **Method** section, choose **POST**
+5. In the **Content type** section, choose **JSON**
+6. In the bottom section choose **Create target**
+7. Click the **Submit** button
 
 ![](../../.gitbook/assets/a_-_agent%20%282%29.png)
 
@@ -49,11 +47,10 @@ description: Create alerts in iLert from tickets in Zendesk.
 
 ![](../../.gitbook/assets/a_-_agent%20%281%29.png)
 
-2. On the next page:
-
-* In the **Trigger name** section, enter a name eg. iLert
-* In the **Category** section, choose a category, e.g. Notifications
-* In the **Meet ANY of following conditions** section, add **Ticket is created** and **Ticket is updated** rules
+1. On the next page:
+2. In the **Trigger name** section, enter a name eg. iLert
+3. In the **Category** section, choose a category, e.g. Notifications
+4. In the **Meet ANY of following conditions** section, add **Ticket is created** and **Ticket is updated** rules
 
 ![](../../.gitbook/assets/a_-_agent%20%284%29.png)
 
@@ -93,7 +90,7 @@ description: Create alerts in iLert from tickets in Zendesk.
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><b>New </b>or<b> Open</b>
+      <td style="text-align:left"><b>New</b> or <b>Open</b>
       </td>
       <td style="text-align:left">is created</td>
     </tr>
@@ -113,19 +110,17 @@ description: Create alerts in iLert from tickets in Zendesk.
   </tbody>
 </table>
 
-
-
 <table>
   <thead>
     <tr>
       <th style="text-align:left">When I update an Zendesk ticket with status...</th>
-      <th style="text-align:left">...and the<b> </b>iLert alert...</th>
+      <th style="text-align:left">...and the iLert alert...</th>
       <th style="text-align:left">...then the/an iLert Alert...</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><b>New </b>or<b> Open</b>
+      <td style="text-align:left"><b>New</b> or <b>Open</b>
       </td>
       <td style="text-align:left">does not exist</td>
       <td style="text-align:left">is created</td>
@@ -146,7 +141,7 @@ description: Create alerts in iLert from tickets in Zendesk.
       <td style="text-align:left">is created</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b>New </b>or<b> Open</b>
+      <td style="text-align:left"><b>New</b> or <b>Open</b>
       </td>
       <td style="text-align:left">exists</td>
       <td style="text-align:left">doesn&apos;t change</td>

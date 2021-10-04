@@ -14,19 +14,19 @@ description: >-
 
 ![](../../.gitbook/assets/screenshot_29_10_20__16_22.png)
 
-2. On the next page, search for **iLert** trigger source and choose it:
+1. On the next page, search for **iLert** trigger source and choose it:
 
 ![](../../.gitbook/assets/edit_a_step___zapier.png)
 
-3. In the section **Trigger Event** choose **New or Updated Alert** and click on the **Continue** button
+1. In the section **Trigger Event** choose **New or Updated Alert** and click on the **Continue** button
 
 ![](../../.gitbook/assets/edit_a_step___zapier%20%282%29.png)
 
-4. On the next slide, choose your iLert account. Then click on the **Continue** button.
+1. On the next slide, choose your iLert account. Then click on the **Continue** button.
 
 ![](../../.gitbook/assets/edit_a_step___zapier%20%284%29.png)
 
-5. On the next slide, choose **an alert source** and **trigger types** e.g. Alert Created. Then click on the **Continue** button.
+1. On the next slide, choose **an alert source** and **trigger types** e.g. Alert Created. Then click on the **Continue** button.
 
 {% hint style="warning" %}
 NOTE: you can't use an Zapier alert source here, as it will lead to an infinite loop
@@ -34,11 +34,11 @@ NOTE: you can't use an Zapier alert source here, as it will lead to an infinite 
 
 ![](../../.gitbook/assets/edit_a_step___zapier%20%283%29.png)
 
-6. On the next slide, click on the **Test Trigger** button to see example data. Then click on the **Continue** button.
+1. On the next slide, click on the **Test Trigger** button to see example data. Then click on the **Continue** button.
 
 ![](../../.gitbook/assets/edit_a_step___zapier%20%281%29.png)
 
-7. Now you can **add any action** available in Zapier, e.g. Jira to create a ticket on your Jira board
+1. Now you can **add any action** available in Zapier, e.g. Jira to create a ticket on your Jira board
 
 ![](../../.gitbook/assets/edit_step___zapier.png)
 

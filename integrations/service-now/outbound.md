@@ -14,23 +14,23 @@ description: >-
 
 ![](../../.gitbook/assets/go_to_connectors%20%281%29.png)
 
-2. Click **Create Connector**
+1. Click **Create Connector**
 
 ![](../../.gitbook/assets/create_connector_button%20%286%29.png)
 
-3. Select **ServiceNow** as **type** and fill out all fields.
+1. Select **ServiceNow** as **type** and fill out all fields.
 
 ![](../../.gitbook/assets/ilert%20%2870%29.png)
 
-4. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish in ServiceNow. Click on **Alert actions → Create alert action**
+1. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish in ServiceNow. Click on **Alert actions → Create alert action**
 
 ![](../../.gitbook/assets/new_incident_action%20%2810%29.png)
 
-5. Select **ServiceNow** as the **type**, select the connector created in step 3, fill in all fields.
+1. Select **ServiceNow** as the **type**, select the connector created in step 3, fill in all fields.
 
 ![](../../.gitbook/assets/ilert%20%2881%29.png)
 
-6. Finished! You can now test the connection by clicking the **Test this connection** button. A test issue is then published in ServiceNow.
+1. Finished! You can now test the connection by clicking the **Test this connection** button. A test issue is then published in ServiceNow.
 
 ![](../../.gitbook/assets/ilert%20%2867%29.png)
 
@@ -40,15 +40,15 @@ description: >-
 
 ![](../../.gitbook/assets/sn1.png)
 
-2. Live an internal iLert user and click **Submit**
+1. Live an internal iLert user and click **Submit**
 
 ![](../../.gitbook/assets/sn2.png)
 
-3. Call up the iLert user page and click the **Edit** button in the **Roles** tab.
+1. Call up the iLert user page and click the **Edit** button in the **Roles** tab.
 
 ![](../../.gitbook/assets/sn3.png)
 
-4. Select the **incident\_manager** role and click **Save** .
+1. Select the **incident\_manager** role and click **Save** .
 
 ![](../../.gitbook/assets/sn4.png)
 

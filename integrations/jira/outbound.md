@@ -7,16 +7,15 @@ description: Create JIRA issues from iLert alerts.
 ## In JIRA: Create iLert user and create API token <a id="jira-preparation"></a>
 
 1. Optional: create a dedicated iLert user in JIRA. This has the advantage that you can distinguish the JIRA tickets created by iLert.
-
-2. Go to **Atlassian account settings**  **→** **Security** and click on **Create and Manage API Tokens**.
+2. Go to **Atlassian account settings** **→** **Security** and click on **Create and Manage API Tokens**.
 
 ![](../../.gitbook/assets/screenshot-2020-08-05-at-13.15.25.png)
 
-3. Click on the button **Create API token**  
+1. Click on the button **Create API token**  
 
 ![](../../.gitbook/assets/ji2.png)
 
-4. Give a name and click **Create**. Write down your API key. You will need it later in iLert.  
+1. Give a name and click **Create**. Write down your API key. You will need it later in iLert.  
 
 ![](../../.gitbook/assets/ji3.png)
 
@@ -28,19 +27,19 @@ description: Create JIRA issues from iLert alerts.
 
 ![](../../.gitbook/assets/go_to_connectors%20%286%29.png)
 
-2. Click **Add Connector**
+1. Click **Add Connector**
 
 ![](../../.gitbook/assets/create_connector_button%20%285%29.png)
 
-3. Select **JIRA** as **type** and fill in all fields. Enter as URL the URL of your JIRA instance and as password the API key above.
+1. Select **JIRA** as **type** and fill in all fields. Enter as URL the URL of your JIRA instance and as password the API key above.
 
 ![](../../.gitbook/assets/ilert%20%2876%29.png)
 
-4. **Go to** the alert sources tab and open the alert source whose alerts you want to publish in JIRA. Click **Alert actions → Create new alert action**.
+1. **Go to** the alert sources tab and open the alert source whose alerts you want to publish in JIRA. Click **Alert actions → Create new alert action**.
 
 ![](../../.gitbook/assets/new_incident_action%20%282%29.png)
 
-5. Select **JIRA** as the **type** and in the secondary dropdown select the connector created in step 3. iLert will now try to fetch the available Projects and Issue Types from your provided Jira instance.
+1. Select **JIRA** as the **type** and in the secondary dropdown select the connector created in step 3. iLert will now try to fetch the available Projects and Issue Types from your provided Jira instance.
 
 ![](../../.gitbook/assets/ilert%20%2856%29.png)
 

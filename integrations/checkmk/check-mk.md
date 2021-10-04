@@ -16,11 +16,11 @@ With the iLert checkmk notification plugin you can easily integrate checkmk into
 
 ![](../../.gitbook/assets/mk1.png)
 
-2. Select the type **Nagios / Icinga** and click save.
+1. Select the type **Nagios / Icinga** and click save.
 
 ![](../../.gitbook/assets/mk2.png)
 
-3. An API key is generated. You will need the API conclusions below when setting up the plugin.
+1. An API key is generated. You will need the API conclusions below when setting up the plugin.
 
 ![](../../.gitbook/assets/mk3.png)
 
@@ -40,8 +40,6 @@ For checkmk you need the two files `ilert_nagios.py` and `ilert_check_mk.sh`. Yo
 > chmod 755 /usr/local/bin/ilert_nagios.py
 > chmod 755 ilert_check_mk.sh
 ```
-
-### 
 
 {% tabs %}
 {% tab title="Standalone version of checkmk" %}
@@ -100,19 +98,19 @@ Log in to checkmk's web GUI and continue there.
 
 ![](../../.gitbook/assets/mk4.jpg)
 
-2. Fill in the fields marked below. Add the user to the contact groups to which the hosts or services that you want to be alerted for. Click on "Save".
+1. Fill in the fields marked below. Add the user to the contact groups to which the hosts or services that you want to be alerted for. Click on "Save".
 
 ![](../../.gitbook/assets/mk5.jpg)
 
-3. Go to the notification settings of this user \(by clicking on the "Notifications" icon\).    
+1. Go to the notification settings of this user \(by clicking on the "Notifications" icon\).    
 
 ![](../../.gitbook/assets/mk6.jpg)
 
-4. Click on "New Rule" and select iLert checkmk Plugin as the "Notification Method". Enter your iLert API key \(see above\) as a parameter.    
+1. Click on "New Rule" and select iLert checkmk Plugin as the "Notification Method". Enter your iLert API key \(see above\) as a parameter.    
 
 ![](../../.gitbook/assets/mk7.jpg)
 
-5. Go back to the user list and activate your changes by clicking on "1 Changes":    
+1. Go back to the user list and activate your changes by clicking on "1 Changes":    
 
 ![](../../.gitbook/assets/mk8.jpg)
 

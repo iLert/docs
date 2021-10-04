@@ -14,13 +14,13 @@ You can find your call routing numbers in your account in the call routing servi
 Each call routing number has a unique phone number that will be set up for you by our support. You may have multiple call routing numbers from different countries and cities. Please contact our support at support@ilert.com and we will provision a phone number that fits best to your local needs.
 {% endhint %}
 
-### General settings
+## General settings
 
 Once we have added a phone number to your account, you can configure its IVR menu, routing options, voicemail settings and more.
 
 ![](../.gitbook/assets/image%20%2815%29.png)
 
-The general settings area allows you to configure a **name** as well as the **language** and **greeting** of your call routing number. The **name** will be read out to your on-call staff whenever they receive a call. 
+The general settings area allows you to configure a **name** as well as the **language** and **greeting** of your call routing number. The **name** will be read out to your on-call staff whenever they receive a call.
 
 The greeting that a caller of your number hears when they are calling is by default a combination of your provided **greeting** and the automatically generated **IVR menu**, that consists of the different routing options which you have chosen. A preview is always generated for you up front.
 
@@ -28,7 +28,7 @@ The greeting that a caller of your number hears when they are calling is by defa
 
 You may choose the option `Only read this greeting..` to fully customise the greeting to your liking and disable the automated addition of the IVR menu. This is useful if you don't want to include the names of your escalation policies in the IVR menu.
 
-### Routing configuration
+## Routing configuration
 
 When calling your number, your callers will be able to choose a route using **voice** or **digit** input to choose the routing target where they want to be routed to. Per default iLert will take every user in the target escalation policy \(either directly or from a nested on-call schedule\) and call them one after another, while waiting for an agent to accept the incoming call.
 
@@ -40,7 +40,7 @@ We offer an additional setting for Premium and Enterprise customers called `Simu
 Please note that escalation times in escalation policies are skipped for policies that are used as routing options - as a call always happens in real time. If an agent declines a call, the next agent in the policy will be called immediately.
 {% endhint %}
 
-### Voicemail setup
+## Voicemail setup
 
 If no user is left and no voicemail has been configured \(see below\) the caller will hear a message that no one is currently available and the call will be ended. The alert that has been created for this incoming call will be escalated once again to the targeted escalation policy using regular alert notification and escalation rules.
 
@@ -48,14 +48,10 @@ If no user is left and no voicemail has been configured \(see below\) the caller
 
 Yet if a voicemail is present instead, the caller will be redirected to the voicemail. In case she leaves a voicemail, the voicemail will be attached to the alert of the incoming call and escalated once again to the targeted escalation.
 
-### Advanced configuration
+## Advanced configuration
 
 * [Routing calls based on support hours](routing-calls-based-on-support-hours/)
 * [Handling automated incoming voice calls](voicemail-only-mode.md)
 * [Managing call routing alerts](managing-call-routing-incidents.md)
 * [Adding webhooks and outbound chat messages](adding-webhooks-and-outbound-chat-messages.md)
-
-
-
-
 

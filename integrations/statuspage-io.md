@@ -12,15 +12,15 @@ description: Create StatusPage inicdents from iLert alerts.
 
 ![](../.gitbook/assets/screenshot_16_03_21__17_38.png)
 
-2. On the next page click on the **Create key**
+1. On the next page click on the **Create key**
 
 ![](../.gitbook/assets/screenshot_16_03_21__17_40.png)
 
-3. On the modal window, name the key e.g. iLert and click on the **Confirm** button
+1. On the modal window, name the key e.g. iLert and click on the **Confirm** button
 
 ![](../.gitbook/assets/screenshot_16_03_21__17_42.png)
 
-4. On the next page, a API key is generated. You will need this key and the page id below when setting up the connector in iLert.
+1. On the next page, a API key is generated. You will need this key and the page id below when setting up the connector in iLert.
 
 ![](../.gitbook/assets/screenshot_16_03_21__17_52.png)
 
@@ -28,27 +28,27 @@ description: Create StatusPage inicdents from iLert alerts.
 
 ### Create the Statuspage Connector and link it to the alert source
 
-1. ****Click the gear icon and then click on the **Connectors** link
+1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
 
 ![](../.gitbook/assets/screenshot_16_03_21__15_46.png)
 
-2. Click the **Add Connector** button
+1. Click the **Add Connector** button
 
 ![](../.gitbook/assets/screenshot_16_03_21__15_48.png)
 
-3. On the next page, choose **StatusPage** as type, name the connector, paste the **API Key** that you generated in StatusPage and click on the **Save** button.
+1. On the next page, choose **StatusPage** as type, name the connector, paste the **API Key** that you generated in StatusPage and click on the **Save** button.
 
 ![](../.gitbook/assets/screenshot_16_03_21__17_49.png)
 
-4. Go to the alert sources tab and open the alert source whose alerts you want to create StatusPage Incidents. Click on the **Alert actions** tab and then on the **Add new alert action** button
+1. Go to the alert sources tab and open the alert source whose alerts you want to create StatusPage Incidents. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
-6. On the next page choose **StatusPage** as the type, choose the connector created in step 3, name it, choose **Trigger mode,** paste the **Page Id** and click on the **Save** button.
+1. On the next page choose **StatusPage** as the type, choose the connector created in step 3, name it, choose **Trigger mode,** paste the **Page Id** and click on the **Save** button.
 
 ![](../.gitbook/assets/screenshot_16_03_21__17_51.png)
 
-7. Finished! Now an StatusPage alert will be created for each alert in automatic trigger mode or via manual alert action.
+1. Finished! Now an StatusPage alert will be created for each alert in automatic trigger mode or via manual alert action.
 
 ## StatusPage Incident Lifecycle
 
@@ -56,14 +56,14 @@ description: Create StatusPage inicdents from iLert alerts.
   <thead>
     <tr>
       <th style="text-align:left">When an iLert alert ... event occurs</th>
-      <th style="text-align:left">...and the<b> </b>StatusPage alert...</th>
+      <th style="text-align:left">...and the StatusPage alert...</th>
       <th style="text-align:left">...then the/an StatusPage alert...</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td style="text-align:left">
-        <p><b>Created, re-assigned, </b>
+        <p><b>Created, re-assigned,</b>
         </p>
         <p><b>escalated, priority raised</b>
         </p>
@@ -95,7 +95,7 @@ description: Create StatusPage inicdents from iLert alerts.
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><b>Re-assigned, escalated, </b>
+        <p><b>Re-assigned, escalated,</b>
         </p>
         <p><b>priority raised</b>
         </p>

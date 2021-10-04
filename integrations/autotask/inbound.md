@@ -117,9 +117,8 @@ With the iLert Autotask inbound integration, you can create alerts in iLert base
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><b>Waiting Customer</b> or <b>Waiting Materials </b>or<b> </b>
-        </p>
-        <p><b>Scheduled </b>or<b> Escalate</b> or</p>
+        <p><b>Waiting Customer</b> or <b>Waiting Materials</b> or</p>
+        <p><b>Scheduled</b> or <b>Escalate</b> or</p>
         <p><b>Waiting Vendor</b> or <b>Waiting Approval</b> or</p>
         <p><b>Waiting Dispatch</b> or <b>Approved</b>
         </p>
@@ -132,13 +131,11 @@ With the iLert Autotask inbound integration, you can create alerts in iLert base
   </tbody>
 </table>
 
-
-
 <table>
   <thead>
     <tr>
       <th style="text-align:left">When I update an Autotask ticket with status...</th>
-      <th style="text-align:left">...and the<b> </b>iLert alert...</th>
+      <th style="text-align:left">...and the iLert alert...</th>
       <th style="text-align:left">...then the/an iLert Alert...</th>
     </tr>
   </thead>
@@ -160,9 +157,8 @@ With the iLert Autotask inbound integration, you can create alerts in iLert base
     </tr>
     <tr>
       <td style="text-align:left">
-        <p><b>Waiting Customer</b> or <b>Waiting Materials </b>or<b> </b>
-        </p>
-        <p><b>Scheduled </b>or<b> Escalate</b> or</p>
+        <p><b>Waiting Customer</b> or <b>Waiting Materials</b> or</p>
+        <p><b>Scheduled</b> or <b>Escalate</b> or</p>
         <p><b>Waiting Vendor</b> or <b>Waiting Approval</b> or</p>
         <p><b>Waiting Dispatch</b> or <b>Approved</b>
         </p>
@@ -199,8 +195,7 @@ With the iLert Autotask inbound integration, you can create alerts in iLert base
     <tr>
       <td style="text-align:left">
         <p><b>Waiting Customer</b> or <b>In Progress</b> or</p>
-        <p><b>Waiting Materials </b>or<b> Scheduled </b>or<b> </b>
-        </p>
+        <p><b>Waiting Materials</b> or <b>Scheduled</b> or</p>
         <p><b>Escalate</b> or <b>Waiting Vendor</b> or</p>
         <p><b>Waiting Approval</b> or</p>
         <p><b>Waiting Dispatch</b> or <b>Approved</b>

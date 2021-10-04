@@ -25,7 +25,7 @@ Copy the provided url by the freshly created AlarmManager alert source, as we wi
 
 ![](../.gitbook/assets/screenshot-2020-07-31-at-19.15.10.png)
 
-Login to your AlarmManager \(_default: http://192.168.100.222 admin:password_\)
+Login to your AlarmManager \(_default:_ [http://192.168.100.222](http://192.168.100.222) _admin:password_\)
 
 ### Creating a Webhook
 
@@ -91,18 +91,12 @@ It is important to choose **Alarmstate change** as alarm assignment otherwise th
 ## A word on the Kentix device &lt;-&gt; iLert alert relation
 
 Each iLert alert source is connected to a Kentix AlarmManager Webhook.  
-Which in fact are assigned to Alarmzones. You might created multiple alert sources and assign them to as many Alarmzones as you like.  
-  
+Which in fact are assigned to Alarmzones. You might created multiple alert sources and assign them to as many Alarmzones as you like.
+
 Each device in a alarmzone will create its own alert for its alarms.  
 However iLert will not create a new alert per alarm type if an ongoing alert of the same device is already open, instead the additional alarms are appended to the existing alert.
 
 When all alarms of the device fall back to normal state, iLert will automatically resolve the opened alert.
 
 ![](../.gitbook/assets/screenshot-2020-08-18-at-17.18.47.png)
-
-
-
-
-
-
 

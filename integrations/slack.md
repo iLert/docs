@@ -18,17 +18,16 @@ Slack is a popular instant messaging service for team communication and collabor
 
 ![](../.gitbook/assets/sl1.png)
 
-2. Click on **Slack Workspace Integration**
+1. Click on **Slack Workspace Integration**
 
 ![](../.gitbook/assets/sl2.png)
 
-3. Click **Authorize**
+1. Click **Authorize**
 
 ![](../.gitbook/assets/sl3.png)
 
-4. You will be forwarded to Slack. If you are not already logged in to Slack, please log in and **allow iLert access to your Slack workspace**.
-
-5. You will be redirected to iLert. When you see a success message, you're done setting up. You can now add alert sources to a channel in Slack.
+1. You will be forwarded to Slack. If you are not already logged in to Slack, please log in and **allow iLert access to your Slack workspace**.
+2. You will be redirected to iLert. When you see a success message, you're done setting up. You can now add alert sources to a channel in Slack.
 
 ![](../.gitbook/assets/sl4.png)
 
@@ -38,25 +37,22 @@ Slack is a popular instant messaging service for team communication and collabor
 
 ![](../.gitbook/assets/sl5.png)
 
-2. A configuration menu appears in which you can add alert sources to the channel.
+1. A configuration menu appears in which you can add alert sources to the channel.
 
 ![](../.gitbook/assets/sl6.png)
 
-3. Select one or more alert sources from this list
+1. Select one or more alert sources from this list
 
 ![](../.gitbook/assets/sl7.png)
 
-4. You have now linked an alert source to a Slack Channel.
-
-5. Create a test alert in the alert source in iLert. To do this, click on the link of the alert source in Slack \(New Relic in the example above\).
-
-6. A notice now appears on the overview page of the alert source that alerts from this alert source will be published in Slack.
+1. You have now linked an alert source to a Slack Channel.
+2. Create a test alert in the alert source in iLert. To do this, click on the link of the alert source in Slack \(New Relic in the example above\).
+3. A notice now appears on the overview page of the alert source that alerts from this alert source will be published in Slack.
 
 ![](../.gitbook/assets/sl8.png)
 
-7. Click on **Create Alert** and create test alert.
-
-8. A message is now published in the configured channel with the alert information. You can accept the alert within Slack or mark it as fixed.
+1. Click on **Create Alert** and create test alert.
+2. A message is now published in the configured channel with the alert information. You can accept the alert within Slack or mark it as fixed.
 
 ![](../.gitbook/assets/sl9.png)
 
@@ -80,7 +76,7 @@ Yes.
 
 **Can I manage alert sources from private teams using the `/ilert` Slash command?**
 
-No, alert sources of private teams can only  be added via the iLert web interface, in the alert source's **Alert actions** configuration tab.
+No, alert sources of private teams can only be added via the iLert web interface, in the alert source's **Alert actions** configuration tab.
 
 **Why am I not seeing all of my Slack channels in the Connections UI?**
 

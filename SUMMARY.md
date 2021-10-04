@@ -44,6 +44,7 @@
 ## REST API
 
 * [iLert REST API](rest-api/ilert-rest-api.md)
+* [API Version History](rest-api/api-version-history.md)
 * [Rate Limiting](rest-api/alertsource-throttle.md)
 * [Client Libraries](rest-api/client-libraries/README.md)
   * [iLert Agent - ilagent](rest-api/client-libraries/ilagent.md)

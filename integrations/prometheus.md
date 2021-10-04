@@ -10,7 +10,7 @@ weight: 1
 
 [Prometheus](https://github.com/prometheus) is an open-source systems monitoring and alerting toolkit that uses a pull-based approach to collecting metrics in a timeseries database.
 
-With iLert's Prometheus integration, you can automatically create alerts in iLert using the Prometheus' Alertmanager. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When the Alertmanager triggers an alert, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start. 
+With iLert's Prometheus integration, you can automatically create alerts in iLert using the Prometheus' Alertmanager. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When the Alertmanager triggers an alert, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
 
 ## System Requirements <a id="requirements"></a>
 
@@ -19,14 +19,12 @@ With iLert's Prometheus integration, you can automatically create alerts in iLer
 ## In iLert: Create Prometheus alert source <a id="create-alarm-source"></a>
 
 1. Go to **Services** --&gt; **Alert sources** and click on **Create new alert source**
-
 2. Give it a name and chose an escalation policy
-
 3. Select Prometheus as the **Integration type**
 
 ![](../.gitbook/assets/screenshot-2021-04-26-at-13.04.18.png)
 
-4. A webhook URL will be generated on the next page. You will need this URL later in Prometheus.
+1. A webhook URL will be generated on the next page. You will need this URL later in Prometheus.
 
 ![](../.gitbook/assets/screenshot-2021-04-26-at-13.05.18.png)
 
@@ -41,7 +39,7 @@ receivers:
   - url: 'https://api.ilert.com/api/v1/events/prometheus/e6bcfcbf-a38f-462a-af9d-1687809b7594'
 ```
 
-2. You can now configure any route in the Alert Manager. In the following example, all alerts that do not match another [route](https://prometheus.io/docs/alerting/configuration/#route) are sent to iLert:
+1. You can now configure any route in the Alert Manager. In the following example, all alerts that do not match another [route](https://prometheus.io/docs/alerting/configuration/#route) are sent to iLert:
 
 ```yaml
 route:
@@ -52,9 +50,8 @@ repeat_interval: 1h
 receiver: 'ilert.web.hook'
 ```
 
-3. Restart the alert manager
-
-4. Optional: Send a test alert through the [Alert Manager API](https://prometheus.io/docs/alerting/clients/).
+1. Restart the alert manager
+2. Optional: Send a test alert through the [Alert Manager API](https://prometheus.io/docs/alerting/clients/).
 
 ```bash
 curl -d '[{"labels":{"Alertname":"iLert Test"},"annotations":{"summary":"iLert Test"}}]' http://localhost:9093/api/v1/alerts
@@ -96,5 +93,5 @@ route:
 
 **The integration does not work. How do I find the issue?**
 
-First, look in the log file of the alert manager. If you can not find the issue, please contact our support at [support@ilert.com](support@ilert.com).
+First, look in the log file of the alert manager. If you can not find the issue, please contact our support at [support@ilert.com](https://github.com/iLert/docs/tree/dfe03283a452516a115a55f8c20942698e279d7b/integrations/support@ilert.com).
 

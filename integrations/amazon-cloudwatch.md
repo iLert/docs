@@ -11,19 +11,17 @@ type: post
 
 Amazon CloudWatch is a monitoring service for AWS cloud resources and applications running in the AWS Cloud. Amazon CloudWatch can monitor AWS resources, such as EC2 instances, Amazon DynamoDB tables, and Amazon RDS DB instances, as well as application and service generated metrics and log files.
 
-With iLert's CloudWatch integration, you can automatically create alerts in iLert from CloudWatch alarms. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When CloudWatch creates an alarm, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start. 
+With iLert's CloudWatch integration, you can automatically create alerts in iLert from CloudWatch alarms. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When CloudWatch creates an alarm, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
 
 ## In iLert: Create CloudWatch alert source <a id="create-alert-source"></a>
 
 1. Switch to the tab "alert sources" and click on the button "Create new alert source"
-
 2. Assign name and select escalation chain
-
-3. Select and save "Amazon CloudWatch" in the Integration Type field. 
+3. Select and save "Amazon CloudWatch" in the Integration Type field.
 
 ![](../.gitbook/assets/cw1%20%281%29.png)
 
-4. The URL shown on the next page is the HTTP endpoint for the SNS topic in Amazon and will be needed in later steps.  
+1. The URL shown on the next page is the HTTP endpoint for the SNS topic in Amazon and will be needed in later steps.  
 
 ![](../.gitbook/assets/cw2.png)
 
@@ -35,19 +33,19 @@ With iLert's CloudWatch integration, you can automatically create alerts in iLer
 
 ![](../.gitbook/assets/cw3.png)
 
-2. Name the topic and click on "Create topic".  
+1. Name the topic and click on "Create topic".  
 
 ![](../.gitbook/assets/cw4.png)
 
-3. Click on "Create subscription" on the Topic Detail page  
+1. Click on "Create subscription" on the Topic Detail page  
 
 ![](../.gitbook/assets/cw5.png)
 
-4. Select "HTTPS" as the protocol and transfer the URL from the above-created alert source to iLert at Endpoint and click on "Create subscription".  
+1. Select "HTTPS" as the protocol and transfer the URL from the above-created alert source to iLert at Endpoint and click on "Create subscription".  
 
 ![](../.gitbook/assets/cw6.png)
 
-5. The subscription is automatically confirmed by iLert when it is created. After updating the overview, the status "PendingConfirmation" should disappear and the ID should be displayed.  
+1. The subscription is automatically confirmed by iLert when it is created. After updating the overview, the status "PendingConfirmation" should disappear and the ID should be displayed.  
 
 ![](../.gitbook/assets/cw7.png)
 
@@ -59,7 +57,7 @@ You can now link any CloudWatch alarm to the topic you have created. The followi
 
 ![](../.gitbook/assets/cw8.png)
 
-2. Click on "+ Notification" to add two "Notification Actions": one for the states ALARM and OK. In the "Send notification to:" box, select the topic created above.    
+1. Click on "+ Notification" to add two "Notification Actions": one for the states ALARM and OK. In the "Send notification to:" box, select the topic created above.    
 
 ![](../.gitbook/assets/cw9.png)
 

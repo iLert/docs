@@ -14,11 +14,11 @@ description: >-
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_37.png)
 
-2. Enter a name and select your desired escalation policy. Select "Sumologic" as the **Integration Type** and click on **Save**.
+1. Enter a name and select your desired escalation policy. Select "Sumologic" as the **Integration Type** and click on **Save**.
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_38.png)
 
-3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the connection in Sumologic.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the connection in Sumologic.
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_39.png)
 
@@ -30,11 +30,11 @@ description: >-
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_42.png)
 
-2. On the next page,  click on the **Webhook** tile
+1. On the next page,  click on the **Webhook** tile
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_44.png)
 
-3. On the next page, name the connection e.g. iLert, paste the **Webhook URL** that you generated in iLert, in the **Payload** section following payload object, then click on the **Save** button
+1. On the next page, name the connection e.g. iLert, paste the **Webhook URL** that you generated in iLert, in the **Payload** section following payload object, then click on the **Save** button
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_47.png)
 

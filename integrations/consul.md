@@ -1,7 +1,7 @@
 ---
 description: >-
-  Create iLert alerts from HashiCorp Consul Health Check events and get
-  alerted through iLert for high priority issues.
+  Create iLert alerts from HashiCorp Consul Health Check events and get alerted
+  through iLert for high priority issues.
 ---
 
 # HashiCorp Consul
@@ -13,12 +13,11 @@ description: >-
 ### Create an alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
-
 2. Enter a name and select your desired escalation policy. Select "API" as the **Integration Type** and click on **Save**.
 
 ![](../.gitbook/assets/ilert%20%2828%29.png)
 
-3. On the next page, an API Key is generated. You will need this API Key below when setting up the Consul-Alerts tool.
+1. On the next page, an API Key is generated. You will need this API Key below when setting up the Consul-Alerts tool.
 
 ![](../.gitbook/assets/ilert%20%2829%29.png)
 
@@ -27,20 +26,19 @@ description: >-
 ### Configure Consul-Alerts
 
 1. Install Consul-Alerts as per the guide at [https://github.com/iLert/consul-alerts/blob/master/README.md](https://github.com/iLert/consul-alerts/blob/master/README.md)
-
 2. Once the Consul-Alerts are running, we can set the iLert integration key using curl.
 
 ```bash
 curl -X PUT -d 'YOUR_API_KEY' http://localhost:8500/v1/kv/consul-alerts/config/notifiers/ilert/api-key
 ```
 
-3. Enable iLert notifications in Consul-Alerts.
+1. Enable iLert notifications in Consul-Alerts.
 
 ```bash
 curl -X PUT -d 'true' http://localhost:8500/v1/kv/consul-alerts/config/notifiers/ilert/enabled
 ```
 
-4.  \(Optional\) Generating a test alert by having a health check fail to confirm the integration is working.
+1. \(Optional\) Generating a test alert by having a health check fail to confirm the integration is working.
 
 ## FAQ <a id="faq"></a>
 

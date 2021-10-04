@@ -15,14 +15,12 @@ With New Relic Integration, you can easily integrate New Relic Alerts with iLert
 ## In iLert: Create New Relic alert source <a id="create-alarm-source"></a>
 
 1. **Go to the alert sources tab** and click on the "Create new alert source" button
-
 2. Assign name and select escalation chain
-
 3. Select and save in the field Integration Type **New Relic**.
 
 ![](../.gitbook/assets/nr1.png)
 
-4. On the next page, a Webhook URL is generated. You will need this URL below when setting up in New Relic.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up in New Relic.
 
 ![](../.gitbook/assets/nr2.png)
 
@@ -32,21 +30,20 @@ With New Relic Integration, you can easily integrate New Relic Alerts with iLert
 
 ![](../.gitbook/assets/nr3.png)
 
-2. Select **Channel Type** Webhook and insert the generated in iLert field **Base URL**.
+1. Select **Channel Type** Webhook and insert the generated in iLert field **Base URL**.
 
 ![](../.gitbook/assets/nr4_png.png)
 
-3. After you click on **Create channel** , you have the opportunity to test the integration. Click **Send a test notification**.
+1. After you click on **Create channel** , you have the opportunity to test the integration. Click **Send a test notification**.
 
 ![](../.gitbook/assets/nr5.png)
 
-4. Check if an alert has been created in iLert.
-
-5. After creating the **Notification Channel** in New Relic, add it to one or more **alert policies**. Go to the **Alert policies** tab and click **Add alert policy**.
+1. Check if an alert has been created in iLert.
+2. After creating the **Notification Channel** in New Relic, add it to one or more **alert policies**. Go to the **Alert policies** tab and click **Add alert policy**.
 
 ![](../.gitbook/assets/nr6.png)
 
-6. The integration is now set up!
+1. The integration is now set up!
 
 ## FAQ <a id="faq"></a>
 

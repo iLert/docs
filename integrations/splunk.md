@@ -11,12 +11,11 @@ description: >-
 ### Create a Splunk alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
-
 2. Enter a name and select your desired escalation policy. Select "Splunk" as the **Integration Type** and click on **Save**.
 
 ![](../.gitbook/assets/screenshot_08_02_21__20_39.png)
 
-3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the hook in Splunk.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the hook in Splunk.
 
 ![](../.gitbook/assets/screenshot_08_02_21__20_39%20%281%29.png)
 
@@ -28,11 +27,11 @@ description: >-
 
 ![](../.gitbook/assets/screenshot_08_02_21__20_42.png)
 
-2. Click on **Save As** and then on **Alert** to add an alert
+1. Click on **Save As** and then on **Alert** to add an alert
 
 ![](../.gitbook/assets/screenshot_08_02_21__20_45.png)
 
-3. On the modal window name the alert e.g. **iLert,** choose **Webhook** in the **When triggered** section and ****paste the **Webhook URL** that you generated in iLert and click on **Save**
+1. On the modal window name the alert e.g. **iLert,** choose **Webhook** in the **When triggered** section and **\*\*paste the** Webhook URL **that you generated in iLert and click on** Save\*\*
 
 ![](../.gitbook/assets/screenshot_08_02_21__20_48.png)
 

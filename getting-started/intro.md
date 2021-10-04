@@ -36,52 +36,15 @@ An alert source represents the connection between your tools \(usually a monitor
 
 iLert provides the following inbound integration options:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"></th>
-      <th style="text-align:left"></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><a href="../integrations/jira/"><b>Tool integrations</b></a>
-      </td>
-      <td style="text-align:left">
-        <p></p>
-        <p>These are pre-built integrations by iLert and work-out-of the box with
-          your monitoring tools. If you&apos;re missing a tool, feel free to suggest
-          an integration that you&apos;d like to see in iLert.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="../integrations/email/"><b>Email integration</b></a>
-      </td>
-      <td style="text-align:left">Forward emails to an alert source&apos;s email addres to integrate with
-        iLert.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><a href="https://api.ilert.com/api-docs/"><b>Event API</b></a>
-      </td>
-      <td style="text-align:left">Write your own integration using our easy-to-use Event API.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>SMS integration</b>
-      </td>
-      <td style="text-align:left">Send alerts to iLert via SMS.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">&lt;b&gt;&lt;/b&gt;<a href="../uptime-monitors/heartbeat-monitoring/"><b>Hearbeat monitoring</b></a>
-      </td>
-      <td style="text-align:left">A heartbeat alert source will automatically create an alert if it does
-        not receive a heartbeat signal from your app at regular intervals.</td>
-    </tr>
-  </tbody>
-</table>
+|  |  |
+| :--- | :--- |
+| [**Tool integrations**](../integrations/jira/) | These are pre-built integrations by iLert and work-out-of the box with your monitoring tools. If you're missing a tool, feel free to suggest an integration that you'd like to see in iLert. |
+| [**Email integration**](../integrations/email/) | Forward emails to an alert source's email addres to integrate with iLert. |
+| [**Event API**](https://api.ilert.com/api-docs/) | Write your own integration using our easy-to-use Event API. |
+| **SMS integration** | Send alerts to iLert via SMS. |
+| &lt;b&gt;&lt;/b&gt;[**Hearbeat monitoring**](../uptime-monitors/heartbeat-monitoring/) | A heartbeat alert source will automatically create an alert if it does not receive a heartbeat signal from your app at regular intervals. |
 
 ![](../.gitbook/assets/image%20%282%29.png)
-
-
 
 ### Connectors and alert actions / outbound integrations
 
@@ -108,8 +71,6 @@ An escalation policy connects an alert source with the users that are responsibl
 On-call schedules determine who will be notified when an alert is created based on the time of day. Only one user per schedule can be on-call at a time. You can reference an on-call schedule in an escalation policy.
 
 {% page-ref page="on-call-schedules/" %}
-
-
 
 ### Notifications
 

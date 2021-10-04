@@ -11,14 +11,12 @@ weight: 1
 ## In iLert: Create Grafana alert source
 
 1. Go to A**lert sources** and click on the **Create new alert source** button
-
 2. Set a name for your Grafana alert sourc and select an escalation policy
-
 3. In the field Integration type select **Grafana** and save.
 
 ![](../.gitbook/assets/gr1.png)
 
-4. On the next page, a Webhook URL is generated. You will need this URL below when setting up in Grafana.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up in Grafana.
 
 ![](../.gitbook/assets/gr2.png)
 
@@ -28,29 +26,26 @@ weight: 1
 
 ![](../.gitbook/assets/gr3.png)
 
-2. Select **Type** webhook and in the field **URL** insert the webhookurl generated in iLert. Set the HTTP Method to **POST**.
+1. Select **Type** webhook and in the field **URL** insert the webhookurl generated in iLert. Set the HTTP Method to **POST**.
 
 ![](../.gitbook/assets/gr4.png)
 
-3. Optionally test the integration by cliking on the **Send Test** button. Click on **Save**
+1. Optionally test the integration by cliking on the **Send Test** button. Click on **Save**
 
 ![](../.gitbook/assets/gr5.png)
 
-4. Check if an alert has been created in iLert.
-
-5. After the Notification Channel has been created in Grafana, add it to one or more **graph alerts**.
-
-6. Switch to any dashboard of your Grafana installation and edit a graph.
+1. Check if an alert has been created in iLert.
+2. After the Notification Channel has been created in Grafana, add it to one or more **graph alerts**.
+3. Switch to any dashboard of your Grafana installation and edit a graph.
 
 ![](../.gitbook/assets/gr6.png)
 
-7. In the edit view, open the **Alert** section via the left sidemenu and click on the green **Create Alert** button.
-
-8. Fill in the desired **condition** and select the relevant iLert **Notification channel** under **Notifications → Send to** you created in steps 2 and 3. Do not forget to save the dashboard afterwards \(in the upper right Navibar\).
+1. In the edit view, open the **Alert** section via the left sidemenu and click on the green **Create Alert** button.
+2. Fill in the desired **condition** and select the relevant iLert **Notification channel** under **Notifications → Send to** you created in steps 2 and 3. Do not forget to save the dashboard afterwards \(in the upper right Navibar\).
 
 ![](../.gitbook/assets/gr7.png)
 
-9. The integration is now set up!
+1. The integration is now set up!
 
 ## FAQ <a id="faq"></a>
 

@@ -23,7 +23,7 @@ You can find information on our domains, notification email addresses, phone num
 
 ## IP addresses <a id="email-services"></a>
 
-iLert uses flexible serverless infrastructures to provide uptime checks and webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../../contact.md#support) if you are interested in using static IPs in case firewall whitelisting is required for your use case. 
+iLert uses flexible serverless infrastructures to provide uptime checks and webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../../contact.md#support) if you are interested in using static IPs in case firewall whitelisting is required for your use case.
 
 | Address | Region | Description |
 | :--- | :--- | :--- |
@@ -122,8 +122,6 @@ The number that iLert uses to send SMS notifications depends on the target count
 
 The number that iLert uses to send voice notifications depends on the target country:
 
-
-
 <table>
   <thead>
     <tr>
@@ -156,7 +154,7 @@ The number that iLert uses to send voice notifications depends on the target cou
     <tr>
       <td style="text-align:left">Sweden</td>
       <td style="text-align:left">-</td>
-      <td style="text-align:left"><del>starting December 1st, 2020 </del>
+      <td style="text-align:left"><del>starting December 1st, 2020</del>
         <br />(rollout has been cancelled and is pending)</td>
     </tr>
     <tr>

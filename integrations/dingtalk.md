@@ -20,31 +20,31 @@ To set up the integration, you must have admin rights in iLert.
 
 ![](../.gitbook/assets/dingtalk.png)
 
-2. Than click on the **Add Robot** button
+1. Than click on the **Add Robot** button
 
 ![](../.gitbook/assets/dingtalk%20%281%29.png)
 
-3. On the modal window click on the **Custom** tile
+1. On the modal window click on the **Custom** tile
 
 ![](../.gitbook/assets/screenshot_27_05_21__14_49.png)
 
-4. On the next modal window click on the **Add** button
+1. On the next modal window click on the **Add** button
 
 ![](../.gitbook/assets/screenshot_27_05_21__14_52.png)
 
-5. On the next modal window, name the robot e.g. iLert, in the **Security Settings** section enable the **Additional Signature** option, check the **Terms of Service** and click on the **Finished** button
+1. On the next modal window, name the robot e.g. iLert, in the **Security Settings** section enable the **Additional Signature** option, check the **Terms of Service** and click on the **Finished** button
 
 ![](../.gitbook/assets/screenshot_27_05_21__14_58.png)
 
-6. On the next modal window click on the **Finished** button
+1. On the next modal window click on the **Finished** button
 
 ![](../.gitbook/assets/screenshot_27_05_21__15_03.png)
 
-7. On the next modal window click on context menu **"..."** button next to the iLert robot 
+1. On the next modal window click on context menu **"..."** button next to the iLert robot 
 
 ![](../.gitbook/assets/screenshot_27_05_21__15_24.png)
 
-8. On the next modal window copy the **webhook URL** and the **Additional Signature**, you will need it from step 3 in iLert.
+1. On the next modal window copy the **webhook URL** and the **Additional Signature**, you will need it from step 3 in iLert.
 
 ![](../.gitbook/assets/screenshot_27_05_21__15_27.png)
 
@@ -52,27 +52,27 @@ To set up the integration, you must have admin rights in iLert.
 
 ### Create the DingTalk Connector and link it to the alert source
 
-1. ****Click the gear icon and then click on the **Connectors** link
+1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
 
 ![](../.gitbook/assets/screenshot_16_03_21__15_46.png)
 
-2. Click the **Create Connector** button
+1. Click the **Create Connector** button
 
 ![](../.gitbook/assets/screenshot_16_03_21__15_48.png)
 
-3. On the next page, choose **DingTalk** as type, name the connector and click on the **Save** button.
+1. On the next page, choose **DingTalk** as type, name the connector and click on the **Save** button.
 
 ![](../.gitbook/assets/ilert%20%2882%29.png)
 
-5. Go to **Services -&gt; Alert sources** and open the alert source whose alerts you want to post to DingTalk. Click on the **Alert actions** tab and then on the **Add new alert action** button
+1. Go to **Services -&gt; Alert sources** and open the alert source whose alerts you want to post to DingTalk. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
-6. On the next page choose **DingTalk** as the type, choose the connector created in step 3, name it**,** choose **alert events** to publish and click on the **Save** button.
+1. On the next page choose **DingTalk** as the type, choose the connector created in step 3, name it**,** choose **alert events** to publish and click on the **Save** button.
 
 ![](../.gitbook/assets/ilert%20%2884%29.png)
 
-6. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the DingTalk group.
+1. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the DingTalk group.
 
 ![](../.gitbook/assets/dingtalk%20%282%29.png)
 

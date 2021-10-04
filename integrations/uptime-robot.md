@@ -15,14 +15,12 @@ With the UptimeRobot integration, you can easily integrate UptimeRobot notificat
 ## In iLert: Create UptimeRobot alert source <a id="alert-source"></a>
 
 1. Switch to the **alert sources tab** and click the "Create new alert source" button
-
 2. Assign name and select escalation chain
-
 3. Select and save **UptimeRobot** in the Integration type field.
 
 ![](../.gitbook/assets/ur1.png)
 
-4. A webhook URL is generated on the next page. You will need this URL below when setting up in UptimeRobot.
+1. A webhook URL is generated on the next page. You will need this URL below when setting up in UptimeRobot.
 
 ![](../.gitbook/assets/ur2.png)
 
@@ -32,15 +30,15 @@ With the UptimeRobot integration, you can easily integrate UptimeRobot notificat
 
 ![](../.gitbook/assets/ur3.png)
 
-2. Select Webhook as the type and in the URL to Notify field insert the webhookurl generated in iLert and add a "?" at the end of the URL. put \( add \), save now via "Create Alert Contact" button.
+1. Select Webhook as the type and in the URL to Notify field insert the webhookurl generated in iLert and add a "?" at the end of the URL. put \( add \), save now via "Create Alert Contact" button.
 
 ![](../.gitbook/assets/ur4.png)
 
-3. Open the newly created alert contact, then open it again in edit mode.
+1. Open the newly created alert contact, then open it again in edit mode.
 
 ![](../.gitbook/assets/ur5.png)
 
-4. Activate the checkbox that appears for "Default variables via query parameters", scroll down and confirm with "Save Changes".
+1. Activate the checkbox that appears for "Default variables via query parameters", scroll down and confirm with "Save Changes".
 
 ![](../.gitbook/assets/ur6.png)
 

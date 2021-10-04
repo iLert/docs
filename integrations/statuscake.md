@@ -15,12 +15,11 @@ With the iLert StatusCake integration, you can create alerts in iLert based on a
 ## In iLert: Create a StatusCake alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click "Create new alert source"
-
 2. Enter a name and select your desired escalation policy. Select "StatusCake" as the **Integration Type** and click **Save**.
 
 ![](../.gitbook/assets/stck1.png)
 
-3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the hook in StatusCake.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the hook in StatusCake.
 
 ![](../.gitbook/assets/stck2.png)
 
@@ -32,19 +31,15 @@ With the iLert StatusCake integration, you can create alerts in iLert based on a
 
 ![](../.gitbook/assets/stck3.png)
 
-2. In the **Group Name** section, enter a name eg. iLert
-
-3. In the **Repeat Alert** section, move the slider to the left so that it says **No Repeat Alerts**
-
-4. In the **Webhook URL** section, paste the **Webhook URL** that you generated in iLert
-
-5. In the **Webhook Method** section, choose **POST**
-
-6. Optional: Send a test alert through the **Test** button
+1. In the **Group Name** section, enter a name eg. iLert
+2. In the **Repeat Alert** section, move the slider to the left so that it says **No Repeat Alerts**
+3. In the **Webhook URL** section, paste the **Webhook URL** that you generated in iLert
+4. In the **Webhook Method** section, choose **POST**
+5. Optional: Send a test alert through the **Test** button
 
 ![](../.gitbook/assets/stck4.png)
 
-7. Click **Save Now**
+1. Click **Save Now**
 
 ![](../.gitbook/assets/stck5.png)
 

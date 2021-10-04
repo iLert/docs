@@ -14,11 +14,11 @@ weight: 1
 
 ![](../.gitbook/assets/new_incident_action.png)
 
-2. Select **Webhook** as **type** and fill out all fields. In the **Filter Alert Events** field, select the alert events for which you want to receive a webhook call. Webhook events are sent as `HTTP POST` to the specified URL. The URL must be accessible from the internet. Click on **Save**.
+1. Select **Webhook** as **type** and fill out all fields. In the **Filter Alert Events** field, select the alert events for which you want to receive a webhook call. Webhook events are sent as `HTTP POST` to the specified URL. The URL must be accessible from the internet. Click on **Save**.
 
 ![](../.gitbook/assets/ilert%20%2860%29.png)
 
-3. Finished!
+1. Finished!
 
 ## Webhook payload <a id="payload"></a>
 
@@ -100,6 +100,4 @@ Example: [https://example.com:8443/webhooks/ilert](https://example.com:8443/webh
 ### I cannot rely on user-agent headers for my firewall, is there a way to whitelist ip addresses of the webhooks?
 
 Basically it is not possible to whitelist the ip addresses for all of our agents, as there are just too many blocks that may change at any time. However we do offer static IP agents in our Premium plan - the static ip addresses are listed [here](../getting-started/phone-numbers/#email-services).
-
-
 

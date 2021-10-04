@@ -1,7 +1,7 @@
 ---
 description: >-
-  Use N-ABLE N-central notification channels and service groups to create
-  alerts in iLert.
+  Use N-ABLE N-central notification channels and service groups to create alerts
+  in iLert.
 ---
 
 # N-central Integration

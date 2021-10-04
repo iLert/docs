@@ -11,7 +11,7 @@ weight: 1
 ## System Requirements <a id="requirements"></a>
 
 {% hint style="info" %}
-Are you using Zabbix 4.3 or lower? Please refer to our  [Zabbix 2.2 - 4.3 Integration](script.md) guide.
+Are you using Zabbix 4.3 or lower? Please refer to our [Zabbix 2.2 - 4.3 Integration](script.md) guide.
 {% endhint %}
 
 * Zabbix 4.4+
@@ -22,13 +22,12 @@ Are you using Zabbix 4.3 or lower? Please refer to our  [Zabbix 2.2 - 4.3 Integr
 
 ![](../../.gitbook/assets/zbn1.png)
 
-2. Set a name \(e.g. "Zabbix"\) and select your desired escalation policy.
-
-3. Set the **Integration type** to Zabbix.
+1. Set a name \(e.g. "Zabbix"\) and select your desired escalation policy.
+2. Set the **Integration type** to Zabbix.
 
 ![](../../.gitbook/assets/zbn2.png)
 
-4. An API key is generated on the next page. You will need the API key below when creating an iLert user in Zabbix.
+1. An API key is generated on the next page. You will need the API key below when creating an iLert user in Zabbix.
 
 ![](../../.gitbook/assets/zbn3.png)
 
@@ -49,19 +48,19 @@ curl -o media_ilert.xml \
    https://git.zabbix.com/projects/ZBX/repos/zabbix/browse/templates/media/ilert/media_ilert.xml
 ```
 
-2. Go to the **Administration → Media types** tab and click the **Import** button.
+1. Go to the **Administration → Media types** tab and click the **Import** button.
 
 ![](../../.gitbook/assets/zbn4.png)
 
-3. Select import file `media_ilert.xml` and click the **Import** button at the bottom to import the iLert media type.
+1. Select import file `media_ilert.xml` and click the **Import** button at the bottom to import the iLert media type.
 
 ![](../../.gitbook/assets/zbn5.png)
 
-4. **Optional**: Go to **Media types** and open the imported **iLert** media type. You can overwrite the default alert summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
+1. **Optional**: Go to **Media types** and open the imported **iLert** media type. You can overwrite the default alert summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
 
 ![](../../.gitbook/assets/6.png)
 
-6. Click on the **Update** button to save the media type.
+1. Click on the **Update** button to save the media type.
 
 ### Create iLert user and group
 
@@ -69,35 +68,31 @@ curl -o media_ilert.xml \
 
 ![](../../.gitbook/assets/zbn7.png)
 
-2. Set the name for the iLert group \(eg. "iLert group"\).
+1. Set the name for the iLert group \(eg. "iLert group"\).
 
 ![](../../.gitbook/assets/zbn8.png)
 
-3. Switch to the **Permissions** tab and select the **host groups** that the iLert group should have read access to, for sending notifications. Without read access, iLert cannot receive notifications for the hosts in the group \(see also [here](https://www.zabbix.com/documentation/4.4/manual/quickstart/notification)\).
-
-4. Click the **Add** button to save the group.
+1. Switch to the **Permissions** tab and select the **host groups** that the iLert group should have read access to, for sending notifications. Without read access, iLert cannot receive notifications for the hosts in the group \(see also [here](https://www.zabbix.com/documentation/4.4/manual/quickstart/notification)\).
+2. Click the **Add** button to save the group.
 
 ![](../../.gitbook/assets/zbn9.png)
 
-5. Switch to the Users tab and click on the **Create user** button.
+1. Switch to the Users tab and click on the **Create user** button.
 
 ![](../../.gitbook/assets/zbn10.png)
 
-6. Assign an **alias** and **name** and add the user to the iLert group. No further details such as a password are required as this user will not log in to Zabbix.
+1. Assign an **alias** and **name** and add the user to the iLert group. No further details such as a password are required as this user will not log in to Zabbix.
 
 ![](../../.gitbook/assets/zbn11.png)
 
-7. Switch to the **Media** tab and click on the **Add** link
-
-8. In the **media** window, select iLert as **Type** 
-
-9.  In the **Send to** field enter the alert source api key that you generated in iLert
-
-10. Click the **Add** button
+1. Switch to the **Media** tab and click on the **Add** link
+2. In the **media** window, select iLert as **Type**
+3. In the **Send to** field enter the alert source api key that you generated in iLert
+4. Click the **Add** button
 
 ![](../../.gitbook/assets/9.png)
 
-11. Click the **Add** button in the **Users** tab to save the user.
+1. Click the **Add** button in the **Users** tab to save the user.
 
 ![](../../.gitbook/assets/zbn13.png)
 
@@ -107,21 +102,20 @@ curl -o media_ilert.xml \
 
 ![](../../.gitbook/assets/zbn14.png)
 
-2. Give the action a name, eg "iLert notifications".
+1. Give the action a name, eg "iLert notifications".
 
 ![](../../.gitbook/assets/zbn15.png)
 
-3. Perform the following actions on the **Operations**, **Recovery operations** and **Acknowledgment operations** tabs
+1. Perform the following actions on the **Operations**, **Recovery operations** and **Acknowledgment operations** tabs
 
 ![](../../.gitbook/assets/zbn16.png)
 
-4. Change the default subject and default message if you want.
-
-5. Click on the **New** link under **Operations** and select the **iLert** group created above under Send to User groups.
+1. Change the default subject and default message if you want.
+2. Click on the **New** link under **Operations** and select the **iLert** group created above under Send to User groups.
 
 ![](../../.gitbook/assets/zbn17.png)
 
-6. Click the **Add** button to save the action
+1. Click the **Add** button to save the action
 
 ## FAQ <a id="faq"></a>
 
@@ -143,7 +137,7 @@ Please look at the **Problems View** in Zabbix under the actions column first. I
 
 ## Further References <a id="faq"></a>
 
-This blog post in the Zabbix blog outlines how to use Zabbix and iLert with multiple on-call teams, where each team is responsible for a set of host groups in Zabbix, and therefore, will only receive alerts for the services it is responsible for: 
+This blog post in the Zabbix blog outlines how to use Zabbix and iLert with multiple on-call teams, where each team is responsible for a set of host groups in Zabbix, and therefore, will only receive alerts for the services it is responsible for:
 
 [Working with multiple on-call teams using Zabbix and iLert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/)
 

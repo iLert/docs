@@ -17,16 +17,15 @@ weight: 1
 ### Create a webhook <a id="create-webhook"></a>
 
 1. Go to **Discord** and select a server
-
 2. Go to a **Text Channel**, then click on the **Edit Channel** button
 
 ![](../.gitbook/assets/screenshot_2021-07-02_at_10_56_32.png)
 
-3. On the page click on the **Integrations** menu and then on the **Create Webhook** button
+1. On the page click on the **Integrations** menu and then on the **Create Webhook** button
 
 ![](../.gitbook/assets/general_-_discord%20%281%29.png)
 
-4. On the next page, name the webhook, e.g. iLert, save the changes and copy the **Webhook URL**
+1. On the next page, name the webhook, e.g. iLert, save the changes and copy the **Webhook URL**
 
 ![](../.gitbook/assets/general_-_discord.png)
 
@@ -38,24 +37,25 @@ weight: 1
 
 ![](../.gitbook/assets/go_to_connectors%20%284%29.png)
 
-2. Click on **Add Connector**
+1. Click on **Add Connector**
 
 ![](../.gitbook/assets/create_connector_button%20%282%29.png)
 
-3. Select **Discord** as **type** and fill in all fields. Enter a name and paste the Webhook URL of your Discord server that you have created in the previous step.
+1. Select **Discord** as **type** and fill in all fields. Enter a name and paste the Webhook URL of your Discord server that you have created in the previous step.
 
 ![](../.gitbook/assets/ilert%20%2888%29.png)
 
-4. Go to the alert sources tab and open the alert source whose alerts you want to publish in Discord. Click on **Alert actions** and then on **Create alert action**.
+1. Go to the alert sources tab and open the alert source whose alerts you want to publish in Discord. Click on **Alert actions** and then on **Create alert action**.
 
 ![](../.gitbook/assets/new_incident_action%20%2812%29.png)
 
-5. Select **Discord** as the **type**, ****select the connector created in step 3 and click on **Save** button.
+1. Select **Discord** as the **type**, **\*\*select the connector created in step 3 and click on** Save\*\* button.
 
 ![](../.gitbook/assets/ilert%20%2887%29.png)
 
-6. Finished! You can now test the connection by clicking on the button **Test this connection**.  
-A test ticket will be created in Discord.
+1. Finished! You can now test the connection by clicking on the button **Test this connection**.  
+
+   A test ticket will be created in Discord.
 
 ![](../.gitbook/assets/ilert%20%2889%29.png)
 

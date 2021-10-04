@@ -1,7 +1,7 @@
 ---
 description: >-
-  With the iLert Kapacitor integration, you can create alerts in iLert based
-  on Kapacitor alerts.
+  With the iLert Kapacitor integration, you can create alerts in iLert based on
+  Kapacitor alerts.
 ---
 
 # Kapacitor Integration
@@ -16,11 +16,11 @@ description: >-
 
 ![](../.gitbook/assets/screenshot_16_03_21__16_37.png)
 
-2. Enter a name and select your desired escalation policy. Select "Kapacitor" as the **Integration Type** and click on **Save**.
+1. Enter a name and select your desired escalation policy. Select "Kapacitor" as the **Integration Type** and click on **Save**.
 
 ![](../.gitbook/assets/ilert%20%2841%29.png)
 
-3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the alert rule in Kapacitor.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the alert rule in Kapacitor.
 
 ![](../.gitbook/assets/ilert%20%2838%29.png)
 
@@ -32,7 +32,7 @@ description: >-
 
 ![](../.gitbook/assets/screenshot_2021-03-29_at_15_11_55.png)
 
-2. On the next page,  define your alert conditions, paste the **Webhook URL** that you generated in iLert, define alert summary and click on the **Save Rule** button
+1. On the next page,  define your alert conditions, paste the **Webhook URL** that you generated in iLert, define alert summary and click on the **Save Rule** button
 
 ![](../.gitbook/assets/chronograf.png)
 

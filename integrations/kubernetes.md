@@ -1,7 +1,7 @@
 ---
 description: >-
-  With the iLert Kubernetes integration, you can create alerts in iLert based
-  on Kubernetes events and metrics.
+  With the iLert Kubernetes integration, you can create alerts in iLert based on
+  Kubernetes events and metrics.
 ---
 
 # Kubernetes Integration
@@ -11,12 +11,11 @@ description: >-
 ### Create a Kubenetes alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
-
 2. Enter a name and select your desired escalation policy. Select "Kubernetes" as the **Integration Type** and click on **Save**.
 
 ![](../.gitbook/assets/ilert%20%2833%29.png)
 
-3. On the next page, a API Key is generated. You will need it below when setting up the **ilert-kube-agent** deployment.
+1. On the next page, a API Key is generated. You will need it below when setting up the **ilert-kube-agent** deployment.
 
 ![](../.gitbook/assets/ilert%20%2830%29.png)
 
@@ -31,7 +30,7 @@ helm repo add ilert https://ilert.github.io/charts/
 helm repo update
 ```
 
-2. Deploy ilert-kube-agent with the API Key  that you generated in iLert 
+1. Deploy ilert-kube-agent with the API Key  that you generated in iLert 
 
 ```text
 helm upgrade --install --namespace kube-system \
@@ -52,7 +51,7 @@ module "ilert-kube-agent" {
 }
 ```
 
-2. Apply changes
+1. Apply changes
 
 ```text
 terraform init
@@ -67,7 +66,7 @@ terraform apply
 git clone https://github.com/iLert/ilert-kube-agent.git
 ```
 
-2. Paste the API Key that you generated in iLert into _./example/standard/30-deployment.yaml_
+1. Paste the API Key that you generated in iLert into _./example/standard/30-deployment.yaml_
 
 ```text
 ...
@@ -78,13 +77,13 @@ git clone https://github.com/iLert/ilert-kube-agent.git
 ...
 ```
 
-3. Apply the deployment manifest to your kubernetes cluster
+1. Apply the deployment manifest to your kubernetes cluster
 
 ```text
 kubectl apply -f deployment/standard/
 ```
 
-4. Verify that the ilert-kube-agent pods are running and ready
+1. Verify that the ilert-kube-agent pods are running and ready
 
 ```text
 kubectl --namespace kube-system get pod -l app=ilert-kube-agent
@@ -93,8 +92,6 @@ NAME                               READY   STATUS    RESTARTS   AGE
 ilert-kube-agent-64f7dfd4d-nsnzp   1/1     Running   0          37h
 ilert-kube-agent-64f7dfd4d-zx7fb   1/1     Running   0          37h
 ```
-
-###  <a id="create-action-sequences"></a>
 
 Finished! Your Kubernetes alerts will now create alerts in iLert.
 

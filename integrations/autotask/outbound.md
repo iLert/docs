@@ -34,23 +34,23 @@ description: Create tickets in Autotask PSA based on alerts from iLert.
 
 ![](../../.gitbook/assets/ilert%20%2819%29.png)
 
-2. Click on **Add Connector**
+1. Click on **Add Connector**
 
 ![](../../.gitbook/assets/ilert%20%2817%29.png)
 
-3. Select **Autotask** as **type** and fill in all fields. Enter a name and the username/password pair that you created in the last step.
+1. Select **Autotask** as **type** and fill in all fields. Enter a name and the username/password pair that you created in the last step.
 
 ![](../../.gitbook/assets/ilert%20%2821%29.png)
 
-4. Go to the alert sources tab and open the alert source whose alerts you want to publish in Autotask. Click on **Alert actions** and then on **Create alert action**.
+1. Go to the alert sources tab and open the alert source whose alerts you want to publish in Autotask. Click on **Alert actions** and then on **Create alert action**.
 
 ![](../../.gitbook/assets/new_incident_action%20%283%29.png)
 
-5. Select **Autotask** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the alert action name.
+1. Select **Autotask** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the alert action name.
 
 ![](../../.gitbook/assets/ilert%20%2859%29.png)
 
-6. Finished! You can now test the alert action by clicking on the button **Test this connection**. Then a test ticket will be created in Autotask.
+1. Finished! You can now test the alert action by clicking on the button **Test this connection**. Then a test ticket will be created in Autotask.
 
 ![](../../.gitbook/assets/ilert%20%2858%29.png)
 

@@ -9,16 +9,16 @@ description: >-
 ## Parsing UUIDv4 as alert key from the email subject
 
 Can be done by choosing `extract through regex` as alert key email extraction.  
-A sample regex to parse a UUID v4 format is the following:  
-  
+A sample regex to parse a UUID v4 format is the following:
+
 `[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89aAbB][a-f0-9]{3}-[a-f0-9]{12}`
 
 This regex will pull any kind of uuid matching somewhere in the email subject and use it as integration key to aggregate incoming emails on alerts.
 
 ## Extracing an alert key between two strings from the email subject
 
-A very common use case might be a monitoring tool that sends emails containing the actual alert origin embedded in the text like so:  
-  
+A very common use case might be a monitoring tool that sends emails containing the actual alert origin embedded in the text like so:
+
 _Some static text \(the alert origin\) Some information about the state_
 
 These payloads are a perfect fit for iLert's key extraction and auto-resolve feature.  
@@ -41,13 +41,11 @@ In action the timeline will also show us how the incoming subjects change the st
 
 ![](../../.gitbook/assets/screenshot-2020-09-03-at-17.49.05.png)
 
-And with the help of the alert source's **email log** we can also see how the incoming emails are treated \(emails that fail to pass filters will also show up here, in case you  need more information on why emails are not opening or closing alerts\)
+And with the help of the alert source's **email log** we can also see how the incoming emails are treated \(emails that fail to pass filters will also show up here, in case you need more information on why emails are not opening or closing alerts\)
 
 ![](../../.gitbook/assets/screenshot-2020-09-02-at-15.01.59.png)
 
-
-
 {% hint style="info" %}
-You may always reach out to our team when having any kind of  questions for your integration use case.
+You may always reach out to our team when having any kind of questions for your integration use case.
 {% endhint %}
 

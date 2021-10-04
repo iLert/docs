@@ -20,11 +20,11 @@ Email integration is the easiest way to integrate iLert with your monitoring sys
 
 ![](../../.gitbook/assets/screenshot-2020-06-18-at-16.21.49.png)
 
-Your email alert source is now active. Any email sent to the  email address will create an alert in iLert and trigger the alerting process using the alert source's escalation policy. The default setting creates an alert in iLert for each incoming email. The next section explains advanced settings, such as deduplicating or filtering emails.
+Your email alert source is now active. Any email sent to the email address will create an alert in iLert and trigger the alerting process using the alert source's escalation policy. The default setting creates an alert in iLert for each incoming email. The next section explains advanced settings, such as deduplicating or filtering emails.
 
 ## Fine-tuning email integration <a id="advanced-settings"></a>
 
-By default, iLert creates a new alert for every email sent to the alert source's email address. You can fine-tune this behavior by 
+By default, iLert creates a new alert for every email sent to the alert source's email address. You can fine-tune this behavior by
 
 * adding email filter, which lets you filter emails based on defined conditions
 * modifying alert creation options
@@ -59,28 +59,28 @@ Email filters allow you to ignore emails based on the content of the email's sub
           <br />
         </p>
         <p>If, for example, a monitoring system sends two e-mails in succession with
-          the same subject, a new alert is created for the first e-mail and the
-          second e-mail is appended to the created alert in the event log.</p>
+          the same subject, a new alert is created for the first e-mail and the second
+          e-mail is appended to the created alert in the event log.</p>
       </td>
     </tr>
     <tr>
       <td style="text-align:left">Open a new alert only if all alerts in this alert source are in <code>RESOLVED</code> or <code>ACCEPTED OR RESOLVED</code>state</td>
       <td
       style="text-align:left">An email sent to the alert source&apos;s email address will only open
-        a new alert if an open alert does not already exist; otherwise, the
-        email will be appended to the last open alert.
+        a new alert if an open alert does not already exist; otherwise, the email
+        will be appended to the last open alert.
         <br />
         <br />Example: You get alerted at 3 A.M. in the morning and accept the alert
         and decide to look at the problem the next morning. In the meantime, if
-        a new (potentially critical) issue is reported to iLert, a new alert
-        will be notified again. In this scenario, you need to chose <code>ACCEPTED ir RESOLVED</code> in
+        a new (potentially critical) issue is reported to iLert, a new alert will
+        be notified again. In this scenario, you need to chose <code>ACCEPTED ir RESOLVED</code> in
         the dropdown list.</td>
     </tr>
     <tr>
       <td style="text-align:left">Open and resolve alerts based alert keys extracted from emails</td>
       <td
-      style="text-align:left">Use defined rules to link emails to the same alert based on matching
-        substrings in the email subject or body. See <a href="automatically-resolve-incidents-with-emails.md">Automatically resolve Alerts with Emails</a>
+      style="text-align:left">Use defined rules to link emails to the same alert based on matching substrings
+        in the email subject or body. See <a href="automatically-resolve-incidents-with-emails.md">Automatically resolve Alerts with Emails</a>
         </td>
     </tr>
   </tbody>
@@ -96,7 +96,7 @@ Email filters allow you to ignore emails based on the content of the email's sub
 
 Yes, iLert evaluates the `TO` , `CC` and `BCC` fields as well as the `DELIVERED-TO` header when processing email.
 
-**My monitoring system sends emails when an issue is recovered  \(e.g. `RECOVERY` emails in Nagios\). Can iLert use these emails to resolve previously created alerts?**
+**My monitoring system sends emails when an issue is recovered \(e.g. `RECOVERY` emails in Nagios\). Can iLert use these emails to resolve previously created alerts?**
 
 Yes, see [Automatically resolve Alerts with Emails](automatically-resolve-incidents-with-emails.md) for further information
 

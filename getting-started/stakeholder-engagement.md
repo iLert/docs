@@ -14,11 +14,11 @@ With iLert's Stakeholder Engagement feature, you can keep stakeholders informed 
 
 Use cases for stakeholders may include
 
-* **Internal stakeholders** within your organization, e.g. executives, the marketing team, customer support team, or 
+* **Internal stakeholders** within your organization, e.g. executives, the marketing team, customer support team, or
 
-  other departments 
+  other departments
 
-* **External stakeholders** outside your organization, e.g. if you're an IT service provider and want to keep your 
+* **External stakeholders** outside your organization, e.g. if you're an IT service provider and want to keep your
 
   customers in the loop about an ongoing alert.
 

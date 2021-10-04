@@ -24,7 +24,6 @@ Using the **url** \(including the api key\) you can simply try out heartbeats \(
 
 ```text
 curl https://api.ilert.com/api/v1/heartbeats/${YOUR-APIKEY}
-
 ```
 
 You can find more examples on how to implement heartbeats here:
@@ -32,8 +31,4 @@ You can find more examples on how to implement heartbeats here:
 {% page-ref page="prometheus-heartbeat-example.md" %}
 
 {% page-ref page="cli-heartbeat-examples.md" %}
-
-
-
-
 

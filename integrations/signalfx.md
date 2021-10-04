@@ -1,7 +1,7 @@
 ---
 description: >-
-  With the iLert SignalFx integration, you can create alerts in iLert based
-  on SignalFx alerts.
+  With the iLert SignalFx integration, you can create alerts in iLert based on
+  SignalFx alerts.
 ---
 
 # SignalFx Integration
@@ -13,12 +13,11 @@ SignalFx enables real-time cloud monitoring and observability for infrastructure
 ### Create a SignalFx alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
-
 2. Enter a name and select your desired escalation policy. Select "SignalFx" as the **Integration Type** and click on **Save**.
 
 ![](../.gitbook/assets/ilert%20%2831%29.png)
 
-3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the hook in SignalFx.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the hook in SignalFx.
 
 ![](../.gitbook/assets/ilert%20%2832%29.png)
 
@@ -30,11 +29,11 @@ SignalFx enables real-time cloud monitoring and observability for infrastructure
 
 ![](../.gitbook/assets/detectors.png)
 
-2. Choose the rule that you would like to apply, then click **Edit.** In the **Alert recipients** section, click **Add Recipient,** select **Webhook -&gt; Custom...**
+1. Choose the rule that you would like to apply, then click **Edit.** In the **Alert recipients** section, click **Add Recipient,** select **Webhook -&gt; Custom...**
 
 ![](../.gitbook/assets/detector_-_my_detector.png)
 
-3. On the modal window paste the **Webhook URL** that you generated in iLert and click on **Update**
+1. On the modal window paste the **Webhook URL** that you generated in iLert and click on **Update**
 
 ![](../.gitbook/assets/detector_-_my_detector%20%281%29.png)
 

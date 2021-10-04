@@ -10,11 +10,11 @@ description: Create events in Amazon EventBridge using iLert alerts.
 
 ### Create the Amazon EventBridge Alert Action
 
-1. ****Go to the alert sources tab and open the alert source whose alerts you want to publish to Amazon EventBridge. Click on the **Alert actions** tab and then on the **Add new alert action** button
+1. **\*\*Go to the alert sources tab and open the alert source whose alerts you want to publish to Amazon EventBridge. Click on the** Alert actions **tab and then on the** Add new alert action\*\* button
 
 ![](../.gitbook/assets/ilert%20%2890%29.png)
 
-2. On the next page choose **Amazon EventBridge** as the type, name it, choose **Trigger mode**, enter your AWS **account ID**, choose AWS **region** and click on the **Save** button.
+1. On the next page choose **Amazon EventBridge** as the type, name it, choose **Trigger mode**, enter your AWS **account ID**, choose AWS **region** and click on the **Save** button.
 
 ![](../.gitbook/assets/notification_center%20%284%29.png)
 
@@ -26,33 +26,31 @@ description: Create events in Amazon EventBridge using iLert alerts.
 
 ![](../.gitbook/assets/amazon_eventbridge%20%281%29.png)
 
-2. On the next page, click on the **Associate with event bus** button
+1. On the next page, click on the **Associate with event bus** button
 
 ![](../.gitbook/assets/amazon_eventbridge%20%283%29.png)
 
-3. On the next page in the permissions section, choose **Organization** and **My organization** - ****then click on the **Associate** button
+1. On the next page in the permissions section, choose **Organization** and **My organization** - **\*\*then click on the** Associate\*\* button
 
 ![](../.gitbook/assets/amazon_eventbridge.png)
 
-4. To finished the configuration, you need to create a rule for the new event bus e.g. a rule for Amazon SQS. To do that, go to the **EventBridge Rules,** choose the **Event bus** and click on the **Create rule** button
+1. To finished the configuration, you need to create a rule for the new event bus e.g. a rule for Amazon SQS. To do that, go to the **EventBridge Rules,** choose the **Event bus** and click on the **Create rule** button
 
 ![](../.gitbook/assets/amazon_eventbridge%20%284%29.png)
 
-5. On the next page in the **New and description** section, name the rule, e.g. my-rule and scroll down
+1. On the next page in the **New and description** section, name the rule, e.g. my-rule and scroll down
 
 ![](../.gitbook/assets/amazon_eventbridge%20%282%29.png)
 
-6. In the **Define pattern** section, choose **Pre-defined pattern by service**, in the **Service provider** section choose **All Events** and scroll down
+1. In the **Define pattern** section, choose **Pre-defined pattern by service**, in the **Service provider** section choose **All Events** and scroll down
 
 ![](../.gitbook/assets/notification_center%20%282%29.png)
 
-7. In the **Select targets** section, choose **SQS queue** as target type and choose your queue, then scroll down and click on the **Create** button
+1. In the **Select targets** section, choose **SQS queue** as target type and choose your queue, then scroll down and click on the **Create** button
 
 ![](../.gitbook/assets/notification_center%20%283%29.png)
 
-7. Finished! Now an Amazon EventBridge notification will be created for each alert that is created to the linked alert source in iLert.
-
-
+1. Finished! Now an Amazon EventBridge notification will be created for each alert that is created to the linked alert source in iLert.
 
 ## Event types sent to Amazon EventBridge event bus
 
@@ -97,7 +95,6 @@ description: Create events in Amazon EventBridge using iLert alerts.
     "assignedTo": null
   }
 }
-
 ```
 {% endtab %}
 
@@ -135,7 +132,6 @@ description: Create events in Amazon EventBridge using iLert alerts.
     }
   }
 }
-
 ```
 {% endtab %}
 
@@ -173,7 +169,6 @@ description: Create events in Amazon EventBridge using iLert alerts.
     }
   }
 }
-
 ```
 {% endtab %}
 
@@ -222,6 +217,4 @@ Yes.
 **How can I remove the Partner Event Source?**
 
 The partner event source will be automatically removed with the alert action.
-
-##  <a id="in-ilert"></a>
 

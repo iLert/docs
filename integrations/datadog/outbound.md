@@ -12,11 +12,11 @@ description: Create events in Datadog from iLert alerts.
 
 ![](../../.gitbook/assets/datadog_1.png)
 
-2. In the **New API key** section, enter a name eg. iLert and click on **Create API Key** button
+1. In the **New API key** section, enter a name eg. iLert and click on **Create API Key** button
 
 ![](../../.gitbook/assets/datadog_2.png)
 
-3. Write down your API key. You will need it later in iLert.
+1. Write down your API key. You will need it later in iLert.
 
 ## In iLert <a id="in-ilert"></a>
 
@@ -26,23 +26,23 @@ description: Create events in Datadog from iLert alerts.
 
 ![](../../.gitbook/assets/go_to_connectors.png)
 
-2. Click on **Add Connector**
+1. Click on **Add Connector**
 
 ![](../../.gitbook/assets/create_connector_button%20%287%29.png)
 
-3. Select **Datadog** as **type** and fill in all fields. Enter a name and the API key that you created [in the last step]().
+1. Select **Datadog** as **type** and fill in all fields. Enter a name and the API key that you created [in the last step](outbound.md).
 
 ![](../../.gitbook/assets/datadog_il1.png)
 
-4. Go to the alert sources tab and open the alert source whose alerts you want to publish in Datadog. Click on **Alert actions** and then on **Create alert action**.
+1. Go to the alert sources tab and open the alert source whose alerts you want to publish in Datadog. Click on **Alert actions** and then on **Create alert action**.
 
 ![](../../.gitbook/assets/new_incident_action%20%286%29.png)
 
-5. Select **Datadog** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the alert action name.
+1. Select **Datadog** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the alert action name.
 
 ![](../../.gitbook/assets/ilert%20%2866%29.png)
 
-6. Finished! You can now test the alert action by clicking on the button **Test this alert action**. Then a test ticket will be published in Datadog.
+1. Finished! You can now test the alert action by clicking on the button **Test this alert action**. Then a test ticket will be published in Datadog.
 
 ![](../../.gitbook/assets/ilert%20%2872%29.png)
 

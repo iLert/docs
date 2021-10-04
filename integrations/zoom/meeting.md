@@ -14,31 +14,31 @@ description: Create Zoom Meeting from iLert alerts.
 To set up the integration, you must have admin rights in iLert.
 {% endhint %}
 
-1. ****Click the gear icon and then click on the **Connectors** link
+1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
 
 ![](../../.gitbook/assets/screenshot_16_03_21__15_46.png)
 
-2. Click the **Add Connector** button
+1. Click the **Add Connector** button
 
 ![](../../.gitbook/assets/screenshot_16_03_21__15_48.png)
 
-3. On the next page, choose **Zoom Meeting** as type, name the connector and click on the save button to authorize iLert App with your Zoom account.
+1. On the next page, choose **Zoom Meeting** as type, name the connector and click on the save button to authorize iLert App with your Zoom account.
 
 ![](../../.gitbook/assets/screenshot_16_03_21__15_51.png)
 
-4. On the next page, agree with the requested permissions and click on the **Authorize** button
+1. On the next page, agree with the requested permissions and click on the **Authorize** button
 
 ![](../../.gitbook/assets/screenshot_16_03_21__15_53.png)
 
-5. Go to the alert sources tab and open the alert source whose alerts you want to create Zoom Meeting. Click on the **Alert actions** tab and then on the **Add new alert action** button
+1. Go to the alert sources tab and open the alert source whose alerts you want to create Zoom Meeting. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_04.png)
 
-6. On the next page choose **Zoom Meeting** as the type, choose the connector created in step 3, name it, choose **Trigger mode,** optionally ****enter meeting password if you want to protect your meetings and click on the **Save** button.
+1. On the next page choose **Zoom Meeting** as the type, choose the connector created in step 3, name it, choose **Trigger mode,** optionally **\*\*enter meeting password if you want to protect your meetings and click on the** Save\*\* button.
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_06.png)
 
-7. Finished! Now a Zoom Meeting will be created  for each alert in automatic trigger mode or via manual alert action.
+1. Finished! Now a Zoom Meeting will be created  for each alert in automatic trigger mode or via manual alert action.
 
 ![](../../.gitbook/assets/screenshot_16_03_21__16_10.png)
 
@@ -54,6 +54,4 @@ Yes.
 2. Click on the **Manage** link and then on the **Installed Apps** link \(alternatively you may also search for the **iLert** app\)
 3. Click on the **iLert** app
 4. Click on the **Uninstall** button
-
-
 

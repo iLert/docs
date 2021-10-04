@@ -46,7 +46,7 @@ To create a new team, navigate to the list view using the **Teams** link in the 
 
 Click on **Add new team**, enter a name for your new team and use the **Create team** button to create it.
 
-![](../.gitbook/assets/screenshot-2021-01-21-at-22.16.04.png)
+![](../.gitbook/assets/screenshot-2021-01-21-at-22.16.04%20%281%29.png)
 
 You may now add new members or resources to the team.
 

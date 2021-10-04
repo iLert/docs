@@ -8,7 +8,7 @@ description: >-
 
 ## Configuring auto Email Alert-Resolution
 
-When creating or editing your email alert sources in iLert,  choose the alert creation type **Open and resolve alerts based alert keys extracted from emails**.
+When creating or editing your email alert sources in iLert, choose the alert creation type **Open and resolve alerts based alert keys extracted from emails**.
 
 ![](../../.gitbook/assets/screenshot-2020-06-17-at-14.46.18.png)
 
@@ -18,7 +18,7 @@ You will be granted with 2 new configuration options, when choosing this alert c
 
 ## Alert Key extraction configuration
 
-For this example we will demonstrate the alert key / identifier extraction based on a UUID version 4. We will use the following regex to extract the alert key from the subject of the incoming emails: 
+For this example we will demonstrate the alert key / identifier extraction based on a UUID version 4. We will use the following regex to extract the alert key from the subject of the incoming emails:
 
 `[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89aAbB][a-f0-9]{3}-[a-f0-9]{12}`
 
@@ -43,8 +43,4 @@ In our example case we choose to scan the incoming email subjects for the text `
 In case your email alert source is not resolving as you would expect. You can always check the Mail Log to see how and why incoming emails where treated.
 
 ![](../../.gitbook/assets/screenshot-2020-06-17-at-15.01.41.png)
-
-
-
-
 

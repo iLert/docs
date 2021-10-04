@@ -164,8 +164,6 @@ description: >-
 * Links and Images for Alerts with automatic connections
 * Adedd [international caller IDs for voice alerts](getting-started/phone-numbers/#voice-alerts) for USA and Canada, UK, Australia, Belgium and Netherlands
 
-
-
 ## November 2020
 
 ### New features
@@ -301,6 +299,4 @@ description: >-
 ### Improvements
 
 * **Auto raise alert priority** lets you delay notifications and escalations until support hours start \([blog post](https://www.ilert.com/blog/2020-04-07-alert-reports-ilert-sso/#auto-raise)\)
-
-
 

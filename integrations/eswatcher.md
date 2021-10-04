@@ -13,12 +13,11 @@ description: >-
 ### Create a X-Pack Alerting alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
-
 2. Enter a name and select your desired escalation policy. Select "X-Pack Alerting \(Elasticsearch Watcher\)" as the **Integration Type** and click on **Save**.
 
 ![](../.gitbook/assets/ilert%20%2836%29.png)
 
-3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the Watcher in X-Pack.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the Watcher in X-Pack.
 
 ![](../.gitbook/assets/ilert%20%2846%29.png)
 
@@ -36,7 +35,7 @@ To set up the integration, you must have X-Pack license with Watcher feature ena
 
 ![](../.gitbook/assets/kibana%20%281%29.png)
 
-2. On the next page, name the watcher e.g. iLert, define conditions and actions the **Webhook URL** that you generated in iLert as follows:
+1. On the next page, name the watcher e.g. iLert, define conditions and actions the **Webhook URL** that you generated in iLert as follows:
 
 ![](../.gitbook/assets/kibana.png)
 
