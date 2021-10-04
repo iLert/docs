@@ -60,6 +60,10 @@ Integrations that have been developed using the old API version to not have to b
 | LogEntry | logEntryType | All values e.g. IncidentLogEntry have been renamed accordingly e.g. AlertLogEntry |
 | Event | incidentKey | alertKey |
 
+### Renaming connections to alert-actions
+
+In favor of developer experience we decided to migrate `/api/v1/connections` to `/api/alert-actions` alongside our [general version dropping migration](api-version-history.md#dropping-url-versions-globally). The old endpoint is still available.
+
 ### Removing XML support
 
 In June 2020 we decided to deprecate XML support for request and response schemas, as JSON was widely preferered by our customers. We began removing support from older `/v1/...` endpoints in August 2020. XML is **not** supported in new url version-less resources as of 2021.
