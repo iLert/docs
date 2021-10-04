@@ -6,6 +6,25 @@ description: >-
 
 # iLert Release Notes
 
+## October 2021
+
+### New features
+
+* we have released a new version of our API check [here for more info](rest-api/api-version-history.md)
+* we have added a new API resource [incident reports](https://api.ilert.com/api-docs/#tag/Reports)
+
+### New and updated integrations
+
+* new inbound integration IXON
+* new inbound integration Salesforce
+* new inbound integration Jumpcloud
+* new inbound integration StatusHub
+* new inbound integration AWS GuardDuty
+
+### Improvements
+
+* rendering performance of timelines of schedules has been improved
+
 ## September 2021
 
 ### New features
