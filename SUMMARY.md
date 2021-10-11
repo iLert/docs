@@ -34,7 +34,7 @@
 * [Setting up SSO with Auth0](single-sign-on/setting-up-sso-with-auth0.md)
 * [Auto provisioning users & teams](single-sign-on/auto-provisioning-users-and-teams.md)
 
-## Uptime & Heartbeat Monitors <a id="uptime-monitors"></a>
+## Uptime & Heartbeat Monitors <a href="uptime-monitors" id="uptime-monitors"></a>
 
 * [Uptime Monitoring](uptime-monitors/uptime-monitoring.md)
 * [Heartbeat Monitoring](uptime-monitors/heartbeat-monitoring/README.md)
@@ -82,10 +82,10 @@
 * [Cisco Webex](integrations/webex.md)
 * [Cloudflare Integration](integrations/cloudflare.md)
 * [Connectwise Manage Integration](integrations/connectwise-manage-integration.md)
-* [Cortex XSOAR \(formerly Demisto\) Integration](integrations/cortex-xsoar.md)
+* [Cortex XSOAR (formerly Demisto) Integration](integrations/cortex-xsoar.md)
 * [Checkmk Integration](integrations/checkmk/README.md)
-  * [Checkmk Integration \(v 1.x\)](integrations/checkmk/check-mk.md)
-  * [Checkmk Integration \(v 2.0+ \)](integrations/checkmk/native.md)
+  * [Checkmk Integration (v 1.x)](integrations/checkmk/check-mk.md)
+  * [Checkmk Integration (v 2.0+ )](integrations/checkmk/native.md)
 * [Datadog Integration](integrations/datadog/README.md)
   * [Datadog Inbound Integration](integrations/datadog/inbound.md)
   * [Datadog Outbound Integration](integrations/datadog/outbound.md)
@@ -97,15 +97,15 @@
   * [Automatically resolve Alerts with Emails](integrations/email/automatically-resolve-incidents-with-emails.md)
 * [Email Outbound Integration](integrations/email-outbound-integration.md)
 * [GitHub Integration](integrations/github/README.md)
-  * [GitHub Inbound Check Run \(Actions\) Integration](integrations/github/inbound-check-run-actions.md)
+  * [GitHub Inbound Check Run (Actions) Integration](integrations/github/inbound-check-run-actions.md)
   * [GitHub Inbound Issue Integration](integrations/github/inbound-issue.md)
   * [GitHub Outbound Issue Integration](integrations/github/outbound-issue.md)
 * [Google Cloud Function Integration](integrations/gcf.md)
-* [Google Cloud Monitoring \(formerly Stackdriver\) Integration](integrations/google-stackdriver.md)
+* [Google Cloud Monitoring (formerly Stackdriver) Integration](integrations/google-stackdriver.md)
 * [Grafana Integration](integrations/grafana.md)
 * [Icinga Integration](integrations/icinga.md)
 * [Instana Integration](integrations/instana.md)
-* [Ixon Cloud Integration](integrations/ixon.md)
+* [IXON Cloud Integration](integrations/ixon.md)
 * [Kapacitor Integration](integrations/kapacitor.md)
 * [Kentix AlarmManager](integrations/kentix-am.md)
 * [Kubernetes Integration](integrations/kubernetes.md)
@@ -156,7 +156,7 @@
 * [Terraform Cloud / Terraform Enterprise](integrations/terraform-cloud-terraform-enterprise.md)
 * [UptimeRobot Integration](integrations/uptime-robot.md)
 * [Webhook Integration](integrations/webhook.md)
-* [X-Pack Alerting \(Elasticsearch Watcher\) Integration](integrations/eswatcher.md)
+* [X-Pack Alerting (Elasticsearch Watcher) Integration](integrations/eswatcher.md)
 * [Zabbix Integration](integrations/zabbix/README.md)
   * [Zabbix 4.4+ Integration](integrations/zabbix/native.md)
   * [Zabbix 2.2 - 4.3 Integration](integrations/zabbix/script.md)
@@ -173,9 +173,8 @@
   * [Zoom Chat Integration](integrations/zoom/chat.md)
   * [Zoom Meeting Integration](integrations/zoom/meeting.md)
 
----
+***
 
 * [Contact us](contact.md)
 * [iLert Release Notes](ilert-release-notes.md)
 * [iLert Mobile Release Notes](ilert-mobile-release-notes.md)
-
