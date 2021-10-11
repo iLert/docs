@@ -9,7 +9,7 @@ description: >-
 
 This integration uses IXON's [Cloud Notify](https://support.ixon.cloud/hc/en-us/articles/360016840620) to dispatch real-time notifiations from your machine(s) to iLert. That way, you can leverage iLert's alerting, scheduling and escalation capabiltites to send critical alerts from your machines to the right personnel and take immediate action.
 
-## In iLert - create IXON Cloud alert source
+### In iLert - create IXON Cloud alert source
 
 1\. Go to the **Alert sources** tab and click on **Create new alert source**
 
@@ -25,7 +25,9 @@ This integration uses IXON's [Cloud Notify](https://support.ixon.cloud/hc/en-us/
 
 
 
-## In IXON Cloud - create iLert webhook
+### In IXON Cloud
+
+#### Create iLert webhook
 
 1\. Navigate and login to Ixon Cloud Portal at [https://portal.ixon.cloud/](https://portal.ixon.cloud) 
 
@@ -41,7 +43,7 @@ This integration uses IXON's [Cloud Notify](https://support.ixon.cloud/hc/en-us/
 
 ![](../.gitbook/assets/ixon-newwebhook.png)
 
-## In IXON Cloud - setup alarm and alarm trigger
+#### Setup alarm and alarm trigger
 
 Now that the iLert webhook is configured, we're going to setup an alarm and alarm trigger to test the integration. Refer to this [support article](https://support.ixon.cloud/hc/en-us/articles/360016805380) from the IXON documentation for information on how to setup alarms.
 
