@@ -3,6 +3,9 @@ description: >-
   IXON Cloud is an Industrial IoT platform for the advanced machine manufacturer
   with a tailor-made cloud platform for optimal remote service and applicable
   data insights.
+cover: >-
+  https://images.unsplash.com/photo-1518704618243-b719e5d5f2b8?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxOTcwMjR8MHwxfHNlYXJjaHw0fHxpbmR1c3RyeSUyMDQuMHxlbnwwfHx8fDE2MzM5NjYyNTQ&ixlib=rb-1.2.1&q=85
+coverY: -157.98946088366438
 ---
 
 # IXON Cloud Integration
