@@ -10,11 +10,11 @@ description: >-
 
 1. Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
-![](../.gitbook/assets/ilert-create-alert%20%283%29.png)
+![](<../.gitbook/assets/ilert-create-alert (5).png>)
 
-1. Enter a name and select your desired escalation policy.   
+1.  Enter a name and select your desired escalation policy.   
 
-   Select "**Salesforce**" as the **Integration Type** and click **Save**.
+    Select "**Salesforce**" as the **Integration Type** and click **Save**.
 
 ![](../.gitbook/assets/ilert-salesforce.png)
 
@@ -30,7 +30,7 @@ Navigate to Developer Console by clicking the **Settings** icon and then click t
 
 ![](../.gitbook/assets/salesforce-newmenu.png)
 
-In Developer Console page select **File** -&gt; **New** -&gt; **Apex Class** and copy the following and save it as **`ilertClass.apxc`**, then click Save.
+In Developer Console page select **File** -> **New** -> **Apex Class** and copy the following and save it as **`ilertClass.apxc`**, then click Save.
 
 ```java
 global class ilertClass {
@@ -66,7 +66,7 @@ global class ilertClass {
   }
 ```
 
-Create a trigger by clicking **File** -&gt; **New** -&gt; **Apex Trigger** and copy the following and save it as **`ilertTrigger.apxt`**. Please make sure that the `API_KEY` and the `URL` is replaced based on the relevant `API_KEY` and `URL` that were received from iLert side.
+Create a trigger by clicking **File** -> **New** -> **Apex Trigger** and copy the following and save it as **`ilertTrigger.apxt`**. Please make sure that the `API_KEY` and the `URL` is replaced based on the relevant `API_KEY` and `URL` that were received from iLert side.
 
 ```java
 trigger ilertCaseTrigger on Case (after insert, after update) {
@@ -101,7 +101,7 @@ trigger ilertCaseTrigger on Case (after insert, after update) {
 }
 ```
 
-In order to send to iLert, the domain needs to be allowlisted, back to the Salesforce page and select Setup from settings and go to **Setup** -&gt; **Security** -&gt; **Remote Site** Settings page.
+In order to send to iLert, the domain needs to be allowlisted, back to the Salesforce page and select Setup from settings and go to **Setup** -> **Security** -> **Remote Site** Settings page.
 
 ![](../.gitbook/assets/salesforce-remote.png)
 
@@ -111,10 +111,14 @@ To test this, simply create a **Case** in Salesforce.
 
 ## FAQ
 
-1. How to Debug in case something is not working?  In order to Debug this, you need to add `System.debug()` either on the trigger or the class. To view this just navigate to **Gear Icon -&gt; Setup -&gt; Environment -&gt; Logs -&gt; Debug Logs** 
-2. I don't see my logs, why?  Make sure that the **Expiration Date** settings in the Debug Logs settings are set in the future, just edit it if it was done in the past, and create Case again.
+1. How to Debug in case something is not working?\
+   \
+   In order to Debug this, you need to add `System.debug()` either on the trigger or the class. To view this just navigate to **Gear Icon -> Setup -> Environment -> Logs -> Debug Logs**\
+   ****
+2. I don't see my logs, why?\
+   \
+   Make sure that the **Expiration Date **settings in the Debug Logs settings are set in the future, just edit it if it was done in the past, and create Case again.
 
 ![](../.gitbook/assets/salesforce-debuglogs.png)
 
  
-

@@ -4,8 +4,8 @@ We are renaming **Incidents** to **Alerts**. This change is fully backwards-comp
 
 ### Why are we making this change?
 
-We're doing this in preparation for upcoming changes to how our [stakeholder communication](../stakeholder-engagement.md) feature works in iLert. Currently, incidents in iLert are usually created by monitoring or ticketing tools.  On-call teams are notified about incidents and once a responder acknowledges an incident, they can add stakeholders to it to inform them that the incident likely has an impact on their business area.   
-  
+We're doing this in preparation for upcoming changes to how our [stakeholder communication](../stakeholder-engagement.md) feature works in iLert. Currently, incidents in iLert are usually created by monitoring or ticketing tools.  On-call teams are notified about incidents and once a responder acknowledges an incident, they can add stakeholders to it to inform them that the incident likely has an impact on their business area. \
+\
 This approach has several shortcomings:
 
 * Incidents created by monitoring tools often contain technical details that are not relevant to non-technical stakeholders. Although you can change the summary of an incident, stakeholders can still be overwhelmed by the amount of information displayed in an incident. There are images from monitoring tools, links to external sources, dozens of log entries, comments from team members, etc.
@@ -31,4 +31,3 @@ Starting Friday, Sep 17th, 2021, and for the following 7 days, we will gradually
 Our APIs will remain fully backwards compatible. We will deprecate our current `/incidents` end point and introduce a new `/alerts` end point.
 
 Once we start releasing the above features, we might introduce another version of our API.
-

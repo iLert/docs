@@ -1,16 +1,12 @@
 ---
-title: TOPdesk Outbound Integration
-seoTitle: 'iLert: TOPdesk Outbound Integration for Alerting | Incident Response | Uptime'
 description: Create tickets in TOPdesk based on alert events from iLert
-date: '2020-04-29T05:02:05.000Z'
-weight: 1
 ---
 
 # TOPdesk Outbound Integration
 
-## In TOPdesk <a id="in-topdesk"></a>
+## In TOPdesk <a href="in-topdesk" id="in-topdesk"></a>
 
-### Create an API user <a id="create-api-user"></a>
+### Create an API user <a href="create-api-user" id="create-api-user"></a>
 
 1. Optional: create a dedicated iLert user in TOPdesk. This has the advantage that you can distinguish the TOPdesk tickets created by iLert.
 2. Go to **Modules**, then to **Supporting Files**, and click on **Operator**
@@ -18,7 +14,7 @@ weight: 1
 ![](../../.gitbook/assets/tpdko1.png)
 
 1. In the **Surname** section, enter a name eg. iLert
-2. In the **Site** section, choose **\[System\]**
+2. In the **Site** section, choose **\[System]**
 3. In the **Email** section, enter a email eg. support@ilert.com
 4. In the **Login name** section, click on **Edit login data** button
 
@@ -54,41 +50,40 @@ weight: 1
 
 ![](../../.gitbook/assets/tpdko6.3.png)
 
-## In iLert <a id="in-ilert"></a>
+## In iLert <a href="in-ilert" id="in-ilert"></a>
 
-### Create a TOPdesk Connector and Link to alert source <a id="create-alarm-source"></a>
+### Create a TOPdesk Connector and Link to alert source <a href="create-alarm-source" id="create-alarm-source"></a>
 
 1. Click on the gear icon and then on **Connectors** button
 
-![](../../.gitbook/assets/go_to_connectors%20%282%29.png)
+![](<../../.gitbook/assets/go_to_connectors (2).png>)
 
 1. Click on **Add Connector**
 
-![](../../.gitbook/assets/create_connector_button%20%284%29.png)
+![](<../../.gitbook/assets/create_connector_button (4).png>)
 
 1. Select **TOPdesk** as **type** and fill in all fields. Enter a name, the URL of your TOPdesk server, username and password of the API user that you created [in the last step](outbound.md).
 
-![](../../.gitbook/assets/ilert%20%2868%29.png)
+![](<../../.gitbook/assets/iLert (69).png>)
 
 1. Go to the alert sources tab and open the alert source whose alerts you want to publish in TOPdesk. Click on **Alert actions** and then on **Create alert action**.
 
-![](../../.gitbook/assets/new_incident_action%20%289%29.png)
+![](<../../.gitbook/assets/new_incident_action (9).png>)
 
 1. Select **TOPdesk** as the **type**, select the connector created in step 3, fill in all fields. In the **Name** field, specify the alert action name.
 
-![](../../.gitbook/assets/ilert%20%2862%29.png)
+![](<../../.gitbook/assets/iLert (70).png>)
 
 1. Finished! You can now test the alert action by clicking on the button **Test this connection**. Then a test ticket will be published in TOPdesk.
 
-![](../../.gitbook/assets/ilert%20%2869%29.png)
+![](<../../.gitbook/assets/iLert (71).png>)
 
-## FAQ <a id="faq"></a>
+## FAQ <a href="faq" id="faq"></a>
 
 **Are updates to an alert published in the TOPdesk Ticket?**
 
-Yes, the state of the iLert Alert is reflected in the brief description of the TOPdesk ticket, eg \[RESOLVED\] Host compute.infra is DOWN.
+Yes, the state of the iLert Alert is reflected in the brief description of the TOPdesk ticket, eg \[RESOLVED] Host compute.infra is DOWN.
 
 **Can I choose which updates to publish to an alert in TOPdesk?**
 
 Currently not. If you wish, we look forward to your feedback via chat or e-mail.
-

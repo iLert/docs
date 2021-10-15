@@ -4,9 +4,9 @@ description: Complete uptime monitoring at your hands - setup in minutes.
 
 # Uptime Monitoring
 
-iLert's uptime monitors allow you to quickly setup monitoring for any kind of exposed service e.g. HTTP \(e.g. websites\), ICMP \(ping\) or TCP and UDP servers.
+iLert's uptime monitors allow you to quickly setup monitoring for any kind of exposed service e.g. HTTP (e.g. websites), ICMP (ping) or TCP and UDP servers.
 
-![](../.gitbook/assets/ilert%20%287%29.png)
+![](../.gitbook/assets/ilert.png)
 
 ## Creating a new uptime monitor
 
@@ -14,13 +14,13 @@ Setting up an uptime monitor is matter of seconds and as they seemlessly integra
 
 To create a new uptime monitor head to **Uptime monitors** and choose **Create new uptime monitor**.
 
-![](../.gitbook/assets/screenshot-2020-10-08-at-09.50.44.png)
+![](<../.gitbook/assets/Screenshot 2020-10-08 at 09.50.44.png>)
 
 When creating a monitor you may choose the region from which the uptime checks will be made. Uptime monitor checks are always backed from multiple locations inside of a region to ensure alerting correctness. E.g. if you select region Europe your primary uptime checks will be made from Frankfurt, however if any of the Frankfurt checks identifies an issue a secondary opinion is gathered from Dublin if this check confirms the issue and alert will be created and you will be alerted.
 
 You can also see these single checks in the **Check result log** tab view.
 
-![](../.gitbook/assets/screenshot-2020-10-08-at-09.51.53.png)
+![](<../.gitbook/assets/Screenshot 2020-10-08 at 09.51.53.png>)
 
 ## Uptime monitor reports
 
@@ -28,7 +28,7 @@ A monitors detail view offers flexible zooming in and out of the response graph 
 
 In case you want to prevent others from seeing the shared link at a later time, you may revoke the link using **Regenerate report URL**.
 
-![](../.gitbook/assets/screenshot-2020-10-08-at-09.51.34.png)
+![](<../.gitbook/assets/Screenshot 2020-10-08 at 09.51.34.png>)
 
 The **Uptime log** shows all status changes in a condensed table view.
 
@@ -38,7 +38,7 @@ Every uptime monitor has a related alert source that is used to manage alerts cr
 
 ## Automatically managing uptime monitors
 
-Note that uptime monitors can be fully managed using [iLert's API](https://api.ilert.com/api-docs/#tag/Uptime-Monitors).  
+Note that uptime monitors can be fully managed using [iLert's API](https://api.ilert.com/api-docs/#tag/Uptime-Monitors).\
 The API even offers to create shareable links to automatically build status dashboards.
 
 ## Frequently asked questions
@@ -64,4 +64,3 @@ Basically it is not possible to whitelist the ip addresses for all of our agents
 {% hint style="info" %}
 Please feel free to reach out in case you have any questions regarding uptime monitoring and our regions / want to request new regions.
 {% endhint %}
-

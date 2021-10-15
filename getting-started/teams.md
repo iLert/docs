@@ -12,21 +12,21 @@ iLerts flexible teams feature allows you to easily manage complex permission sce
 
 The team filter lets you switch between different team contexs. It gives you the following options depending on the corresponding teams existing in your account.
 
-* **All teams** essentially removes any filter and shows you all objects that you have permission to view, including those that are not associated with any teams
-* **My teams** shows you all objects of the teams that you are a member of
-* **A specific team:** selecting a specific team will show you all objects that are associated with the selected team
+* **All teams **essentially removes any filter and shows you all objects that you have permission to view, including those that are not associated with any teams
+* **My teams **shows you all objects of the teams that you are a member of
+* **A specific team: **selecting a specific team will show you all objects that are associated with the selected team
 
 The team filter is located at the top right in the navigation bar:
 
-![](../.gitbook/assets/screenshot-2021-01-21-at-09.48.28.png)
+![](<../.gitbook/assets/Screenshot 2021-01-21 at 09.48.28.png>)
 
 In case your account requires a large amount of teams, the team filter will automatically collapse and include a search field to quickly navigation between different team views:
 
-![](../.gitbook/assets/screenshot-2021-01-20-at-13.35.31.png)
+![](<../.gitbook/assets/Screenshot 2021-01-20 at 13.35.31.png>)
 
 The team filter is also available in the mobile app:
 
-![](../.gitbook/assets/img_7069.jpg)
+![](../.gitbook/assets/IMG\_7069.jpg)
 
 The team filter selection is stored for each user and synced across devices - meaning users will always continue where they left off, even when changing from desktop to the mobile app.
 
@@ -38,33 +38,33 @@ The team filter will automatically disappear when the user has no selectable tea
 
 ## Creating Teams
 
-Teams can be created by **Admin** users and the account owner. Existing team members may also be managed by users that have been elevated to **Admins** in the team itself \(see [Team Roles](teams.md#team-roles)\).
+Teams can be created by **Admin** users and the account owner. Existing team members may also be managed by users that have been elevated to **Admins** in the team itself (see [Team Roles](teams.md#team-roles)).
 
 To create a new team, navigate to the list view using the **Teams** link in the settings navigation menu.
 
-![](../.gitbook/assets/screenshot-2021-01-21-at-22.14.47.png)
+![](<../.gitbook/assets/Screenshot 2021-01-21 at 22.14.47.png>)
 
 Click on **Add new team**, enter a name for your new team and use the **Create team** button to create it.
 
-![](../.gitbook/assets/screenshot-2021-01-21-at-22.16.04%20%281%29.png)
+![](<../.gitbook/assets/screenshot-2021-01-21-at-22.16.04 (1).png>)
 
 You may now add new members or resources to the team.
 
-![](../.gitbook/assets/screenshot-2021-01-21-at-22.18.16.png)
+![](<../.gitbook/assets/Screenshot 2021-01-21 at 22.18.16.png>)
 
 You may also directly manage the team ownerships of resources in their edit views, for example alert sources:
 
-![](../.gitbook/assets/screenshot-2021-01-21-at-22.20.30.png)
+![](<../.gitbook/assets/Screenshot 2021-01-21 at 22.20.30.png>)
 
-In case no teams are available for the current user \(with included write permission\) the team selector may not appear in the edit views.
+In case no teams are available for the current user (with included write permission) the team selector may not appear in the edit views.
 
 ## Private Teams
 
-You may choose to create a private team, which allows you to **restrict visibility** of the team and its associated objects \(including users\) **to the team members**. Note that global admins and the account owner will be able to see the data of a private team, even if they are not a member of the team.
+You may choose to create a private team, which allows you to **restrict visibility** of the team and its associated objects (including users) **to the team members**. Note that global admins and the account owner will be able to see the data of a private team, even if they are not a member of the team.
 
 To make a team private, navigate to the team's setting page and chose **Private** under **Team visibility**.
 
-![](../.gitbook/assets/screenshot-2021-01-21-at-22.22.36.png)
+![](<../.gitbook/assets/Screenshot 2021-01-21 at 22.22.36.png>)
 
 {% hint style="warning" %}
 **What happens to objects that are associated with both a private and a public team?**
@@ -77,7 +77,7 @@ Such objects will be marked with the icognito icon in the list views.
 ## Team Roles
 
 {% hint style="success" %}
-When working with teams, we recommend to keep all global users that do not require elevated permissions on the **Responder** role and use team roles instead. For example, instead of assigning a user the **User** role as their base role, use the **Responder** role as their base and assign the user the team role **User.**
+When working with teams, we recommend to keep all global users that do not require elevated permissions on the **Responder **role and use team roles instead. For example, instead of assigning a user the **User** role as their base role, use the **Responder **role as their base and assign the user the team role **User.**
 {% endhint %}
 
 Team roles extend the permissions of base roles within the context of a team. For example if you have been assigned the **Responder** role as your base role, and have been assigned the **Team User** role within a team, you will be granted the permissions of the User role within that team. 
@@ -93,7 +93,7 @@ The following team roles are available:
 * Team User
 * Team Admin
 
-The permissions of team roles match the permissions of[ global roles](user-roles-and-permissions.md#role-permissions), except that they are limited to the team's context \(meaning resources that this team has ownerships of\).
+The permissions of team roles match the permissions of[ global roles](user-roles-and-permissions.md#role-permissions), except that they are limited to the team's context (meaning resources that this team has ownerships of).
 
 {% hint style="warning" %}
 Global stakeholder users cannot be assigned more permissive roles within a team.
@@ -101,33 +101,33 @@ Global stakeholder users cannot be assigned more permissive roles within a team.
 
 ## Resource ownership adjustments
 
-Besides plain resource read and write permissions which are based on [global roles](user-roles-and-permissions.md) and may be overwritten in a team context by the equivalent team roles, as described above in [Team roles](teams.md#team-roles).  
+Besides plain resource read and write permissions which are based on [global roles](user-roles-and-permissions.md) and may be overwritten in a team context by the equivalent team roles, as described above in [Team roles](teams.md#team-roles).\
 The permission for addition and removal of team ownerships is validated under the following axiom:
 
 {% hint style="danger" %}
-Adding or removing an ownership \(_describing the assignment of a resource to a team_\) is only allowed if the operating user is member of the team \(_referred in the ownership_\) with write level team permissions. This accounts to all global user roles, except for admins and account owners. A resource delete operation is in this case equal to a removal of all ownerships.
+Adding or removing an ownership (_describing the assignment of a resource to a team_) is only allowed if the operating user is member of the team (_referred in the ownership_) with write level team permissions. This accounts to all global user roles, except for admins and account owners. A resource delete operation is in this case equal to a removal of all ownerships.
 {% endhint %}
 
 An example to put this axiom into action:
 
-A user \(with global **User** role\) that is a member of _Team1_ \(with team role **User**\) is not able to delete an alert source that is owned by _Team1_ and Team2. Because he is neither an **Admin** nor a write-level team member of _Team2_. He may only remove the ownership of _Team1_ of which he is a team member and leave the resource ownership solemnly to _Team2_.
+A user (with global **User** role) that is a member of _Team1_ (with team role **User**) is not able to delete an alert source that is owned by _Team1_ and Team2. Because he is neither an **Admin** nor a write-level team member of _Team2_. He may only remove the ownership of _Team1_ of which he is a team member and leave the resource ownership solemnly to _Team2_.
 
 ## Resource Visibility
 
 An administrator with the All teams filter sees all alert sources in the account.
 
-![](../.gitbook/assets/screenshot-2021-01-21-at-22.34.26.png)
+![](<../.gitbook/assets/Screenshot 2021-01-21 at 22.34.26.png>)
 
 A user of the Mobility team with active specific team filter only sees the alert sources of his interest.
 
-![](../.gitbook/assets/screenshot-2021-01-21-at-22.38.19.png)
+![](<../.gitbook/assets/Screenshot 2021-01-21 at 22.38.19.png>)
 
 {% hint style="info" %}
 Resources and users of public teams, are shown to all users with read permissions.
 {% endhint %}
 
 {% hint style="warning" %}
-Unassigned resources \(without any owners / teams\) are treated as public resources.
+Unassigned resources (without any owners / teams) are treated as public resources.
 {% endhint %}
 
 ## User Visibility
@@ -165,7 +165,7 @@ The Guest user is ment to be without global read permission per default - meanin
 
 ### What happens if I turn a private team to public with team roles giving lesser permissions?
 
-The roles giving lesser permission e.g. a global User with a Responder team role will be automatically changed so that the team role reflects the global role in our example this will give the global User the User team role \(a warning will be shown on the settings page beforehand\).
+The roles giving lesser permission e.g. a global User with a Responder team role will be automatically changed so that the team role reflects the global role in our example this will give the global User the User team role (a warning will be shown on the settings page beforehand).
 
 ### Is it possible to manage multiple teams that cannot see each other and their resources at all in the same account?
 
@@ -174,6 +174,4 @@ Absolutely. To achieve this, all users should have the global **Responder** role
 ### I am a Team Admin trying to add a user to my team but he does not appear in the users dropdown. What am I doing wrong?
 
 If you are certain that the user you are searching for exists in your iLert organization and he does not appear in the dropdown - there is a good chance that you have no permission to access him. Most likely this is related to him already being a member of a private team, take a look [here](teams.md#user-visibility).
-
-
 

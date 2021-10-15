@@ -43,22 +43,22 @@ The old incident endpoints `/api/v1/incidents` is still available and delivers t
 
 #### Which migration strategy do we suggest?
 
-Integrations that have been developed using the old API version to not have to be migrated, the v1 resources are still available. When developing new integrations however, make sure to use the new resources. **Please also note**: that for the new API \(all resources without url versioning\) the entities might contain changed field names e.g. `AlertSource.incidentCreation` =&gt; `AlertSource.alertCreation` a few fields were subject to this change our API docs are already reflecting this change, you can find them below.
+Integrations that have been developed using the old API version to not have to be migrated, the v1 resources are still available. When developing new integrations however, make sure to use the new resources. **Please also note**: that for the new API (all resources without url versioning) the entities might contain changed field names e.g. `AlertSource.incidentCreation` => `AlertSource.alertCreation` a few fields were subject to this change our API docs are already reflecting this change, you can find them below.
 
-| Entity | Old key / value | New key / value |
-| :--- | :--- | :--- |
-| User | subscribedIncidentUpdateStates | subscribedAlertUpdateStates |
-| User | subscribedIncidentUpdateNotificationTypes | subscribedAlertUpdateNotificationTypes |
-| Connection | triggerTypes | All values e.g. incident-created have been renamed accordingly e.g. alert-created |
-| UptimeMonitor | createIncidentAfterFailedChecks | createAlertAfterFailedChecks |
-| AlertSource | incidentCreation | alertCreation |
-| AlertSource | incidentPriorityRule | alertPriorityRule |
-| AlertSource.supportHours | autoRaiseAlerts | autoRaiseAlerts |
-| Incident -&gt; Alert | incidentKey | alertKey |
-| Notification | incidentId | alertId |
-| LogEntry | incidentId | alertId |
-| LogEntry | logEntryType | All values e.g. IncidentLogEntry have been renamed accordingly e.g. AlertLogEntry |
-| Event | incidentKey | alertKey |
+| Entity                   | Old key / value                           | New key / value                                                                   |
+| ------------------------ | ----------------------------------------- | --------------------------------------------------------------------------------- |
+| User                     | subscribedIncidentUpdateStates            | subscribedAlertUpdateStates                                                       |
+| User                     | subscribedIncidentUpdateNotificationTypes | subscribedAlertUpdateNotificationTypes                                            |
+| Connection               | triggerTypes                              | All values e.g. incident-created have been renamed accordingly e.g. alert-created |
+| UptimeMonitor            | createIncidentAfterFailedChecks           | createAlertAfterFailedChecks                                                      |
+| AlertSource              | incidentCreation                          | alertCreation                                                                     |
+| AlertSource              | incidentPriorityRule                      | alertPriorityRule                                                                 |
+| AlertSource.supportHours | autoRaiseAlerts                           | autoRaiseAlerts                                                                   |
+| Incident -> Alert        | incidentKey                               | alertKey                                                                          |
+| Notification             | incidentId                                | alertId                                                                           |
+| LogEntry                 | incidentId                                | alertId                                                                           |
+| LogEntry                 | logEntryType                              | All values e.g. IncidentLogEntry have been renamed accordingly e.g. AlertLogEntry |
+| Event                    | incidentKey                               | alertKey                                                                          |
 
 ### Renaming connections to alert-actions
 
@@ -66,7 +66,7 @@ In favor of developer experience we decided to migrate `/api/v1/connections` to 
 
 ### Removing XML support
 
-In June 2020 we decided to deprecate XML support for request and response schemas, as JSON was widely preferered by our customers. We began removing support from older `/v1/...` endpoints in August 2020. XML is **not** supported in new url version-less resources as of 2021.
+In June 2020 we decided to deprecate XML support for request and response schemas, as JSON was widely preferered by our customers. We began removing support from older `/v1/... `endpoints in August 2020. XML is **not** supported in new url version-less resources as of 2021.
 
 #### What did we do to keep backwards compatibility?
 
@@ -75,4 +75,3 @@ Resources containing v1 in their url that were receiving XML traffic were kept a
 #### Which migration strategy do we suggest?
 
 We suggest to send the `accept: application/json` header and providing `content-type: application/json` while switching your clients to JSON processing.
-

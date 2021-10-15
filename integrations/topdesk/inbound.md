@@ -1,18 +1,14 @@
 ---
-title: TOPdesk Inbound Integration
-seoTitle: 'iLert: TOPdesk Inbound Integration for Alerting | Incident Response | Uptime'
 description: Create alerts in iLert based on tickets from TOPdesk
-date: '2020-04-29T07:00:00.000Z'
-weight: 1
 ---
 
 # TOPdesk Inbound Integration
 
 With the iLert TOPdesk integration, you can create alerts in iLert based on TOPdesk event such as tickets or calls.
 
-## In iLert <a id="in-ilert"></a>
+## In iLert <a href="in-ilert" id="in-ilert"></a>
 
-### Create a TOPdesk alert source <a id="create-alert-source"></a>
+### Create a TOPdesk alert source <a href="create-alert-source" id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "TOPdesk" as the **Integration Type** and click on **Save**.
@@ -23,11 +19,11 @@ With the iLert TOPdesk integration, you can create alerts in iLert based on TOPd
 
 ![](../../.gitbook/assets/tpdki2.png)
 
-## In TOPdesk <a id="in-topdesk"></a>
+## In TOPdesk <a href="in-topdesk" id="in-topdesk"></a>
 
 > In this guide we will use **First Line Ticket** service for the integration. You can use any other service to sync with iLert.
 
-### Create action sequences <a id="create-action-sequences"></a>
+### Create action sequences <a href="create-action-sequences" id="create-action-sequences"></a>
 
 1. Go to TOPdesk and then to **Modules**
 
@@ -39,7 +35,7 @@ With the iLert TOPdesk integration, you can create alerts in iLert based on TOPd
 
 1. On the modal window, choose a service you are interested in e.g. **Ticket Management - First Line Ticket** and click on **Create new action sequence**
 
-![](../../.gitbook/assets/tpdki5%20%281%29.png)
+![](<../../.gitbook/assets/tpdki5 (1).png>)
 
 1. In the **Name** section, enter a name eg. `iLert Create Alert Action`
 2. In the **Available** section, ensure that the **Active**, **Apply in the Self-Service Portal** and **Apply in the Operator's Section** checkboxes are checked
@@ -78,11 +74,11 @@ With the iLert TOPdesk integration, you can create alerts in iLert based on TOPd
 2. Go to **Modules** again
 3. Click on **Action Management** and then on **Action sequence** to add an action sequence
 
-![](../../.gitbook/assets/tpdki4%20%281%29.png)
+![](<../../.gitbook/assets/tpdki4 (1) (1).png>)
 
 1. On the modal window, choose a service you are interested in e.g. **Ticket Management - First Line Ticket** and click on **Create new action sequence**
 
-![](../../.gitbook/assets/tpdki5.png)
+![](<../../.gitbook/assets/tpdki5 (2).png>)
 
 1. In the **Name** section, enter a name eg. `iLert Create Alert Action`
 2. In the **Available** section, ensure that the **Active**, **Apply in the Self-Service Portal** and **Apply in the Operator's Section** checkboxes are checked
@@ -104,7 +100,7 @@ With the iLert TOPdesk integration, you can create alerts in iLert based on TOPd
 
 1. Click on **Save**
 
-### Create events <a id="create-events"></a>
+### Create events <a href="create-events" id="create-events"></a>
 
 1. Go to **Modules**
 2. Click on **Action Management** and then on **Event** to add a new event
@@ -113,13 +109,13 @@ With the iLert TOPdesk integration, you can create alerts in iLert based on TOPd
 
 1. On the modal window, choose a service you are interested in e.g. **Ticket Management - First Line Ticket** and click on **Create new event**
 
-![](../../.gitbook/assets/tpdki9%20%281%29.png)
+![](<../../.gitbook/assets/tpdki9 (1) (1).png>)
 
 1. In the **Details** section **Name** field, enter a name eg. `iLert - Create Alert Event`
 2. In the **Details** section **Active** field, ensure that checkbox is checked
 3. In the **Details** section **Choose type** field, choose **New card**
 4. In the **Linked actions** section, choose the action sequence `iLert - Create Alert Action` that you created in the last step
-5. _Optional_: You can choose another card type \(e.g. **Edit card**\) and add conditions or specifications for your use case \(e.g. Status changed to "Open"\). In this case an iLert alert will be created only if event conditions and specifications match.
+5. _Optional_: You can choose another card type (e.g. **Edit card**) and add conditions or specifications for your use case (e.g. Status changed to "Open"). In this case an iLert alert will be created only if event conditions and specifications match.
 
 ![](../../.gitbook/assets/tpdki10.1.png)
 
@@ -127,23 +123,23 @@ With the iLert TOPdesk integration, you can create alerts in iLert based on TOPd
 2. Go to **Modules** again
 3. Click on **Action Management** and then on **Event** to add a new event
 
-![](../../.gitbook/assets/tpdki8%20%281%29.png)
+![](<../../.gitbook/assets/tpdki8 (1) (1).png>)
 
 1. On the modal window, choose a service you are interested in e.g. **Ticket Management - First Line Ticket** and click on **Create new event**
 
-![](../../.gitbook/assets/tpdki9.png)
+![](<../../.gitbook/assets/tpdki9 (1).png>)
 
 1. In the **Details** section **Name** field, enter a name eg. `iLert - Resolve Alert Event`
 2. In the **Details** section **Active** field, ensure that checkbox is checked
 3. In the **Details** section **Choose type** field, choose **Edit card**
 4. In the **Linked actions** section, choose the action sequence `iLert - Resolve alert` that you created in the last step
-5. _Optional_: You can add conditions or specifications for your use case \(e.g. ticket was closed\). In this case an iLert alert will be resolved only if event conditions and specifications match.
+5. _Optional_: You can add conditions or specifications for your use case (e.g. ticket was closed). In this case an iLert alert will be resolved only if event conditions and specifications match.
 
 ![](../../.gitbook/assets/tpdki10.2.png)
 
 1. Click on **Save**
 
-## FAQ <a id="faq"></a>
+## FAQ <a href="faq" id="faq"></a>
 
 **Will alerts in iLert be resolved automatically?**
 
@@ -156,4 +152,3 @@ Yes, simply create more action sequences in TOPdesk.
 **Can I customize the alert messages?**
 
 Yes, any custom field will be shown in the alert details.
-

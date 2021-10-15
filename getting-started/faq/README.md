@@ -4,9 +4,9 @@
 
 iLert is a software for alerting, on-call management and uptime monitoring and helps dev and ops teams to increase the uptime of critical services. Core features of iLert include
 
-* **Reliable alerting** via voice, SMS, push notifications, Slack and more and frictionless acknowledgement, allowing you acknowledge an alert on the same channel where you reveived the alert \(e.g. by replying to an SMS\).
+* **Reliable alerting** via voice, SMS, push notifications, Slack and more and frictionless acknowledgement, allowing you acknowledge an alert on the same channel where you reveived the alert (e.g. by replying to an SMS).
 * **On-call management & escalations**: easily manage on-call duty with on-call schedules and automatic escalations.
-* **Uptime & performance monitoring:** monitor your website, server, or API using various checks such as HTTP, ICMP ping or TCP.
+* **Uptime & performance monitoring: **monitor your website, server, or API using various checks such as HTTP, ICMP ping or TCP.
 * **Call routing:** route incoming calls using on-call schedules and escalation policies to the right on-call person.
 
 iLert integrates with monitoring, ticketing, chat, and collaboration tools.
@@ -19,10 +19,10 @@ Please have a look at our integrations sections. If you're missing an integratio
 
 iLert supports bi-directional alerting via
 
-* **SMS**: ****iLert supports sending SMS alerts worldwide. For many countries, SMS alerts are sent from a local number. See [here](../phone-numbers/#sms-alerts) for details.
-* **Phone calls**: ****iLert supports international voice calls and converts the alert summary text into speech using text-to-speech technology.
+* **SMS**:** **iLert supports sending SMS alerts worldwide. For many countries, SMS alerts are sent from a local number. See [here](../phone-numbers/#sms-alerts) for details.
+* **Phone calls**:** **iLert supports international voice calls and converts the alert summary text into speech using text-to-speech technology.
 * **Emails**
-* **Push notifications** on iOS and Android
+* **Push notifications **on iOS and Android
 * **Chat tools** such as Slack and Microsoft Teams
 
 ## Do I need to have a phone line available in order to use iLert?
@@ -47,15 +47,14 @@ Once you change the account owner, you will be logged out immediately and cannot
 
 To change the account owner, go to **Account settings** and click on the **change** account owner link.
 
-![](../../.gitbook/assets/screenshot-2021-04-26-at-16.02.28.png)
+![](<../../.gitbook/assets/Screenshot 2021-04-26 at 16.02.28 (1).png>)
 
 ## How can I update the payment method?
 
-To update the payment method, log in as the account owner and go to **Account settings** --&gt; **Subscription** and click on **Update** next to your payment method and enter your new payment information.
+To update the payment method, log in as the account owner and go to **Account settings** --> **Subscription **and click on **Update** next to your payment method and enter your new payment information.
 
-![](../../.gitbook/assets/screenshot-2020-03-12-at-14.51.44.png)
+![](<../../.gitbook/assets/Screenshot 2020-03-12 at 14.51.44.png>)
 
 ## Where can I download my invoices?
 
-The download your invoices, log in as the account owner and go to **Account settings** --&gt; **Invoices.**
-
+The download your invoices, log in as the account owner and go to **Account settings** --> **Invoices.**

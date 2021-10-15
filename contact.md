@@ -19,6 +19,4 @@ We'd love to talk how we can work together
 * **Email**: sales@ilert.com 
 * Request a demo using our [contact form](https://www.ilert.com/get-demo/)
 
-  
-
-
+\

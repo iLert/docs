@@ -6,22 +6,22 @@ description: >-
 
 # HashiCorp Consul
 
-[HashiCorp Consul](https://www.consul.io/) is a service mesh solution providing a full featured control plane with service discovery, configuration, and segmentation functionality.
+[HashiCorp Consul](https://www.consul.io) is a service mesh solution providing a full featured control plane with service discovery, configuration, and segmentation functionality.
 
-## In iLert <a id="in-ilert"></a>
+## In iLert <a href="in-ilert" id="in-ilert"></a>
 
-### Create an alert source <a id="create-alert-source"></a>
+### Create an alert source <a href="create-alert-source" id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "API" as the **Integration Type** and click on **Save**.
 
-![](../.gitbook/assets/ilert%20%2828%29.png)
+![](<../.gitbook/assets/iLert (28).png>)
 
 1. On the next page, an API Key is generated. You will need this API Key below when setting up the Consul-Alerts tool.
 
-![](../.gitbook/assets/ilert%20%2829%29.png)
+![](<../.gitbook/assets/iLert (29).png>)
 
-## In Consul Server <a id="in-topdesk"></a>
+## In Consul Server <a href="in-topdesk" id="in-topdesk"></a>
 
 ### Configure Consul-Alerts
 
@@ -38,9 +38,9 @@ curl -X PUT -d 'YOUR_API_KEY' http://localhost:8500/v1/kv/consul-alerts/config/n
 curl -X PUT -d 'true' http://localhost:8500/v1/kv/consul-alerts/config/notifiers/ilert/enabled
 ```
 
-1. \(Optional\) Generating a test alert by having a health check fail to confirm the integration is working.
+1. (Optional) Generating a test alert by having a health check fail to confirm the integration is working.
 
-## FAQ <a id="faq"></a>
+## FAQ <a href="faq" id="faq"></a>
 
 **Will alerts in iLert be resolved automatically?**
 
@@ -53,4 +53,3 @@ No, unfortunately Consul events are not compatible with iLert accept events.
 **Can I connect Consul Server with multiple alert sources from iLert?**
 
 No, Consul-Alerts only supports sending alerts to a single alert source.
-

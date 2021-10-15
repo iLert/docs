@@ -12,11 +12,11 @@ description: Create events in Amazon EventBridge using iLert alerts.
 
 1. **\*\*Go to the alert sources tab and open the alert source whose alerts you want to publish to Amazon EventBridge. Click on the **Alert actions** tab and then on the **Add new alert action\*\* button
 
-![](<../.gitbook/assets/ilert (90).png>)
+![](<../.gitbook/assets/iLert (90).png>)
 
 1. On the next page choose **Amazon EventBridge** as the type, name it, choose **Trigger mode**, enter your AWS **account ID**, choose AWS **region** and click on the **Save** button.
 
-![](<../.gitbook/assets/notification_center (4).png>)
+![](<../.gitbook/assets/Notification_Center (2).png>)
 
 ## In AWS Console <a href="in-aws-console" id="in-aws-console"></a>
 
@@ -24,31 +24,31 @@ description: Create events in Amazon EventBridge using iLert alerts.
 
 1. Go to the AWS Console and then to **Amazon EventBridge**, then click on the **Partner event sources** link and on the **Event Source** that you created in the previous step**.**
 
-![](<../.gitbook/assets/amazon_eventbridge (1).png>)
+![](<../.gitbook/assets/Amazon_EventBridge (1).png>)
 
 1. On the next page, click on the **Associate with event bus** button
 
-![](<../.gitbook/assets/amazon_eventbridge (3).png>)
+![](../.gitbook/assets/Amazon_EventBridge.png)
 
 1. On the next page in the permissions section, choose **Organization** and **My organization** - **\*\*then click on the **Associate\*\* button
 
-![](../.gitbook/assets/amazon_eventbridge.png)
+![](<../.gitbook/assets/Amazon_EventBridge (2).png>)
 
 1. To finished the configuration, you need to create a rule for the new event bus e.g. a rule for Amazon SQS. To do that, go to the **EventBridge Rules,** choose the **Event bus** and click on the **Create rule** button
 
-![](<../.gitbook/assets/amazon_eventbridge (4).png>)
+![](<../.gitbook/assets/Amazon_EventBridge (3).png>)
 
 1. On the next page in the **New and description** section, name the rule, e.g. my-rule and scroll down
 
-![](<../.gitbook/assets/amazon_eventbridge (2).png>)
+![](<../.gitbook/assets/Amazon_EventBridge (4).png>)
 
 1. In the **Define pattern** section, choose **Pre-defined pattern by service**, in the **Service provider** section choose **All Events** and scroll down
 
-![](<../.gitbook/assets/notification_center (2).png>)
+![](<../.gitbook/assets/Notification_Center (3).png>)
 
 1. In the **Select targets** section, choose **SQS queue** as target type and choose your queue, then scroll down and click on the **Create** button
 
-![](<../.gitbook/assets/notification_center (3).png>)
+![](<../.gitbook/assets/Notification_Center (4).png>)
 
 1. Finished! Now an Amazon EventBridge notification will be created for each alert that is created to the linked alert source in iLert.
 

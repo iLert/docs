@@ -22,59 +22,25 @@ Use schedules to dynamically determine to whom an alert will be assigned to base
 
 iLert offers two types of schedules - **recurring and static schedules**, which differ in the way a schedule is created and maintained. The schedule type cannot be changed after its creation.
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left"><a href="recurring-schedules.md">Recurring schedule</a>
-      </th>
-      <th style="text-align:left"><a href="static-schedules.md">Static schedule</a>
-      </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">
-        <p>
-          <img src="../../.gitbook/assets/image (28).png" alt/>
-        </p>
-        <p></p>
-      </td>
-      <td style="text-align:left">
-        <p>
-          <img src="../../.gitbook/assets/image (32).png" alt/>
-        </p>
-        <p></p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">
-        <ul>
-          <li>Use if shifts are recurring.</li>
-          <li>Example: every team member is on-call for a week.</li>
-          <li>Shifts are created automatically</li>
-        </ul>
-      </td>
-      <td style="text-align:left">
-        <ul>
-          <li>Use if you can&#x2019;t plan your schedule beyond a specific time frame
-            and want to schedule them manually on a regular basis.</li>
-          <li>Shifts are created manually by dragging and dropping users onto the calendar</li>
-        </ul>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| [Recurring schedule](recurring-schedules.md)                                                                                                       | [Static schedule](static-schedules.md)                                                                                                                                                                                          |
+| -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><img src="../../.gitbook/assets/image (28).png" alt=""></p><p></p>                                                                              | <p><img src="../../.gitbook/assets/image (27).png" alt=""></p><p></p>                                                                                                                                                           |
+| <ul><li>Use if shifts are recurring. </li><li>Example: every team member is on-call for a week.</li><li>Shifts are created automatically</li></ul> | <ul><li>Use if  you can’t plan your schedule beyond a specific time frame and want to schedule them manually on a regular basis.</li><li>Shifts are created manually by dragging and dropping users onto the calendar</li></ul> |
 
-{% page-ref page="recurring-schedules.md" %}
+{% content-ref url="recurring-schedules.md" %}
+[recurring-schedules.md](recurring-schedules.md)
+{% endcontent-ref %}
 
-{% page-ref page="static-schedules.md" %}
+{% content-ref url="static-schedules.md" %}
+[static-schedules.md](static-schedules.md)
+{% endcontent-ref %}
 
 ## Overrides
 
 {% hint style="info" %}
 **Responder role permissions required**
 
-Overrides can be added by users with **Responder** role privileges. A responder can only add herself as an override. Users with **User** privileges can add any user as an override.
+Overrides can be added by users with **Responder** role privileges. A responder can only add herself as an override. Users with **User **privileges can add any user as an override.
 {% endhint %}
 
 Overrides are one-time changes to a schedule. Example uses of overrides include
@@ -90,33 +56,16 @@ To schedule an override in the web app
 2. Click on the **Schedule override** button or click on click on a shift in the timeline view
 3. In the **Schedule override** dialog, select the user to you want to add as an override
 
-![](../../.gitbook/assets/image%20%2827%29.png)
+![](<../../.gitbook/assets/image (30).png>)
 
 Overrides can be deleted and overriden by another override. To delete an override, click on the override shift on the timeline, and then on the red **x** icon:
 
-![](../../.gitbook/assets/image%20%2826%29.png)
+![](<../../.gitbook/assets/image (31).png>)
 
-To add an override in the mobile app, open the **Who is on-call?** screen and tap on **Override shift** on the shift you want to override. 
+To add an override in the mobile app, open the **Who is on-call?** screen and tap on **Override shift **on the shift you want to override. 
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:center">
-        <p></p>
-        <p>
-          <img src="../../.gitbook/assets/image (31).png" alt/>
-        </p>
-      </th>
-      <th style="text-align:center">
-        <p></p>
-        <p>
-          <img src="../../.gitbook/assets/image (34).png" alt/>
-        </p>
-      </th>
-    </tr>
-  </thead>
-  <tbody></tbody>
-</table>
+| <p></p><p><img src="../../.gitbook/assets/image (32).png" alt=""></p> | <p></p><p><img src="../../.gitbook/assets/image (33).png" alt=""></p> |
+| :-------------------------------------------------------------------: | :-------------------------------------------------------------------: |
 
 ## FAQ
 
@@ -127,4 +76,3 @@ If an alert occurs during a time with no coverage in your schedule, then the ale
 #### Can I choose my own shift colour?
 
 No, shift colours are automatically assigned to a user and are permanent. 
-

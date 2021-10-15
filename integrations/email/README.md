@@ -1,16 +1,12 @@
 ---
-title: E-mail Integration
-seoTitle: 'iLert: E-mail Integration for Alerting | Incident Response | Uptime'
 description: This page describes how to integrate iLert with any tool that can send emails.
-date: '2018-12-29T05:02:05.000Z'
-weight: 1
 ---
 
 # Email Integration
 
-Email integration is the easiest way to integrate iLert with your monitoring system. Each email alert source in iLert has its own email address \(e.g. _your-tool@your-domain.ilertnow.com_\). As soon as your monitoring system sends an e-mail to this address, iLert will create an alert.
+Email integration is the easiest way to integrate iLert with your monitoring system. Each email alert source in iLert has its own email address (e.g. _your-tool@your-domain.ilertnow.com_). As soon as your monitoring system sends an e-mail to this address, iLert will create an alert.
 
-## In iLert: create an email alert source <a id="create-alarm-source"></a>
+## In iLert: create an email alert source <a href="create-alarm-source" id="create-alarm-source"></a>
 
 1. Go to **Alert sources** and click on **Add a new alert source**
 2. Enter a name and select an escalation policy
@@ -18,11 +14,11 @@ Email integration is the easiest way to integrate iLert with your monitoring sys
 4. Enter an email address for the alert source
 5. Save the email alert source
 
-![](../../.gitbook/assets/screenshot-2020-06-18-at-16.21.49.png)
+![](<../../.gitbook/assets/Screenshot 2020-06-18 at 16.21.49.png>)
 
 Your email alert source is now active. Any email sent to the email address will create an alert in iLert and trigger the alerting process using the alert source's escalation policy. The default setting creates an alert in iLert for each incoming email. The next section explains advanced settings, such as deduplicating or filtering emails.
 
-## Fine-tuning email integration <a id="advanced-settings"></a>
+## Fine-tuning email integration <a href="advanced-settings" id="advanced-settings"></a>
 
 By default, iLert creates a new alert for every email sent to the alert source's email address. You can fine-tune this behavior by
 
@@ -37,70 +33,29 @@ Email filters allow you to ignore emails based on the content of the email's sub
 
 ### Alert creation
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Option</th>
-      <th style="text-align:left">Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Open a new alert for every email</td>
-      <td style="text-align:left">Each email sent to the alert source&apos;s email address will create a
-        new alert.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Open a new alert for every new email subject</td>
-      <td style="text-align:left">
-        <p>Alerts are de-duplicated based on the subject of the emails. Case sensivitiy
-          and whitespaces are ignored. Deduplication considers only the emails of
-          open alerts.
-          <br />
-        </p>
-        <p>If, for example, a monitoring system sends two e-mails in succession with
-          the same subject, a new alert is created for the first e-mail and the second
-          e-mail is appended to the created alert in the event log.</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Open a new alert only if all alerts in this alert source are in <code>RESOLVED</code> or <code>ACCEPTED OR RESOLVED</code>state</td>
-      <td
-      style="text-align:left">An email sent to the alert source&apos;s email address will only open
-        a new alert if an open alert does not already exist; otherwise, the email
-        will be appended to the last open alert.
-        <br />
-        <br />Example: You get alerted at 3 A.M. in the morning and accept the alert
-        and decide to look at the problem the next morning. In the meantime, if
-        a new (potentially critical) issue is reported to iLert, a new alert will
-        be notified again. In this scenario, you need to chose <code>ACCEPTED ir RESOLVED</code> in
-        the dropdown list.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Open and resolve alerts based alert keys extracted from emails</td>
-      <td
-      style="text-align:left">Use defined rules to link emails to the same alert based on matching substrings
-        in the email subject or body. See <a href="automatically-resolve-incidents-with-emails.md">Automatically resolve Alerts with Emails</a>
-        </td>
-    </tr>
-  </tbody>
-</table>
+| Option                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Open a new alert for every email                                                                          | Each email sent to the alert source's email address will create a new alert.                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| Open a new alert for every new email subject                                                              | <p>Alerts are de-duplicated based on the subject of the emails. Case sensivitiy and whitespaces are ignored. Deduplication considers only the emails of open alerts.<br></p><p>If, for example, a monitoring system sends two e-mails in succession with the same subject, a new alert is created for the first e-mail and the second e-mail is appended to the created alert in the event log.</p>                                                                                                                                       |
+| Open a new alert only if all alerts in this alert source are in `RESOLVED` or `ACCEPTED OR RESOLVED`state | <p>An email sent to the alert source's email address will only open a new alert if an open alert does not already exist; otherwise, the email will be appended to the last open alert.<br><br>Example: You get alerted at 3 A.M. in the morning and accept the alert and decide to look at the problem the next morning. In the meantime, if a new (potentially critical) issue is reported to iLert, a new alert will be notified again. In this scenario, you need to chose <code>ACCEPTED ir RESOLVED</code> in the dropdown list.</p> |
+| Open and resolve alerts based alert keys extracted from emails                                            | Use defined rules to link emails to the same alert based on matching substrings in the email subject or body. See [Automatically resolve Alerts with Emails](automatically-resolve-incidents-with-emails.md)                                                                                                                                                                                                                                                                                                                              |
 
 ### Incident Resolution based on Emails
 
-{% page-ref page="automatically-resolve-incidents-with-emails.md" %}
+{% content-ref url="automatically-resolve-incidents-with-emails.md" %}
+[automatically-resolve-incidents-with-emails.md](automatically-resolve-incidents-with-emails.md)
+{% endcontent-ref %}
 
-## FAQ <a id="faq"></a>
+## FAQ <a href="faq" id="faq"></a>
 
 **Does iLert also process e-mails that are sent by forwarding to an alert source address?**
 
 Yes, iLert evaluates the `TO` , `CC` and `BCC` fields as well as the `DELIVERED-TO` header when processing email.
 
-**My monitoring system sends emails when an issue is recovered \(e.g. `RECOVERY` emails in Nagios\). Can iLert use these emails to resolve previously created alerts?**
+**My monitoring system sends emails when an issue is recovered (e.g. `RECOVERY` emails in Nagios). Can iLert use these emails to resolve previously created alerts?**
 
 Yes, see [Automatically resolve Alerts with Emails](automatically-resolve-incidents-with-emails.md) for further information
 
 **I need more examples that illustrate regex alert key extraction from emails, where can I find them?**
 
 Take a look [here](email-key-extraction-and-resolve-examples.md)
-

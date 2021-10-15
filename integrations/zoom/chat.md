@@ -6,7 +6,7 @@ description: >-
 
 # Zoom Chat Integration
 
-## In iLert <a id="in-ilert"></a>
+## In iLert <a href="in-ilert" id="in-ilert"></a>
 
 ### Create the Zoom Chat Connector and link it to the alert source
 
@@ -16,35 +16,35 @@ description: >-
 To set up the integration, you must have admin rights in iLert.
 {% endhint %}
 
-1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
+1. **\*\*Click the gear icon and then click on the **Connectors\*\* link
 
-![](../../.gitbook/assets/screenshot_16_03_21__15_46.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\__15\_46.png)
 
 1. Click the **Add Connector** button
 
-![](../../.gitbook/assets/screenshot_16_03_21__15_48.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\__15\_48.png)
 
 1. On the next page, choose **Zoom Chat** as type, name the connector and click on the save button to authorize iLert App with your Zoom account.
 
-![](../../.gitbook/assets/screenshot_16_03_21__16_18.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\__16\_18.png)
 
 1. On the next page, agree with the requested permissions and click on the **Authorize** button
 
-![](../../.gitbook/assets/screenshot_16_03_21__15_53.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\__15\_53.png)
 
 1. Go to the alert sources tab and open the alert source whose alerts you want to create Zoom Meeting. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
-![](../../.gitbook/assets/screenshot_16_03_21__16_04.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\__16\_04.png)
 
 1. On the next page choose **Zoom Chat** as the type, choose the connector created in step 3, name it**,** choose **alert events** to publish and click on the **Save** button.
 
-![](../../.gitbook/assets/screenshot_16_03_21__16_27.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\__16\_27.png)
 
 1. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the Zoom Chat channel.
 
-![](../../.gitbook/assets/zoom%20%282%29.png)
+![](<../../.gitbook/assets/Zoom (2).png>)
 
-## FAQ <a id="faq"></a>
+## FAQ <a href="faq" id="faq"></a>
 
 **Can I link multiple Zoom Accounts to an iLert account?**
 
@@ -65,7 +65,6 @@ Yes.
 **How can I uninstall the iLert App from my Zoom account?**
 
 1. Login to your Zoom Account and navigate to the Zoom App Marketplace
-2. Click on the **Manage** link and then on the **Installed Apps** link \(alternatively you may also search for the **iLert** app\)
+2. Click on the **Manage** link and then on the **Installed Apps** link (alternatively you may also search for the **iLert** app)
 3. Click on the **iLert** app
 4. Click on the **Uninstall** button
-

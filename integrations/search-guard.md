@@ -6,42 +6,42 @@ description: >-
 
 # Search Guard Integration
 
-## In iLert <a id="in-ilert"></a>
+## In iLert <a href="in-ilert" id="in-ilert"></a>
 
-### Create a Search Guard alert source <a id="create-alert-source"></a>
+### Create a Search Guard alert source <a href="create-alert-source" id="create-alert-source"></a>
 
 1. Go to the **Alert sources** tab and click on **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "Search Guard" as the **Integration Type** and click on **Save**.
 
-![](../.gitbook/assets/screenshot_10_02_21__22_47.png)
+![](../.gitbook/assets/Screenshot\_10\_02\_21\__22\_47.png)
 
 1. On the next page a **Search Guard URL** is generated. You will need this URL below when setting up the webhook action in Search Guard.
 
-![](../.gitbook/assets/screenshot_10_02_21__22_48.png)
+![](../.gitbook/assets/Screenshot\_10\_02\_21\__22\_48.png)
 
-## In Search Guard <a id="in-topdesk"></a>
+## In Search Guard <a href="in-topdesk" id="in-topdesk"></a>
 
-### Create watch <a id="create-action-sequences"></a>
+### Create watch <a href="create-action-sequences" id="create-action-sequences"></a>
 
-1. Go to Search Guard to open the main menu and choose **Search Guard -&gt; Signals**
+1. Go to Search Guard to open the main menu and choose **Search Guard -> Signals**
 
-![](../.gitbook/assets/screenshot_10_02_21__22_49.png)
+![](../.gitbook/assets/Screenshot\_10\_02\_21\__22\_49.png)
 
 1. On the next page click on the **New** button to create a new watch
 
-![](../.gitbook/assets/screenshot_10_02_21__22_53.png)
+![](../.gitbook/assets/Screenshot\_10\_02\_21\__22\_53.png)
 
 1. On the next view name the watch e.g. **My Watch** scroll down and configure the watch to your liking.
 
-![](../.gitbook/assets/screenshot_10_02_21__22_56.png)
+![](../.gitbook/assets/Screenshot\_10\_02\_21\__22\_56.png)
 
 1. Scroll down to **Actions** and add the **Webhook** action
 
-![](../.gitbook/assets/screenshot_10_02_21__23_00.png)
+![](../.gitbook/assets/Screenshot\_10\_02\_21\__23\_00.png)
 
 1. Name the action e.g. **iLert**, paste the **Webhook URL** that you generated in iLert, change headers as required and paste the following **json** as body template
 
-```text
+```
 {
   "incidentKey": "{{watch.id}}",
   "summary": "SearchGuard alert: {{watch.id}}",
@@ -50,19 +50,18 @@ description: >-
 }
 ```
 
-![](../.gitbook/assets/screenshot_10_02_21__23_06.png)
+![](../.gitbook/assets/Screenshot\_10\_02\_21\__23\_06.png)
 
-1. Click on **Create** to save the watch.  
+1.  Click on **Create** to save the watch.  
 
-   Finished! Your Elastic Search Guard alerts will now create alerts in iLert.
+    Finished! Your Elastic Search Guard alerts will now create alerts in iLert.
 
-## FAQ <a id="faq"></a>
+## FAQ <a href="faq" id="faq"></a>
 
 **Will alerts in iLert be resolved automatically?**
 
-No, unfortunately Search Guard watch\(es\) will not fire resolve events for alerts.
+No, unfortunately Search Guard watch(es) will not fire resolve events for alerts.
 
 **Can I connect Search Guard with multiple alert sources from iLert?**
 
 Yes, simply create more watches in Search Guard.
-

@@ -4,32 +4,32 @@ description: Create alerts in iLert from tickets in Zendesk.
 
 # Zendesk Inbound Integration
 
-[Zendesk](https://www.zendesk.com/) is a cloud-based help desk management solution offering customizable tools to build customer service portal, knowledge base and online communities.
+[Zendesk](https://www.zendesk.com) is a cloud-based help desk management solution offering customizable tools to build customer service portal, knowledge base and online communities.
 
-## In iLert <a id="create-alert-source"></a>
+## In iLert <a href="create-alert-source" id="create-alert-source"></a>
 
 ### Create a Zendesk alert source
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "Zendesk" as the **Integration Type** and click on **Save**.
 
-![](../../.gitbook/assets/ilert%20%2886%29.png)
+![](<../../.gitbook/assets/iLert (85).png>)
 
 1. On the next page, a **Webhook URL** is generated. You will need this URL below when setting up the Webhook in Zendesk.
 
-![](../../.gitbook/assets/ilert%20%2885%29.png)
+![](<../../.gitbook/assets/iLert (86).png>)
 
-## In Zendesk <a id="in-topdesk"></a>
+## In Zendesk <a href="in-topdesk" id="in-topdesk"></a>
 
 ### Create a Target
 
-1. Go to Zendesk and then to **Settings -&gt; Extensions** and click on the **Add target** button
+1. Go to Zendesk and then to **Settings -> Extensions** and click on the **Add target** button
 
-![](../../.gitbook/assets/a_-_agent.png)
+![](../../.gitbook/assets/a\_-\_Agent.png)
 
 1. On the next page click the **HTTP target** link
 
-![](../../.gitbook/assets/a_-_agent%20%283%29.png)
+![](<../../.gitbook/assets/a\_-\_Agent (1).png>)
 
 1. On the next page:
 2. In the **Title** section, enter a name eg. iLert
@@ -39,20 +39,20 @@ description: Create alerts in iLert from tickets in Zendesk.
 6. In the bottom section choose **Create target**
 7. Click the **Submit** button
 
-![](../../.gitbook/assets/a_-_agent%20%282%29.png)
+![](<../../.gitbook/assets/a\_-\_Agent (2).png>)
 
 ### Create a Trigger
 
-1. Go to Zendesk and then to **Business Rules -&gt; Triggers** and click on the **Add trigger** button
+1. Go to Zendesk and then to **Business Rules -> Triggers** and click on the **Add trigger** button
 
-![](../../.gitbook/assets/a_-_agent%20%281%29.png)
+![](<../../.gitbook/assets/a\_-\_Agent (3).png>)
 
 1. On the next page:
 2. In the **Trigger name** section, enter a name eg. iLert
 3. In the **Category** section, choose a category, e.g. Notifications
 4. In the **Meet ANY of following conditions** section, add **Ticket is created** and **Ticket is updated** rules
 
-![](../../.gitbook/assets/a_-_agent%20%284%29.png)
+![](<../../.gitbook/assets/a\_-\_Agent (4).png>)
 
 * Scroll down to the **Actions** panel and choose the **iLert Notify target** that you created above
 * In the **JSON body** sections, paste the following  object:
@@ -77,91 +77,26 @@ description: Create alerts in iLert from tickets in Zendesk.
 
 * Click on the **Create** button
 
-![](../../.gitbook/assets/notification_center%20%281%29.png)
+![](<../../.gitbook/assets/Notification_Center (1).png>)
 
 ## Zendesk Incident Lifecycle
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">When I create an Zendesk ticket with status...</th>
-      <th style="text-align:left">...then an iLert Alert...</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>New</b> or <b>Open</b>
-      </td>
-      <td style="text-align:left">is created</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Pending</b>
-      </td>
-      <td style="text-align:left">is created</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Solved</b> or <b>Closed</b>
-      </td>
-      <td style="text-align:left">
-        <p>will not be created and a</p>
-        <p>400 (bad request) error occurs</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| When I create an Zendesk ticket with status... | ...then an iLert Alert...                                             |
+| ---------------------------------------------- | --------------------------------------------------------------------- |
+| **New** or **Open**                            | is created                                                            |
+| **Pending**                                    | is created                                                            |
+| **Solved** or **Closed**                       | <p>will not be created and a</p><p>400 (bad request) error occurs</p> |
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">When I update an Zendesk ticket with status...</th>
-      <th style="text-align:left">...and the iLert alert...</th>
-      <th style="text-align:left">...then the/an iLert Alert...</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>New</b> or <b>Open</b>
-      </td>
-      <td style="text-align:left">does not exist</td>
-      <td style="text-align:left">is created</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Solved</b> or <b>Closed</b>
-      </td>
-      <td style="text-align:left">does not exist</td>
-      <td style="text-align:left">
-        <p>will not be created and a</p>
-        <p>400 (bad request) error occurs</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Pending</b>
-      </td>
-      <td style="text-align:left">does not exist</td>
-      <td style="text-align:left">is created</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>New</b> or <b>Open</b>
-      </td>
-      <td style="text-align:left">exists</td>
-      <td style="text-align:left">doesn&apos;t change</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Solved</b> or <b>Closed</b>
-      </td>
-      <td style="text-align:left">exists</td>
-      <td style="text-align:left">change status to <b>Resolved</b> if not already resolved</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>Pending</b>
-      </td>
-      <td style="text-align:left">exists</td>
-      <td style="text-align:left">change status to <b>Accepted</b> if not already accepted</td>
-    </tr>
-  </tbody>
-</table>
+| When I update an Zendesk ticket with status... | ...and the iLert alert... | ...then the/an iLert Alert...                                         |
+| ---------------------------------------------- | ------------------------- | --------------------------------------------------------------------- |
+| **New** or **Open**                            | does not exist            | is created                                                            |
+| **Solved** or **Closed**                       | does not exist            | <p>will not be created and a</p><p>400 (bad request) error occurs</p> |
+| **Pending**                                    | does not exist            | is created                                                            |
+| **New** or **Open**                            | exists                    | doesn't change                                                        |
+| **Solved** or **Closed**                       | exists                    | change status to **Resolved** if not already resolved                 |
+| **Pending**                                    | exists                    | change status to **Accepted** if not already accepted                 |
 
-## Additional Custom Ticket Details <a id="faq"></a>
+## Additional Custom Ticket Details <a href="faq" id="faq"></a>
 
 You may provide an additional field for the Zendesk trigger template to render additional information into iLert alert details.
 
@@ -177,7 +112,7 @@ You may provide an additional field for the Zendesk trigger template to render a
 
 The `additional_ticket_details` map's values will be displayed in a human readable format in the alert's detail section.
 
-## FAQ <a id="faq"></a>
+## FAQ <a href="faq" id="faq"></a>
 
 ### **Will alerts in iLert be resolved automatically?**
 
@@ -194,4 +129,3 @@ No.
 ### Are Zendesk comments synced with iLert alerts?
 
 Yes, if the variables `latest_comment` and `latest_comment_author_name` are provided in your Zendesk trigger JSON template the comments will be synced to iLert alerts.
-

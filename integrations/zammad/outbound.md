@@ -10,22 +10,22 @@ description: >-
 To set up this integration, you must have admin rights in iLert.
 {% endhint %}
 
-## In Zammad <a id="in-topdesk"></a>
+## In Zammad <a href="in-topdesk" id="in-topdesk"></a>
 
-### Create an API key <a id="create-api-user"></a>
+### Create an API key <a href="create-api-user" id="create-api-user"></a>
 
 1. Optional: create a dedicated iLert user in Zammad. This has the advantage that you can distinguish the Zammad tickets created by iLert.
 2. Go to **Profile**, then to **Token Access** and click on **Create**
 
-![](../../.gitbook/assets/screenshot_07_02_21__13_32.png)
+![](../../.gitbook/assets/Screenshot\_07\_02\_21\__13\_32.png)
 
 1. In the **Name** section, enter a name eg. iLert
 
-![](../../.gitbook/assets/screenshot_07_02_21__13_33.png)
+![](../../.gitbook/assets/Screenshot\_07\_02\_21\__13\_33.png)
 
 1. In the **Ticket** section,  choose **Agent**
 
-![](../../.gitbook/assets/screenshot_07_02_21__13_34.png)
+![](../../.gitbook/assets/Screenshot\_07\_02\_21\__13\_34.png)
 
 1. Click on **Create**
 
@@ -37,45 +37,45 @@ An agent token has a group scope so if you want to use a group that the current 
 
 1. The modal window will open, copy the generated access token
 
-![](../../.gitbook/assets/screenshot_07_02_21__13_36.png)
+![](../../.gitbook/assets/Screenshot\_07\_02\_21\__13\_36.png)
 
-## In iLert <a id="in-ilert"></a>
+## In iLert <a href="in-ilert" id="in-ilert"></a>
 
-### Create a Zammad Connector and Link to the alert source <a id="create-alarm-source"></a>
+### Create a Zammad Connector and Link to the alert source <a href="create-alarm-source" id="create-alarm-source"></a>
 
 1. Click on the gear icon and then on the **Connectors** button
 
-![](../../.gitbook/assets/go_to_connectors%20%284%29.png)
+![](<../../.gitbook/assets/go_to_connectors (4).png>)
 
 1. Click on **Add Connector**
 
-![](../../.gitbook/assets/create_connector_button%20%282%29.png)
+![](<../../.gitbook/assets/create_connector_button (2).png>)
 
 1. Select **Zammad** as **type** and fill in all fields. Enter a name, the URL of your Zammad server and the access token that you have created in the previous step.
 
-![](../../.gitbook/assets/screenshot_07_02_21__13_39.png)
+![](../../.gitbook/assets/Screenshot\_07\_02\_21\__13\_39.png)
 
 1. Go to the alert sources tab and open the alert source whose alerts you want to publish in Zammad. Click on **Alert actions** and then on **Create alert action**.
 
-![](../../.gitbook/assets/new_incident_action%20%2812%29.png)
+![](<../../.gitbook/assets/new_incident_action (12) (9).png>)
 
-1. Select **Zammad** as the **type**; **futhermore** select the connector created in step 3, fill in all fields.  
+1.  Select **Zammad** as the **type**; **futhermore **select the connector created in step 3, fill in all fields.  
 
-   In the **Email** field enter the existing customer email of Zammad.
+    In the **Email** field enter the existing customer email of Zammad.
 
-![](../../.gitbook/assets/ilert%20%2879%29.png)
+![](<../../.gitbook/assets/iLert (74).png>)
 
-1. Finished! You can now test the connection by clicking on the button **Test this connection**.  
+1.  Finished! You can now test the connection by clicking on the button **Test this connection**.  
 
-   A test ticket will be created in Zammad.
+    A test ticket will be created in Zammad.
 
-![](../../.gitbook/assets/ilert%20%2877%29.png)
+![](<../../.gitbook/assets/iLert (75).png>)
 
-## FAQ <a id="faq"></a>
+## FAQ <a href="faq" id="faq"></a>
 
 **Are updates to an alert added to the Zammad Ticket?**
 
-Yes, the state of the iLert Alert is reflected in the brief description of the Zammad ticket eg. _\[RESOLVED\] Host compute.infra is DOWN._
+Yes, the state of the iLert Alert is reflected in the brief description of the Zammad ticket eg. _\[RESOLVED] Host compute.infra is DOWN._
 
 **Can I choose which updates are to be published to a Zammad Ticket?**
 
@@ -88,4 +88,3 @@ Yes, you need to create an agent token and include the user in the group or crea
 **Can I use multiple Zammad groups?**
 
 Yes, just create an alert action for each Zammad group.
-

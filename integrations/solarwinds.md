@@ -1,30 +1,26 @@
 ---
-title: SolarWinds Integration
-seoTitle: 'iLert: SolarWinds Integration for Alerting | Incident Response | Uptime'
 description: >-
   The iLert SolarWinds Integration extends SolwarWinds Orion products with
   iLert's powerful alerting and on-call management capabilities.
-date: '2018-12-29T05:02:05.000Z'
-weight: 1
 ---
 
 # SolarWinds Integration
 
-With the iLert SolarWinds Integration you can easily integrate SolarWinds Orion products \(eg [NPM](https://www.solarwinds.com/network-performance-monitor) and [SAM](https://www.solarwinds.com/server-application-monitor)\) into iLert. The integration extends SolarWinds with SMS, push and voice notification as well as on-call schedules from iLert. Alerts are created in iLert and automatically resolved. Furthermore, alerts in iLert that were created by SolarWinds contain links to the respective alerts in SolarWinds.
+With the iLert SolarWinds Integration you can easily integrate SolarWinds Orion products (eg [NPM](https://www.solarwinds.com/network-performance-monitor) and [SAM](https://www.solarwinds.com/server-application-monitor)) into iLert. The integration extends SolarWinds with SMS, push and voice notification as well as on-call schedules from iLert. Alerts are created in iLert and automatically resolved. Furthermore, alerts in iLert that were created by SolarWinds contain links to the respective alerts in SolarWinds.
 
-## In iLert: create alert source <a id="create-alarm-source"></a>
+## In iLert: create alert source <a href="create-alarm-source" id="create-alarm-source"></a>
 
 1. Go to **Alert sources** and click on the **Add a new alert source** button
-2. Enter a name for your alert source \(e.g. SolarWinds\) and select an escalation policy.
+2. Enter a name for your alert source (e.g. SolarWinds) and select an escalation policy.
 3. In the **integration type** field, chose **SolarWinds**.
 
-![](../.gitbook/assets/screenshot-2020-09-04-at-09.55.06.png)
+![](<../.gitbook/assets/Screenshot 2020-09-04 at 09.55.06.png>)
 
 1. A URL is generated on the next page. You will need this URL in the next section when setting up the integration in SolarWinds
 
-![](../.gitbook/assets/screenshot-2020-09-04-at-09.58.49.png)
+![](<../.gitbook/assets/Screenshot 2020-09-04 at 09.58.49.png>)
 
-## In SolarWinds: create alert definition <a id="alert-definition"></a>
+## In SolarWinds: create alert definition <a href="alert-definition" id="alert-definition"></a>
 
 1. Go to the **Settings → All Settings** tab and click **Manage Alerts**
 
@@ -60,7 +56,7 @@ With the iLert SolarWinds Integration you can easily integrate SolarWinds Orion 
 
 ![](../.gitbook/assets/sw11.png)
 
-```text
+```
 iLertEventType=ALERT&
 iLertIncidentKey=${N=Alerting;M=AlertObjectID}-${N=Alerting;M=AlertActiveID}&
 iLertEventSummary=${N=SwisEntity;M=DisplayName} (${N=SwisEntity;M=IP_Address}): ${N=SwisEntity;M=StatusDescription}&
@@ -73,7 +69,7 @@ ObjectType=${N=Alerting;M=ObjectType}&
 Severity=${N=Alerting;M=Severity}
 ```
 
-1. **Optional**: Activate the **Repeat this action action every X minutes until the alert is acknowledged** option in the **execution settings**. This is for safety, if an alert could not be sent to iLert \(e.g. due to a network problem\).
+1. **Optional**: Activate the **Repeat this action action every X minutes until the alert is acknowledged** option in the **execution settings**. This is for safety, if an alert could not be sent to iLert (e.g. due to a network problem).
 
 ![](../.gitbook/assets/sw12.png)
 
@@ -82,7 +78,7 @@ Severity=${N=Alerting;M=Severity}
 
 ![](../.gitbook/assets/sw13.png)
 
-```text
+```
 iLertEventType=RESOLVE&
 iLertIncidentKey=${N=Alerting;M=AlertObjectID}-${N=Alerting;M=AlertActiveID}&
 iLertEventSummary=${N=SwisEntity;M=DisplayName} (${N=SwisEntity;M=IP_Address}): ${N=SwisEntity;M=StatusDescription}
@@ -91,7 +87,7 @@ iLertEventSummary=${N=SwisEntity;M=DisplayName} (${N=SwisEntity;M=IP_Address}): 
 1. On **ADD ACTION** and then click **NEXT**.
 2. Click **SUBMIT** on the **SUMMARY** page.
 
-## FAQ <a id="faq"></a>
+## FAQ <a href="faq" id="faq"></a>
 
 **Are alerts automatically resolved in iLert?**
 
@@ -107,13 +103,12 @@ Yes, create several alert definitions in SolarWinds and store the corresponding 
 
 **What if my internet connection is lost? Are the alerts generated in SolarWinds lost?**
 
-No, no alerts are lost if you have activated the option **Repeat this action action every X minutes until the alert is acknowledged** in SolarWinds \(see above\). We also recommend that you monitor your Internet connection with an external monitoring service, such as iLert's [Uptime monitoring](https://www.ilert.com/product/uptime-monitoring/).
+No, no alerts are lost if you have activated the option **Repeat this action action every X minutes until the alert is acknowledged** in SolarWinds (see above). We also recommend that you monitor your Internet connection with an external monitoring service, such as iLert's [Uptime monitoring](https://www.ilert.com/product/uptime-monitoring/).
 
-**Can I change the content of the alert in iLert \(e.g. the summary\)?**
+**Can I change the content of the alert in iLert (e.g. the summary)?**
 
 Yes, you can configure this in the definition of the trigger action. In the HTTP Post Body, several variables in the format `variable1=value1&variable2=value2&variable3=value3...` are sent to iLert. To change the summary text of the alert, change the definition of the variable `iLertEventSummary` . All other variables that you add below `iLertEventSummary` inserted in the description of the alert.
 
 **The integration doesn't work. How do I find the issue?**
 
 If you do not find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
-
