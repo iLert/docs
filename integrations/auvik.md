@@ -48,7 +48,7 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 1. Navigate to **Manage Alerts** -> **Notification Channels**
 
-****![](<../.gitbook/assets/image (52).png>)
+![](<../.gitbook/assets/image (52).png>)
 
 2\. Click on **Add Notification Channel**; a popup will appear
 
@@ -60,13 +60,31 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 1. Navigate to **Manage Alert** -> **Alerts**
 
-&#x20;![](<../.gitbook/assets/image (50).png>)
+&#x20;
+
+![](<../.gitbook/assets/image (50).png>)
 
 2\. Pick a desired alert that you want to sync to iLert, mark it and click on **Edit**
 
-3\. In the Edit popup enable the Notification channels and choose your freshly created notification channel in the drop down, click on Save to assign it with your alert
+3\. In the Edit popup enable the **Notification channels** and choose your freshly created notification channel in the drop down, click on **Save** to assign it with your alert
 
-****![](<../.gitbook/assets/image (47).png>)****
+![](<../.gitbook/assets/image (47).png>)
 
-4\. You are done, your alerts should sync from Auvik into iLert
+4\. You are done, your alerts should sync from **Auvik** into iLert
+
+## FAQ
+
+
+
+### Will cleared Auvik alerts resolve iLert alerts?
+
+Yes.
+
+### Will resolved iLert alerts clear Auvik alerts?
+
+Yes, if a bidirectional setup has been configured in iLert.
+
+### Can there be multiple iLert Auvik alert sources?
+
+Yes. You may create as many Auvik alert sources as you like and link them to different Auvik notification channels. This can be used to have different priorities as well as support hours and different escalation policies in iLert for specific alerts in Auvik.
 
