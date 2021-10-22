@@ -1,7 +1,5 @@
 ---
-description: >-
-  The iLert PRTG Network Monitor Integration helps you to easily connect iLert
-  with PRTG Network Monitor.
+description: Create alerts in iLert from PRTG notifications.
 ---
 
 # PRTG Network Monitor Integration
@@ -33,7 +31,7 @@ With PRTG integration, you can easily integrate PRTG with iLert and extend your 
 ![](../.gitbook/assets/pg4.png)
 
 1. Click on **Save**
-2. Next we will use the newly created iLert notification method in PRTG. To do this, switch to the root group in the device overview and select the "Notifications" tab.
+2. Next, we will use the newly created iLert notification method in PRTG. To do this, switch to the root group in the device overview and select the "Notifications" tab.
 
 ![](../.gitbook/assets/pg5.png)
 
@@ -53,12 +51,12 @@ No, in PRTG it is unfortunately not possible to send notifications for acknowled
 
 **What if my internet connection is interrupted? Are the events generated in PRTG lost?**
 
-No, events will not be lost if you enable the "repeat every x minutes" option in PRTG (see above). In addition, we recommend that you monitor your Internet connection with an external monitoring service (e.g. using iLert's uptime monitoring). You can send these alerts to iLert again.
+No, events will not be lost if you enable the "repeat every x minutes" option in PRTG (see above). In addition, we recommend that you monitor your Internet connection with an external monitoring service (e.g. using iLert's uptime monitoring or heartbeat monitoring). You can send these alerts to iLert.
 
 **Can I link PRTG to multiple alert sources in iLert?**
 
 Yes, create multiple iLert notifications in PRTG. You can then associate them with objects in the PRTG object hierarchy.
 
-**The integration does not work. How do I find the mistake?**
+**The integration does not work. How do I find the issue?**
 
 If you can not find the error, please contact our support at [support@ilert.com](https://github.com/iLert/docs/tree/dfe03283a452516a115a55f8c20942698e279d7b/integrations/support@ilert.com).
