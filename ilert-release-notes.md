@@ -29,7 +29,7 @@ description: >-
 
 ### New features
 
-* added policy routingKeys to the [event API](https://api.ilert.com/api-docs/#tag/Events/paths/~1events/post)
+* added policy routingKeys to the [event API](https://api.ilert.com/api-docs/#tag/Events/paths/\~1events/post)
 * added a new uptime monitor type: SSL
 
 ### New and updated integrations
@@ -49,12 +49,12 @@ description: >-
 ### New features
 
 * [My on-call shifts](getting-started/on-call-schedules/my-on-call-shifts.md) page
-* Avatar upload \(in user contact details\)
+* Avatar upload (in user contact details)
 
 ### New and updated integrations
 
-* Microsoft Teams Chat \(new bot\)
-* Microsoft Teams Meeting \(new bot\)
+* Microsoft Teams Chat (new bot)
+* Microsoft Teams Meeting (new bot)
 
 ### Improvements
 
@@ -79,7 +79,7 @@ description: >-
 
 * Added `team-context` HTTP header to control team context on a per request basis when using api keys
 * Escalation policy detail view has been added
-* Attaching comments to alerts is now additionally possible through the events [API](https://api.ilert.com/api-docs/#tag/Events/paths/~1events/post)
+* Attaching comments to alerts is now additionally possible through the events [API](https://api.ilert.com/api-docs/#tag/Events/paths/\~1events/post)
 
 ### Improvements
 
@@ -131,16 +131,16 @@ description: >-
 * New: [Sentry Inbound](integrations/sentry.md) Integration
 * New: [Kubernetes Inbound](integrations/kubernetes.md) Integration
 
-### Improvements <a id="improvements"></a>
+### Improvements <a href="improvements" id="improvements"></a>
 
 * [Nagios](integrations/nagios.md) / [CheckMK](integrations/checkmk/check-mk.md) Plugin: Use proxy for the outbound traffic via `--proxy` flag
-* [Nagios](integrations/nagios.md) / [CheckMK](integrations/checkmk/check-mk.md) Plugin: Disable SSL certification validation \(e.g. to use self-signed certificates\) via `--insecure` flag
+* [Nagios](integrations/nagios.md) / [CheckMK](integrations/checkmk/check-mk.md) Plugin: Disable SSL certification validation (e.g. to use self-signed certificates) via `--insecure` flag
 
 ## February 2021
 
 ### New features
 
-* [Advanced support hours routing](call-routing/routing-calls-based-on-support-hours/) for call routing numbers
+* [Advanced support hours routing](call-routing/routing-calls-based-on-support-hours.md) for call routing numbers
 * Auto provision [teams and mobile](single-sign-on/auto-provisioning-users-and-teams.md) numbers with SSO
 
 ### New and updated integrations
@@ -172,7 +172,7 @@ description: >-
 ### New features
 
 * Irregular Schedules new calendar UI
-* Call Routing: You may now choose if an alert is resolved on agent/caller hang-up 
+* Call Routing: You may now choose if an alert is resolved on agent/caller hang-up&#x20;
 
 ### New and updated integrations
 
@@ -230,7 +230,7 @@ description: >-
 * [Kentix AlarmManager](integrations/kentix-am.md)
 * Datadog Outbound Integration now supports regions
 * Prometheus alert detail formatting has been updated
-* Slack channels \(connections\) can now be managed in iLert directly
+* Slack channels (connections) can now be managed in iLert directly
 
 ### Improvements
 
@@ -251,8 +251,8 @@ description: >-
 ### New and updated integrations
 
 * [Autotask](integrations/autotask/)
-* [Zabbix](integrations/zabbix/native.md) \(updated\): Starting Zabbix 4.4, iLert can be integrated as a media type into Zabbix. Zabbix 5.0.4+ includes iLert as a media type by default. See also Zabbix blog post: [Working with multiple on-call teams using Zabbix and iLert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/) 
-* [Prometheus](integrations/prometheus.md) \(updated\): improved readabiltiy of prometheus alerts
+* [Zabbix](integrations/zabbix/native.md) (updated): Starting Zabbix 4.4, iLert can be integrated as a media type into Zabbix. Zabbix 5.0.4+ includes iLert as a media type by default. See also Zabbix blog post: [Working with multiple on-call teams using Zabbix and iLert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/)&#x20;
+* [Prometheus](integrations/prometheus.md) (updated): improved readabiltiy of prometheus alerts
 
 ### Improvements
 
@@ -274,13 +274,13 @@ description: >-
 ### Improvements
 
 * [Stakeholder engagement](getting-started/stakeholder-engagement.md): stakeholders can now unsubscribe from alert update notifications
-* Email login: Users can now login via email \(in addition to username\) . Usernames in iLert are deprecated and will be removed in the future.
+* Email login: Users can now login via email (in addition to username) . Usernames in iLert are deprecated and will be removed in the future.
 
 ## May 2020
 
 ### New features
 
-* [Stakeholder engagement](getting-started/stakeholder-engagement.md): keep stakeholders in the loop during critical alerts \([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/)\).
+* [Stakeholder engagement](getting-started/stakeholder-engagement.md): keep stakeholders in the loop during critical alerts ([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/)).
 
 ### New and updated integrations
 
@@ -290,22 +290,22 @@ description: >-
   * [AWS Lambda](integrations/aws-lambda.md)
   * [Google Cloud Functions](integrations/gcf.md)
   * [Microsoft Azure Functions](integrations/azure-functions.md)
-* [Icinga v2.x](integrations/icinga.md) \(updated\): there is a dedicated plugin for Icinga now on our [GitHub repo](https://github.com/iLert/ilert-icinga). You can now override the alert priority from within Icinga and we include the comments that you enter in Icinga when ack’ing a problem in the event log of the alert.
-* [JIRA](integrations/jira/) \(updated\): When you setup a connection from your alert source in iLert to your JIRA instance, projects and issue types are now dynamically fetched from your JIRA instance, so you can select the issue types when iLert syncs an alert to JIRA. You can even include custom fields.
-* [Webhook](integrations/webhook.md) \(updated\): you can now fully customize the payload for outbound webhooks.
+* [Icinga v2.x](integrations/icinga.md) (updated): there is a dedicated plugin for Icinga now on our [GitHub repo](https://github.com/iLert/ilert-icinga). You can now override the alert priority from within Icinga and we include the comments that you enter in Icinga when ack’ing a problem in the event log of the alert.
+* [JIRA](integrations/jira/) (updated): When you setup a connection from your alert source in iLert to your JIRA instance, projects and issue types are now dynamically fetched from your JIRA instance, so you can select the issue types when iLert syncs an alert to JIRA. You can even include custom fields.
+* [Webhook](integrations/webhook.md) (updated): you can now fully customize the payload for outbound webhooks.
 
 ### Improvements
 
 * [API end point](https://api.ilert.com/api-docs/#tag/Uptime-Monitors) for uptime monitors
-* Uptime monitors: support for milliseconds in check timeout \([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/#uptime-monitoring)\)
-* Flexible periods in repeating on-call schedules: set an arbitrary period length and chose between days and weeks as the period unit \([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/#flexible-periods)\)
+* Uptime monitors: support for milliseconds in check timeout ([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/#uptime-monitoring))
+* Flexible periods in repeating on-call schedules: set an arbitrary period length and chose between days and weeks as the period unit ([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/#flexible-periods))
 
 ## April 2020
 
 ### New features
 
 * [Single Sign On](integrations/sso.md): Single sign on makes it easy to manage access to your iLert account using an identity provider of your choice.
-* **Alert Reporting** includes key metrics such MTTA and MTTR \([blog post](https://www.ilert.com/blog/2020-04-07-alert-reports-ilert-sso/#reports)\).
+* **Alert Reporting** includes key metrics such MTTA and MTTR ([blog post](https://www.ilert.com/blog/2020-04-07-alert-reports-ilert-sso/#reports)).
 
 ### New integrations
 
@@ -317,5 +317,4 @@ description: >-
 
 ### Improvements
 
-* **Auto raise alert priority** lets you delay notifications and escalations until support hours start \([blog post](https://www.ilert.com/blog/2020-04-07-alert-reports-ilert-sso/#auto-raise)\)
-
+* **Auto raise alert priority** lets you delay notifications and escalations until support hours start ([blog post](https://www.ilert.com/blog/2020-04-07-alert-reports-ilert-sso/#auto-raise))

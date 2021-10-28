@@ -20,8 +20,7 @@
 ## Call Routing
 
 * [Getting started with call routing](call-routing/getting-started-with-call-routing.md)
-* [Routing calls based on support hours](call-routing/routing-calls-based-on-support-hours/README.md)
-  * [Managing office hours call behaviour](call-routing/routing-calls-based-on-support-hours/managing-office-hours-call-behaviour.md)
+* [Routing calls based on support hours](call-routing/routing-calls-based-on-support-hours.md)
 * [Voicemail only mode](call-routing/voicemail-only-mode.md)
 * [Managing call routing alerts](call-routing/managing-call-routing-incidents.md)
 * [Adding webhooks and outbound chat messages](call-routing/adding-webhooks-and-outbound-chat-messages.md)
