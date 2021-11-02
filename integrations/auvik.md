@@ -6,10 +6,6 @@ description: >-
 
 # Auvik Integration
 
-{% hint style="info" %}
-This integration guide is still subject to change
-{% endhint %}
-
 ## In iLert: Create an Auvik alert source
 
 1. Navigate to **Services** -> **Alert sources** and click on _Create new alert source_
@@ -36,11 +32,11 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 ![](<../.gitbook/assets/image (49).png>)
 
-&#x20;2\. From the dropdown choose **Webhook**
+&#x20;2\. From the dropdown choose **iLert**
 
 3\. A popup will appear; enter a name and paste your **Auvik URL** that you have copied from your alert source in iLert
 
-![](<../.gitbook/assets/image (51).png>)
+![](<../.gitbook/assets/image (47).png>)
 
 4\. You may choose to click on Test Connection to see if it is setup correctly, afterwards click **Save** to create your integration in Auvik.
 
@@ -52,9 +48,9 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 2\. Click on **Add Notification Channel**; a popup will appear
 
-3\. Choose a name and from the **Contact method** dropdown choose **Webhook**
+3\. Choose a name and from the **Contact method** dropdown choose **iLert**
 
-4\. Then select your freshly created Webhook Integration and click on **Save**
+4\. Then select your freshly created iLert Integration and click on **Save**
 
 ### Syncing alerts
 
@@ -62,13 +58,13 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 &#x20;
 
-![](<../.gitbook/assets/image (50).png>)
+![](<../.gitbook/assets/image (50) (1).png>)
 
 2\. Pick a desired alert that you want to sync to iLert, mark it and click on **Edit**
 
 3\. In the Edit popup enable the **Notification channels** and choose your freshly created notification channel in the drop down, click on **Save** to assign it with your alert
 
-![](<../.gitbook/assets/image (47).png>)
+![](<../.gitbook/assets/image (47) (1).png>)
 
 4\. You are done, your alerts should sync from **Auvik** into iLert
 
