@@ -26,7 +26,7 @@ With iLert's Prometheus integration, you can automatically create alerts in iLer
 
 ## In Prometheus Alertmanager: add webhook receiver <a href="add-webhook" id="add-webhook"></a>
 
-1. Add a [Webhook configuration](https://prometheus.io/docs/alerting/configuration/#webhook_config) from the alert manager in the configuration file. Use the URL generated in iLert as the Webhook URL:
+1. Add a [Webhook configuration](https://prometheus.io/docs/alerting/configuration/#webhook\_config) from the alert manager in the configuration file. Use the URL generated in iLert as the Webhook URL:
 
 ```yaml
 receivers:
@@ -53,11 +53,27 @@ receiver: 'ilert.web.hook'
 curl -d '[{"labels":{"Alertname":"iLert Test"},"annotations":{"summary":"iLert Test"}}]' http://localhost:9093/api/v1/alerts
 ```
 
+## Dynamic policy routing
+
+
+
+iLert's Prometheus integration supports dynamic escalation policy routing with the help of routing keys.
+
+In iLert navigate to the **escalation policies** that you want to route to and enter a unique routing key for for each policy.
+
+![](<../.gitbook/assets/image (55).png>)
+
+In your Prometheus **alert rule** yml add a label called `ilert_routingkey` and set its value to the policy's routing key that you want to assign to the alert e.g. `ilert_routingkey: policy1`
+
+When iLert receives Prometheus alert events it will look for the first alert with the specific label and decide upon the routing. If the label is not present the escalation policy that is assigned to the alert source is used instead.
+
 ## FAQ <a href="faq" id="faq"></a>
+
+****
 
 **Will alerts in iLert be resolved automatically?**
 
-Yes, Prometheus also sends resolved events by default, as long as the send_resolved: false option is NOT set in the [Webhook configuration](https://prometheus.io/docs/alerting/configuration/#webhook_config) of the alert manager. Furthermore, resolved events - just like firing events - are not sent until the next `group_interval` configuration in the alert manager.
+Yes, Prometheus also sends resolved events by default, as long as the send\_resolved: false option is NOT set in the [Webhook configuration](https://prometheus.io/docs/alerting/configuration/#webhook\_config) of the alert manager. Furthermore, resolved events - just like firing events - are not sent until the next `group_interval` configuration in the alert manager.
 
 **Can I link Prometheus to multiple alert sources in iLert?**
 
