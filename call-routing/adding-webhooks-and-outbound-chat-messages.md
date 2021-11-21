@@ -32,4 +32,4 @@ For the sake of this tutorial we stick to the webhook type which does not requir
 Make sure the **automatic** type is chosen, fill out your desired **label** and add the webhook's **url**.\
 Every incoming call that creates an alert will now also send the webhook including details to your third party system.
 
-Read more on alert actions [here](../getting-started/intro.md#connectors-and-incident-actions-outbound-integrations).
+Read more on alert actions [here](../#connectors-and-incident-actions-outbound-integrations).
