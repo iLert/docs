@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-* [Introduction to iLert](README.md)
+* [Core concepts](README.md)
 * [On-call schedules](getting-started/on-call-schedules/README.md)
   * [My on-call shifts](getting-started/on-call-schedules/my-on-call-shifts.md)
   * [Recurring schedules](getting-started/on-call-schedules/recurring-schedules.md)

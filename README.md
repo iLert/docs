@@ -1,18 +1,14 @@
 ---
-description: >-
-  iLert getting started guide. The most important concepts in iLert are
-  explained on this page.
+description: The most important concepts in iLert are explained on this page.
 ---
 
-# Introduction to iLert
+# Core concepts
 
-## What is iLert? <a href="incident" id="incident"></a>
 
-iLert is a platform for alerting, on-call management and uptime monitoring. It helps teams to reduce response times to critical alerts by extending monitoring tools with reliable alerting, automatic escalations, on-call schedules and other features to support the incident response process, such as [informing stakeholders](getting-started/stakeholder-engagement.md) or creating tickets in external incident management tools.
 
-## Core concepts <a href="incident" id="incident"></a>
+iLert is a platform for alerting, on-call management and uptime monitoring. It helps teams to reduce response times to critical alerts by extending monitoring tools with reliable alerting, automatic escalations, on-call schedules and other features to support the incident response process, such as [informing stakeholders](getting-started/stakeholder-engagement.md) or creating tickets in external incident management tools. The most important concepts are explained in the following sections.
 
-### Alert
+## Alert
 
 An alert is an issue that requires immediate attention and needs to be resolved. Alerts are created by an alert source and immediately trigger the notification process using the alert source's escalation policy.
 
@@ -24,23 +20,23 @@ An alert can have the following states:
 | `ACCEPTED` | The user to whom the alert is assigned to is working on resolving the alert and the escalation process is halted. |
 | `RESOLVED` | The alert is resolved and no more notifications are sent. A resolved alert cannot be opened again.                |
 
-### Alert source / inbound integration
+## Alert source (aka inbound integration)
 
 An alert source represents the connection between your tools (usually a monitoring system, a ticketing tool, or an application) and iLert. We often refer to alert sources as **inbound integrations**.
 
 iLert provides the following inbound integration options:
 
-|                                                                           |                                                                                                                                                                                              |
-| ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**Tool integrations**](integrations/jira/)                               | These are pre-built integrations by iLert and work-out-of the box with your monitoring tools. If you're missing a tool, feel free to suggest an integration that you'd like to see in iLert. |
-| [**Email integration**](integrations/email/)                              | Forward emails to an alert source's email addres to integrate with iLert.                                                                                                                    |
-| [**Event API**](https://api.ilert.com/api-docs/)                          | Write your own integration using our easy-to-use Event API.                                                                                                                                  |
-| **SMS integration**                                                       | Send alerts to iLert via SMS.                                                                                                                                                                |
-| \<b>\</b>[**Hearbeat monitoring**](uptime-monitors/heartbeat-monitoring/) | A heartbeat alert source will automatically create an alert if it does not receive a heartbeat signal from your app at regular intervals.                                                    |
+|                                                                  |                                                                                                                                                                                              |
+| ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**Tool integrations**](integrations/jira/)                      | These are pre-built integrations by iLert and work-out-of the box with your monitoring tools. If you're missing a tool, feel free to suggest an integration that you'd like to see in iLert. |
+| [**Email integration**](integrations/email/)                     | Forward emails to an alert source's email address to integrate with iLert.                                                                                                                   |
+| [**Event API**](https://api.ilert.com/api-docs/)                 | Write your own integration using our easy-to-use Event API.                                                                                                                                  |
+| ****[**SMS integration**](integrations/sms-integration.md)****   | Send alerts to iLert via SMS.                                                                                                                                                                |
+| [**Hearbeat monitoring**](uptime-monitors/heartbeat-monitoring/) | A heartbeat alert source will automatically create an alert if it does not receive a heartbeat signal from your app at regular intervals.                                                    |
 
 ![](<.gitbook/assets/image (1).png>)
 
-### Connectors and alert actions / outbound integrations
+## Connectors and alert actions (aka outbound integrations)
 
 Connectors and alert actions allow you to extend your alert response and communication to other tools. They allow you to either manually or automatically perform actions on alerts, such as
 
@@ -56,11 +52,11 @@ A **connector** is created globally in iLert and usually contains all the inform
 
 We often refer to connectors and alert actions as **outbound integrations**.
 
-### Escalation policy
+## Escalation policy
 
 An escalation policy connects an alert source with the users that are responsible for this alert source. It defines which users or on-call schedules should be notified when an alert is created.
 
-### On-call schedule
+## On-call schedule
 
 On-call schedules determine who will be notified when an alert is created based on the time of day. Only one user per schedule can be on-call at a time. You can reference an on-call schedule in an escalation policy.
 
@@ -68,7 +64,7 @@ On-call schedules determine who will be notified when an alert is created based 
 [on-call-schedules](getting-started/on-call-schedules/)
 {% endcontent-ref %}
 
-### Notifications
+## Notifications
 
 In iLert, each user defines in his profile how he will be notified of an alert. A user with admin rights can also maintain the notification settings for other users. iLert supports the following notification channels:
 
