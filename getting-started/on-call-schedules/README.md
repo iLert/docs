@@ -16,7 +16,7 @@ Use schedules to dynamically determine to whom an alert will be assigned to base
 {% hint style="info" %}
 **User role permissions required**
 
-* [User role permissions](../user-roles-and-permissions.md) are required to create or modify a schedule. 
+* [User role permissions](../../user-administration/user-roles-and-permissions.md) are required to create or modify a schedule.&#x20;
 * Stakeholder users cannot be added to a schedule.
 {% endhint %}
 
@@ -45,7 +45,7 @@ Overrides can be added by users with **Responder** role privileges. A responder 
 
 Overrides are one-time changes to a schedule. Example uses of overrides include
 
-*  when a user becomes sick, goes on vacation, or would like to swap a shift with another user
+* &#x20;when a user becomes sick, goes on vacation, or would like to swap a shift with another user
 * scheduling different shifts for holidays
 
 The main benefits of overrides are that they are easy to add, they do not change the underlying structure of the schedule, they only require Responder role permission, and they can be added via the mobile app.
@@ -62,7 +62,7 @@ Overrides can be deleted and overriden by another override. To delete an overrid
 
 ![](<../../.gitbook/assets/image (31).png>)
 
-To add an override in the mobile app, open the **Who is on-call?** screen and tap on **Override shift **on the shift you want to override. 
+To add an override in the mobile app, open the **Who is on-call?** screen and tap on **Override shift **on the shift you want to override.&#x20;
 
 | <p></p><p><img src="../../.gitbook/assets/image (32).png" alt=""></p> | <p></p><p><img src="../../.gitbook/assets/image (33).png" alt=""></p> |
 | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: |
@@ -71,8 +71,8 @@ To add an override in the mobile app, open the **Who is on-call?** screen and ta
 
 #### What happens if there is a gap in a schedule?
 
-If an alert occurs during a time with no coverage in your schedule, then the alert will be escalated immediately to the next escalation level, without waiting for the escalation timeout. If no one is on-call on the entire escalation policy, no one will be notified. 
+If an alert occurs during a time with no coverage in your schedule, then the alert will be escalated immediately to the next escalation level, without waiting for the escalation timeout. If no one is on-call on the entire escalation policy, no one will be notified.&#x20;
 
 #### Can I choose my own shift colour?
 
-No, shift colours are automatically assigned to a user and are permanent. 
+No, shift colours are automatically assigned to a user and are permanent.&#x20;

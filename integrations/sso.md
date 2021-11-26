@@ -12,11 +12,15 @@ weight: 1
 
 This page has been split and moved here:
 
-{% page-ref page="../single-sign-on/setting-up-sso-with-g-suite.md" %}
+{% content-ref url="../user-administration/singe-sign-on/setting-up-sso-with-g-suite.md" %}
+[setting-up-sso-with-g-suite.md](../user-administration/singe-sign-on/setting-up-sso-with-g-suite.md)
+{% endcontent-ref %}
 
-{% page-ref page="../single-sign-on/setting-up-sso-with-azure-active-directory.md" %}
+{% content-ref url="../user-administration/singe-sign-on/setting-up-sso-with-azure-active-directory.md" %}
+[setting-up-sso-with-azure-active-directory.md](../user-administration/singe-sign-on/setting-up-sso-with-azure-active-directory.md)
+{% endcontent-ref %}
 
-{% page-ref page="../single-sign-on/setting-up-sso-with-okta.md" %}
-
-
+{% content-ref url="../user-administration/singe-sign-on/setting-up-sso-with-okta.md" %}
+[setting-up-sso-with-okta.md](../user-administration/singe-sign-on/setting-up-sso-with-okta.md)
+{% endcontent-ref %}
 

@@ -1,20 +1,28 @@
 # Table of contents
 
-* [Introduction to iLert](README.md)
-
 ## Getting Started
 
+* [Introduction to iLert](README.md)
 * [On-call schedules](getting-started/on-call-schedules/README.md)
   * [My on-call shifts](getting-started/on-call-schedules/my-on-call-shifts.md)
   * [Recurring schedules](getting-started/on-call-schedules/recurring-schedules.md)
   * [Static schedules](getting-started/on-call-schedules/static-schedules.md)
-* [User roles and permissions](getting-started/user-roles-and-permissions.md)
-* [Team-based organisation](getting-started/teams.md)
 * [Stakeholder engagement](getting-started/stakeholder-engagement.md)
 * [iLert domains, ips, emails & phone numbers](getting-started/phone-numbers/README.md)
   * [SMS and voice alerts in China](getting-started/phone-numbers/sms-and-voice-alerts-in-china.md)
 * [FAQ](getting-started/faq/README.md)
   * [Renaming of Incidents to Alerts](getting-started/faq/renaming-of-incidents-to-alerts.md)
+
+## User Administration
+
+* [User roles and permissions](user-administration/user-roles-and-permissions.md)
+* [Team-based organisation](user-administration/teams.md)
+* [Singe sign on](user-administration/singe-sign-on/README.md)
+  * [Setting up SSO with GSuite](user-administration/singe-sign-on/setting-up-sso-with-g-suite.md)
+  * [Setting up SSO with Microsoft Azure Active Directory](user-administration/singe-sign-on/setting-up-sso-with-azure-active-directory.md)
+  * [Setting up SSO with Okta](user-administration/singe-sign-on/setting-up-sso-with-okta.md)
+  * [Setting up SSO with Auth0](user-administration/singe-sign-on/setting-up-sso-with-auth0.md)
+  * [Auto provisioning users & teams](user-administration/singe-sign-on/auto-provisioning-users-and-teams.md)
 
 ## Call Routing
 
@@ -23,14 +31,6 @@
 * [Voicemail only mode](call-routing/voicemail-only-mode.md)
 * [Managing call routing alerts](call-routing/managing-call-routing-incidents.md)
 * [Adding webhooks and outbound chat messages](call-routing/adding-webhooks-and-outbound-chat-messages.md)
-
-## Single Sign On
-
-* [Setting up SSO with GSuite](single-sign-on/setting-up-sso-with-g-suite.md)
-* [Setting up SSO with Microsoft Azure Active Directory](single-sign-on/setting-up-sso-with-azure-active-directory.md)
-* [Setting up SSO with Okta](single-sign-on/setting-up-sso-with-okta.md)
-* [Setting up SSO with Auth0](single-sign-on/setting-up-sso-with-auth0.md)
-* [Auto provisioning users & teams](single-sign-on/auto-provisioning-users-and-teams.md)
 
 ## Uptime & Heartbeat Monitors <a href="uptime-monitors" id="uptime-monitors"></a>
 

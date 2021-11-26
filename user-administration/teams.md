@@ -26,7 +26,7 @@ In case your account requires a large amount of teams, the team filter will auto
 
 The team filter is also available in the mobile app:
 
-![](../.gitbook/assets/IMG\_7069.jpg)
+![](<../.gitbook/assets/IMG\_7069 (3).jpeg>)
 
 The team filter selection is stored for each user and synced across devices - meaning users will always continue where they left off, even when changing from desktop to the mobile app.
 
@@ -69,7 +69,7 @@ To make a team private, navigate to the team's setting page and chose **Private*
 {% hint style="warning" %}
 **What happens to objects that are associated with both a private and a public team?**
 
-The private visibility setting of a team takes precedence over its public visibility. That is, if an object is assinged to two teams, one public and one private, the object will be visible to both teams **only** and won't be visible to members of other teams. 
+The private visibility setting of a team takes precedence over its public visibility. That is, if an object is assinged to two teams, one public and one private, the object will be visible to both teams **only** and won't be visible to members of other teams.&#x20;
 
 Such objects will be marked with the icognito icon in the list views.
 {% endhint %}
@@ -80,7 +80,7 @@ Such objects will be marked with the icognito icon in the list views.
 When working with teams, we recommend to keep all global users that do not require elevated permissions on the **Responder **role and use team roles instead. For example, instead of assigning a user the **User** role as their base role, use the **Responder **role as their base and assign the user the team role **User.**
 {% endhint %}
 
-Team roles extend the permissions of base roles within the context of a team. For example if you have been assigned the **Responder** role as your base role, and have been assigned the **Team User** role within a team, you will be granted the permissions of the User role within that team. 
+Team roles extend the permissions of base roles within the context of a team. For example if you have been assigned the **Responder** role as your base role, and have been assigned the **Team User** role within a team, you will be granted the permissions of the User role within that team.&#x20;
 
 {% hint style="info" %}
 Note that you cannot be assigned a less permissive team role than your base role in a public team. For example if your base role is **User**, you cannot be assigned the **Team Responder** role within a public team. However, this is not the case for private teams. The team roles in a private take precedence over base roles. E.g. if your base role is **User**, you can be assigned **Team Responder** permissions in a private team.
@@ -150,14 +150,14 @@ This way alerts may still be shared across team contexts or re-assigned by highe
 The current team context will automatically be reflected in alert, on-call and notification reports. Meaning that the selected team filter will have a direct impact on the shown resources in the report, as well as the user permissions on the data accessible in any shared reports.
 
 {% hint style="info" %}
-Further restriction of resource permissions to a user will reflect onto shared report urls even after they are created e.g. when hiding an alert source from a user by placing it in a private team without his access, the shared alert report will also hide the alerts from this alert source automatically. 
+Further restriction of resource permissions to a user will reflect onto shared report urls even after they are created e.g. when hiding an alert source from a user by placing it in a private team without his access, the shared alert report will also hide the alerts from this alert source automatically.&#x20;
 {% endhint %}
 
 ## FAQ
 
 ### When using iLert am I required to configure teams?
 
-No you dont have to. Teams is ment to be an enhancement for larger companies and enterprises to keep their users productive. When no teams are created in your account, the team specific ui elements wont be shown and you may use and share all resources globally across your account by default.
+No you don't have to. Teams are meant to be an enhancement for larger organizations and enterprises to keep their users productive. When no teams are created in your account, the team specific ui elements wont be shown and you may use and share all resources globally across your account by default.
 
 ### Why is there no Guest team role?
 

@@ -13,29 +13,29 @@ When starting with Azure AD Apps things can be a bit complicated and overwhelmin
 
 Login to your Microsoft Azure Dashboard. Open the directory and create a new application.
 
-![](../.gitbook/assets/meet_google_com_is_sharing_your_screen\_\_and_Add_your_own_application\_-\_Microsoft_Azure.png)
+![](../../.gitbook/assets/meet\_google\_com\_is\_sharing\_your\_screen\_\_and\_Add\_your\_own\_application\_-\_Microsoft\_Azure.png)
 
 From the seletion choose a **non gallery application**.
 
-![](../.gitbook/assets/Add_your_own_application\_-\_Microsoft_Azure.png)
+![](../../.gitbook/assets/Add\_your\_own\_application\_-\_Microsoft\_Azure.png)
 
 Enter a name and create the application.
 
-![](<../.gitbook/assets/Add_your_own_application\_-\_Microsoft_Azure (1).png>)
+![](<../../.gitbook/assets/Add\_your\_own\_application\_-\_Microsoft\_Azure (1).png>)
 
 ## Configure your AD App SAML Settings
 
 Configure single sign on for your newly created application.
 
-![](../.gitbook/assets/iLert_SSO\_\__Overview\_-\_Microsoft_Azure.png)
+![](../../.gitbook/assets/iLert\_SSO\_\_\_Overview\_-\_Microsoft\_Azure.png)
 
 Choose SAML.
 
-![](../.gitbook/assets/iLert_SSO\_\__Single_sign-on\_-\_Microsoft_Azure.png)
+![](../../.gitbook/assets/iLert\_SSO\_\_\_Single\_sign-on\_-\_Microsoft\_Azure.png)
 
 Configure the basic SAML Settings
 
-![](<../.gitbook/assets/iLert_SSO\_\__Single_sign-on\_-\_Microsoft_Azure (1).png>)
+![](<../../.gitbook/assets/iLert\_SSO\_\_\_Single\_sign-on\_-\_Microsoft\_Azure (1).png>)
 
 ## Setting up SSO in iLert
 
@@ -45,19 +45,19 @@ Log in to your iLert account as **account owner**, navigate to your **Account Se
 SSO with SAML requires your account to be on a Premium or Enterprise Plan.
 {% endhint %}
 
-![](../.gitbook/assets/iLert.png)
+![](../../.gitbook/assets/iLert.png)
 
 Copy your SAML Endpoint URL and Audience Restriction values into the Azure AD SAML App Basic Configuation.
 
-![](../.gitbook/assets/Basic_SAML_Configuration\_-\_Microsoft_Azure.png)
+![](../../.gitbook/assets/Basic\_SAML\_Configuration\_-\_Microsoft\_Azure.png)
 
 Save and close the basic SAML settings. Scroll a bit down and and copy the 3 values from your AD App, you will have to download the Certificate's Base64 representation and copy the value of its file into iLerts SSO settings certificate field.
 
-![](<../.gitbook/assets/iLert_SSO\_\__Single_sign-on\_-\_Microsoft_Azure (2).png>)
+![](<../../.gitbook/assets/iLert\_SSO\_\_\_Single\_sign-on\_-\_Microsoft\_Azure (2).png>)
 
 Transfer the values to iLert's SSO settings.
 
-![](<../.gitbook/assets/iLert (1).png>)
+![](<../../.gitbook/assets/iLert (1).png>)
 
 Save the the settings on both windows. SSO is now configured, however to make the login process work properly you will have to do 2 more things.
 
@@ -65,17 +65,17 @@ Save the the settings on both windows. SSO is now configured, however to make th
 
 To ensure iLert gets passed the correct email of your users from Azure we have to adjust the SAML claim name.
 
-![](<../.gitbook/assets/iLert_SSO\_\__Single_sign-on\_-\_Microsoft_Azure copy.png>)
+![](<../../.gitbook/assets/iLert\_SSO\_\_\_Single\_sign-on\_-\_Microsoft\_Azure copy.png>)
 
-![](../.gitbook/assets/User_Attributes\_\__Claims\_-\_Microsoft_Azure.png)
+![](../../.gitbook/assets/User\_Attributes\_\_\_Claims\_-\_Microsoft\_Azure.png)
 
 Set the claim name source to `user.mail`.
 
-![](../.gitbook/assets/Manage_claim\_-\_Microsoft_Azure.png)
+![](../../.gitbook/assets/Manage\_claim\_-\_Microsoft\_Azure.png)
 
 Save and close the modal.
 
-![](<../.gitbook/assets/iLert_SSO\_\__Single_sign-on\_-\_Microsoft_Azure (1) copy.png>)
+![](<../../.gitbook/assets/iLert\_SSO\_\_\_Single\_sign-on\_-\_Microsoft\_Azure (1) copy.png>)
 
 You have now properly adjusted the SAML claim name of your app.
 
@@ -85,21 +85,21 @@ Right now both your iLert account and your Azure AD App are properly configured.
 
 Go to your app's settings and click on **Users and Groups**.
 
-![](../.gitbook/assets/iLert_SSO\_\__Users_and_groups\_-\_Microsoft_Azure.png)
+![](../../.gitbook/assets/iLert\_SSO\_\_\_Users\_and\_groups\_-\_Microsoft\_Azure.png)
 
-![](../.gitbook/assets/Users\_-\_Microsoft_Azure.png)
+![](../../.gitbook/assets/Users\_-\_Microsoft\_Azure.png)
 
 Click on Users and select the users that should be able to login to your iLert account. Confirm the assignment afterwards.
 
-![](../.gitbook/assets/Add_Assignment\_-\_Microsoft_Azure.png)
+![](../../.gitbook/assets/Add\_Assignment\_-\_Microsoft\_Azure.png)
 
 Your users should now be able to login to iLert using their Azure AD accounts.
 
-![](<../.gitbook/assets/Screenshot 2020-06-17 at 13.55.33.png>)
+![](<../../.gitbook/assets/Screenshot 2020-06-17 at 13.55.33.png>)
 
 ## Additional SSO Configurations
 
-![](<../.gitbook/assets/Screenshot 2020-06-17 at 13.58.03.png>)
+![](<../../.gitbook/assets/Screenshot 2020-06-17 at 13.58.03.png>)
 
 ### Auto-provisioning Azure AD Users in iLert
 
