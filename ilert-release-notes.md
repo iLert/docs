@@ -6,6 +6,34 @@ description: >-
 
 # iLert Release Notes
 
+## November 2021
+
+
+
+### New features
+
+* users may now choose their personal shift color that is rendered in schedules
+
+### New and updated integrations
+
+* Humio Inbound
+* Apifortress Inbound
+* Freshdesk Inbound
+* AppSignal Inbound
+* Lightstep Inbound
+* IBM Cloud Functions Inbound
+* Crowdstrike Inbound
+
+### Improvements
+
+* critical alert push notifications are no longer triggered for update notification types
+* update type notifications are now fanned out to all registered push token devices
+* call routing numbers now support blacklists for incoming callers
+* assign to policy action no longer sends two notifications but one
+* added re-authorize option for Slack bot
+* updated all alert source and connector icons to newest version with increased resolution
+* the resolving user will no longer receive a resolve notification
+
 ## October 2021
 
 ### New features
@@ -131,7 +159,7 @@ description: >-
 * New: [Sentry Inbound](integrations/sentry.md) Integration
 * New: [Kubernetes Inbound](integrations/kubernetes.md) Integration
 
-### Improvements <a href="improvements" id="improvements"></a>
+### Improvements <a href="#improvements" id="improvements"></a>
 
 * [Nagios](integrations/nagios.md) / [CheckMK](integrations/checkmk/check-mk.md) Plugin: Use proxy for the outbound traffic via `--proxy` flag
 * [Nagios](integrations/nagios.md) / [CheckMK](integrations/checkmk/check-mk.md) Plugin: Disable SSL certification validation (e.g. to use self-signed certificates) via `--insecure` flag
