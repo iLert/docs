@@ -12,7 +12,7 @@ description: >-
 
 ![](<../.gitbook/assets/ilert-create-alert (5).png>)
 
-1.  Enter a name and select your desired escalation policy.   
+1.  Enter a name and select your desired escalation policy.  &#x20;
 
     Select "**Salesforce**" as the **Integration Type** and click **Save**.
 
@@ -117,8 +117,8 @@ To test this, simply create a **Case** in Salesforce.
    ****
 2. I don't see my logs, why?\
    \
-   Make sure that the **Expiration Date **settings in the Debug Logs settings are set in the future, just edit it if it was done in the past, and create Case again.
+   Make sure that the **Expiration Date** settings in the Debug Logs settings are set in the future, just edit it if it was done in the past, and create Case again.
 
 ![](../.gitbook/assets/salesforce-debuglogs.png)
 
- 
+&#x20;

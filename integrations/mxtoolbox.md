@@ -8,13 +8,13 @@ description: >-
 
 MxToolbox supports global Internet operations by providing free, fast and accurate network diagnostic and lookup tools. Millions of technology professionals use MxToolbox to help diagnose and resolve a wide range of infrastructure issues.
 
-## In iLert <a href="in-ilert" id="in-ilert"></a>
+## In iLert <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a MXToolBox alert source <a href="create-alert-source" id="create-alert-source"></a>
+### Create a MXToolBox alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 
-![](../.gitbook/assets/Screenshot\_16\_03\_21\__16\_37.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_37.png)
 
 1. Enter a name and select your desired escalation policy. Select "MXToolBox" as the **Integration Type** and click on **Save**.
 
@@ -24,19 +24,19 @@ MxToolbox supports global Internet operations by providing free, fast and accura
 
 ![](<../.gitbook/assets/iLert (37).png>)
 
-## In MXToolBox <a href="in-splunk" id="in-splunk"></a>
+## In MXToolBox <a href="#in-splunk" id="in-splunk"></a>
 
-### Create a notification hook <a href="create-action-sequences" id="create-action-sequences"></a>
+### Create a notification hook <a href="#create-action-sequences" id="create-action-sequences"></a>
 
 1. Go to MXToolBox, then to **Notifications** and then create a new Notification policy or change the Default notifications policy
 
-![](../.gitbook/assets/Mozilla_Firefox.png)
+![](../.gitbook/assets/Mozilla\_Firefox.png)
 
 1. On the next page,  click on the **Custom** tile
 
-![](<../.gitbook/assets/Mozilla_Firefox (1).png>)
+![](<../.gitbook/assets/Mozilla\_Firefox (1).png>)
 
-1. Open the notification policy, in the **Callback** section paste the **Webhook URL** that you generated in iLert, in the **Format** section choose **Default.** Make sure that the **Webhook URL** was **\*\*saved and the **payload** matches the following format: \*\***
+1. Open the notification policy, in the **Callback** section paste the **Webhook URL** that you generated in iLert, in the **Format** section choose **Default.** Make sure that the **Webhook URL** was **\*\*saved and the** payload **matches the following format: \*\***
 
 ```javascript
 {
@@ -54,7 +54,7 @@ MxToolbox supports global Internet operations by providing free, fast and accura
 
 Finished! Your MXToolBox alerts will now create alerts in iLert.
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in iLert be resolved automatically?**
 

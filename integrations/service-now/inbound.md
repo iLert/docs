@@ -8,9 +8,9 @@ description: >-
 
 [ServiceNow](http://www.servicenow.com) is a platform-as-a-service (PaaS) provider of enterprise Service Management (SM) software.
 
-## In iLert <a href="in-ilert" id="in-ilert"></a>
+## In iLert <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a ServiceNow alert source <a href="create-alert-source" id="create-alert-source"></a>
+### Create a ServiceNow alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "ServiceNow" as the **Integration Type** and click on **Save**.
@@ -21,11 +21,11 @@ description: >-
 
 ![](../../.gitbook/assets/Screenshot\_09\_02\_21\_\_07\_52.png)
 
-## In ServiceNow <a href="in-servicenow" id="in-servicenow"></a>
+## In ServiceNow <a href="#in-servicenow" id="in-servicenow"></a>
 
-### Create business rule <a href="create-business-rule" id="create-business-rule"></a>
+### Create business rule <a href="#create-business-rule" id="create-business-rule"></a>
 
-1. Go to ServiceNow, search for **Incidents**, **\*\*then open the header menu and choose **Configure -> Business Rules\*\*
+1. Go to ServiceNow, search for **Incidents**, **\*\*then open the header menu and choose** Configure -> Business Rules\*\*
 
 ![](../../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_40.png)
 
@@ -76,7 +76,7 @@ description: >-
 
 ![](../../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_46.png)
 
-## ServiceNow Incident Lifecycle <a href="lifecycle" id="lifecycle"></a>
+## ServiceNow Incident Lifecycle <a href="#lifecycle" id="lifecycle"></a>
 
 | When I create an ServiceNow ticket with status... | ...then an iLert Alert...                                             |
 | ------------------------------------------------- | --------------------------------------------------------------------- |
@@ -148,7 +148,7 @@ When providing a comment to the alert in iLert while resolving it, iLert will ma
 
 &#x20;
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in iLert be resolved automatically?**
 

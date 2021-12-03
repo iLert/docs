@@ -32,13 +32,13 @@ This integration uses IXON's [Cloud Notify](https://support.ixon.cloud/hc/en-us/
 
 #### Create iLert webhook
 
-1\. Navigate and login to Ixon Cloud Portal at [https://portal.ixon.cloud/](https://portal.ixon.cloud) 
+1\. Navigate and login to Ixon Cloud Portal at [https://portal.ixon.cloud/](https://portal.ixon.cloud)&#x20;
 
-2\. Click on the ![](https://cdn.ixon.cloud/support/website/images/gui-icons/mail_outline.svg) icon on the top right of the dashboard to navigate to **Messages**
+2\. Click on the ![](https://cdn.ixon.cloud/support/website/images/gui-icons/mail\_outline.svg) icon on the top right of the dashboard to navigate to **Messages**
 
 ![](../.gitbook/assets/ixon-message.png)
 
-3\. Click on the ![](https://cdn.ixon.cloud/support/website/images/gui-icons/settings_outline.svg) icon on the top right of the dashboard and select **Configure webhooks**
+3\. Click on the ![](https://cdn.ixon.cloud/support/website/images/gui-icons/settings\_outline.svg) icon on the top right of the dashboard and select **Configure webhooks**
 
 ![](../.gitbook/assets/ixon-webhook.png)
 
@@ -50,15 +50,15 @@ This integration uses IXON's [Cloud Notify](https://support.ixon.cloud/hc/en-us/
 
 Now that the iLert webhook is configured, we're going to setup an alarm and alarm trigger to test the integration. Refer to this [support article](https://support.ixon.cloud/hc/en-us/articles/360016805380) from the IXON documentation for information on how to setup alarms.
 
-1\. Navigate to [**Fleet Manager**](https://portal.ixon.cloud/fleet-manager)** **by clicking on the ![](https://cdn.ixon.cloud/support/website/images/gui-icons/apps_rounded.svg)  icon on the top right  and selecting ![](https://cdn.ixon.cloud/support/website/images/gui-icons/gear_outline.svg) **Fleet Manager**
+1\. Navigate to [**Fleet Manager**](https://portal.ixon.cloud/fleet-manager) **** by clicking on the ![](https://cdn.ixon.cloud/support/website/images/gui-icons/apps\_rounded.svg)  icon on the top right  and selecting ![](https://cdn.ixon.cloud/support/website/images/gui-icons/gear\_outline.svg) **Fleet Manager**
 
 ![](../.gitbook/assets/ixon-tofleet.png)
 
-2\. Go to  **Devices **![](https://cdn.ixon.cloud/support/website/images/gui-icons/cloud_connectors_outline.svg) and select the device that you need create an iLert alarm trigger for
+2\. Go to  **Devices** ![](https://cdn.ixon.cloud/support/website/images/gui-icons/cloud\_connectors\_outline.svg) and select the device that you need create an iLert alarm trigger for
 
 ![](../.gitbook/assets/ixon-device.png)
 
-3\. If you haven't added any Data Source, add a **Data Source. **In the screenshot below,  we chose **Modbus**
+3\. If you haven't added any Data Source, add a **Data Source.** In the screenshot below,  we chose **Modbus**
 
 ![](../.gitbook/assets/ixon-datasource.png)
 

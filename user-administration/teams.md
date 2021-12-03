@@ -12,9 +12,9 @@ iLerts flexible teams feature allows you to easily manage complex permission sce
 
 The team filter lets you switch between different team contexs. It gives you the following options depending on the corresponding teams existing in your account.
 
-* **All teams **essentially removes any filter and shows you all objects that you have permission to view, including those that are not associated with any teams
-* **My teams **shows you all objects of the teams that you are a member of
-* **A specific team: **selecting a specific team will show you all objects that are associated with the selected team
+* **All teams** essentially removes any filter and shows you all objects that you have permission to view, including those that are not associated with any teams
+* **My teams** shows you all objects of the teams that you are a member of
+* **A specific team:** selecting a specific team will show you all objects that are associated with the selected team
 
 The team filter is located at the top right in the navigation bar:
 
@@ -77,7 +77,7 @@ Such objects will be marked with the icognito icon in the list views.
 ## Team Roles
 
 {% hint style="success" %}
-When working with teams, we recommend to keep all global users that do not require elevated permissions on the **Responder **role and use team roles instead. For example, instead of assigning a user the **User** role as their base role, use the **Responder **role as their base and assign the user the team role **User.**
+When working with teams, we recommend to keep all global users that do not require elevated permissions on the **Responder** role and use team roles instead. For example, instead of assigning a user the **User** role as their base role, use the **Responder** role as their base and assign the user the team role **User.**
 {% endhint %}
 
 Team roles extend the permissions of base roles within the context of a team. For example if you have been assigned the **Responder** role as your base role, and have been assigned the **Team User** role within a team, you will be granted the permissions of the User role within that team.&#x20;

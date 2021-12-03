@@ -40,7 +40,7 @@ iLert offers two types of schedules - **recurring and static schedules**, which 
 {% hint style="info" %}
 **Responder role permissions required**
 
-Overrides can be added by users with **Responder** role privileges. A responder can only add herself as an override. Users with **User **privileges can add any user as an override.
+Overrides can be added by users with **Responder** role privileges. A responder can only add herself as an override. Users with **User** privileges can add any user as an override.
 {% endhint %}
 
 Overrides are one-time changes to a schedule. Example uses of overrides include
@@ -62,7 +62,7 @@ Overrides can be deleted and overriden by another override. To delete an overrid
 
 ![](<../../.gitbook/assets/image (31).png>)
 
-To add an override in the mobile app, open the **Who is on-call?** screen and tap on **Override shift **on the shift you want to override.&#x20;
+To add an override in the mobile app, open the **Who is on-call?** screen and tap on **Override shift** on the shift you want to override.&#x20;
 
 | <p></p><p><img src="../../.gitbook/assets/image (32).png" alt=""></p> | <p></p><p><img src="../../.gitbook/assets/image (33).png" alt=""></p> |
 | :-------------------------------------------------------------------: | :-------------------------------------------------------------------: |

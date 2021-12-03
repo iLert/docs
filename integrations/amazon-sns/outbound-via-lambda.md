@@ -8,9 +8,9 @@ description: Create notifications in Amazon SNS  from iLert alerts.
 
 The A2A pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications. Using Amazon SNS topics, your publisher systems can fanout messages to a large number of subscriber systems including Amazon SQS queues, AWS Lambda functions and HTTPS endpoints, for parallel processing, and Amazon Kinesis Data Firehose. The A2P functionality enables you to send messages to users at scale via SMS, mobile push, and email.
 
-## In AWS Console <a href="in-aws-console" id="in-aws-console"></a>
+## In AWS Console <a href="#in-aws-console" id="in-aws-console"></a>
 
-### Create a AWS Lambda function for Amazon SNS <a href="create-sns-topic-subscription" id="create-sns-topic-subscription"></a>
+### Create a AWS Lambda function for Amazon SNS <a href="#create-sns-topic-subscription" id="create-sns-topic-subscription"></a>
 
 {% hint style="info" %}
 To set up the integration, you must have an Amazon SNS topic and the arn string for it.
@@ -90,7 +90,7 @@ exports.handler = async (event) => {
 
 ![](<../../.gitbook/assets/myIncidentHandler\_-\_Lambda (2).png>)
 
-## In iLert <a href="in-ilert" id="in-ilert"></a>
+## In iLert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create the AWS Lambda Connector and link it to the alert source
 
@@ -100,13 +100,13 @@ exports.handler = async (event) => {
 To set up the integration, you must have admin rights in iLert.
 {% endhint %}
 
-1. **\*\*Click the gear icon and then click on the **Connectors\*\* link
+1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
 
-![](../../.gitbook/assets/Screenshot\_16\_03\_21\__15\_46.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_46.png)
 
 1. Click the **Add Connector** button
 
-![](../../.gitbook/assets/Screenshot\_16\_03\_21\__15\_48.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_48.png)
 
 1. On the next page, choose **AWS Lambda** as type, name the connector, paste the **API key** that you generated in AWS Lambda and click on the **Save** button
 

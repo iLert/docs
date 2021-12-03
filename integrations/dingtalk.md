@@ -6,7 +6,7 @@ description: Receive and respond to iLert alerts in DingTalk.
 
 [DingTalk](https://www.dingtalk.com) is an intelligent working platform created by Alibaba Group to support tens of millions of enterprises to achieve higher working efficiency with the new digitalized working method.
 
-## In DingTalk <a href="in-dingtalk" id="in-dingtalk"></a>
+## In DingTalk <a href="#in-dingtalk" id="in-dingtalk"></a>
 
 ### Add an iLert Robot to a group
 
@@ -26,39 +26,39 @@ To set up the integration, you must have admin rights in iLert.
 
 1. On the modal window click on the **Custom** tile
 
-![](../.gitbook/assets/Screenshot\_27\_05\_21\__14\_49.png)
+![](../.gitbook/assets/Screenshot\_27\_05\_21\_\_14\_49.png)
 
 1. On the next modal window click on the **Add** button
 
-![](../.gitbook/assets/Screenshot\_27\_05\_21\__14\_52.png)
+![](../.gitbook/assets/Screenshot\_27\_05\_21\_\_14\_52.png)
 
 1. On the next modal window, name the robot e.g. iLert, in the **Security Settings** section enable the **Additional Signature** option, check the **Terms of Service** and click on the **Finished** button
 
-![](../.gitbook/assets/Screenshot\_27\_05\_21\__14\_58.png)
+![](../.gitbook/assets/Screenshot\_27\_05\_21\_\_14\_58.png)
 
 1. On the next modal window click on the **Finished** button
 
-![](<../.gitbook/assets/Screenshot\_27\_05\_21\__15\_03 (1).png>)
+![](<../.gitbook/assets/Screenshot\_27\_05\_21\_\_15\_03 (1).png>)
 
-1. On the next modal window click on context menu **"..."** button next to the iLert robot 
+1. On the next modal window click on context menu **"..."** button next to the iLert robot&#x20;
 
-![](../.gitbook/assets/Screenshot\_27\_05\_21\__15\_24.png)
+![](../.gitbook/assets/Screenshot\_27\_05\_21\_\_15\_24.png)
 
 1. On the next modal window copy the **webhook URL** and the **Additional Signature**, you will need it from step 3 in iLert.
 
-![](../.gitbook/assets/Screenshot\_27\_05\_21\__15\_27.png)
+![](../.gitbook/assets/Screenshot\_27\_05\_21\_\_15\_27.png)
 
-## In iLert <a href="in-ilert" id="in-ilert"></a>
+## In iLert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create the DingTalk Connector and link it to the alert source
 
-1. **\*\*Click the gear icon and then click on the **Connectors\*\* link
+1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
 
-![](../.gitbook/assets/Screenshot\_16\_03\_21\__15\_46.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_46.png)
 
 1. Click the **Create Connector** button
 
-![](../.gitbook/assets/Screenshot\_16\_03\_21\__15\_48.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_48.png)
 
 1. On the next page, choose **DingTalk** as type, name the connector and click on the **Save** button.
 
@@ -66,7 +66,7 @@ To set up the integration, you must have admin rights in iLert.
 
 1. Go to **Services -> Alert sources** and open the alert source whose alerts you want to post to DingTalk. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
-![](../.gitbook/assets/Screenshot\_16\_03\_21\__16\_04.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_04.png)
 
 1. On the next page choose **DingTalk** as the type, choose the connector created in step 3, name it**,** choose **alert events** to publish and click on the **Save** button.
 
@@ -76,7 +76,7 @@ To set up the integration, you must have admin rights in iLert.
 
 ![](<../.gitbook/assets/DingTalk (2).png>)
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Can I link multiple DingTalk Accounts to an iLert account?**
 

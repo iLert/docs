@@ -11,11 +11,11 @@ When starting with Auth0 Apps things can be a bit complicated and overwhelming. 
 
 ## Creating an SAML Application
 
-1\. Login to your Auth0 Dashboard. Open the applications page and click on the **Create Application **button.
+1\. Login to your Auth0 Dashboard. Open the applications page and click on the **Create Application** button.
 
 ![](../../.gitbook/assets/Applications.png)
 
-2\. On the modal window name the app e.g. iLert, choose **Regular Web Application** tile and lick on the **Create **button
+2\. On the modal window name the app e.g. iLert, choose **Regular Web Application** tile and lick on the **Create** button
 
 ![](<../../.gitbook/assets/Applications (1).png>)
 

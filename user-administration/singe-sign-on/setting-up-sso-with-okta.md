@@ -11,11 +11,11 @@ When starting with Okta Apps things can be a bit complicated and overwhelming. I
 
 ## Creating an SAML Application
 
-Login to your Okta Dashboard. Open the applications page and click on the **Add Application **button.
+Login to your Okta Dashboard. Open the applications page and click on the **Add Application** button.
 
 ![](../../.gitbook/assets/okta1.png)
 
-On the next page click the **Create New App **button
+On the next page click the **Create New App** button
 
 ![](../../.gitbook/assets/okta2.png)
 
@@ -69,7 +69,7 @@ Save the the iLert SSO settings. SSO is now configured, however to make the logi
 
 Right now both your iLert account and your Okta App are properly configured. However you have not yet added any users to your app, which means no one is able to login currently. Lets change that.
 
-Head to your app's **Assignments** and click on the **Assign **button and than on the **Assign to People** button (or **Assign to Groups**)
+Head to your app's **Assignments** and click on the **Assign** button and than on the **Assign to People** button (or **Assign to Groups**)
 
 ![](../../.gitbook/assets/okta12.png)
 

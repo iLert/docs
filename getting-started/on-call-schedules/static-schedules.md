@@ -4,7 +4,7 @@ Static schedules work like regular calendars and do not support recurring shifts
 
 ## Create a static schedule
 
-To create a static schedule, navigate to **On-call schedules, **click on **Create new on-call schedule **and chose **Create static schedule**.
+To create a static schedule, navigate to **On-call schedules,** click on **Create new on-call schedule** and chose **Create static schedule**.
 
 ![Week view](<../../.gitbook/assets/iLert (24).png>)
 

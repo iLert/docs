@@ -4,9 +4,9 @@ description: Create alerts in iLert based on Azure Logs queries.
 
 # Azure Logs
 
-## In iLert <a href="in-ilert" id="in-ilert"></a>
+## In iLert <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a Azure Alerts alert source <a href="create-alert-source" id="create-alert-source"></a>
+### Create a Azure Alerts alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "Azure Alerts" as the **Integration Type** and click on **Save**.
@@ -17,21 +17,21 @@ description: Create alerts in iLert based on Azure Logs queries.
 
 ![](<../../.gitbook/assets/iLert (35).png>)
 
-## In Azure <a href="in-splunk" id="in-splunk"></a>
+## In Azure <a href="#in-splunk" id="in-splunk"></a>
 
-### Create a query <a href="create-action-sequences" id="create-action-sequences"></a>
+### Create a query <a href="#create-action-sequences" id="create-action-sequences"></a>
 
-1. Go to [**Azure Portal**](https://portal.azure.com) and then to **Monitor.** 
+1. Go to [**Azure Portal**](https://portal.azure.com) and then to **Monitor.**&#x20;
 
-![](<../../.gitbook/assets/Home\_-\_Microsoft_Azure (6).png>)
+![](<../../.gitbook/assets/Home\_-\_Microsoft\_Azure (6).png>)
 
 1. Then go to **Logs** and create a query for which you’d like to create an alert.
 
-![](../../.gitbook/assets/Monitor\_-\_Microsoft_Azure.png)
+![](../../.gitbook/assets/Monitor\_-\_Microsoft\_Azure.png)
 
 1. Then click on the **New alert rule** button**.**
 
-![](../../.gitbook/assets/Logs\_-\_Microsoft_Azure.png)
+![](../../.gitbook/assets/Logs\_-\_Microsoft\_Azure.png)
 
 1. On the next page change the **Condition** for the alerts and click on the **Add action groups.**
 
@@ -45,11 +45,11 @@ description: Create alerts in iLert based on Azure Logs queries.
 
 ![](../../.gitbook/assets/3.png)
 
-1. **\*\*On the **Actions** tab**,** click on the **Action type** and choose **Webhook.\*\*
+1. **\*\*On the** Actions **tab**, **click on the** Action type **and choose** Webhook.\*\*
 
 ![](../../.gitbook/assets/4.png)
 
-1. **On the modal window **in the **URI** section and **\*\*paste the **Webhook URL** that you generated in iLert and click on **OK**. Name the action e.g. **ilert** and click on the **Review + create\*\* button.
+1. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in iLert and click on** OK**. Name the action e.g.** ilert **and click on the** Review + create\*\* button.
 
 ![](../../.gitbook/assets/5.png)
 
@@ -63,7 +63,7 @@ description: Create alerts in iLert based on Azure Logs queries.
 
 Finished! Your Azure Logs alerts will now create alerts in iLert.
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in iLert be resolved automatically?**
 

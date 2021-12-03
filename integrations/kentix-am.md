@@ -25,7 +25,7 @@ Copy the provided url by the freshly created AlarmManager alert source, as we wi
 
 ![](<../.gitbook/assets/Screenshot 2020-07-31 at 19.15.10.png>)
 
-Login to your AlarmManager (_default: _[http://192.168.100.222](http://192.168.100.222)_ admin:password_)
+Login to your AlarmManager (_default:_ [http://192.168.100.222](http://192.168.100.222) _admin:password_)
 
 ### Creating a Webhook
 

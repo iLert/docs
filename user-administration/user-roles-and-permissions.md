@@ -35,15 +35,15 @@ Users can create or modify entities like alert sources or on-call schedules, how
 
 ### Team Admin
 
-**Users** may not create or modify teams. But an **Admin** may grant a User, as member of a team, the right to modify certain team. A Team Admin is therefore actually not a role in itself, it is an additional permission that may be granted to a **User **on a team basis**.**
+**Users** may not create or modify teams. But an **Admin** may grant a User, as member of a team, the right to modify certain team. A Team Admin is therefore actually not a role in itself, it is an additional permission that may be granted to a **User** on a team basis**.**
 
 ### Admin
 
-An Admin is a **User** with elevated priviliges. He may not access or modify the account settings. However he can create and modify **Users** as well as **Teams**, he may also change the role of **Users **and can create and edit connectors**. **An **Admin** has the right to add and remove team ownerships to/from resources.
+An Admin is a **User** with elevated priviliges. He may not access or modify the account settings. However he can create and modify **Users** as well as **Teams**, he may also change the role of **Users** and can create and edit connectors**.** An **Admin** has the right to add and remove team ownerships to/from resources.
 
 ### Account Owner
 
-An account owner has the same privileges as an **Admin**, with the addition of being able to access and modify the account settings as well as subscription and billing settings. Only the account owner himself is able to transfer the Account Owner role to another **User**. There can only be a single account owner per account. 
+An account owner has the same privileges as an **Admin**, with the addition of being able to access and modify the account settings as well as subscription and billing settings. Only the account owner himself is able to transfer the Account Owner role to another **User**. There can only be a single account owner per account.&#x20;
 
 ## Role permissions
 
@@ -78,7 +78,7 @@ This requires admin or account owner privileges
 To change a user's role
 
 1. Click on the cog-icon in the navigation bar and select **Users & teams**
-2. Click the **Edit **link for the user you would like to change.
-3. In the **Basic information **section, select the user's role from the dropdown menu:
+2. Click the **Edit** link for the user you would like to change.
+3. In the **Basic information** section, select the user's role from the dropdown menu:
 
 ![](<../.gitbook/assets/Screenshot 2020-10-21 at 18.12.57.png>)
