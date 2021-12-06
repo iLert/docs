@@ -73,3 +73,7 @@ Now that the iLert webhook is configured, we're going to setup an alarm and alar
 6\. Click **\[Push config to device]** in the top right corner for your changes to take effect.
 
 For more information on IXON Cloud, please refer to [https://support.ixon.cloud/hc/en-us](https://support.ixon.cloud/hc/en-us).
+
+### References
+
+* [IXON support article: Expand on notifications: call, sms and more, using webhooks](https://support.ixon.cloud/hc/en-us/articles/360018158379-Expand-on-notifications-call-sms-and-more-using-webhooks)&#x20;
