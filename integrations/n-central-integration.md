@@ -11,7 +11,7 @@ description: >-
 Login to your iLert account and navigate to the alert sources list.\
 Click on the **Create a new alert source** button
 
-![](<../.gitbook/assets/image (40).png>)
+![](<../.gitbook/assets/image (43).png>)
 
 Enter a name for your new alert source and choose an escalation policy.\
 In the dropdown for integration type tool search for N-central and select it.
@@ -22,7 +22,7 @@ Click on **Save** to create your alert source.
 
 Your newly created N-central alert source will be opened, **copy** the N-central HTTP notification **URL** or click on the small copy icon right next to it.
 
-![](<../.gitbook/assets/image (42).png>)
+![](<../.gitbook/assets/image (46).png>)
 
 We will need this URL to setup our N-central notification in the steps below.
 
@@ -30,21 +30,21 @@ We will need this URL to setup our N-central notification in the steps below.
 
 Login to N-ABLE N-central and navigate to the users menu.
 
-![](<../.gitbook/assets/image (43).png>)
+![](<../.gitbook/assets/image (44).png>)
 
 Go ahead and click on the **email address** of the user for whose notifications you want to create alerts in iLert for. (We recommend creating a user just for this purpose, however that is not necessary).
 
 In the user's edit view, click on the _**User Details**_ tab and then on the **Notification Method** sub-tab.
 
-![](<../.gitbook/assets/image (44).png>)
+![](<../.gitbook/assets/image (47).png>)
 
 Choose **Add** and create a new Third Party I**ntegration - HTTP** notification method.
 
-![](<../.gitbook/assets/image (45).png>)
+![](<../.gitbook/assets/image (42).png>)
 
 Give it a proper name and paste the URL that you have copied _**from the new alert source**_ that you have created in iLert from the steps above as **Target URL**.
 
-![](<../.gitbook/assets/image (46).png>)
+![](<../.gitbook/assets/image (45).png>)
 
 Click on **Save** to create the new notification method.
 
@@ -61,11 +61,11 @@ To make sure that N-central events will reach your iLert alert sources it is imp
 
 ### I am having issues creating an N-central user
 
-You can find the official documentation [here](https://documentation.n-able.com/N-central/userguide/Content/User_Management/Role%20Based%20Permissions/role_based_permissions_create_user.htm)
+You can find the official documentation [here](https://documentation.n-able.com/N-central/userguide/Content/User\_Management/Role%20Based%20Permissions/role\_based\_permissions\_create\_user.htm)
 
 ### I am having issues creating an HTTP notification method for an N-central user
 
-You can find the official documentation [here](https://documentation.n-able.com/N-central/userguide/Content/Further_Reading/API_Level_Integration/API_Integration_NotifReg.html)
+You can find the official documentation [here](https://documentation.n-able.com/N-central/userguide/Content/Further\_Reading/API\_Level\_Integration/API\_Integration\_NotifReg.html)
 
 ### How can I test alerts?
 

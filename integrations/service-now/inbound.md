@@ -15,11 +15,11 @@ description: >-
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "ServiceNow" as the **Integration Type** and click on **Save**.
 
-![](../../.gitbook/assets/Screenshot\_09\_02\_21\_\_07\_51.png)
+![](../../.gitbook/assets/screenshot\_09\_02\_21\_\_07\_51.png)
 
 1. On the next page, a **ServiceNow URL** is generated. You will need this URL below when setting up the hook in ServiceNow.
 
-![](../../.gitbook/assets/Screenshot\_09\_02\_21\_\_07\_52.png)
+![](../../.gitbook/assets/screenshot\_09\_02\_21\_\_07\_52.png)
 
 ## In ServiceNow <a href="#in-servicenow" id="in-servicenow"></a>
 
@@ -27,15 +27,15 @@ description: >-
 
 1. Go to ServiceNow, search for **Incidents**, **\*\*then open the header menu and choose** Configure -> Business Rules\*\*
 
-![](../../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_40.png)
+![](../../.gitbook/assets/screenshot\_08\_02\_21\_\_22\_40.png)
 
 1. In the **Business Rules** view click on **New** to create a new business rule
 
-![](../../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_42.png)
+![](../../.gitbook/assets/screenshot\_08\_02\_21\_\_22\_42.png)
 
 1. Name the business rule e.g. **iLert Alerts**, choose **Advanced** option, in the **When to run** section choose **async** then choose **Insert** and **Update** options
 
-![](../../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_43.png)
+![](../../.gitbook/assets/screenshot\_08\_02\_21\_\_22\_43.png)
 
 1. Go to Advanced tab and paste the following code into the script section:
 
@@ -74,7 +74,7 @@ description: >-
 
 1. Click on **Submit** or **Update** to save the business rule
 
-![](../../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_46.png)
+![](../../.gitbook/assets/screenshot\_08\_02\_21\_\_22\_46.png)
 
 ## ServiceNow Incident Lifecycle <a href="#lifecycle" id="lifecycle"></a>
 

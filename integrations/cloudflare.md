@@ -10,7 +10,7 @@ Cloudflare allows you to set alert notifications to track DDoS attacks, billing 
 
 With iLert Cloudflare Integration, you can receive Cloudflare alert through iLert and easily extend Cloudflare functionality with SMS, push, voice, and iLert on-call schedules.
 
-## In iLert <a href="create-alarm-source" id="create-alarm-source"></a>
+## In iLert <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 ### Create an email alert source
 
@@ -20,7 +20,7 @@ With iLert Cloudflare Integration, you can receive Cloudflare alert through iLer
 4. Enter an email address for the alert source, you will need this email below when setting up the notification in Cloudflare
 5. Save the email alert source
 
-![](<../.gitbook/assets/Screenshot 2020-06-18 at 16.21.49.png>)
+![](../.gitbook/assets/screenshot-2020-06-18-at-16.21.49.png)
 
 ## In Cloudflare
 
@@ -28,23 +28,23 @@ With iLert Cloudflare Integration, you can receive Cloudflare alert through iLer
 
 1. Go to Cloudflare and then to **Account Home**
 
-![](../.gitbook/assets/Account\_\__Cloudflare\_-\_Web_Performance\_\__Security.png)
+![](<../.gitbook/assets/account\_\_\_cloudflare\_-\_web\_performance\_\_\_security (1).png>)
 
 1. On the next page,  click on the **Notifications** tab and then on the **Create** button
 
-![](../.gitbook/assets/Account\_\__Cloudflare\_-\_Web_Performance\_\__Security_and_Slack\_\__Chris\_\__iLert.png)
+![](../.gitbook/assets/account\_\_\_cloudflare\_-\_web\_performance\_\_\_security\_and\_slack\_\_\_chris\_\_\_ilert.png)
 
 1. On the next page,  choose an **Event Type** and then on the **Next** button
 
-![](<../.gitbook/assets/Account\_\__Cloudflare\_-\_Web_Performance\_\__Security (1).png>)
+![](../.gitbook/assets/account\_\_\_cloudflare\_-\_web\_performance\_\_\_security.png)
 
 1. On the next page,  name the notification e.g. iLert, paste the **email** paste that you created in iLert and click on the **Create** button
 
-![](<../.gitbook/assets/Account\_\__Cloudflare\_-\_Web_Performance\_\__Security (2).png>)
+![](<../.gitbook/assets/account\_\_\_cloudflare\_-\_web\_performance\_\_\_security (2).png>)
 
 Finished! Your Cloudflare notifications will now create alerts in iLert.
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in iLert be resolved automatically?**
 

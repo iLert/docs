@@ -6,30 +6,30 @@ description: Create alerts in iLert from tickets in Zendesk.
 
 [Zendesk](https://www.zendesk.com) is a cloud-based help desk management solution offering customizable tools to build customer service portal, knowledge base and online communities.
 
-## In iLert <a href="create-alert-source" id="create-alert-source"></a>
+## In iLert <a href="#create-alert-source" id="create-alert-source"></a>
 
 ### Create a Zendesk alert source
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "Zendesk" as the **Integration Type** and click on **Save**.
 
-![](<../../.gitbook/assets/iLert (85).png>)
+![](<../../.gitbook/assets/ilert (86).png>)
 
 1. On the next page, a **Webhook URL** is generated. You will need this URL below when setting up the Webhook in Zendesk.
 
-![](<../../.gitbook/assets/iLert (86).png>)
+![](<../../.gitbook/assets/ilert (85).png>)
 
-## In Zendesk <a href="in-topdesk" id="in-topdesk"></a>
+## In Zendesk <a href="#in-topdesk" id="in-topdesk"></a>
 
 ### Create a Target
 
 1. Go to Zendesk and then to **Settings -> Extensions** and click on the **Add target** button
 
-![](../../.gitbook/assets/a\_-\_Agent.png)
+![](../../.gitbook/assets/a\_-\_agent.png)
 
 1. On the next page click the **HTTP target** link
 
-![](<../../.gitbook/assets/a\_-\_Agent (1).png>)
+![](<../../.gitbook/assets/a\_-\_agent (3).png>)
 
 1. On the next page:
 2. In the **Title** section, enter a name eg. iLert
@@ -39,20 +39,20 @@ description: Create alerts in iLert from tickets in Zendesk.
 6. In the bottom section choose **Create target**
 7. Click the **Submit** button
 
-![](<../../.gitbook/assets/a\_-\_Agent (2).png>)
+![](<../../.gitbook/assets/a\_-\_agent (2).png>)
 
 ### Create a Trigger
 
 1. Go to Zendesk and then to **Business Rules -> Triggers** and click on the **Add trigger** button
 
-![](<../../.gitbook/assets/a\_-\_Agent (3).png>)
+![](<../../.gitbook/assets/a\_-\_agent (1).png>)
 
 1. On the next page:
 2. In the **Trigger name** section, enter a name eg. iLert
 3. In the **Category** section, choose a category, e.g. Notifications
 4. In the **Meet ANY of following conditions** section, add **Ticket is created** and **Ticket is updated** rules
 
-![](<../../.gitbook/assets/a\_-\_Agent (4).png>)
+![](<../../.gitbook/assets/a\_-\_agent (4).png>)
 
 * Scroll down to the **Actions** panel and choose the **iLert Notify target** that you created above
 * In the **JSON body** sections, paste the following  object:
@@ -77,7 +77,7 @@ description: Create alerts in iLert from tickets in Zendesk.
 
 * Click on the **Create** button
 
-![](<../../.gitbook/assets/Notification_Center (1).png>)
+![](<../../.gitbook/assets/notification\_center (1).png>)
 
 ## Zendesk Incident Lifecycle
 
@@ -96,7 +96,7 @@ description: Create alerts in iLert from tickets in Zendesk.
 | **Solved** or **Closed**                       | exists                    | change status to **Resolved** if not already resolved                 |
 | **Pending**                                    | exists                    | change status to **Accepted** if not already accepted                 |
 
-## Additional Custom Ticket Details <a href="faq" id="faq"></a>
+## Additional Custom Ticket Details <a href="#faq" id="faq"></a>
 
 You may provide an additional field for the Zendesk trigger template to render additional information into iLert alert details.
 
@@ -112,7 +112,7 @@ You may provide an additional field for the Zendesk trigger template to render a
 
 The `additional_ticket_details` map's values will be displayed in a human readable format in the alert's detail section.
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 ### **Will alerts in iLert be resolved automatically?**
 

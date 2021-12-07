@@ -11,11 +11,11 @@ description: Create alerts in iLert based on Azure Service Health alerts.
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "Azure Alerts" as the **Integration Type** and click on **Save**.
 
-![](<../../.gitbook/assets/iLert (34).png>)
+![](<../../.gitbook/assets/ilert (35).png>)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the alert action in Azure Alerts.
 
-![](<../../.gitbook/assets/iLert (35).png>)
+![](<../../.gitbook/assets/ilert (34).png>)
 
 ## In Azure <a href="#in-splunk" id="in-splunk"></a>
 
@@ -23,39 +23,39 @@ description: Create alerts in iLert based on Azure Service Health alerts.
 
 1. Go to [**Azure Portal**](https://portal.azure.com) and then to **Service Health.**&#x20;
 
-![](<../../.gitbook/assets/Home\_-\_Microsoft\_Azure (5).png>)
+![](<../../.gitbook/assets/home\_-\_microsoft\_azure (3).png>)
 
 1. On the next page click on **Add service health alert** button**.**
 
-![](../../.gitbook/assets/Service\_Health\_-\_Microsoft\_Azure.png)
+![](../../.gitbook/assets/service\_health\_-\_microsoft\_azure.png)
 
 1. On the next page change the **Condition** for the alerts and click on the **Add action groups.**
 
-![](<../../.gitbook/assets/Create\_alert\_rule\_-\_Microsoft\_Azure (4).png>)
+![](<../../.gitbook/assets/create\_alert\_rule\_-\_microsoft\_azure (4).png>)
 
 1. On the modal window click on the **Create action group** button.
 
-![](<../../.gitbook/assets/Select\_an\_action\_group\_to\_attach\_to\_this\_alert\_rule\_-\_Microsoft\_Azure (1).png>)
+![](../../.gitbook/assets/select\_an\_action\_group\_to\_attach\_to\_this\_alert\_rule\_-\_microsoft\_azure.png)
 
 1. On the next page name the group e.g. **iLert** and click on the **Actions** tab.
 
-![](<../../.gitbook/assets/Create\_action\_group\_-\_Microsoft\_Azure (3).png>)
+![](<../../.gitbook/assets/create\_action\_group\_-\_microsoft\_azure (5).png>)
 
 1. **\*\*On the** Actions **tab**, **click on the** Action type **and choose** Webhook.\*\*
 
-![](<../../.gitbook/assets/Create\_action\_group\_-\_Microsoft\_Azure (4).png>)
+![](<../../.gitbook/assets/create\_action\_group\_-\_microsoft\_azure (1).png>)
 
 1. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in iLert and click on** OK**. Name the action e.g.** ilert **and click on the** Review + create\*\* button.
 
-![](<../../.gitbook/assets/Webhook\_-\_Microsoft\_Azure (1).png>)
+![](<../../.gitbook/assets/webhook\_-\_microsoft\_azure (1).png>)
 
 1. On the next page click on the **Create** button.
 
-![](<../../.gitbook/assets/Create\_action\_group\_-\_Microsoft\_Azure (5).png>)
+![](<../../.gitbook/assets/create\_action\_group\_-\_microsoft\_azure (3).png>)
 
 1. On the next page scroll down to the **Alert rule details** section, name the alert rule and click on the **Create alert rule** button.
 
-![](../../.gitbook/assets/Create\_alert\_rule\_-\_Microsoft\_Azure1.png)
+![](../../.gitbook/assets/create\_alert\_rule\_-\_microsoft\_azure1.png)
 
 Finished! Your Azure Service Health alerts will now create alerts in iLert.
 

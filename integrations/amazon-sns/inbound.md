@@ -10,22 +10,22 @@ description: >-
 
 The A2A pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications. Using Amazon SNS topics, your publisher systems can fanout messages to a large number of subscriber systems including Amazon SQS queues, AWS Lambda functions and HTTPS endpoints, for parallel processing, and Amazon Kinesis Data Firehose. The A2P functionality enables you to send messages to users at scale via SMS, mobile push, and email.
 
-## In iLert <a href="in-ilert" id="in-ilert"></a>
+## In iLert <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a Amazon SNS alert source <a href="create-alert-source" id="create-alert-source"></a>
+### Create a Amazon SNS alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "Amazon SNS" as the **Integration Type** and click on **Save**.
 
-![](<../../.gitbook/assets/iLert (45).png>)
+![](<../../.gitbook/assets/ilert (44).png>)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the SNS subscription in AWS Console.
 
-![](<../../.gitbook/assets/iLert (46).png>)
+![](<../../.gitbook/assets/ilert (49).png>)
 
-## In AWS Console <a href="in-aws-console" id="in-aws-console"></a>
+## In AWS Console <a href="#in-aws-console" id="in-aws-console"></a>
 
-### Create a SNS topic subscrition <a href="create-sns-topic-subscription" id="create-sns-topic-subscription"></a>
+### Create a SNS topic subscrition <a href="#create-sns-topic-subscription" id="create-sns-topic-subscription"></a>
 
 {% hint style="info" %}
 If you already have an Amazon SNS topic, please skip the steps 1 and 2.
@@ -33,19 +33,19 @@ If you already have an Amazon SNS topic, please skip the steps 1 and 2.
 
 1. Go to the AWS Console and then to **Amazon SNS**, then click on the **Topic** link and on the **Create topic** button**.**
 
-![](<../../.gitbook/assets/Simple_Notification_Service (4).png>)
+![](<../../.gitbook/assets/simple\_notification\_service (7).png>)
 
 1. On the next page, choose **Standard** topic, name the topic e.g. iLert and click on the **Create topic** button
 
-![](<../../.gitbook/assets/Simple_Notification_Service (5).png>)
+![](<../../.gitbook/assets/simple\_notification\_service (4).png>)
 
 1. On the topic overview page, click on the **Create subscription** button
 
-![](<../../.gitbook/assets/Simple_Notification_Service (6).png>)
+![](<../../.gitbook/assets/simple\_notification\_service (5).png>)
 
 1. On the next page, in the **Protocol** section choose **HTTPS**, on the **Endpoint** section paste the **Webhook URL** that you generated in iLert and click on the **Create subscription** button
 
-![](<../../.gitbook/assets/Simple_Notification_Service (7).png>)
+![](<../../.gitbook/assets/simple\_notification\_service (6).png>)
 
 {% hint style="warning" %}
 Do not activate the checkbox **Enable raw message delivery**. iLert won't process those messages otherwise.
@@ -137,7 +137,7 @@ func main() {
 {% endtab %}
 {% endtabs %}
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in iLert be resolved automatically?**
 

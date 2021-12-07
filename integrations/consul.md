@@ -8,20 +8,20 @@ description: >-
 
 [HashiCorp Consul](https://www.consul.io) is a service mesh solution providing a full featured control plane with service discovery, configuration, and segmentation functionality.
 
-## In iLert <a href="in-ilert" id="in-ilert"></a>
+## In iLert <a href="#in-ilert" id="in-ilert"></a>
 
-### Create an alert source <a href="create-alert-source" id="create-alert-source"></a>
+### Create an alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "API" as the **Integration Type** and click on **Save**.
 
-![](<../.gitbook/assets/iLert (28).png>)
+![](<../.gitbook/assets/ilert (28).png>)
 
 1. On the next page, an API Key is generated. You will need this API Key below when setting up the Consul-Alerts tool.
 
-![](<../.gitbook/assets/iLert (29).png>)
+![](<../.gitbook/assets/ilert (29).png>)
 
-## In Consul Server <a href="in-topdesk" id="in-topdesk"></a>
+## In Consul Server <a href="#in-topdesk" id="in-topdesk"></a>
 
 ### Configure Consul-Alerts
 
@@ -40,7 +40,7 @@ curl -X PUT -d 'true' http://localhost:8500/v1/kv/consul-alerts/config/notifiers
 
 1. (Optional) Generating a test alert by having a health check fail to confirm the integration is working.
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in iLert be resolved automatically?**
 

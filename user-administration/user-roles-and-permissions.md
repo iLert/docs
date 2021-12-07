@@ -81,4 +81,4 @@ To change a user's role
 2. Click the **Edit** link for the user you would like to change.
 3. In the **Basic information** section, select the user's role from the dropdown menu:
 
-![](<../.gitbook/assets/Screenshot 2020-10-21 at 18.12.57.png>)
+![](../.gitbook/assets/screenshot-2020-10-21-at-18.12.57.png)

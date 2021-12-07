@@ -6,22 +6,22 @@ description: >-
 
 # Kubernetes Integration
 
-## In iLert <a href="in-ilert" id="in-ilert"></a>
+## In iLert <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a Kubenetes alert source <a href="create-alert-source" id="create-alert-source"></a>
+### Create a Kubenetes alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "Kubernetes" as the **Integration Type** and click on **Save**.
 
-![](<../.gitbook/assets/iLert (32).png>)
+![](<../.gitbook/assets/ilert (33).png>)
 
 1. On the next page, a API Key is generated. You will need it below when setting up the **ilert-kube-agent** deployment.
 
-![](<../.gitbook/assets/iLert (33).png>)
+![](<../.gitbook/assets/ilert (30).png>)
 
-## In Kubernetes <a href="in-kubernetes" id="in-kubernetes"></a>
+## In Kubernetes <a href="#in-kubernetes" id="in-kubernetes"></a>
 
-### a. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with helm (recommended) <a href="deploy-a" id="deploy-a"></a>
+### a. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with helm (recommended) <a href="#deploy-a" id="deploy-a"></a>
 
 1. Add helm charts repo and update it
 
@@ -30,7 +30,7 @@ helm repo add ilert https://ilert.github.io/charts/
 helm repo update
 ```
 
-1. Deploy ilert-kube-agent with the API Key  that you generated in iLert 
+1. Deploy ilert-kube-agent with the API Key  that you generated in iLert&#x20;
 
 ```
 helm upgrade --install --namespace kube-system \
@@ -38,9 +38,9 @@ helm upgrade --install --namespace kube-system \
     --set config.settings.apiKey="<YOUR KEY HERE>"
 ```
 
-### b. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with terraform (recommended) <a href="deploy-b" id="deploy-b"></a>
+### b. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with terraform (recommended) <a href="#deploy-b" id="deploy-b"></a>
 
-1. Define module and paste the API Key that you generated in iLert 
+1. Define module and paste the API Key that you generated in iLert&#x20;
 
 ```
 module "ilert-kube-agent" {
@@ -58,7 +58,7 @@ terraform init
 terraform apply
 ```
 
-### c. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with manifest <a href="deploy-c" id="deploy-c"></a>
+### c. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with manifest <a href="#deploy-c" id="deploy-c"></a>
 
 1. Clone the ilert-kube-agent repository
 
@@ -95,7 +95,7 @@ ilert-kube-agent-64f7dfd4d-zx7fb   1/1     Running   0          37h
 
 Finished! Your Kubernetes alerts will now create alerts in iLert.
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in iLert be resolved automatically?**
 

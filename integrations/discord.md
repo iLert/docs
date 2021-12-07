@@ -15,15 +15,15 @@ description: >-
 1. Go to **Discord** and select a server
 2. Go to a **Text Channel**, then click on the **Edit Channel** button
 
-![](../.gitbook/assets/Screenshot\_2021-07-02\_at\_10\_56\_32.png)
+![](../.gitbook/assets/screenshot\_2021-07-02\_at\_10\_56\_32.png)
 
 1. On the page click on the **Integrations** menu and then on the **Create Webhook** button
 
-![](../.gitbook/assets/general\_-\_Discord.png)
+![](<../.gitbook/assets/general\_-\_discord (1).png>)
 
 1. On the next page, name the webhook, e.g. iLert, save the changes and copy the **Webhook URL**
 
-![](<../.gitbook/assets/general\_-\_Discord (1).png>)
+![](../.gitbook/assets/general\_-\_discord.png)
 
 ## In iLert <a href="#in-ilert" id="in-ilert"></a>
 
@@ -39,21 +39,21 @@ description: >-
 
 1. Select **Discord** as **type** and fill in all fields. Enter a name and paste the Webhook URL of your Discord server that you have created in the previous step.
 
-![](<../.gitbook/assets/iLert (87).png>)
+![](<../.gitbook/assets/ilert (88).png>)
 
 1. Go to the alert sources tab and open the alert source whose alerts you want to publish in Discord. Click on **Alert actions** and then on **Create alert action**.
 
-![](<../.gitbook/assets/new\_incident\_action (12) (9).png>)
+![](<../.gitbook/assets/new\_incident\_action (12).png>)
 
 1. Select **Discord** as the **type**, **\*\*select the connector created in step 3 and click on** Save\*\* button.
 
-![](<../.gitbook/assets/iLert (88).png>)
+![](<../.gitbook/assets/ilert (87).png>)
 
 1.  Finished! You can now test the connection by clicking on the button **Test this connection**. &#x20;
 
     A test ticket will be created in Discord.
 
-![](<../.gitbook/assets/iLert (89).png>)
+![](<../.gitbook/assets/ilert (89).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

@@ -8,57 +8,57 @@ Amazon CloudWatch is a monitoring service for AWS cloud resources and applicatio
 
 With iLert's CloudWatch integration, you can automatically create alerts in iLert from CloudWatch alarms. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When CloudWatch creates an alarm, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
 
-## In iLert: Create CloudWatch alert source <a href="create-alert-source" id="create-alert-source"></a>
+## In iLert: Create CloudWatch alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1. Switch to the tab "alert sources" and click on the button "Create new alert source"
 2. Assign name and select escalation chain
 3. Select and save "Amazon CloudWatch" in the Integration Type field.
 
-![](<../.gitbook/assets/cw1 (1) (1).png>)
+![](<../.gitbook/assets/cw1 (1).png>)
 
-1. The URL shown on the next page is the HTTP endpoint for the SNS topic in Amazon and will be needed in later steps.  
+1. The URL shown on the next page is the HTTP endpoint for the SNS topic in Amazon and will be needed in later steps. &#x20;
 
 ![](../.gitbook/assets/cw2.png)
 
-## In AWS SNS: create topic <a href="create-topic" id="create-topic"></a>
+## In AWS SNS: create topic <a href="#create-topic" id="create-topic"></a>
 
 > If you have already created an SNS topic for your CloudWatch alarms that you want to reuse, you can proceed to step 3.
 
-1. In the SNS Dashboard click on "Create topic"  
+1. In the SNS Dashboard click on "Create topic" &#x20;
 
 ![](../.gitbook/assets/cw3.png)
 
-1. Name the topic and click on "Create topic".  
+1. Name the topic and click on "Create topic". &#x20;
 
 ![](../.gitbook/assets/cw4.png)
 
-1. Click on "Create subscription" on the Topic Detail page  
+1. Click on "Create subscription" on the Topic Detail page &#x20;
 
 ![](../.gitbook/assets/cw5.png)
 
-1. Select "HTTPS" as the protocol and transfer the URL from the above-created alert source to iLert at Endpoint and click on "Create subscription".  
+1. Select "HTTPS" as the protocol and transfer the URL from the above-created alert source to iLert at Endpoint and click on "Create subscription". &#x20;
 
 ![](../.gitbook/assets/cw6.png)
 
-1. The subscription is automatically confirmed by iLert when it is created. After updating the overview, the status "PendingConfirmation" should disappear and the ID should be displayed.  
+1. The subscription is automatically confirmed by iLert when it is created. After updating the overview, the status "PendingConfirmation" should disappear and the ID should be displayed. &#x20;
 
 ![](../.gitbook/assets/cw7.png)
 
-## In AWS CloudWatch: Create alarm and link to topic <a href="create-alarm" id="create-alarm"></a>
+## In AWS CloudWatch: Create alarm and link to topic <a href="#create-alarm" id="create-alarm"></a>
 
 You can now link any CloudWatch alarm to the topic you have created. The following section describes how to create an alarm and make the link.
 
-1. In CloudWatch, on the Alarms tab, click Create Alarm and select a metric  
+1. In CloudWatch, on the Alarms tab, click Create Alarm and select a metric &#x20;
 
 ![](../.gitbook/assets/cw8.png)
 
-1. Click on "+ Notification" to add two "Notification Actions": one for the states ALARM and OK. In the "Send notification to:" box, select the topic created above.    
+1. Click on "+ Notification" to add two "Notification Actions": one for the states ALARM and OK. In the "Send notification to:" box, select the topic created above.   &#x20;
 
 ![](../.gitbook/assets/cw9.png)
 
 ![](../.gitbook/assets/cw10.png)
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in iLert be resolved automatically?**
 

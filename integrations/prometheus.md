@@ -8,23 +8,23 @@ description: Create alerts in iLert from Prometheus Alertmanager alerts
 
 With iLert's Prometheus integration, you can automatically create alerts in iLert using the Prometheus' Alertmanager. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When the Alertmanager triggers an alert, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
 
-## System Requirements <a href="requirements" id="requirements"></a>
+## System Requirements <a href="#requirements" id="requirements"></a>
 
 * [Prometheus Alert Manager v0.6.0 / 2017-04-25](https://github.com/prometheus/alertmanager/releases/tag/v0.6.0) or higher. If you are using an older version of the Alertmanager, please contact the iLert support at [support@ilert.com](mailto:support@ilert.com).
 
-## In iLert: Create Prometheus alert source <a href="create-alarm-source" id="create-alarm-source"></a>
+## In iLert: Create Prometheus alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Go to **Services** --> **Alert sources** and click on **Create new alert source**
 2. Give it a name and chose an escalation policy
 3. Select Prometheus as the **Integration type**
 
-![](<../.gitbook/assets/Screenshot 2021-04-26 at 13.04.18.png>)
+![](../.gitbook/assets/screenshot-2021-04-26-at-13.04.18.png)
 
 1. A webhook URL will be generated on the next page. You will need this URL later in Prometheus.
 
-![](<../.gitbook/assets/Screenshot 2021-04-26 at 13.05.18.png>)
+![](../.gitbook/assets/screenshot-2021-04-26-at-13.05.18.png)
 
-## In Prometheus Alertmanager: add webhook receiver <a href="add-webhook" id="add-webhook"></a>
+## In Prometheus Alertmanager: add webhook receiver <a href="#add-webhook" id="add-webhook"></a>
 
 1. Add a [Webhook configuration](https://prometheus.io/docs/alerting/configuration/#webhook\_config) from the alert manager in the configuration file. Use the URL generated in iLert as the Webhook URL:
 
@@ -67,7 +67,7 @@ In your Prometheus **alert rule** yml add a label called `ilert_routingkey` and 
 
 When iLert receives Prometheus alert events it will look for the first alert with the specific label and decide upon the routing. If the label is not present the escalation policy that is assigned to the alert source is used instead.
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 ****
 

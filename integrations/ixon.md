@@ -16,7 +16,7 @@ This integration uses IXON's [Cloud Notify](https://support.ixon.cloud/hc/en-us/
 
 1\. Go to the **Alert sources** tab and click on **Create new alert source**
 
-![](<../.gitbook/assets/ilert-create-alert (2).png>)
+![](<../.gitbook/assets/ilert-create-alert (5).png>)
 
 2\. Enter a name and select your desired escalation policy. Select **IXON Cloud** as the **Integration type** and click **Save**.
 

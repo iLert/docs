@@ -8,33 +8,33 @@ description: >-
 
 [ServiceNow](http://www.servicenow.com) is a platform-as-a-service (PaaS) provider of enterprise Service Management (SM) software.
 
-## In iLert: Create ServiceNow Connector and link to alert source <a href="alarm-sources" id="alarm-sources"></a>
+## In iLert: Create ServiceNow Connector and link to alert source <a href="#alarm-sources" id="alarm-sources"></a>
 
 1. Click the gear icon → **Connectors**
 
-![](<../../.gitbook/assets/go_to_connectors (1) (1).png>)
+![](<../../.gitbook/assets/go\_to\_connectors (1).png>)
 
 1. Click **Create Connector**
 
-![](<../../.gitbook/assets/create_connector_button (6).png>)
+![](<../../.gitbook/assets/create\_connector\_button (6).png>)
 
 1. Select **ServiceNow** as **type** and fill out all fields.
 
-![](<../../.gitbook/assets/iLert (64).png>)
+![](<../../.gitbook/assets/ilert (70).png>)
 
 1. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish in ServiceNow. Click on **Alert actions → Create alert action**
 
-![](<../../.gitbook/assets/new_incident_action (10).png>)
+![](<../../.gitbook/assets/new\_incident\_action (10).png>)
 
 1. Select **ServiceNow** as the **type**, select the connector created in step 3, fill in all fields.
 
-![](<../../.gitbook/assets/iLert (65).png>)
+![](<../../.gitbook/assets/ilert (81).png>)
 
 1. Finished! You can now test the connection by clicking the **Test this connection** button. A test issue is then published in ServiceNow.
 
-![](<../../.gitbook/assets/iLert (66).png>)
+![](<../../.gitbook/assets/ilert (67).png>)
 
-## In ServiceNow: Create iLert user <a href="create-user" id="create-user"></a>
+## In ServiceNow: Create iLert user <a href="#create-user" id="create-user"></a>
 
 1. Go to the **User Administration** area
 
@@ -48,11 +48,11 @@ description: >-
 
 ![](../../.gitbook/assets/sn3.png)
 
-1. Select the **incident_manager** role and click **Save** .
+1. Select the **incident\_manager** role and click **Save** .
 
 ![](../../.gitbook/assets/sn4.png)
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Are updates to an alert published in the ServiceNow Alert?**
 

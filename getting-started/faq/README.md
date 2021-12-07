@@ -47,13 +47,13 @@ Once you change the account owner, you will be logged out immediately and cannot
 
 To change the account owner, go to **Account settings** and click on the **change** account owner link.
 
-![](<../../.gitbook/assets/Screenshot 2021-04-26 at 16.02.28 (1).png>)
+![](../../.gitbook/assets/screenshot-2021-04-26-at-16.02.28.png)
 
 ## How can I update the payment method?
 
 To update the payment method, log in as the account owner and go to **Account settings** --> **Subscription** and click on **Update** next to your payment method and enter your new payment information.
 
-![](<../../.gitbook/assets/Screenshot 2020-03-12 at 14.51.44.png>)
+![](../../.gitbook/assets/screenshot-2020-03-12-at-14.51.44.png)
 
 ## Where can I download my invoices?
 

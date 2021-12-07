@@ -18,11 +18,11 @@ The team filter lets you switch between different team contexs. It gives you the
 
 The team filter is located at the top right in the navigation bar:
 
-![](<../.gitbook/assets/Screenshot 2021-01-21 at 09.48.28.png>)
+![](../.gitbook/assets/screenshot-2021-01-21-at-09.48.28.png)
 
 In case your account requires a large amount of teams, the team filter will automatically collapse and include a search field to quickly navigation between different team views:
 
-![](<../.gitbook/assets/Screenshot 2021-01-20 at 13.35.31.png>)
+![](../.gitbook/assets/screenshot-2021-01-20-at-13.35.31.png)
 
 The team filter is also available in the mobile app:
 
@@ -42,7 +42,7 @@ Teams can be created by **Admin** users and the account owner. Existing team mem
 
 To create a new team, navigate to the list view using the **Teams** link in the settings navigation menu.
 
-![](<../.gitbook/assets/Screenshot 2021-01-21 at 22.14.47.png>)
+![](../.gitbook/assets/screenshot-2021-01-21-at-22.14.47.png)
 
 Click on **Add new team**, enter a name for your new team and use the **Create team** button to create it.
 
@@ -50,11 +50,11 @@ Click on **Add new team**, enter a name for your new team and use the **Create t
 
 You may now add new members or resources to the team.
 
-![](<../.gitbook/assets/Screenshot 2021-01-21 at 22.18.16.png>)
+![](../.gitbook/assets/screenshot-2021-01-21-at-22.18.16.png)
 
 You may also directly manage the team ownerships of resources in their edit views, for example alert sources:
 
-![](<../.gitbook/assets/Screenshot 2021-01-21 at 22.20.30.png>)
+![](../.gitbook/assets/screenshot-2021-01-21-at-22.20.30.png)
 
 In case no teams are available for the current user (with included write permission) the team selector may not appear in the edit views.
 
@@ -64,7 +64,7 @@ You may choose to create a private team, which allows you to **restrict visibili
 
 To make a team private, navigate to the team's setting page and chose **Private** under **Team visibility**.
 
-![](<../.gitbook/assets/Screenshot 2021-01-21 at 22.22.36.png>)
+![](../.gitbook/assets/screenshot-2021-01-21-at-22.22.36.png)
 
 {% hint style="warning" %}
 **What happens to objects that are associated with both a private and a public team?**
@@ -116,11 +116,11 @@ A user (with global **User** role) that is a member of _Team1_ (with team role *
 
 An administrator with the All teams filter sees all alert sources in the account.
 
-![](<../.gitbook/assets/Screenshot 2021-01-21 at 22.34.26.png>)
+![](../.gitbook/assets/screenshot-2021-01-21-at-22.34.26.png)
 
 A user of the Mobility team with active specific team filter only sees the alert sources of his interest.
 
-![](<../.gitbook/assets/Screenshot 2021-01-21 at 22.38.19.png>)
+![](../.gitbook/assets/screenshot-2021-01-21-at-22.38.19.png)
 
 {% hint style="info" %}
 Resources and users of public teams, are shown to all users with read permissions.

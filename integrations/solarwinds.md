@@ -8,19 +8,19 @@ description: >-
 
 With the iLert SolarWinds Integration you can easily integrate SolarWinds Orion products (eg [NPM](https://www.solarwinds.com/network-performance-monitor) and [SAM](https://www.solarwinds.com/server-application-monitor)) into iLert. The integration extends SolarWinds with SMS, push and voice notification as well as on-call schedules from iLert. Alerts are created in iLert and automatically resolved. Furthermore, alerts in iLert that were created by SolarWinds contain links to the respective alerts in SolarWinds.
 
-## In iLert: create alert source <a href="create-alarm-source" id="create-alarm-source"></a>
+## In iLert: create alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Go to **Alert sources** and click on the **Add a new alert source** button
 2. Enter a name for your alert source (e.g. SolarWinds) and select an escalation policy.
 3. In the **integration type** field, chose **SolarWinds**.
 
-![](<../.gitbook/assets/Screenshot 2020-09-04 at 09.55.06.png>)
+![](../.gitbook/assets/screenshot-2020-09-04-at-09.55.06.png)
 
 1. A URL is generated on the next page. You will need this URL in the next section when setting up the integration in SolarWinds
 
-![](<../.gitbook/assets/Screenshot 2020-09-04 at 09.58.49.png>)
+![](../.gitbook/assets/screenshot-2020-09-04-at-09.58.49.png)
 
-## In SolarWinds: create alert definition <a href="alert-definition" id="alert-definition"></a>
+## In SolarWinds: create alert definition <a href="#alert-definition" id="alert-definition"></a>
 
 1. Go to the **Settings → All Settings** tab and click **Manage Alerts**
 
@@ -87,7 +87,7 @@ iLertEventSummary=${N=SwisEntity;M=DisplayName} (${N=SwisEntity;M=IP_Address}): 
 1. On **ADD ACTION** and then click **NEXT**.
 2. Click **SUBMIT** on the **SUMMARY** page.
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Are alerts automatically resolved in iLert?**
 

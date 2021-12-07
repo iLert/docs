@@ -34,7 +34,7 @@ iLert provides the following inbound integration options:
 | ****[**SMS integration**](integrations/sms-integration.md)****   | Send alerts to iLert via SMS.                                                                                                                                                                |
 | [**Hearbeat monitoring**](uptime-monitors/heartbeat-monitoring/) | A heartbeat alert source will automatically create an alert if it does not receive a heartbeat signal from your app at regular intervals.                                                    |
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (2).png>)
 
 ## Connectors and alert actions (aka outbound integrations)
 
@@ -89,4 +89,4 @@ To set your notification preferences
 2. Go to the **Notification settings** tab
 3. Change your notification preferences and click **Save**
 
-![](<.gitbook/assets/Screenshot 2020-11-25 at 13.30.30.png>)
+![](.gitbook/assets/screenshot-2020-11-25-at-13.30.30.png)

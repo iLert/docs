@@ -36,7 +36,7 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 3\. A popup will appear; enter a name and paste your **Auvik URL** that you have copied from your alert source in iLert
 
-![](<../.gitbook/assets/image (47).png>)
+![](<../.gitbook/assets/image (47) (1).png>)
 
 4\. You may choose to click on Test Connection to see if it is setup correctly, afterwards click **Save** to create your integration in Auvik.
 
@@ -64,7 +64,7 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 3\. In the Edit popup enable the **Notification channels** and choose your freshly created notification channel in the drop down, click on **Save** to assign it with your alert
 
-![](<../.gitbook/assets/image (47) (1).png>)
+![](<../.gitbook/assets/image (47) (1) (1).png>)
 
 4\. You are done, your alerts should sync from **Auvik** into iLert
 

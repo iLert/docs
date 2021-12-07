@@ -10,11 +10,11 @@ description: Invoke AWS Lambda functions based on alerts in iLert
 Beforehand make sure that you have created an AWS lambda function in your AWS project and got its public `URL` handy. You might also create an additional authorization value e.g. a secure random string that you are evaluating in the HTTP request `Authorization` header when you function is invoked by iLert, we acutally suggest using this.
 {% endhint %}
 
-## Create the connector <a href="connector" id="connector"></a>
+## Create the connector <a href="#connector" id="connector"></a>
 
 Go to the connectors tab of your account.
 
-![](<../.gitbook/assets/s1 (2) (1).png>)
+![](<../.gitbook/assets/s1 (2).png>)
 
 And create a new connector. Choose AWS lambda as type (you may add the additional `Authorization` parameter as stated in the beginning of this doc.)
 
@@ -22,14 +22,14 @@ And create a new connector. Choose AWS lambda as type (you may add the additiona
 
 Click on save to save the connector.
 
-## Create the alert action <a href="connection" id="connection"></a>
+## Create the alert action <a href="#connection" id="connection"></a>
 
 Visit the alert source (view) whose alerts should trigger your serverless function. Navigate to the **Alert actions** tab and click on the **Create new alert action** button.
 
-![](<../.gitbook/assets/new_incident_action (1).png>)
+![](<../.gitbook/assets/new\_incident\_action (1).png>)
 
 Choose AWS lambda as type and select your previously created connector. Enter a name and the url targeting your public function. You may also customize the HTTP request body that is used to invoke your function.
 
-![](<../.gitbook/assets/iLert (57).png>)
+![](<../.gitbook/assets/ilert (57).png>)
 
 Click on save to create the alert action, you may test the alert action in the following screen.

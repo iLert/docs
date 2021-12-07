@@ -6,11 +6,11 @@ description: Use this guide for checkmk v 1.x
 
 With the iLert checkmk notification plugin you can easily integrate checkmk into iLert and extend your existing checkmk system with SMS, push and voice notifications as well as on-call schedules from iLert. The screenshots below are based on the checkmk Raw Edition (CRE) 1.2.8. The iLert checkmk plugin is compatible with all checkmk versions.
 
-## In iLert: create alert source <a href="create-alarm-source" id="create-alarm-source"></a>
+## In iLert: create alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Create a new alert source in iLert
 
-![](<../../.gitbook/assets/mk1 (1).png>)
+![](../../.gitbook/assets/mk1.png)
 
 1. Select the type **Nagios / Icinga** and click save.
 
@@ -20,7 +20,7 @@ With the iLert checkmk notification plugin you can easily integrate checkmk into
 
 ![](../../.gitbook/assets/mk3.png)
 
-## In checkmk: configure iLert Plugin <a href="configure-ilert-plugin" id="configure-ilert-plugin"></a>
+## In checkmk: configure iLert Plugin <a href="#configure-ilert-plugin" id="configure-ilert-plugin"></a>
 
 Download the [checkmk](https://github.com/iLert/ilert-nagios) plugin package and unzip it:
 
@@ -98,25 +98,25 @@ Log in to checkmk's web GUI and continue there.
 
 ![](../../.gitbook/assets/mk5.jpg)
 
-1. Go to the notification settings of this user (by clicking on the "Notifications" icon).    
+1. Go to the notification settings of this user (by clicking on the "Notifications" icon).   &#x20;
 
 ![](../../.gitbook/assets/mk6.jpg)
 
-1. Click on "New Rule" and select iLert checkmk Plugin as the "Notification Method". Enter your iLert API key (see above) as a parameter.    
+1. Click on "New Rule" and select iLert checkmk Plugin as the "Notification Method". Enter your iLert API key (see above) as a parameter.   &#x20;
 
 ![](../../.gitbook/assets/mk7.jpg)
 
-1. Go back to the user list and activate your changes by clicking on "1 Changes":    
+1. Go back to the user list and activate your changes by clicking on "1 Changes":   &#x20;
 
 ![](../../.gitbook/assets/mk8.jpg)
 
-## Test the integration <a href="test" id="test"></a>
+## Test the integration <a href="#test" id="test"></a>
 
 You can test the integration directly in checkmk to verify that everything is working. To do this, open a host or service check in the Web GUI and click on the "Execute" icon (Hammer Icon). In "Fake check results" you can manually set the state of a host or service. Click on "Down" (for a host) or "Critical" (for a service) and then confirm with "Yes!". You should now see an alert in iLert.
 
 ![](../../.gitbook/assets/mk9.jpg)
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Which notification types are processed by the plugin?**
 
@@ -139,7 +139,7 @@ checkmk has the following notification types:
 
 **What happens if my internet connection is lost? Are the events generated in checkmk lost?**
 
-No, events won't be lost. The plugin stores the events locally in a temporary directory (by default in /tmp/ilert_nagios) and tries to send them to iLert every minute. This means that as soon as your connection is available again, cached events will be sent to iLert. In addition, we recommend that you monitor your Internet connection using our uptime monitoring feature.
+No, events won't be lost. The plugin stores the events locally in a temporary directory (by default in /tmp/ilert\_nagios) and tries to send them to iLert every minute. This means that as soon as your connection is available again, cached events will be sent to iLert. In addition, we recommend that you monitor your Internet connection using our uptime monitoring feature.
 
 **Will alerts in iLert be resolved automatically?**
 
@@ -153,4 +153,4 @@ Yes, create a checkmk user for each alert source in checkmk. Proceed as describe
 
 Please look first in the log file. The plugin uses the Unix / Linux system log for logging (eg under /var/log/messages or /var/log/syslog ). If you can not find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com) .
 
-Please also have a look at the checkmk documentation, where additional log files related to alerting are documented: [The course of a notification from beginning to end](https://checkmk.com/cms_notifications.html#The%20course%20of%20a%20notification%20from%20beginning%20to%20end)
+Please also have a look at the checkmk documentation, where additional log files related to alerting are documented: [The course of a notification from beginning to end](https://checkmk.com/cms\_notifications.html#The%20course%20of%20a%20notification%20from%20beginning%20to%20end)

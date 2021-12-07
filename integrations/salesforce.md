@@ -8,17 +8,16 @@ description: >-
 
 ## In iLert
 
-1. Go to the "**Alert sources**" tab and click "**Create new alert source**"
+* Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
-![](<../.gitbook/assets/ilert-create-alert (5).png>)
+![](<../.gitbook/assets/ilert-create-alert (3).png>)
 
-1.  Enter a name and select your desired escalation policy.  &#x20;
-
-    Select "**Salesforce**" as the **Integration Type** and click **Save**.
+* Enter a name and select your desired escalation policy.  &#x20;
+* Select "**Salesforce**" as the **Integration Type** and click **Save**.
 
 ![](../.gitbook/assets/ilert-salesforce.png)
 
-1. On the next page, an **Salesforce URL** is generated. You will need the URL and the API Keys for the configuration from Salesforce side.
+* On the next page, an **Salesforce URL** is generated. You will need the URL and the API Keys for the configuration from Salesforce side.
 
 ![](../.gitbook/assets/ilert-salesforce-url.png)
 

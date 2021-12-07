@@ -4,19 +4,19 @@ description: The iLert Webhook Integration helps you to easily connect iLert wit
 
 # Webhook Integration
 
-## In iLert: Create webhook alert action <a href="create-webhook" id="create-webhook"></a>
+## In iLert: Create webhook alert action <a href="#create-webhook" id="create-webhook"></a>
 
 1. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish via a webhook. Click on **Alert actions → Create new alert action**
 
-![](<../.gitbook/assets/new_incident_action (7).png>)
+![](../.gitbook/assets/new\_incident\_action.png)
 
 1. Select **Webhook** as **type** and fill out all fields. In the **Filter Alert Events** field, select the alert events for which you want to receive a webhook call. Webhook events are sent as `HTTP POST` to the specified URL. The URL must be accessible from the internet. Click on **Save**.
 
-![](<../.gitbook/assets/iLert (56).png>)
+![](<../.gitbook/assets/ilert (60).png>)
 
 1. Finished!
 
-## Webhook payload <a href="payload" id="payload"></a>
+## Webhook payload <a href="#payload" id="payload"></a>
 
 A sample webhook payload can be seen below.\
 To get more information on the **status** or **eventType** fields, visit the _Template variables explained_ section of this page.
@@ -43,11 +43,11 @@ To get more information on the **status** or **eventType** fields, visit the _Te
 }
 ```
 
-## Custom webhook payload / request body <a href="custom" id="custom"></a>
+## Custom webhook payload / request body <a href="#custom" id="custom"></a>
 
 In case you want to customize the HTTP Post request body of your webhook, you can simply enable the custom fields option.
 
-![](../.gitbook/assets/Notification_Center.png)
+![](../.gitbook/assets/notification\_center.png)
 
 This will allow you to add any kind of custom body that you want to send. In case of an invalid template the border will become yellow or red.
 
@@ -75,7 +75,7 @@ In case of a valid template the border will turn green. As you may have noticed 
 | link                 | If present, the first link in the alert's payload e.g. links to the origin monitoring tool that send the event initially                                        |
 | eventType            | alert-created, alert-assigned, alert-auto-escalated, alert-auto-resolved, alert-acknowledged, alert-rejected, alert-raised, alert-comment-added, alert-resolved |
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 ### **Do you support authentication?**
 
@@ -83,7 +83,7 @@ Yes, **HTTP Basic Auth** is supported. The username and password must be specifi
 
 Example: https: // username: password@example.com / webhooks / ilert
 
-Special characters in the user name or password must be [encoded URL](https://www.w3schools.com/tags/ref_urlencode.asp).
+Special characters in the user name or password must be [encoded URL](https://www.w3schools.com/tags/ref\_urlencode.asp).
 
 ### **Can you also specify the HTTP port?**
 

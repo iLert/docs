@@ -6,36 +6,36 @@ description: The iLert checkmk native integration ships with checkmk version >= 
 
 With the native iLert notification integration in Checkmk, you can automatically create alerts in iLert from Checkmk alerts. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When checkmk creates an alert, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
 
-## In iLert: create alert source <a href="create-alarm-source" id="create-alarm-source"></a>
+## In iLert: create alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Create a new alert source in iLert
 
-![](<../../.gitbook/assets/mk1 (1).png>)
+![](../../.gitbook/assets/mk1.png)
 
 1. Enter a name (e.g. "checkmk server") and select your desired escalation policy.
 2. Select the type **checkmk** and click save.
 
-![](<../../.gitbook/assets/iLert (22).png>)
+![](<../../.gitbook/assets/ilert (23).png>)
 
 1. An API key is generated. You will need it below when setting up the notification configuration in checkmk.
 
-![](<../../.gitbook/assets/iLert (23).png>)
+![](<../../.gitbook/assets/ilert (22).png>)
 
-## In checkmk: configure iLert notification <a href="configure-ilert-plugin" id="configure-ilert-plugin"></a>
+## In checkmk: configure iLert notification <a href="#configure-ilert-plugin" id="configure-ilert-plugin"></a>
 
 1. Navigate to the **Setup** --> **Events** --> **Notifications**
 
-![](<../../.gitbook/assets/Picture 1.png>)
+![](../../.gitbook/assets/picture-1.png)
 
 1. In the **Notification configuration**, click on **Add rule**
 
-![](<../../.gitbook/assets/Picture 2.png>)
+![](../../.gitbook/assets/picture-2.png)
 
 1. In the **Notification Method** section choose iLert method. Enter enter the **API key** and click on **Save**.
 
-![](<../../.gitbook/assets/Picture 4.png>)
+![](../../.gitbook/assets/picture-4.png)
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Which notification types are processed?**
 

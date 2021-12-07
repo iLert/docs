@@ -6,7 +6,7 @@ description: This page describes how to integrate iLert with any tool that can s
 
 Email integration is the easiest way to integrate iLert with your monitoring system. Each email alert source in iLert has its own email address (e.g. _your-tool@your-domain.ilertnow.com_). As soon as your monitoring system sends an e-mail to this address, iLert will create an alert.
 
-## In iLert: create an email alert source <a href="create-alarm-source" id="create-alarm-source"></a>
+## In iLert: create an email alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Go to **Alert sources** and click on **Add a new alert source**
 2. Enter a name and select an escalation policy
@@ -14,11 +14,11 @@ Email integration is the easiest way to integrate iLert with your monitoring sys
 4. Enter an email address for the alert source
 5. Save the email alert source
 
-![](<../../.gitbook/assets/Screenshot 2020-06-18 at 16.21.49.png>)
+![](../../.gitbook/assets/screenshot-2020-06-18-at-16.21.49.png)
 
 Your email alert source is now active. Any email sent to the email address will create an alert in iLert and trigger the alerting process using the alert source's escalation policy. The default setting creates an alert in iLert for each incoming email. The next section explains advanced settings, such as deduplicating or filtering emails.
 
-## Fine-tuning email integration <a href="advanced-settings" id="advanced-settings"></a>
+## Fine-tuning email integration <a href="#advanced-settings" id="advanced-settings"></a>
 
 By default, iLert creates a new alert for every email sent to the alert source's email address. You can fine-tune this behavior by
 
@@ -46,7 +46,7 @@ Email filters allow you to ignore emails based on the content of the email's sub
 [automatically-resolve-incidents-with-emails.md](automatically-resolve-incidents-with-emails.md)
 {% endcontent-ref %}
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Does iLert also process e-mails that are sent by forwarding to an alert source address?**
 

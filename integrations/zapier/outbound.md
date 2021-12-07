@@ -6,25 +6,25 @@ description: >-
 
 # Zapier Outbound Integration
 
-## In Zapier <a href="in-ilert" id="in-ilert"></a>
+## In Zapier <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a Zap <a href="create-action-sequences" id="create-action-sequences"></a>
+### Create a Zap <a href="#create-action-sequences" id="create-action-sequences"></a>
 
 1. Go to Zapier and click on **Make a Zap**
 
-![](../../.gitbook/assets/Screenshot\_29\_10\_20\__16\_22.png)
+![](../../.gitbook/assets/screenshot\_29\_10\_20\_\_16\_22.png)
 
 1. On the next page, search for **iLert** trigger source and choose it:
 
-![](../../.gitbook/assets/Edit_a_Step\_\__Zapier.png)
+![](../../.gitbook/assets/edit\_a\_step\_\_\_zapier.png)
 
 1. In the section **Trigger Event** choose **New or Updated Alert** and click on the **Continue** button
 
-![](<../../.gitbook/assets/Edit_a_Step\_\__Zapier (1).png>)
+![](<../../.gitbook/assets/edit\_a\_step\_\_\_zapier (2).png>)
 
 1. On the next slide, choose your iLert account. Then click on the **Continue** button.
 
-![](<../../.gitbook/assets/Edit_a_Step\_\__Zapier (2).png>)
+![](<../../.gitbook/assets/edit\_a\_step\_\_\_zapier (4).png>)
 
 1. On the next slide, choose **an alert source** and **trigger types** e.g. Alert Created. Then click on the **Continue** button.
 
@@ -32,17 +32,17 @@ description: >-
 NOTE: you can't use an Zapier alert source here, as it will lead to an infinite loop
 {% endhint %}
 
-![](<../../.gitbook/assets/Edit_a_Step\_\__Zapier (3).png>)
+![](<../../.gitbook/assets/edit\_a\_step\_\_\_zapier (3).png>)
 
 1. On the next slide, click on the **Test Trigger** button to see example data. Then click on the **Continue** button.
 
-![](<../../.gitbook/assets/Edit_a_Step\_\__Zapier (4).png>)
+![](<../../.gitbook/assets/edit\_a\_step\_\_\_zapier (1).png>)
 
 1. Now you can **add any action** available in Zapier, e.g. Jira to create a ticket on your Jira board
 
-![](../../.gitbook/assets/Edit_Step\_\__Zapier.png)
+![](../../.gitbook/assets/edit\_step\_\_\_zapier.png)
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Why the Zapier connector is in my alert source?**
 

@@ -17,15 +17,15 @@ To set up this integration, you must have admin rights in iLert.
 1. Optional: create a dedicated iLert user in Zammad. This has the advantage that you can distinguish the Zammad tickets created by iLert.
 2. Go to **Profile**, then to **Token Access** and click on **Create**
 
-![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_32.png)
+![](../../.gitbook/assets/screenshot\_07\_02\_21\_\_13\_32.png)
 
 1. In the **Name** section, enter a name eg. iLert
 
-![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_33.png)
+![](../../.gitbook/assets/screenshot\_07\_02\_21\_\_13\_33.png)
 
 1. In the **Ticket** section,  choose **Agent**
 
-![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_34.png)
+![](../../.gitbook/assets/screenshot\_07\_02\_21\_\_13\_34.png)
 
 1. Click on **Create**
 
@@ -37,7 +37,7 @@ An agent token has a group scope so if you want to use a group that the current 
 
 1. The modal window will open, copy the generated access token
 
-![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_36.png)
+![](../../.gitbook/assets/screenshot\_07\_02\_21\_\_13\_36.png)
 
 ## In iLert <a href="#in-ilert" id="in-ilert"></a>
 
@@ -53,23 +53,23 @@ An agent token has a group scope so if you want to use a group that the current 
 
 1. Select **Zammad** as **type** and fill in all fields. Enter a name, the URL of your Zammad server and the access token that you have created in the previous step.
 
-![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_39.png)
+![](../../.gitbook/assets/screenshot\_07\_02\_21\_\_13\_39.png)
 
 1. Go to the alert sources tab and open the alert source whose alerts you want to publish in Zammad. Click on **Alert actions** and then on **Create alert action**.
 
-![](<../../.gitbook/assets/new\_incident\_action (12) (9).png>)
+![](<../../.gitbook/assets/new\_incident\_action (12).png>)
 
 1.  Select **Zammad** as the **type**; **futhermore** select the connector created in step 3, fill in all fields. &#x20;
 
     In the **Email** field enter the existing customer email of Zammad.
 
-![](<../../.gitbook/assets/iLert (74).png>)
+![](<../../.gitbook/assets/ilert (79).png>)
 
 1.  Finished! You can now test the connection by clicking on the button **Test this connection**. &#x20;
 
     A test ticket will be created in Zammad.
 
-![](<../../.gitbook/assets/iLert (75).png>)
+![](<../../.gitbook/assets/ilert (77).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

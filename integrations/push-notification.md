@@ -13,10 +13,10 @@ Login to the app using your iLert credentials, you will be prompted to grant acc
 
 Furthermore please ensure that you have selected the correct settings to receive push notifications (login to iLert and select **My Profile**).
 
-![](<../.gitbook/assets/Screenshot 2020-10-08 at 12.09.15.png>)
+![](../.gitbook/assets/screenshot-2020-10-08-at-12.09.15.png)
 
-![](<../.gitbook/assets/Screenshot 2020-10-08 at 12.09.24.png>)
+![](../.gitbook/assets/screenshot-2020-10-08-at-12.09.24.png)
 
 Although Push tokens from your mobile devices should be managed automatically, you may remove them manually in your profile settings.
 
-![](<../.gitbook/assets/Screenshot 2020-10-08 at 12.09.57.png>)
+![](../.gitbook/assets/screenshot-2020-10-08-at-12.09.57.png)

@@ -6,19 +6,19 @@ description: Create alerts in iLert from PRTG notifications.
 
 With PRTG integration, you can easily integrate PRTG with iLert and extend your existing PRTG monitoring with SMS, push and voice notifications as well as on-call schedules from iLert.
 
-## In iLert: Create PRTG alert source <a href="create-alarm-source" id="create-alarm-source"></a>
+## In iLert: Create PRTG alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Go to **Alert sources** and click on **Add a new alert source**
 2. Enter a name for your alert source (e.g. "PRTG") and select your desired escalation policy.
 3. In the Integration Type field, select **PRTG Network Monitor** and click on Save
 
-![](<../.gitbook/assets/Screenshot 2020-09-22 at 08.53.15.png>)
+![](../.gitbook/assets/screenshot-2020-09-22-at-08.53.15.png)
 
 1. On the next page,  **PRTG URL** and **PRTG Postdata** fields will be displayed.  You will need those two fields in the PRTG setup.
 
-![](<../.gitbook/assets/Screenshot 2020-09-22 at 09.04.21.png>)
+![](../.gitbook/assets/screenshot-2020-09-22-at-09.04.21.png)
 
-## In PRTG: Create new notification <a href="create-notification" id="create-notification"></a>
+## In PRTG: Create new notification <a href="#create-notification" id="create-notification"></a>
 
 1. Got to notification settings
 
@@ -39,7 +39,7 @@ With PRTG integration, you can easily integrate PRTG with iLert and extend your 
 
 ![](../.gitbook/assets/pg6.png)
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in iLert be resolved automatically?**
 

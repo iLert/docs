@@ -8,40 +8,40 @@ description: >-
 
 With the iLert Sysdig integration you can create alerts in iLert based on Sysdig event.
 
-## In iLert <a href="in-ilert" id="in-ilert"></a>
+## In iLert <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a Sysdig alert source <a href="create-alert-source" id="create-alert-source"></a>
+### Create a Sysdig alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "Sysdig" as the **Integration Type** and click on **Save**.
 
-![](<../../.gitbook/assets/iLert (3).png>)
+![](<../../.gitbook/assets/ilert (2).png>)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the Webhook in Sysdig.
 
-![](<../../.gitbook/assets/iLert (4).png>)
+![](<../../.gitbook/assets/ilert (5).png>)
 
-## In Sysdig <a href="in-topdesk" id="in-topdesk"></a>
+## In Sysdig <a href="#in-topdesk" id="in-topdesk"></a>
 
-### Create notification channel <a href="create-action-sequences" id="create-action-sequences"></a>
+### Create notification channel <a href="#create-action-sequences" id="create-action-sequences"></a>
 
 1. Go to Sysdig and then to **Settings.** Click on **Notification Channels** and then on **Add Notification Channel** to add a new notification channel for iLert
 
-![](../../.gitbook/assets/Notifications\_-\_Settings\_-\_Sysdig.png)
+![](../../.gitbook/assets/notifications\_-\_settings\_-\_sysdig.png)
 
 1. On the popup, choose **WebHook**
 
-![](../../.gitbook/assets/Banners_and_Alerts_and_Notifications\_-\_Settings\_-\_Sysdig.png)
+![](../../.gitbook/assets/banners\_and\_alerts\_and\_notifications\_-\_settings\_-\_sysdig.png)
 
 1. On the next page, in the section **URL** field, paste the **Webhook URL** that you generated in iLert
 
-![](../../.gitbook/assets/New_Channel\_-\_Notifications\_-\_Settings\_-\_Sysdig.png)
+![](../../.gitbook/assets/new\_channel\_-\_notifications\_-\_settings\_-\_sysdig.png)
 
 1. In the **Channel Name** section, enter a name eg. `iLert`
 2. Make sure that **Enabled** and **Notify when Resolved** options are enabled
 3. Click on **Save**
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in iLert be resolved automatically?**
 

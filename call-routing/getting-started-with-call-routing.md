@@ -18,7 +18,7 @@ Each call routing number has a unique phone number that will be set up for you b
 
 Once we have added a phone number to your account, you can configure its IVR menu, routing options, voicemail settings and more.
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (15).png>)
 
 The general settings area allows you to configure a **name** as well as the **language** and **greeting** of your call routing number. The **name** will be read out to your on-call staff whenever they receive a call.
 
@@ -42,7 +42,7 @@ Please note that escalation times in escalation policies are skipped for policie
 
 If no user is left and no voicemail has been configured (see below) the caller will hear a message that no one is currently available and the call will be ended. The alert that has been created for this incoming call will be escalated once again to the targeted escalation policy using regular alert notification and escalation rules.
 
-![](<../.gitbook/assets/image (10).png>)
+![](<../.gitbook/assets/image (11).png>)
 
 Yet if a voicemail is present instead, the caller will be redirected to the voicemail. In case she leaves a voicemail, the voicemail will be attached to the alert of the incoming call and escalated once again to the targeted escalation.
 
