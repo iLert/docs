@@ -161,7 +161,7 @@
   * [TOPdesk Outbound Integration](integrations/topdesk/outbound.md)
 * [Terraform Cloud / Terraform Enterprise](integrations/terraform-cloud-terraform-enterprise.md)
 * [UptimeRobot Integration](integrations/uptime-robot.md)
-* [MongoDB Atlas Integration](integrations/mongodb-atlas.md)
+* [MongoDB Atlas Integration](integrations/mongodbatlas.md)
 * [Webhook Integration](integrations/webhook.md)
 * [X-Pack Alerting (Elasticsearch Watcher) Integration](integrations/eswatcher.md)
 * [Zabbix Integration](integrations/zabbix/README.md)
