@@ -10,9 +10,17 @@ description: >-
 ## In iLert
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
+
+![](<../.gitbook/assets/ilert-create-alert (3).png>)
+
 * Enter a name and select your desired escalation policy.  &#x20;
 * Select "**MongoDB Atlas**" as the **Integration Type** and click **Save**.
+
+![](../.gitbook/assets/mongodb\_alertsource.png)
+
 * On the next page a **MongoDB Atlas URL** is generated. You will need the URL for the webhook configuration
+
+![](<../.gitbook/assets/mongodb\_apikey (1).png>)
 
 ## In MongoDB Atlas
 
