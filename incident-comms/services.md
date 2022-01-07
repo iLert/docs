@@ -22,11 +22,11 @@ Service status changes on the service itself (i.e. without an incident) will not
 
 To create a new service, navigate to the Services page, click on the **Create new service** button.
 
-![](<../.gitbook/assets/Services - Create.png>)
+![](<../.gitbook/assets/Screenshot 2022-01-08 at 00.00.00 (2).png>)
 
 Give the service a name that is descriptive to the users of the service and click on **Create service**.&#x20;
 
-![](<../.gitbook/assets/Services - Settings.png>)
+![](<../.gitbook/assets/Screenshot 2022-01-08 at 00.07.12.png>)
 
 The service is now ready to be used in incidents or included in status pages.
 
@@ -40,13 +40,11 @@ To configure an automation
 * click on **Add alert source** and select the alert source that should trigger the automation
 * click on **Configure automation**
 
-![](<../.gitbook/assets/Services - Alert sources add.png>)
+![](<../.gitbook/assets/Screenshot 2022-01-08 at 00.11.23.png>)
 
 Once you configure an alert source's automation settings, any alert that will be created will automatically set the status of your service:
 
-![](<../.gitbook/assets/Services - Alert sources edit automation.png>)
-
-
+![](<../.gitbook/assets/Screenshot 2022-01-08 at 00.12.32.png>)
 
 ## Service uptime
 
@@ -94,7 +92,7 @@ There are two ways to subscribe users to a service
 
 To self-subscribe to a service, go the Services page and click on **Subscribe.** To unsubscribe, click on the **Unsubscribe** button.
 
-![](<../.gitbook/assets/Services - Subscribe.png>)
+![](<../.gitbook/assets/Screenshot 2022-01-08 at 00.14.58.png>)
 
 {% hint style="info" %}
 **Team subscriptions**
@@ -104,4 +102,4 @@ Note that an unsubscription takes precedence over a team subscription. That is, 
 
 To add or remove users and teams as subscribers from a service, go to the **Subscribers** tab from the service.
 
-![](<../.gitbook/assets/Services - Subscribers.png>)
+![](<../.gitbook/assets/Screenshot 2022-01-08 at 00.18.44.png>)

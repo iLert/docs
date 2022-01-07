@@ -46,7 +46,7 @@ Create incident templates to&#x20;
 
 During incident creation, you will be able to select from your templates as seen below:
 
-![](<../.gitbook/assets/image (58).png>)
+![](<../.gitbook/assets/Screenshot 2022-01-08 at 00.20.19.png>)
 
 Once you select a template, all fields will be pre-filled using the values from the template.
 
