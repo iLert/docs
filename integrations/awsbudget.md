@@ -15,11 +15,11 @@ With iLert AWS Budget Integration, you can receive AWS Budget alert through iLer
 1. Go to the "Alert sources" tab and click "Create new alert source"
 2. Enter a name and select your desired escalation policy. Select "**AWS Budget**" as the **Integration Type** and click on **Save**.
 
-![](<../.gitbook/assets/ilert (8).png>)
+![](<../.gitbook/assets/iLert (8).png>)
 
 1. On the next page, a **Webhook URL** is generated. You will need this URL below when setting up the SNS topic subscription in AWS.
 
-![](<../.gitbook/assets/ilert (9).png>)
+![](<../.gitbook/assets/iLert (9).png>)
 
 ## In AWS
 
@@ -33,11 +33,11 @@ With iLert AWS Budget Integration, you can receive AWS Budget alert through iLer
 
 1. Give the topic a name and click on **Create topic**
 
-![](../.gitbook/assets/simple\_notification\_service.png)
+![](../.gitbook/assets/Simple\_Notification\_Service.png)
 
 1. Click on **Create subscription** on the Topic Detail page
 
-![](<../.gitbook/assets/simple\_notification\_service (2).png>)
+![](<../.gitbook/assets/Simple\_Notification\_Service (1).png>)
 
 1. In the **Topic ARN** section, ensure that the **SNS Topic** that you generated is selected
 2. In the **Protocol** section, choose the **HTTPS** protocol
@@ -45,7 +45,7 @@ With iLert AWS Budget Integration, you can receive AWS Budget alert through iLer
 4. In the **Enable raw message delivery** section, ensure that the checkbox is unchecked
 5. Click on **Create subscription**
 
-![](<../.gitbook/assets/simple\_notification\_service (1).png>)
+![](<../.gitbook/assets/Simple\_Notification\_Service (2).png>)
 
 1. The subscription is **automatically confirmed by iLert** when it is created. After updating the overview, the status "PendingConfirmation" should disappear, and the ID should be displayed.
 
@@ -55,27 +55,27 @@ You can now link any AWS Budget to the topic you have created. The following sec
 
 1. In AWS, click on the **Profile Menu** icon and select **My Billing Dashboard**
 
-![](<../.gitbook/assets/simple\_notification\_service (3).png>)
+![](<../.gitbook/assets/Simple\_Notification\_Service (3).png>)
 
 1. In the AWS Billing Dashboard click on **Budgets** and then click on **Create budget** to add a budget
 
-![](../.gitbook/assets/billing\_management\_console.png)
+![](<../.gitbook/assets/Billing\_Management\_Console (1).png>)
 
 1. On the **Select budget type** page, choose a budget type that interests you and click on **Set your budget**
 
-![](<../.gitbook/assets/billing\_management\_console (2).png>)
+![](<../.gitbook/assets/Billing\_Management\_Console (2).png>)
 
 1. On the **Set your budget** page, choose the settings according to your liking and click on **Configure thresholds**
 
-![](<../.gitbook/assets/billing\_management\_console (4).png>)
+![](<../.gitbook/assets/Billing\_Management\_Console (3).png>)
 
 1. On the **Configure thresholds** page, in the **Amazon SNS** section, paste the **SNS ARN** that you generated before and make sure that you configured the right topic permissions (you should see ✅ sign), then click on **Confirm budget**
 
-![](<../.gitbook/assets/billing\_management\_console (5).png>)
+![](<../.gitbook/assets/Billing\_Management\_Console (4).png>)
 
 1. On the **Config budget** page click on **Create**
 
-![](<../.gitbook/assets/billing\_management\_console (1).png>)
+![](<../.gitbook/assets/Billing\_Management\_Console (6).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

@@ -15,11 +15,11 @@ description: >-
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "ServiceNow" as the **Integration Type** and click on **Save**.
 
-![](../../.gitbook/assets/screenshot\_09\_02\_21\_\_07\_51.png)
+![](../../.gitbook/assets/Screenshot\_09\_02\_21\_\_07\_51.png)
 
 1. On the next page, a **ServiceNow URL** is generated. You will need this URL below when setting up the hook in ServiceNow.
 
-![](../../.gitbook/assets/screenshot\_09\_02\_21\_\_07\_52.png)
+![](../../.gitbook/assets/Screenshot\_09\_02\_21\_\_07\_52.png)
 
 ## In ServiceNow <a href="#in-servicenow" id="in-servicenow"></a>
 
@@ -27,15 +27,15 @@ description: >-
 
 1. Go to ServiceNow, search for **Incidents**, **\*\*then open the header menu and choose** Configure -> Business Rules\*\*
 
-![](../../.gitbook/assets/screenshot\_08\_02\_21\_\_22\_40.png)
+![](../../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_40.png)
 
 1. In the **Business Rules** view click on **New** to create a new business rule
 
-![](../../.gitbook/assets/screenshot\_08\_02\_21\_\_22\_42.png)
+![](../../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_42.png)
 
 1. Name the business rule e.g. **iLert Alerts**, choose **Advanced** option, in the **When to run** section choose **async** then choose **Insert** and **Update** options
 
-![](../../.gitbook/assets/screenshot\_08\_02\_21\_\_22\_43.png)
+![](../../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_43.png)
 
 1. Go to Advanced tab and paste the following code into the script section:
 
@@ -74,7 +74,7 @@ description: >-
 
 1. Click on **Submit** or **Update** to save the business rule
 
-![](../../.gitbook/assets/screenshot\_08\_02\_21\_\_22\_46.png)
+![](../../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_46.png)
 
 ## ServiceNow Incident Lifecycle <a href="#lifecycle" id="lifecycle"></a>
 
@@ -99,7 +99,7 @@ iLert's ServiceNow integration allows you to easily configure advanced settings 
 
 
 
-![](<../../.gitbook/assets/image (57).png>)
+![](<../../.gitbook/assets/image (57) (1).png>)
 
 To get access to the advanced features, you will have to provide access credentials to your ServiceNow instance first. The provided user will need the following permissions in ServiceNow:
 
@@ -116,7 +116,7 @@ Afters you will get access to:
 
 When selecting priority mapping, iLert will contact your ServiceNow instance and fetch all available priorities of ServiceNow alerts. You will then be able to choose a mapping for each of these and determine how iLert will treat them when creating alerts in iLert.
 
-![](<../../.gitbook/assets/image (55).png>)
+![](<../../.gitbook/assets/image (55) (1).png>)
 
 ### Dynamic escalation policy routing
 
@@ -138,7 +138,7 @@ When providing credentials you may choose to activate bidirectional mode on the 
 
 When saving the ServiceNow alert source with bidirectional setting enabled, it will automatically create an outbound connector for you and take you to the creation page of the necessary alert action, please make sure to continue with the setup of the action to finish your bidirectional alert source setup.
 
-![](<../../.gitbook/assets/image (56).png>)
+![](<../../.gitbook/assets/image (56) (1).png>)
 
 ### Good to know
 

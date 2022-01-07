@@ -24,11 +24,11 @@ description: Create events in Datadog from iLert alerts.
 
 1. Click on the gear icon and then on **Connectors** button
 
-![](../../.gitbook/assets/go\_to\_connectors.png)
+![](<../../.gitbook/assets/go\_to\_connectors (1).png>)
 
 1. Click on **Add Connector**
 
-![](<../../.gitbook/assets/create\_connector\_button (7).png>)
+![](<../../.gitbook/assets/create\_connector\_button (7) (4).png>)
 
 1. Select **Datadog** as **type** and fill in all fields. Enter a name and the API key that you created [in the last step](outbound.md).
 
@@ -40,11 +40,11 @@ description: Create events in Datadog from iLert alerts.
 
 1. Select **Datadog** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the alert action name.
 
-![](<../../.gitbook/assets/ilert (66).png>)
+![](<../../.gitbook/assets/iLert (80).png>)
 
 1. Finished! You can now test the alert action by clicking on the button **Test this alert action**. Then a test ticket will be published in Datadog.
 
-![](<../../.gitbook/assets/ilert (72).png>)
+![](<../../.gitbook/assets/iLert (81).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

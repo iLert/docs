@@ -64,7 +64,7 @@ description: Create tickets in TOPdesk based on alert events from iLert
 
 1. Select **TOPdesk** as **type** and fill in all fields. Enter a name, the URL of your TOPdesk server, username and password of the API user that you created [in the last step](outbound.md).
 
-![](<../../.gitbook/assets/ilert (68).png>)
+![](<../../.gitbook/assets/iLert (69).png>)
 
 1. Go to the alert sources tab and open the alert source whose alerts you want to publish in TOPdesk. Click on **Alert actions** and then on **Create alert action**.
 
@@ -72,11 +72,11 @@ description: Create tickets in TOPdesk based on alert events from iLert
 
 1. Select **TOPdesk** as the **type**, select the connector created in step 3, fill in all fields. In the **Name** field, specify the alert action name.
 
-![](<../../.gitbook/assets/ilert (62).png>)
+![](<../../.gitbook/assets/iLert (70).png>)
 
 1. Finished! You can now test the alert action by clicking on the button **Test this connection**. Then a test ticket will be published in TOPdesk.
 
-![](<../../.gitbook/assets/ilert (69).png>)
+![](<../../.gitbook/assets/iLert (71).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

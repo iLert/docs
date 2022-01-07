@@ -14,7 +14,7 @@ Email integration is the easiest way to integrate iLert with your monitoring sys
 4. Enter an email address for the alert source
 5. Save the email alert source
 
-![](../../.gitbook/assets/screenshot-2020-06-18-at-16.21.49.png)
+![](<../../.gitbook/assets/Screenshot 2020-06-18 at 16.21.49.png>)
 
 Your email alert source is now active. Any email sent to the email address will create an alert in iLert and trigger the alerting process using the alert source's escalation policy. The default setting creates an alert in iLert for each incoming email. The next section explains advanced settings, such as deduplicating or filtering emails.
 

@@ -14,15 +14,15 @@ description: >-
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_16\_37.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_37.png)
 
 1. Enter a name and select your desired escalation policy. Select "Kapacitor" as the **Integration Type** and click on **Save**.
 
-![](<../.gitbook/assets/ilert (41).png>)
+![](<../.gitbook/assets/iLert (50).png>)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the alert rule in Kapacitor.
 
-![](<../.gitbook/assets/ilert (38).png>)
+![](<../.gitbook/assets/iLert (51).png>)
 
 ## In Kapacitor <a href="#in-kapacitor" id="in-kapacitor"></a>
 
@@ -30,11 +30,11 @@ description: >-
 
 1. Go to Chronograph dashboard, then to **Alert Rule** and click on the **Create Rule** button
 
-![](../.gitbook/assets/screenshot\_2021-03-29\_at\_15\_11\_55.png)
+![](../.gitbook/assets/Screenshot\_2021-03-29\_at\_15\_11\_55.png)
 
 1. On the next page,  define your alert conditions, paste the **Webhook URL** that you generated in iLert, define alert summary and click on the **Save Rule** button
 
-![](../.gitbook/assets/chronograf.png)
+![](../.gitbook/assets/Chronograf.png)
 
 Finished! Your Kapacitor alerts will now create alerts in iLert.
 

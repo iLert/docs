@@ -15,11 +15,11 @@ SignalFx enables real-time cloud monitoring and observability for infrastructure
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "SignalFx" as the **Integration Type** and click on **Save**.
 
-![](<../.gitbook/assets/ilert (31).png>)
+![](<../.gitbook/assets/iLert (30).png>)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the hook in SignalFx.
 
-![](<../.gitbook/assets/ilert (32).png>)
+![](<../.gitbook/assets/iLert (31).png>)
 
 ## In SignalFx <a href="#in-splunk" id="in-splunk"></a>
 
@@ -27,15 +27,15 @@ SignalFx enables real-time cloud monitoring and observability for infrastructure
 
 1. Go to SignalFx and then to **Alerts.** Create a detector or edit an existing detector for triggering alerts.
 
-![](../.gitbook/assets/detectors.png)
+![](../.gitbook/assets/Detectors.png)
 
 1. Choose the rule that you would like to apply, then click **Edit.** In the **Alert recipients** section, click **Add Recipient,** select **Webhook -> Custom...**
 
-![](../.gitbook/assets/detector\_-\_my\_detector.png)
+![](../.gitbook/assets/Detector\_-\_my\_detector.png)
 
 1. On the modal window paste the **Webhook URL** that you generated in iLert and click on **Update**
 
-![](<../.gitbook/assets/detector\_-\_my\_detector (1).png>)
+![](<../.gitbook/assets/Detector\_-\_my\_detector (1).png>)
 
 Finished! Your SignalFx alerts will now create alerts in iLert.
 

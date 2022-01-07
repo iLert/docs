@@ -10,7 +10,7 @@ description: >-
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
-![](<../.gitbook/assets/ilert-create-alert (3).png>)
+![](<../.gitbook/assets/ilert-create-alert (5).png>)
 
 * Enter a name and select your desired escalation policy.  &#x20;
 * Select "**FreshService**" as the **Integration Type** and click **Save**.

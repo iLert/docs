@@ -6,13 +6,13 @@ Recurring schedules are a flexible way to create complex recurring schedules wit
 
 To create a recurring schedule, navigate to **On-call schedules,** click on **Create new on-call schedule** and chose **Create recurring schedule** as the schedule type.
 
-![](<../../.gitbook/assets/image (29).png>)
+![](<../../.gitbook/assets/image (34).png>)
 
 ### Step 1: Add users
 
 Add the users from the dropdown menu. Users will rotate in the order they are listed. You can change the order via drag and drop and remove a user by clicking on the x icon.
 
-![](<../../.gitbook/assets/image (36).png>)
+![](<../../.gitbook/assets/image (35).png>)
 
 ### Step 2: Set on-call rotation
 
@@ -24,6 +24,6 @@ In the **Starts on** field, chose the start time of your schedule. Note that the
 
 By default, the on-call coverage is 24 hours a day, 7 days a week, i.e. users are on-call all the time. If you want to restrict times on-call, e.g. to outside working hours only, you can do so in this step.
 
-![](<../../.gitbook/assets/image (33).png>)
+![](<../../.gitbook/assets/image (36).png>)
 
 Restricting your on-call coverage will result in gaps in your schedule, where no one is on call. If an alert occurs during a time with no coverage in your schedule, then the alert will be escalated immediately to the next escalation level, without waiting for the escalation timeout. If no one is on-call on the entire escalation policy, no one will be notified.&#x20;

@@ -9,32 +9,32 @@ description: >-
 
 ## Setup a new AlarmManager alert souce in iLert
 
-![](../.gitbook/assets/screenshot-2020-08-19-at-10.13.37.png)
+![](<../.gitbook/assets/Screenshot 2020-08-19 at 10.13.37.png>)
 
 Navigate to the alert sources tab in iLert and create a new alert source.
 
-![](../.gitbook/assets/screenshot-2020-08-19-at-10.14.41.png)
+![](<../.gitbook/assets/Screenshot 2020-08-19 at 10.14.41.png>)
 
 Select **Kentix AlarmManager** as integraiton type, configure according to your liking and save the new alert source.
 
-![](../.gitbook/assets/screenshot-2020-08-19-at-10.15.46.png)
+![](<../.gitbook/assets/Screenshot 2020-08-19 at 10.15.46.png>)
 
 Copy the provided url by the freshly created AlarmManager alert source, as we will need it later to create the a Webhook resource in the AlarmManager.
 
 ## Configuring Webhook in the AlarmManager
 
-![](../.gitbook/assets/screenshot-2020-07-31-at-19.15.10.png)
+![](<../.gitbook/assets/Screenshot 2020-07-31 at 19.15.10.png>)
 
 Login to your AlarmManager (_default:_ [http://192.168.100.222](http://192.168.100.222) _admin:password_)
 
 ### Creating a Webhook
 
-![](../.gitbook/assets/screenshot-2020-07-31-at-19.16.46.png)
+![](<../.gitbook/assets/Screenshot 2020-07-31 at 19.16.46.png>)
 
 On the side menu click on **Configuration** and choose the **Webhooks** tab.\
 Click on the **plus icon** to create a new webhook.
 
-![](../.gitbook/assets/screenshot-2020-07-31-at-19.18.40.png)
+![](<../.gitbook/assets/Screenshot 2020-07-31 at 19.18.40.png>)
 
 Fill out all required fields as shown in the screenshot, paste your copied url from your iLert Kentix AlarmManager alert source, as well as the provided data payload template below:
 
@@ -75,11 +75,11 @@ Click on the save icon in the top right.
 
 ### Assigning Webhook to Alarmzone
 
-![](../.gitbook/assets/screenshot-2020-07-31-at-19.19.39.png)
+![](<../.gitbook/assets/Screenshot 2020-07-31 at 19.19.39.png>)
 
 Navigate to the root **dashboard** view (top left item in sidebar), choose the Alarmzone which you want to connecto to your iLert alert source. Click on the **cog** and and select **Edit**.
 
-![](../.gitbook/assets/screenshot-2020-08-18-at-15.14.12.png)
+![](<../.gitbook/assets/Screenshot 2020-08-18 at 15.14.12.png>)
 
 Scroll all the way down to the Alarmzone's **Webhooks** configuration.\
 And click on the **plus icon** to create a new assignment.
@@ -98,4 +98,4 @@ However iLert will not create a new alert per alarm type if an ongoing alert of 
 
 When all alarms of the device fall back to normal state, iLert will automatically resolve the opened alert.
 
-![](../.gitbook/assets/screenshot-2020-08-18-at-17.18.47.png)
+![](<../.gitbook/assets/Screenshot 2020-08-18 at 17.18.47.png>)

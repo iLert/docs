@@ -12,7 +12,7 @@ Beforehand make sure that you have created an Azure Function function in your Mi
 
 Go to the connectors tab of your account.
 
-![](<../.gitbook/assets/s1 (1).png>)
+![](<../.gitbook/assets/s1 (1) (1).png>)
 
 And create a new connector. Choose Azure Function as type (you may add the additional `Authorization` parameter as stated in the beginning of this doc.)
 

@@ -11,7 +11,7 @@ description: >-
 
 1. Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
-![](<../.gitbook/assets/ilert-create-alert (4).png>)
+![](<../.gitbook/assets/ilert-create-alert (3).png>)
 
 1.  Enter a name and select your desired escalation policy.  &#x20;
 
@@ -29,11 +29,11 @@ description: >-
 
 ![](../.gitbook/assets/jumpcloud-adddevic.png)
 
-![](../.gitbook/assets/jumpcloud-1-add-device.png)
+![](<../.gitbook/assets/Jumpcloud 1 - Add Device (1).png>)
 
 1. Add **Command** to by clicking **Command** on the left side Menu and Add by clicking the plus Green Button
 
-![](../.gitbook/assets/jumpcloud-2-add-command.png)
+![](<../.gitbook/assets/Jumpcloud 2 - Add Command.png>)
 
 1. After that you need to enter the command manually, put the following in the **Command** field, make sure that you replace `API_KEY` and the URL that are received from iLert, and replace the Test Incident with the proper summary, you can also add more information to the incident based on the [Event creation API](https://api.ilert.com/api-docs/#tag/Events/paths/\~1events/post)&#x20;
 

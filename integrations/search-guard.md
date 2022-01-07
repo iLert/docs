@@ -13,11 +13,11 @@ description: >-
 1. Go to the **Alert sources** tab and click on **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "Search Guard" as the **Integration Type** and click on **Save**.
 
-![](../.gitbook/assets/screenshot\_10\_02\_21\_\_22\_47.png)
+![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_22\_47.png)
 
 1. On the next page a **Search Guard URL** is generated. You will need this URL below when setting up the webhook action in Search Guard.
 
-![](../.gitbook/assets/screenshot\_10\_02\_21\_\_22\_48.png)
+![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_22\_48.png)
 
 ## In Search Guard <a href="#in-topdesk" id="in-topdesk"></a>
 
@@ -25,19 +25,19 @@ description: >-
 
 1. Go to Search Guard to open the main menu and choose **Search Guard -> Signals**
 
-![](../.gitbook/assets/screenshot\_10\_02\_21\_\_22\_49.png)
+![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_22\_49.png)
 
 1. On the next page click on the **New** button to create a new watch
 
-![](../.gitbook/assets/screenshot\_10\_02\_21\_\_22\_53.png)
+![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_22\_53.png)
 
 1. On the next view name the watch e.g. **My Watch** scroll down and configure the watch to your liking.
 
-![](../.gitbook/assets/screenshot\_10\_02\_21\_\_22\_56.png)
+![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_22\_56.png)
 
 1. Scroll down to **Actions** and add the **Webhook** action
 
-![](../.gitbook/assets/screenshot\_10\_02\_21\_\_23\_00.png)
+![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_23\_00.png)
 
 1. Name the action e.g. **iLert**, paste the **Webhook URL** that you generated in iLert, change headers as required and paste the following **json** as body template
 
@@ -50,7 +50,7 @@ description: >-
 }
 ```
 
-![](../.gitbook/assets/screenshot\_10\_02\_21\_\_23\_06.png)
+![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_23\_06.png)
 
 1.  Click on **Create** to save the watch. &#x20;
 

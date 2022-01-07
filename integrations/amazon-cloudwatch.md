@@ -14,7 +14,7 @@ With iLert's CloudWatch integration, you can automatically create alerts in iLer
 2. Assign name and select escalation chain
 3. Select and save "Amazon CloudWatch" in the Integration Type field.
 
-![](<../.gitbook/assets/cw1 (1).png>)
+![](<../.gitbook/assets/cw1 (1) (1).png>)
 
 1. The URL shown on the next page is the HTTP endpoint for the SNS topic in Amazon and will be needed in later steps. &#x20;
 

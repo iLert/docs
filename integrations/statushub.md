@@ -20,7 +20,7 @@ description: >-
 
 * On the next page, an **StatusHub URL** is generated. You will need the URL for the webhook configuration
 
-![](<../.gitbook/assets/ilert-url (2).png>)
+![](<../.gitbook/assets/ilert-url (1).png>)
 
 
 

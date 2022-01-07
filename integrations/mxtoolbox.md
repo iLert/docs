@@ -14,15 +14,15 @@ MxToolbox supports global Internet operations by providing free, fast and accura
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_16\_37.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_37.png)
 
 1. Enter a name and select your desired escalation policy. Select "MXToolBox" as the **Integration Type** and click on **Save**.
 
-![](<../.gitbook/assets/ilert (50).png>)
+![](<../.gitbook/assets/iLert (36).png>)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the notification callback in MXToolBox.
 
-![](<../.gitbook/assets/ilert (39).png>)
+![](<../.gitbook/assets/iLert (37).png>)
 
 ## In MXToolBox <a href="#in-splunk" id="in-splunk"></a>
 
@@ -30,11 +30,11 @@ MxToolbox supports global Internet operations by providing free, fast and accura
 
 1. Go to MXToolBox, then to **Notifications** and then create a new Notification policy or change the Default notifications policy
 
-![](<../.gitbook/assets/mozilla\_firefox (1).png>)
+![](../.gitbook/assets/Mozilla\_Firefox.png)
 
 1. On the next page,  click on the **Custom** tile
 
-![](../.gitbook/assets/mozilla\_firefox.png)
+![](<../.gitbook/assets/Mozilla\_Firefox (1).png>)
 
 1. Open the notification policy, in the **Callback** section paste the **Webhook URL** that you generated in iLert, in the **Format** section choose **Default.** Make sure that the **Webhook URL** was **\*\*saved and the** payload **matches the following format: \*\***
 

@@ -35,15 +35,15 @@ In both cases this regex will extract from **Service:** to **is** in the example
 
 By adjusting a few more settings for the email alert source's resolve options, we can also make use of the third part of the subject the state and let all **OK** containing subjects resolve open alerts automatically.
 
-![](../../.gitbook/assets/screenshot-2020-09-02-at-15.02.15.png)
+![](<../../.gitbook/assets/Screenshot 2020-09-02 at 15.02.15.png>)
 
 In action the timeline will also show us how the incoming subjects change the status of the alert.
 
-![](../../.gitbook/assets/screenshot-2020-09-03-at-17.49.05.png)
+![](<../../.gitbook/assets/Screenshot 2020-09-03 at 17.49.05.png>)
 
 And with the help of the alert source's **email log** we can also see how the incoming emails are treated (emails that fail to pass filters will also show up here, in case you need more information on why emails are not opening or closing alerts)
 
-![](../../.gitbook/assets/screenshot-2020-09-02-at-15.01.59.png)
+![](<../../.gitbook/assets/Screenshot 2020-09-02 at 15.01.59.png>)
 
 {% hint style="info" %}
 You may always reach out to our team when having any kind of questions for your integration use case.

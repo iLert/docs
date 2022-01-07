@@ -17,11 +17,11 @@ The A2A pub/sub functionality provides topics for high-throughput, push-based, m
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "Amazon SNS" as the **Integration Type** and click on **Save**.
 
-![](<../../.gitbook/assets/ilert (44).png>)
+![](<../../.gitbook/assets/iLert (45).png>)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the SNS subscription in AWS Console.
 
-![](<../../.gitbook/assets/ilert (49).png>)
+![](<../../.gitbook/assets/iLert (46).png>)
 
 ## In AWS Console <a href="#in-aws-console" id="in-aws-console"></a>
 
@@ -33,19 +33,19 @@ If you already have an Amazon SNS topic, please skip the steps 1 and 2.
 
 1. Go to the AWS Console and then to **Amazon SNS**, then click on the **Topic** link and on the **Create topic** button**.**
 
-![](<../../.gitbook/assets/simple\_notification\_service (7).png>)
+![](<../../.gitbook/assets/Simple\_Notification\_Service (4).png>)
 
 1. On the next page, choose **Standard** topic, name the topic e.g. iLert and click on the **Create topic** button
 
-![](<../../.gitbook/assets/simple\_notification\_service (4).png>)
+![](<../../.gitbook/assets/Simple\_Notification\_Service (5).png>)
 
 1. On the topic overview page, click on the **Create subscription** button
 
-![](<../../.gitbook/assets/simple\_notification\_service (5).png>)
+![](<../../.gitbook/assets/Simple\_Notification\_Service (6).png>)
 
 1. On the next page, in the **Protocol** section choose **HTTPS**, on the **Endpoint** section paste the **Webhook URL** that you generated in iLert and click on the **Create subscription** button
 
-![](<../../.gitbook/assets/simple\_notification\_service (6).png>)
+![](<../../.gitbook/assets/Simple\_Notification\_Service (7).png>)
 
 {% hint style="warning" %}
 Do not activate the checkbox **Enable raw message delivery**. iLert won't process those messages otherwise.

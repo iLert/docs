@@ -18,11 +18,11 @@ With iLert's Prometheus integration, you can automatically create alerts in iLer
 2. Give it a name and chose an escalation policy
 3. Select Prometheus as the **Integration type**
 
-![](../.gitbook/assets/screenshot-2021-04-26-at-13.04.18.png)
+![](<../.gitbook/assets/Screenshot 2021-04-26 at 13.04.18.png>)
 
 1. A webhook URL will be generated on the next page. You will need this URL later in Prometheus.
 
-![](../.gitbook/assets/screenshot-2021-04-26-at-13.05.18.png)
+![](<../.gitbook/assets/Screenshot 2021-04-26 at 13.05.18.png>)
 
 ## In Prometheus Alertmanager: add webhook receiver <a href="#add-webhook" id="add-webhook"></a>
 
@@ -61,7 +61,7 @@ iLert's Prometheus integration supports dynamic escalation policy routing with t
 
 In iLert navigate to the **escalation policies** that you want to route to and enter a unique routing key for for each policy.
 
-![](<../.gitbook/assets/image (55) (1).png>)
+![](<../.gitbook/assets/image (55) (1) (1).png>)
 
 In your Prometheus **alert rule** yml add a label called `ilert_routingkey` and set its value to the policy's routing key that you want to assign to the alert e.g. `ilert_routingkey: policy1`
 

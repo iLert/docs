@@ -1,5 +1,7 @@
 ---
-description: The most important concepts in iLert are explained on this page.
+description: >-
+  iLert getting started guide. The most important concepts in iLert are
+  explained on this page.
 ---
 
 # Core concepts
@@ -14,9 +16,8 @@ An alert is an issue that requires immediate attention and needs to be resolved.
 
 An alert can have the following states:
 
-| Status     | Description                                                                                                       |
-| ---------- | ----------------------------------------------------------------------------------------------------------------- |
 | `PENDING`  | The alert hasn't been acknowledged yet and will escalate until the alert is either acknowledged or resolved.      |
+| ---------- | ----------------------------------------------------------------------------------------------------------------- |
 | `ACCEPTED` | The user to whom the alert is assigned to is working on resolving the alert and the escalation process is halted. |
 | `RESOLVED` | The alert is resolved and no more notifications are sent. A resolved alert cannot be opened again.                |
 
@@ -26,15 +27,15 @@ An alert source represents the connection between your tools (usually a monitori
 
 iLert provides the following inbound integration options:
 
-|                                                                  |                                                                                                                                                                                              |
-| ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**Tool integrations**](integrations/jira/)                      | These are pre-built integrations by iLert and work-out-of the box with your monitoring tools. If you're missing a tool, feel free to suggest an integration that you'd like to see in iLert. |
-| [**Email integration**](integrations/email/)                     | Forward emails to an alert source's email address to integrate with iLert.                                                                                                                   |
-| [**Event API**](https://api.ilert.com/api-docs/)                 | Write your own integration using our easy-to-use Event API.                                                                                                                                  |
-| ****[**SMS integration**](integrations/sms-integration.md)****   | Send alerts to iLert via SMS.                                                                                                                                                                |
-| [**Hearbeat monitoring**](uptime-monitors/heartbeat-monitoring/) | A heartbeat alert source will automatically create an alert if it does not receive a heartbeat signal from your app at regular intervals.                                                    |
+|                                                                           |                                                                                                                                                                                              |
+| ------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**Tool integrations**](integrations/jira/)                               | These are pre-built integrations by iLert and work-out-of the box with your monitoring tools. If you're missing a tool, feel free to suggest an integration that you'd like to see in iLert. |
+| [**Email integration**](integrations/email/)                              | Forward emails to an alert source's email addres to integrate with iLert.                                                                                                                    |
+| [**Event API**](https://api.ilert.com/api-docs/)                          | Write your own integration using our easy-to-use Event API.                                                                                                                                  |
+| **SMS integration**                                                       | Send alerts to iLert via SMS.                                                                                                                                                                |
+| \<b>\</b>[**Hearbeat monitoring**](uptime-monitors/heartbeat-monitoring/) | A heartbeat alert source will automatically create an alert if it does not receive a heartbeat signal from your app at regular intervals.                                                    |
 
-![](<.gitbook/assets/image (2).png>)
+![](<.gitbook/assets/image (1).png>)
 
 ## Connectors and alert actions (aka outbound integrations)
 
@@ -89,4 +90,4 @@ To set your notification preferences
 2. Go to the **Notification settings** tab
 3. Change your notification preferences and click **Save**
 
-![](.gitbook/assets/screenshot-2020-11-25-at-13.30.30.png)
+![](<.gitbook/assets/Screenshot 2020-11-25 at 13.30.30.png>)

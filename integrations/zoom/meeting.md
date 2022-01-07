@@ -16,31 +16,31 @@ To set up the integration, you must have admin rights in iLert.
 
 1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
 
-![](../../.gitbook/assets/screenshot\_16\_03\_21\_\_15\_46.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_46.png)
 
 1. Click the **Add Connector** button
 
-![](../../.gitbook/assets/screenshot\_16\_03\_21\_\_15\_48.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_48.png)
 
 1. On the next page, choose **Zoom Meeting** as type, name the connector and click on the save button to authorize iLert App with your Zoom account.
 
-![](../../.gitbook/assets/screenshot\_16\_03\_21\_\_15\_51.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_51.png)
 
 1. On the next page, agree with the requested permissions and click on the **Authorize** button
 
-![](../../.gitbook/assets/screenshot\_16\_03\_21\_\_15\_53.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_53.png)
 
 1. Go to the alert sources tab and open the alert source whose alerts you want to create Zoom Meeting. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
-![](../../.gitbook/assets/screenshot\_16\_03\_21\_\_16\_04.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_04.png)
 
 1. On the next page choose **Zoom Meeting** as the type, choose the connector created in step 3, name it, choose **Trigger mode,** optionally **\*\*enter meeting password if you want to protect your meetings and click on the** Save\*\* button.
 
-![](../../.gitbook/assets/screenshot\_16\_03\_21\_\_16\_06.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_06.png)
 
 1. Finished! Now a Zoom Meeting will be created  for each alert in automatic trigger mode or via manual alert action.
 
-![](../../.gitbook/assets/screenshot\_16\_03\_21\_\_16\_10.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_10.png)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

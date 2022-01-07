@@ -14,7 +14,7 @@ Beforehand make sure that you have created an AWS lambda function in your AWS pr
 
 Go to the connectors tab of your account.
 
-![](<../.gitbook/assets/s1 (2).png>)
+![](<../.gitbook/assets/s1 (2) (1).png>)
 
 And create a new connector. Choose AWS lambda as type (you may add the additional `Authorization` parameter as stated in the beginning of this doc.)
 
@@ -30,6 +30,6 @@ Visit the alert source (view) whose alerts should trigger your serverless functi
 
 Choose AWS lambda as type and select your previously created connector. Enter a name and the url targeting your public function. You may also customize the HTTP request body that is used to invoke your function.
 
-![](<../.gitbook/assets/ilert (57).png>)
+![](<../.gitbook/assets/iLert (57).png>)
 
 Click on save to create the alert action, you may test the alert action in the following screen.

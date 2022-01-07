@@ -10,30 +10,30 @@ With the native iLert notification integration in Checkmk, you can automatically
 
 1. Create a new alert source in iLert
 
-![](../../.gitbook/assets/mk1.png)
+![](<../../.gitbook/assets/mk1 (1).png>)
 
 1. Enter a name (e.g. "checkmk server") and select your desired escalation policy.
 2. Select the type **checkmk** and click save.
 
-![](<../../.gitbook/assets/ilert (23).png>)
+![](<../../.gitbook/assets/iLert (22).png>)
 
 1. An API key is generated. You will need it below when setting up the notification configuration in checkmk.
 
-![](<../../.gitbook/assets/ilert (22).png>)
+![](<../../.gitbook/assets/iLert (23).png>)
 
 ## In checkmk: configure iLert notification <a href="#configure-ilert-plugin" id="configure-ilert-plugin"></a>
 
 1. Navigate to the **Setup** --> **Events** --> **Notifications**
 
-![](../../.gitbook/assets/picture-1.png)
+![](<../../.gitbook/assets/Picture 1.png>)
 
 1. In the **Notification configuration**, click on **Add rule**
 
-![](../../.gitbook/assets/picture-2.png)
+![](<../../.gitbook/assets/Picture 2.png>)
 
 1. In the **Notification Method** section choose iLert method. Enter enter the **API key** and click on **Save**.
 
-![](../../.gitbook/assets/picture-4.png)
+![](<../../.gitbook/assets/Picture 4.png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

@@ -15,11 +15,11 @@ description: >-
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "X-Pack Alerting (Elasticsearch Watcher)" as the **Integration Type** and click on **Save**.
 
-![](<../.gitbook/assets/ilert (36).png>)
+![](<../.gitbook/assets/iLert (43).png>)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the Watcher in X-Pack.
 
-![](<../.gitbook/assets/ilert (46).png>)
+![](<../.gitbook/assets/iLert (44).png>)
 
 ## In X-Pack Alerting <a href="#in-splunk" id="in-splunk"></a>
 
@@ -33,11 +33,11 @@ To set up the integration, you must have X-Pack license with Watcher feature ena
 
 1. Go to Kibana and then to **Management -> Watcher**, then click on the **Create** button and on the **Create advanced watch** button**.**
 
-![](<../.gitbook/assets/kibana (1).png>)
+![](../.gitbook/assets/Kibana.png)
 
 1. On the next page, name the watcher e.g. iLert, define conditions and actions the **Webhook URL** that you generated in iLert as follows:
 
-![](../.gitbook/assets/kibana.png)
+![](<../.gitbook/assets/Kibana (1).png>)
 
 ```
 {

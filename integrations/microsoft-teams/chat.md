@@ -21,15 +21,15 @@ To install the bot application, you must have admin rights in Microsoft Teams.
 1. Open the application in Microsoft Teams: [https://teams.microsoft.com/l/app/8f3b287d-df09-44e2-93b3-35e0dfa90756](https://teams.microsoft.com/l/app/8f3b287d-df09-44e2-93b3-35e0dfa90756)
 2. Add the iLert bot to a team
 
-![](<../../.gitbook/assets/general\_\_demo\_\_\_\_microsoft\_teams (1).png>)
+![](../../.gitbook/assets/General\_\_Demo\_\_\_\_Microsoft\_Teams.png)
 
 1. Choose a team and channel name and click on the **Set up a bot** button
 
-![](<../../.gitbook/assets/general\_\_demo\_\_\_\_microsoft\_teams (2).png>)
+![](<../../.gitbook/assets/General\_\_Demo\_\_\_\_Microsoft\_Teams (1).png>)
 
 1. You should have received a welcome message in the previously selected channel, if you do not see the message or you want to reconnect use the `@iLert connect` command  to bring it up again. Click on the **Connect** button in the message, this will take you to iLert's login page to finish your connection.
 
-![](../../.gitbook/assets/general\_\_demo\_\_\_\_microsoft\_teams.png)
+![](<../../.gitbook/assets/General\_\_Demo\_\_\_\_Microsoft\_Teams (2).png>)
 
 {% hint style="info" %}
 **Admin permission required**
@@ -39,7 +39,7 @@ To set up the integration, you must have admin rights in iLert.
 
 1. Login to the iLert account which you want to connect to Microsoft Teams and iLert will automatically setup the connection for you - _depending on your login state in Microsoft 365 you will have to login to Microsoft again, afterwards you will be automatically taken back to iLert_ and you should see a success message with your newly created connector.
 
-![](<../../.gitbook/assets/ilert (98).png>)
+![](<../../.gitbook/assets/iLert (97).png>)
 
 ## In iLert <a href="#in-ilert" id="in-ilert"></a>
 
@@ -49,15 +49,15 @@ Now that the initial connection between your Microsoft Teams and iLert accounts 
 
 1. Go to the alert sources tab and open the alert source whose alert's updates you want to publish into Microsoft Teams channels. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
-![](../../.gitbook/assets/screenshot\_16\_03\_21\_\_16\_04.png)
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_04.png)
 
 1. On the next page choose **Microsoft Teams** as the type, choose the connector created before, name your action**,** choose **Chat** as Teams Action, choose **Your team**, then choose **Your channel** and click on the **Save** button.
 
-![](<../../.gitbook/assets/ilert (97).png>)
+![](<../../.gitbook/assets/iLert (98).png>)
 
 1. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted in your Microsoft Teams channel.
 
-![](../../.gitbook/assets/general\_\_roman\_\_\_\_microsoft\_teams.png)
+![](../../.gitbook/assets/General\_\_Roman\_\_\_\_Microsoft\_Teams.png)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

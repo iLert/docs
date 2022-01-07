@@ -15,11 +15,11 @@ description: >-
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "API" as the **Integration Type** and click on **Save**.
 
-![](<../.gitbook/assets/ilert (28).png>)
+![](<../.gitbook/assets/iLert (28).png>)
 
 1. On the next page, an API Key is generated. You will need this API Key below when setting up the Consul-Alerts tool.
 
-![](<../.gitbook/assets/ilert (29).png>)
+![](<../.gitbook/assets/iLert (29).png>)
 
 ## In Consul Server <a href="#in-topdesk" id="in-topdesk"></a>
 

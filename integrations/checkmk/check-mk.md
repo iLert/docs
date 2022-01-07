@@ -10,7 +10,7 @@ With the iLert checkmk notification plugin you can easily integrate checkmk into
 
 1. Create a new alert source in iLert
 
-![](../../.gitbook/assets/mk1.png)
+![](<../../.gitbook/assets/mk1 (1).png>)
 
 1. Select the type **Nagios / Icinga** and click save.
 

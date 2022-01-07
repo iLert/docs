@@ -10,11 +10,11 @@ With the iLert Autotask inbound integration, you can create alerts in iLert base
 
 1. Sign in to Autotask and then go to **Admin -> Resources (Users)**
 
-![](../../.gitbook/assets/autotask1.png)
+![](<../../.gitbook/assets/autotask1 (1).png>)
 
 1. Click the **New** button and then navigate to **New API User**
 
-![](../../.gitbook/assets/autotask2.png)
+![](<../../.gitbook/assets/autotask2 (1).png>)
 
 1. In the **First Name** section, enter a first name eg. iLert
 2. In the **Last Name** section, enter a last name eg. API
@@ -36,47 +36,47 @@ With the iLert Autotask inbound integration, you can create alerts in iLert base
 4. In the **Autotask Settings -> Secret** section, paste the API user secret generated above
 5. select your desired escalation policy and click the **Save** button
 
-![](<../../.gitbook/assets/ilert (1).png>)
+![](<../../.gitbook/assets/iLert (2).png>)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the extension callout in Autotask.
 
-![](../../.gitbook/assets/autotask6.png)
+![](<../../.gitbook/assets/autotask6 (1).png>)
 
 ## In Autotask: Create Extension Callout <a href="#create-extension-callout" id="create-extension-callout"></a>
 
 1. Go to Autotask and then to **Admin -> Extensions & Integrations**
 
-![](../../.gitbook/assets/autotask7.png)
+![](<../../.gitbook/assets/autotask7 (2).png>)
 
 1. Click the **Other Extensions & Tools** panel and then click on the **Extension Callout (Tickets)** link
 
-![](../../.gitbook/assets/autotask8.png)
+![](<../../.gitbook/assets/autotask8 (2).png>)
 
 1. Click on **New Extension Callout**&#x20;
 
-![](../../.gitbook/assets/autotask9.png)
+![](<../../.gitbook/assets/autotask9 (1).png>)
 
 1. In the **Name** section, enter a name eg. iLert
 2. In the **URL** section, paste the **Webhook URL** that you generated in iLert
 3. Ensure that **Active** is selected and click the **Save & Close** button
 
-![](../../.gitbook/assets/autotask10.png)
+![](<../../.gitbook/assets/autotask10 (2).png>)
 
 ## In Autotask: Create Workflow Rule <a href="#create-workflow-rule" id="create-workflow-rule"></a>
 
 1. Go to Autotask and then to **Admin -> Workflow Rules**
 
-![](../../.gitbook/assets/autotask11.png)
+![](<../../.gitbook/assets/autotask11 (2).png>)
 
 1. Click the **New** button
 
-![](../../.gitbook/assets/autotask12.png)
+![](<../../.gitbook/assets/autotask12 (1).png>)
 
 1. In the **General -> Workflow Rule Name** section, enter a name eg. iLert
 2. Ensure that **Active** is selected
 3. In the **Events -> CREATED/EDITED** section, activate the **Created by** and the **Edited by** fields and choose **Anyone**
 
-![](../../.gitbook/assets/autotask13.png)
+![](<../../.gitbook/assets/autotask13 (1).png>)
 
 1. Scroll down to the **Actions** panel and in the **Then Execute Extension Callout** section choose the **iLert Callout** that you created above
 2. Click on the **Save & Close** button

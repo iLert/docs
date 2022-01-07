@@ -44,7 +44,7 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 1. Navigate to **Manage Alerts** -> **Notification Channels**
 
-![](<../.gitbook/assets/image (52).png>)
+![](<../.gitbook/assets/image (52) (1).png>)
 
 2\. Click on **Add Notification Channel**; a popup will appear
 

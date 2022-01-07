@@ -11,11 +11,11 @@ description: Create alerts in iLert based on Azure Logs queries.
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "Azure Alerts" as the **Integration Type** and click on **Save**.
 
-![](<../../.gitbook/assets/ilert (35).png>)
+![](<../../.gitbook/assets/iLert (34).png>)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the alert action in Azure Alerts.
 
-![](<../../.gitbook/assets/ilert (34).png>)
+![](<../../.gitbook/assets/iLert (35).png>)
 
 ## In Azure <a href="#in-splunk" id="in-splunk"></a>
 
@@ -23,15 +23,15 @@ description: Create alerts in iLert based on Azure Logs queries.
 
 1. Go to [**Azure Portal**](https://portal.azure.com) and then to **Monitor.**&#x20;
 
-![](<../../.gitbook/assets/home\_-\_microsoft\_azure (5).png>)
+![](<../../.gitbook/assets/Home\_-\_Microsoft\_Azure (6).png>)
 
 1. Then go to **Logs** and create a query for which you’d like to create an alert.
 
-![](../../.gitbook/assets/monitor\_-\_microsoft\_azure.png)
+![](../../.gitbook/assets/Monitor\_-\_Microsoft\_Azure.png)
 
 1. Then click on the **New alert rule** button**.**
 
-![](../../.gitbook/assets/logs\_-\_microsoft\_azure.png)
+![](../../.gitbook/assets/Logs\_-\_Microsoft\_Azure.png)
 
 1. On the next page change the **Condition** for the alerts and click on the **Add action groups.**
 

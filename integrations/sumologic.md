@@ -12,15 +12,15 @@ description: >-
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_16\_37.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_37.png)
 
 1. Enter a name and select your desired escalation policy. Select "Sumologic" as the **Integration Type** and click on **Save**.
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_16\_38.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_38.png)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the connection in Sumologic.
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_16\_39.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_39.png)
 
 ## In Sumologic <a href="#in-splunk" id="in-splunk"></a>
 
@@ -28,15 +28,15 @@ description: >-
 
 1. Go to Sumologic, then to **Manage Data -> Alerts**, click on the **Connections** tab and then on the **Add (+)** button
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_16\_42.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_42.png)
 
 1. On the next page,  click on the **Webhook** tile
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_16\_44.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_44.png)
 
 1. On the next page, name the connection e.g. iLert, paste the **Webhook URL** that you generated in iLert, in the **Payload** section following payload object, then click on the **Save** button
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_16\_47.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_47.png)
 
 ```javascript
 {

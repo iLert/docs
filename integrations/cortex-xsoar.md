@@ -13,11 +13,11 @@ description: Create iLert alerts directly from Cortex XSOAR (formerly Demisto).
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "Cortex XSOAR" as the **Integration Type** and click on **Save**.
 
-![](<../.gitbook/assets/ilert (54).png>)
+![](<../.gitbook/assets/iLert (54).png>)
 
 1. On the next page, an **API Key** is generated. You will need this API Key below when setting up the Cortex XSOAR integration.
 
-![](<../.gitbook/assets/ilert (55).png>)
+![](<../.gitbook/assets/iLert (55).png>)
 
 ## In Cortex XSOAR Server <a href="#in-cortex-xsoar" id="in-cortex-xsoar"></a>
 
@@ -25,11 +25,11 @@ description: Create iLert alerts directly from Cortex XSOAR (formerly Demisto).
 
 1. Go to Cortex XSOAR, then to **Settings -> Integrations**, search for **iLert** integration and click on the **Add instance** button
 
-![](<../.gitbook/assets/settings (2).png>)
+![](../.gitbook/assets/Settings.png)
 
 1. On the modal window, name the instance, paste the iLert **API Key** that that you generated in iLert and click on the **Save & exit** button
 
-![](<../.gitbook/assets/settings (1).png>)
+![](<../.gitbook/assets/Settings (1).png>)
 
 1. Type some available iLert command to test the integration, e.g.
 
@@ -37,7 +37,7 @@ description: Create iLert alerts directly from Cortex XSOAR (formerly Demisto).
 !iLert-submit-event summary="Test alert"
 ```
 
-![](../.gitbook/assets/settings.png)
+![](<../.gitbook/assets/Settings (2).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

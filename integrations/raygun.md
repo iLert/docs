@@ -14,15 +14,15 @@ description: >-
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_16\_37.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_37.png)
 
 1. Enter a name and select your desired escalation policy. Select "Raygun" as the **Integration Type** and click on **Save**.
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_17\_12.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_12.png)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the webhook integration in Raygun.
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_17\_13.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_13.png)
 
 ## In Raygun <a href="#in-splunk" id="in-splunk"></a>
 
@@ -30,11 +30,11 @@ description: >-
 
 1. Go to Raygun, then to **Integrations** and click on the **Webhook** tile
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_17\_14.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_14.png)
 
 1. On the next page,  paste the **Webhook URL** that you generated in iLert and lick on the **Save** button
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_17\_17.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_17.png)
 
 Finished! Your Raygun crash reports will now create alerts in iLert.
 

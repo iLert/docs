@@ -12,7 +12,7 @@ Beforehand make sure that you have created an Google Cloud Function function in 
 
 Go to the connectors tab of your account.
 
-![](../.gitbook/assets/s1.png)
+![](<../.gitbook/assets/s1 (1).png>)
 
 And create a new connector. Choose Google Cloud Function as type (you may add the additional `Authorization` parameter as stated in the beginning of this doc.)
 
@@ -28,6 +28,6 @@ Visit the alert source (view) whose alerts should trigger your serverless functi
 
 Choose Google Cloud Function as type and select your previously created connector. Enter a name and the url targeting your public function. You may also customize the HTTP request body that is used to invoke your function.
 
-![](<../.gitbook/assets/ilert (65).png>)
+![](<../.gitbook/assets/iLert (78).png>)
 
 Click on save to create the alert action, you may test the connection in the following screen.

@@ -13,11 +13,11 @@ description: >-
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "Kubernetes" as the **Integration Type** and click on **Save**.
 
-![](<../.gitbook/assets/ilert (33).png>)
+![](<../.gitbook/assets/iLert (32).png>)
 
 1. On the next page, a API Key is generated. You will need it below when setting up the **ilert-kube-agent** deployment.
 
-![](<../.gitbook/assets/ilert (30).png>)
+![](<../.gitbook/assets/iLert (33).png>)
 
 ## In Kubernetes <a href="#in-kubernetes" id="in-kubernetes"></a>
 

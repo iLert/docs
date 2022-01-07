@@ -14,11 +14,11 @@ With the iLert SolarWinds Integration you can easily integrate SolarWinds Orion 
 2. Enter a name for your alert source (e.g. SolarWinds) and select an escalation policy.
 3. In the **integration type** field, chose **SolarWinds**.
 
-![](../.gitbook/assets/screenshot-2020-09-04-at-09.55.06.png)
+![](<../.gitbook/assets/Screenshot 2020-09-04 at 09.55.06.png>)
 
 1. A URL is generated on the next page. You will need this URL in the next section when setting up the integration in SolarWinds
 
-![](../.gitbook/assets/screenshot-2020-09-04-at-09.58.49.png)
+![](<../.gitbook/assets/Screenshot 2020-09-04 at 09.58.49.png>)
 
 ## In SolarWinds: create alert definition <a href="#alert-definition" id="alert-definition"></a>
 

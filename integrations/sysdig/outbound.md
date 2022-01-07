@@ -12,7 +12,7 @@ description: >-
 
 1. Go to **Settings**, then to **User Profile.** Write down your API Token. You will need it later in iLert.
 
-![](../../.gitbook/assets/profile\_-\_settings\_-\_sysdig.png)
+![](<../../.gitbook/assets/Profile\_-\_Settings\_-\_Sysdig (1).png>)
 
 ## In iLert <a href="#in-ilert" id="in-ilert"></a>
 
@@ -28,7 +28,7 @@ description: >-
 
 1. Select **Sysdig** as **type** and fill in all fields. Enter a name, the API Token that you copied in the last step.
 
-![](<../../.gitbook/assets/ilert (3).png>)
+![](<../../.gitbook/assets/iLert (5).png>)
 
 1. Go to the alert sources tab and open the alert source whose alerts you want to publish in Sysdig. Click on **Alert actions** and then on **Create alert action**.
 
@@ -36,12 +36,12 @@ description: >-
 
 1. Select **Sysdig** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the alert action name.
 
-![](<../../.gitbook/assets/ilert (78).png>)
+![](<../../.gitbook/assets/iLert (67).png>)
 
 1. Optional: You can define tags and event filters. More information aber it you can find here: [https://docs.sysdig.com/en/events.html](https://docs.sysdig.com/en/events.html)
 2. Finished! You can now test the connection by clicking on the button **Test this connection**. Then a test event will be created in Sysdig.
 
-![](<../../.gitbook/assets/ilert (71).png>)
+![](<../../.gitbook/assets/iLert (68).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

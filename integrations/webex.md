@@ -12,28 +12,28 @@ description: Receive and respond to iLert alerts in Cisco Webex.
 
 1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_15\_46.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_46.png)
 
 1. Click the **Create Connector** button
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_15\_48.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_48.png)
 
 1. On the next page, choose **Cisco Webex** as type, name the connector and click on the save button to authorize iLert App with your Webex account.
 
-![](../.gitbook/assets/screenshot\_19\_03\_21\_\_07\_50.png)
+![](../.gitbook/assets/Screenshot\_19\_03\_21\_\_07\_50.png)
 
 1. On the next page, agree with the requested permissions and click on the **Authorize** button
 2. Go to **Services -> Alert sources** and open the alert source whose alerts you want to post to Cisco Webex. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
-![](../.gitbook/assets/screenshot\_16\_03\_21\_\_16\_04.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_04.png)
 
 1. On the next page choose **Cisco Webex** as the type, choose the connector created in step 3, name it**,** choose **alert events** and **\*\*the** space **to publish and click on the** Save\*\* button.
 
-![](../.gitbook/assets/screenshot\_19\_03\_21\_\_07\_54.png)
+![](../.gitbook/assets/Screenshot\_19\_03\_21\_\_07\_54.png)
 
 1. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the Cisco Webex space.
 
-![](../.gitbook/assets/screenshot\_19\_03\_21\_\_07\_21.png)
+![](../.gitbook/assets/Screenshot\_19\_03\_21\_\_07\_21.png)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

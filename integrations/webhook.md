@@ -8,11 +8,11 @@ description: The iLert Webhook Integration helps you to easily connect iLert wit
 
 1. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish via a webhook. Click on **Alert actions → Create new alert action**
 
-![](../.gitbook/assets/new\_incident\_action.png)
+![](<../.gitbook/assets/new\_incident\_action (7).png>)
 
 1. Select **Webhook** as **type** and fill out all fields. In the **Filter Alert Events** field, select the alert events for which you want to receive a webhook call. Webhook events are sent as `HTTP POST` to the specified URL. The URL must be accessible from the internet. Click on **Save**.
 
-![](<../.gitbook/assets/ilert (60).png>)
+![](<../.gitbook/assets/iLert (56).png>)
 
 1. Finished!
 
@@ -47,7 +47,7 @@ To get more information on the **status** or **eventType** fields, visit the _Te
 
 In case you want to customize the HTTP Post request body of your webhook, you can simply enable the custom fields option.
 
-![](../.gitbook/assets/notification\_center.png)
+![](../.gitbook/assets/Notification\_Center.png)
 
 This will allow you to add any kind of custom body that you want to send. In case of an invalid template the border will become yellow or red.
 

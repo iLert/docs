@@ -13,6 +13,13 @@
 * [FAQ](getting-started/faq/README.md)
   * [Renaming of Incidents to Alerts](getting-started/faq/renaming-of-incidents-to-alerts.md)
 
+## Incident comms
+
+* [Getting started](incident-comms/getting-started.md)
+* [Services](incident-comms/services.md)
+* [Incidents](incident-comms/incidents.md)
+* [Status pages](incident-comms/status-pages.md)
+
 ## User Administration
 
 * [User roles and permissions](user-administration/user-roles-and-permissions.md)

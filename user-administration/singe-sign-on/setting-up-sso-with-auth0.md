@@ -13,15 +13,15 @@ When starting with Auth0 Apps things can be a bit complicated and overwhelming. 
 
 1\. Login to your Auth0 Dashboard. Open the applications page and click on the **Create Application** button.
 
-![](../../.gitbook/assets/applications.png)
+![](../../.gitbook/assets/Applications.png)
 
 2\. On the modal window name the app e.g. iLert, choose **Regular Web Application** tile and lick on the **Create** button
 
-![](<../../.gitbook/assets/applications (1).png>)
+![](<../../.gitbook/assets/Applications (1).png>)
 
 3\. On the next page clicke on the **Addons** tab and enable the  **SAML2** addon
 
-![](<../../.gitbook/assets/application\_details (2).png>)
+![](../../.gitbook/assets/Application\_Details.png)
 
 On the next page you need to fill in the information that you can find in your iLert account settings
 
@@ -33,7 +33,7 @@ On the next page you need to fill in the information that you can find in your i
 SSO with SAML requires your account to be on a Premium or Enterprise Plan, please always feel free to reach out in case you have any questions.
 {% endhint %}
 
-![](../../.gitbook/assets/ilert.png)
+![](../../.gitbook/assets/iLert.png)
 
 2\. Go back to Auth0 and click on the **Settings** tab on the **SAML** modal window. Paste your **SAML Endpoint URL** value into the Auth0 **Application Callback URL** field, than paste the following settings by first replacing the **Audience Restriction** field:
 
@@ -46,23 +46,23 @@ SSO with SAML requires your account to be on a Premium or Enterprise Plan, pleas
 }
 ```
 
-![](../../.gitbook/assets/application\_details.png)
+![](<../../.gitbook/assets/Application\_Details (1).png>)
 
 3\. Scroll down and click on the **Save** button
 
 4\. After saving, click on the **Usage** tab. Here you can find all the values you need for iLert SSO
 
-![](<../../.gitbook/assets/application\_details (1).png>)
+![](<../../.gitbook/assets/Application\_Details (2).png>)
 
 Transfer the values to iLert's SSO settings
 
-![](<../../.gitbook/assets/ilert (52).png>)
+![](<../../.gitbook/assets/iLert (52).png>)
 
 Save the the iLert SSO settings. SSO is now configured, however to make the login process work properly you will have to do one more thing.
 
 ## Additional SSO Configurations
 
-![](../../.gitbook/assets/screenshot-2020-06-17-at-13.58.03.png)
+![](<../../.gitbook/assets/Screenshot 2020-06-17 at 13.58.03.png>)
 
 ### Auto-provisioning Auth0 Users in iLert
 
