@@ -85,7 +85,7 @@ Outages that last less than a minute will be ignored and won't show up as downti
 
 ## Add / remove subscribers to a service
 
-There are two ways to subscribe users to a service
+Subscribers will automatically receive incident updates when the **Send notifications** option is selected during incident updates. There are two ways to subscribe users to a service
 
 1. Users can add / remove themselves as subscribers
 2. A user with Responder privileges can manually subscribe users or entire teams to a service
