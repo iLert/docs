@@ -8,6 +8,16 @@ weight: 3
 
 # Stakeholder engagement
 
+{% hint style="warning" %}
+**This feature is no longer available to new customers**
+
+We have changed the way how stakeholder communication works and integrated the **Stakeholder engagement** feature into iLert's new [incident comms](broken-reference) features. Therefore, we no longer offer this feature to new customers.
+
+Existing customers can continue to use this feature until March 31st, 2022, after which it will be entirely removed from iLert.
+
+New and existing customers can use our new incident comms features instead.&#x20;
+{% endhint %}
+
 ## Overview <a href="#overview" id="overview"></a>
 
 With iLert's Stakeholder Engagement feature, you can keep stakeholders informed during an ongoing alert with minimal effort while focusing your time on alert resolution.
