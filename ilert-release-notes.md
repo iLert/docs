@@ -6,11 +6,27 @@ description: >-
 
 # iLert Release Notes
 
+## January 2022 (v1.83.0-1.84.0)
+
+### New features
+
+* we have launched our Incident Communications 2.0 BETA, [reach out to us](contact.md) to join during the testing phase
+* we have launched our On-Call Schedule Layers BETA,[ reach out to us](contact.md) to join during the testing phase&#x20;
+* as part of our Incident Com 2 Feature a brand new revamp of our Alert Detail View has been launched, including live updates for Alerts and Alert related information.
+* as part of our Incident Com 2 Feature, Stakeholder users may now  use the web login (they were previously limitted to the Mobile App only)
+
+### Improvements
+
+* the `GET /api/log-entries` [resource](ilert-release-notes.md#undefined) now supports `?include=vars` and `?filter-types=ALERT_UPDATES` parameters, as well as pagination for more advanced and detailed alert timeline access
+* Microsoft Teams Alert Actions have been rebuild to support a direct Teams query for enterprise customers with > 10k Teams.
+* the (Support) Live Chat has been made available to EU customers (see Account Settings
+
 ## December 2021
 
 ### New and updated integrations
 
-* Oh Dear Inbound
+* Oh Dear [Inbound](integrations/ohdear.md)
+* Gitlab Inbound [Integration](integrations/gitlab.md)
 
 ## November 2021
 
