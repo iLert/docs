@@ -63,8 +63,8 @@ The table below gives an overview of the role permissions.
 | Modify objects, e.g. schedules and escalation policies |        ❌        |     ❌     |       ❌       |     ✅    |     ✅     |         ✅         |
 | Manage teams                                           |        ❌        |     ❌     |       ❌       |     ❌    |     ✅     |         ✅         |
 | Manage users                                           |        ❌        |     ❌     |       ❌       |     ❌    |     ✅     |         ✅         |
-| <p>Manage account </p><p>settings and subscription</p> |        ❌        |     ❌     |       ❌       |     ❌    |     ❌     |         ✅         |
 | Add or remove team ownerships to/from resources        |        ❌        |     ❌     |       ❌       |     ❌    |     ✅     |         ✅         |
+| <p>Manage account </p><p>settings and subscription</p> |        ❌        |     ❌     |       ❌       |     ❌    |     ❌     |         ✅         |
 
 \*_The actual data that is shown in reports will depend on the permissions of the current user._\
 _If the user has no access to a schedule for example, he will not see the on-call-duty data of this schedule when browsing reports. (_[_Read more here_](teams.md#report-visibility)_)_

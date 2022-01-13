@@ -60,3 +60,14 @@ Once you select a template, all fields will be pre-filled using the values from 
 ### Using alert placeholders in incident templates <a href="#use-an-incident-template" id="use-an-incident-template"></a>
 
 You may use [alert placeholder variables](../integrations/webhook.md#template-variables-explained) in incident templates. When an incident is created from an alert (e.g. using alert source automation rules), the placeholder variables will be substituted with their corresponding values.
+
+In addition to alert placeholder variables, the following variables are available for substitution:
+
+| Variable             | Description                                                                                                                                                                                                                                |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `serviceId`          | The id of the service that is affected                                                                                                                                                                                                     |
+| `serviceName`        | The name of the service that is affected                                                                                                                                                                                                   |
+| `serviceDescription` | The description of the service that is affected                                                                                                                                                                                            |
+| `serviceStatus`      | The statu of the service that is affected                                                                                                                                                                                                  |
+| `teamNames`          | A comma separated list of team names. This corresponds to the same value that is shown in the teams field of an incident and is resolved by traversing the ownerships of the affected service and the alert source that created the alert. |
+
