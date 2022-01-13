@@ -49,22 +49,22 @@ An account owner has the same privileges as an **Admin**, with the addition of b
 
 The table below gives an overview of the role permissions.
 
-| **Operation**                                          | **Stakeholder** | Guest | **Responder** | **User** | **Admin** | **Account Owner** |
-| ------------------------------------------------------ | :-------------: | ----- | :-----------: | :------: | :-------: | :---------------: |
-| Access web app                                         |        ❌        | ✅     |       ✅       |     ✅    |     ✅     |         ✅         |
-| Use mobile app                                         |        ✅        | ✅     |       ✅       |     ✅    |     ✅     |         ✅         |
-| View reports\*                                         |        ❌        | ✅     |       ✅       |     ✅    |     ✅     |         ✅         |
-| Modify profile settings                                |        ✅        | ✅     |       ✅       |     ✅    |     ✅     |         ✅         |
-| Subscribe to alerts                                    |        ✅        | ❌     |       ✅       |     ✅    |     ✅     |         ✅         |
-| Manage alerts                                          |        ❌        | ❌     |       ✅       |     ✅    |     ✅     |         ✅         |
-| View objects, e.g. schedules and escalation policies   |        ❌        | ❌     |       ✅       |     ✅    |     ✅     |         ✅         |
-| Add him/herself as override to a schedule              |        ❌        | ❌     |       ✅       |     ✅    |     ✅     |         ✅         |
-| Add (anyone) as overrides to schedules                 |        ❌        | ❌     |       ❌       |     ✅    |     ✅     |         ✅         |
-| Modify objects, e.g. schedules and escalation policies |        ❌        | ❌     |       ❌       |     ✅    |     ✅     |         ✅         |
-| Manage teams                                           |        ❌        | ❌     |       ❌       |     ❌    |     ✅     |         ✅         |
-| Manage users                                           |        ❌        | ❌     |       ❌       |     ❌    |     ✅     |         ✅         |
-| <p>Manage account </p><p>settings and subscription</p> |        ❌        | ❌     |       ❌       |     ❌    |     ❌     |         ✅         |
-| Add or remove team ownerships to/from resources        |        ❌        | ❌     |       ❌       |     ❌    |     ✅     |         ✅         |
+| **Operation**                                          | **Stakeholder** | **Guest** | **Responder** | **User** | **Admin** | **Account Owner** |
+| ------------------------------------------------------ | :-------------: | :-------: | :-----------: | :------: | :-------: | :---------------: |
+| Access web app                                         |        ❌        |     ✅     |       ✅       |     ✅    |     ✅     |         ✅         |
+| Use mobile app                                         |        ✅        |     ✅     |       ✅       |     ✅    |     ✅     |         ✅         |
+| View reports\*                                         |        ❌        |     ✅     |       ✅       |     ✅    |     ✅     |         ✅         |
+| Modify profile settings                                |        ✅        |     ✅     |       ✅       |     ✅    |     ✅     |         ✅         |
+| Subscribe to alerts                                    |        ✅        |     ❌     |       ✅       |     ✅    |     ✅     |         ✅         |
+| Manage alerts                                          |        ❌        |     ❌     |       ✅       |     ✅    |     ✅     |         ✅         |
+| View objects, e.g. schedules and escalation policies   |        ❌        |     ❌     |       ✅       |     ✅    |     ✅     |         ✅         |
+| Add him/herself as override to a schedule              |        ❌        |     ❌     |       ✅       |     ✅    |     ✅     |         ✅         |
+| Add (anyone) as overrides to schedules                 |        ❌        |     ❌     |       ❌       |     ✅    |     ✅     |         ✅         |
+| Modify objects, e.g. schedules and escalation policies |        ❌        |     ❌     |       ❌       |     ✅    |     ✅     |         ✅         |
+| Manage teams                                           |        ❌        |     ❌     |       ❌       |     ❌    |     ✅     |         ✅         |
+| Manage users                                           |        ❌        |     ❌     |       ❌       |     ❌    |     ✅     |         ✅         |
+| <p>Manage account </p><p>settings and subscription</p> |        ❌        |     ❌     |       ❌       |     ❌    |     ❌     |         ✅         |
+| Add or remove team ownerships to/from resources        |        ❌        |     ❌     |       ❌       |     ❌    |     ✅     |         ✅         |
 
 \*_The actual data that is shown in reports will depend on the permissions of the current user._\
 _If the user has no access to a schedule for example, he will not see the on-call-duty data of this schedule when browsing reports. (_[_Read more here_](teams.md#report-visibility)_)_
