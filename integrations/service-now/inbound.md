@@ -99,7 +99,7 @@ iLert's ServiceNow integration allows you to easily configure advanced settings 
 
 
 
-![](<../../.gitbook/assets/image (57) (1).png>)
+![](<../../.gitbook/assets/image (57) (1) (1).png>)
 
 To get access to the advanced features, you will have to provide access credentials to your ServiceNow instance first. The provided user will need the following permissions in ServiceNow:
 

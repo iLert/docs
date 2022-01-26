@@ -22,7 +22,7 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 5\. Click on **Save** to create your alert source, after you have been redirected you should see your alert source setup. Copy the **Auvik URL** as we will need it later in Auvik to setup the integration.
 
-![](<../.gitbook/assets/image (48).png>)
+![](<../.gitbook/assets/image (48) (1).png>)
 
 ## In Auvik
 
@@ -30,7 +30,7 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 1. Navigate to **Integrations** and click on **Add integration**
 
-![](<../.gitbook/assets/image (49).png>)
+![](<../.gitbook/assets/image (49) (1).png>)
 
 &#x20;2\. From the dropdown choose **iLert**
 
