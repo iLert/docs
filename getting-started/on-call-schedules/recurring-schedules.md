@@ -99,3 +99,30 @@ The steps to create the schedule:
 
 Once you have created all the necessary layers, check the timeline at the bottom and verify that the final schedule is correct.
 
+### Editing an existing recurring schedules
+
+{% hint style="info" %}
+**Are you looking for overrides?**
+
+If you want to make a one-time change to a schedule, create an override instead. See [here](./#overrides) for more info.
+{% endhint %}
+
+Whenever you need to make structural changes to the way you organize on-call, you will need to edit your schedule in iLert. Examples include when a new team member joins the on-call rotation, an existing team member leaves the rotation, you want to change the rotation (e.g. from weekly to bi-weekly), etc.
+
+To edit an existing schedule ...
+
+1. click on **On-call scheduling** --> **On-call schedules** in the navigation bar
+2. Select the desired schedule by clicking on the pen icon. Make sure it's a recurring schedule.
+
+You can now make the changes to the layer directly (e.g. add another team member) and select the date for the changes to take effect:
+
+&#x20;
+
+![](<../../.gitbook/assets/Screen Shot 2022-01-27 at 13.21.44.png>)
+
+Alternatively, instead of editing a layer directly, you can also end a layer and start a new layer. You might find this method clearer and easier to transition from one schedule configuration to another. In the example below, we will add a new meamber to an existing rotation.
+
+1. To end a layer, click on the stop icon in the top right of the layer and select an end date and time
+2. To create a new layer, click on **Add schedule layer** and make the desired changes to your new schedule layer
+
+![](<../../.gitbook/assets/Screen Shot 2022-01-27 at 13.30.45.png>)
