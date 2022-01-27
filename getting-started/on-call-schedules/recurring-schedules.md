@@ -32,30 +32,26 @@ Restricting your on-call coverage will result in gaps in your schedule, where no
 
 A schedule layer is the configuration element that defines an on-call schedule or a segment thereof. A schedule layer consists of the following parameters:
 
-* **Users**: an ordered list of users that will rotate in the on-call schedule. You can add a single user multiple times. E.g. if a user should take twice as many shifts as others, you can add them twice.
-* **Rotation:** The amount of time (in days or weeks) after which on-call duty is rotated from one to the next.&#x20;
-* **Starts on:** the start date and time of the layer.&#x20;
-* **Ends on (optional):** An optional end date and time of the layer. A layer with no end date will schedule shifts indefinitely. Once an end date is set, no more shifts will be scheduled past the end date.
-* **Restrictions (optional):** Optional times of day (e.g. between 9am - 6pm) or times of weeks (e.g. Fri 6pm - Mon 9am) to restrict times on-call
-* **Name (optional):** an optional name to help you better organize layers ****&#x20;
+1. **Users**: an ordered list of users that will rotate in the on-call schedule. You can add a single user multiple times. E.g. if a user should take twice as many shifts as others, you can add them twice.
+2. **Rotation:** The amount of time (in days or weeks) after which on-call duty is rotated from one to the next.&#x20;
+3. **Starts on:** the start date and time of the layer.&#x20;
+4. **Ends on (optional):** An optional end date and time of the layer. A layer with no end date will schedule shifts indefinitely. Once an end date is set, no more shifts will be scheduled past the end date.
+5. **Restrictions (optional):** Optional times of day (e.g. between 9am - 6pm) or times of weeks (e.g. Fri 6pm - Mon 9am) to restrict times on-call
+6. **Name (optional):** an optional name to help you better organize layers ****&#x20;
+
+![Anatomy of a schedule layer](<../../.gitbook/assets/Screen Shot 2022-01-27 at 11.30.44.png>)
 
 You can combine layers to create more complex schedules by having multiple active layers at the same time.&#x20;
 
 {% hint style="info" %}
 **Combining layers with overlapping shifts**
 
-Layers at the bottom take precedence over layers at the top.
-
-![](<../../.gitbook/assets/image (49).png>)
-
-In layer 1, Andreas is on-call the entire week. In layer 2, Birol is on-call on weekends. Because layer 2 is lower than layer 1, the shifts from layer 2 take precedence and are included in the final shift.
+Layers at the bottom take precedence over layers at the top. The example below illustrates the effect of this.
 {% endhint %}
 
-
+![In layer 1, John on-call the entire week. In layer 2, Peter is on-call on weekends. Because layer 2 is lower than layer 1, the shifts from layer 2 take precedence and are included in the final schedule, which results in John not bein on-call in the weekend.](<../../.gitbook/assets/image (59).png>)
 
 Let's look at a few examples to illustrate the power of schedule layers.
-
-
 
 ### Schedule Examples
 
@@ -65,7 +61,7 @@ A follow-the-sun-schedule lets you have 24/7 coverage without putting the burden
 
 Our final schedule configuration will look as follows:
 
-![](<../../.gitbook/assets/image (48).png>)
+![](<../../.gitbook/assets/image (52).png>)
 
 Here are the steps to create this schedule:
 
@@ -87,7 +83,7 @@ In this example, we have one team that is on-call during weekdays and a separate
 
 The final schedule configuration will look as follows:
 
-![](<../../.gitbook/assets/image (57).png>)
+![](<../../.gitbook/assets/image (50).png>)
 
 The steps to create the schedule:
 
@@ -102,12 +98,4 @@ The steps to create the schedule:
    * Optionally enter a **name** for this layer
 
 Once you have created all the necessary layers, check the timeline at the bottom and verify that the final schedule is correct.
-
-### Editing existing schedules
-
-{% hint style="info" %}
-**Are you looking for overrides?**
-
-If you want to make a one-time change to a schedule, create an override instead. See [here](./#overrides) for more info.
-{% endhint %}
 
