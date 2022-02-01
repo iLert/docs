@@ -53,7 +53,7 @@ Once you configure an alert source's automation settings, any alert that will be
 By default, a service's historical uptime is shown. You can chose to hide the historical uptime of a service in the service settings:
 
 1. Go the services page and click on the service for which you wan to hide the uptime
-2. In the **Settings** tab, uncheck the Option **Show historical uptime** ![](<../.gitbook/assets/image (52) (1).png>)****
+2. In the **Settings** tab, uncheck the Option **Show historical uptime** ![](<../.gitbook/assets/image (52) (1) (1).png>)****
 3. Click on save
 
 ### How is the uptime of a service calculated?

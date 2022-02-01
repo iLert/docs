@@ -22,7 +22,7 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 5\. Click on **Save** to create your alert source, after you have been redirected you should see your alert source setup. Copy the **Auvik URL** as we will need it later in Auvik to setup the integration.
 
-![](<../.gitbook/assets/image (48) (1).png>)
+![](<../.gitbook/assets/image (48) (1) (1).png>)
 
 ## In Auvik
 
@@ -44,7 +44,7 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 1. Navigate to **Manage Alerts** -> **Notification Channels**
 
-![](<../.gitbook/assets/image (52) (1) (1).png>)
+![](<../.gitbook/assets/image (52) (1) (1) (1).png>)
 
 2\. Click on **Add Notification Channel**; a popup will appear
 

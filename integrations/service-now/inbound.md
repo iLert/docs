@@ -122,7 +122,7 @@ When selecting priority mapping, iLert will contact your ServiceNow instance and
 
 When selecting escalation policy routing, iLert will contact your ServiceNow instance and fetch all available alert fields. You will then be able to choose an alert field that should be used for incoming alerts in iLert to determine the routing key.
 
-![](<../../.gitbook/assets/image (51).png>)
+![](<../../.gitbook/assets/image (51) (1).png>)
 
 You may choose to give escalation policies in iLert a unique routing key.
 
