@@ -59,7 +59,7 @@
 * [Terraform](rest-api/terraform.md)
 * [API Samples](rest-api/api-samples/README.md)
   * [Sending events from PowerShell](rest-api/api-samples/sending-events-from-powershell.md)
-* [Developing iLert Apps](rest-api/developing-ilert-apps/README.md)
+* [🔥 Developing iLert Apps](rest-api/developing-ilert-apps/README.md)
   * [Get started with iLert Apps](rest-api/developing-ilert-apps/get-started-with-ilert-apps.md)
   * [Understanding OAuth2](rest-api/developing-ilert-apps/understanding-oauth2.md)
   * [Developing a Backend App with OAuth2](rest-api/developing-ilert-apps/developing-a-backend-app-with-oauth2.md)

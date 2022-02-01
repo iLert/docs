@@ -22,6 +22,7 @@
 | team            | Access to /api/teams                     |
 | user            | Access to /api/users                     |
 | alert           | Access to /api/alerts                    |
+| incident        | Access to /api/incidents                 |
 
 By default each scope grants read permissions to the described resource.\
 You may request write (granting you read, create and edit permissions on the resource) as well as delete permissions (granting you read, create, edit and delete permissions on the resource).
