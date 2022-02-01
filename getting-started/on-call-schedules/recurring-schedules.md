@@ -83,7 +83,7 @@ In this example, we have one team that is on-call during weekdays and a separate
 
 The final schedule configuration will look as follows:
 
-![](<../../.gitbook/assets/image (50).png>)
+![](<../../.gitbook/assets/image (50) (1).png>)
 
 The steps to create the schedule:
 
