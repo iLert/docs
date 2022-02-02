@@ -24,8 +24,8 @@
 | alert           | Access to /api/alerts                    |
 | incident        | Access to /api/incidents                 |
 
-By default each scope grants read permissions to the described resource.\
-You may request write (granting you read, create and edit permissions on the resource) as well as delete permissions (granting you read, create, edit and delete permissions on the resource).
+By default each scope grants **read** permissions to the described resource.\
+You may request **write** (granting you read, create and edit permissions on the resource) as well as **delete** permissions (granting you read, create, edit and delete permissions on the resource).
 
 **Examples**:
 
@@ -35,7 +35,7 @@ You may request write (granting you read, create and edit permissions on the res
 | service:w | grants GET, POST, PUT on /api/services         |   |
 | service:d | grants GET, POST, PUT, DELETE on /api/services |   |
 
-You may request multiple scopes by seperating them with a space.
+You may request multiple scopes by separating them with a space.
 
 **Like so**: `profile service:w offline_access`
 
@@ -73,9 +73,11 @@ You may request multiple scopes by seperating them with a space.
 | access\_token                   | 1 hour                                                              |   |
 | refresh\_token                  | 1 year                                                              |   |
 | refresh\_token per app per user | max. 10, if exceeded oldest refresh\_token is automatically revoked |   |
+| refresh token requests          | do not refresh a token more than once per 5 minutes                 |   |
+| request rate limits             | [usual request limits](../alertsource-throttle.md) apply            |   |
 
 {% hint style="info" %}
-If you are building a backend application and it is verified your refresh\_token lifetime may be changed so that they never expire. Please [reach out to us](../../contact.md).
+If you are building a backend application and it is verified, your refresh\_token lifetime may be changed so that they never expire. Please [reach out to us](../../contact.md).
 {% endhint %}
 
 ## App verification
@@ -89,6 +91,6 @@ We would love to hear about and verify your applications, feel free to [reach ou
 {% hint style="warning" %}
 Do not rely on a users email address without being sure it is verified, or your application might be open to attacks where the email address is mimiced on the authorization server.
 
-Use the username or the users id to verify account ownership in your app.
+Use the username or the user's id to verify account ownership in your app.
 {% endhint %}
 
