@@ -1,6 +1,6 @@
 ---
 description: >-
-  iLert's developer platform allows every user with Admin permission to create
+  iLert's developer platform allows every user with Admin permissions to create
   custom apps limited to their account or shared apps that can be used by all
   other iLert accounts.
 ---

@@ -27,7 +27,7 @@
 By default each scope grants read permissions to the described resource.\
 You may request write (granting you read, create and edit permissions on the resource) as well as delete permissions (granting you read, create, edit and delete permissions on the resource).
 
-Examples:
+**Examples**:
 
 | service   | grants GET on /api/services                    |   |
 | --------- | ---------------------------------------------- | - |
@@ -37,7 +37,7 @@ Examples:
 
 You may request multiple scopes by seperating them with a space.
 
-Like so: `profile service:w offline_access`
+**Like so**: `profile service:w offline_access`
 
 ## OAuth2 endpoints overview
 
@@ -81,7 +81,7 @@ If you are building a backend application and it is verified your refresh\_token
 ## App verification
 
 {% hint style="success" %}
-We would love to hear and verify your applications, feel free to [reach out to us](../../contact.md), as soon as you are ready.
+We would love to hear about and verify your applications, feel free to [reach out to us](../../contact.md), as soon as you are ready.
 {% endhint %}
 
 ## Other info
