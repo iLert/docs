@@ -6,7 +6,24 @@ description: >-
 
 # iLert Release Notes
 
-## January 2022 (v1.83.0-1.84.0)
+## February 2022 (v1.92.0-v1.93.0)
+
+### New features
+
+* we have launched the [iLert developer platform](rest-api/developing-ilert-apps/), which enables you to create your own applications on top of iLert's uptime platform and share them with other iLert users
+* Incident Communications 2.0 is now in public BETA for all Premium users
+
+### Improvements
+
+* routingKey on event api resource may now be used to re-assign alerts during ALERT events
+* escalationPolicy is now available on alerts API resource
+* Services of teams can now be managed in the teams admin UI
+
+### New and updated integrations
+
+* Our ServiceNow bidirectional integration now supports dynamic mapping of assignmentGroups and escalation policies (as well as re-assignment)
+
+## January 2022 (v1.83.0-1.91.0)
 
 ### New features
 
