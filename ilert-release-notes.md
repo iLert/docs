@@ -6,7 +6,7 @@ description: >-
 
 # iLert Release Notes
 
-## February 2022 (v1.92.0-v1.93.0)
+## February 2022
 
 ### New features
 
@@ -24,7 +24,7 @@ description: >-
 
 * Our ServiceNow bidirectional integration now supports dynamic mapping of assignmentGroups and escalation policies (as well as re-assignment)
 
-## January 2022 (v1.83.0-1.91.0)
+## January 2022
 
 ### New features
 

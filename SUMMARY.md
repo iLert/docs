@@ -65,6 +65,8 @@
   * [Developing a Backend App with OAuth2](rest-api/developing-ilert-apps/developing-a-backend-app-with-oauth2.md)
   * [Developing a web or native App with OAuth2 and PKCE](rest-api/developing-ilert-apps/developing-a-web-or-native-app-with-oauth2-and-pkce.md)
   * [Token lifetimes, error codes, app verification, etc.](rest-api/developing-ilert-apps/token-lifetimes-error-codes-app-verification-etc..md)
+* [🪝 Application Hooks](rest-api/application-hooks/README.md)
+  * [Dynamic Alert Actions](rest-api/application-hooks/dynamic-alert-actions.md)
 
 ## Integrations
 

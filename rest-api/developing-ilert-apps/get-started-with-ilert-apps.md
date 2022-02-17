@@ -25,7 +25,7 @@ To create your first application, move to the **Applications** tab and click on 
 
 You may choose a name for your app, please note that you cannot change the name of your app later.
 
-![](<../../.gitbook/assets/image (58).png>)
+![](<../../.gitbook/assets/image (58) (1).png>)
 
 {% hint style="success" %}
 You may choose to limit your app to your own iLert account, while testing or in case your app is only ment for your organization.

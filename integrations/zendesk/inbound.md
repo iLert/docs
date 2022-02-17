@@ -71,7 +71,9 @@ description: Create alerts in iLert from tickets in Zendesk.
   "account": "{{ticket.account}}",
   "link": "{{ticket.link}}",
   "latest_comment": "{{ticket.latest_comment}}",
-  "latest_comment_author_name": "{% for comment in ticket.comments limit:1 offset:0 %}{{comment.author.name}}{% endfor %}"
+  "latest_comment_author_name": "{% raw %}
+{% for comment in ticket.comments limit:1 offset:0 %}{{comment.author.name}}{% endfor %}
+{% endraw %}"
 }
 ```
 
