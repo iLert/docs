@@ -10,13 +10,14 @@ description: >-
 
 ### New features
 
-* we have launched the [iLert developer platform](rest-api/developing-ilert-apps/), which enables you to create your own applications on top of iLert's uptime platform and share them with other iLert users
-* Incident Communications 2.0 is now in public BETA for all Premium users
+* We have launched the [iLert developer platform](rest-api/developing-ilert-apps/), which enables you to create your own applications on top of iLert's uptime platform and share them with other iLert users.
+* [Incident Communications](broken-reference) 2.0 is now in public BETA for all Premium users.
+* Support for WhatsApp as a notification channel
 
 ### Improvements
 
-* routingKey on event api resource may now be used to re-assign alerts during ALERT events
-* escalationPolicy is now available on alerts API resource
+* Event API: routingKey may now be used to re-assign alerts during ALERT events
+* Alerts API: escalationPolicy attribute is now included in the response payload
 * Services of teams can now be managed in the teams admin UI
 
 ### New and updated integrations
@@ -28,8 +29,8 @@ description: >-
 ### New features
 
 * we have launched our Incident Communications 2.0 BETA, [reach out to us](contact.md) to join during the testing phase
-* we have launched our On-Call Schedule Layers BETA,[ reach out to us](contact.md) to join during the testing phase&#x20;
-* as part of our Incident Com 2 Feature a brand new revamp of our Alert Detail View has been launched, including live updates for Alerts and Alert related information.
+* On-call schedules: we now allow you to create more complex recurring schedules with [schedule layers](getting-started/on-call-schedules/recurring-schedules.md#schedule-layers).
+* New alert view: as part of our new Incident Comms 2.0 feature, a brand new revamp of our Alert Detail View has been launched, including live updates for Alerts and Alert related information.
 * as part of our Incident Com 2 Feature, Stakeholder users may now  use the web login (they were previously limitted to the Mobile App only)
 
 ### Improvements
