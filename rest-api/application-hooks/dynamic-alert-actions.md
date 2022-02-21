@@ -106,7 +106,7 @@ In the event of a timeout or invalid response data, the alerts are provided with
 
 You can provide a maximum of 3 actions.
 
-Your actions might differ for any request, however responses for the same alert (and in notifications user) are cached for up to 1 hour.
+Your actions might differ for any request, however responses for the same alert (and in notifications user) are cached for up to 1 hour. Note: this cache is cleared, as soon as an action is triggered.
 
 If your service is continuously unavailable for requests, we might disable your dynamic alert connection.
 
