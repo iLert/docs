@@ -106,9 +106,11 @@ In the event of a timeout or invalid response data, the alerts are provided with
 
 You can provide a maximum of 3 actions.
 
-Your actions might differ for any request, however responses for the same alert and user are cached for up to 1 day.
+Your actions might differ for any request, however responses for the same alert (and in notifications user) are cached for up to 1 hour.
 
 If your service is continuously unavailable for requests, we might disable your dynamic alert connection.
+
+We **highly recommend** that your webservice provides **deterministic action ids** for subsequent requests. e.g. _"Restart VM" action in context of the alert / alert source will always have id 12345._
 {% endhint %}
 
 {% tabs %}
@@ -249,7 +251,7 @@ You may add an dynamic action for each of your alert sources.
 
 ### When do fetched alert actions timeout?
 
-Currently iLert caches dynamic alert actions for up to 1 day, from the first time they are fetched. If the view you are using e.g. Slack chat is older than 1 day, invoking the action will fail, as it is no longer mapped - it will need to be refetched.
+Currently iLert caches dynamic alert actions for up to 1 hour, from the first time they are fetched. If the view you are using e.g. Slack chat is older than 1 hour, invoking the action will fail, if your webservice is not providing deterministic action ids on subsequent requests. If your webservice is always providing deterministic ids for its actions, alert actions wont timeout.
 
 ### Are dynamic actions available in voice notifications?
 
