@@ -16,7 +16,7 @@ OAuth2 is an authorization protocol and as such designed to take care of grantin
 
 ## Access tokens (JWT)
 
-A successfully OAuth2 flow will leave the challanging webservice with an access token, which represents the authorization to access the user's resources. Most of the time the JWT (JSON Web Token) format is used for access and or refresh tokens. iLert uses JWT tokens.
+A successful OAuth2 flow will leave the challanging webservice with an access token, which represents the authorization to access the user's resources. Most of the time the JWT (JSON Web Token) format is used for access and or refresh tokens. iLert uses JWT tokens.
 
 ## Auth2 Roles
 
@@ -27,7 +27,7 @@ A successfully OAuth2 flow will leave the challanging webservice with an access 
 
 ## OAuth2 Scopes
 
-To describe desired resources that the client requires access to, the protocol offers scopes. Scopes are defined by the authorization server and are presented to the user during authorization. e.g. source:w defines an iLert scope that grants read and write permission to the alert sources of the given user.
+To describe desired resources that the client requires access to, the protocol offers scopes. Scopes are defined by the authorization server and are presented to the user during authorization. e.g. `source:w` defines an iLert scope that grants read and write permission to the alert sources of the given user.
 
 ## OAuth2 grant flows
 
@@ -38,8 +38,6 @@ iLert's authorization server supports the **Authorization Code grant** as well a
 As the Authorization Code with PKCE grant is the suggested standard way of implementing OAuth2, the following guide will focus on this grant type. PKCE stands for **Proof Key for Code Exchange** and describes the addition of a code challenge that helps to ensure that the origin of the token request is actually the same as the origin of the authorization request. It is essentially helpful in implementing secure flows for native or single page applications, that cannot keep the client secret private.
 
 ## How does OAuth2 work?
-
-
 
 ![](../../.gitbook/assets/iLert\_oauth2\_pkce.png)
 
