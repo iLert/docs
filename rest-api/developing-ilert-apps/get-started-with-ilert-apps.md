@@ -9,7 +9,7 @@ description: >-
 
 ## App connections
 
-In the connections overview you can see all applications that you have granted access to your account to. You may see their last activity as well as revoke their access.
+In the connections overview you can see all applications that you have granted access to your account. You may see their last activity as well as revoke their access.
 
 ![Click on your profile and navigate to Manage applications](<../../.gitbook/assets/image (52).png>)
 
@@ -19,11 +19,11 @@ Revoking an app's access invalidates the refresh token of the app, its current a
 
 ## Applications
 
-To create your first application, move to the **Applications** tab and click on **Create new application**.
+To create your first application, go to the **Applications** tab and click on **Create new application**.
 
 ![](<../../.gitbook/assets/image (51).png>)
 
-You may choose a name for your app, please note that you cannot change the name of your app later.
+You may choose a name and description for your app. Please note that you cannot change the name of your app later.
 
 ![](<../../.gitbook/assets/image (58) (1).png>)
 
