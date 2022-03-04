@@ -46,20 +46,20 @@ Additional IPs of **other regions e.g. US** will be provided on request.
 
 The number that iLert uses to send SMS notifications depends on the target country:
 
-| Country           | Number                                                                                        |
-| ----------------- | --------------------------------------------------------------------------------------------- |
-| USA and Canada    | <p>+1 256 391 4978</p><p>+1 240 258 2894<br>+1 267 6696969</p>                                |
-| Germany           | <p>+49 157 3598 1212</p><p>+49 157 3598 3922</p><p>+49 157 3598 7811<br>+49 221 9630 3220</p> |
-| Austria           | +43 676 800 104 503                                                                           |
-| Switzerland       | +41 798 076 081                                                                               |
-| United Kingdom    | +44 7723 487 389                                                                              |
-| Australia         | +61 480 020 343                                                                               |
-| Belgium           | +32 460 229 075                                                                               |
-| Sweden            | +46 79 064 52 58                                                                              |
-| Chile             | +56 9 3761 0047                                                                               |
-| Netherlands       | <p>+31 97014201761</p><p>+31 97010252693<br>+31 97010241585</p>                               |
-| Poland            | +48 732 230 768                                                                               |
-| Rest of the world | <p>+1 256 391 4978</p><p>+1 240 258 2894</p>                                                  |
+| Country           | Number                                                                   |
+| ----------------- | ------------------------------------------------------------------------ |
+| USA and Canada    | <p>+1 256 391 4978</p><p>+1 240 258 2894<br>+1 267 6696969</p>           |
+| Germany           | <p>+49 157 3598 1212</p><p>+49 157 3598 3922</p><p>+49 157 3598 7811</p> |
+| Austria           | +43 676 800 104 503                                                      |
+| Switzerland       | +41 798 076 081                                                          |
+| United Kingdom    | +44 7723 487 389                                                         |
+| Australia         | +61 480 020 343                                                          |
+| Belgium           | +32 460 229 075                                                          |
+| Sweden            | +46 79 064 52 58                                                         |
+| Chile             | +56 9 3761 0047                                                          |
+| Netherlands       | <p>+31 97014201761</p><p>+31 97010252693<br>+31 97010241585</p>          |
+| Poland            | +48 732 230 768                                                          |
+| Rest of the world | <p>+1 256 391 4978</p><p>+1 240 258 2894</p>                             |
 
 ## Phone call numbers <a href="#voice-alerts" id="voice-alerts"></a>
 
