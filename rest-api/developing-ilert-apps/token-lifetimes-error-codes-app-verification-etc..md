@@ -4,7 +4,7 @@
 
 
 
-| Scope           | Description                              |                                                           |
+| Scope           | Description                              | Info                                                      |
 | --------------- | ---------------------------------------- | --------------------------------------------------------- |
 | profile         | Access to /api/users/current             |                                                           |
 | offline\_access | Issues refresh tokens for PKCE only apps |                                                           |

@@ -14,10 +14,6 @@ Dynamic alert actions are in closed **BETA**, [reach out to us](../../contact.md
 
 As dynamic actions are part of our application hooks, you will need to provide a webservice that is capable of dealing with the defined HTTP requests and will respond with the appropriate HTTP response bodies that the application can use to continue the user's flow.
 
-{% hint style="success" %}
-You may find the full demo webservice for the code samples described in this documentation [here](https://github.com/iLert/dynamic-action-provider).
-{% endhint %}
-
 ## The alert action flow
 
 1. a user interacts with an alert
