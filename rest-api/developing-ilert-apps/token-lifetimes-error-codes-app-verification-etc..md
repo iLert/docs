@@ -4,25 +4,25 @@
 
 
 
-| Scope           | Description                              |
-| --------------- | ---------------------------------------- |
-| profile         | Access to /api/users/current             |
-| offline\_access | Issues refresh tokens for PKCE only apps |
-| policy          | Access to /api/escalation-policies       |
-| schedule        | Access to /api/schedules                 |
-| source          | Access to /api/alert-sources             |
-| monitor         | Access to /api/uptime-monitors           |
-| action          | Access to /api/alert-actions             |
-| connector       | Access to /api/connectors                |
-| maintenance     | Access to /api/maintenance-windows       |
-| report          | Access to /api/reports                   |
-| template        | Access to /api/incident-templates        |
-| service         | Access to /api/services                  |
-| status\_page    | Access to /api/status-pages              |
-| team            | Access to /api/teams                     |
-| user            | Access to /api/users                     |
-| alert           | Access to /api/alerts                    |
-| incident        | Access to /api/incidents                 |
+| Scope           | Description                              |                                                           |
+| --------------- | ---------------------------------------- | --------------------------------------------------------- |
+| profile         | Access to /api/users/current             |                                                           |
+| offline\_access | Issues refresh tokens for PKCE only apps |                                                           |
+| policy          | Access to /api/escalation-policies       |                                                           |
+| schedule        | Access to /api/schedules                 |                                                           |
+| source          | Access to /api/alert-sources             |                                                           |
+| monitor         | Access to /api/uptime-monitors           |                                                           |
+| action          | Access to /api/alert-actions             |                                                           |
+| connector       | Access to /api/connectors                |                                                           |
+| maintenance     | Access to /api/maintenance-windows       |                                                           |
+| report          | Access to /api/reports                   |                                                           |
+| template        | Access to /api/incident-templates        |                                                           |
+| service         | Access to /api/services                  | also grants access to manage subscription of current user |
+| status\_page    | Access to /api/status-pages              | also grants access to manage subscription of current user |
+| team            | Access to /api/teams                     |                                                           |
+| user            | Access to /api/users                     |                                                           |
+| alert           | Access to /api/alerts                    |                                                           |
+| incident        | Access to /api/incidents                 | also grants access to manage subscription of current user |
 
 By default each scope grants **read** permissions to the described resource.\
 You may request **write** (granting you read, create and edit permissions on the resource) as well as **delete** permissions (granting you read, create, edit and delete permissions on the resource).

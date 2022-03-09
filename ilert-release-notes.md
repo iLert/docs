@@ -6,6 +6,13 @@ description: >-
 
 # iLert Release Notes
 
+## March 2022
+
+### New features
+
+* We have launched private and public status pages in closed BETA.
+* We have launched [dynamic alert actions](rest-api/application-hooks/dynamic-alert-actions.md) (application hooks) in closed BETA.
+
 ## February 2022
 
 ### New features
