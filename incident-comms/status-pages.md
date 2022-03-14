@@ -44,7 +44,9 @@ The status of your status page is automatically updated whenever
 * the status of a service that is included in the status page is updated (e.g. by setting a service to _Degraded_)&#x20;
 * an incident is created that affects any of the services from your status page
 
-\--> [how to create an incident](incidents.md#create-and-communicate-incidents)
+[--> How to create an incident](incidents.md#create-and-communicate-incidents)
+
+
 
 ## Automation with alert sources
 
@@ -53,7 +55,7 @@ You can automatically update your status page in the following ways:
 * Automatically update the status of a service (for example set the status to _Degraded_)
 * Automatically create an incident on your status page using an [incident template](incidents.md#create-an-incident-template) and (optionally) notify subscribers
 
-Both cases work by using a service's automation rules. See [--> Servcices: automation with alert sources](services.md#automation-with-alert-sources) for more information.
+Both cases work by using a service's automation rules. See [-> Services: automation with alert sources](services.md#automation-with-alert-sources) for more information.
 
 ## Setting up your custom domain <a href="#custom-domain" id="custom-domain"></a>
 
