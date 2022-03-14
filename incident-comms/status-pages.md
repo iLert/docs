@@ -69,7 +69,7 @@ Setting up a custom domain consist of the following steps:
 
 Go to your status page settings and enter a custom domain and click on **Save**.
 
-![](<../.gitbook/assets/Screen Shot 2022-03-14 at 12.52.39.png>)
+![](<../.gitbook/assets/Screen Shot 2022-03-14 at 16.19.12.png>)
 
 #### 2. Configure DNS
 
