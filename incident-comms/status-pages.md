@@ -75,13 +75,9 @@ Go to your status page settings and enter a custom domain and click on **Save**.
 
 Configuring DNS happens outside of iLert, at the DNS provider you are using for your domain.&#x20;
 
-{% hint style="info" %}
-The short answer: Add a CNAME record that points to the iLert URL of your status page.
-{% endhint %}
-
 1. Create a new DNS record and select **CNAME** as the record type
 2. Enter the name for the CNAME record. The **name** or **DNS entry** is where you enter your subdomain. You might need to enter it in full (e.g. **status.example.com**) or you might just need to enter the part before your apex domain (e.g. **status**). If you're not sure which to use, check with your DNS provider.
-3. Enter the iLert URL of your status page as the value for the CNAME record. The **target** or **value** or **destination** is where the subdomain should be pointed. Taking the screenshot from above as an example, you would need to enter `ilert-demo.ilert.io`&#x20;
+3. Enter the iLert URL of your status page as the value for the CNAME record. The **target** or **value** or **destination** is where the subdomain should be pointed. Taking the screenshot from above as an example, you would need to enter `ilert-demo.ilert.io` .
 
 You might also see a field named **TTL**, which stands for Time To Live. It's the number of seconds that the DNS record can be cached for. If you're not sure what to set, look at the TTL for your existing DNS records. You could set the same number. If you're still not sure, we suggest setting 43200 seconds (12 hours) or 86400 seconds (24 hours).
 
@@ -90,3 +86,7 @@ You might also see a field named **TTL**, which stands for Time To Live. It's th
 
 Whenever possible, please **turn off Cloudflare proxying** (the orange cloud, also called "Proxy status" in your domain settings) to ensure that your status page is served without issues and can be monitored by iLert.
 {% endhint %}
+
+#### 3. Wait for the changes to take effect
+
+You might need to wait 1-48 hours for the DNS changes to take effect. This depends on the TTL setting of your DNS record and the time it takes until the DNS change is propagated throughout the internet.&#x20;
