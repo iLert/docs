@@ -92,3 +92,23 @@ Whenever possible, please **turn off Cloudflare proxying** (the orange cloud, al
 #### 3. Wait for the changes to take effect
 
 You might need to wait 1-48 hours for the DNS changes to take effect. This depends on the TTL setting of your DNS record and the time it takes until the DNS change is propagated throughout the internet.&#x20;
+
+## FAQ <a href="#custom-domain" id="custom-domain"></a>
+
+#### I'm using iLert's uptime monitors. Can I connect an uptime monitor with a status page?
+
+Yes, simply create a service and add an [automation rule](services.md#automation-with-alert-sources) that uses the uptime monitor's alert source.
+
+#### We are a managed service provider and would like use multiple status pages to communicate incidents to different customers with private pages without exposing data between customers. Is that possible?
+
+Yes. Our Premium plan even gives you unlimited stakeholder licenses. That way, you can invite as many customers as you need without requiring a full license.
+
+To isolate customer's from each other, we recommend the following approach:
+
+1. Create a team for every customer and make the team [private](../user-administration/teams.md#private-teams)
+2. Invite your customer to iLert chosing the **Stakeholder** role
+3. Add the customer to the respective customer team.
+4. Assign the status page to the respective customer team.
+
+&#x20;
+
