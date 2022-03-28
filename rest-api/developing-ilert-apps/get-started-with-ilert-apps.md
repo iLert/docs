@@ -11,7 +11,7 @@ description: >-
 
 In the connections overview you can see all applications that you have granted access to your account. You may see their last activity as well as revoke their access.
 
-![Click on your profile and navigate to Manage applications](<../../.gitbook/assets/image (52).png>)
+![Click on your profile and navigate to Manage applications](<../../.gitbook/assets/image (52) (1).png>)
 
 {% hint style="warning" %}
 Revoking an app's access invalidates the refresh token of the app, its current access\_token stays intact until it expires. It can therefore take a few minutes until the app no longer has permissions to access the granted data.

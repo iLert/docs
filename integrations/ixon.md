@@ -26,7 +26,21 @@ This integration uses IXON's [Cloud Notify](https://support.ixon.cloud/hc/en-us/
 
 ![](../.gitbook/assets/ilert-ixoncloud-url.png)
 
+### Advanced routing configuration
 
+By default iLert will route the alerts of your IXON alert source to the configured escalation policy.\
+However if you need a more flexible routing for your IXON use cases you may use our advanced routing options.
+
+![](<../.gitbook/assets/image (52).png>)
+
+You may choose the fields **user id, system label or company id** as dynamic routing fields.\
+iLert will then extract the given value e.g. user id from the IXON event and search for an escalation policy that has a matching routing key.
+
+Navigate to the escalation policy that you wish to route to and set its routing key to the IXON value:
+
+![](<../.gitbook/assets/image (47).png>)
+
+Note that if no match for the routing key is found, iLert will fall back to using the configured escalation policy.
 
 ### In IXON Cloud
 

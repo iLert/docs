@@ -61,7 +61,7 @@ A follow-the-sun-schedule lets you have 24/7 coverage without putting the burden
 
 Our final schedule configuration will look as follows:
 
-![](<../../.gitbook/assets/image (52) (1).png>)
+![](<../../.gitbook/assets/image (52) (1) (1).png>)
 
 Here are the steps to create this schedule:
 

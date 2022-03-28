@@ -13,6 +13,15 @@ description: >-
 * We have launched private and public status pages in closed BETA.
 * We have launched [dynamic alert actions](rest-api/application-hooks/dynamic-alert-actions.md) (application hooks) in closed BETA.
 
+### Improvements
+
+* User shift color (profile settings) is now used in all schedule visualisations
+* Status page editors now receive update notifications when the domain status of their page changes
+
+### New and updated integrations
+
+* IXON alert source now supports dynamic routing
+
 ## February 2022
 
 ### New features
