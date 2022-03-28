@@ -110,5 +110,11 @@ To isolate customer's from each other, we recommend the following approach:
 3. Add the customer to the respective customer team.
 4. Assign the status page to the respective customer team.
 
+#### I have set my status page to Public, but it's still not accessible from the internet. What am I missing?
+
+You probably forgot to activate your status page. Once you are satisfied with your status page, click on the **Activate** button to make your page available and viewable to your users.
+
+![](<../.gitbook/assets/image (59).png>)
+
 &#x20;
 
