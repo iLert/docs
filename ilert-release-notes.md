@@ -6,6 +6,13 @@ description: >-
 
 # iLert Release Notes
 
+## April 2022
+
+### New and updated integrations
+
+* Hyperping Integration
+* Paoloalto Networks Prisma Cloud Integration
+
 ## March 2022
 
 ### New features

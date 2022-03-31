@@ -179,6 +179,8 @@
 * [Terraform Cloud / Terraform Enterprise](integrations/terraform-cloud-terraform-enterprise.md)
 * [UptimeRobot Integration](integrations/uptime-robot.md)
 * [Webhook Integration](integrations/webhook.md)
+* [Hyperping Integration](integrations/hyperping.md)
+* [Prisma Cloud Integration](integrations/prismacloud.md)
 * [X-Pack Alerting (Elasticsearch Watcher) Integration](integrations/eswatcher.md)
 * [Zabbix Integration](integrations/zabbix/README.md)
   * [Zabbix 4.4+ Integration](integrations/zabbix/native.md)
