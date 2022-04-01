@@ -134,7 +134,7 @@ With an incoming event iLert will try to find the right escalation policy based 
 
 When providing credentials you may choose to activate bidirectional mode on the ServiceNow alert source. This will cause your alert source to be automatically linked with an outbound connector and alert action. This way status changes to iLert alerts will synchronize to ServiceNow alerts.
 
-![](<../../.gitbook/assets/image (53) (1) (1).png>)
+![](<../../.gitbook/assets/image (53) (1) (1) (1).png>)
 
 When saving the ServiceNow alert source with bidirectional setting enabled, it will automatically create an outbound connector for you and take you to the creation page of the necessary alert action, please make sure to continue with the setup of the action to finish your bidirectional alert source setup.
 

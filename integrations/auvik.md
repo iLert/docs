@@ -16,13 +16,13 @@ description: >-
 
 4\. If you wish to setup a bidirectional (two-way-sync) alert flow where Auvik alerts are resolved as soon as incidents in iLert are resolved, please check the **bidirectional checkbox** and fill in your Auvik API user credentials
 
-![](<../.gitbook/assets/image (53) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (53) (1) (1) (1) (1) (1).png>)
 
 If you need more guidance on how to retrieve an Auvik API key check out [this guide](https://support.auvik.com/hc/en-us/articles/204309114#topic\_regenerate)
 
 5\. Click on **Save** to create your alert source, after you have been redirected you should see your alert source setup. Copy the **Auvik URL** as we will need it later in Auvik to setup the integration.
 
-![](<../.gitbook/assets/image (48) (1) (1).png>)
+![](<../.gitbook/assets/image (48) (1) (1) (1).png>)
 
 ## In Auvik
 

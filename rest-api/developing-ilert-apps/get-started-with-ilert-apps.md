@@ -33,7 +33,7 @@ You may choose to limit your app to your own iLert account, while testing or in 
 
 After clicking on **Create application**, you will be taken to the edit view of your application that allows you to adjust futher settings:
 
-![](<../../.gitbook/assets/image (48).png>)
+![](<../../.gitbook/assets/image (48) (1).png>)
 
 iLert Apps use OAuth2 for user authorization - in our next guides we explain what that means and how you can setup native or web applications as well as backend driven applications.
 
