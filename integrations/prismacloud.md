@@ -1,5 +1,5 @@
 ---
-description: Paoloalto Network Prisma Cloud Integration
+description: Palo Alto Network Prisma Cloud Integration
 ---
 
 # Prisma Cloud Integration
