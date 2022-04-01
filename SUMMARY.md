@@ -30,6 +30,7 @@
   * [Setting up SSO with Okta](user-administration/singe-sign-on/setting-up-sso-with-okta.md)
   * [Setting up SSO with Auth0](user-administration/singe-sign-on/setting-up-sso-with-auth0.md)
   * [Auto provisioning users & teams](user-administration/singe-sign-on/auto-provisioning-users-and-teams.md)
+* [Two-factor authentication / MFA](user-administration/two-factor-authentication-mfa.md)
 
 ## Call Routing
 
