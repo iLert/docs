@@ -30,7 +30,7 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 1. Navigate to **Integrations** and click on **Add integration**
 
-![](<../.gitbook/assets/image (49) (1).png>)
+![](<../.gitbook/assets/image (49) (1) (1).png>)
 
 &#x20;2\. From the dropdown choose **iLert**
 
@@ -58,7 +58,7 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 &#x20;
 
-![](<../.gitbook/assets/image (50) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (50) (1) (1) (1) (1).png>)
 
 2\. Pick a desired alert that you want to sync to iLert, mark it and click on **Edit**
 
