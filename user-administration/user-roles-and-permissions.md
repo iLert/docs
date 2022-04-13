@@ -19,7 +19,7 @@ A user in iLert can have one of the following roles:
 
 ### Stakeholder
 
-Stakeholders will only be able to see the alerts to which they have been added as a subscriber and won't be able to see any other data, such as other alerts, alert sources, escalation policies, etc. Additionally, they can't login to the web application. Instead, they can use the iLert mobile app to get insights into current alerts that they are subscribed to and manage their profile and notification settings. This role is only available as part of our Premium plan.
+Stakeholders will only be able to see the incidents to which they have been added as a subscriber and won't be able to see any other data, such as alerts, alert sources, escalation policies, etc. Additionally, they can see the status pages to which they have been granted access. This role is only available as part of our Premium plan.
 
 ### Guest
 
@@ -51,11 +51,9 @@ The table below gives an overview of the role permissions.
 
 | **Operation**                                          | **Stakeholder** | **Guest** | **Responder** | **User** | **Admin** | **Account Owner** |
 | ------------------------------------------------------ | :-------------: | :-------: | :-----------: | :------: | :-------: | :---------------: |
-| Access web app                                         |        ❌        |     ✅     |       ✅       |     ✅    |     ✅     |         ✅         |
-| Use mobile app                                         |        ✅        |     ✅     |       ✅       |     ✅    |     ✅     |         ✅         |
 | View reports\*                                         |        ❌        |     ✅     |       ✅       |     ✅    |     ✅     |         ✅         |
 | Modify profile settings                                |        ✅        |     ✅     |       ✅       |     ✅    |     ✅     |         ✅         |
-| Subscribe to alerts                                    |        ✅        |     ❌     |       ✅       |     ✅    |     ✅     |         ✅         |
+| Subscribe to incidents                                 |        ✅        |     ❌     |       ✅       |     ✅    |     ✅     |         ✅         |
 | Manage alerts                                          |        ❌        |     ❌     |       ✅       |     ✅    |     ✅     |         ✅         |
 | View objects, e.g. schedules and escalation policies   |        ❌        |     ❌     |       ✅       |     ✅    |     ✅     |         ✅         |
 | Add him/herself as override to a schedule              |        ❌        |     ❌     |       ✅       |     ✅    |     ✅     |         ✅         |
