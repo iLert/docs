@@ -39,6 +39,7 @@
 * [Voicemail only mode](call-routing/voicemail-only-mode.md)
 * [Managing call routing alerts](call-routing/managing-call-routing-incidents.md)
 * [Adding webhooks and outbound chat messages](call-routing/adding-webhooks-and-outbound-chat-messages.md)
+* [Uploading custom audio responses](call-routing/uploading-custom-audio-responses.md)
 
 ## Uptime & Heartbeat Monitors <a href="#uptime-monitors" id="uptime-monitors"></a>
 
