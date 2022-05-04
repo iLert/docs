@@ -114,7 +114,7 @@ To isolate customer's from each other, we recommend the following approach:
 
 You probably forgot to activate your status page. Once you are satisfied with your status page, click on the **Activate** button to make your page available and viewable to your users.
 
-![](<../.gitbook/assets/image (59).png>)
+![](<../.gitbook/assets/image (59) (1).png>)
 
 &#x20;
 

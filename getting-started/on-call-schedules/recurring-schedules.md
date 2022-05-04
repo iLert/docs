@@ -49,7 +49,7 @@ You can combine layers to create more complex schedules by having multiple activ
 Layers at the bottom take precedence over layers at the top. The example below illustrates the effect of this.
 {% endhint %}
 
-![In layer 1, John on-call the entire week. In layer 2, Peter is on-call on weekends. Because layer 2 is lower than layer 1, the shifts from layer 2 take precedence and are included in the final schedule, which results in John not bein on-call in the weekend.](<../../.gitbook/assets/image (59) (1).png>)
+![In layer 1, John on-call the entire week. In layer 2, Peter is on-call on weekends. Because layer 2 is lower than layer 1, the shifts from layer 2 take precedence and are included in the final schedule, which results in John not bein on-call in the weekend.](<../../.gitbook/assets/image (59) (1) (1).png>)
 
 Let's look at a few examples to illustrate the power of schedule layers.
 
