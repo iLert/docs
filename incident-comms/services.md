@@ -58,7 +58,7 @@ By default, a service's historical uptime is shown. You can chose to hide the hi
 
 ### How is the uptime of a service calculated?
 
-The uptime percentage of a service is calculated based on the status of the service over a given period. iLert displays the uptime over a period of up to 90 days. We consider the states **Operational**, **Degraded** and **Under maintenance** as uptim. The states **Major outage** and **Partial outage** are counted as downtime, where partial outage minutes only count 30% as much as major outages.
+The uptime percentage of a service is calculated based on the status of the service over a given period. iLert displays the uptime over a period of up to 90 days. We consider the states **Operational**, **Degraded** and **Under maintenance** as uptime. The states **Major outage** and **Partial outage** are counted as downtime, where partial outage minutes only count 30% as much as major outages.
 
 Over a period _t_, the uptime percentage is calculated according the the following formula:
 
