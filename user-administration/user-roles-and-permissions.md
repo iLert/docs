@@ -19,7 +19,7 @@ A user in iLert can have one of the following roles:
 
 ### Stakeholder
 
-Stakeholders will only be able to see the incidents to which they have been added as a subscriber and won't be able to see any other data, such as alerts, alert sources, escalation policies, etc. Additionally, they can see the status pages to which they have been granted access. This role is only available as part of our Premium plan.
+Stakeholders will only be able to see the incidents to which they have been added as a subscriber and won't be able to see any other data, such as alerts, alert sources, escalation policies, etc. Additionally, they can see the status pages and services to which they have been granted access. In order to grant a stakeholder user access to resources, the stakholder needs to be added to a team that contains said resources. This role is only available as part of our Premium plan.
 
 ### Guest
 
