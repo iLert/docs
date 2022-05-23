@@ -15,6 +15,8 @@ A service has any of the following states:
 The status of a service can be updated during the creation of an incident or independently without an incident.
 
 {% hint style="info" %}
+**Service status changes and notifications**
+
 Service status changes on the service itself (i.e. without an incident) will not notify subscribers about the change. Subscribers will be notified only if an incident is created with affected services to which the subscriber is notified.
 {% endhint %}
 
