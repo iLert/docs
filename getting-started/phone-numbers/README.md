@@ -1,9 +1,9 @@
 ---
 title: iLert domains, emails & phone numbers
 seoTitle: 'iLert: Introduction to iLert: Domains, emails & phone numbers'
-description: iLert getting started guide | Domains, emails & phone numbers
 date: '2018-12-29T05:02:05.000Z'
 weight: 2
+description: iLert getting started guide | Domains, emails & phone numbers
 ---
 
 # iLert domains, ips, emails & phone numbers
@@ -17,8 +17,8 @@ You can find information on our domains, notification email addresses, phone num
 | Web application   | [https://app.ilert.com](https://app.ilert.com) and [https://your-domain.ilert.com](https://your-domain.ilert.com) |
 | Website           | [https://www.ilert.com](https://www.ilert.com)                                                                    |
 | Documentation     | [https://docs.ilert.com](https://docs.ilert.com)                                                                  |
-| API               | [https://api.ilert.com/api/v1](https://api.ilert.com/api/v1)                                                      |
-| API documentation | [https://api.ilert.com/api-docs](https://api.ilert.com/api-docs)                                                  |
+| API               | [https://api.ilert.com/api](https://api.ilert.com/api/v1)                                                         |
+| API documentation | [https://api.ilert.com/api-docs](https://api.ilert.com/api)                                                       |
 | Service Status    | [http://status.ilert.com](http://status.ilert.com)                                                                |
 
 ## IP addresses <a href="#email-services" id="email-services"></a>
