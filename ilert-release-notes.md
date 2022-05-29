@@ -6,6 +6,23 @@ description: >-
 
 # iLert Release Notes
 
+## May 2022
+
+### New features
+
+* Call routing numbers may now use uploaded audio files to playback greeting, waiting and mailbox messages
+* New endpoints have been added to the API to support add and remove operations for single user/team private subscribers
+
+### Improvements
+
+* Overall page load times have been reduced for the web-ui, especially for accounts with large user and team bases
+
+### New and updated integrations
+
+* Sentry inbound integration has been improved to support alert metric events
+* Autotask inbound integration has been improved to support new webUrl attribute for ticket link generation
+* SignalFX inbound integration has been improved to support better alert detail extraction
+
 ## April 2022
 
 ### New features
