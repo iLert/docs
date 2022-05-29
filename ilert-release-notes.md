@@ -10,6 +10,8 @@ description: >-
 
 ### New features
 
+* Conditional alert actions; you may now add additional filters to alert actions
+* Alert action duplication, you may now easily copy and paste an alert action to other alert sources
 * Call routing numbers may now use uploaded audio files to playback greeting, waiting and mailbox messages
 * New endpoints have been added to the API to support add and remove operations for single user/team private subscribers
 
