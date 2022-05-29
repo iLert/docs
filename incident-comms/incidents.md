@@ -35,8 +35,6 @@ To manually create an incident
    * that are subscribed to status pages where any of the affected service is included
 6. Click **Create incident**. You will see a preview of how many subscribers will be notified and on how many status pages the incident will be posted. ****&#x20;
 
-
-
 ## Incident templates
 
 Create incident templates to&#x20;
@@ -59,15 +57,24 @@ Once you select a template, all fields will be pre-filled using the values from 
 
 ### Using alert placeholders in incident templates <a href="#use-an-incident-template" id="use-an-incident-template"></a>
 
-You may use [alert placeholder variables](../integrations/webhook.md#template-variables-explained) in incident templates. When an incident is created from an alert (e.g. using alert source automation rules), the placeholder variables will be substituted with their corresponding values.
+When an incident is created from an alert (**using alert source automation rules**), the placeholder variables will be substituted with their corresponding values.
 
-In addition to alert placeholder variables, the following variables are available for substitution:
+The following variables are available for substitution:
 
-| Variable             | Description                                                                                                                                                                                                                                |
-| -------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| `serviceId`          | The id of the service that is affected                                                                                                                                                                                                     |
-| `serviceName`        | The name of the service that is affected                                                                                                                                                                                                   |
-| `serviceDescription` | The description of the service that is affected                                                                                                                                                                                            |
-| `serviceStatus`      | The statu of the service that is affected                                                                                                                                                                                                  |
-| `teamNames`          | A comma separated list of team names. This corresponds to the same value that is shown in the teams field of an incident and is resolved by traversing the ownerships of the affected service and the alert source that created the alert. |
+| Variable               | Description                                                                                                                                                                                                                                |
+| ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `serviceId`            | The id of the service that is affected                                                                                                                                                                                                     |
+| `serviceName`          | The name of the service that is affected                                                                                                                                                                                                   |
+| `serviceDescription`   | The description of the service that is affected                                                                                                                                                                                            |
+| `serviceStatus`        | The statu of the service that is affected                                                                                                                                                                                                  |
+| `teamNames`            | A comma separated list of team names. This corresponds to the same value that is shown in the teams field of an incident and is resolved by traversing the ownerships of the affected service and the alert source that created the alert. |
+| `alertId`              | The id of the alert that triggered this incident                                                                                                                                                                                           |
+| `alertDetails`         | The details of the alert that triggered this incident                                                                                                                                                                                      |
+| `alertSummary`         | The summary of the alert that triggered this incident                                                                                                                                                                                      |
+| `alertStatus`          | The status of the alert that triggered this incident                                                                                                                                                                                       |
+| `alertPriority`        | The priority of the alert that triggered this incident                                                                                                                                                                                     |
+| `alertSourceId`        | The id of the alert source of the alert that triggered this incident                                                                                                                                                                       |
+| `alertSourceName`      | The name of the alert source of the alert that triggered this incident                                                                                                                                                                     |
+| `escalationPolicyId`   | The id of the escalation policy of the alert that triggered this incident                                                                                                                                                                  |
+| `escalationPolicyName` | The name of the escalation policy of the alert that triggered this incident                                                                                                                                                                |
 
