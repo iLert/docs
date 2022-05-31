@@ -46,6 +46,8 @@ The status of your status page is automatically updated whenever
 
 [--> How to create an incident](incidents.md#create-and-communicate-incidents)
 
+{% embed url="https://www.loom.com/share/8f83ca49929247c49f33468461f08c91" %}
+
 
 
 ## Automation with alert sources
@@ -56,6 +58,8 @@ You can automatically update your status page in the following ways:
 * Automatically create an incident on your status page using an [incident template](incidents.md#create-an-incident-template) and (optionally) notify subscribers
 
 Both cases work by using a service's automation rules. See [-> Services: automation with alert sources](services.md#automation-with-alert-sources) for more information.
+
+{% embed url="https://www.loom.com/share/15eae496b3794d628c439d737156cd04" %}
 
 ## Setting up your custom domain <a href="#custom-domain" id="custom-domain"></a>
 
