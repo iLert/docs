@@ -1,11 +1,5 @@
 # Status pages
 
-{% hint style="info" %}
-**Closed beta phase**
-
-Status Pages are currently available to selected customers as part of our early access program. Status pages will be generally available early this year.
-{% endhint %}
-
 ## Set up your page
 
 Creating a status is a matter of few clicks.
