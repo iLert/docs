@@ -6,7 +6,7 @@ description: >-
 
 # Sensu Integration
 
-[Sensu](https://sensu.io) is a tool that functions as an observability pipeline which delivers monitoring as code on any cloud.
+[Sensu](https://sensu.io/) is a tool that functions as an observability pipeline which delivers monitoring as code on any cloud.
 
 ## In iLert
 

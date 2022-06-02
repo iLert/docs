@@ -36,4 +36,4 @@ description: >-
 ![](../.gitbook/assets/appsignal-detailswebhook.png)
 
 * Upon the event trigger, for example Errors or Exception, incidents will be created on iLert's side.
-* In order to trigger this test, the error needs to be sent to AppSignal, for more information please refer to [https://docs.appsignal.com/](https://docs.appsignal.com)
+* In order to trigger this test, the error needs to be sent to AppSignal, for more information please refer to [https://docs.appsignal.com/](https://docs.appsignal.com/)

@@ -4,7 +4,7 @@ description: Receive and respond to iLert alerts in Cisco Webex.
 
 # Cisco Webex
 
-[Cisco Webex](https://www.webex.com) is the leading enterprise solution for video conferencing, online meetings, screen share, and webinars.
+[Cisco Webex](https://www.webex.com/) is the leading enterprise solution for video conferencing, online meetings, screen share, and webinars.
 
 ## In iLert <a href="#create-alarm-source" id="create-alarm-source"></a>
 

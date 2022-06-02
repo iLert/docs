@@ -256,7 +256,7 @@ description: >-
 ### New features
 
 * [Advanced support hours routing](call-routing/routing-calls-based-on-support-hours.md) for call routing numbers
-* Auto provision [teams and mobile](user-administration/singe-sign-on/auto-provisioning-users-and-teams.md) numbers with SSO
+* Auto provision [teams and mobile](user-administration/single-sign-on/auto-provisioning-users-and-teams.md) numbers with SSO
 
 ### New and updated integrations
 

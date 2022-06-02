@@ -24,12 +24,12 @@
 
 * [User roles and permissions](user-administration/user-roles-and-permissions.md)
 * [Team-based organisation](user-administration/teams.md)
-* [Singe sign on](user-administration/singe-sign-on/README.md)
-  * [Setting up SSO with GSuite](user-administration/singe-sign-on/setting-up-sso-with-g-suite.md)
-  * [Setting up SSO with Microsoft Azure Active Directory](user-administration/singe-sign-on/setting-up-sso-with-azure-active-directory.md)
-  * [Setting up SSO with Okta](user-administration/singe-sign-on/setting-up-sso-with-okta.md)
-  * [Setting up SSO with Auth0](user-administration/singe-sign-on/setting-up-sso-with-auth0.md)
-  * [Auto provisioning users & teams](user-administration/singe-sign-on/auto-provisioning-users-and-teams.md)
+* [Single sign on](user-administration/single-sign-on/README.md)
+  * [Setting up SSO with GSuite](user-administration/single-sign-on/setting-up-sso-with-g-suite.md)
+  * [Setting up SSO with Microsoft Azure Active Directory](user-administration/single-sign-on/setting-up-sso-with-azure-active-directory.md)
+  * [Setting up SSO with Okta](user-administration/single-sign-on/setting-up-sso-with-okta.md)
+  * [Setting up SSO with Auth0](user-administration/single-sign-on/setting-up-sso-with-auth0.md)
+  * [Auto provisioning users & teams](user-administration/single-sign-on/auto-provisioning-users-and-teams.md)
 * [🔐 Two-factor authentication / MFA](user-administration/two-factor-authentication-mfa.md)
 
 ## Call Routing

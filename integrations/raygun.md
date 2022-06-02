@@ -6,7 +6,7 @@ description: >-
 
 # Raygun Integration
 
-[Raygun](https://raygun.com) is a cloud-based platform that provides error, crash, and performance monitoring for your web and mobile applications.
+[Raygun](https://raygun.com/) is a cloud-based platform that provides error, crash, and performance monitoring for your web and mobile applications.
 
 ## In iLert <a href="#in-ilert" id="in-ilert"></a>
 

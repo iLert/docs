@@ -6,7 +6,7 @@ description: >-
 
 # ServiceNow Inbound Integration
 
-[ServiceNow](http://www.servicenow.com) is a platform-as-a-service (PaaS) provider of enterprise Service Management (SM) software.
+[ServiceNow](http://www.servicenow.com/) is a platform-as-a-service (PaaS) provider of enterprise Service Management (SM) software.
 
 ## In iLert <a href="#in-ilert" id="in-ilert"></a>
 

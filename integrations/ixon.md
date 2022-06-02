@@ -46,7 +46,7 @@ Note that if no match for the routing key is found, iLert will fall back to usin
 
 #### Create iLert webhook
 
-1\. Navigate and login to Ixon Cloud Portal at [https://portal.ixon.cloud/](https://portal.ixon.cloud)&#x20;
+1\. Navigate and login to Ixon Cloud Portal at [https://portal.ixon.cloud/](https://portal.ixon.cloud/)&#x20;
 
 2\. Click on the ![](https://cdn.ixon.cloud/support/website/images/gui-icons/mail\_outline.svg) icon on the top right of the dashboard to navigate to **Messages**
 

@@ -41,7 +41,7 @@ The following is a guide that helps you to convert or prepare your audio files f
 
 ### Download Audacity
 
-You may download Audacity [here](https://www.audacityteam.org). Note: iLert GmbH is not affiliated with Audacity and cannot provide any guarantees or service/support, you are downloading and using it at your own risk.
+You may download Audacity [here](https://www.audacityteam.org/). Note: iLert GmbH is not affiliated with Audacity and cannot provide any guarantees or service/support, you are downloading and using it at your own risk.
 
 ### Import your audio file
 

@@ -4,7 +4,7 @@ description: The iLert Zendesk Integration helps you to easily connect iLert wit
 
 # Zendesk Outbound Integration
 
-[Zendesk](https://www.zendesk.com) is a cloud-based help desk management solution offering customizable tools to build customer service portal, knowledge base and online communities.
+[Zendesk](https://www.zendesk.com/) is a cloud-based help desk management solution offering customizable tools to build customer service portal, knowledge base and online communities.
 
 ## In Zendesk: Create API Token <a href="#api-token" id="api-token"></a>
 

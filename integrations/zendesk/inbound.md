@@ -4,7 +4,7 @@ description: Create alerts in iLert from tickets in Zendesk.
 
 # Zendesk Inbound Integration
 
-[Zendesk](https://www.zendesk.com) is a cloud-based help desk management solution offering customizable tools to build customer service portal, knowledge base and online communities.
+[Zendesk](https://www.zendesk.com/) is a cloud-based help desk management solution offering customizable tools to build customer service portal, knowledge base and online communities.
 
 ## In iLert <a href="#create-alert-source" id="create-alert-source"></a>
 
