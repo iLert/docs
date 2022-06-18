@@ -84,3 +84,17 @@ No.
 3. Click on the **Apps** tab
 4. Find the **iLert** app
 5. Click on the **Uninstall** button
+
+
+
+**The iLert app does not see all team groups of my Microsoft Teams account, what can I do?**
+
+The iLert app needs the `Group.ReadWrite.All` and `Team.ReadBasic.All` scopes to read the all team groups including legacy Skype groups. Please contact the Microsoft Teams admin who can give the permission for the iLert app. You can read more about the required scopes [here](https://docs.microsoft.com/en-us/graph/teams-list-all-teams).
+
+
+
+**The iLert app does not see all channels of my team, what can I do?**
+
+The iLert app needs the `Channel.ReadBasic.All` scope to read the team groups. Please contact the Microsoft Teams admin who can give the permission for the iLert app. You can read more about the required scope [here](https://docs.microsoft.com/en-us/graph/api/channel-list).
+
+If you still don't see all the channels, then those are private channels that are protected, and you need to invite the bot to the channel.
