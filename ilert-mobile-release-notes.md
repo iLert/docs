@@ -96,7 +96,7 @@ description: >-
 
 ### New features
 
-* [Stakeholder engagement](getting-started/stakeholder-engagement.md): keep stakeholders in the loop during critical alerts \([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/)\)
+* [Stakeholder engagement](broken-reference): keep stakeholders in the loop during critical alerts ([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/))
 
 ### Improvements
 
@@ -114,4 +114,3 @@ description: >-
 ### Improvements
 
 * Bug fixes and performance improvements
-

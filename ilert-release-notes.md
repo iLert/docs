@@ -388,14 +388,14 @@ description: >-
 
 ### Improvements
 
-* [Stakeholder engagement](getting-started/stakeholder-engagement.md): stakeholders can now unsubscribe from alert update notifications
+* [Stakeholder engagement](broken-reference): stakeholders can now unsubscribe from alert update notifications
 * Email login: Users can now login via email (in addition to username) . Usernames in iLert are deprecated and will be removed in the future.
 
 ## May 2020
 
 ### New features
 
-* [Stakeholder engagement](getting-started/stakeholder-engagement.md): keep stakeholders in the loop during critical alerts ([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/)).
+* [Stakeholder engagement](broken-reference): keep stakeholders in the loop during critical alerts ([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/)).
 
 ### New and updated integrations
 

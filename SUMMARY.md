@@ -7,7 +7,6 @@
   * [My on-call shifts](getting-started/on-call-schedules/my-on-call-shifts.md)
   * [Recurring schedules](getting-started/on-call-schedules/recurring-schedules.md)
   * [Static schedules](getting-started/on-call-schedules/static-schedules.md)
-* [Stakeholder engagement](getting-started/stakeholder-engagement.md)
 * [iLert domains, ips, emails & phone numbers](getting-started/phone-numbers/README.md)
   * [SMS and voice alerts in China](getting-started/phone-numbers/sms-and-voice-alerts-in-china.md)
 * [FAQ](getting-started/faq/README.md)
