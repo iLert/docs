@@ -64,3 +64,7 @@ Basically it is not possible to whitelist the ip addresses for all of our agents
 {% hint style="info" %}
 Please feel free to reach out in case you have any questions regarding uptime monitoring and our regions / want to request new regions.
 {% endhint %}
+
+### How are the ICMP checks performed?
+
+Each time the check is triggered, five packets are sent sequentially with a 100ms interval. The maximum round-trip time will be the response time of the check. If less than 3 packets were sent or less than 3 packets were received the check will fail and the uptime monitor will change its status.
