@@ -51,7 +51,7 @@ description: >-
 
 * View alert sources in the app
 * User directory
-* iLert vCard: during onboarding, an iLert contact is created containing all [phone numbers](getting-started/phone-numbers/#sms-alerts) for SMS and voice notifications
+* iLert vCard: during onboarding, an iLert contact is created containing all [phone numbers](../getting-started/phone-numbers/#sms-alerts) for SMS and voice notifications
 * Manage on-call reminder notifications in the app
 * Added app information section
 * App reset in iOS app settings
@@ -106,7 +106,7 @@ description: >-
 
 ### New features
 
-* [Single Sign On](integrations/sso.md): Single sign on makes it easy to manage access to your iLert account using an identity provider of your choice.
+* [Single Sign On](../integrations/sso.md): Single sign on makes it easy to manage access to your iLert account using an identity provider of your choice.
 * Ability to click on the voicemail and this phone number in the alert details
 * Ability to create a new alert
 * Add dark mode
