@@ -29,9 +29,9 @@ description: >-
 
 ### New features
 
-* [Status pages](../incident-comms/status-pages.md) and [Incident com 2.0](broken-reference) are now in GA
+* [Status pages](incident-comms/status-pages.md) and [Incident com 2.0](broken-reference) are now in GA
 * New [alert creation API](https://api.ilert.com/api-docs/#tag/Alerts/paths/\~1alerts/post) e.g. possible to target specific user
-* [2FA and MFA ](../user-administration/two-factor-authentication-mfa.md)are now available for every iLert user
+* [2FA and MFA ](user-administration/two-factor-authentication-mfa.md)are now available for every iLert user
 * Call routing is now available in Italian
 
 ### New and updated integrations
@@ -44,7 +44,7 @@ description: >-
 ### New features
 
 * We have launched private and public status pages in closed BETA.
-* We have launched [dynamic alert actions](../rest-api/application-hooks/dynamic-alert-actions.md) (application hooks) in closed BETA.
+* We have launched [dynamic alert actions](rest-api/application-hooks/dynamic-alert-actions.md) (application hooks) in closed BETA.
 
 ### Improvements
 
@@ -59,7 +59,7 @@ description: >-
 
 ### New features
 
-* We have launched the [iLert developer platform](../rest-api/developing-ilert-apps/), which enables you to create your own applications on top of iLert's uptime platform and share them with other iLert users.
+* We have launched the [iLert developer platform](rest-api/developing-ilert-apps/), which enables you to create your own applications on top of iLert's uptime platform and share them with other iLert users.
 * [Incident Communications](broken-reference) 2.0 is now in public BETA for all Premium users.
 * Support for WhatsApp as a notification channel
 
@@ -77,14 +77,14 @@ description: >-
 
 ### New features
 
-* we have launched our Incident Communications 2.0 BETA, [reach out to us](../contact.md) to join during the testing phase
-* On-call schedules: we now allow you to create more complex recurring schedules with [schedule layers](../getting-started/on-call-schedules/recurring-schedules.md#schedule-layers).
+* we have launched our Incident Communications 2.0 BETA, [reach out to us](contact.md) to join during the testing phase
+* On-call schedules: we now allow you to create more complex recurring schedules with [schedule layers](getting-started/on-call-schedules/recurring-schedules.md#schedule-layers).
 * New alert view: as part of our new Incident Comms 2.0 feature, a brand new revamp of our Alert Detail View has been launched, including live updates for Alerts and Alert related information.
 * as part of our Incident Com 2 Feature, Stakeholder users may now  use the web login (they were previously limitted to the Mobile App only)
 
 ### Improvements
 
-* the `GET /api/log-entries` [resource](./#undefined) now supports `?include=vars` and `?filter-types=ALERT_UPDATES` parameters, as well as pagination for more advanced and detailed alert timeline access
+* the `GET /api/log-entries` [resource](ilert-release-notes.md#undefined) now supports `?include=vars` and `?filter-types=ALERT_UPDATES` parameters, as well as pagination for more advanced and detailed alert timeline access
 * Microsoft Teams Alert Actions have been rebuild to support a direct Teams query for enterprise customers with > 10k Teams.
 * the (Support) Live Chat has been made available to EU customers (see Account Settings
 
@@ -92,8 +92,8 @@ description: >-
 
 ### New and updated integrations
 
-* Oh Dear [Inbound](../integrations/ohdear.md)
-* Gitlab Inbound [Integration](../integrations/gitlab.md)
+* Oh Dear [Inbound](integrations/ohdear.md)
+* Gitlab Inbound [Integration](integrations/gitlab.md)
 
 ## November 2021
 
@@ -125,7 +125,7 @@ description: >-
 
 ### New features
 
-* we have released a new version of our API check [here for more info](../rest-api/api-version-history.md)
+* we have released a new version of our API check [here for more info](rest-api/api-version-history.md)
 * we have added a new API resource [incident reports](https://api.ilert.com/api-docs/#tag/Reports)
 
 ### New and updated integrations
@@ -149,9 +149,9 @@ description: >-
 
 ### New and updated integrations
 
-* added dynamic user-, priority- and policy mapping to our [ServiceNow integration](../integrations/service-now/inbound.md)
-* updated [Jira inbound integration](../integrations/jira/inbound.md) to support alert creation on update events
-* added new fields for [ServiceNow outbound](../integrations/service-now/outbound.md) alert creation
+* added dynamic user-, priority- and policy mapping to our [ServiceNow integration](integrations/service-now/inbound.md)
+* updated [Jira inbound integration](integrations/jira/inbound.md) to support alert creation on update events
+* added new fields for [ServiceNow outbound](integrations/service-now/outbound.md) alert creation
 
 ### Improvements
 
@@ -163,7 +163,7 @@ description: >-
 
 ### New features
 
-* [My on-call shifts](../getting-started/on-call-schedules/my-on-call-shifts.md) page
+* [My on-call shifts](getting-started/on-call-schedules/my-on-call-shifts.md) page
 * Avatar upload (in user contact details)
 
 ### New and updated integrations
@@ -220,12 +220,12 @@ description: >-
 
 ### New and updated integrations
 
-* New: [Zoom Chat](../integrations/zoom/chat.md) Integration
-* New: [Zoom Meeting](../integrations/zoom/meeting.md) Integration
-* New: [Microsoft Teams Chat](../integrations/microsoft-teams/chat.md) Integration
-* New: [Microsoft Teams Meeting](../integrations/microsoft-teams/meeting.md) Integration
-* New: [MXToolBox](../integrations/mxtoolbox.md) Integration
-* New: [Azure Alert Sentinel](../integrations/azure-alerts/sentinel.md) Integration
+* New: [Zoom Chat](integrations/zoom/chat.md) Integration
+* New: [Zoom Meeting](integrations/zoom/meeting.md) Integration
+* New: [Microsoft Teams Chat](integrations/microsoft-teams/chat.md) Integration
+* New: [Microsoft Teams Meeting](integrations/microsoft-teams/meeting.md) Integration
+* New: [MXToolBox](integrations/mxtoolbox.md) Integration
+* New: [Azure Alert Sentinel](integrations/azure-alerts/sentinel.md) Integration
 
 ### New features
 
@@ -235,36 +235,36 @@ description: >-
 
 ### New and updated integrations
 
-* New: Azure Alerts Integration for [Azure Activity Logs](../integrations/azure-alerts/activity-logs.md)
-* New: Azure Alerts Integration for [Budget Alert](../integrations/azure-alerts/budget.md)
-* New: Azure Alerts Integration for [Azure Logs](../integrations/azure-alerts/logs.md)
-* New: Azure Alerts Integration for [Azure Metric](../integrations/azure-alerts/metric.md)
-* New: Azure Alerts Integration for [Azure Sentinel](../integrations/azure-alerts/sentinel.md)
-* New: Azure Alerts Integration for [Service Health](../integrations/azure-alerts/service-health.md)
-* New: [SignalFx Inbound](../integrations/signalfx.md) Integration
-* New: [Terraform Cloud / Terraform Enterprise Inbound](../integrations/terraform-cloud-terraform-enterprise.md) Integration
-* New: [Sentry Inbound](../integrations/sentry.md) Integration
-* New: [Kubernetes Inbound](../integrations/kubernetes.md) Integration
+* New: Azure Alerts Integration for [Azure Activity Logs](integrations/azure-alerts/activity-logs.md)
+* New: Azure Alerts Integration for [Budget Alert](integrations/azure-alerts/budget.md)
+* New: Azure Alerts Integration for [Azure Logs](integrations/azure-alerts/logs.md)
+* New: Azure Alerts Integration for [Azure Metric](integrations/azure-alerts/metric.md)
+* New: Azure Alerts Integration for [Azure Sentinel](integrations/azure-alerts/sentinel.md)
+* New: Azure Alerts Integration for [Service Health](integrations/azure-alerts/service-health.md)
+* New: [SignalFx Inbound](integrations/signalfx.md) Integration
+* New: [Terraform Cloud / Terraform Enterprise Inbound](integrations/terraform-cloud-terraform-enterprise.md) Integration
+* New: [Sentry Inbound](integrations/sentry.md) Integration
+* New: [Kubernetes Inbound](integrations/kubernetes.md) Integration
 
 ### Improvements <a href="#improvements" id="improvements"></a>
 
-* [Nagios](../integrations/nagios.md) / [CheckMK](../integrations/checkmk/check-mk.md) Plugin: Use proxy for the outbound traffic via `--proxy` flag
-* [Nagios](../integrations/nagios.md) / [CheckMK](../integrations/checkmk/check-mk.md) Plugin: Disable SSL certification validation (e.g. to use self-signed certificates) via `--insecure` flag
+* [Nagios](integrations/nagios.md) / [CheckMK](integrations/checkmk/check-mk.md) Plugin: Use proxy for the outbound traffic via `--proxy` flag
+* [Nagios](integrations/nagios.md) / [CheckMK](integrations/checkmk/check-mk.md) Plugin: Disable SSL certification validation (e.g. to use self-signed certificates) via `--insecure` flag
 
 ## February 2021
 
 ### New features
 
-* [Advanced support hours routing](../call-routing/routing-calls-based-on-support-hours.md) for call routing numbers
-* Auto provision [teams and mobile](../user-administration/single-sign-on/auto-provisioning-users-and-teams.md) numbers with SSO
+* [Advanced support hours routing](call-routing/routing-calls-based-on-support-hours.md) for call routing numbers
+* Auto provision [teams and mobile](user-administration/single-sign-on/auto-provisioning-users-and-teams.md) numbers with SSO
 
 ### New and updated integrations
 
-* New: [Zammad Inbound](../integrations/zammad/inbound.md) and [Outbound](../integrations/zammad/outbound.md) Integration
-* New: [Mattermost Outbound](../integrations/mattermost.md) Integration
-* New: [Splunk Inbound](../integrations/splunk.md) Integration
-* New: [Elastic Search Guard Inbound](../integrations/search-guard.md) Integration
-* New: [ServiceNow Inbound](../integrations/service-now/inbound.md) Integration
+* New: [Zammad Inbound](integrations/zammad/inbound.md) and [Outbound](integrations/zammad/outbound.md) Integration
+* New: [Mattermost Outbound](integrations/mattermost.md) Integration
+* New: [Splunk Inbound](integrations/splunk.md) Integration
+* New: [Elastic Search Guard Inbound](integrations/search-guard.md) Integration
+* New: [ServiceNow Inbound](integrations/service-now/inbound.md) Integration
 * Updated PRTG integration: custom alert summary and details based on PRTG placeholders.
 
 ### Improvements
@@ -275,7 +275,7 @@ description: >-
 
 ### New features
 
-* [Team based organisation](../user-administration/teams.md)
+* [Team based organisation](user-administration/teams.md)
 
 ### Improvements
 
@@ -291,12 +291,12 @@ description: >-
 
 ### New and updated integrations
 
-* New: [Autotask Outbound Integration](../integrations/autotask/outbound.md)
+* New: [Autotask Outbound Integration](integrations/autotask/outbound.md)
 
 ### Improvements
 
 * Links and Images for Alerts with automatic connections
-* Adedd [international caller IDs for voice alerts](../getting-started/phone-numbers/#voice-alerts) for USA and Canada, UK, Australia, Belgium and Netherlands
+* Adedd [international caller IDs for voice alerts](getting-started/phone-numbers/#voice-alerts) for USA and Canada, UK, Australia, Belgium and Netherlands
 
 ## November 2020
 
@@ -309,23 +309,23 @@ description: >-
 
 ### New and updated integrations
 
-* New: Zapier [Inbound](../integrations/zapier/inbound.md) and [Outbound](../integrations/zapier/outbound.md) Integration
-* New: Jira [Inbound](../integrations/jira/inbound.md) Integration
-* New: Server Density [Inbound](../integrations/serverdensity.md) Integration
-* New: [Consul](../integrations/consul.md) integration
-* Updated [Email integration](../integrations/email/): email deduplication now also works for email threads
-* Updated [Pingdom integration](../integrations/pingdom.md): alerts created by Pingdom now include a backlink to Pingdom
+* New: Zapier [Inbound](integrations/zapier/inbound.md) and [Outbound](integrations/zapier/outbound.md) Integration
+* New: Jira [Inbound](integrations/jira/inbound.md) Integration
+* New: Server Density [Inbound](integrations/serverdensity.md) Integration
+* New: [Consul](integrations/consul.md) integration
+* Updated [Email integration](integrations/email/): email deduplication now also works for email threads
+* Updated [Pingdom integration](integrations/pingdom.md): alerts created by Pingdom now include a backlink to Pingdom
 
 ## October 2020
 
 ### New features
 
-* Added new [Responder role](../user-administration/user-roles-and-permissions.md#responder)
+* Added new [Responder role](user-administration/user-roles-and-permissions.md#responder)
 * On-call duty notifications
 
 ### New and updated integrations
 
-* [Sysdig Inbound and Outbound Integration](../integrations/sysdig/)
+* [Sysdig Inbound and Outbound Integration](integrations/sysdig/)
 
 ### Improvements
 
@@ -341,8 +341,8 @@ description: >-
 
 ### New and updated integrations
 
-* [Email Outbound Integration](../integrations/email-outbound-integration.md)
-* [Kentix AlarmManager](../integrations/kentix-am.md)
+* [Email Outbound Integration](integrations/email-outbound-integration.md)
+* [Kentix AlarmManager](integrations/kentix-am.md)
 * Datadog Outbound Integration now supports regions
 * Prometheus alert detail formatting has been updated
 * Slack channels (connections) can now be managed in iLert directly
@@ -365,9 +365,9 @@ description: >-
 
 ### New and updated integrations
 
-* [Autotask](../integrations/autotask/)
-* [Zabbix](../integrations/zabbix/native.md) (updated): Starting Zabbix 4.4, iLert can be integrated as a media type into Zabbix. Zabbix 5.0.4+ includes iLert as a media type by default. See also Zabbix blog post: [Working with multiple on-call teams using Zabbix and iLert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/)&#x20;
-* [Prometheus](../integrations/prometheus.md) (updated): improved readabiltiy of prometheus alerts
+* [Autotask](integrations/autotask/)
+* [Zabbix](integrations/zabbix/native.md) (updated): Starting Zabbix 4.4, iLert can be integrated as a media type into Zabbix. Zabbix 5.0.4+ includes iLert as a media type by default. See also Zabbix blog post: [Working with multiple on-call teams using Zabbix and iLert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/)&#x20;
+* [Prometheus](integrations/prometheus.md) (updated): improved readabiltiy of prometheus alerts
 
 ### Improvements
 
@@ -378,13 +378,13 @@ description: >-
 
 ### New Features
 
-* [Heartbeat Monitoring](../uptime-monitors/heartbeat-monitoring/)
+* [Heartbeat Monitoring](uptime-monitors/heartbeat-monitoring/)
 
 ## June 2020
 
 ### Updated integrations
 
-* [Email](../integrations/email/): added ability to resolve alerts via email
+* [Email](integrations/email/): added ability to resolve alerts via email
 
 ### Improvements
 
@@ -399,15 +399,15 @@ description: >-
 
 ### New and updated integrations
 
-* [AWS Personal Health Dashboard](../integrations/aws-phd.md)
-* [StatusCake](../integrations/statuscake.md)
+* [AWS Personal Health Dashboard](integrations/aws-phd.md)
+* [StatusCake](integrations/statuscake.md)
 * Serverless outbound integrations:
-  * [AWS Lambda](../integrations/aws-lambda.md)
-  * [Google Cloud Functions](../integrations/gcf.md)
-  * [Microsoft Azure Functions](../integrations/azure-functions.md)
-* [Icinga v2.x](../integrations/icinga.md) (updated): there is a dedicated plugin for Icinga now on our [GitHub repo](https://github.com/iLert/ilert-icinga). You can now override the alert priority from within Icinga and we include the comments that you enter in Icinga when ack’ing a problem in the event log of the alert.
-* [JIRA](../integrations/jira/) (updated): When you setup a connection from your alert source in iLert to your JIRA instance, projects and issue types are now dynamically fetched from your JIRA instance, so you can select the issue types when iLert syncs an alert to JIRA. You can even include custom fields.
-* [Webhook](../integrations/webhook.md) (updated): you can now fully customize the payload for outbound webhooks.
+  * [AWS Lambda](integrations/aws-lambda.md)
+  * [Google Cloud Functions](integrations/gcf.md)
+  * [Microsoft Azure Functions](integrations/azure-functions.md)
+* [Icinga v2.x](integrations/icinga.md) (updated): there is a dedicated plugin for Icinga now on our [GitHub repo](https://github.com/iLert/ilert-icinga). You can now override the alert priority from within Icinga and we include the comments that you enter in Icinga when ack’ing a problem in the event log of the alert.
+* [JIRA](integrations/jira/) (updated): When you setup a connection from your alert source in iLert to your JIRA instance, projects and issue types are now dynamically fetched from your JIRA instance, so you can select the issue types when iLert syncs an alert to JIRA. You can even include custom fields.
+* [Webhook](integrations/webhook.md) (updated): you can now fully customize the payload for outbound webhooks.
 
 ### Improvements
 
@@ -419,16 +419,16 @@ description: >-
 
 ### New features
 
-* [Single Sign On](../integrations/sso.md): Single sign on makes it easy to manage access to your iLert account using an identity provider of your choice.
+* [Single Sign On](integrations/sso.md): Single sign on makes it easy to manage access to your iLert account using an identity provider of your choice.
 * **Alert Reporting** includes key metrics such MTTA and MTTR ([blog post](https://www.ilert.com/blog/2020-04-07-alert-reports-ilert-sso/#reports)).
 
 ### New integrations
 
-* [AppDynamics](../integrations/appdynamics.md)
-* [TopDesk](../integrations/topdesk/)
-* [Discord](../integrations/discord.md)
-* [GitHub](../integrations/github/)
-* [Dynatrace](../integrations/dynatrace.md)
+* [AppDynamics](integrations/appdynamics.md)
+* [TopDesk](integrations/topdesk/)
+* [Discord](integrations/discord.md)
+* [GitHub](integrations/github/)
+* [Dynatrace](integrations/dynatrace.md)
 
 ### Improvements
 

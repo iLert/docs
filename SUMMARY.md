@@ -203,6 +203,5 @@
 ***
 
 * [Contact us](contact.md)
-* [iLert Release Notes](ilert-release-notes/README.md)
-  * [iLert Mobile Release Notes](ilert-release-notes/ilert-mobile-release-notes.md)
+* [iLert Release Notes](ilert-release-notes.md)
 * [Android Push Notification Configuration](android-push-notification-configuration.md)
