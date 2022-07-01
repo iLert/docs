@@ -1,14 +1,14 @@
 ---
 title: Zabbix Native Integration
 seoTitle: 'iLert: Zabbix Integration for Alerting | Incident Response | Uptime'
-description: The iLert Zabbix Integration helps you to easily connect iLert with Zabbix.
 date: '2020-07-02T08:02:05.000Z'
 weight: 1
+description: The iLert Zabbix Integration helps you to easily connect iLert with Zabbix.
 ---
 
 # Zabbix 4.4+ Integration
 
-## System Requirements <a id="requirements"></a>
+## System Requirements <a href="#requirements" id="requirements"></a>
 
 {% hint style="info" %}
 Are you using Zabbix 4.3 or lower? Please refer to our [Zabbix 2.2 - 4.3 Integration](script.md) guide.
@@ -16,13 +16,13 @@ Are you using Zabbix 4.3 or lower? Please refer to our [Zabbix 2.2 - 4.3 Integra
 
 * Zabbix 4.4+
 
-## In iLert: Create an alert source <a id="create-alarm-source"></a>
+## In iLert: Create an alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Go to **Alert sources** and click on **Add a new alert source**.
 
 ![](../../.gitbook/assets/zbn1.png)
 
-1. Set a name \(e.g. "Zabbix"\) and select your desired escalation policy.
+1. Set a name (e.g. "Zabbix") and select your desired escalation policy.
 2. Set the **Integration type** to Zabbix.
 
 ![](../../.gitbook/assets/zbn2.png)
@@ -31,9 +31,9 @@ Are you using Zabbix 4.3 or lower? Please refer to our [Zabbix 2.2 - 4.3 Integra
 
 ![](../../.gitbook/assets/zbn3.png)
 
-## In Zabbix <a id="zabbix"></a>
+## In Zabbix <a href="#zabbix" id="zabbix"></a>
 
-### Import iLert media type \(optional as of Zabbix 5.0.4\)
+### Import iLert media type (optional as of Zabbix 5.0.4)
 
 {% hint style="info" %}
 **Are you using Zabbix 5.0.4 or higher?**
@@ -41,11 +41,11 @@ Are you using Zabbix 4.3 or lower? Please refer to our [Zabbix 2.2 - 4.3 Integra
 You can skip this section, if you're using Zabbix 5.0.4+, because as of Zabbix 5.0.4, the iLert media type is included in the distribution Zabbix.
 {% endhint %}
 
-1. Download the iLert Zabbix Media Type file from the Zabbix repository 
+1. Download the iLert Zabbix Media Type file from the Zabbix repository&#x20;
 
-```text
+```
 curl -o media_ilert.xml \
-   https://git.zabbix.com/projects/ZBX/repos/zabbix/browse/templates/media/ilert/media_ilert.xml
+   https://raw.githubusercontent.com/iLert/ilert-zabbix/master/media_ilert.xml
 ```
 
 1. Go to the **Administration → Media types** tab and click the **Import** button.
@@ -68,11 +68,11 @@ curl -o media_ilert.xml \
 
 ![](../../.gitbook/assets/zbn7.png)
 
-1. Set the name for the iLert group \(eg. "iLert group"\).
+1. Set the name for the iLert group (eg. "iLert group").
 
 ![](../../.gitbook/assets/zbn8.png)
 
-1. Switch to the **Permissions** tab and select the **host groups** that the iLert group should have read access to, for sending notifications. Without read access, iLert cannot receive notifications for the hosts in the group \(see also [here](https://www.zabbix.com/documentation/4.4/manual/quickstart/notification)\).
+1. Switch to the **Permissions** tab and select the **host groups** that the iLert group should have read access to, for sending notifications. Without read access, iLert cannot receive notifications for the hosts in the group (see also [here](https://www.zabbix.com/documentation/4.4/manual/quickstart/notification)).
 2. Click the **Add** button to save the group.
 
 ![](../../.gitbook/assets/zbn9.png)
@@ -117,7 +117,7 @@ curl -o media_ilert.xml \
 
 1. Click the **Add** button to save the action
 
-## FAQ <a id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Are alerts automatically resolved in iLert?**
 
@@ -129,15 +129,14 @@ Yes, create several **iLert users** in Zabbix and store the corresponding **API 
 
 **What if my internet connection is lost? Are the events generated in Zabbix lost?**
 
-No events are lost. The zabbix server tries to send the events to iLert every 30 seconds with 10 attempts \(can be configured in media type settings\). As soon as your connection is available again, all events are sent to iLert. We also recommend that you monitor your Internet connection with an external monitoring service. You can then send these alerts to iLert too.
+No events are lost. The zabbix server tries to send the events to iLert every 30 seconds with 10 attempts (can be configured in media type settings). As soon as your connection is available again, all events are sent to iLert. We also recommend that you monitor your Internet connection with an external monitoring service. You can then send these alerts to iLert too.
 
 **The plugin does not work. How do I find the issue?**
 
 Please look at the **Problems View** in Zabbix under the actions column first. If you can not find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
 
-## Further References <a id="faq"></a>
+## Further References <a href="#faq" id="faq"></a>
 
 This blog post in the Zabbix blog outlines how to use Zabbix and iLert with multiple on-call teams, where each team is responsible for a set of host groups in Zabbix, and therefore, will only receive alerts for the services it is responsible for:
 
 [Working with multiple on-call teams using Zabbix and iLert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/)
-
