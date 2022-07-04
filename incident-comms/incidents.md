@@ -57,7 +57,7 @@ Once you select a template, all fields will be pre-filled using the values from 
 
 ### Using alert placeholders in incident templates <a href="#use-an-incident-template" id="use-an-incident-template"></a>
 
-When an incident is created from an alert (**using alert source automation rules**), the placeholder variables will be substituted with their corresponding values.
+When an incident is created from an alert (**using alert source automation rules**), the placeholder variables will be substituted with their corresponding values. To use a variable in your template, include the variable in double-braces, like this: `New incident for service {{serviceName}}` .&#x20;
 
 The following variables are available for substitution:
 
