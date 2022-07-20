@@ -12,11 +12,11 @@ description: >-
 2. Assign a name and select an escalation policy
 3. From the tools dropdown choose **Auvik**
 
-![](<../.gitbook/assets/image (54) (1).png>)
+![](<../.gitbook/assets/image (54) (1) (1).png>)
 
 4\. If you wish to setup a bidirectional (two-way-sync) alert flow where Auvik alerts are resolved as soon as incidents in iLert are resolved, please check the **bidirectional checkbox** and fill in your Auvik API user credentials
 
-![](<../.gitbook/assets/image (53) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (53) (1) (1) (1) (1) (1) (1).png>)
 
 If you need more guidance on how to retrieve an Auvik API key check out [this guide](https://support.auvik.com/hc/en-us/articles/204309114#topic\_regenerate)
 

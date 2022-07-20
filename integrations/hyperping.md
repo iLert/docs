@@ -10,7 +10,7 @@ Navigate to **Services -> Alert sources -> Create new alert source** (top right 
 
 After you have created your alert source, you will see its details and should copy the **url** that was generated for you.
 
-![](<../.gitbook/assets/image (53).png>)
+![](<../.gitbook/assets/image (53) (1).png>)
 
 ## In Hyperping
 
