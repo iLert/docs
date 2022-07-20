@@ -53,7 +53,7 @@ Integrations that have been developed using the old API version to not have to b
 | UptimeMonitor            | createIncidentAfterFailedChecks           | createAlertAfterFailedChecks                                                      |
 | AlertSource              | incidentCreation                          | alertCreation                                                                     |
 | AlertSource              | incidentPriorityRule                      | alertPriorityRule                                                                 |
-| AlertSource.supportHours | autoRaiseAlerts                           | autoRaiseAlerts                                                                   |
+| AlertSource.supportHours | autoRaiseIncidents                        | autoRaiseAlerts                                                                   |
 | Incident -> Alert        | incidentKey                               | alertKey                                                                          |
 | Notification             | incidentId                                | alertId                                                                           |
 | LogEntry                 | incidentId                                | alertId                                                                           |
@@ -66,7 +66,7 @@ In favor of developer experience we decided to migrate `/api/v1/connections` to 
 
 ### Removing XML support
 
-In June 2020 we decided to deprecate XML support for request and response schemas, as JSON was widely preferered by our customers. We began removing support from older `/v1/... `endpoints in August 2020. XML is **not** supported in new url version-less resources as of 2021.
+In June 2020 we decided to deprecate XML support for request and response schemas, as JSON was widely preferered by our customers. We began removing support from older `/v1/...` endpoints in August 2020. XML is **not** supported in new url version-less resources as of 2021.
 
 #### What did we do to keep backwards compatibility?
 
