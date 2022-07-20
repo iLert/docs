@@ -6,6 +6,51 @@ description: >-
 
 # iLert Release Notes
 
+## July 2022
+
+### New features
+
+* Maintenance windows now support services and appear on related status pages
+* Maintenance window now offer different types of notifications along their lifecycle when affecting services or status pages with private or public subscribers
+* iLert will now inform the owner of incidents (via email) that are publicly visible on status pages in case they have been pinned there for longer than 4 hours
+* Alert actions may now be cloned to other alert sources
+* We now support conditional execution for alert actions making it possible to filter and tune alert streams to webhooks or tools like Microsoft Teams and Slack
+
+### Mobile apps
+
+* Now support incident list and detail views
+* Now support status pages and services
+* We have reworked the navigation as well as the stakeholder user experience
+* We have improved the performance for customers with a large amount of teams and users
+
+### Improvements
+
+* we have introduced a new region field for users and adjusted all calendar and date/time relevant components to deliver a seemless localized experience
+
+### New and updated integrations
+
+* Our Zabbix native integration now supports [severity mapping](integrations/zabbix/native.md#faq) and [bidirectional problem/alert acknowledgement](integrations/zabbix/native.md#faq-1)
+
+## June 2022
+
+### New features
+
+* The s[ervice outage edit API ](https://api.ilert.com/api-docs/#tag/Service-Outages)is now available
+* All public facing incident communications emails now support beautifully crafted html email versions
+* We have introduced a new feature for private status pages to make them available to any user within an organization even if the entity itself is owned by a private team or hidden from stakeholders "Account Wide View"
+* we have launched a [public roadmap](https://roadmap.ilert.com/roadmap)
+* we have launched a completely new onboarding experience for new accounts
+* added a new subscription API endpoint for status pages to add or remove a single subscriber
+
+### Improvements
+
+* the MFA status is now visible in the user list
+* browser caching of certain script and style resources has been optimized for faster page load
+
+### New and updated integrations
+
+* [Samsara Inbound integration](integrations/samsara.md) has been added
+
 ## May 2022
 
 ### New features
