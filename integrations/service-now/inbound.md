@@ -116,7 +116,7 @@ Afters you will get access to:
 
 When selecting priority mapping, iLert will contact your ServiceNow instance and fetch all available priorities of ServiceNow alerts. You will then be able to choose a mapping for each of these and determine how iLert will treat them when creating alerts in iLert.
 
-![](<../../.gitbook/assets/image (55) (1).png>)
+![](<../../.gitbook/assets/image (55) (1) (1).png>)
 
 ### Dynamic escalation policy routing
 
@@ -138,7 +138,7 @@ When providing credentials you may choose to activate bidirectional mode on the 
 
 When saving the ServiceNow alert source with bidirectional setting enabled, it will automatically create an outbound connector for you and take you to the creation page of the necessary alert action, please make sure to continue with the setup of the action to finish your bidirectional alert source setup.
 
-![](<../../.gitbook/assets/image (56) (1).png>)
+![](<../../.gitbook/assets/image (56) (1) (1).png>)
 
 ### Good to know
 

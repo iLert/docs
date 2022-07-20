@@ -117,6 +117,25 @@ curl -o media_ilert.xml \
 
 1. Click the **Add** button to save the action
 
+## Mapping Zabbix problem severity to alert priority <a href="#faq" id="faq"></a>
+
+iLert supports a mapping configuration for your Zabbix alert source that allows you to map the standard Zabbix severities to iLert priorities. Just enable the checkbox for **Priority mapping** under Zabbix settings.
+
+![](<../../.gitbook/assets/image (55).png>)
+
+## Bidirectional setup (auto. acknowledge in Zabbix) <a href="#faq" id="faq"></a>
+
+As the Zabbix API allows for problems to be acknowledged, iLert offers a setting to configure your Zabbix alert source in bidirectional mode. This will automatically create a connector and alert action for your alert source that will pipe accept events from iLert to Zabbix and acknowledge the problem related to the iLert alert.
+
+![](<../../.gitbook/assets/image (56).png>)
+
+Enable the **Bidirectional** checkbox during your alert sources creation.\
+The **Url** and **Api key** will show up under Zabbix settings, please provide both and create your alert source. You will see that a connector and alert action have been setup automatically for your alert source.
+
+{% hint style="info" %}
+You cannot add bidirectional mode after an alert source has already been created. You will have to create a new alert source. Bidirectional mode cannot be enabled through the API.
+{% endhint %}
+
 ## FAQ <a href="#faq" id="faq"></a>
 
 **Are alerts automatically resolved in iLert?**
@@ -134,6 +153,10 @@ No events are lost. The zabbix server tries to send the events to iLert every 30
 **The plugin does not work. How do I find the issue?**
 
 Please look at the **Problems View** in Zabbix under the actions column first. If you can not find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
+
+**Will problems in Zabbix be acknowledged if I accept the alert in iLert?**
+
+If you have enabled the bidirectional setup during your alet source creation in iLert, yes. See "Bidrectional setup..." above.
 
 ## Further References <a href="#faq" id="faq"></a>
 
