@@ -123,7 +123,7 @@ description: >-
 ### New features
 
 * we have launched our Incident Communications 2.0 BETA, [reach out to us](contact.md) to join during the testing phase
-* On-call schedules: we now allow you to create more complex recurring schedules with [schedule layers](getting-started/on-call-schedules/recurring-schedules.md#schedule-layers).
+* On-call schedules: we now allow you to create more complex recurring schedules with [schedule layers](on-call-management-and-escalations/on-call-schedules/recurring-schedules.md#schedule-layers).
 * New alert view: as part of our new Incident Comms 2.0 feature, a brand new revamp of our Alert Detail View has been launched, including live updates for Alerts and Alert related information.
 * as part of our Incident Com 2 Feature, Stakeholder users may now  use the web login (they were previously limitted to the Mobile App only)
 
@@ -208,7 +208,7 @@ description: >-
 
 ### New features
 
-* [My on-call shifts](getting-started/on-call-schedules/my-on-call-shifts.md) page
+* [My on-call shifts](on-call-management-and-escalations/on-call-schedules/my-on-call-shifts.md) page
 * Avatar upload (in user contact details)
 
 ### New and updated integrations

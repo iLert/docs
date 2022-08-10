@@ -15,11 +15,11 @@ Samsara's platform helps you to monitor and track your devices
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "Samsara" as the **Integration Type** and click on **Save**.
 
-![](<../.gitbook/assets/image (54).png>)
+![](<../.gitbook/assets/image (54) (2).png>)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the webhook in Samsara.
 
-![](<../.gitbook/assets/image (53).png>)
+![](<../.gitbook/assets/image (53) (2).png>)
 
 ## In Samsara
 

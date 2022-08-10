@@ -18,7 +18,7 @@ Each call routing number has a unique phone number that will be set up for you b
 
 Once we have added a phone number to your account, you can configure its IVR menu, routing options, voicemail settings and more.
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 
 The general settings area allows you to configure a **name** as well as the **language** and **greeting** of your call routing number. The **name** will be read out to your on-call staff whenever they receive a call.
 

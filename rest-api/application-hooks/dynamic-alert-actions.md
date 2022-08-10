@@ -214,7 +214,7 @@ The provided text will be used as feedback for the user that has invoked the act
 
 Navigate to your alert source and switch to the **Alert actions** tab. Click on **Create new alert action**.
 
-![](<../../.gitbook/assets/image (53) (1) (1).png>)
+![](<../../.gitbook/assets/image (53) (1).png>)
 
 If this is the first time you are creating a dynamic alert action. You will need to create a new connector (_requires Admin permissions_) that holds the information and optional credentials for your web service.
 

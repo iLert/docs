@@ -3,14 +3,18 @@
 ## Getting Started
 
 * [Core concepts](README.md)
-* [On-call schedules](getting-started/on-call-schedules/README.md)
-  * [My on-call shifts](getting-started/on-call-schedules/my-on-call-shifts.md)
-  * [Recurring schedules](getting-started/on-call-schedules/recurring-schedules.md)
-  * [Static schedules](getting-started/on-call-schedules/static-schedules.md)
 * [iLert domains, ips, emails & phone numbers](getting-started/phone-numbers/README.md)
   * [SMS and voice alerts in China](getting-started/phone-numbers/sms-and-voice-alerts-in-china.md)
 * [FAQ](getting-started/faq/README.md)
   * [Renaming of Incidents to Alerts](getting-started/faq/renaming-of-incidents-to-alerts.md)
+
+## On-call management & Escalations
+
+* [Escalation policies](on-call-management-and-escalations/escalation-policies.md)
+* [On-call schedules](on-call-management-and-escalations/on-call-schedules/README.md)
+  * [My on-call shifts](on-call-management-and-escalations/on-call-schedules/my-on-call-shifts.md)
+  * [Recurring schedules](on-call-management-and-escalations/on-call-schedules/recurring-schedules.md)
+  * [Static schedules](on-call-management-and-escalations/on-call-schedules/static-schedules.md)
 
 ## Incident comms
 

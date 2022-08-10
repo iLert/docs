@@ -34,7 +34,7 @@ iLert provides the following inbound integration options:
 | **SMS integration**                                              | Send alerts to iLert via SMS.                                                                                                                                                                |
 | [**Hearbeat monitoring**](uptime-monitors/heartbeat-monitoring/) | A heartbeat alert source will automatically create an alert if it does not receive a heartbeat signal from your app at regular intervals.                                                    |
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (1) (1).png>)
 
 ## Connectors and alert actions (aka outbound integrations)
 
@@ -60,8 +60,8 @@ An escalation policy connects an alert source with the users that are responsibl
 
 On-call schedules determine who will be notified when an alert is created based on the time of day. Only one user per schedule can be on-call at a time. You can reference an on-call schedule in an escalation policy.
 
-{% content-ref url="getting-started/on-call-schedules/" %}
-[on-call-schedules](getting-started/on-call-schedules/)
+{% content-ref url="on-call-management-and-escalations/on-call-schedules/" %}
+[on-call-schedules](on-call-management-and-escalations/on-call-schedules/)
 {% endcontent-ref %}
 
 ## Services and Incidents

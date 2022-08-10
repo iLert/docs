@@ -121,13 +121,13 @@ curl -o media_ilert.xml \
 
 iLert supports a mapping configuration for your Zabbix alert source that allows you to map the standard Zabbix severities to iLert priorities. Just enable the checkbox for **Priority mapping** under Zabbix settings.
 
-![](<../../.gitbook/assets/image (55).png>)
+![](<../../.gitbook/assets/image (55) (2).png>)
 
 ## Bidirectional setup (auto. acknowledge in Zabbix) <a href="#faq" id="faq"></a>
 
 As the Zabbix API allows for problems to be acknowledged, iLert offers a setting to configure your Zabbix alert source in bidirectional mode. This will automatically create a connector and alert action for your alert source that will pipe accept events from iLert to Zabbix and acknowledge the problem related to the iLert alert.
 
-![](<../../.gitbook/assets/image (56).png>)
+![](<../../.gitbook/assets/image (56) (2).png>)
 
 Enable the **Bidirectional** checkbox during your alert sources creation.\
 The **Url** and **Api key** will show up under Zabbix settings, please provide both and create your alert source. You will see that a connector and alert action have been setup automatically for your alert source.
