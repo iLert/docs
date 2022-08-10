@@ -21,11 +21,15 @@ An escalation must have at least one escalation rule. You can add more rules by 
 
 ![](<../.gitbook/assets/image (1).png>)
 
+{% hint style="info" %}
+**Alerting multiple users at the same time**
+
+The maxiumun number of users and on-call schedules that you can set in a single escalation level depends on your plan and is indicated in the escalation rule. In the above screenshot, the maximum number of targets per escalation level is 5.&#x20;
+{% endhint %}
+
 #### Routing key (optional)
 
 By default, an alert source is associated with a single escalation policy and always uses the same policy for every alert that it creates. An escalation policy's routing key can be used in the Events API to overwrite an alert source's escalation policy and route alerts dynamically based on the escalation policy's routing key.
 
 
-
-![](<../.gitbook/assets/image (8).png>)
 
