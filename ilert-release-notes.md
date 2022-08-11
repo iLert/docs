@@ -6,6 +6,34 @@ description: >-
 
 # iLert Release Notes
 
+## August 2022
+
+**New features**
+
+* This feature has been long-awaited by many customers: we have added support for **Multiple Responders**
+* \=> Escalation policy rules now support multiple users and schedules
+* \=> During the escalation of an alert all responders will be added to the alert
+* \=> A user may request additional help of another responder on any open alert
+* We have added a new messenger for alert notifications: **Telegram**, users may connect their iLert account to their Telegram app and respond to alerts on their favorite messenger
+* We have added live updates to our alert list view
+* Status pages of a team can now be managed in the team admin view
+
+**Improvements**
+
+* We have completely reworked the alert list view, users will now see additional information and improvements such as responders and their individual alert status, escalation policy filter, **aggregation status of events for a specific alert**, bulk resolve comments, highly reduced load and response times, deep links for filter configurations
+* We have completely reworked the user list view, admins have now access to new tools and filters that should help them with their day to day tasks: filter for roles, mfa status and team membership, pagination, highly reduced load and response times, deep links for filter configurations
+* Increased status page service limit from 30 to 100
+* Doubled the API rate limits for Terraform clients
+* Improved response time of team edit view
+
+**New and updated integrations**
+
+* Increased amount of fetched companies for Autotask connectors to 1000 and added a search view to the selection
+
+**Other**
+
+* Alert reports are now available in the professional plan, on-call reports stay a premium only feature
+
 ## July 2022
 
 ### New features
