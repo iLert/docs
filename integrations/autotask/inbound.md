@@ -108,6 +108,14 @@ With the iLert Autotask inbound integration, you can create alerts in iLert base
 | 1 - Low                                       | Low                   |
 | <p>2 - High<br>3 - Medium<br>4 - Critical</p> | High                  |
 
+## Bidirectional alert synchronisation
+
+When providing credentials you may choose to activate bidirectional mode on the Autotask ticket source. This will cause your alert source to be automatically linked with an outbound connector and alert action. This way status changes to iLert alerts will synchronize to Autotask ticket.
+
+<figure><img src="../../.gitbook/assets/ExampleAutotask.png" alt=""><figcaption></figcaption></figure>
+
+When saving the Autotask alert source with bidirectional setting enabled, it will automatically create an outbound connector for you and take you to the creation page of the necessary alert action, please make sure to continue with the setup of the action to finish your bidirectional alert source setup.
+
 ## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in iLert be resolved automatically?**
