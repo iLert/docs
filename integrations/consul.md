@@ -6,7 +6,8 @@ description: >-
 
 # HashiCorp Consul
 
-[HashiCorp Consul](https://www.consul.io/) is a service mesh solution providing a full featured control plane with service discovery, configuration, and segmentation functionality.
+| ![](<../.gitbook/assets/Consul Cloud Verified Badge\_Small (1).png>) | [HashiCorp Consul](https://www.consul.io/) is a service mesh solution providing a full featured control plane with service discovery, configuration, and segmentation functionality. |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 
 ## In iLert <a href="#in-ilert" id="in-ilert"></a>
 
