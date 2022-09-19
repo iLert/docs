@@ -24,7 +24,7 @@ iLert offers two types of schedules - **recurring and static schedules**, which 
 
 | [Recurring schedule](recurring-schedules.md)                                                                                                       | [Static schedule](static-schedules.md)                                                                                                                                                                                          |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><img src="../../.gitbook/assets/image (28).png" alt=""></p><p></p>                                                                              | <p><img src="../../.gitbook/assets/image (27).png" alt=""></p><p></p>                                                                                                                                                           |
+| <p><img src="../../.gitbook/assets/image (28).png" alt=""></p><p></p>                                                                              | <p><img src="../../.gitbook/assets/image (27).png" alt="" data-size="original"></p><p></p>                                                                                                                                      |
 | <ul><li>Use if shifts are recurring. </li><li>Example: every team member is on-call for a week.</li><li>Shifts are created automatically</li></ul> | <ul><li>Use if  you can’t plan your schedule beyond a specific time frame and want to schedule them manually on a regular basis.</li><li>Shifts are created manually by dragging and dropping users onto the calendar</li></ul> |
 
 {% content-ref url="recurring-schedules.md" %}
@@ -75,4 +75,6 @@ If an alert occurs during a time with no coverage in your schedule, then the ale
 
 #### Can I choose my own shift colour?
 
-No, shift colours are automatically assigned to a user and are permanent.&#x20;
+Yes, you can change your shift colour in your profile settings. Click on your avatar in the navigation bar --> Contact details.&#x20;
+
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>

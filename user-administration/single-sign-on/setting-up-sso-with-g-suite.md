@@ -8,7 +8,7 @@ You need to be the account owner to setup SSO.
 
 1\. Click on the cog-icon on the top right and go to **Account settings**
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (2) (1).png>)
 
 2\. Go to the **Single sign-on** tab.
 
