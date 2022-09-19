@@ -27,6 +27,12 @@ An escalation must have at least one escalation rule. You can add more rules by 
 The maxiumun number of users and on-call schedules that you can set in a single escalation level depends on your plan and is indicated in the escalation rule. In the above screenshot, the maximum number of targets per escalation level is 5.&#x20;
 {% endhint %}
 
+#### Delayed escalation
+
+With delayed escalation, you can delay escalation by a set period of time (up to 60 minutes). That way, you can avoid getting paged for alerts that quickly resolve themselves. When an alert is created and resolved before the defined delay has passed, iLert won't notify anyone. You can still have those alerts posted somewhere (e.g. Slack) by creating an alert action that gets triggered when an alert is created.
+
+<figure><img src="../.gitbook/assets/190445211-306f8cf1-b430-4d5e-95bf-3f5b87d7cc94-2.png" alt=""><figcaption><p>Chose a delay in the top of an escalation policy</p></figcaption></figure>
+
 #### Routing key (optional)
 
 By default, an alert source is associated with a single escalation policy and always uses the same policy for every alert that it creates. An escalation policy's routing key can be used in the Events API to overwrite an alert source's escalation policy and route alerts dynamically based on the escalation policy's routing key.
