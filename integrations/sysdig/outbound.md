@@ -38,7 +38,7 @@ description: >-
 
 ![](<../../.gitbook/assets/iLert (67).png>)
 
-1. Optional: You can define tags and event filters. More information aber it you can find here: [https://docs.sysdig.com/en/events.html](https://docs.sysdig.com/en/events.html)
+1. Optional: You can define tags and event filters. More information about it can be found here: [https://docs.sysdig.com/en/events.html](https://docs.sysdig.com/en/events.html)
 2. Finished! You can now test the connection by clicking on the button **Test this connection**. Then a test event will be created in Sysdig.
 
 ![](<../../.gitbook/assets/iLert (68).png>)
