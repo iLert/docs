@@ -77,4 +77,4 @@ If an alert occurs during a time with no coverage in your schedule, then the ale
 
 Yes, you can change your shift colour in your profile settings. Click on your avatar in the navigation bar --> Contact details.&#x20;
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
