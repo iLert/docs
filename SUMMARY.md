@@ -151,7 +151,7 @@
 * [Nagios Integration](integrations/nagios.md)
 * [New Relic Integration](integrations/new-relic.md)
 * [Oh Dear Integration](integrations/ohdear.md)
-* [PandoraFMS Integration](integrations/pandorafms-integration.md)
+* [PandoraFMS Integration](integrations/pandorafms.md)
 * [Pingdom Integration](integrations/pingdom.md)
 * [Prometheus Integration](integrations/prometheus.md)
 * [PRTG Network Monitor Integration](integrations/prtg.md)

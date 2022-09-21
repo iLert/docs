@@ -11,7 +11,7 @@ description: >-
 Login to your iLert account and navigate to the alert sources list.\
 Click on the **Create a new alert source** button
 
-![](<../.gitbook/assets/image (40).png>)
+![](<../.gitbook/assets/image (40) (1).png>)
 
 Enter a name for your new alert source and choose an escalation policy.\
 In the dropdown for integration type tool search for N-central and select it.

@@ -17,7 +17,7 @@ An escalation policy must have at least one escalation rule. You can add more ru
 * A **target**: an individual user or a schedule. If the target is a schedule, the user on-call at the time of the alert assignment will be added as a responder to an alert. If an alert occurs during a time with no coverage in your schedule, then the alert will be escalated immediately to the next escalation level, without waiting for the escalation timeout. If no one is on-call on the entire escalation policy, no one will be notified.
 * An **escalation timeout**: the amount of time that a responder has to accept an alert until it is automatically escalated to the next escalation level.
 
-![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (1) (2).png>)
 
 {% hint style="info" %}
 **Alerting multiple users at the same time**

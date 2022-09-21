@@ -29,7 +29,7 @@ By default, iLert creates a new alert for every email sent to the alert source's
 
 Email filters allow you to ignore emails based on the content of the email's subject, body, or from address.
 
-![In the above sttings, only emails from my-tool@acme.com that contain the word PROBLEM in the subject will be accepted.](<../../.gitbook/assets/image (17).png>)
+![In the above sttings, only emails from my-tool@acme.com that contain the word PROBLEM in the subject will be accepted.](<../../.gitbook/assets/image (40).png>)
 
 ### Alert creation
 
