@@ -2,7 +2,7 @@
 
 The `Voicemail only mode` option will skip any greeting and IVR menu and send every incoming calls to the voicemail. In `Voicemail only mode` , the first routing option will be selected as escalation policy to escalate the related alert.
 
-![](<../.gitbook/assets/image (17).png>)
+![](<../.gitbook/assets/image (17) (1).png>)
 
 In case the message is detected to be english, a transcription, as well as the audio itself, will be appended to the alert in iLert.
 
