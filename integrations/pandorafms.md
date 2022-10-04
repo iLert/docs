@@ -9,11 +9,20 @@ description: Create alerts in iLert from PandoraFMS alerts.
 1. Go to **Alert sources** and click on the **Create new alert source** button
 2. Set a name for your PandoraFMS alert source and select an escalation policy
 3. In the field Integration type select **PandoraFMS** and save.
-4. On the next page, an API Key is generated. You will need this API Key below when setting up in PandoraFMS.
+4.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2022-09-22 at 11.40.53.png" alt=""><figcaption></figcaption></figure>
+5. On the next page, an API Key is generated. You will need this API Key below when setting up in PandoraFMS.
+6.
+
+    <figure><img src="../.gitbook/assets/censored (1).jpeg" alt=""><figcaption></figcaption></figure>
 
 ## In PandoraFMS: Add iLert Webhook as Alert Command
 
-1. Download our script pandorafms\_ilert.sh from the [Pandora FMS modules library](https://pandorafms.com/library/).
+1. Download our script pandorafms\_ilert.sh.\
+   Download links:\
+   [Pandora FMS modules library](https://pandorafms.com/library/)\
+   [iLert Pandorafms](https://github.com/iLert/ilert-pandorafms)
 2.  Save this script into the following path :
 
     ```
@@ -69,13 +78,23 @@ description: Create alerts in iLert from PandoraFMS alerts.
 24.
 
     <figure><img src="../.gitbook/assets/Screenshot 2022-09-19 at 16.15.51 (1).png" alt=""><figcaption></figcaption></figure>
-25. Create the template.
-26. In the sidebar, go to **Alerts** -> **List of Alerts** and click on the **Create** button.
-27. Enter a **Agent**, the **Module**, the previous created **Action**, and the **Template**.
-28.
+25. On the next step, enable **Alert recovery** to activate the automatical alert recovery in iLert.
+26.
 
-    <figure><img src="../.gitbook/assets/Screenshot 2022-09-19 at 16.16.50.png" alt=""><figcaption></figcaption></figure>
-29. Click on **Add alert** to finish the integration.
+    <figure><img src="../.gitbook/assets/Screenshot 2022-09-22 at 12.39.24.png" alt=""><figcaption></figcaption></figure>
+27. Create the template.
+28. In the sidebar, go to **Alerts** -> **List of Alerts** and click on the **Create** button.
+29. Enter a **Agent**, the **Module**, the previous created **Action**, and the **Template**.
 30.
 
+    <figure><img src="../.gitbook/assets/Screenshot 2022-09-19 at 16.16.50.png" alt=""><figcaption></figcaption></figure>
+31. Click on **Add alert** to finish the integration.
+32.
+
     <figure><img src="../.gitbook/assets/Screenshot 2022-09-19 at 16.17.15.png" alt=""><figcaption></figcaption></figure>
+
+## FAQ
+
+**Will alerts in iLert be resolved automatically?**
+
+Yes, as soon as a module has been recovered, the alert in iLert will be resolved automatically. Make sure to fill out the **Recovery** fields in **Alert Action** and enable  **Alert recovery** in **Templates** in [PandoraFMS](pandorafms.md#in-pandorafms-add-ilert-webhook-as-alert-command).

@@ -6,7 +6,7 @@ description: Get more insights on how to deal with call routing alerts.
 
 ## Managing alert resolution
 
-![](<../.gitbook/assets/image (11).png>)
+![](<../.gitbook/assets/image (11) (1).png>)
 
 By default calls that have been accepted by an agent will be resolved when a caller hangs up. If you do not want the alerts to be resolved automatically after the call, because you might want them to be escalated further, you may choose this option to leave the alerts open.
 
