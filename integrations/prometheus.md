@@ -81,7 +81,7 @@ Yes, create several Webhook receivers in Prometheus and enter the URL of the ale
 
 **What if my internet connection is interrupted? Are the alerts generated in Prometheus lost?**
 
-No, alerts are not lost. The alert manager has a retry mechanism. In addition, we recommend that you monitor your Internet connection with an external monitoring service (e.g. using [iLert's heartbeat feature](../uptime-monitors/heartbeat-monitoring/) or uptime monitoring). See here for a [Prometheus Heartbeat Example](../uptime-monitors/heartbeat-monitoring/prometheus-heartbeat-example.md).
+No, alerts are not lost. The alert manager has a retry mechanism. In addition, we recommend that you monitor your Internet connection with an external monitoring service (e.g. using [iLert's heartbeat feature](../getting-started/heartbeat-monitoring/) or uptime monitoring). See here for a [Prometheus Heartbeat Example](../getting-started/heartbeat-monitoring/prometheus-heartbeat-example.md).
 
 **Not all Prometheus Alerts alerts are created in iLert. Why?**
 

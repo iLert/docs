@@ -38,7 +38,7 @@ We offer several options to prepare for a situation like this:
 
 * Monitor your internet connection using our [uptime monitoring](https://www.ilert.com/product/uptime-monitoring) feature
 * Create an SMS alert source in iLert and send alerts to iLert via SMS using a hardware SMS gateway
-* Create a [heartbeat alert source](../../uptime-monitors/heartbeat-monitoring/) in iLert to monitor the connectivity between your network and iLert.&#x20;
+* Create a [heartbeat alert source](../heartbeat-monitoring/) in iLert to monitor the connectivity between your network and iLert.&#x20;
 
 ## How can I change the account owner?
 

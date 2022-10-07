@@ -32,7 +32,7 @@ iLert provides the following inbound integration options:
 | [**Email integration**](integrations/email/)                     | Forward emails to an alert source's email addres to integrate with iLert.                                                                                                                    |
 | [**Event API**](https://api.ilert.com/api-docs/)                 | Write your own integration using our easy-to-use Event API.                                                                                                                                  |
 | **SMS integration**                                              | Send alerts to iLert via SMS.                                                                                                                                                                |
-| [**Hearbeat monitoring**](uptime-monitors/heartbeat-monitoring/) | A heartbeat alert source will automatically create an alert if it does not receive a heartbeat signal from your app at regular intervals.                                                    |
+| [**Hearbeat monitoring**](getting-started/heartbeat-monitoring/) | A heartbeat alert source will automatically create an alert if it does not receive a heartbeat signal from your app at regular intervals.                                                    |
 
 ![](<.gitbook/assets/image (1) (1).png>)
 

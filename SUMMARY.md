@@ -5,6 +5,9 @@
 * [Core concepts](README.md)
 * [iLert domains, ips, emails & phone numbers](getting-started/phone-numbers/README.md)
   * [SMS and voice alerts in China](getting-started/phone-numbers/sms-and-voice-alerts-in-china.md)
+* [Heartbeat Monitoring](getting-started/heartbeat-monitoring/README.md)
+  * [Prometheus Heartbeat Example](getting-started/heartbeat-monitoring/prometheus-heartbeat-example.md)
+  * [CLI Heartbeat Examples](getting-started/heartbeat-monitoring/cli-heartbeat-examples.md)
 * [FAQ](getting-started/faq/README.md)
   * [Renaming of Incidents to Alerts](getting-started/faq/renaming-of-incidents-to-alerts.md)
 
@@ -43,13 +46,6 @@
 * [Managing call routing alerts](call-routing/managing-call-routing-incidents.md)
 * [Adding webhooks and outbound chat messages](call-routing/adding-webhooks-and-outbound-chat-messages.md)
 * [Uploading custom audio responses](call-routing/uploading-custom-audio-responses.md)
-
-## Uptime & Heartbeat Monitors <a href="#uptime-monitors" id="uptime-monitors"></a>
-
-* [Uptime Monitoring](uptime-monitors/uptime-monitoring.md)
-* [Heartbeat Monitoring](uptime-monitors/heartbeat-monitoring/README.md)
-  * [Prometheus Heartbeat Example](uptime-monitors/heartbeat-monitoring/prometheus-heartbeat-example.md)
-  * [CLI Heartbeat Examples](uptime-monitors/heartbeat-monitoring/cli-heartbeat-examples.md)
 
 ## REST API
 

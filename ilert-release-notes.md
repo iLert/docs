@@ -451,7 +451,7 @@ description: >-
 
 ### New Features
 
-* [Heartbeat Monitoring](uptime-monitors/heartbeat-monitoring/)
+* [Heartbeat Monitoring](getting-started/heartbeat-monitoring/)
 
 ## June 2020
 
