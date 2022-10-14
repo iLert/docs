@@ -12,7 +12,7 @@ description: >-
 
 * New major milestone: **metrics** for status pages
 
-### New and updated integrations
+#### New and updated integrations
 
 * PandoraFMS [inbound](integrations/pandorafms.md) integration
 * HashiCorp Cloud (HCP) Consul support
