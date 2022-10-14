@@ -6,6 +6,41 @@ description: >-
 
 # iLert Release Notes
 
+## October 2022
+
+#### New features
+
+* New major milestone: **metrics** for status pages
+
+### New and updated integrations
+
+* PandoraFMS [inbound](integrations/pandorafms.md) integration
+* HashiCorp Cloud (HCP) Consul support
+* Terraform client now supports mulitple responders in escalation policies
+* Datadog metrics data source
+
+#### Other
+
+* iLert **Backstage** plugin has been updated to support mulitple responders, services and status pages
+
+## September 2022
+
+#### New Features
+
+* An initial delay can be configured for escalation policies
+* Private status pages now support IP whitelists
+* Service uptime history can now be managed and overwritten
+
+#### Improvements
+
+* Alert submit UI supports additional fields to overwrite: priority, policy or responders
+* Added MFA reset for Admin users
+
+#### New and updated integrations
+
+* Jira alert sources now support Service Desk Events
+* Grafana alert sources now support Grafana V9 events
+
 ## August 2022
 
 **New features**
