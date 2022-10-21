@@ -30,6 +30,7 @@ To get more information on the **status** or **eventType** fields, visit the _Te
      "reportTime": "2019-08-29T09: 52: 39.551Z",
      "eventType": "incident-acknowledged",
      "priority": "LOW",
+     "alertKey": "zabbix-12345"
      "alertSource": {
          "id": 2101194,
          "name": "Nagios Network and Hosts"
@@ -62,6 +63,7 @@ In case of a valid template the border will turn green. As you may have noticed 
 | Variable key         | Description                                                                                                                                                     |
 | -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | alertId              | The ID of the alert                                                                                                                                             |
+| alertKey             | ID used to identify the initial event that created the alert                                                                                                    |
 | alertDetails         | Full alert details                                                                                                                                              |
 | alertSummary         | Alert summary                                                                                                                                                   |
 | alertStatus          | PENDING, ACCEPTED or RESOLVED                                                                                                                                   |

@@ -8,11 +8,11 @@ description: >-
 
 When your basic configurations have been made, you may choose to route the incoming calls based on support hours.
 
-![](<../.gitbook/assets/image (13).png>)
+![](<../.gitbook/assets/image (13) (1).png>)
 
 After enabling the support hours routing option you can set support hours for each day of the week and select different routing targets for calls during and outside of those hours.
 
-![](<../.gitbook/assets/image (14).png>)
+![](<../.gitbook/assets/image (14) (1).png>)
 
 You may only select routing targets (escalation policies) which are added above in the **IVR menu**.
 

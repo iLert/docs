@@ -19,12 +19,13 @@
   * [Recurring schedules](on-call-management-and-escalations/on-call-schedules/recurring-schedules.md)
   * [Static schedules](on-call-management-and-escalations/on-call-schedules/static-schedules.md)
 
-## Incident comms
+## Incident comms & status pages
 
-* [Getting started](incident-comms/getting-started.md)
-* [Services](incident-comms/services.md)
-* [Incidents](incident-comms/incidents.md)
-* [Status pages](incident-comms/status-pages.md)
+* [Getting started](incident-comms-and-status-pages/getting-started.md)
+* [Services](incident-comms-and-status-pages/services.md)
+* [Incidents](incident-comms-and-status-pages/incidents.md)
+* [Status pages](incident-comms-and-status-pages/status-pages.md)
+* [Metrics](incident-comms-and-status-pages/metrics.md)
 
 ## User Administration
 

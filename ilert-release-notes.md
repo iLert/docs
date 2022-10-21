@@ -137,7 +137,7 @@ description: >-
 
 ### New features
 
-* [Status pages](incident-comms/status-pages.md) and [Incident com 2.0](broken-reference) are now in GA
+* [Status pages](incident-comms-and-status-pages/status-pages.md) and [Incident com 2.0](broken-reference) are now in GA
 * New [alert creation API](https://api.ilert.com/api-docs/#tag/Alerts/paths/\~1alerts/post) e.g. possible to target specific user
 * [2FA and MFA ](user-administration/two-factor-authentication-mfa.md)are now available for every iLert user
 * Call routing is now available in Italian
