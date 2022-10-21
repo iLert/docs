@@ -8,18 +8,18 @@ description: >-
 
 Metrics in iLert lets you provide additional information about the health of your services in status pages.&#x20;
 
-### What is a metric?
+## What is a metric?
 
 A metric is a numerical value that can track anything over time, such as API response time, API error rates, number of open tickets, etc. iLert stores metric data as pairs of floating point values and timestamps.
 
-### Metric Display Options in iLert
+## Metric Display Options in iLert
 
 iLert provides two ways to display a metric
 
 1. Line graph (optionally with an aggreated value)
 2. Single number&#x20;
 
-#### Line Graph
+### Line Graph
 
 Here's an example of a metric visualized as a line graph:
 
@@ -46,7 +46,19 @@ iLert stores a large number of data points per metric (up to one datapoint every
 * Day - 5 minutes
 {% endhint %}
 
-#### Single number
+#### Linear interpolation
+
+With linear interpolation, missing data points will be shown by drawing a straight line between two known data points. If you disable linear interpolation, missing data points will be shown as gaps in the line graph.
+
+**Example**
+
+The following metric has missing data points. Below you can see the effect of interpolation.
+
+|       Interpolation enabled       |          Interpolation disabled         |
+| :-------------------------------: | :-------------------------------------: |
+| ![](../.gitbook/assets/image.png) | ![](<../.gitbook/assets/image (4).png>) |
+
+### Single number metric
 
 Here's an example of a metric that is displayed as a single number:
 
@@ -54,14 +66,14 @@ Here's an example of a metric that is displayed as a single number:
 
 Metrics that are displayed as a single number provide the same aggregration functions from above. Additionally, you can chose to display the last reported value (i.e. the value with the latest timestamp).
 
-### Create a metric
+## Create a metric
 
 1. In the main navigation bar, click on **Status pages** (or **Incident comms**) --> **Metrics**
 2. Click on the **Create metric** button
 3. Chose your metric data source. You can either submit metric data using our [Series API](https://api.ilert.com/api-docs/#tag/Series/paths/\~1series\~1{key}/post) or import metrics from a 3rd party metrics provider such as Datadog.
 4. Configure your metric and click **Save**
 
-### Add a metric to status page
+## Add a metric to status page
 
 Once you have created a metric, you can add the metric to any of your status pages.
 
@@ -71,7 +83,7 @@ Once you have created a metric, you can add the metric to any of your status pag
     <figure><img src="../.gitbook/assets/Screen Shot 2022-10-20 at 15.47.08.png" alt=""><figcaption></figcaption></figure>
 3. The metric will now be displayed on your status page. You can change the order of metrics by reordering the metrics in the metrics tab of the status using drag and drop.
 
-### Submit data points to a metric
+## Submit data points to a metric
 
 Submitting data points to your metric is as easy making an HTTP POST request using the API key of your metric.
 
@@ -107,7 +119,7 @@ Our API also support submitting multiple data points at once. Refer to our [API 
 * A metric can store data up to 28 days in the past. When creating a new metric, we recommend to backfill data for the past 28 days.
 {% endhint %}
 
-#### Generate sample data
+### Generate sample data
 
 iLert lets you generate one time sample data for your metric
 
@@ -117,7 +129,7 @@ iLert lets you generate one time sample data for your metric
 
 <figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
-#### Clear metrics data
+### Clear metrics data
 
 To clear metrics data
 

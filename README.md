@@ -34,7 +34,7 @@ iLert provides the following inbound integration options:
 | **SMS integration**                                              | Send alerts to iLert via SMS.                                                                                                                                                                |
 | [**Hearbeat monitoring**](getting-started/heartbeat-monitoring/) | A heartbeat alert source will automatically create an alert if it does not receive a heartbeat signal from your app at regular intervals.                                                    |
 
-![](<.gitbook/assets/image (1) (1).png>)
+![](<.gitbook/assets/image (1) (1) (1).png>)
 
 ## Connectors and alert actions (aka outbound integrations)
 
