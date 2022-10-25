@@ -91,7 +91,7 @@ Whenever possible, please **turn off Cloudflare proxying** (the orange cloud, al
 
 You might need to wait 1-48 hours for the DNS changes to take effect. This depends on the TTL setting of your DNS record and the time it takes until the DNS change is propagated throughout the internet.&#x20;
 
-## Embedding status of your status page in your web site <a href="#faq" id="faq"></a>
+## Embed the status of your status page in your website <a href="#faq" id="faq"></a>
 
 Communicate incidents to your users right where they are using your service: on your web site or web app.&#x20;
 
