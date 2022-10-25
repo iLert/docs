@@ -91,11 +91,31 @@ Whenever possible, please **turn off Cloudflare proxying** (the orange cloud, al
 
 You might need to wait 1-48 hours for the DNS changes to take effect. This depends on the TTL setting of your DNS record and the time it takes until the DNS change is propagated throughout the internet.&#x20;
 
+## Embedding status of your status page in your web site <a href="#faq" id="faq"></a>
+
+Communicate incidents to your users right where they are using your service: on your web site or web app.&#x20;
+
+To embed the status of your status page in your web app or website, you can use iLert's floating staus widget or status badge. The status page widget will only be visible only if there is an ongoing incident or scheduled maintenance and will be hidden if all services are operating normally. The status widget will always be visible and show the overall status of your status page.
+
+To configure you status page floating widget:
+
+1. Go to **Status Pages**
+2. Click on the Status Page where you would like configure the widget
+3. Click on the **Status embed** tab
+4. Select **Floating widget**
+5. Configure your widget by choosing your colors and widget position, copy the generated snippet code.
+6. Paste the generated code snippet from step 4 into the `<head>` section of your target page.
+7. Test the widget by creating a test maintenance window or incident.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**Making changes to your widget**
+
+Changes to your status page will not propagate automatically to your pages. You need to update the code snippet in your target for any changes to take effect.
+{% endhint %}
+
 ## FAQ <a href="#faq" id="faq"></a>
-
-#### I'm using iLert's uptime monitors. Can I connect an uptime monitor with a status page?
-
-Yes, simply create a service and add an [automation rule](services.md#automation-with-alert-sources) that uses the uptime monitor's alert source.
 
 #### We are a managed service provider and would like use multiple status pages to communicate incidents to different customers with private pages without exposing data between customers. Is that possible?
 
@@ -114,5 +134,7 @@ You probably forgot to activate your status page. Once you are satisfied with yo
 
 ![](<../.gitbook/assets/image (59) (1).png>)
 
-&#x20;
+#### Can I make a status page accessible for certail IP addresses or IP ranges only?
+
+Yes, create private status page and configure an IP whitelist in the status page settings.
 
