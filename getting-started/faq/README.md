@@ -2,15 +2,15 @@
 
 ## What is iLert?
 
-iLert is a software for alerting, on-call management and icnident comms and helps dev and ops teams to increase the uptime of critical services. Core features of iLert include
+iLert is a software for alerting, on-call management and incident comms and helps dev and ops teams to increase the uptime of critical services. Core features of iLert include
 
 * **Reliable alerting** via voice, SMS, push notifications, Slack and more and frictionless acknowledgement, allowing you acknowledge an alert on the same channel where you reveived the alert (e.g. by replying to an SMS).
 * **On-call management & escalations**: easily manage on-call duty with on-call schedules and automatic escalations.
 * **Call routing:** route incoming calls using on-call schedules and escalation policies to the right on-call person.
 * **Incident comms & status pages:** effectively communicate incidents to stakeholders and external users
-* **Uptime & hearbeat monitoring:** monitor your website, server, or API using various checks such as HTTP, ICMP ping or TCP.
+* **Heartbeat monitoring:** monitor connectivity between your infrastructure and iLert.
 
-iLert integrates with monitoring, ticketing, chat, and collaboration tools.
+iLert integrates with monitoring, ticketing, chat and collaboration tools.
 
 ## Which monitoring tools does iLert support?
 
@@ -36,9 +36,9 @@ No. iLert is offered as a Software as a Service solution and has no specific har
 
 We offer several options to prepare for a situation like this:
 
-* Monitor your internet connection using our [uptime monitoring](https://www.ilert.com/product/uptime-monitoring) feature
 * Create an SMS alert source in iLert and send alerts to iLert via SMS using a hardware SMS gateway
 * Create a [heartbeat alert source](../heartbeat-monitoring/) in iLert to monitor the connectivity between your network and iLert.&#x20;
+* Monitor your internet connection using an external monitoring system and send alerts to iLert.
 
 ## How can I change the account owner?
 
