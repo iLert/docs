@@ -11,11 +11,11 @@ When a call routing number is created for your account, an alert source that is 
 
 The alert source of your call routing number, will always have the **same name** as the call routing number.
 
-![](<../.gitbook/assets/image (19).png>)
+![](<../.gitbook/assets/image (19) (1).png>)
 
 Click on the **Alert actions** (formerly connections) link in the list view of your call routing number's alert source.
 
-![](<../.gitbook/assets/image (20).png>)
+![](<../.gitbook/assets/image (20) (1).png>)
 
 You will then be able to create a new outbound connection for your call routing number.
 

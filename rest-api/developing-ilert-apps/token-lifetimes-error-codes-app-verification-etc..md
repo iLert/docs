@@ -29,11 +29,7 @@ You may request **write** (granting you read, create and edit permissions on the
 
 **Examples**:
 
-| service   | grants GET on /api/services                    |   |
-| --------- | ---------------------------------------------- | - |
-| service:r | same as service                                |   |
-| service:w | grants GET, POST, PUT on /api/services         |   |
-| service:d | grants GET, POST, PUT, DELETE on /api/services |   |
+<table data-header-hidden><thead><tr><th></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td>service</td><td>grants GET on /api/services</td><td></td></tr><tr><td>service:r</td><td>same as service</td><td></td></tr><tr><td>service:w</td><td>grants GET, POST, PUT on /api/services</td><td></td></tr><tr><td>service:d</td><td>grants GET, POST, PUT, DELETE on /api/services</td><td></td></tr></tbody></table>
 
 You may request multiple scopes by separating them with a space.
 
@@ -67,14 +63,7 @@ You may request multiple scopes by separating them with a space.
 
 
 
-| Type                            | Lifetime                                                            |   |
-| ------------------------------- | ------------------------------------------------------------------- | - |
-| code                            | 2 minutes                                                           |   |
-| access\_token                   | 1 hour                                                              |   |
-| refresh\_token                  | 1 year                                                              |   |
-| refresh\_token per app per user | max. 10, if exceeded oldest refresh\_token is automatically revoked |   |
-| refresh token requests          | do not refresh a token more than once per 5 minutes                 |   |
-| request rate limits             | [usual request limits](../alertsource-throttle.md) apply            |   |
+<table><thead><tr><th>Type</th><th>Lifetime</th><th data-hidden></th></tr></thead><tbody><tr><td>code</td><td>2 minutes</td><td></td></tr><tr><td>access_token</td><td>1 hour</td><td></td></tr><tr><td>refresh_token</td><td>1 year</td><td></td></tr><tr><td>refresh_token per app per user</td><td>max. 10, if exceeded oldest refresh_token is automatically revoked</td><td></td></tr><tr><td>refresh token requests</td><td>do not refresh a token more than once per 5 minutes</td><td></td></tr><tr><td>request rate limits</td><td><a href="../alertsource-throttle.md">usual request limits</a> apply</td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
 If you are building a backend application and it is verified, your refresh\_token lifetime may be changed so that they never expire. Please [reach out to us](../../contact.md).

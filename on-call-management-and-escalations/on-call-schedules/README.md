@@ -56,7 +56,7 @@ To schedule an override in the web app
 2. Click on the **Schedule override** button or click on click on a shift in the timeline view
 3. In the **Schedule override** dialog, select the user to you want to add as an override
 
-![](<../../.gitbook/assets/image (30).png>)
+![](<../../.gitbook/assets/image (30) (1).png>)
 
 Overrides can be deleted and overriden by another override. To delete an override, click on the override shift on the timeline, and then on the red **x** icon:
 

@@ -140,6 +140,7 @@
 * [Kubernetes Integration](integrations/kubernetes.md)
 * [Lightstep Integration](integrations/lightstep.md)
 * [Mattermost Integration](integrations/mattermost.md)
+* [Microsoft SCOM](integrations/ms-scom.md)
 * [Microsoft Teams Integration](integrations/microsoft-teams/README.md)
   * [Microsoft Teams Chat Integration](integrations/microsoft-teams/chat.md)
   * [Microsoft Teams Meeting Integration](integrations/microsoft-teams/meeting.md)

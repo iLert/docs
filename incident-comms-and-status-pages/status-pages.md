@@ -107,7 +107,7 @@ To configure you status page floating widget:
 6. Paste the generated code snippet from step 4 into the `<head>` section of your target page.
 7. Test the widget by creating a test maintenance window or incident.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Making changes to your widget**

@@ -6,7 +6,7 @@ description: Reach the right on-call responder immediately by calling a phone nu
 
 You can find your call routing numbers in the navigation bar at the top under **Alert sources** --> **Call routing**.
 
-<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (16) (2).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **How to get a call routing number?**
