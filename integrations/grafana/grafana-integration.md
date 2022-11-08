@@ -11,7 +11,7 @@ Are you using Grafana v9.x or higher? Please refer our [Grafana Integration (v 9
 ## In iLert: Create Grafana alert source
 
 1. Go to **Alert sources** and click on the **Create new alert source** button
-2. Set a name for your Grafana alert sourc and select an escalation policy
+2. Set a name for your Grafana alert source and select an escalation policy
 3. In the field Integration type select **Grafana** and save.
 4.
 

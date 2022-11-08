@@ -184,6 +184,7 @@
   * [TOPdesk Inbound Integration](integrations/topdesk/inbound.md)
   * [TOPdesk Outbound Integration](integrations/topdesk/outbound.md)
 * [Terraform Cloud / Terraform Enterprise](integrations/terraform-cloud-terraform-enterprise.md)
+* [Twilio Alarms Integration](integrations/twilio-alarms.md)
 * [UptimeRobot Integration](integrations/uptime-robot.md)
 * [Webhook Integration](integrations/webhook.md)
 * [Hyperping Integration](integrations/hyperping.md)
