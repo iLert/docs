@@ -150,7 +150,7 @@
 * [N-central Integration](integrations/n-central-integration.md)
 * [Nagios Integration](integrations/nagios.md)
 * [New Relic Integration](integrations/new-relic/README.md)
-  * [New Relic Integration](integrations/new-relic/new-relic-old.md)
+  * [New Relic Integration (deprecated)](integrations/new-relic/new-relic-old.md)
   * [New Relic Workflow Integration](integrations/new-relic/new-relic-workflow.md)
 * [Oh Dear Integration](integrations/ohdear.md)
 * [PandoraFMS Integration](integrations/pandorafms.md)
