@@ -9,9 +9,9 @@ With the iLert Nagios Notification Plugin, you can easily integrate Nagios with 
 ## System requirements <a href="#requirements" id="requirements"></a>
 
 * Nagios 2 (or higher)
-* Python 2.7.9 (better use 2.7.10) or Python 3.7 (or higher)
+* Python >= 3.7.0 (alternatively Python >= 2.7.9 (we suggest 2.7.10))
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Python 2.x is at its end-of-life(EOL) please use Python 3.7 (or higher) for this integration.
 {% endhint %}
 
@@ -40,17 +40,19 @@ Download the [iLert Nagios plugin](https://github.com/iLert/ilert-nagios) and un
 
 Put the plugin file `nagios_ilert.py` in the directory `/usr/local/bin`. The file must be executable by both Nagios and the cron daemon:
 
-Python 2.7.9 (or higher)
-
-```
- > mv ilert_nagios_python2.py /usr/local/bin > chmod 755 /usr/local/bin/ilert_nagios_python2.py
-```
-
-Python 3.7 (or higher)
-
+{% tabs %}
+{% tab title="Python 3.7 (or higher)" %}
 ```
  > mv ilert_nagios.py /usr/local/bin > chmod 755 /usr/local/bin/ilert_nagios.py
 ```
+{% endtab %}
+
+{% tab title="Python 2.7.9 (or higher)" %}
+```
+ > mv ilert_nagios_python2.py /usr/local/bin > chmod 755 /usr/local/bin/ilert_nagios_python2.py
+```
+{% endtab %}
+{% endtabs %}
 
 In Nagios, enable the macro [`enable_environment_macros`](http://nagios.sourceforge.net/docs/3\_0/configmain.html#enable\_environment\_macros) (if not already active). Open your Nagios configuration file `nagios.cfg` and set the value to 1:
 
@@ -78,31 +80,35 @@ define contact {
 
 Copy the file into the Nagios configuration directory (varies depending on the Nagios installation).
 
-Python 2.7.9 (or higher)
-
-```
- > cp ilert_nagios_python2.cfg /etc/nagios/conf.d/
-```
-
-Python 3.7 (or higher)
-
+{% tabs %}
+{% tab title="Python 3.7 (or higher)" %}
 ```
  > cp ilert_nagios.cfg /etc/nagios/conf.d/
 ```
+{% endtab %}
+
+{% tab title="Python 2.7.9 (or higher)" %}
+```
+ > cp ilert_nagios_python2.cfg /etc/nagios/conf.d/
+```
+{% endtab %}
+{% endtabs %}
 
 Depending on the installation of Nagios, there is a `nagios.cfg` file in which you must integrate the iLert configuration file. The entry in `nagios.cfg` would look like this for this example:
 
-Python 2.7.9 (or higher)
-
-```
- cfg_file=/etc/nagios/conf.d/ilert_nagios_python2.cfg
-```
-
-Python 3.7 (or higher)
-
+{% tabs %}
+{% tab title="Python 3.7 (or higher)" %}
 ```
  cfg_file=/etc/nagios/conf.d/ilert_nagios.cfg
 ```
+{% endtab %}
+
+{% tab title="Python 2.7.9 (or higher)" %}
+```
+ cfg_file=/etc/nagios/conf.d/ilert_nagios_python2.cfg
+```
+{% endtab %}
+{% endtabs %}
 
 Add the iLert contact to your Nagios contact group. If you are using the Nagios defaults, open the `contacts.cfg` file for the iLert contact:
 
@@ -122,17 +128,19 @@ Edit the crontab file from the nagios user
 
 Add the following entry:
 
-Python 2.7.9 (or higher)
-
-```
- * * * * * /usr/local/bin/ilert_nagios_python2.py -m send
-```
-
-Python 3.7 (or higher)
-
+{% tabs %}
+{% tab title="Python 3.7 (or higher)" %}
 ```
 * * * * * python3 /usr/local/bin/ilert_nagios.py -m send
 ```
+{% endtab %}
+
+{% tab title="Python 2.7.9 (or higher)" %}
+```
+ * * * * * /usr/local/bin/ilert_nagios_python2.py -m send
+```
+{% endtab %}
+{% endtabs %}
 
 Via this cron job, events are sent to iLert every minute that failed in the first send attempt (e.g. due to a network error).
 
