@@ -137,7 +137,7 @@ Add the following entry:
 
 {% tab title="Python 2.7.9 (or higher)" %}
 ```
- * * * * * /usr/local/bin/ilert_nagios_python2.py -m send
+* * * * * /usr/local/bin/ilert_nagios_python2.py -m send
 ```
 {% endtab %}
 {% endtabs %}
