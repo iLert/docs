@@ -6,12 +6,16 @@ description: The iLert Nagios Integration helps you to easily connect iLert with
 
 With the iLert Nagios Notification Plugin, you can easily integrate Nagios with iLert and extend your existing Nagios system (and other Nagios forks) with advanced alerting by SMS, phone calls, and push notifications as well as on-call schedules.
 
-## System requirements <a href="requirements" id="requirements"></a>
+## System requirements <a href="#requirements" id="requirements"></a>
 
 * Nagios 2 (or higher)
-* Python 2.7.3 (or higher)
+* Python 2.7.9 (better use 2.7.10) or Python 3.7 (or higher)
 
-## In iLert: create Nagios alert source <a href="create-alarm-source" id="create-alarm-source"></a>
+{% hint style="info" %}
+Python 2.x is at its end-of-life(EOL) please use Python 3.7 (or higher) for this integration.
+{% endhint %}
+
+## In iLert: create Nagios alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1\. Create a new alert source in iLert
 
@@ -25,7 +29,7 @@ With the iLert Nagios Notification Plugin, you can easily integrate Nagios with 
 
 ![](../.gitbook/assets/na3.png)
 
-## In Nagios: install the notification plugin <a href="installation-guide" id="installation-guide"></a>
+## In Nagios: install the notification plugin <a href="#installation-guide" id="installation-guide"></a>
 
 Download the [iLert Nagios plugin](https://github.com/iLert/ilert-nagios) and unzip it:
 
@@ -36,11 +40,19 @@ Download the [iLert Nagios plugin](https://github.com/iLert/ilert-nagios) and un
 
 Put the plugin file `nagios_ilert.py` in the directory `/usr/local/bin`. The file must be executable by both Nagios and the cron daemon:
 
+Python 2.7.9 (or higher)
+
+```
+ > mv ilert_nagios_python2.py /usr/local/bin > chmod 755 /usr/local/bin/ilert_nagios_python2.py
+```
+
+Python 3.7 (or higher)
+
 ```
  > mv ilert_nagios.py /usr/local/bin > chmod 755 /usr/local/bin/ilert_nagios.py
 ```
 
-In Nagios, enable the macro [`enable_environment_macros`](http://nagios.sourceforge.net/docs/3\_0/configmain.html#enable_environment_macros) (if not already active). Open your Nagios configuration file `nagios.cfg` and set the value to 1:
+In Nagios, enable the macro [`enable_environment_macros`](http://nagios.sourceforge.net/docs/3\_0/configmain.html#enable\_environment\_macros) (if not already active). Open your Nagios configuration file `nagios.cfg` and set the value to 1:
 
 ```
 enable_environment_macros=1
@@ -66,11 +78,27 @@ define contact {
 
 Copy the file into the Nagios configuration directory (varies depending on the Nagios installation).
 
+Python 2.7.9 (or higher)
+
+```
+ > cp ilert_nagios_python2.cfg /etc/nagios/conf.d/
+```
+
+Python 3.7 (or higher)
+
 ```
  > cp ilert_nagios.cfg /etc/nagios/conf.d/
 ```
 
 Depending on the installation of Nagios, there is a `nagios.cfg` file in which you must integrate the iLert configuration file. The entry in `nagios.cfg` would look like this for this example:
+
+Python 2.7.9 (or higher)
+
+```
+ cfg_file=/etc/nagios/conf.d/ilert_nagios_python2.cfg
+```
+
+Python 3.7 (or higher)
 
 ```
  cfg_file=/etc/nagios/conf.d/ilert_nagios.cfg
@@ -94,8 +122,16 @@ Edit the crontab file from the nagios user
 
 Add the following entry:
 
+Python 2.7.9 (or higher)
+
 ```
- * * * * * /usr/local/bin/ilert_nagios.py -m send
+ * * * * * /usr/local/bin/ilert_nagios_python2.py -m send
+```
+
+Python 3.7 (or higher)
+
+```
+* * * * * python3 /usr/local/bin/ilert_nagios.py -m send
 ```
 
 Via this cron job, events are sent to iLert every minute that failed in the first send attempt (e.g. due to a network error).
@@ -106,16 +142,16 @@ Restart Nagios:
  > /etc/init.d/nagios restart
 ```
 
-## FAQ <a href="faq" id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
-**Which Nagios **[**Notification Types**](http://nagios.sourceforge.net/docs/3\_0/notifications.html)** are processed by the plugin?**
+**Which Nagios** [**Notification Types**](http://nagios.sourceforge.net/docs/3\_0/notifications.html) **are processed by the plugin?**
 
 The plugin processes the notification types `PROBLEM` , `ACKNOWLEDGEMENT` and `RECOVERY` . The notification types `FLAPPING*` and `DOWNTIME*` are ignored.
 
 **What happens if my internet connection is interrupted? Are the events generated in Nagios lost?**
 
-No, events won't be lost. The plugin stores the events locally in a temporary directory (by default in /tmp/ilert_nagios) and tries to send them to iLert every minute. This means that as soon as your connection is available again, cached events will be sent to iLert. In addition, we recommend that you monitor your Internet connection using our uptime monitoring feature.
+No, events won't be lost. The plugin stores the events locally in a temporary directory (by default in /tmp/ilert\_nagios) and tries to send them to iLert every minute. This means that as soon as your connection is available again, cached events will be sent to iLert.
 
 **The plugin does not work. What can I do?**
 
-Please take a look at the log first. The plugin uses the Unix / Linux system log for logging (e.g. under `/var/log/messages` or `/var/log/syslog` ). If you cannot find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
+First, please make sure that you have installed the correct Python version by using  `$ python --version` or `$ python3 --version` (Python 2.7.9+ or Python 3.7+). Also take a look at the log. The plugin uses the Unix / Linux system log for logging (e.g. under `/var/log/messages` or `/var/log/syslog` ). If you cannot find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
