@@ -6,6 +6,10 @@ description: Use this guide for checkmk v 1.x
 
 With the iLert checkmk notification plugin you can easily integrate checkmk into iLert and extend your existing checkmk system with SMS, push and voice notifications as well as on-call schedules from iLert. The screenshots below are based on the checkmk Raw Edition (CRE) 1.2.8. The iLert checkmk plugin is compatible with all checkmk versions.
 
+## System requirements
+
+* Python >= 3.7.0&#x20;
+
 ## In iLert: create alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Create a new alert source in iLert
@@ -29,6 +33,10 @@ Download the [checkmk](https://github.com/iLert/ilert-nagios) plugin package and
 > unzip ilert-nagios.zip
 ```
 
+{% hint style="info" %}
+For Python >= 2.7.9 support, please use the files in the python2 folder
+{% endhint %}
+
 For checkmk you need the two files `ilert_nagios.py` and `ilert_check_mk.sh`. You can delete the remaining files in the directory. Move the plugin file `ilert_nagios.py` into the directory `/usr/local/bin` . Both files must be executable by both checkmk and the cron daemon:
 
 ```
@@ -48,7 +56,7 @@ If you are using the standalone version of checkmk, follow the instructions belo
 Add the following entry:
 
 ```
-* * * * * /usr/local/bin/ilert_nagios.py -m send
+* * * * * python3 /usr/local/bin/ilert_nagios.py -m send
 ```
 
 Via this cron job, events are sent to iLert every minute that failed in the first send attempt (e..g due to a network error).
@@ -70,7 +78,7 @@ If you are using the OMD version of checkmk, follow the instructions below.
 Create a file named `ilert` under the `cron.d` directory of your monitoring instance (e.g. `/omd/sites/{site-name}/etc/cron.d`). The file should contain the following content:
 
 ```
-* * * * * /usr/local/bin/ilert_nagios.py -m send
+* * * * * python3 /usr/local/bin/ilert_nagios.py -m send
 ```
 
 Execute the following command for the changes to take effect:

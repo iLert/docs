@@ -12,7 +12,7 @@ With the iLert Nagios Notification Plugin, you can easily integrate Nagios with 
 * Python >= 3.7.0 (alternatively Python >= 2.7.9 (we suggest 2.7.10))
 
 {% hint style="warning" %}
-Python 2.x is at its end-of-life(EOL) please use Python 3.7 (or higher) for this integration.
+Python 2.x is at its end-of-life (EOL) please use Python 3.7 (or higher) for this integration.
 {% endhint %}
 
 ## In iLert: create Nagios alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
@@ -43,13 +43,14 @@ Put the plugin file `nagios_ilert.py` in the directory `/usr/local/bin`. The fil
 {% tabs %}
 {% tab title="Python 3.7 (or higher)" %}
 ```
- > mv ilert_nagios.py /usr/local/bin > chmod 755 /usr/local/bin/ilert_nagios.py
+> mv ilert_nagios.py /usr/local/bin > chmod 755 /usr/local/bin/ilert_nagios.py
 ```
 {% endtab %}
 
 {% tab title="Python 2.7.9 (or higher)" %}
 ```
- > mv ilert_nagios_python2.py /usr/local/bin > chmod 755 /usr/local/bin/ilert_nagios_python2.py
+> cd python2 
+> mv ilert_nagios.py /usr/local/bin > chmod 755 /usr/local/bin/ilert_nagios.py
 ```
 {% endtab %}
 {% endtabs %}
@@ -89,26 +90,17 @@ Copy the file into the Nagios configuration directory (varies depending on the N
 
 {% tab title="Python 2.7.9 (or higher)" %}
 ```
- > cp ilert_nagios_python2.cfg /etc/nagios/conf.d/
+ > cd python2
+ > cp ilert_nagios.cfg /etc/nagios/conf.d/
 ```
 {% endtab %}
 {% endtabs %}
 
 Depending on the installation of Nagios, there is a `nagios.cfg` file in which you must integrate the iLert configuration file. The entry in `nagios.cfg` would look like this for this example:
 
-{% tabs %}
-{% tab title="Python 3.7 (or higher)" %}
 ```
  cfg_file=/etc/nagios/conf.d/ilert_nagios.cfg
 ```
-{% endtab %}
-
-{% tab title="Python 2.7.9 (or higher)" %}
-```
- cfg_file=/etc/nagios/conf.d/ilert_nagios_python2.cfg
-```
-{% endtab %}
-{% endtabs %}
 
 Add the iLert contact to your Nagios contact group. If you are using the Nagios defaults, open the `contacts.cfg` file for the iLert contact:
 
@@ -137,7 +129,7 @@ Add the following entry:
 
 {% tab title="Python 2.7.9 (or higher)" %}
 ```
-* * * * * /usr/local/bin/ilert_nagios_python2.py -m send
+* * * * * /usr/local/bin/ilert_nagios.py -m send
 ```
 {% endtab %}
 {% endtabs %}
