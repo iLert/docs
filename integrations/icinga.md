@@ -1,23 +1,27 @@
 ---
 title: Icinga Integration
 seoTitle: 'iLert: Icinga Integration for Alerting | Incident Response | Uptime'
-description: The iLert Icinga Integration helps you to easily connect iLert with Icinga.
 date: '2020-05-19T04:02:05.000Z'
 weight: 1
+description: The iLert Icinga Integration helps you to easily connect iLert with Icinga.
 ---
 
 # Icinga Integration
 
 With the iLert Icinga Notification Plugin, you can easily integrate Icinga with iLert and extend your existing Icinga with advanced alerting by SMS, phone calls, and push notifications as well as on-call schedules.
 
-## System requirements <a id="requirements"></a>
+## System requirements <a href="#requirements" id="requirements"></a>
 
 * Icinga 2.x.
-* Python 2.7.3 \(or higher\)
+* Python >= 3.7.0 (alternatively Python >= 2.7.9 (we suggest 2.7.10))
+
+{% hint style="warning" %}
+Python 2.x is at its end-of-life (EOL) please use Python 3.7 (or higher) for this integration.
+{% endhint %}
 
 > Are you using Icinga 1.x? Please refer to our [Nagios integration guide](nagios.md).
 
-## In iLert: create Icinga alert source <a id="create-alarm-source"></a>
+## In iLert: create Icinga alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Go to the "Alert sources" tab and click "Add a new alert source"
 
@@ -31,7 +35,7 @@ With the iLert Icinga Notification Plugin, you can easily integrate Icinga with 
 
 ![](../.gitbook/assets/ici3.png)
 
-## In Icinga: install notification plugin <a id="in-icinga"></a>
+## In Icinga: install notification plugin <a href="#in-icinga" id="in-icinga"></a>
 
 1. Download the [iLert Icinga plugin](https://github.com/iLert/ilert-icinga) and unzip it
 
@@ -40,17 +44,28 @@ wget https://github.com/iLert/ilert-icinga/releases/latest/download/ilert-icinga
 unzip ilert-icinga.zip
 ```
 
-1. Move the plugin file `ilert-icinga.py` into the `/usr/local/bin` directory 
+1. Move the plugin file `ilert-icinga.py` into the `/usr/local/bin` directory&#x20;
 
+{% tabs %}
+{% tab title="Python 3.7 (or higher)" %}
 ```bash
 mv ilert-icinga.py /usr/local/bin > chmod 755 /usr/local/bin/ilert-icinga.py
 ```
+{% endtab %}
+
+{% tab title="Python 2.7.9 (or higher)" %}
+```bash
+cd python2
+mv ilert-icinga.py /usr/local/bin > chmod 755 /usr/local/bin/ilert-icinga.py
+```
+{% endtab %}
+{% endtabs %}
 
 > The file must be executable by both Icinga and the cron daemon
 
 1. Open the plugin configuration file `ilert-icinga.conf` and paste the **API Key** in the pager field of the user definition, e.g.
 
-```text
+```
 object User "ilert" {
   display_name = "iLert"
   groups = [ "icingaadmins" ]
@@ -61,15 +76,26 @@ object User "ilert" {
 }
 ```
 
-1. Copy the file to the Icinga configuration directory \(varies depending on the installation\)
+1. Copy the file to the Icinga configuration directory (varies depending on the installation)
 
+{% tabs %}
+{% tab title="Python 3.7 (or higher)" %}
 ```bash
 mv ilert-icinga.conf /etc/icinga2/conf.d/
 ```
+{% endtab %}
+
+{% tab title="Python 2.7.9 (or higher)" %}
+```bash
+cd python2
+mv ilert-icinga.conf /etc/icinga2/conf.d/
+```
+{% endtab %}
+{% endtabs %}
 
 5: _Optional:_ You can enable iLert as a notification contact using `vars.notification.enable_ilert = true` attribute in host and service definitions. To enable iLert for all hosts and services, add the attribute to the template `/etc/icinga2/conf.d/templates.conf`
 
-```text
+```
 template Host "generic-host" {
  max_check_attempts = 5
  check_interval = 1m
@@ -96,11 +122,21 @@ crontab -u icinga -e
 
 1. Add the following entry:
 
+{% tabs %}
+{% tab title="Python 3.7 (or higher)" %}
+```bash
+* * * * * python3 /usr/local/bin/ilert-icinga.py -m send
+```
+{% endtab %}
+
+{% tab title="Python 2.7.9 (or higher)" %}
 ```bash
 * * * * * /usr/local/bin/ilert-icinga.py -m send
 ```
+{% endtab %}
+{% endtabs %}
 
-> Via this cron job, events are sent to iLert every minute that failed in the first send attempt \(e.g. due to a network error\).
+> Via this cron job, events are sent to iLert every minute that failed in the first send attempt (e.g. due to a network error).
 
 1. Restart Icinga:
 
@@ -112,7 +148,7 @@ crontab -u icinga -e
 
 ![](../.gitbook/assets/ici4.png)
 
-## FAQ <a id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Which Icinga** [**Notification Types**](https://icinga.com/docs/icinga2/latest/doc/09-object-types/#notification) **are processed by the plugin?**
 
@@ -120,13 +156,30 @@ The plugin processes the notification types `PROBLEM` , `ACKNOWLEDGEMENT` and `R
 
 **What happens if my internet connection is lost? Are the events generated in Icinga lost?**
 
-There are no events lost. Because the plugin stores the events locally in a temporary directory \(by default in /tmp/ilert-icinga \) and tries to send them to iLert every minute. This means that as soon as your connection is available again, cached events will be sent to iLert. In addition, we recommend that you monitor your Internet connection using our uptime monitoring feature.
+There are no events lost. Because the plugin stores the events locally in a temporary directory (by default in /tmp/ilert-icinga ) and tries to send them to iLert every minute. This means that as soon as your connection is available again, cached events will be sent to iLert. In addition, we recommend that you monitor your Internet connection using our uptime monitoring feature.
 
 **Can I override the alert source default alert priority via the Icinga plugin?**
 
 Yes, use `ICINGA_PRIORITY` variable in the notification command template and set it to `LOW` or `HIGH` e.g.
 
-```text
+{% tabs %}
+{% tab title="Python 3.7 (or higher)" %}
+```
+object NotificationCommand "ilert-notification" {
+  import "plugin-notification-command"
+
+  command = "python3 /usr/local/bin/ilert-icinga.py --mode save"
+
+  env = {
+    ICINGA_PRIORITY = "LOW"
+    ...
+  }
+}
+```
+{% endtab %}
+
+{% tab title="Python 2.7.9 (or higher)" %}
+```
 object NotificationCommand "ilert-notification" {
   import "plugin-notification-command"
 
@@ -138,6 +191,8 @@ object NotificationCommand "ilert-notification" {
   }
 }
 ```
+{% endtab %}
+{% endtabs %}
 
 **Does the plugin also support Icinga 1.x?**
 
@@ -145,5 +200,4 @@ No, you should use the [iLert Nagios Integration](nagios.md).
 
 **The plugin does not work. How do I find the mistake?**
 
-Please look first in the log file. The plugin uses the Unix / Linux system log for logging \(eg under `/var/log/messages` or `/var/log/syslog` \). If you can not find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
-
+Please look first in the log file. The plugin uses the Unix / Linux system log for logging (eg under `/var/log/messages` or `/var/log/syslog` ). If you can not find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
