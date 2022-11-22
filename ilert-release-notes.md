@@ -6,6 +6,22 @@ description: >-
 
 # iLert Release Notes
 
+## November 2022
+
+### New features
+
+* We have updated our platform to our new logo and CI
+* automation rules (alert -> incident) have been integrated into alert actions and may now be manually triggered or configured with conditional execution
+* Status pages will now automatically collapse large amounts of services, SLA data and uptime graph are fetched on demand by opening collapsed services
+
+### New and updated integrations
+
+* Prometheus metrics data source
+* new relic now supports the new [workflow](integrations/new-relic/new-relic-workflow.md) events
+* Prometheus inbound integration now supports the custom url and urlLabel labels (added as links to alert)
+* Microsoft SCOM inbound [integration](integrations/ms-scom.md)
+* Twilio Alarms inbound [integration](integrations/twilio-alarms.md)
+
 ## October 2022
 
 #### New features

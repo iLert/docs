@@ -67,6 +67,16 @@ In your Prometheus **alert rule** yml add a label called `ilert_routingkey` and 
 
 When iLert receives Prometheus alert events it will look for the first alert with the specific label and decide upon the routing. If the label is not present the escalation policy that is assigned to the alert source is used instead.
 
+## Supported custom labels <a href="#faq" id="faq"></a>
+
+* `gcp_project` will be automatically added to the alert summary
+* `url` may be used to add a custom link to the alert
+* `urlLabel` may be used to set a defined label for the custom link (`url`)
+
+{% hint style="info" %}
+Note: for custom labels to be accepted they must be part of the **alert labels** of an alert in status **firing**
+{% endhint %}
+
 ## FAQ <a href="#faq" id="faq"></a>
 
 ****

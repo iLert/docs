@@ -212,4 +212,6 @@
 
 * [Contact us](contact.md)
 * [iLert Release Notes](ilert-release-notes.md)
-* [Android Push Notification Configuration](android-push-notification-configuration.md)
+* [Critical Push Notifications and DND overrides](critical-push-notifications-and-dnd-overrides/README.md)
+  * [iOS Critical Alerts Configuration](critical-push-notifications-and-dnd-overrides/ios-critical-alerts-configuration.md)
+  * [Android Push Notification DND Configuration](critical-push-notifications-and-dnd-overrides/android-push-notification-dnd-configuration.md)
