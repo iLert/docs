@@ -123,7 +123,7 @@ iLert supports a mapping configuration for your Zabbix alert source that allows 
 
 ![](<../../.gitbook/assets/image (55) (2).png>)
 
-## Bidirectional setup (auto. acknowledge in Zabbix) <a href="#faq" id="faq"></a>
+## Bidirectional sync (acknowledges alerts in Zabbix) <a href="#faq" id="faq"></a>
 
 As the Zabbix API allows for problems to be acknowledged, iLert offers a setting to configure your Zabbix alert source in bidirectional mode. This will automatically create a connector and alert action for your alert source that will pipe accept events from iLert to Zabbix and acknowledge the problem related to the iLert alert.
 
@@ -156,7 +156,7 @@ Please look at the **Problems View** in Zabbix under the actions column first. I
 
 **Will problems in Zabbix be acknowledged if I accept the alert in iLert?**
 
-If you have enabled the bidirectional setup during your alet source creation in iLert, yes. See "Bidrectional setup..." above.
+If you have enabled the bidirectional setup during your alet source creation in iLert, yes. See [Bidectional sync](native.md#faq-1).
 
 ## Further References <a href="#faq" id="faq"></a>
 
