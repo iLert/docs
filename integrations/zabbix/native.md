@@ -158,6 +158,12 @@ Please look at the **Problems View** in Zabbix under the actions column first. I
 
 If you have enabled the bidirectional setup during your alet source creation in iLert, yes. See [Bidectional sync](native.md#faq-1).
 
+**Zabbix links in ilert alerts are invalid, what's wrong?**
+
+This is probably because the URL of your Zabbix interface is not configured in the media type settings. Go **Administration** --> **Media types** and open iLert. In the Parameters sections, make sure that the value for `ZABBIX.URL` is correct. Example:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2022-11-23 at 11.03.28.png" alt=""><figcaption></figcaption></figure>
+
 ## Further References <a href="#faq" id="faq"></a>
 
 This blog post in the Zabbix blog outlines how to use Zabbix and iLert with multiple on-call teams, where each team is responsible for a set of host groups in Zabbix, and therefore, will only receive alerts for the services it is responsible for:
