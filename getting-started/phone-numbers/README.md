@@ -21,16 +21,16 @@ You can find information on our domains, notification email addresses, phone num
 | API documentation | [https://api.ilert.com/api-docs](https://api.ilert.com/api)                                                       |
 | Service Status    | [http://status.ilert.com](http://status.ilert.com)                                                                |
 
-## IP addresses <a href="#email-services" id="email-services"></a>
+## IP addresses for outgoing webhooks <a href="#email-services" id="email-services"></a>
 
-ilert uses flexible serverless infrastructures to provide uptime checks and webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../../contact.md#support) if you are interested in using static IPs in case firewall whitelisting is required for your use case.
+ilert uses flexible serverless infrastructures to provide webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../../contact.md#support) if you are interested in using static IPs in case firewall whitelisting is required for your use case.
 
-| Address       | Region    | Description             |
-| ------------- | --------- | ----------------------- |
-| 18.159.7.25   | Frankfurt | Uptime checks, webhooks |
-| 3.123.64.23   | Frankfurt | Uptime checks, webhooks |
-| 54.73.206.214 | Dublin    | Uptime checks, webhooks |
-| 52.215.200.26 | Dublin    | Uptime checks, webhooks |
+| Address       | Region    | Description |
+| ------------- | --------- | ----------- |
+| 18.159.7.25   | Frankfurt | webhooks    |
+| 3.123.64.23   | Frankfurt | webhooks    |
+| 54.73.206.214 | Dublin    | webhooks    |
+| 52.215.200.26 | Dublin    | webhooks    |
 
 Additional IPs of **other regions e.g. US** will be provided on request.
 

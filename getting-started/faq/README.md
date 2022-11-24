@@ -20,8 +20,8 @@ Please have a look at our [integrations](broken-reference) sections. If you're m
 
 ilert supports bi-directional alerting via
 
-* **SMS**: **** ilert supports sending SMS alerts worldwide. For many countries, SMS alerts are sent from a local number. See [here](../phone-numbers/#sms-alerts) for details.
-* **Phone calls**: **** ilert supports international voice calls and converts the alert summary text into speech using text-to-speech technology.
+* **SMS**: ilert supports sending SMS alerts worldwide. For many countries, SMS alerts are sent from a local number. See [here](../phone-numbers/#sms-alerts) for details.
+* **Phone calls**: ilert supports international voice calls and converts the alert summary text into speech using text-to-speech technology.
 * **Emails**
 * **Push notifications** on iOS and Android
 * **WhatsApp**
@@ -37,7 +37,7 @@ No. ilert is offered as a Software as a Service solution and has no specific har
 We offer several options to prepare for a situation like this:
 
 * Create an SMS alert source in ilert and send alerts to ilert via SMS using a hardware SMS gateway
-* Create a [heartbeat alert source](../heartbeat-monitoring/) in ilert to monitor the connectivity between your network and ilert.&#x20;
+* Create a [heartbeat alert source](../heartbeat-monitoring/) in ilert to monitor the connectivity between your network and ilert.
 * Monitor your internet connection using an external monitoring system and send alerts to ilert.
 
 ## How can I change the account owner?
