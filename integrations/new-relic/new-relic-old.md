@@ -4,15 +4,15 @@ seoTitle: 'iLert: New Relic Integration for Alerting | Incident Response | Uptim
 date: '2018-12-29T05:02:05.000Z'
 weight: 1
 description: >-
-  The iLert New Relic Integration helps you to easily connect iLert with New
+  The ilert New Relic Integration helps you to easily connect ilert with New
   Relic.
 ---
 
 # New Relic Integration
 
-With New Relic Integration, you can easily integrate New Relic Alerts with iLert. So you can easily extend New Relic with SMS, Push and Voice alerts, as well as iLert rosters. Alerts are created in iLert and automatically closed when the problem is resolved. In addition, the alerts in iLert created by New Relic include bounce links to the respective Incident in New Relic.
+With New Relic Integration, you can easily integrate New Relic Alerts with ilert. So you can easily extend New Relic with SMS, Push and Voice alerts, as well as ilert rosters. Alerts are created in ilert and automatically closed when the problem is resolved. In addition, the alerts in ilert created by New Relic include bounce links to the respective Incident in New Relic.
 
-## In iLert: Create New Relic alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create New Relic alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. **Go to the alert sources tab** and click on the "Create new alert source" button
 2. Assign name and select escalation chain
@@ -30,7 +30,7 @@ With New Relic Integration, you can easily integrate New Relic Alerts with iLert
 
 ![](../../.gitbook/assets/nr3.png)
 
-1. Select **Channel Type** Webhook and insert the generated in iLert field **Base URL**.
+1. Select **Channel Type** Webhook and insert the generated in ilert field **Base URL**.
 
 ![](../../.gitbook/assets/nr4\_png.png)
 
@@ -38,7 +38,7 @@ With New Relic Integration, you can easily integrate New Relic Alerts with iLert
 
 ![](../../.gitbook/assets/nr5.png)
 
-1. Check if an alert has been created in iLert.
+1. Check if an alert has been created in ilert.
 2. After creating the **Notification Channel** in New Relic, add it to one or more **alert policies**. Go to the **Alert policies** tab and click **Add alert policy**.
 
 ![](../../.gitbook/assets/nr6.png)
@@ -47,14 +47,14 @@ With New Relic Integration, you can easily integrate New Relic Alerts with iLert
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as an alert is closed in New Relic, the associated alert in iLert is automatically fixed.
+Yes, as soon as an alert is closed in New Relic, the associated alert in ilert is automatically fixed.
 
-**What if an alert is acknowledged in New Relic, is the associated alert also confirmed in iLert?**
+**What if an alert is acknowledged in New Relic, is the associated alert also confirmed in ilert?**
 
 Yes.
 
-**Can I link New Relic to multiple alert sources in iLert?**
+**Can I link New Relic to multiple alert sources in ilert?**
 
 Yes, create a Notification Channel for each alert source in New Relic.

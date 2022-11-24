@@ -1,6 +1,6 @@
 ---
 description: >-
-  The iLert ServiceNow Outbound Integration helps you to easily connect iLert
+  The ilert ServiceNow Outbound Integration helps you to easily connect ilert
   with ServiceNow.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 [ServiceNow](http://www.servicenow.com/) is a platform-as-a-service (PaaS) provider of enterprise Service Management (SM) software.
 
-## In iLert: Create ServiceNow Connector and link to alert source <a href="#alarm-sources" id="alarm-sources"></a>
+## In ilert: Create ServiceNow Connector and link to alert source <a href="#alarm-sources" id="alarm-sources"></a>
 
 1. Click the gear icon → **Connectors**
 
@@ -34,17 +34,17 @@ description: >-
 
 ![](<../../.gitbook/assets/iLert (66).png>)
 
-## In ServiceNow: Create iLert user <a href="#create-user" id="create-user"></a>
+## In ServiceNow: Create ilert user <a href="#create-user" id="create-user"></a>
 
 1. Go to the **User Administration** area
 
 ![](../../.gitbook/assets/sn1.png)
 
-1. Live an internal iLert user and click **Submit**
+1. Live an internal ilert user and click **Submit**
 
 ![](../../.gitbook/assets/sn2.png)
 
-1. Call up the iLert user page and click the **Edit** button in the **Roles** tab.
+1. Call up the ilert user page and click the **Edit** button in the **Roles** tab.
 
 ![](../../.gitbook/assets/sn3.png)
 
@@ -56,7 +56,7 @@ description: >-
 
 **Are updates to an alert published in the ServiceNow Alert?**
 
-Yes, the status of the iLert Alert is shown in the title of the JIRA ticket, eg `RESOLVED` Host compute.infra is `DOWN`.
+Yes, the status of the ilert Alert is shown in the title of the JIRA ticket, eg `RESOLVED` Host compute.infra is `DOWN`.
 
 **Can I choose which updates to an alert are published in ServiceNow?**
 

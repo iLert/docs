@@ -7,7 +7,7 @@ description: >-
 
 # API Fortress Integration
 
-## In iLert
+## In ilert
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
@@ -40,7 +40,7 @@ description: >-
 
 ![](../.gitbook/assets/apifortress-jsonalert.png)
 
-* Put the URL Settings based on the API Fortress URL that we've got earlier in iLert Dashboard
+* Put the URL Settings based on the API Fortress URL that we've got earlier in ilert Dashboard
 
 More Details for "JSON Alert /w threshold" configs
 
@@ -57,4 +57,4 @@ More Details for "JSON Alert /w threshold" configs
 ![](../.gitbook/assets/apifortress-project.png)
 
 * Click "**Settings**" on the project and assign the alert group&#x20;
-* Upon meeting the alert criteria, JSON payload will be sent to the webhook URL, and Incident will be created in iLert
+* Upon meeting the alert criteria, JSON payload will be sent to the webhook URL, and Incident will be created in ilert

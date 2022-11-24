@@ -2,7 +2,7 @@
 title: Microsoft Teams Integration via Incoming Webhook
 seoTitle: 'iLert: Microsoft Teams Integration for Alerting | Incident Response | Uptime'
 description: >-
-  The iLert Microsoft Teams Integration helps you to bring alerts into your
+  The ilert Microsoft Teams Integration helps you to bring alerts into your
   channels without installing the app.
 date: '2018-12-29T05:02:05.000Z'
 weight: 1
@@ -11,24 +11,24 @@ weight: 1
 # Microsoft Teams Integration via Incoming Webhook
 
 {% hint style="warning" %}
-If possible we suggest to use [iLert's Microsoft Teams Bot](chat.md) for the setup, this guide and integration is only suggested in case you do not want to grant any permissions to iLert
+If possible we suggest to use [iLert's Microsoft Teams Bot](chat.md) for the setup, this guide and integration is only suggested in case you do not want to grant any permissions to ilert
 {% endhint %}
 
-## In Microsoft Teams: Add an iLert Connector to a channel <a id="add-to-channel"></a>
+## In Microsoft Teams: Add an ilert Connector to a channel <a id="add-to-channel"></a>
 
 {% hint style="info" %}
 **Admin permission required**
 
-To set up the integration, you must have admin rights in iLert.
+To set up the integration, you must have admin rights in ilert.
 {% endhint %}
 
-1. Select the channel in which you want to publish iLert Alerts and click **Connectors**
-2. Type iLert in the search field and click **Configure**
+1. Select the channel in which you want to publish ilert Alerts and click **Connectors**
+2. Type ilert in the search field and click **Configure**
 3. Type the **connector Name** and click **Create**.
 4. Copy the **connector URL** and click **Save**.
-5. Your connector has now been set up. You will need the URL from step 4 in iLert.
+5. Your connector has now been set up. You will need the URL from step 4 in ilert.
 
-## In iLert: Create the Microsoft Teams Connector and link it to the alert source <a id="create-alarm-source"></a>
+## In ilert: Create the Microsoft Teams Connector and link it to the alert source <a id="create-alarm-source"></a>
 
 1. Click the gear icon → **Connectors**
 2. Click **Add Connector**
@@ -39,7 +39,7 @@ To set up the integration, you must have admin rights in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Can I link multiple Microsoft Teams Spaces to an iLert account?**
+**Can I link multiple Microsoft Teams Spaces to an ilert account?**
 
 Yes.
 

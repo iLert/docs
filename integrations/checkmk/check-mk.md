@@ -4,15 +4,15 @@ description: Use this guide for checkmk v 1.x
 
 # Checkmk Integration (v 1.x)
 
-With the iLert checkmk notification plugin you can easily integrate checkmk into iLert and extend your existing checkmk system with SMS, push and voice notifications as well as on-call schedules from iLert. The screenshots below are based on the checkmk Raw Edition (CRE) 1.2.8. The iLert checkmk plugin is compatible with all checkmk versions.
+With the ilert checkmk notification plugin you can easily integrate checkmk into ilert and extend your existing checkmk system with SMS, push and voice notifications as well as on-call schedules from ilert. The screenshots below are based on the checkmk Raw Edition (CRE) 1.2.8. The ilert checkmk plugin is compatible with all checkmk versions.
 
 ## System requirements
 
 * Python >= 3.7.0&#x20;
 
-## In iLert: create alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: create alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1. Create a new alert source in iLert
+1. Create a new alert source in ilert
 
 ![](<../../.gitbook/assets/mk1 (1).png>)
 
@@ -24,7 +24,7 @@ With the iLert checkmk notification plugin you can easily integrate checkmk into
 
 ![](../../.gitbook/assets/mk3.png)
 
-## In checkmk: configure iLert Plugin <a href="#configure-ilert-plugin" id="configure-ilert-plugin"></a>
+## In checkmk: configure ilert Plugin <a href="#configure-ilert-plugin" id="configure-ilert-plugin"></a>
 
 Download the [checkmk](https://github.com/iLert/ilert-nagios) plugin package and unzip it:
 
@@ -59,9 +59,9 @@ Add the following entry:
 * * * * * python3 /usr/local/bin/ilert_nagios.py -m send
 ```
 
-Via this cron job, events are sent to iLert every minute that failed in the first send attempt (e..g due to a network error).
+Via this cron job, events are sent to ilert every minute that failed in the first send attempt (e..g due to a network error).
 
-Move the iLert alerting script to the notifications directory of checkmk:
+Move the ilert alerting script to the notifications directory of checkmk:
 
 ```
 > mv ilert_check_mk.sh /usr/share/check_mk/notifications
@@ -88,7 +88,7 @@ Execute the following command for the changes to take effect:
 > exit
 ```
 
-Move the iLert alerting script to the `notifications` directory of checkmk:
+Move the ilert alerting script to the `notifications` directory of checkmk:
 
 ```
 > mv ilert_check_mk.sh /omd/sites/{site-name}/local/share/check_mk/notifications
@@ -110,7 +110,7 @@ Log in to checkmk's web GUI and continue there.
 
 ![](../../.gitbook/assets/mk6.jpg)
 
-1. Click on "New Rule" and select iLert checkmk Plugin as the "Notification Method". Enter your iLert API key (see above) as a parameter.   &#x20;
+1. Click on "New Rule" and select ilert checkmk Plugin as the "Notification Method". Enter your ilert API key (see above) as a parameter.   &#x20;
 
 ![](../../.gitbook/assets/mk7.jpg)
 
@@ -120,7 +120,7 @@ Log in to checkmk's web GUI and continue there.
 
 ## Test the integration <a href="#test" id="test"></a>
 
-You can test the integration directly in checkmk to verify that everything is working. To do this, open a host or service check in the Web GUI and click on the "Execute" icon (Hammer Icon). In "Fake check results" you can manually set the state of a host or service. Click on "Down" (for a host) or "Critical" (for a service) and then confirm with "Yes!". You should now see an alert in iLert.
+You can test the integration directly in checkmk to verify that everything is working. To do this, open a host or service check in the Web GUI and click on the "Execute" icon (Hammer Icon). In "Fake check results" you can manually set the state of a host or service. Click on "Down" (for a host) or "Critical" (for a service) and then confirm with "Yes!". You should now see an alert in ilert.
 
 ![](../../.gitbook/assets/mk9.jpg)
 
@@ -147,13 +147,13 @@ checkmk has the following notification types:
 
 **What happens if my internet connection is lost? Are the events generated in checkmk lost?**
 
-No, events won't be lost. The plugin stores the events locally in a temporary directory (by default in /tmp/ilert\_nagios) and tries to send them to iLert every minute. This means that as soon as your connection is available again, cached events will be sent to iLert. In addition, we recommend that you monitor your Internet connection using our uptime monitoring feature.
+No, events won't be lost. The plugin stores the events locally in a temporary directory (by default in /tmp/ilert\_nagios) and tries to send them to ilert every minute. This means that as soon as your connection is available again, cached events will be sent to ilert. In addition, we recommend that you monitor your Internet connection using our uptime monitoring feature.
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as the state of a host / service is UP or OK again in checkmk, the associated alert is resolved in iLert. If a problem is acknowledged in checkmk, the associated alert in iLert is set to the status Accepted.
+Yes, as soon as the state of a host / service is UP or OK again in checkmk, the associated alert is resolved in ilert. If a problem is acknowledged in checkmk, the associated alert in ilert is set to the status Accepted.
 
-**Can I link checkmk to multiple alert sources in iLert?**
+**Can I link checkmk to multiple alert sources in ilert?**
 
 Yes, create a checkmk user for each alert source in checkmk. Proceed as described above in the instructions.
 

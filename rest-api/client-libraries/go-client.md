@@ -6,7 +6,7 @@ description: >-
 
 # Go Client
 
-You can find the official iLert Go client on our Github organization: [https://github.com/iLert/ilert-go](https://github.com/iLert/ilert-go)
+You can find the official ilert Go client on our Github organization: [https://github.com/iLert/ilert-go](https://github.com/iLert/ilert-go)
 
 Install as usual via `import ("github.com/iLert/ilert-go")`
 

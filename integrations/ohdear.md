@@ -7,7 +7,7 @@ description: >-
 
 # Oh Dear Integration
 
-## In iLert
+## In ilert
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 * Enter a name and select your desired escalation policy.  &#x20;
@@ -20,9 +20,9 @@ description: >-
 
 ![](../.gitbook/assets/ohdear\_notifications.png)
 
-* Click on **Webhooks** on the left, put the **Oh Dear URL** that we got in iLert earlier in **Webhook URL** and press **Update** button
+* Click on **Webhooks** on the left, put the **Oh Dear URL** that we got in ilert earlier in **Webhook URL** and press **Update** button
 
 ![](../.gitbook/assets/ohdear\_webhook.png)
 
-* On any Incident an Alert event will be created on iLert
+* On any Incident an Alert event will be created on ilert
 * For more information about the webhook on Oh Dear please refer here: [https://ohdear.app/docs/integrations/webhooks/introduction](https://ohdear.app/docs/integrations/webhooks/introduction)

@@ -1,6 +1,6 @@
 ---
 description: >-
-  Create iLert alerts from MXToolBox alerts and get alerted through iLert for
+  Create ilert alerts from MXToolBox alerts and get alerted through ilert for
   high priority issues.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 MxToolbox supports global Internet operations by providing free, fast and accurate network diagnostic and lookup tools. Millions of technology professionals use MxToolbox to help diagnose and resolve a wide range of infrastructure issues.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a MXToolBox alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -36,7 +36,7 @@ MxToolbox supports global Internet operations by providing free, fast and accura
 
 ![](<../.gitbook/assets/Mozilla\_Firefox (1).png>)
 
-1. Open the notification policy, in the **Callback** section paste the **Webhook URL** that you generated in iLert, in the **Format** section choose **Default.** Make sure that the **Webhook URL** was **\*\*saved and the** payload **matches the following format: \*\***
+1. Open the notification policy, in the **Callback** section paste the **Webhook URL** that you generated in ilert, in the **Format** section choose **Default.** Make sure that the **Webhook URL** was **\*\*saved and the** payload **matches the following format: \*\***
 
 ```javascript
 {
@@ -52,14 +52,14 @@ MxToolbox supports global Internet operations by providing free, fast and accura
 }
 ```
 
-Finished! Your MXToolBox alerts will now create alerts in iLert.
+Finished! Your MXToolBox alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as an alert has been completed in MXToolBox, the associated alert in iLert will be resolved automatically.
+Yes, as soon as an alert has been completed in MXToolBox, the associated alert in ilert will be resolved automatically.
 
-**Can I connect MXToolBox with multiple alert sources from iLert?**
+**Can I connect MXToolBox with multiple alert sources from ilert?**
 
 Yes, simply add more notification policies in MXToolBox.

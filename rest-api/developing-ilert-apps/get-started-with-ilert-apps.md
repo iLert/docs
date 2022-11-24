@@ -1,11 +1,11 @@
 ---
 description: >-
-  iLert apps allow you to extend your alerting, on-call and status page
+  ilert apps allow you to extend your alerting, on-call and status page
   experience with custom functionality and integrations build by you or other
-  iLert users.
+  ilert users.
 ---
 
-# Get started with iLert Apps
+# Get started with ilert Apps
 
 ## App connections
 
@@ -28,14 +28,14 @@ You may choose a name and description for your app. Please note that you cannot 
 ![](<../../.gitbook/assets/image (58) (1).png>)
 
 {% hint style="success" %}
-You may choose to limit your app to your own iLert account, while testing or in case your app is only ment for your organization.
+You may choose to limit your app to your own ilert account, while testing or in case your app is only ment for your organization.
 {% endhint %}
 
 After clicking on **Create application**, you will be taken to the edit view of your application that allows you to adjust futher settings:
 
 ![](<../../.gitbook/assets/image (48) (1).png>)
 
-iLert Apps use OAuth2 for user authorization - in our next guides we explain what that means and how you can setup native or web applications as well as backend driven applications.
+ilert Apps use OAuth2 for user authorization - in our next guides we explain what that means and how you can setup native or web applications as well as backend driven applications.
 
 {% content-ref url="understanding-oauth2.md" %}
 [understanding-oauth2.md](understanding-oauth2.md)

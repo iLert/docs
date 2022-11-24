@@ -4,7 +4,7 @@ We are renaming **Incidents** to **Alerts**. This change is fully backwards-comp
 
 ### Why are we making this change?
 
-We're doing this in preparation for upcoming changes to how our [stakeholder communication](broken-reference) feature works in iLert. Currently, incidents in iLert are usually created by monitoring or ticketing tools.  On-call teams are notified about incidents and once a responder acknowledges an incident, they can add stakeholders to it to inform them that the incident likely has an impact on their business area. \
+We're doing this in preparation for upcoming changes to how our [stakeholder communication](broken-reference) feature works in ilert. Currently, incidents in ilert are usually created by monitoring or ticketing tools.  On-call teams are notified about incidents and once a responder acknowledges an incident, they can add stakeholders to it to inform them that the incident likely has an impact on their business area. \
 \
 This approach has several shortcomings:
 
@@ -14,7 +14,7 @@ This approach has several shortcomings:
 
 Therefore, we will rename incidents to what they really are: alerts! An alert is primarily targeted towards on-call responders and notifies them about potential incidents reported by monitoring or ticketing tools.&#x20;
 
-But wait, this doesn't solve the aforementioned problems, you might think... Renaming will be the first step. In the next months, we will roll out several features to improve incident communication in iLert.&#x20;
+But wait, this doesn't solve the aforementioned problems, you might think... Renaming will be the first step. In the next months, we will roll out several features to improve incident communication in ilert.&#x20;
 
 Among other things, we will introduce ...
 

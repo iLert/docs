@@ -4,7 +4,7 @@ description: >-
   after April, 2020.
 ---
 
-# iLert Release Notes
+# ilert Release Notes
 
 ## November 2022
 
@@ -37,7 +37,7 @@ description: >-
 
 #### Other
 
-* iLert **Backstage** plugin has been updated to support mulitple responders, services and status pages
+* ilert **Backstage** plugin has been updated to support mulitple responders, services and status pages
 
 ## September 2022
 
@@ -65,7 +65,7 @@ description: >-
 * \=> Escalation policy rules now support multiple users and schedules
 * \=> During the escalation of an alert all responders will be added to the alert
 * \=> A user may request additional help of another responder on any open alert
-* We have added a new messenger for alert notifications: **Telegram**, users may connect their iLert account to their Telegram app and respond to alerts on their favorite messenger
+* We have added a new messenger for alert notifications: **Telegram**, users may connect their ilert account to their Telegram app and respond to alerts on their favorite messenger
 * We have added live updates to our alert list view
 * Status pages of a team can now be managed in the team admin view
 
@@ -91,7 +91,7 @@ description: >-
 
 * Maintenance windows now support services and appear on related status pages
 * Maintenance window now offer different types of notifications along their lifecycle when affecting services or status pages with private or public subscribers
-* iLert will now inform the owner of incidents (via email) that are publicly visible on status pages in case they have been pinned there for longer than 4 hours
+* ilert will now inform the owner of incidents (via email) that are publicly visible on status pages in case they have been pinned there for longer than 4 hours
 * Alert actions may now be cloned to other alert sources
 * We now support conditional execution for alert actions making it possible to filter and tune alert streams to webhooks or tools like Microsoft Teams and Slack
 
@@ -155,7 +155,7 @@ description: >-
 
 * [Status pages](incident-comms-and-status-pages/status-pages.md) and [Incident com 2.0](broken-reference) are now in GA
 * New [alert creation API](https://api.ilert.com/api-docs/#tag/Alerts/paths/\~1alerts/post) e.g. possible to target specific user
-* [2FA and MFA ](user-administration/two-factor-authentication-mfa.md)are now available for every iLert user
+* [2FA and MFA ](user-administration/two-factor-authentication-mfa.md)are now available for every ilert user
 * Call routing is now available in Italian
 
 ### New and updated integrations
@@ -183,7 +183,7 @@ description: >-
 
 ### New features
 
-* We have launched the [iLert developer platform](rest-api/developing-ilert-apps/), which enables you to create your own applications on top of iLert's uptime platform and share them with other iLert users.
+* We have launched the [ilert developer platform](rest-api/developing-ilert-apps/), which enables you to create your own applications on top of ilert's uptime platform and share them with other ilert users.
 * [Incident Communications](broken-reference) 2.0 is now in public BETA for all Premium users.
 * Support for WhatsApp as a notification channel
 
@@ -469,7 +469,7 @@ description: >-
 * [Kentix AlarmManager](integrations/kentix-am.md)
 * Datadog Outbound Integration now supports regions
 * Prometheus alert detail formatting has been updated
-* Slack channels (connections) can now be managed in iLert directly
+* Slack channels (connections) can now be managed in ilert directly
 
 ### Improvements
 
@@ -485,12 +485,12 @@ description: >-
 ### New features
 
 * Ability to re-route alerts to escalation policies and on-call schedules
-* Suggested responders: when re-routing an alert, iLert now suggests you the best responder based on historic data
+* Suggested responders: when re-routing an alert, ilert now suggests you the best responder based on historic data
 
 ### New and updated integrations
 
 * [Autotask](integrations/autotask/)
-* [Zabbix](integrations/zabbix/native.md) (updated): Starting Zabbix 4.4, iLert can be integrated as a media type into Zabbix. Zabbix 5.0.4+ includes iLert as a media type by default. See also Zabbix blog post: [Working with multiple on-call teams using Zabbix and iLert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/)&#x20;
+* [Zabbix](integrations/zabbix/native.md) (updated): Starting Zabbix 4.4, ilert can be integrated as a media type into Zabbix. Zabbix 5.0.4+ includes ilert as a media type by default. See also Zabbix blog post: [Working with multiple on-call teams using Zabbix and ilert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/)&#x20;
 * [Prometheus](integrations/prometheus.md) (updated): improved readabiltiy of prometheus alerts
 
 ### Improvements
@@ -513,7 +513,7 @@ description: >-
 ### Improvements
 
 * [Stakeholder engagement](broken-reference): stakeholders can now unsubscribe from alert update notifications
-* Email login: Users can now login via email (in addition to username) . Usernames in iLert are deprecated and will be removed in the future.
+* Email login: Users can now login via email (in addition to username) . Usernames in ilert are deprecated and will be removed in the future.
 
 ## May 2020
 
@@ -530,7 +530,7 @@ description: >-
   * [Google Cloud Functions](integrations/gcf.md)
   * [Microsoft Azure Functions](integrations/azure-functions.md)
 * [Icinga v2.x](integrations/icinga.md) (updated): there is a dedicated plugin for Icinga now on our [GitHub repo](https://github.com/iLert/ilert-icinga). You can now override the alert priority from within Icinga and we include the comments that you enter in Icinga when ack’ing a problem in the event log of the alert.
-* [JIRA](integrations/jira/) (updated): When you setup a connection from your alert source in iLert to your JIRA instance, projects and issue types are now dynamically fetched from your JIRA instance, so you can select the issue types when iLert syncs an alert to JIRA. You can even include custom fields.
+* [JIRA](integrations/jira/) (updated): When you setup a connection from your alert source in ilert to your JIRA instance, projects and issue types are now dynamically fetched from your JIRA instance, so you can select the issue types when ilert syncs an alert to JIRA. You can even include custom fields.
 * [Webhook](integrations/webhook.md) (updated): you can now fully customize the payload for outbound webhooks.
 
 ### Improvements
@@ -543,7 +543,7 @@ description: >-
 
 ### New features
 
-* [Single Sign On](integrations/sso.md): Single sign on makes it easy to manage access to your iLert account using an identity provider of your choice.
+* [Single Sign On](integrations/sso.md): Single sign on makes it easy to manage access to your ilert account using an identity provider of your choice.
 * **Alert Reporting** includes key metrics such MTTA and MTTR ([blog post](https://www.ilert.com/blog/2020-04-07-alert-reports-ilert-sso/#reports)).
 
 ### New integrations

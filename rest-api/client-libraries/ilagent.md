@@ -1,17 +1,17 @@
 ---
 description: >-
-  The iLert Agent is a program that lets you easily integrate your monitoring
-  system with iLert.
+  The ilert Agent is a program that lets you easily integrate your monitoring
+  system with ilert.
 ---
 
-# iLert Agent - ilagent
+# ilert Agent - ilagent
 
-The iLert agent appliaction comes a single binary file that is available for all major platforms.
+The ilert agent appliaction comes a single binary file that is available for all major platforms.
 
 * It helps you easily manage events from the CLI
 * send \(continuous\) heartbeats from the CLI
-* run a network local proxy HTTP server to pipe events to the iLert REST API
-* run a network local MQTT \(proxy\) server to pipe events to the iLert REST API
+* run a network local proxy HTTP server to pipe events to the ilert REST API
+* run a network local MQTT \(proxy\) server to pipe events to the ilert REST API
 
 The source code of ilagent is open source [https://github.com/iLert/ilagent](https://github.com/iLert/ilagent) and managed on GitHub.
 

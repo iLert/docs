@@ -1,5 +1,5 @@
 ---
-description: Create events in Datadog from iLert alerts.
+description: Create events in Datadog from ilert alerts.
 ---
 
 # Datadog Outbound Integration
@@ -12,13 +12,13 @@ description: Create events in Datadog from iLert alerts.
 
 ![](../../.gitbook/assets/datadog\_1.png)
 
-1. In the **New API key** section, enter a name eg. iLert and click on **Create API Key** button
+1. In the **New API key** section, enter a name eg. ilert and click on **Create API Key** button
 
 ![](../../.gitbook/assets/datadog\_2.png)
 
-1. Write down your API key. You will need it later in iLert.
+1. Write down your API key. You will need it later in ilert.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Datadog Connector and Link to alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
@@ -50,7 +50,7 @@ description: Create events in Datadog from iLert alerts.
 
 **Are updates to an alert published in the Datadog?**
 
-Yes, the state of the iLert Alert is reflected in the Datadog events.
+Yes, the state of the ilert Alert is reflected in the Datadog events.
 
 **Can I choose which updates to publish to an alert in Datadog?**
 

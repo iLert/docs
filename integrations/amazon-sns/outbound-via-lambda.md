@@ -1,5 +1,5 @@
 ---
-description: Create notifications in Amazon SNS  from iLert alerts.
+description: Create notifications in Amazon SNS  from ilert alerts.
 ---
 
 # Amazon SNS Outbound via AWS Lambda
@@ -86,18 +86,18 @@ exports.handler = async (event) => {
 
 ![](<../../.gitbook/assets/Lambda (3).png>)
 
-1. On the next page an **API endpoint** and an **API key** are generated. You will need this URL and key below when setting up the AWS Lambda connector in iLert.
+1. On the next page an **API endpoint** and an **API key** are generated. You will need this URL and key below when setting up the AWS Lambda connector in ilert.
 
 ![](<../../.gitbook/assets/myIncidentHandler\_-\_Lambda (2).png>)
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create the AWS Lambda Connector and link it to the alert source
 
 {% hint style="info" %}
 **Admin permission required**
 
-To set up the integration, you must have admin rights in iLert.
+To set up the integration, you must have admin rights in ilert.
 {% endhint %}
 
 1. **\*\*Click the gear icon and then click on the** Connectors\*\* link

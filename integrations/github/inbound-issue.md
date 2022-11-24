@@ -1,16 +1,16 @@
 ---
 title: Github Inbound Issue Integration
 seoTitle: 'iLert: Github Issue Integration for Alerting | Incident Response | Uptime'
-description: Create alerts in iLert based on issues from GitHub repositories.
+description: Create alerts in ilert based on issues from GitHub repositories.
 date: '2020-04-21T07:00:00.000Z'
 weight: 1
 ---
 
 # GitHub Inbound Issue Integration
 
-With the iLert Github Issue integration, you can create alerts in iLert based on repository issues from Github.
+With the ilert Github Issue integration, you can create alerts in ilert based on repository issues from Github.
 
-## In iLert: Create a Github alert source <a id="create-alert-source"></a>
+## In ilert: Create a Github alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click "Create new alert source"
 2. Enter a name and select your desired escalation policy. Select "Github" as the **Integration Type** and click **Save**.
@@ -29,7 +29,7 @@ With the iLert Github Issue integration, you can create alerts in iLert based on
 
 ![](../../.gitbook/assets/ghii3.png)
 
-1. In the **Payload URL** section, set the **Webhook URL** that you generated in iLert
+1. In the **Payload URL** section, set the **Webhook URL** that you generated in ilert
 2. In the **Content type** section, set the **application/json**
 
 ![](../../.gitbook/assets/ghii4.png)
@@ -42,11 +42,11 @@ With the iLert Github Issue integration, you can create alerts in iLert based on
 
 ## FAQ <a id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as the Github issue is closed, the alert in iLert will be resolved automatically.
+Yes, as soon as the Github issue is closed, the alert in ilert will be resolved automatically.
 
-**Can I connect Github with multiple alert sources from iLert?**
+**Can I connect Github with multiple alert sources from ilert?**
 
 Yes, simply create more webhooks in Github.
 

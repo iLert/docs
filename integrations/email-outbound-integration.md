@@ -2,7 +2,7 @@
 description: >-
   Our email outbound integration allows you to send emails for alerts and alert
   updates to any emails address (e.g. to group addresses or people outside of
-  iLert).
+  ilert).
 ---
 
 # Email Outbound Integration
@@ -24,7 +24,7 @@ You may now decide if this connection should be triggered **automatically** and 
 
 Don't forget to give your alert action a **label** and enter a comma separated list of emails _(one is fine),_ that should receive the alert actions emails on alert events, in the **send to** field.
 
-The form already prompts you with a **default template** for each email **subject** and email **body**. You may adjust it to your liking and add or exchange additional template variables from iLert listed below.
+The form already prompts you with a **default template** for each email **subject** and email **body**. You may adjust it to your liking and add or exchange additional template variables from ilert listed below.
 
 ![](<../.gitbook/assets/Screenshot 2020-09-03 at 17.06.57.png>)
 

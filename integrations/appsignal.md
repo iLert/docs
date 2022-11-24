@@ -6,7 +6,7 @@ description: >-
 
 # AppSignal Integration
 
-## In iLert
+## In ilert
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
@@ -31,9 +31,9 @@ description: >-
 
 ![](../.gitbook/assets/appsignal-addwebhook.png)
 
-* You can check on the event that will create Incident on iLert, in this case we checked all, and put **AppSignal URL** that we got from iLert in "**Webhook url**"
+* You can check on the event that will create Incident on ilert, in this case we checked all, and put **AppSignal URL** that we got from ilert in "**Webhook url**"
 
 ![](../.gitbook/assets/appsignal-detailswebhook.png)
 
-* Upon the event trigger, for example Errors or Exception, incidents will be created on iLert's side.
+* Upon the event trigger, for example Errors or Exception, incidents will be created on ilert's side.
 * In order to trigger this test, the error needs to be sent to AppSignal, for more information please refer to [https://docs.appsignal.com/](https://docs.appsignal.com/)

@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert Amazon SNS integration, you can create alerts in iLert based on
+  With the ilert Amazon SNS integration, you can create alerts in ilert based on
   SNS notifications.
 ---
 
@@ -10,7 +10,7 @@ description: >-
 
 The A2A pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications. Using Amazon SNS topics, your publisher systems can fanout messages to a large number of subscriber systems including Amazon SQS queues, AWS Lambda functions and HTTPS endpoints, for parallel processing, and Amazon Kinesis Data Firehose. The A2P functionality enables you to send messages to users at scale via SMS, mobile push, and email.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Amazon SNS alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -35,7 +35,7 @@ If you already have an Amazon SNS topic, please skip the steps 1 and 2.
 
 ![](<../../.gitbook/assets/Simple\_Notification\_Service (4).png>)
 
-1. On the next page, choose **Standard** topic, name the topic e.g. iLert and click on the **Create topic** button
+1. On the next page, choose **Standard** topic, name the topic e.g. ilert and click on the **Create topic** button
 
 ![](<../../.gitbook/assets/Simple\_Notification\_Service (5).png>)
 
@@ -43,15 +43,15 @@ If you already have an Amazon SNS topic, please skip the steps 1 and 2.
 
 ![](<../../.gitbook/assets/Simple\_Notification\_Service (6).png>)
 
-1. On the next page, in the **Protocol** section choose **HTTPS**, on the **Endpoint** section paste the **Webhook URL** that you generated in iLert and click on the **Create subscription** button
+1. On the next page, in the **Protocol** section choose **HTTPS**, on the **Endpoint** section paste the **Webhook URL** that you generated in ilert and click on the **Create subscription** button
 
 ![](<../../.gitbook/assets/Simple\_Notification\_Service (7).png>)
 
 {% hint style="warning" %}
-Do not activate the checkbox **Enable raw message delivery**. iLert won't process those messages otherwise.
+Do not activate the checkbox **Enable raw message delivery**. ilert won't process those messages otherwise.
 {% endhint %}
 
-Finished! Your Amazon SNS notifications will now create alerts in iLert.
+Finished! Your Amazon SNS notifications will now create alerts in ilert.
 
 ## Custom attributes
 
@@ -139,7 +139,7 @@ func main() {
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
 No, but you can use the **eventType** custom attribute to resolve an incident in specified **incidentKey**.
 
@@ -147,6 +147,6 @@ No, but you can use the **eventType** custom attribute to resolve an incident in
 
 Yes, use the **eventType** custom attribute to resolve an incident in specified **incidentKey**.
 
-**Can I connect Amazon SNS Alerting with multiple alert sources from iLert?**
+**Can I connect Amazon SNS Alerting with multiple alert sources from ilert?**
 
 Yes, simply add more Amazon SNS topics or add more topic subscriptions to the same topic and use the **incidentKey** custom attribute.

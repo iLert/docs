@@ -1,5 +1,5 @@
 ---
-description: The official iLert API client libraries.
+description: The official ilert API client libraries.
 ---
 
 # Client Libraries

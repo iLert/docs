@@ -1,17 +1,17 @@
 ---
-description: Create alerts in iLert from Grafana alerts.
+description: Create alerts in ilert from Grafana alerts.
 ---
 
 # PandoraFMS Integration
 
-## In iLert: Create PandoraFMS alert source
+## In ilert: Create PandoraFMS alert source
 
 1. Go to **Alert sources** and click on the **Create new alert source** button
 2. Set a name for your PandoraFMS alert source and select an escalation policy
 3. In the field Integration type select **PandoraFMS** and save.
 4. On the next page, an API Key is generated. You will need this API Key below when setting up in PandoraFMS.
 
-## In PandoraFMS: Add iLert Webhook as Alert Command
+## In PandoraFMS: Add ilert Webhook as Alert Command
 
 1. Download our script pandorafms\_ilert.sh from the [Pandora FMS modules library](https://pandorafms.com/library/).
 2.  Save this script into the following path :
@@ -30,7 +30,7 @@ description: Create alerts in iLert from Grafana alerts.
 
 
 6. In the **Description** field enter: \
-   `_field1_ : iLert alert source API key.`\
+   `_field1_ : ilert alert source API key.`\
    `_field2_ : Type of the created event. Can be "alert" or "resolved".`\
    `_field3_ : Title of the event.`\
    `_field4_ : Description of the event.`
@@ -38,7 +38,7 @@ description: Create alerts in iLert from Grafana alerts.
 
     <figure><img src="../.gitbook/assets/Screenshot 2022-09-19 at 15.40.45.png" alt=""><figcaption></figcaption></figure>
 8. Enter following field descriptions:\
-   **1 field description**: `iLert API Key (click on the hide checkbox, to keep the Key secure)`\
+   **1 field description**: `ilert API Key (click on the hide checkbox, to keep the Key secure)`\
    ``**2 field description**: `Event Type`\
    **2 field values**:          `alert,Alert;resolved,Resolved`\
    **3 field description**: `Title`\
@@ -52,7 +52,7 @@ description: Create alerts in iLert from Grafana alerts.
 13.
 
     <figure><img src="../.gitbook/assets/Screenshot 2022-09-19 at 16.14.04.png" alt=""><figcaption></figcaption></figure>
-14. For **iLert API Key** enter the API Key created in iLert on [this step](pandorafms-integration.md#in-ilert-create-pandorafms-alert-source).
+14. For **ilert API Key** enter the API Key created in ilert on [this step](pandorafms-integration.md#in-ilert-create-pandorafms-alert-source).
 15. Depending on the section **Triggering/Recovery** set the **Event Type** to Alert/Resolved
 16. Enter a **Title** and a **Description**.
 17.

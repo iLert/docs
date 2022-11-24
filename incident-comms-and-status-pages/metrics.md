@@ -6,15 +6,15 @@ description: >-
 
 # Metrics
 
-Metrics in iLert lets you provide additional information about the health of your services in status pages.&#x20;
+Metrics in ilert lets you provide additional information about the health of your services in status pages.&#x20;
 
 ## What is a metric?
 
-A metric is a numerical value that can track anything over time, such as API response time, API error rates, number of open tickets, etc. iLert stores metric data as pairs of floating point values and timestamps.
+A metric is a numerical value that can track anything over time, such as API response time, API error rates, number of open tickets, etc. ilert stores metric data as pairs of floating point values and timestamps.
 
-## Metric Display Options in iLert
+## Metric Display Options in ilert
 
-iLert provides two ways to display a metric
+ilert provides two ways to display a metric
 
 1. Line graph (optionally with an aggreated value)
 2. Single number&#x20;
@@ -27,7 +27,7 @@ Here's an example of a metric visualized as a line graph:
 
 * **Display name**: The name of the metric that will be displayed on the status page
 * **Period:** A metric can be visualized over a period of 24 hours (day), 7 days (week) or 28 days (month).
-* **Aggregated value:** An single value that combines all values over the selected period by applying an aggregration function. The aggregated value is shown in the top right corner of the graph and can be hidden. iLert provides four aggregations that you can choose from:&#x20;
+* **Aggregated value:** An single value that combines all values over the selected period by applying an aggregration function. The aggregated value is shown in the top right corner of the graph and can be hidden. ilert provides four aggregations that you can choose from:&#x20;
   * AVG: the arithmetic average of all values over the selected period
   * SUM: the arithmetic sum of all values over the selected period
   * MIN: the minimum value of all values over the selected period
@@ -37,7 +37,7 @@ Here's an example of a metric visualized as a line graph:
 {% hint style="info" %}
 **Interval aggregration in graphs (aka rollup aggregration)**
 
-iLert stores a large number of data points per metric (up to one datapoint every 30 seconds). In most cases, there are more data points than what can be visualized on a graph. Therefore, iLert aggregates the values by combining them in time intervals. For example, when selecting Month as period, data points are aggregated into 2 hour intervals. To aggreate the values, iLert uses the same aggregation function that you select for the summary display in the right corner of the graph.
+ilert stores a large number of data points per metric (up to one datapoint every 30 seconds). In most cases, there are more data points than what can be visualized on a graph. Therefore, ilert aggregates the values by combining them in time intervals. For example, when selecting Month as period, data points are aggregated into 2 hour intervals. To aggreate the values, ilert uses the same aggregation function that you select for the summary display in the right corner of the graph.
 
 **Periods and Aggreation Intervals**
 
@@ -121,7 +121,7 @@ Our API also support submitting multiple data points at once. Refer to our [API 
 
 ### Generate sample data
 
-iLert lets you generate one time sample data for your metric
+ilert lets you generate one time sample data for your metric
 
 1. Open your metrics settings page
 2. Click on the `...` button in the top right and select **Generate demo data**

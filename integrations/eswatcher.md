@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert X-Pack Alerting integration, you can create alerts in iLert
+  With the ilert X-Pack Alerting integration, you can create alerts in ilert
   based on Watcher alerts.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 [X-Pack](https://www.elastic.co/guide/en/x-pack/current/xpack-alerting.html) alerting is a set of administrative features that enable you to watch for changes or anomalies in your data and perform the necessary actions in response.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a X-Pack Alerting alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -35,7 +35,7 @@ To set up the integration, you must have X-Pack license with Watcher feature ena
 
 ![](../.gitbook/assets/Kibana.png)
 
-1. On the next page, name the watcher e.g. iLert, define conditions and actions the **Webhook URL** that you generated in iLert as follows:
+1. On the next page, name the watcher e.g. ilert, define conditions and actions the **Webhook URL** that you generated in ilert as follows:
 
 ![](<../.gitbook/assets/Kibana (1).png>)
 
@@ -63,14 +63,14 @@ To set up the integration, you must have X-Pack license with Watcher feature ena
 }
 ```
 
-Finished! Your X-Pack alerts will now create alerts in iLert.
+Finished! Your X-Pack alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-No, unfortunately Watcher's notification is not compatible with iLert's resolve event.
+No, unfortunately Watcher's notification is not compatible with ilert's resolve event.
 
-**Can I connect X-Pack Alerting with multiple alert sources from iLert?**
+**Can I connect X-Pack Alerting with multiple alert sources from ilert?**
 
 Yes, simply add more watchers in X-Pack Alerting.

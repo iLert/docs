@@ -1,6 +1,6 @@
 # Hyperping Integration
 
-## In iLert
+## In ilert
 
 ### Create your Hypering alert source
 

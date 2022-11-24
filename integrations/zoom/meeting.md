@@ -1,17 +1,17 @@
 ---
-description: Create Zoom Meeting from iLert alerts.
+description: Create Zoom Meeting from ilert alerts.
 ---
 
 # Zoom Meeting Integration
 
-## In iLert <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 ### Create the Zoom Meeting Connector and link it to the alert source
 
 {% hint style="info" %}
 **Admin permission required**
 
-To set up the integration, you must have admin rights in iLert.
+To set up the integration, you must have admin rights in ilert.
 {% endhint %}
 
 1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
@@ -22,7 +22,7 @@ To set up the integration, you must have admin rights in iLert.
 
 ![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_48.png)
 
-1. On the next page, choose **Zoom Meeting** as type, name the connector and click on the save button to authorize iLert App with your Zoom account.
+1. On the next page, choose **Zoom Meeting** as type, name the connector and click on the save button to authorize ilert App with your Zoom account.
 
 ![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_51.png)
 
@@ -44,11 +44,11 @@ To set up the integration, you must have admin rights in iLert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Can I link multiple Zoom Accounts to an iLert account?**
+**Can I link multiple Zoom Accounts to an ilert account?**
 
 Yes.
 
-**How can I uninstall the iLert App from my Zoom account?**
+**How can I uninstall the ilert App from my Zoom account?**
 
 1. Login to your Zoom Account and navigate to the Zoom App Marketplace
 2. Click on the **Manage** link and then on the **Installed Apps** link (alternatively you may also search for the **iLert** app)

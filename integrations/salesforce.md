@@ -6,7 +6,7 @@ description: >-
 
 # Salesforce Integration
 
-## In iLert
+## In ilert
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
@@ -65,7 +65,7 @@ global class ilertClass {
   }
 ```
 
-Create a trigger by clicking **File** -> **New** -> **Apex Trigger** and copy the following and save it as **`ilertTrigger.apxt`**. Please make sure that the `API_KEY` and the `URL` is replaced based on the relevant `API_KEY` and `URL` that were received from iLert side.
+Create a trigger by clicking **File** -> **New** -> **Apex Trigger** and copy the following and save it as **`ilertTrigger.apxt`**. Please make sure that the `API_KEY` and the `URL` is replaced based on the relevant `API_KEY` and `URL` that were received from ilert side.
 
 ```java
 trigger ilertCaseTrigger on Case (after insert, after update) {
@@ -100,7 +100,7 @@ trigger ilertCaseTrigger on Case (after insert, after update) {
 }
 ```
 
-In order to send to iLert, the domain needs to be allowlisted, back to the Salesforce page and select Setup from settings and go to **Setup** -> **Security** -> **Remote Site** Settings page.
+In order to send to ilert, the domain needs to be allowlisted, back to the Salesforce page and select Setup from settings and go to **Setup** -> **Security** -> **Remote Site** Settings page.
 
 ![](../.gitbook/assets/salesforce-remote.png)
 

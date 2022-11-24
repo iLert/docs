@@ -2,7 +2,7 @@
 title: ServiceNow Integration
 seoTitle: 'iLert: ServiceNow Integration for Alerting | Incident Response | Uptime'
 description: >-
-  The iLert ServiceNow Integration helps you to easily connect iLert with
+  The ilert ServiceNow Integration helps you to easily connect ilert with
   ServiceNow.
 date: '2018-12-29T05:02:05.000Z'
 weight: 1
@@ -10,7 +10,7 @@ weight: 1
 
 # ServiceNow Integration
 
-## In iLert: Create ServiceNow Connector and link to alert source <a id="alarm-sources"></a>
+## In ilert: Create ServiceNow Connector and link to alert source <a id="alarm-sources"></a>
 
 1. Click the gear icon → **Connectors**
 
@@ -36,17 +36,17 @@ weight: 1
 
 ![](../.gitbook/assets/sn10.png)
 
-## In ServiceNow: Create iLert user <a id="create-user"></a>
+## In ServiceNow: Create ilert user <a id="create-user"></a>
 
 1. Go to the **User Administration** area
 
 ![](../.gitbook/assets/sn1.png)
 
-2. Live an internal iLert user and click **Submit**
+2. Live an internal ilert user and click **Submit**
 
 ![](../.gitbook/assets/sn2.png)
 
-3. Call up the iLert user page and click the **Edit** button in the **Roles** tab.
+3. Call up the ilert user page and click the **Edit** button in the **Roles** tab.
 
 ![](../.gitbook/assets/sn3.png)
 
@@ -58,7 +58,7 @@ weight: 1
 
 **Are updates to an alert published in the ServiceNow Alert?**
 
-Yes, the status of the iLert Incident is shown in the title of the JIRA ticket, eg `RESOLVED` Host compute.infra is `DOWN`.
+Yes, the status of the ilert Incident is shown in the title of the JIRA ticket, eg `RESOLVED` Host compute.infra is `DOWN`.
 
 **Can I choose which updates to an alert are published in ServiceNow?**
 

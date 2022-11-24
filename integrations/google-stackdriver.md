@@ -1,14 +1,14 @@
 ---
 description: >-
-  With the iLert Google Cloud Monitoring integration, you can create alerts in
-  iLert based on Google Cloud Alerts.
+  With the ilert Google Cloud Monitoring integration, you can create alerts in
+  ilert based on Google Cloud Alerts.
 ---
 
 # Google Cloud Monitoring (formerly Stackdriver) Integration
 
 With [Google Cloud Monitoring](https://cloud.google.com/monitoring) you can gain visibility into the performance, availability, and health of your applications and infrastructure.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Google Cloud Monitoring alert source
 
@@ -38,20 +38,20 @@ With [Google Cloud Monitoring](https://cloud.google.com/monitoring) you can gain
 
 ![](../.gitbook/assets/Screenshot\_27\_09\_21\_\_17\_17.png)
 
-1. Assign a **Display Name** on the following modal (e.g. iLert) and in the field "Endpoint URL" paste the **Webhook URL** that you generated in iLert and click on the **Save** button.
+1. Assign a **Display Name** on the following modal (e.g. ilert) and in the field "Endpoint URL" paste the **Webhook URL** that you generated in ilert and click on the **Save** button.
 
 ![](../.gitbook/assets/Screenshot\_27\_09\_21\_\_17\_21.png)
 
-1. After you've created the iLert webhook, you can use it as a notification in any Alerting Policy in Google Cloud Monitoring. The following screenshot will create a new Alerting Policy with iLert as the notification method.
+1. After you've created the ilert webhook, you can use it as a notification in any Alerting Policy in Google Cloud Monitoring. The following screenshot will create a new Alerting Policy with ilert as the notification method.
 
 ![](../.gitbook/assets/Screenshot\_27\_09\_21\_\_17\_25.png)
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as the state of an alert in Google Cloud Monitoring is `RESOLVED`, the associated alert in iLert is resolved.
+Yes, as soon as the state of an alert in Google Cloud Monitoring is `RESOLVED`, the associated alert in ilert is resolved.
 
-**Can I link Google Cloud Monitoring to multiple alert sources in iLert?**
+**Can I link Google Cloud Monitoring to multiple alert sources in ilert?**
 
 Yes, create a webhook for each alert source in Google Cloud Monitoring. You can then choose which Webhook to use for alerting for each Alerting Policy in Google Cloud.

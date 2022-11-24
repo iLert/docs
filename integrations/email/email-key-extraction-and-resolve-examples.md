@@ -21,7 +21,7 @@ A very common use case might be a monitoring tool that sends emails containing t
 
 _Some static text (the alert origin) Some information about the state_
 
-These payloads are a perfect fit for iLert's key extraction and auto-resolve feature.\
+These payloads are a perfect fit for ilert's key extraction and auto-resolve feature.\
 Lets assume we have the following **email subjects**, which are send to us in two emails following each other:
 
 1. **Service: SuperService BayArea (bayarea.super) is CRITICAL**
@@ -31,7 +31,7 @@ We have to setup a regex that extracts the inner service identification to use t
 
 _Our regex_: `(?<=Service:)(.*)(?=is)`
 
-In both cases this regex will extract from **Service:** to **is** in the example above **SuperService BayArea (bayarea.super)** which iLert will turn into an alert key hash to automatically map all other incoming emails with the same text to the alert.
+In both cases this regex will extract from **Service:** to **is** in the example above **SuperService BayArea (bayarea.super)** which ilert will turn into an alert key hash to automatically map all other incoming emails with the same text to the alert.
 
 By adjusting a few more settings for the email alert source's resolve options, we can also make use of the third part of the subject the state and let all **OK** containing subjects resolve open alerts automatically.
 

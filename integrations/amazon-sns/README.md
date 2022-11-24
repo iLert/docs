@@ -1,6 +1,6 @@
 ---
 description: >-
-  The iLert Amazon SNS Integration helps you to easily connect iLert with Amazon
+  The ilert Amazon SNS Integration helps you to easily connect ilert with Amazon
   SNS.
 ---
 

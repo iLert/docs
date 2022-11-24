@@ -12,7 +12,7 @@ Simple login to your account, click on the **Alert sources** navigation menu and
 
 Choose **Heartbeat** as alert source type and configure the settings to your liking, just like any other alert source you might have already created.
 
-With heartbeat alert sources you may additionally choose an **interval** in which a ping \(HTTP request\) of your service, device or workflow is expected. In case the ping is not received by iLert in the configured interval an alert will be created.
+With heartbeat alert sources you may additionally choose an **interval** in which a ping \(HTTP request\) of your service, device or workflow is expected. In case the ping is not received by ilert in the configured interval an alert will be created.
 
 ![](../../.gitbook/assets/hbt2.png)
 

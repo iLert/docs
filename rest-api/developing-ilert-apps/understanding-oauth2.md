@@ -16,7 +16,7 @@ OAuth2 is an authorization protocol and as such designed to take care of grantin
 
 ## Access tokens (JWT)
 
-A successful OAuth2 flow will leave the challanging webservice with an access token, which represents the authorization to access the user's resources. Most of the time the JWT (JSON Web Token) format is used for access and or refresh tokens. iLert uses JWT tokens.
+A successful OAuth2 flow will leave the challanging webservice with an access token, which represents the authorization to access the user's resources. Most of the time the JWT (JSON Web Token) format is used for access and or refresh tokens. ilert uses JWT tokens.
 
 ## Auth2 Roles
 
@@ -27,7 +27,7 @@ A successful OAuth2 flow will leave the challanging webservice with an access to
 
 ## OAuth2 Scopes
 
-To describe desired resources that the client requires access to, the protocol offers scopes. Scopes are defined by the authorization server and are presented to the user during authorization. e.g. `source:w` defines an iLert scope that grants read and write permission to the alert sources of the given user.
+To describe desired resources that the client requires access to, the protocol offers scopes. Scopes are defined by the authorization server and are presented to the user during authorization. e.g. `source:w` defines an ilert scope that grants read and write permission to the alert sources of the given user.
 
 ## OAuth2 grant flows
 

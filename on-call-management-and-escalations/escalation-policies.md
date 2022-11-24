@@ -27,7 +27,7 @@ The maxiumun number of users and on-call schedules that you can set in a single 
 
 ### Delayed escalation
 
-With delayed escalation, you can delay escalation by a set period of time (up to 60 minutes). That way, you can avoid getting paged for alerts that quickly resolve themselves. When an alert is created and resolved before the defined delay has passed, iLert won't notify anyone. You can still have those alerts posted somewhere (e.g. Slack) by creating an alert action that gets triggered when an alert is created.
+With delayed escalation, you can delay escalation by a set period of time (up to 60 minutes). That way, you can avoid getting paged for alerts that quickly resolve themselves. When an alert is created and resolved before the defined delay has passed, ilert won't notify anyone. You can still have those alerts posted somewhere (e.g. Slack) by creating an alert action that gets triggered when an alert is created.
 
 <figure><img src="../.gitbook/assets/190445211-306f8cf1-b430-4d5e-95bf-3f5b87d7cc94-2.png" alt=""><figcaption><p>Chose a delay in the top of an escalation policy</p></figcaption></figure>
 

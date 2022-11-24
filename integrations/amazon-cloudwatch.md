@@ -1,14 +1,14 @@
 ---
-description: Create alerts in iLert from CloudWatch alarms.
+description: Create alerts in ilert from CloudWatch alarms.
 ---
 
 # Amazon CloudWatch Integration
 
 Amazon CloudWatch is a monitoring service for AWS cloud resources and applications running in the AWS Cloud. Amazon CloudWatch can monitor AWS resources, such as EC2 instances, Amazon DynamoDB tables, and Amazon RDS DB instances, as well as application and service generated metrics and log files.
 
-With iLert's CloudWatch integration, you can automatically create alerts in iLert from CloudWatch alarms. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When CloudWatch creates an alarm, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
+With ilert's CloudWatch integration, you can automatically create alerts in ilert from CloudWatch alarms. That way, you will never miss a critical alert and always alert the right person using ilert's on-call schedules, automatic escalation, and multiple alerting channels. When CloudWatch creates an alarm, ilert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. ilert will automatically escalate to the next person, if the alert is not acknowledged. ilert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
 
-## In iLert: Create CloudWatch alert source <a href="#create-alert-source" id="create-alert-source"></a>
+## In ilert: Create CloudWatch alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1. Switch to the tab "alert sources" and click on the button "Create new alert source"
 2. Assign name and select escalation chain
@@ -36,11 +36,11 @@ With iLert's CloudWatch integration, you can automatically create alerts in iLer
 
 ![](../.gitbook/assets/cw5.png)
 
-1. Select "HTTPS" as the protocol and transfer the URL from the above-created alert source to iLert at Endpoint and click on "Create subscription". &#x20;
+1. Select "HTTPS" as the protocol and transfer the URL from the above-created alert source to ilert at Endpoint and click on "Create subscription". &#x20;
 
 ![](../.gitbook/assets/cw6.png)
 
-1. The subscription is automatically confirmed by iLert when it is created. After updating the overview, the status "PendingConfirmation" should disappear and the ID should be displayed. &#x20;
+1. The subscription is automatically confirmed by ilert when it is created. After updating the overview, the status "PendingConfirmation" should disappear and the ID should be displayed. &#x20;
 
 ![](../.gitbook/assets/cw7.png)
 
@@ -60,10 +60,10 @@ You can now link any CloudWatch alarm to the topic you have created. The followi
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as the condition of an alarm is OK again in CloudWatch, the alert in iLert will be fixed.
+Yes, as soon as the condition of an alarm is OK again in CloudWatch, the alert in ilert will be fixed.
 
-**Can I link CloudWatch to multiple alert sources in iLert?**
+**Can I link CloudWatch to multiple alert sources in ilert?**
 
 Yes, create an SNS topic in CloudWatch for each alert source. You can then select for each alert in CloudWatch which topic you want to use for alerting.

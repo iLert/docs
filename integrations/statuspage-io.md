@@ -1,5 +1,5 @@
 ---
-description: Create StatusPage inicdents from iLert alerts.
+description: Create StatusPage inicdents from ilert alerts.
 ---
 
 # StatusPage Integration
@@ -16,15 +16,15 @@ description: Create StatusPage inicdents from iLert alerts.
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_40.png)
 
-1. On the modal window, name the key e.g. iLert and click on the **Confirm** button
+1. On the modal window, name the key e.g. ilert and click on the **Confirm** button
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_42.png)
 
-1. On the next page, a API key is generated. You will need this key and the page id below when setting up the connector in iLert.
+1. On the next page, a API key is generated. You will need this key and the page id below when setting up the connector in ilert.
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_52.png)
 
-## In iLert <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 ### Create the Statuspage Connector and link it to the alert source
 
@@ -52,7 +52,7 @@ description: Create StatusPage inicdents from iLert alerts.
 
 ## StatusPage Incident Lifecycle
 
-| When an iLert alert ... event occurs                                                            | ...and the StatusPage alert... | ...then the/an StatusPage alert...       |
+| When an ilert alert ... event occurs                                                            | ...and the StatusPage alert... | ...then the/an StatusPage alert...       |
 | ----------------------------------------------------------------------------------------------- | ------------------------------ | ---------------------------------------- |
 | <p><strong>Created, re-assigned,</strong></p><p><strong>escalated, priority raised</strong></p> | does not exist                 | is created with status **investigating** |
 | **Accepted**                                                                                    | does not exist                 | is created with status **identified**    |
@@ -65,6 +65,6 @@ description: Create StatusPage inicdents from iLert alerts.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Can I link multiple StatusPage Accounts to an iLert account?**
+**Can I link multiple StatusPage Accounts to an ilert account?**
 
 Yes.

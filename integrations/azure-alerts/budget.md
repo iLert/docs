@@ -1,10 +1,10 @@
 ---
-description: Create alerts in iLert based on Azure Cost Budget.
+description: Create alerts in ilert based on Azure Cost Budget.
 ---
 
 # Budget Alert
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Azure Alerts alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -53,7 +53,7 @@ description: Create alerts in iLert based on Azure Cost Budget.
 
 ![](<../../.gitbook/assets/Create\_action\_group\_-\_Microsoft\_Azure (4).png>)
 
-1. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in iLert and click on** OK**. Name the action e.g.** ilert **and click on the** Review + create\*\* button.
+1. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in ilert and click on** OK**. Name the action e.g.** ilert **and click on the** Review + create\*\* button.
 
 ![](<../../.gitbook/assets/Webhook\_-\_Microsoft\_Azure (1).png>)
 
@@ -65,14 +65,14 @@ description: Create alerts in iLert based on Azure Cost Budget.
 
 ![](<../../.gitbook/assets/Cost\_Management\_\_Nutzungsbasierte\_Bezahlung\_-\_Microsoft\_Azure (3).png>)
 
-Finished! Your Azure Activity Logs alerts will now create alerts in iLert.
+Finished! Your Azure Activity Logs alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
 No, unfortunately Azure Budget alert do not fire resolve events.
 
-**Can I connect Azure Alerts with multiple alert sources from iLert?**
+**Can I connect Azure Alerts with multiple alert sources from ilert?**
 
 Yes, simply create more alert rules in Azure Alerts

@@ -1,6 +1,6 @@
 ---
 description: >-
-  iLert getting started guide. The most important concepts in iLert are
+  ilert getting started guide. The most important concepts in ilert are
   explained on this page.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 
 
-iLert is a platform for alerting, on-call management and uptime monitoring. It helps teams to reduce response times to critical alerts by extending monitoring tools with reliable alerting, automatic escalations, on-call schedules and other features to support the incident response process, such as [informing stakeholders](broken-reference) or creating tickets in external incident management tools. The most important concepts are explained in the following sections.
+ilert is a platform for alerting, on-call management and uptime monitoring. It helps teams to reduce response times to critical alerts by extending monitoring tools with reliable alerting, automatic escalations, on-call schedules and other features to support the incident response process, such as [informing stakeholders](broken-reference) or creating tickets in external incident management tools. The most important concepts are explained in the following sections.
 
 ## Alert
 
@@ -23,15 +23,15 @@ An alert can have the following states:
 
 ## Alert source (aka inbound integration)
 
-An alert source represents the connection between your tools (usually a monitoring system, a ticketing tool, or an application) and iLert. We often refer to alert sources as **inbound integrations**.
+An alert source represents the connection between your tools (usually a monitoring system, a ticketing tool, or an application) and ilert. We often refer to alert sources as **inbound integrations**.
 
-iLert provides the following inbound integration options:
+ilert provides the following inbound integration options:
 
-| [**Tool integrations**](integrations/jira/)                      | These are pre-built integrations by iLert and work-out-of the box with your monitoring tools. If you're missing a tool, feel free to suggest an integration that you'd like to see in iLert. |
+| [**Tool integrations**](integrations/jira/)                      | These are pre-built integrations by ilert and work-out-of the box with your monitoring tools. If you're missing a tool, feel free to suggest an integration that you'd like to see in ilert. |
 | ---------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**Email integration**](integrations/email/)                     | Forward emails to an alert source's email addres to integrate with iLert.                                                                                                                    |
+| [**Email integration**](integrations/email/)                     | Forward emails to an alert source's email addres to integrate with ilert.                                                                                                                    |
 | [**Event API**](https://api.ilert.com/api-docs/)                 | Write your own integration using our easy-to-use Event API.                                                                                                                                  |
-| **SMS integration**                                              | Send alerts to iLert via SMS.                                                                                                                                                                |
+| **SMS integration**                                              | Send alerts to ilert via SMS.                                                                                                                                                                |
 | [**Hearbeat monitoring**](getting-started/heartbeat-monitoring/) | A heartbeat alert source will automatically create an alert if it does not receive a heartbeat signal from your app at regular intervals.                                                    |
 
 ![](<.gitbook/assets/image (1) (1) (1).png>)
@@ -45,7 +45,7 @@ Connectors and alert actions allow you to extend your alert response and communi
 * Post a webhook to a defined HTTP end point
 * Trigger a serverless function in AWS, GCP or Azure
 
-A **connector** is created globally in iLert and usually contains all the information to connect with the target system (e.g. a URL, an API key or username and password, etc.). An **alert action** is created at the alert source level and uses its connector to perform a concrete action. Example: Let's say we want to create an issue in JIRA for every alert in iLert. We need to create ...
+A **connector** is created globally in ilert and usually contains all the information to connect with the target system (e.g. a URL, an API key or username and password, etc.). An **alert action** is created at the alert source level and uses its connector to perform a concrete action. Example: Let's say we want to create an issue in JIRA for every alert in ilert. We need to create ...
 
 * ... a JIRA **connector** that contains the URL of the JIRA server and the credentials to connect to it.
 * ... an **alert action** at the alert source level that contains information such as whether to trigger the connection manually or automatically for every alert, the JIRA project ID and issue type, and any custom fields that we might want to set in the JIRA issue.
@@ -74,14 +74,14 @@ See our incident comms documentation.
 
 ## Notifications
 
-In iLert, each user defines in his profile how he will be notified of an alert. A user with admin rights can also maintain the notification settings for other users. iLert supports the following notification channels:
+In ilert, each user defines in his profile how he will be notified of an alert. A user with admin rights can also maintain the notification settings for other users. ilert supports the following notification channels:
 
 * E-mail
 * SMS
 * Phone calls
 * iPhone and Android push notification
 
-Notifications in iLert are bi-directional, that is, you can respond to a notification using the same channel on which you were notified (without logging into iLert).
+Notifications in ilert are bi-directional, that is, you can respond to a notification using the same channel on which you were notified (without logging into ilert).
 
 You have the following response options:
 

@@ -1,5 +1,5 @@
 ---
-description: Invoke AWS Lambda functions based on alerts in iLert
+description: Invoke AWS Lambda functions based on alerts in ilert
 ---
 
 # AWS Lambda Integration
@@ -7,7 +7,7 @@ description: Invoke AWS Lambda functions based on alerts in iLert
 [AWS Lambda](https://aws.amazon.com/lambda/) is a serverless compute service that lets you run code without provisioning or managing servers, creating workload-aware cluster scaling logic, maintaining event integrations, or managing runtimes.
 
 {% hint style="info" %}
-Beforehand make sure that you have created an AWS lambda function in your AWS project and got its public `URL` handy. You might also create an additional authorization value e.g. a secure random string that you are evaluating in the HTTP request `Authorization` header when you function is invoked by iLert, we acutally suggest using this.
+Beforehand make sure that you have created an AWS lambda function in your AWS project and got its public `URL` handy. You might also create an additional authorization value e.g. a secure random string that you are evaluating in the HTTP request `Authorization` header when you function is invoked by ilert, we acutally suggest using this.
 {% endhint %}
 
 ## Create the connector <a href="#connector" id="connector"></a>

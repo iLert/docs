@@ -4,7 +4,7 @@ description: Our open source client is available under MIT and Apache 2.0 Licens
 
 # Rust Client
 
-You can find the official iLert Rust client on our Github organization: [https://github.com/iLert/ilert-rust](https://github.com/iLert/ilert-rust)
+You can find the official ilert Rust client on our Github organization: [https://github.com/iLert/ilert-rust](https://github.com/iLert/ilert-rust)
 
 Install as usual with cargo `ilert = "0.2.3"`
 

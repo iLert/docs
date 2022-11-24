@@ -30,9 +30,9 @@ You may choose the option `Only read this greeting..` to fully customise the gre
 
 ## Routing configuration
 
-When calling your number, your callers will be able to choose a routing target using **voice** or **digit** input. A routing target is an escalation policy and by default, iLert will call every user in the target escalation policy (either directly or from a nested on-call schedule) one after another, while waiting for an agent to accept the incoming call.
+When calling your number, your callers will be able to choose a routing target using **voice** or **digit** input. A routing target is an escalation policy and by default, ilert will call every user in the target escalation policy (either directly or from a nested on-call schedule) one after another, while waiting for an agent to accept the incoming call.
 
-When picking up the call, the agent may decide to accept or decline the call. If the agent does not pick up the call or declines, iLert will automatically call the next user in the policy.
+When picking up the call, the agent may decide to accept or decline the call. If the agent does not pick up the call or declines, ilert will automatically call the next user in the policy.
 
 {% hint style="info" %}
 **Escalation timeouts in the escalation policy will be ignored**
@@ -46,7 +46,7 @@ If you would like to randomly distribute incoming calls to a group of people, yo
 
 <figure><img src="../.gitbook/assets/Screen Shot 2022-09-02 at 10.44.08.png" alt=""><figcaption></figcaption></figure>
 
-In the above configuration, iLert will first randomly select someone from the first escalation rule (Andreas, Cathy or Roman), if that selected person doesn't accept the call, iLert will proceed with the second escalation rule, which is the user on-call according to the SRE Team Secondary schedule.
+In the above configuration, ilert will first randomly select someone from the first escalation rule (Andreas, Cathy or Roman), if that selected person doesn't accept the call, ilert will proceed with the second escalation rule, which is the user on-call according to the SRE Team Secondary schedule.
 
 ## Voicemail setup
 

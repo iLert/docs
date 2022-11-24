@@ -1,10 +1,10 @@
 ---
-description: The iLert Nagios Integration helps you to easily connect iLert with Nagios.
+description: The ilert Nagios Integration helps you to easily connect ilert with Nagios.
 ---
 
 # Nagios Integration
 
-With the iLert Nagios Notification Plugin, you can easily integrate Nagios with iLert and extend your existing Nagios system (and other Nagios forks) with advanced alerting by SMS, phone calls, and push notifications as well as on-call schedules.
+With the ilert Nagios Notification Plugin, you can easily integrate Nagios with ilert and extend your existing Nagios system (and other Nagios forks) with advanced alerting by SMS, phone calls, and push notifications as well as on-call schedules.
 
 ## System requirements <a href="#requirements" id="requirements"></a>
 
@@ -15,9 +15,9 @@ With the iLert Nagios Notification Plugin, you can easily integrate Nagios with 
 Python 2.x is at its end-of-life (EOL) please use Python 3.7 (or higher) for this integration.
 {% endhint %}
 
-## In iLert: create Nagios alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: create Nagios alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1\. Create a new alert source in iLert
+1\. Create a new alert source in ilert
 
 ![](../.gitbook/assets/na1.png)
 
@@ -31,7 +31,7 @@ Python 2.x is at its end-of-life (EOL) please use Python 3.7 (or higher) for thi
 
 ## In Nagios: install the notification plugin <a href="#installation-guide" id="installation-guide"></a>
 
-Download the [iLert Nagios plugin](https://github.com/iLert/ilert-nagios) and unzip it:
+Download the [ilert Nagios plugin](https://github.com/iLert/ilert-nagios) and unzip it:
 
 ```
 > https://github.com/iLert/ilert-nagios/releases/download/latest/ilert-nagios.zip
@@ -68,7 +68,7 @@ Open the plugin configuration file `ilert_nagios.cfg` and enter the API key in t
 ```
 define contact {
     contact_name                    ilert
-    alias                           iLert
+    alias                           ilert
     service_notification_period     24x7
     host_notification_period        24x7
     service_notification_options    w,u,c,r
@@ -96,13 +96,13 @@ Copy the file into the Nagios configuration directory (varies depending on the N
 {% endtab %}
 {% endtabs %}
 
-Depending on the installation of Nagios, there is a `nagios.cfg` file in which you must integrate the iLert configuration file. The entry in `nagios.cfg` would look like this for this example:
+Depending on the installation of Nagios, there is a `nagios.cfg` file in which you must integrate the ilert configuration file. The entry in `nagios.cfg` would look like this for this example:
 
 ```
  cfg_file=/etc/nagios/conf.d/ilert_nagios.cfg
 ```
 
-Add the iLert contact to your Nagios contact group. If you are using the Nagios defaults, open the `contacts.cfg` file for the iLert contact:
+Add the ilert contact to your Nagios contact group. If you are using the Nagios defaults, open the `contacts.cfg` file for the ilert contact:
 
 ```
 define contactgroup{
@@ -134,7 +134,7 @@ Add the following entry:
 {% endtab %}
 {% endtabs %}
 
-Via this cron job, events are sent to iLert every minute that failed in the first send attempt (e.g. due to a network error).
+Via this cron job, events are sent to ilert every minute that failed in the first send attempt (e.g. due to a network error).
 
 Restart Nagios:
 
@@ -150,7 +150,7 @@ The plugin processes the notification types `PROBLEM` , `ACKNOWLEDGEMENT` and `R
 
 **What happens if my internet connection is interrupted? Are the events generated in Nagios lost?**
 
-No, events won't be lost. The plugin stores the events locally in a temporary directory (by default in /tmp/ilert\_nagios) and tries to send them to iLert every minute. This means that as soon as your connection is available again, cached events will be sent to iLert.
+No, events won't be lost. The plugin stores the events locally in a temporary directory (by default in /tmp/ilert\_nagios) and tries to send them to ilert every minute. This means that as soon as your connection is available again, cached events will be sent to ilert.
 
 **The plugin does not work. What can I do?**
 

@@ -4,7 +4,7 @@ seoTitle: 'iLert: Single Sign-On for Alerting | Incident Response | Uptime'
 date: '2020-04-25T05:02:05.000Z'
 weight: 1
 description: >-
-  The iLert Single Sign-On Integration helps you to easily connect iLert with
+  The ilert Single Sign-On Integration helps you to easily connect ilert with
   Google G-Suite, Okta or Microsoft ADFS.
 ---
 

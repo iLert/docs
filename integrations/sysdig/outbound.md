@@ -1,7 +1,7 @@
 ---
 description: >-
-  The iLert Sysdig Outbound Integration helps you to easily connect Sysdig with
-  iLert.
+  The ilert Sysdig Outbound Integration helps you to easily connect Sysdig with
+  ilert.
 ---
 
 # Sysdig Outbound Integration
@@ -10,11 +10,11 @@ description: >-
 
 ### Copy API token <a href="#create-api-user" id="create-api-user"></a>
 
-1. Go to **Settings**, then to **User Profile.** Write down your API Token. You will need it later in iLert.
+1. Go to **Settings**, then to **User Profile.** Write down your API Token. You will need it later in ilert.
 
 ![](<../../.gitbook/assets/Profile\_-\_Settings\_-\_Sysdig (1).png>)
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Sysdig Connector and Link to alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
@@ -47,4 +47,4 @@ description: >-
 
 **Are updates for an alert adapted in the corresponding Sysdig Event?**
 
-Yes, the state of the iLert Alert is reflected in the brief description of the Sysdig event, eg \[RESOLVED] Host compute.infra is DOWN.
+Yes, the state of the ilert Alert is reflected in the brief description of the Sysdig event, eg \[RESOLVED] Host compute.infra is DOWN.

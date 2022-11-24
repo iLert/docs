@@ -155,7 +155,7 @@ Further restriction of resource permissions to a user will reflect onto shared r
 
 ## FAQ
 
-### When using iLert am I required to configure teams?
+### When using ilert am I required to configure teams?
 
 No you don't have to. Teams are meant to be an enhancement for larger organizations and enterprises to keep their users productive. When no teams are created in your account, the team specific ui elements wont be shown and you may use and share all resources globally across your account by default.
 
@@ -173,5 +173,5 @@ Absolutely. To achieve this, all users should have the global **Responder** role
 
 ### I am a Team Admin trying to add a user to my team but he does not appear in the users dropdown. What am I doing wrong?
 
-If you are certain that the user you are searching for exists in your iLert organization and he does not appear in the dropdown - there is a good chance that you have no permission to access him. Most likely this is related to him already being a member of a private team, take a look [here](teams.md#user-visibility).
+If you are certain that the user you are searching for exists in your ilert organization and he does not appear in the dropdown - there is a good chance that you have no permission to access him. Most likely this is related to him already being a member of a private team, take a look [here](teams.md#user-visibility).
 

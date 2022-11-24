@@ -1,6 +1,6 @@
 ---
 description: >-
-  iLert's intelligent Email alert source allows you to parse alert keys and
+  ilert's intelligent Email alert source allows you to parse alert keys and
   resolve open alerts based on incoming emails.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 ## Configuring auto Email Alert-Resolution
 
-When creating or editing your email alert sources in iLert, choose the alert creation type **Open and resolve alerts based alert keys extracted from emails**.
+When creating or editing your email alert sources in ilert, choose the alert creation type **Open and resolve alerts based alert keys extracted from emails**.
 
 ![](<../../.gitbook/assets/Screenshot 2020-06-17 at 14.46.18.png>)
 
@@ -22,7 +22,7 @@ For this example we will demonstrate the alert key / identifier extraction based
 
 `[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89aAbB][a-f0-9]{3}-[a-f0-9]{12}`
 
-By selecting the alert key method **extract through regex** we tell iLert to cut out the text that is matched by the provided regex from the incoming email subject. We can simply pass the regex into the input field.
+By selecting the alert key method **extract through regex** we tell ilert to cut out the text that is matched by the provided regex from the incoming email subject. We can simply pass the regex into the input field.
 
 ![](<../../.gitbook/assets/Screenshot 2020-06-17 at 14.51.58.png>)
 

@@ -6,7 +6,7 @@ Creating a status is a matter of few clicks.
 
 1\. Navigate to **Status pages** in the navigation bar and click on the **Create status page** button
 
-2\. Select your page type, iLert URL and the teams that should manage the status page.
+2\. Select your page type, ilert URL and the teams that should manage the status page.
 
 ![](<../.gitbook/assets/Screen Shot 2022-03-10 at 17.03.42.png>)
 
@@ -22,12 +22,12 @@ Creating a status is a matter of few clicks.
 
 ## Public vs. private status pages
 
-Status pages in iLert can either be private or public. You change the page type any time. The table below compares both pages types:
+Status pages in ilert can either be private or public. You change the page type any time. The table below compares both pages types:
 
 |                                      | Public page                                                         | Private page                                                                                                                                                                                             |
 | ------------------------------------ | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Use case**                         | For public incident communication with external users and customers | For private incident communication with employees and customers that either have an iLert account or a whitelisted IP address. **Note that a stakeholder license is sufficient to view status pages.**   |
-| **Visibility**                       | Publicly visible on the internet                                    | Visible to authenticated iLert users only or to users with whitelisted IP addresses                                                                                                                      |
+| **Use case**                         | For public incident communication with external users and customers | For private incident communication with employees and customers that either have an ilert account or a whitelisted IP address. **Note that a stakeholder license is sufficient to view status pages.**   |
+| **Visibility**                       | Publicly visible on the internet                                    | Visible to authenticated ilert users only or to users with whitelisted IP addresses                                                                                                                      |
 | **Supports custom domains with SSL** | :white\_check\_mark:                                                | :white\_check\_mark:                                                                                                                                                                                     |
 | **Supports IP Whitelist**            | :white\_check\_mark:                                                | :white\_check\_mark:                                                                                                                                                                                     |
 
@@ -61,11 +61,11 @@ Every status page (both private and public) comes with support for custom domain
 
 Setting up a custom domain consist of the following steps:
 
-1. Set the custom domain in iLert
+1. Set the custom domain in ilert
 2. Configure DNS
 3. Wait for the changes to take effect
 
-#### 1. Set the custom domain in iLert
+#### 1. Set the custom domain in ilert
 
 Go to your status page settings and enter a custom domain and click on **Save**.
 
@@ -73,18 +73,18 @@ Go to your status page settings and enter a custom domain and click on **Save**.
 
 #### 2. Configure DNS
 
-Configuring DNS happens outside of iLert, at the DNS provider you are using for your domain.&#x20;
+Configuring DNS happens outside of ilert, at the DNS provider you are using for your domain.&#x20;
 
 1. Create a new DNS record and select **CNAME** as the record type
 2. Enter the name for the CNAME record. The **name** or **DNS entry** is where you enter your subdomain. You might need to enter it in full (e.g. **status.example.com**) or you might just need to enter the part before your apex domain (e.g. **status**). If you're not sure which to use, check with your DNS provider.
-3. Enter the iLert URL of your status page as the value for the CNAME record. The **target** or **value** or **destination** is where the subdomain should be pointed. Taking the screenshot from above as an example, you would need to enter `ilert-demo.ilert.io` .
+3. Enter the ilert URL of your status page as the value for the CNAME record. The **target** or **value** or **destination** is where the subdomain should be pointed. Taking the screenshot from above as an example, you would need to enter `ilert-demo.ilert.io` .
 
 You might also see a field named **TTL**, which stands for Time To Live. It's the number of seconds that the DNS record can be cached for. If you're not sure what to set, look at the TTL for your existing DNS records. You could set the same number. If you're still not sure, we suggest setting 43200 seconds (12 hours) or 86400 seconds (24 hours).
 
 {% hint style="warning" %}
 **Are you using Cloudflare?**
 
-Whenever possible, please **turn off Cloudflare proxying** (the orange cloud, also called "Proxy status" in your domain settings) to ensure that your status page is served without issues and can be monitored by iLert.
+Whenever possible, please **turn off Cloudflare proxying** (the orange cloud, also called "Proxy status" in your domain settings) to ensure that your status page is served without issues and can be monitored by ilert.
 {% endhint %}
 
 #### 3. Wait for the changes to take effect
@@ -95,7 +95,7 @@ You might need to wait 1-48 hours for the DNS changes to take effect. This depen
 
 Communicate incidents to your users right where they are using your service: on your web site or web app.&#x20;
 
-To embed the status of your status page in your web app or website, you can use iLert's floating staus widget or status badge. The status page widget will only be visible only if there is an ongoing incident or scheduled maintenance and will be hidden if all services are operating normally. The status widget will always be visible and show the overall status of your status page.
+To embed the status of your status page in your web app or website, you can use ilert's floating staus widget or status badge. The status page widget will only be visible only if there is an ongoing incident or scheduled maintenance and will be hidden if all services are operating normally. The status widget will always be visible and show the overall status of your status page.
 
 To configure you status page floating widget:
 
@@ -124,7 +124,7 @@ Yes. Our Premium plan even gives you unlimited stakeholder licenses. That way, y
 To isolate customer's from each other, we recommend the following approach:
 
 1. Create a team for every customer and make the team [private](../user-administration/teams.md#private-teams)
-2. Invite your customer to iLert chosing the **Stakeholder** role
+2. Invite your customer to ilert chosing the **Stakeholder** role
 3. Add the customer to the respective customer team.
 4. Assign the status page to the respective customer team.
 

@@ -6,7 +6,7 @@ description: >-
 
 # CrowdStrike Integration
 
-## In iLert
+## In ilert
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
@@ -32,7 +32,7 @@ description: >-
 ![](../.gitbook/assets/crowdstrike-conditionworkflowdetection.png)
 
 * On creating Action choose Action type **Notification** and **Call webhook** as Action, you might need to configure it from store if you haven't done so. Go ahead and click the Store link, and click "**Configure**" on the Webhook.&#x20;
-* Add the **Name** in this case we name it as ilert-incident and put the **Webhook URL** that we got from iLert's dashboard earlier.
+* Add the **Name** in this case we name it as ilert-incident and put the **Webhook URL** that we got from ilert's dashboard earlier.
 
 ![](<../.gitbook/assets/crowdstrike-webhook (1).png>)
 
@@ -41,4 +41,4 @@ description: >-
 
 ![](../.gitbook/assets/crowdstrike-saveworkflowdetection.png)
 
-* Save the configuration and turn the workflow on, and upon Detection creation, the incident will be created on iLert.
+* Save the configuration and turn the workflow on, and upon Detection creation, the incident will be created on ilert.

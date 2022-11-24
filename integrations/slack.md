@@ -1,7 +1,7 @@
 ---
 title: Slack Integration
 seoTitle: 'iLert: Slack Integration for Alerting | Incident Response | Uptime'
-description: The iLert Slack Integration helps you to easily connect iLert with Slack.
+description: The ilert Slack Integration helps you to easily connect ilert with Slack.
 date: '2018-12-29T05:02:05.000Z'
 weight: 1
 ---
@@ -10,11 +10,11 @@ weight: 1
 
 Slack is a popular instant messaging service for team communication and collaboration. With the Slack integration you receive messages about alerts in Slack channels and can accept and resolve alerts within Slack.
 
-## In iLert <a href="#in_ilert" id="in_ilert"></a>
+## In ilert <a href="#in_ilert" id="in_ilert"></a>
 
 ### Authorizing a Slack Workspace <a href="#authorize" id="authorize"></a>
 
-**Admin role** level is required to set up the integration in iLert.
+**Admin role** level is required to set up the integration in ilert.
 
 1\. Click on the gear icon ⚙ → **Connectors**
 
@@ -28,8 +28,8 @@ Slack is a popular instant messaging service for team communication and collabor
 
 ![](<../.gitbook/assets/iLert (105).png>)
 
-1. You will be forwarded to Slack. If you are not already logged in to Slack, please log in and **allow iLert to access your Slack workspace**.
-2. You will be redirected to iLert. When you see a success message, you're done setting up. You can now add alert sources to a channel in Slack.
+1. You will be forwarded to Slack. If you are not already logged in to Slack, please log in and **allow ilert to access your Slack workspace**.
+2. You will be redirected to ilert. When you see a success message, you're done setting up. You can now add alert sources to a channel in Slack.
 
 ![](../.gitbook/assets/sl4.png)
 
@@ -45,7 +45,7 @@ You **may** need to re-authorize the bot for your Slack workspace in case new fe
 
 ### Add alert sources to Slack channels <a href="#alarm-sources" id="alarm-sources"></a>
 
-1. Open Slack and go to a channel to publish iLert alerts. Enter`/ilert` and press Enter:
+1. Open Slack and go to a channel to publish ilert alerts. Enter`/ilert` and press Enter:
 
 ![](../.gitbook/assets/sl5.png)
 
@@ -58,7 +58,7 @@ You **may** need to re-authorize the bot for your Slack workspace in case new fe
 ![](../.gitbook/assets/sl7.png)
 
 1. You have now linked an alert source to a Slack Channel.
-2. Create a test alert in the alert source in iLert. To do this, click on the link of the alert source in Slack _(New Relic in the example above)_.
+2. Create a test alert in the alert source in ilert. To do this, click on the link of the alert source in Slack _(New Relic in the example above)_.
 3. A notice appears on the overview page of the alert source actions that alerts from this alert source will be published in Slack.
 
 ![](<../.gitbook/assets/iLert (104).png>)
@@ -70,9 +70,9 @@ You **may** need to re-authorize the bot for your Slack workspace in case new fe
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Can I link multiple Slack Workspaces to one iLert account?**
+**Can I link multiple Slack Workspaces to one ilert account?**
 
-No, only one Slack Workspace can be linked to an iLert account.
+No, only one Slack Workspace can be linked to an ilert account.
 
 **Are updates to an alert published in Slack?**
 
@@ -88,8 +88,8 @@ Yes.
 
 **Can I manage alert sources from private teams using the `/ilert` slash command?**
 
-No, alert sources of private teams can only be added via iLert's web interface, in the alert source's **Alert actions** configuration tab.
+No, alert sources of private teams can only be added via ilert's web interface, in the alert source's **Alert actions** configuration tab.
 
 **Why am I not seeing all of my Slack channels in the Connections UI?**
 
-This could be due to missing permission for private channels. Please try to invite the iLert Slack Bot into the desired (missing) channels and refresh the page.
+This could be due to missing permission for private channels. Please try to invite the ilert Slack Bot into the desired (missing) channels and refresh the page.

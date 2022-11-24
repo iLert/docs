@@ -1,12 +1,12 @@
 ---
-description: Create iLert alerts directly from Cortex XSOAR (formerly Demisto).
+description: Create ilert alerts directly from Cortex XSOAR (formerly Demisto).
 ---
 
 # Cortex XSOAR (formerly Demisto) Integration
 
 [Cortex XSOAR](https://www.paloaltonetworks.com/cortex/xsoar) is the industry’s only extended security orchestration, automation and response platform that unifies case management, automation, real-time collaboration and threat intelligence management to transform every stage of the alert lifecycle. Teams can manage alerts across all sources, standardize processes with playbooks, take action on threat intelligence and automate response for any security use case, resulting in significantly faster responses that require less manual review.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create an alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -27,11 +27,11 @@ description: Create iLert alerts directly from Cortex XSOAR (formerly Demisto).
 
 ![](../.gitbook/assets/Settings.png)
 
-1. On the modal window, name the instance, paste the iLert **API Key** that that you generated in iLert and click on the **Save & exit** button
+1. On the modal window, name the instance, paste the ilert **API Key** that that you generated in ilert and click on the **Save & exit** button
 
 ![](<../.gitbook/assets/Settings (1).png>)
 
-1. Type some available iLert command to test the integration, e.g.
+1. Type some available ilert command to test the integration, e.g.
 
 ```bash
 !iLert-submit-event summary="Test alert"
@@ -41,6 +41,6 @@ description: Create iLert alerts directly from Cortex XSOAR (formerly Demisto).
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Can I connect Cortex XSOAR with multiple alert sources from iLert?**
+**Can I connect Cortex XSOAR with multiple alert sources from ilert?**
 
 Yes, simply add more integration instances in Cortex XSOAR.

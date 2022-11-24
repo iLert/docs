@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert SignalFx integration, you can create alerts in iLert based on
+  With the ilert SignalFx integration, you can create alerts in ilert based on
   SignalFx alerts.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 SignalFx enables real-time cloud monitoring and observability for infrastructure, microservices, and applications by collecting and analyzing metrics and traces across every component in your cloud environment. Built on a massively-scalable streaming architecture, SignalFx applies advanced analytics and data science-directed troubleshooting to let operators find the root cause of issues in seconds.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a SignalFx alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -33,19 +33,19 @@ SignalFx enables real-time cloud monitoring and observability for infrastructure
 
 ![](../.gitbook/assets/Detector\_-\_my\_detector.png)
 
-1. On the modal window paste the **Webhook URL** that you generated in iLert and click on **Update**
+1. On the modal window paste the **Webhook URL** that you generated in ilert and click on **Update**
 
 ![](<../.gitbook/assets/Detector\_-\_my\_detector (1).png>)
 
-Finished! Your SignalFx alerts will now create alerts in iLert.
+Finished! Your SignalFx alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as an alert with "ok" has been resolved in SignalFx, the associated alert in iLert will be resolved automatically.
+Yes, as soon as an alert with "ok" has been resolved in SignalFx, the associated alert in ilert will be resolved automatically.
 
-**Can I connect SignalFx with multiple alert sources from iLert?**
+**Can I connect SignalFx with multiple alert sources from ilert?**
 
 Yes, simply add more recipients in SignalFx alert rule.
 

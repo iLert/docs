@@ -1,25 +1,25 @@
 ---
 description: >-
   With the Zammad Outbound Integration you can create Zammad Tickets right from
-  iLert alerts.
+  ilert alerts.
 ---
 
 # Zammad Outbound Integration
 
 {% hint style="warning" %}
-To set up this integration, you must have admin rights in iLert.
+To set up this integration, you must have admin rights in ilert.
 {% endhint %}
 
 ## In Zammad <a href="#in-topdesk" id="in-topdesk"></a>
 
 ### Create an API key <a href="#create-api-user" id="create-api-user"></a>
 
-1. Optional: create a dedicated iLert user in Zammad. This has the advantage that you can distinguish the Zammad tickets created by iLert.
+1. Optional: create a dedicated ilert user in Zammad. This has the advantage that you can distinguish the Zammad tickets created by ilert.
 2. Go to **Profile**, then to **Token Access** and click on **Create**
 
 ![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_32.png)
 
-1. In the **Name** section, enter a name eg. iLert
+1. In the **Name** section, enter a name eg. ilert
 
 ![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_33.png)
 
@@ -39,7 +39,7 @@ An agent token has a group scope so if you want to use a group that the current 
 
 ![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_36.png)
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Zammad Connector and Link to the alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
@@ -75,7 +75,7 @@ An agent token has a group scope so if you want to use a group that the current 
 
 **Are updates to an alert added to the Zammad Ticket?**
 
-Yes, the state of the iLert Alert is reflected in the brief description of the Zammad ticket eg. _\[RESOLVED] Host compute.infra is DOWN._
+Yes, the state of the ilert Alert is reflected in the brief description of the Zammad ticket eg. _\[RESOLVED] Host compute.infra is DOWN._
 
 **Can I choose which updates are to be published to a Zammad Ticket?**
 

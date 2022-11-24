@@ -2,7 +2,7 @@
 title: Dynatrace Integration
 seoTitle: 'iLert: Dynatrace Integration for Alerting | Incident Response | Uptime'
 description: >-
-  The iLert Dynatrace integration helps you to easily connect iLert with
+  The ilert Dynatrace integration helps you to easily connect ilert with
   Dynatrace.
 date: '2020-02-28T05:02:05.000Z'
 type: post
@@ -10,9 +10,9 @@ type: post
 
 # Dynatrace Integration
 
-With the iLert Dynatrace integration, you can add alerts in iLert based on problems from Dynatrace.
+With the ilert Dynatrace integration, you can add alerts in ilert based on problems from Dynatrace.
 
-## In iLert: Create a Dynatrace alert source <a id="create-alert-source"></a>
+## In ilert: Create a Dynatrace alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click "Create new alert source"
 2. Enter a name and select your desired escalation policy. Select "Dynatrace" as the **Integration Type** and click **Save**.
@@ -35,8 +35,8 @@ With the iLert Dynatrace integration, you can add alerts in iLert based on probl
 
 ![](../.gitbook/assets/dyn2.png)
 
-1. In the **Name** section, enter a name \(e.g. "iLert Notification"\)
-2. In the **Webhook URL** section, set the **Webhook URL** to the one generated in iLert
+1. In the **Name** section, enter a name \(e.g. "ilert Notification"\)
+2. In the **Webhook URL** section, set the **Webhook URL** to the one generated in ilert
 3. In the **Additional HTTP Headers** section, add the following headers `Accept`: `application/json` and `Content-Type`: `application/json`
 4. In the _Custom payload_ section, set the MIME type to `application/json` and copy and paste the following JSON payload:
 
@@ -60,15 +60,15 @@ With the iLert Dynatrace integration, you can add alerts in iLert based on probl
 
 ## FAQ <a id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as the recovery conditions of application, server or database are met, the alert in iLert will be resolved automatically.
+Yes, as soon as the recovery conditions of application, server or database are met, the alert in ilert will be resolved automatically.
 
-**Can I setup Dynatrace with multiple alert sources from iLert?**
+**Can I setup Dynatrace with multiple alert sources from ilert?**
 
-Yes, you can create arbitrary mappings between your applications in Dynatrace and alert sources in iLert. Simply create additional actions in Dynatrace using the same HTTP Request Template with a different `ilertApiKey`.
+Yes, you can create arbitrary mappings between your applications in Dynatrace and alert sources in ilert. Simply create additional actions in Dynatrace using the same HTTP Request Template with a different `ilertApiKey`.
 
 **Can I customize the alert messages?**
 
-Yes, you can customize the events sent to iLert by changing the JSON payload in the **Payload** section of the **HTTP Request Template**.
+Yes, you can customize the events sent to ilert by changing the JSON payload in the **Payload** section of the **HTTP Request Template**.
 

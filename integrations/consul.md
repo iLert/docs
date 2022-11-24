@@ -1,7 +1,7 @@
 ---
 description: >-
-  Create iLert alerts from HashiCorp Consul Health Check events and get alerted
-  through iLert for high priority issues.
+  Create ilert alerts from HashiCorp Consul Health Check events and get alerted
+  through ilert for high priority issues.
 ---
 
 # HashiCorp Consul
@@ -9,7 +9,7 @@ description: >-
 | ![](<../.gitbook/assets/Consul Cloud Verified Badge\_Small (1).png>) | [HashiCorp Consul](https://www.consul.io/) is a service mesh solution providing a full featured control plane with service discovery, configuration, and segmentation functionality. This integration creates based on Consul health checks. |
 | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create an alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -27,13 +27,13 @@ description: >-
 ### Configure Consul-Alerts
 
 1. Install Consul-Alerts as per the guide at [https://github.com/iLert/consul-alerts/blob/master/README.md](https://github.com/iLert/consul-alerts/blob/master/README.md)
-2. Once the Consul-Alerts are running, we can set the iLert integration key using curl.
+2. Once the Consul-Alerts are running, we can set the ilert integration key using curl.
 
 ```bash
 curl -X PUT -d 'YOUR_API_KEY' http://localhost:8500/v1/kv/consul-alerts/config/notifiers/ilert/api-key
 ```
 
-1. Enable iLert notifications in Consul-Alerts.
+1. Enable ilert notifications in Consul-Alerts.
 
 ```bash
 curl -X PUT -d 'true' http://localhost:8500/v1/kv/consul-alerts/config/notifiers/ilert/enabled
@@ -43,14 +43,14 @@ curl -X PUT -d 'true' http://localhost:8500/v1/kv/consul-alerts/config/notifiers
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, Consul-Alerts will resolve the iLert alert once health checks are passing.
+Yes, Consul-Alerts will resolve the ilert alert once health checks are passing.
 
-**Will alerts in iLert be accepted automatically?**
+**Will alerts in ilert be accepted automatically?**
 
-No, unfortunately Consul events are not compatible with iLert accept events.
+No, unfortunately Consul events are not compatible with ilert accept events.
 
-**Can I connect Consul Server with multiple alert sources from iLert?**
+**Can I connect Consul Server with multiple alert sources from ilert?**
 
 No, Consul-Alerts only supports sending alerts to a single alert source.

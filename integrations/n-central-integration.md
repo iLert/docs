@@ -1,14 +1,14 @@
 ---
 description: >-
   Use N-ABLE N-central notification channels and service groups to create alerts
-  in iLert.
+  in ilert.
 ---
 
 # N-central Integration
 
-## Setup in iLert
+## Setup in ilert
 
-Login to your iLert account and navigate to the alert sources list.\
+Login to your ilert account and navigate to the alert sources list.\
 Click on the **Create a new alert source** button
 
 ![](<../.gitbook/assets/image (40) (1).png>)
@@ -32,7 +32,7 @@ Login to N-ABLE N-central and navigate to the users menu.
 
 ![](<../.gitbook/assets/image (43).png>)
 
-Go ahead and click on the **email address** of the user for whose notifications you want to create alerts in iLert for. (We recommend creating a user just for this purpose, however that is not necessary).
+Go ahead and click on the **email address** of the user for whose notifications you want to create alerts in ilert for. (We recommend creating a user just for this purpose, however that is not necessary).
 
 In the user's edit view, click on the _**User Details**_ tab and then on the **Notification Method** sub-tab.
 
@@ -42,17 +42,17 @@ Choose **Add** and create a new Third Party I**ntegration - HTTP** notification 
 
 ![](<../.gitbook/assets/image (45).png>)
 
-Give it a proper name and paste the URL that you have copied _**from the new alert source**_ that you have created in iLert from the steps above as **Target URL**.
+Give it a proper name and paste the URL that you have copied _**from the new alert source**_ that you have created in ilert from the steps above as **Target URL**.
 
 ![](<../.gitbook/assets/image (46).png>)
 
 Click on **Save** to create the new notification method.
 
-Congratulations you have successfully connected N-central with iLert.
+Congratulations you have successfully connected N-central with ilert.
 
-## Ensuring that notifications from N-central reach iLert
+## Ensuring that notifications from N-central reach ilert
 
-To make sure that N-central events will reach your iLert alert sources it is important to verify all required assignments of users in N-central.
+To make sure that N-central events will reach your ilert alert sources it is important to verify all required assignments of users in N-central.
 
 * is your user part of an **Access Group** that is linked to the **Device**
 * is your user assigned as **Primary Notification** of the **Notification Profile** (_Configuration -> Monitoring -> Notifications -> Choose Notification Profile of your choice e.g. Connectivity Failed -> Primary Notification -> Selected Recipients_)

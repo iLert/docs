@@ -1,12 +1,12 @@
 ---
 description: >-
   Auvik is an easy-to-use cloud-based networking management and monitoring
-  software, the iLert integration offers two-way alert syncing.
+  software, the ilert integration offers two-way alert syncing.
 ---
 
 # Auvik Integration
 
-## In iLert: Create an Auvik alert source
+## In ilert: Create an Auvik alert source
 
 1. Navigate to **Services** -> **Alert sources** and click on _Create new alert source_
 2. Assign a name and select an escalation policy
@@ -14,7 +14,7 @@ description: >-
 
 ![](<../.gitbook/assets/image (54) (1).png>)
 
-4\. If you wish to setup a bidirectional (two-way-sync) alert flow where Auvik alerts are resolved as soon as incidents in iLert are resolved, please check the **bidirectional checkbox** and fill in your Auvik API user credentials
+4\. If you wish to setup a bidirectional (two-way-sync) alert flow where Auvik alerts are resolved as soon as incidents in ilert are resolved, please check the **bidirectional checkbox** and fill in your Auvik API user credentials
 
 ![](<../.gitbook/assets/image (53) (1) (1) (1) (1) (1).png>)
 
@@ -34,7 +34,7 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 &#x20;2\. From the dropdown choose **iLert**
 
-3\. A popup will appear; enter a name and paste your **Auvik URL** that you have copied from your alert source in iLert
+3\. A popup will appear; enter a name and paste your **Auvik URL** that you have copied from your alert source in ilert
 
 ![](<../.gitbook/assets/image (47) (1) (1).png>)
 
@@ -50,7 +50,7 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 3\. Choose a name and from the **Contact method** dropdown choose **iLert**
 
-4\. Then select your freshly created iLert Integration and click on **Save**
+4\. Then select your freshly created ilert Integration and click on **Save**
 
 ### Syncing alerts
 
@@ -60,27 +60,27 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 ![](<../.gitbook/assets/image (50) (1) (1) (1) (1).png>)
 
-2\. Pick a desired alert that you want to sync to iLert, mark it and click on **Edit**
+2\. Pick a desired alert that you want to sync to ilert, mark it and click on **Edit**
 
 3\. In the Edit popup enable the **Notification channels** and choose your freshly created notification channel in the drop down, click on **Save** to assign it with your alert
 
 ![](<../.gitbook/assets/image (47) (1) (1) (1).png>)
 
-4\. You are done, your alerts should sync from **Auvik** into iLert
+4\. You are done, your alerts should sync from **Auvik** into ilert
 
 ## FAQ
 
 
 
-### Will cleared Auvik alerts resolve iLert alerts?
+### Will cleared Auvik alerts resolve ilert alerts?
 
 Yes.
 
-### Will resolved iLert alerts clear Auvik alerts?
+### Will resolved ilert alerts clear Auvik alerts?
 
-Yes, if a bidirectional setup has been configured in iLert.
+Yes, if a bidirectional setup has been configured in ilert.
 
-### Can there be multiple iLert Auvik alert sources?
+### Can there be multiple ilert Auvik alert sources?
 
-Yes. You may create as many Auvik alert sources as you like and link them to different Auvik notification channels. This can be used to have different priorities as well as support hours and different escalation policies in iLert for specific alerts in Auvik.
+Yes. You may create as many Auvik alert sources as you like and link them to different Auvik notification channels. This can be used to have different priorities as well as support hours and different escalation policies in ilert for specific alerts in Auvik.
 

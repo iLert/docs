@@ -1,10 +1,10 @@
 ---
-description: Create alerts in iLert from tickets in Autotask PSA.
+description: Create alerts in ilert from tickets in Autotask PSA.
 ---
 
 # Autotask Inbound Integration
 
-With the iLert Autotask inbound integration, you can create alerts in iLert based on tickets from Autotask.
+With the ilert Autotask inbound integration, you can create alerts in ilert based on tickets from Autotask.
 
 ## In Autotask: Create an API user <a href="#create-api-user" id="create-api-user"></a>
 
@@ -16,21 +16,21 @@ With the iLert Autotask inbound integration, you can create alerts in iLert base
 
 ![](<../../.gitbook/assets/autotask2 (1).png>)
 
-1. In the **First Name** section, enter a first name eg. iLert
+1. In the **First Name** section, enter a first name eg. ilert
 2. In the **Last Name** section, enter a last name eg. API
 3. In the **Email** section, enter an email
 4. Click the **Generate key** button to generate a username and then the **Generate Secret** button to generate a password. You will need **Username** and **Secret** below when setting up the alert source.
-5. In the **Integration Vendor** section, choose iLert or your custom internal integration
+5. In the **Integration Vendor** section, choose ilert or your custom internal integration
 
 ![](<../../.gitbook/assets/autotask3 (3).png>)
 
-## In iLert: Create an Autotask alert source <a href="#create-alert-source" id="create-alert-source"></a>
+## In ilert: Create an Autotask alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click on "Create new alert source"
 
 ![](<../../.gitbook/assets/autotask4 (1).png>)
 
-1. In the **Name** section, enter a name eg. iLert
+1. In the **Name** section, enter a name eg. ilert
 2. In the **Integration Type** section, choose "Autotask"
 3. In the **Autotask Settings -> Username** section, paste the API user username generated above
 4. In the **Autotask Settings -> Secret** section, paste the API user secret generated above
@@ -56,8 +56,8 @@ With the iLert Autotask inbound integration, you can create alerts in iLert base
 
 ![](<../../.gitbook/assets/autotask9 (1).png>)
 
-1. In the **Name** section, enter a name eg. iLert
-2. In the **URL** section, paste the **Webhook URL** that you generated in iLert
+1. In the **Name** section, enter a name eg. ilert
+2. In the **URL** section, paste the **Webhook URL** that you generated in ilert
 3. Ensure that **Active** is selected and click the **Save & Close** button
 
 ![](<../../.gitbook/assets/autotask10 (2).png>)
@@ -72,7 +72,7 @@ With the iLert Autotask inbound integration, you can create alerts in iLert base
 
 ![](<../../.gitbook/assets/autotask12 (1).png>)
 
-1. In the **General -> Workflow Rule Name** section, enter a name eg. iLert
+1. In the **General -> Workflow Rule Name** section, enter a name eg. ilert
 2. Ensure that **Active** is selected
 3. In the **Events -> CREATED/EDITED** section, activate the **Created by** and the **Edited by** fields and choose **Anyone**
 
@@ -85,13 +85,13 @@ With the iLert Autotask inbound integration, you can create alerts in iLert base
 
 ## Autotask Alert Lifecycle
 
-| **When Autotask creates a ticket with status ...**                                                                                                                                                                                                                                                                                                             | **... then an iLert alert ...**                                       |
+| **When Autotask creates a ticket with status ...**                                                                                                                                                                                                                                                                                                             | **... then an ilert alert ...**                                       |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | <p><code>New</code> or<br><code>In Progress</code></p>                                                                                                                                                                                                                                                                                                         | is created                                                            |
 | <p><code>Complete</code> or </p><p><code>Denied</code> or</p><p><code>Waiting Customer</code> or </p><p><code>Waiting Materials</code> or</p><p><code>Scheduled</code> or </p><p><code>Escalate</code> or</p><p><code>Waiting Vendor</code> or </p><p><code>Waiting Approva</code>l or</p><p><code>Waiting Dispatch</code> or </p><p><code>Approved</code></p> | <p>will not be created and a</p><p>400 (bad request) error occurs</p> |
 | any other status                                                                                                                                                                                                                                                                                                                                               | is created                                                            |
 
-| **When Autotask updates a ticket with status ...**                                                                                                                                                                                                                                                                                                             | .**.. and the iLert alert ...** | **... then the/an iLert alert ...**                                   |
+| **When Autotask updates a ticket with status ...**                                                                                                                                                                                                                                                                                                             | .**.. and the ilert alert ...** | **... then the/an ilert alert ...**                                   |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------- | --------------------------------------------------------------------- |
 | <p><code>New</code> or<br><code>In Progress</code></p>                                                                                                                                                                                                                                                                                                         | does not exist                  | is created                                                            |
 | <p><code>Complete</code> or </p><p><code>Denied</code> or</p><p><code>Waiting Customer</code> or </p><p><code>Waiting Materials</code> or</p><p><code>Scheduled</code> or </p><p><code>Escalate</code> or</p><p><code>Waiting Vendor</code> or </p><p><code>Waiting Approva</code>l or</p><p><code>Waiting Dispatch</code> or </p><p><code>Approved</code></p> | does not exist                  | <p>will not be created and a</p><p>400 (bad request) error occurs</p> |
@@ -101,16 +101,16 @@ With the iLert Autotask inbound integration, you can create alerts in iLert base
 | <p><code>Waiting Customer</code> or </p><p><code>In Progress</code> or</p><p><code>Waiting Materials</code> or </p><p><code>Scheduled</code> or</p><p><code>Escalate</code> or </p><p><code>Waiting Vendor</code> or</p><p><code>Waiting Approval</code> or</p><p><code>Waiting Dispatch</code> or </p><p><code>Approved</code></p>                            | exists                          | change status to **Accepted** if not already accepted                 |
 | any other status                                                                                                                                                                                                                                                                                                                                               | exists                          | doesn't change                                                        |
 
-## Mapping Autotask ticket priority to iLert alert priority
+## Mapping Autotask ticket priority to ilert alert priority
 
-| Autotask ticket priority                      | iLert alert priority  |
+| Autotask ticket priority                      | ilert alert priority  |
 | --------------------------------------------- | --------------------- |
 | 1 - Low                                       | Low                   |
 | <p>2 - High<br>3 - Medium<br>4 - Critical</p> | High                  |
 
 ## Bidirectional alert synchronisation
 
-When providing credentials you may choose to activate bidirectional mode on the Autotask ticket source. This will cause your alert source to be automatically linked with an outbound connector and alert action. This way status changes to iLert alerts will synchronize to Autotask ticket.
+When providing credentials you may choose to activate bidirectional mode on the Autotask ticket source. This will cause your alert source to be automatically linked with an outbound connector and alert action. This way status changes to ilert alerts will synchronize to Autotask ticket.
 
 <figure><img src="../../.gitbook/assets/ExampleAutotask.png" alt=""><figcaption></figcaption></figure>
 
@@ -118,11 +118,11 @@ When saving the Autotask alert source with bidirectional setting enabled, it wil
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as an Autotask Ticket is completed, the alert in iLert will be resolved automatically.
+Yes, as soon as an Autotask Ticket is completed, the alert in ilert will be resolved automatically.
 
-**Can I connect Autotask with multiple alert sources from iLert?**
+**Can I connect Autotask with multiple alert sources from ilert?**
 
 Yes, simply create more Extension Callouts in Autotask.
 

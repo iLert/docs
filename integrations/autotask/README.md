@@ -1,6 +1,6 @@
 ---
 description: >-
-  The iLert Autotask integration helps you to easily connect iLert with
+  The ilert Autotask integration helps you to easily connect ilert with
   Autotask.
 ---
 

@@ -7,7 +7,7 @@ description: >-
 
 # JumpCloud Integration
 
-## In iLert
+## In ilert
 
 1. Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
@@ -35,7 +35,7 @@ description: >-
 
 ![](<../.gitbook/assets/Jumpcloud 2 - Add Command.png>)
 
-1. After that you need to enter the command manually, put the following in the **Command** field, make sure that you replace `API_KEY` and the URL that are received from iLert, and replace the Test Incident with the proper summary, you can also add more information to the incident based on the [Event creation API](https://api.ilert.com/api-docs/#tag/Events/paths/\~1events/post)&#x20;
+1. After that you need to enter the command manually, put the following in the **Command** field, make sure that you replace `API_KEY` and the URL that are received from ilert, and replace the Test Incident with the proper summary, you can also add more information to the incident based on the [Event creation API](https://api.ilert.com/api-docs/#tag/Events/paths/\~1events/post)&#x20;
 
 ```
 curl -X POST \

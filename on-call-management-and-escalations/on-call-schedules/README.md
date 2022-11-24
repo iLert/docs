@@ -20,7 +20,7 @@ Use schedules to dynamically determine to whom an alert will be assigned to base
 * Stakeholder users cannot be added to a schedule.
 {% endhint %}
 
-iLert offers two types of schedules - **recurring and static schedules**, which differ in the way a schedule is created and maintained. The schedule type cannot be changed after its creation.
+ilert offers two types of schedules - **recurring and static schedules**, which differ in the way a schedule is created and maintained. The schedule type cannot be changed after its creation.
 
 | [Recurring schedule](recurring-schedules.md)                                                                                                       | [Static schedule](static-schedules.md)                                                                                                                                                                                          |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

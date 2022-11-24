@@ -7,7 +7,7 @@ description: >-
 
 # IBM Cloud Functions Integration
 
-## In iLert
+## In ilert
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
@@ -32,7 +32,7 @@ description: >-
 
 ![](../.gitbook/assets/ibmcloud-functionaction.png)
 
-* Paste the following on the code, and please replace the "**ILERT\_URL**" with the **IBM Cloud Functions URL** that we got earlier on iLert's dashboard
+* Paste the following on the code, and please replace the "**ILERT\_URL**" with the **IBM Cloud Functions URL** that we got earlier on ilert's dashboard
 
 ```javascript
 /**
@@ -79,7 +79,7 @@ function main(params) {
 
 ![](../.gitbook/assets/ibmcloud-invokewithparams.png)
 
-* Put the following as a parameter, you can adjust the summary and details, however please replace the "**API\_KEY**" **** with the IBM Cloud Functions **API Key** that we go on iLert's dashboard earlier and **Apply** the parameters
+* Put the following as a parameter, you can adjust the summary and details, however please replace the "**API\_KEY**" **** with the IBM Cloud Functions **API Key** that we go on ilert's dashboard earlier and **Apply** the parameters
 
 ```
 {
@@ -90,7 +90,7 @@ function main(params) {
 }
 ```
 
-* To trigger the creation of incidents on iLert simple click "**Invoke**" on the top right, and it should create the incident on iLert
+* To trigger the creation of incidents on ilert simple click "**Invoke**" on the top right, and it should create the incident on ilert
 
 ![](../.gitbook/assets/ibmcloud-invokesuccess.png)
 

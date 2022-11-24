@@ -1,5 +1,5 @@
 ---
-description: API Samples that help you to get started faster with iLert REST API.
+description: API Samples that help you to get started faster with ilert REST API.
 ---
 
 # API Samples

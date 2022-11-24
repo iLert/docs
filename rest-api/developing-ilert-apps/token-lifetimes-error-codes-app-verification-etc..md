@@ -1,6 +1,6 @@
 # Token lifetimes, error codes, app verification, etc.
 
-## iLert OAuth2 scopes
+## ilert OAuth2 scopes
 
 
 

@@ -3,7 +3,7 @@
 ## Getting Started
 
 * [Core concepts](README.md)
-* [iLert domains, ips, emails & phone numbers](getting-started/phone-numbers/README.md)
+* [ilert domains, ips, emails & phone numbers](getting-started/phone-numbers/README.md)
   * [SMS and voice alerts in China](getting-started/phone-numbers/sms-and-voice-alerts-in-china.md)
 * [Heartbeat Monitoring](getting-started/heartbeat-monitoring/README.md)
   * [Prometheus Heartbeat Example](getting-started/heartbeat-monitoring/prometheus-heartbeat-example.md)
@@ -50,19 +50,19 @@
 
 ## REST API
 
-* [iLert REST API](rest-api/ilert-rest-api.md)
+* [ilert REST API](rest-api/ilert-rest-api.md)
 * [API Version History](rest-api/api-version-history.md)
 * [Rate Limiting](rest-api/alertsource-throttle.md)
 * [Client Libraries](rest-api/client-libraries/README.md)
-  * [iLert Agent - ilagent](rest-api/client-libraries/ilagent.md)
+  * [ilert Agent - ilagent](rest-api/client-libraries/ilagent.md)
   * [Go Client](rest-api/client-libraries/go-client.md)
   * [Rust Client](rest-api/client-libraries/rust-client.md)
   * [Javascript / Node.js Client](rest-api/client-libraries/javascript-node.js-client.md)
 * [Terraform](rest-api/terraform.md)
 * [API Samples](rest-api/api-samples/README.md)
   * [Sending events from PowerShell](rest-api/api-samples/sending-events-from-powershell.md)
-* [🔥 Developing iLert Apps](rest-api/developing-ilert-apps/README.md)
-  * [Get started with iLert Apps](rest-api/developing-ilert-apps/get-started-with-ilert-apps.md)
+* [🔥 Developing ilert Apps](rest-api/developing-ilert-apps/README.md)
+  * [Get started with ilert Apps](rest-api/developing-ilert-apps/get-started-with-ilert-apps.md)
   * [Understanding OAuth2](rest-api/developing-ilert-apps/understanding-oauth2.md)
   * [Developing a Backend App with OAuth2](rest-api/developing-ilert-apps/developing-a-backend-app-with-oauth2.md)
   * [Developing a web or native App with OAuth2 and PKCE](rest-api/developing-ilert-apps/developing-a-web-or-native-app-with-oauth2-and-pkce.md)
@@ -211,7 +211,7 @@
 ***
 
 * [Contact us](contact.md)
-* [iLert Release Notes](ilert-release-notes.md)
+* [ilert Release Notes](ilert-release-notes.md)
 * [Critical Push Notifications and DND overrides](critical-push-notifications-and-dnd-overrides/README.md)
   * [iOS Critical Alerts Configuration](critical-push-notifications-and-dnd-overrides/ios-critical-alerts-configuration.md)
   * [Android Push Notification DND Configuration](critical-push-notifications-and-dnd-overrides/android-push-notification-dnd-configuration.md)

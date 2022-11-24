@@ -7,7 +7,7 @@ description: >-
 
 # GitLab Integration
 
-## In iLert
+## In ilert
 
 * Go to the "**Alert sources**" tab and click on "**Create new alert source**"
 * Enter a name and select your desired escalation policy.  &#x20;
@@ -20,7 +20,7 @@ description: >-
 
 ![](../.gitbook/assets/gitlab\_settingswebhook.png)
 
-* Select the events that should be send to iLert, in this case any **Issues events** or **Confidential issues events** activity will be send to iLert.
+* Select the events that should be send to ilert, in this case any **Issues events** or **Confidential issues events** activity will be send to ilert.
 
 ![](../.gitbook/assets/gitlab\_webhookselections.png)
 

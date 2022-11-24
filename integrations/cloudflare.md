@@ -1,6 +1,6 @@
 ---
 description: >-
-  The iLert Cloudflare Integration helps you to easily connect iLert with
+  The ilert Cloudflare Integration helps you to easily connect ilert with
   Cloudflare.
 ---
 
@@ -8,9 +8,9 @@ description: >-
 
 Cloudflare allows you to set alert notifications to track DDoS attacks, billing usage and many more.
 
-With iLert Cloudflare Integration, you can receive Cloudflare alert through iLert and easily extend Cloudflare functionality with SMS, push, voice, and iLert on-call schedules.
+With ilert Cloudflare Integration, you can receive Cloudflare alert through ilert and easily extend Cloudflare functionality with SMS, push, voice, and ilert on-call schedules.
 
-## In iLert <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 ### Create an email alert source
 
@@ -38,18 +38,18 @@ With iLert Cloudflare Integration, you can receive Cloudflare alert through iLer
 
 ![](<../.gitbook/assets/Account\_\_\_Cloudflare\_-\_Web\_Performance\_\_\_Security (1).png>)
 
-1. On the next page,  name the notification e.g. iLert, paste the **email** paste that you created in iLert and click on the **Create** button
+1. On the next page,  name the notification e.g. ilert, paste the **email** paste that you created in ilert and click on the **Create** button
 
 ![](<../.gitbook/assets/Account\_\_\_Cloudflare\_-\_Web\_Performance\_\_\_Security (2).png>)
 
-Finished! Your Cloudflare notifications will now create alerts in iLert.
+Finished! Your Cloudflare notifications will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
 No, unfortunately Cloudflare is not sent resolution notifications.
 
-**Can I connect Cloudflare with multiple alert sources from iLert?**
+**Can I connect Cloudflare with multiple alert sources from ilert?**
 
 Yes, simply add more notification settings in Cloudflare.

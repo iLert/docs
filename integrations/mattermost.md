@@ -1,13 +1,13 @@
 ---
 description: >-
-  The iLert Mattermost Integration helps you to bring iLert alerts into your
+  The ilert Mattermost Integration helps you to bring ilert alerts into your
   Mattermost channels.
 ---
 
 # Mattermost Integration
 
 {% hint style="warning" %}
-To set up this integration, you must have admin rights in iLert.
+To set up this integration, you must have admin rights in ilert.
 {% endhint %}
 
 ## In Mattermost <a href="#add-to-channel" id="add-to-channel"></a>
@@ -32,7 +32,7 @@ To set up this integration, you must have admin rights in iLert.
 
 1. Your webhook has now been set up. You will need the URL in the next step.
 
-## In iLert <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 ### Create the Mattermost Connector and link it to your alert source
 
@@ -64,7 +64,7 @@ To set up this integration, you must have admin rights in iLert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Can I link multiple Mattermost Spaces to an iLert account?**
+**Can I link multiple Mattermost Spaces to an ilert account?**
 
 Yes.
 

@@ -6,7 +6,7 @@ iLert's incident comms product is a suite of capabilities to effectively communi
 
 Incident communication is the process of informing users that a service is experiencing issues in a way that will likely impact the user experience.&#x20;
 
-## Why use iLert's incident comms features?
+## Why use ilert's incident comms features?
 
 * Spend less time on manual incident communication and focus on resolving incidents.
 * Build trust with your customers by keeping your users in the loop during an incident
@@ -15,7 +15,7 @@ Incident communication is the process of informing users that a service is exper
 ## The basics
 
 * ****[**Incidents**](incidents.md) are the main way to communicate with your users when you are experiencing user impacting issues with the services you provide to them.
-* ****[**Services**](services.md) model business capabilities to which subscribers can subscribe to receive updates about incidents. Any user in iLert can subscribe to incidents, services and status pages. &#x20;
+* ****[**Services**](services.md) model business capabilities to which subscribers can subscribe to receive updates about incidents. Any user in ilert can subscribe to incidents, services and status pages. &#x20;
 * ****[**Status pages**](status-pages.md) are one way to help you inform users about outages and maintenances of one or more service.&#x20;
 * ****[**Metrics**](metrics.md): Use metrics in status pages to showcase how well your services are performing. You can submit your own metrics data or import metrics from your existing tools (e.g. Datadog).
 

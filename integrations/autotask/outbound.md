@@ -1,5 +1,5 @@
 ---
-description: Create tickets in Autotask PSA based on alerts from iLert.
+description: Create tickets in Autotask PSA based on alerts from ilert.
 ---
 
 # Autotask Outbound Integration
@@ -18,7 +18,7 @@ description: Create tickets in Autotask PSA based on alerts from iLert.
 
 ![](<../../.gitbook/assets/autotask2 (1).png>)
 
-3\. In the **First Name** section, enter a first name eg. iLert
+3\. In the **First Name** section, enter a first name eg. ilert
 
 4\. In the **Last Name** section, enter a last name eg. API
 
@@ -26,11 +26,11 @@ description: Create tickets in Autotask PSA based on alerts from iLert.
 
 6\. Click the **Generate key** button to generate a username and then the **Generate Secret** button to generate a password. You will need **Username** and **Secret** below when setting up the connector.
 
-7\. In the **Integration Vendor** section, choose iLert or your custom internal integration
+7\. In the **Integration Vendor** section, choose ilert or your custom internal integration
 
 ![](<../../.gitbook/assets/autotask3 (2).png>)
 
-## In iLert
+## In ilert
 
 ### Create a Autotask Connector and Link to alert source
 

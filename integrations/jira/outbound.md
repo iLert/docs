@@ -1,12 +1,12 @@
 ---
-description: Create JIRA issues from iLert alerts.
+description: Create JIRA issues from ilert alerts.
 ---
 
 # Jira Outbound Integration
 
-## In JIRA: Create iLert user and create API token <a href="#jira-preparation" id="jira-preparation"></a>
+## In JIRA: Create ilert user and create API token <a href="#jira-preparation" id="jira-preparation"></a>
 
-1. Optional: create a dedicated iLert user in JIRA. This has the advantage that you can distinguish the JIRA tickets created by iLert.
+1. Optional: create a dedicated ilert user in JIRA. This has the advantage that you can distinguish the JIRA tickets created by ilert.
 2. Go to **Atlassian account settings** **→** **Security** and click on **Create and Manage API Tokens**.
 
 ![](<../../.gitbook/assets/Screenshot 2020-08-05 at 13.15.25.png>)
@@ -15,13 +15,13 @@ description: Create JIRA issues from iLert alerts.
 
 ![](../../.gitbook/assets/ji2.png)
 
-1. Give a name and click **Create**. Write down your API key. You will need it later in iLert. &#x20;
+1. Give a name and click **Create**. Write down your API key. You will need it later in ilert. &#x20;
 
 ![](../../.gitbook/assets/ji3.png)
 
 ![](../../.gitbook/assets/ji4.png)
 
-## In iLert: Create JIRA Connector and link to alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create JIRA Connector and link to alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Click the gear icon → **Connectors**
 
@@ -39,7 +39,7 @@ description: Create JIRA issues from iLert alerts.
 
 ![](<../../.gitbook/assets/new\_incident\_action (2).png>)
 
-1. Select **JIRA** as the **type** and in the secondary dropdown select the connector created in step 3. iLert will now try to fetch the available Projects and Issue Types from your provided Jira instance.
+1. Select **JIRA** as the **type** and in the secondary dropdown select the connector created in step 3. ilert will now try to fetch the available Projects and Issue Types from your provided Jira instance.
 
 ![](<../../.gitbook/assets/iLert (60).png>)
 
@@ -55,7 +55,7 @@ In case of an invalid template the border will become red.
 
 ![](../../.gitbook/assets/ji11.png)
 
-In case of a valid template the border will turn green. As you may have noticed we also offer to use iLert related variables that will be swapped with the corresponding event related data when the request is made. These work, as described under the template field in simple mustache sytnax `{{ VARNAME }}`. Again our editor will tell you if you are using the variables incorrectly.
+In case of a valid template the border will turn green. As you may have noticed we also offer to use ilert related variables that will be swapped with the corresponding event related data when the request is made. These work, as described under the template field in simple mustache sytnax `{{ VARNAME }}`. Again our editor will tell you if you are using the variables incorrectly.
 
 ![](../../.gitbook/assets/ji12.png)
 
@@ -71,7 +71,7 @@ In case your connection has been setup correctly you will see a successful messa
 
 **Are updates to an alert published in the JIRA Ticket?**
 
-Yes, the state of the iLert Alert is reflected in the title of the JIRA ticket, eg \[RESOLVED] Host compute.infra is DOWN.
+Yes, the state of the ilert Alert is reflected in the title of the JIRA ticket, eg \[RESOLVED] Host compute.infra is DOWN.
 
 **Can I choose which updates to publish to an alert in JIRA?**
 
