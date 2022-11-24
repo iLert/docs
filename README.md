@@ -6,9 +6,7 @@ description: >-
 
 # Core concepts
 
-
-
-ilert is a platform for alerting, on-call management and uptime monitoring. It helps teams to reduce response times to critical alerts by extending monitoring tools with reliable alerting, automatic escalations, on-call schedules and other features to support the incident response process, such as [informing stakeholders](broken-reference) or creating tickets in external incident management tools. The most important concepts are explained in the following sections.
+ilert is a platform for alerting, on-call management and status pages. It helps teams to reduce response times to critical alerts by extending monitoring and ticketing tools with reliable alerting, automatic escalations, on-call schedules and other features to support the incident response process, such as [communicating with stakeholders](broken-reference) or creating tickets in external incident management tools. The most important concepts are explained in the following sections.
 
 ## Alert
 
@@ -68,8 +66,8 @@ On-call schedules determine who will be notified when an alert is created based 
 
 See our incident comms documentation.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="broken-reference/" %}
+[broken-reference](broken-reference/)
 {% endcontent-ref %}
 
 ## Notifications
