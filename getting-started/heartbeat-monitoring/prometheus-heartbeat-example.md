@@ -16,7 +16,7 @@ route:
   routes:
   - receiver: ilert
     match:
-      alertname: ilert
+      alertname: iLert
     repeat_interval: 1m 
 
 receivers:
