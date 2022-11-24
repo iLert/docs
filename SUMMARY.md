@@ -3,6 +3,9 @@
 ## Getting Started
 
 * [Core concepts](README.md)
+* [Critical Push Notifications and DND overrides](getting-started/critical-push-notifications-and-dnd-overrides/README.md)
+  * [iOS Critical Alerts Configuration](getting-started/critical-push-notifications-and-dnd-overrides/ios-critical-alerts-configuration.md)
+  * [Android Push Notification DND Configuration](getting-started/critical-push-notifications-and-dnd-overrides/android-push-notification-dnd-configuration.md)
 * [ilert domains, ips, emails & phone numbers](getting-started/phone-numbers/README.md)
   * [SMS and voice alerts in China](getting-started/phone-numbers/sms-and-voice-alerts-in-china.md)
 * [Heartbeat Monitoring](getting-started/heartbeat-monitoring/README.md)
@@ -212,6 +215,3 @@
 
 * [Contact us](contact.md)
 * [ilert Release Notes](ilert-release-notes.md)
-* [Critical Push Notifications and DND overrides](critical-push-notifications-and-dnd-overrides/README.md)
-  * [iOS Critical Alerts Configuration](critical-push-notifications-and-dnd-overrides/ios-critical-alerts-configuration.md)
-  * [Android Push Notification DND Configuration](critical-push-notifications-and-dnd-overrides/android-push-notification-dnd-configuration.md)
