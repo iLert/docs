@@ -28,7 +28,8 @@
 * [Services](incident-comms-and-status-pages/services.md)
 * [Incidents](incident-comms-and-status-pages/incidents.md)
 * [Status pages](incident-comms-and-status-pages/status-pages.md)
-* [Metrics](incident-comms-and-status-pages/metrics.md)
+* [Metrics](incident-comms-and-status-pages/metrics/README.md)
+  * [Import metrics from Datadog](incident-comms-and-status-pages/metrics/import-metrics-from-datadog.md)
 
 ## User Administration
 
