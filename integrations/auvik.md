@@ -30,9 +30,9 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 1. Navigate to **Integrations** and click on **Add integration**
 
-![](<../.gitbook/assets/image (49) (1) (1).png>)
+![](<../.gitbook/assets/image (49) (1) (1) (1).png>)
 
-&#x20;2\. From the dropdown choose **iLert**
+2\. From the dropdown choose **iLert**
 
 3\. A popup will appear; enter a name and paste your **Auvik URL** that you have copied from your alert source in ilert
 
@@ -56,8 +56,6 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 1. Navigate to **Manage Alert** -> **Alerts**
 
-&#x20;
-
 ![](<../.gitbook/assets/image (50) (1) (1) (1) (1).png>)
 
 2\. Pick a desired alert that you want to sync to ilert, mark it and click on **Edit**
@@ -70,8 +68,6 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 ## FAQ
 
-
-
 ### Will cleared Auvik alerts resolve ilert alerts?
 
 Yes.
@@ -83,4 +79,3 @@ Yes, if a bidirectional setup has been configured in ilert.
 ### Can there be multiple ilert Auvik alert sources?
 
 Yes. You may create as many Auvik alert sources as you like and link them to different Auvik notification channels. This can be used to have different priorities as well as support hours and different escalation policies in ilert for specific alerts in Auvik.
-

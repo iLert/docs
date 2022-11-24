@@ -55,7 +55,7 @@ description: Create alerts in ilert from tickets in Zendesk.
 ![](<../../.gitbook/assets/a\_-\_Agent (4).png>)
 
 * Scroll down to the **Actions** panel and choose the **ilert Notify target** that you created above
-* In the **JSON body** sections, paste the following  object:
+* In the **JSON body** sections, paste the following object:
 
 ```javascript
 {
@@ -71,7 +71,8 @@ description: Create alerts in ilert from tickets in Zendesk.
   "account": "{{ticket.account}}",
   "link": "{{ticket.link}}",
   "latest_comment": "{{ticket.latest_comment}}",
-  "latest_comment_author_name": "{% raw %}
+  "latest_comment_author_name": "
+{% raw %}
 {% for comment in ticket.comments limit:1 offset:0 %}{{comment.author.name}}{% endfor %}
 {% endraw %}"
 }

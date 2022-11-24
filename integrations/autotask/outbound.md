@@ -12,7 +12,7 @@ description: Create tickets in Autotask PSA based on alerts from ilert.
 
 1\. Sign in to Autotask and then go to **Admin -> Resources (Users)**
 
-![](<../../.gitbook/assets/autotask1 (1).png>)
+![](<../../.gitbook/assets/autotask1 (1) (2).png>)
 
 2\. Click the **New** button and then navigate to **New API User**
 

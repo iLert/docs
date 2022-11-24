@@ -12,7 +12,7 @@ description: >-
 
 1. Click the gear icon → **Connectors**
 
-![](<../../.gitbook/assets/go\_to\_connectors (1) (1).png>)
+![](<../../.gitbook/assets/go\_to\_connectors (1) (1) (4).png>)
 
 1. Click **Create Connector**
 

@@ -14,9 +14,9 @@ With ilert's CloudWatch integration, you can automatically create alerts in iler
 2. Assign name and select escalation chain
 3. Select and save "Amazon CloudWatch" in the Integration Type field.
 
-![](<../.gitbook/assets/cw1 (1) (1).png>)
+![](<../.gitbook/assets/cw1 (1) (1) (1).png>)
 
-1. The URL shown on the next page is the HTTP endpoint for the SNS topic in Amazon and will be needed in later steps. &#x20;
+1. The URL shown on the next page is the HTTP endpoint for the SNS topic in Amazon and will be needed in later steps.
 
 ![](../.gitbook/assets/cw2.png)
 
@@ -24,23 +24,23 @@ With ilert's CloudWatch integration, you can automatically create alerts in iler
 
 > If you have already created an SNS topic for your CloudWatch alarms that you want to reuse, you can proceed to step 3.
 
-1. In the SNS Dashboard click on "Create topic" &#x20;
+1. In the SNS Dashboard click on "Create topic"
 
 ![](../.gitbook/assets/cw3.png)
 
-1. Name the topic and click on "Create topic". &#x20;
+1. Name the topic and click on "Create topic".
 
 ![](../.gitbook/assets/cw4.png)
 
-1. Click on "Create subscription" on the Topic Detail page &#x20;
+1. Click on "Create subscription" on the Topic Detail page
 
 ![](../.gitbook/assets/cw5.png)
 
-1. Select "HTTPS" as the protocol and transfer the URL from the above-created alert source to ilert at Endpoint and click on "Create subscription". &#x20;
+1. Select "HTTPS" as the protocol and transfer the URL from the above-created alert source to ilert at Endpoint and click on "Create subscription".
 
 ![](../.gitbook/assets/cw6.png)
 
-1. The subscription is automatically confirmed by ilert when it is created. After updating the overview, the status "PendingConfirmation" should disappear and the ID should be displayed. &#x20;
+1. The subscription is automatically confirmed by ilert when it is created. After updating the overview, the status "PendingConfirmation" should disappear and the ID should be displayed.
 
 ![](../.gitbook/assets/cw7.png)
 
@@ -48,11 +48,11 @@ With ilert's CloudWatch integration, you can automatically create alerts in iler
 
 You can now link any CloudWatch alarm to the topic you have created. The following section describes how to create an alarm and make the link.
 
-1. In CloudWatch, on the Alarms tab, click Create Alarm and select a metric &#x20;
+1. In CloudWatch, on the Alarms tab, click Create Alarm and select a metric
 
 ![](../.gitbook/assets/cw8.png)
 
-1. Click on "+ Notification" to add two "Notification Actions": one for the states ALARM and OK. In the "Send notification to:" box, select the topic created above.   &#x20;
+1. Click on "+ Notification" to add two "Notification Actions": one for the states ALARM and OK. In the "Send notification to:" box, select the topic created above.
 
 ![](../.gitbook/assets/cw9.png)
 

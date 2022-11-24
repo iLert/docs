@@ -26,7 +26,7 @@ Click on save to save the connector.
 
 Visit the alert source (view) whose alerts should trigger your serverless function. Navigate to the **Alert actions** tab and click on the **Create new alert action** button.
 
-![](<../.gitbook/assets/new\_incident\_action (1).png>)
+![](<../.gitbook/assets/new\_incident\_action (1) (11).png>)
 
 Choose AWS lambda as type and select your previously created connector. Enter a name and the url targeting your public function. You may also customize the HTTP request body that is used to invoke your function.
 

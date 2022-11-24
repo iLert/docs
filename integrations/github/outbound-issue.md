@@ -29,7 +29,7 @@ description: Create issues in GitHub based on alerts from ilert.
 
 1. Click on **Add Connector**
 
-![](<../../.gitbook/assets/create\_connector\_button (1).png>)
+![](<../../.gitbook/assets/create\_connector\_button (1) (13).png>)
 
 1. Select **Github** as **type** and fill in all fields. Enter a name and the API key from above.
 

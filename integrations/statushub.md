@@ -11,9 +11,9 @@ description: >-
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
-![](<../.gitbook/assets/ilert-create-alert (1).png>)
+![](<../.gitbook/assets/ilert-create-alert (1) (3).png>)
 
-* Enter a name and select your desired escalation policy.  &#x20;
+* Enter a name and select your desired escalation policy.
 * Select "StatusHub" as the **Integration Type** and click **Save**.
 
 ![](../.gitbook/assets/ilert-statushub.png)
@@ -21,8 +21,6 @@ description: >-
 * On the next page, an **StatusHub URL** is generated. You will need the URL for the webhook configuration
 
 ![](<../.gitbook/assets/ilert-url (1).png>)
-
-
 
 ## In Statushub
 

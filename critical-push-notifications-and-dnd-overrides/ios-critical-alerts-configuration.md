@@ -33,7 +33,7 @@ When wearing your apple watch, critical notifications will not appear on your ph
 
 * Open your **Watch** app on your iPhone
 
-![](../.gitbook/assets/IMG\_1402.jpg)
+![](<../.gitbook/assets/IMG\_1402 (1).jpg>)
 
 * Navigate to **Notifications**
 

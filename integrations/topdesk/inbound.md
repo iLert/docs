@@ -74,7 +74,7 @@ With the ilert TOPdesk integration, you can create alerts in ilert based on TOPd
 2. Go to **Modules** again
 3. Click on **Action Management** and then on **Action sequence** to add an action sequence
 
-![](<../../.gitbook/assets/tpdki4 (1) (1).png>)
+![](<../../.gitbook/assets/tpdki4 (1) (1) (1).png>)
 
 1. On the modal window, choose a service you are interested in e.g. **Ticket Management - First Line Ticket** and click on **Create new action sequence**
 
@@ -123,7 +123,7 @@ With the ilert TOPdesk integration, you can create alerts in ilert based on TOPd
 2. Go to **Modules** again
 3. Click on **Action Management** and then on **Event** to add a new event
 
-![](<../../.gitbook/assets/tpdki8 (1) (1).png>)
+![](<../../.gitbook/assets/tpdki8 (1) (1) (1).png>)
 
 1. On the modal window, choose a service you are interested in e.g. **Ticket Management - First Line Ticket** and click on **Create new event**
 
