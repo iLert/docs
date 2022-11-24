@@ -1,6 +1,6 @@
 ---
 description: >-
-  Configuring iLert SSO to automatically setup users and teams on their first
+  Configuring ilert SSO to automatically setup users and teams on their first
   login.
 ---
 

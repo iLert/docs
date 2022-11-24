@@ -2,7 +2,7 @@
 
 ## What is an incident?
 
-Incidents are the main way to communicate with your users when you are experiencing user impacting issues with the services you provide to them. Incidents in iLert are specifically designed for the purpose of communicating with your users, as opposed to e.g. alerting on-call teams.
+Incidents are the main way to communicate with your users when you are experiencing user impacting issues with the services you provide to them. Incidents in ilert are specifically designed for the purpose of communicating with your users, as opposed to e.g. alerting on-call teams.
 
 An incident has one or more affected services and will be
 
@@ -12,9 +12,9 @@ An incident has one or more affected services and will be
 
 ### Incidents vs alerts
 
-* An alert in iLert is primarily targeted towards on-call responders and notifies them about potential incidents reported by monitoring, ticketing tools, or any other observability tool.&#x20;
+* An alert in ilert is primarily targeted towards on-call responders and notifies them about potential incidents reported by monitoring, ticketing tools, or any other observability tool.&#x20;
 * Alerts are technical in nature and often contain technical details that are not relevant to non-technical users
-* An incident in iLert is the primary way to communicate with non-technical users and they are designed exactly for that purpose.
+* An incident in ilert is the primary way to communicate with non-technical users and they are designed exactly for that purpose.
 
 ## Create and communicate incidents
 

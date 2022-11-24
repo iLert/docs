@@ -1,6 +1,6 @@
 # Sending events from PowerShell
 
-The code below creates a new alert event in iLert, which might \(depending on your alert sources configuration\) create an alert.
+The code below creates a new alert event in ilert, which might \(depending on your alert sources configuration\) create an alert.
 
 ```text
 $headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"

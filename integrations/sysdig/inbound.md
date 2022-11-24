@@ -1,14 +1,14 @@
 ---
 description: >-
-  The iLert Sysdig Inbound Integration helps you to easily connect iLert with
+  The ilert Sysdig Inbound Integration helps you to easily connect ilert with
   Sysdig.
 ---
 
 # Sysdig Inbound Integration
 
-With the iLert Sysdig integration you can create alerts in iLert based on Sysdig event.
+With the ilert Sysdig integration you can create alerts in ilert based on Sysdig event.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Sysdig alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -25,7 +25,7 @@ With the iLert Sysdig integration you can create alerts in iLert based on Sysdig
 
 ### Create notification channel <a href="#create-action-sequences" id="create-action-sequences"></a>
 
-1. Go to Sysdig and then to **Settings.** Click on **Notification Channels** and then on **Add Notification Channel** to add a new notification channel for iLert
+1. Go to Sysdig and then to **Settings.** Click on **Notification Channels** and then on **Add Notification Channel** to add a new notification channel for ilert
 
 ![](../../.gitbook/assets/Notifications\_-\_Settings\_-\_Sysdig.png)
 
@@ -33,7 +33,7 @@ With the iLert Sysdig integration you can create alerts in iLert based on Sysdig
 
 ![](../../.gitbook/assets/Banners\_and\_Alerts\_and\_Notifications\_-\_Settings\_-\_Sysdig.png)
 
-1. On the next page, in the section **URL** field, paste the **Webhook URL** that you generated in iLert
+1. On the next page, in the section **URL** field, paste the **Webhook URL** that you generated in ilert
 
 ![](../../.gitbook/assets/New\_Channel\_-\_Notifications\_-\_Settings\_-\_Sysdig.png)
 
@@ -43,14 +43,14 @@ With the iLert Sysdig integration you can create alerts in iLert based on Sysdig
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
 Yes
 
-**Will alerts in iLert be accepted automatically?**
+**Will alerts in ilert be accepted automatically?**
 
-No, unfortunately Sysdig accepted event is not compatible with iLert accepted event.
+No, unfortunately Sysdig accepted event is not compatible with ilert accepted event.
 
-**Can I connect Sysdig with multiple alert sources from iLert?**
+**Can I connect Sysdig with multiple alert sources from ilert?**
 
 Yes, simply create more notification channels in Sysdig.

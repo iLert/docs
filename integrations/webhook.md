@@ -1,10 +1,10 @@
 ---
-description: The iLert Webhook Integration helps you to easily connect iLert with Webhooks.
+description: The ilert Webhook Integration helps you to easily connect ilert with Webhooks.
 ---
 
 # Webhook Integration
 
-## In iLert: Create webhook alert action <a href="#create-webhook" id="create-webhook"></a>
+## In ilert: Create webhook alert action <a href="#create-webhook" id="create-webhook"></a>
 
 1. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish via a webhook. Click on **Alert actions → Create new alert action**
 
@@ -54,7 +54,7 @@ This will allow you to add any kind of custom body that you want to send. In cas
 
 ![](../.gitbook/assets/wh5.png)
 
-In case of a valid template the border will turn green. As you may have noticed we also offer to use iLert related variables that will be swapped with the corresponding event related data when the request is made. These work, as described under the template field in simple mustache sytnax `{{ VARNAME }}`. Our editor will tell you if you are using the variables incorrectly.
+In case of a valid template the border will turn green. As you may have noticed we also offer to use ilert related variables that will be swapped with the corresponding event related data when the request is made. These work, as described under the template field in simple mustache sytnax `{{ VARNAME }}`. Our editor will tell you if you are using the variables incorrectly.
 
 ![](../.gitbook/assets/wh6.png)
 
@@ -68,7 +68,7 @@ In case of a valid template the border will turn green. As you may have noticed 
 | alertSummary         | Alert summary                                                                                                                                                   |
 | alertStatus          | PENDING, ACCEPTED or RESOLVED                                                                                                                                   |
 | alertPriority        | HIGH or LOW                                                                                                                                                     |
-| alertUrl             | URL that links to the alert in iLert                                                                                                                            |
+| alertUrl             | URL that links to the alert in ilert                                                                                                                            |
 | alertSourceId        | The ID of the alert's alert source                                                                                                                              |
 | alertSourceName      | The name of the alert's alert source                                                                                                                            |
 | escalationPolicyId   | The ID of the escalation policy of the alert's alert source                                                                                                     |

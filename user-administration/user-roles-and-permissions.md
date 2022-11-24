@@ -1,6 +1,6 @@
 ---
 description: >-
-  iLert's flexible role management allows you to easily setup access for your
+  ilert's flexible role management allows you to easily setup access for your
   users.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 ## Available roles
 
-A user in iLert can have one of the following roles:
+A user in ilert can have one of the following roles:
 
 * [Stakeholder](user-roles-and-permissions.md#stakeholder)
 * [Guest](user-roles-and-permissions.md#guest)

@@ -1,12 +1,12 @@
 ---
 description: >-
-  With the iLert Splunk integration, you can create alerts in iLert based on
+  With the ilert Splunk integration, you can create alerts in ilert based on
   Splunk alerts.
 ---
 
 # Splunk Integration
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Splunk alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -31,18 +31,18 @@ description: >-
 
 ![](../.gitbook/assets/Screenshot\_08\_02\_21\_\_20\_45.png)
 
-1. On the modal window name the alert e.g. **iLert,** choose **Webhook** in the **When triggered** section and **\*\*paste the** Webhook URL **that you generated in iLert and click on** Save\*\*
+1. On the modal window name the alert e.g. **iLert,** choose **Webhook** in the **When triggered** section and **\*\*paste the** Webhook URL **that you generated in ilert and click on** Save\*\*
 
 ![](../.gitbook/assets/Screenshot\_08\_02\_21\_\_20\_48.png)
 
-Finished! Your Splunk alerts will now create alerts in iLert.
+Finished! Your Splunk alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
 No, unfortunately Splunk alerts do not fire resolve events.
 
-**Can I connect Splunk with multiple alert sources from iLert?**
+**Can I connect Splunk with multiple alert sources from ilert?**
 
 Yes, simply create more action sequences in Splunk.

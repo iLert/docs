@@ -1,6 +1,6 @@
 ---
 description: >-
-  The iLert Discord Integration helps you to bring iLert alerts into your
+  The ilert Discord Integration helps you to bring ilert alerts into your
   Discord channels
 ---
 
@@ -21,11 +21,11 @@ description: >-
 
 ![](../.gitbook/assets/general\_-\_Discord.png)
 
-1. On the next page, name the webhook, e.g. iLert, save the changes and copy the **Webhook URL**
+1. On the next page, name the webhook, e.g. ilert, save the changes and copy the **Webhook URL**
 
 ![](<../.gitbook/assets/general\_-\_Discord (1).png>)
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Discord Connector and Link to the alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
@@ -57,7 +57,7 @@ description: >-
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Can I link multiple Discord Accounts to an iLert account?**
+**Can I link multiple Discord Accounts to an ilert account?**
 
 Yes.
 

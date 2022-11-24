@@ -12,5 +12,5 @@ description: >-
 
 
 
-Have an idea for an iLert application feature that you would love to hook into? [Let us know](../../contact.md).
+Have an idea for an ilert application feature that you would love to hook into? [Let us know](../../contact.md).
 

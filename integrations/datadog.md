@@ -1,14 +1,14 @@
 ---
 title: Datadog Integration
 seoTitle: 'iLert: Datadog Integration for Alerting | Incident Response | Uptime'
-description: The iLert Datadog Integration helps you to easily connect iLert with Datadog.
+description: The ilert Datadog Integration helps you to easily connect ilert with Datadog.
 date: '2018-12-29T05:02:05.000Z'
 weight: 1
 ---
 
 # Datadog Integration
 
-## In iLert: Create Datadog alert source <a id="alert-source"></a>
+## In ilert: Create Datadog alert source <a id="alert-source"></a>
 
 1. Switch to the **Alert Sources** tab and click on the "Create new alert source" button
 
@@ -22,7 +22,7 @@ weight: 1
 
 ![](../.gitbook/assets/dd2.png)
 
-## In Datadog: Add iLert Webhook as alerting channel <a id="add-webhook"></a>
+## In Datadog: Add ilert Webhook as alerting channel <a id="add-webhook"></a>
 
 1. Go to Datadog integrations page and **install Webhooks integration**: [https://app.datadoghq.com/account/settings\#integrations](https://app.datadoghq.com/account/settings#integrations)
 
@@ -30,7 +30,7 @@ weight: 1
 
 ![](../.gitbook/assets/dd3.png)
 
-3. Enter a name, the **Datadog webhook URL** from iLert alert source and **template payload**:
+3. Enter a name, the **Datadog webhook URL** from ilert alert source and **template payload**:
 
 ```text
 {
@@ -58,11 +58,11 @@ weight: 1
 
 ## FAQ <a id="faq"></a>
 
-**Are alerts in iLert automatically resolved?**
+**Are alerts in ilert automatically resolved?**
 
-Yes, as soon as an Alert is closed in Datadog, the corresponding Alert is automatically resolved in iLert.
+Yes, as soon as an Alert is closed in Datadog, the corresponding Alert is automatically resolved in ilert.
 
-**Can I link New Relic to several alert sources in iLert?**
+**Can I link New Relic to several alert sources in ilert?**
 
 Yes, create a webhook in Datadog for each alert source.
 

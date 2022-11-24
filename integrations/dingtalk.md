@@ -1,5 +1,5 @@
 ---
-description: Receive and respond to iLert alerts in DingTalk.
+description: Receive and respond to ilert alerts in DingTalk.
 ---
 
 # DingTalk Integration
@@ -8,15 +8,15 @@ description: Receive and respond to iLert alerts in DingTalk.
 
 ## In DingTalk <a href="#in-dingtalk" id="in-dingtalk"></a>
 
-### Add an iLert Robot to a group
+### Add an ilert Robot to a group
 
 {% hint style="info" %}
 **Admin permission required**
 
-To set up the integration, you must have admin rights in iLert.
+To set up the integration, you must have admin rights in ilert.
 {% endhint %}
 
-1. Go to DingTalk, select the group in which you want to publish iLert Alerts and click the **Context Menu** **->** **Group Assistant**
+1. Go to DingTalk, select the group in which you want to publish ilert Alerts and click the **Context Menu** **->** **Group Assistant**
 
 ![](../.gitbook/assets/DingTalk.png)
 
@@ -32,7 +32,7 @@ To set up the integration, you must have admin rights in iLert.
 
 ![](../.gitbook/assets/Screenshot\_27\_05\_21\_\_14\_52.png)
 
-1. On the next modal window, name the robot e.g. iLert, in the **Security Settings** section enable the **Additional Signature** option, check the **Terms of Service** and click on the **Finished** button
+1. On the next modal window, name the robot e.g. ilert, in the **Security Settings** section enable the **Additional Signature** option, check the **Terms of Service** and click on the **Finished** button
 
 ![](../.gitbook/assets/Screenshot\_27\_05\_21\_\_14\_58.png)
 
@@ -40,15 +40,15 @@ To set up the integration, you must have admin rights in iLert.
 
 ![](<../.gitbook/assets/Screenshot\_27\_05\_21\_\_15\_03 (1).png>)
 
-1. On the next modal window click on context menu **"..."** button next to the iLert robot&#x20;
+1. On the next modal window click on context menu **"..."** button next to the ilert robot&#x20;
 
 ![](../.gitbook/assets/Screenshot\_27\_05\_21\_\_15\_24.png)
 
-1. On the next modal window copy the **webhook URL** and the **Additional Signature**, you will need it from step 3 in iLert.
+1. On the next modal window copy the **webhook URL** and the **Additional Signature**, you will need it from step 3 in ilert.
 
 ![](../.gitbook/assets/Screenshot\_27\_05\_21\_\_15\_27.png)
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create the DingTalk Connector and link it to the alert source
 
@@ -78,7 +78,7 @@ To set up the integration, you must have admin rights in iLert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Can I link multiple DingTalk Accounts to an iLert account?**
+**Can I link multiple DingTalk Accounts to an ilert account?**
 
 Yes.
 

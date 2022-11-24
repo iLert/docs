@@ -1,12 +1,12 @@
 ---
 description: >-
-  With the iLert Terraform Cloud integration, you can create alerts in iLert
+  With the ilert Terraform Cloud integration, you can create alerts in ilert
   based on Terraform Cloud runs.
 ---
 
 # Terraform Cloud / Terraform Enterprise
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Terraform Cloud alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -31,18 +31,18 @@ description: >-
 
 ![](../.gitbook/assets/Screenshot\_25\_02\_21\_\_23\_03.png)
 
-1. On the next page, name the  notification setting e.g. iLert, paste the **Webhook URL** that you generated in iLert, in the **Triggers** section choose **Only certain events** and select **Completed** and **Errored** options, then click on the **Create a Notification** button
+1. On the next page, name the  notification setting e.g. ilert, paste the **Webhook URL** that you generated in ilert, in the **Triggers** section choose **Only certain events** and select **Completed** and **Errored** options, then click on the **Create a Notification** button
 
 ![](../.gitbook/assets/Screenshot\_25\_02\_21\_\_23\_06.png)
 
-Finished! Your Terraform Cloud run problems will now create alerts in iLert.
+Finished! Your Terraform Cloud run problems will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as an alert has been completed in Terraform Cloud, the associated alert in iLert will be resolved automatically.
+Yes, as soon as an alert has been completed in Terraform Cloud, the associated alert in ilert will be resolved automatically.
 
-**Can I connect Terraform Cloud with multiple alert sources from iLert?**
+**Can I connect Terraform Cloud with multiple alert sources from ilert?**
 
 Yes, simply add more notification settings in Terraform Cloud.

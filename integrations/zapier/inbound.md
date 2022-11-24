@@ -1,12 +1,12 @@
 ---
 description: >-
-  User iLert as a Zapier Action and create / acknowledge / resolve an alert for
+  User ilert as a Zapier Action and create / acknowledge / resolve an alert for
   any trigger from Zapier.
 ---
 
 # Zapier Inbound Integration
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Zapier alert source (optional) <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -32,11 +32,11 @@ You can connect Zapier with an existing alert source of any integration type. Sk
 ![](../../.gitbook/assets/Screenshot\_29\_10\_20\_\_16\_35.png)
 
 1. Choose your account and customize the settings of you trigger source, then click on the **Done Editing** button
-2. Click on the **Choose an Action** button to add iLert action
+2. Click on the **Choose an Action** button to add ilert action
 
 ![](../../.gitbook/assets/Screenshot\_29\_10\_20\_\_16\_39.png)
 
-1. Enter **iLert** into the search field and click on the **iLert app**
+1. Enter **iLert** into the search field and click on the **ilert app**
 
 ![](<../../.gitbook/assets/Screenshot\_29\_10\_20\_\_16\_40 (1).png>)
 
@@ -44,7 +44,7 @@ You can connect Zapier with an existing alert source of any integration type. Sk
 
 ![](../../.gitbook/assets/Screenshot\_29\_10\_20\_\_16\_45.png)
 
-1. On the next slide, choose your iLert account. Then click on the **Continue** button.
+1. On the next slide, choose your ilert account. Then click on the **Continue** button.
 
 ![](../../.gitbook/assets/Screenshot\_29\_10\_20\_\_16\_47.png)
 
@@ -62,14 +62,14 @@ You can connect Zapier with an existing alert source of any integration type. Sk
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
 Yes, you need to configure an **Accept Alert** action with **Alert Key** for this in your Zap
 
-**Will alerts in iLert be accepted automatically?**
+**Will alerts in ilert be accepted automatically?**
 
 Yes, you need to configure an **Resolve Alert** action with **Alert Key** for this in your Zap
 
-**Can I connect Zapier with multiple alert sources from iLert?**
+**Can I connect Zapier with multiple alert sources from ilert?**
 
 Yes, simply create more Zaps in Zapier.

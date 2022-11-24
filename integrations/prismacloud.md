@@ -4,7 +4,7 @@ description: Palo Alto Network Prisma Cloud Integration
 
 # Prisma Cloud Integration
 
-## In iLert
+## In ilert
 
 ### Create a Prisma Cloud alert source
 

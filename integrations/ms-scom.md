@@ -1,10 +1,10 @@
 ---
-description: Create Alerts in iLert from Microsoft SCOM
+description: Create Alerts in ilert from Microsoft SCOM
 ---
 
 # Microsoft SCOM
 
-## In iLert: Create Microsoft SCOM alert source
+## In ilert: Create Microsoft SCOM alert source
 
 1. Go to **Alert sources** and click on the **Create new alert source** button
 2. Set a name for your Microsoft SCOM alert source and select an escalation policy
@@ -17,11 +17,11 @@ description: Create Alerts in iLert from Microsoft SCOM
 
     <figure><img src="../.gitbook/assets/ms-scom-il-1.png" alt=""><figcaption></figcaption></figure>
 
-## In Microsoft SCOM: Add iLert Webhook as Channel
+## In Microsoft SCOM: Add ilert Webhook as Channel
 
 1. Download our script ilert.ps1.\
    Download links:\
-   [iLert Microsoft SCOM](https://github.com/iLert/ilert-ms-scom)
+   [ilert Microsoft SCOM](https://github.com/iLert/ilert-ms-scom)
 2.  Save this script into the following path:
 
     ```
@@ -56,7 +56,7 @@ description: Create Alerts in iLert from Microsoft SCOM
 
     \
     Command line parameters:\
-    _Replace the parameter string "Enter API Key" with your iLert API Key created in_ [_this step_](ms-scom.md#in-ilert-create-microsoft-scom-alert-source)__
+    _Replace the parameter string "Enter API Key" with your ilert API Key created in_ [_this step_](ms-scom.md#in-ilert-create-microsoft-scom-alert-source)__
 
     ```powershell
     -F "C:\scripts\ilert\ilert.ps1" -AlertID "$Data[Default='NotPresent']/Context/DataItem/AlertId$" -AlertSourceKey "Enter API Key"
@@ -89,7 +89,7 @@ description: Create Alerts in iLert from Microsoft SCOM
 23.
 
     <figure><img src="../.gitbook/assets/ms-scom-11.png" alt=""><figcaption></figcaption></figure>
-24. Select **Command** as **Channel Type** and **iLert Webhook** as **Command Channel**
+24. Select **Command** as **Channel Type** and **ilert Webhook** as **Command Channel**
 25.
 
     <figure><img src="../.gitbook/assets/ms-scom-12.png" alt=""><figcaption></figcaption></figure>
@@ -119,13 +119,13 @@ description: Create Alerts in iLert from Microsoft SCOM
 
 ## FAQ
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as an alert is being **closed** or marked as **resolved**, the alert in iLert will be resolved automatically.
+Yes, as soon as an alert is being **closed** or marked as **resolved**, the alert in ilert will be resolved automatically.
 
-**Will alerts in iLert be accepted automatically?**
+**Will alerts in ilert be accepted automatically?**
 
-Yes, as soon as an alert is being marked as **acknowledged**, the alert in iLert will be accepted automatically.
+Yes, as soon as an alert is being marked as **acknowledged**, the alert in ilert will be accepted automatically.
 
 
 

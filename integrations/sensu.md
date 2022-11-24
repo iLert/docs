@@ -1,6 +1,6 @@
 ---
 description: >-
-  The iLert Sensu Integration helps you to publish alerts into your channels or
+  The ilert Sensu Integration helps you to publish alerts into your channels or
   resolve alerts.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 [Sensu](https://sensu.io/) is a tool that functions as an observability pipeline which delivers monitoring as code on any cloud.
 
-## In iLert
+## In ilert
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
@@ -25,7 +25,7 @@ description: >-
 
 ## In Sensu
 
-* Add Sensu iLert Handler
+* Add Sensu ilert Handler
 
 ```
 sensuctl asset add iLert/sensu-ilert
@@ -37,7 +37,7 @@ sensuctl asset add iLert/sensu-ilert
 sensuctl asset info iLert/sensu-ilert
 ```
 
-* In the following command, replace **\<ilert\_key>** with your iLert API key.  &#x20;
+* In the following command, replace **\<ilert\_key>** with your ilert API key.  &#x20;
 
 Then run the updated command:
 
@@ -54,7 +54,7 @@ sensuctl handler create ilert \
 sensuctl handler info ilert --format yaml
 ```
 
-* Trigger an event. You can try it with the **file\_exists** check and an iLert handler workflow in place - remove a file to cause Sensu to send a non-OK event. &#x20;
+* Trigger an event. You can try it with the **file\_exists** check and an ilert handler workflow in place - remove a file to cause Sensu to send a non-OK event. &#x20;
 
 You can refer to the next section for more instructions.
 
@@ -138,8 +138,8 @@ sensuctl event listCopy
 ```
 
 * Open the Sensu web UI to see the events the `file_exists` check is generating. Visit [http://127.0.0.1:3000](http://127.0.0.1:3000), and log in as the admin user (created during initialization when you installed the Sensu backend). The failing check’s events will be listed on the **Events** page.
-* The Alert should be created on the Sensu Alert Source on iLert's side as well
-* To complete your workflow, restore the file that you removed so Sensu sends a resolution to iLert:
+* The Alert should be created on the Sensu Alert Source on ilert's side as well
+* To complete your workflow, restore the file that you removed so Sensu sends a resolution to ilert:
 
 ```
 touch /tmp/my-file.txt

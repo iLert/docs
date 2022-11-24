@@ -1,19 +1,19 @@
 ---
 description: >-
-  The iLert Zoom Chat Integration helps you to bring iLert alerts into your Zoom
+  The ilert Zoom Chat Integration helps you to bring ilert alerts into your Zoom
   channels, acknowledge or resolve alerts without leaving the chat.
 ---
 
 # Zoom Chat Integration
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create the Zoom Chat Connector and link it to the alert source
 
 {% hint style="info" %}
 **Admin permission required**
 
-To set up the integration, you must have admin rights in iLert.
+To set up the integration, you must have admin rights in ilert.
 {% endhint %}
 
 1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
@@ -24,7 +24,7 @@ To set up the integration, you must have admin rights in iLert.
 
 ![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_48.png)
 
-1. On the next page, choose **Zoom Chat** as type, name the connector and click on the save button to authorize iLert App with your Zoom account.
+1. On the next page, choose **Zoom Chat** as type, name the connector and click on the save button to authorize ilert App with your Zoom account.
 
 ![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_18.png)
 
@@ -46,7 +46,7 @@ To set up the integration, you must have admin rights in iLert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Can I link multiple Zoom Accounts to an iLert account?**
+**Can I link multiple Zoom Accounts to an ilert account?**
 
 Yes.
 
@@ -62,7 +62,7 @@ Yes, the following updates to an alert are currently being released:
 
 Yes.
 
-**How can I uninstall the iLert App from my Zoom account?**
+**How can I uninstall the ilert App from my Zoom account?**
 
 1. Login to your Zoom Account and navigate to the Zoom App Marketplace
 2. Click on the **Manage** link and then on the **Installed Apps** link (alternatively you may also search for the **iLert** app)

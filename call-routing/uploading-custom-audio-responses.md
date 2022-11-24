@@ -31,7 +31,7 @@ Please note that you cannot simply use any audio file format, because there is a
 
 ## Picking the right audio file for the upload
 
-When the audio file that has been uploaded is played back for the first time, it will be automatically transcoded into a format that is optimized for the telephone networks. However depending on the orignal file this may result in issues e.g. poor quality or static noise - we also recommend to check the playback after an upload has been made, hence an additional warning message will be shown in iLert.
+When the audio file that has been uploaded is played back for the first time, it will be automatically transcoded into a format that is optimized for the telephone networks. However depending on the orignal file this may result in issues e.g. poor quality or static noise - we also recommend to check the playback after an upload has been made, hence an additional warning message will be shown in ilert.
 
 The best results are achieved if the uploaded file is already in a **lossless audio format** with a low bitrate e.g. **16 or better 8 bit.**
 
@@ -41,7 +41,7 @@ The following is a guide that helps you to convert or prepare your audio files f
 
 ### Download Audacity
 
-You may download Audacity [here](https://www.audacityteam.org/). Note: iLert GmbH is not affiliated with Audacity and cannot provide any guarantees or service/support, you are downloading and using it at your own risk.
+You may download Audacity [here](https://www.audacityteam.org/). Note: ilert GmbH is not affiliated with Audacity and cannot provide any guarantees or service/support, you are downloading and using it at your own risk.
 
 ### Import your audio file
 
@@ -71,4 +71,4 @@ Left-click on the drop down next to the name of your audio in the timeline. And 
 
 In the top bar go to **File -> Export -> Export Audio...** from the **File type** drop down select **WAV** as container. And in the **Encoding** selection choose **Unsigned 8-bit PCM** (if possible you may also choose **GSM 6.10**, however this will not allowe test playback in the browser after upload, but it might provide even better audio quality during the live call).
 
-Thats it, upload your exported file to your iLert call routing number and you are done.
+Thats it, upload your exported file to your ilert call routing number and you are done.

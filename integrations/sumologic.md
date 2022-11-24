@@ -1,12 +1,12 @@
 ---
 description: >-
-  Create iLert alerts from Sumologic alerts and get alerted through iLert for
+  Create ilert alerts from Sumologic alerts and get alerted through ilert for
   high priority issues.
 ---
 
 # Sumologic Integration
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Sumologic alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -34,7 +34,7 @@ description: >-
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_44.png)
 
-1. On the next page, name the connection e.g. iLert, paste the **Webhook URL** that you generated in iLert, in the **Payload** section following payload object, then click on the **Save** button
+1. On the next page, name the connection e.g. ilert, paste the **Webhook URL** that you generated in ilert, in the **Payload** section following payload object, then click on the **Save** button
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_47.png)
 
@@ -61,14 +61,14 @@ description: >-
 }
 ```
 
-Finished! Your Sumologic alerts will now create alerts in iLert.
+Finished! Your Sumologic alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-No, unfortunately Sumologic's notification is not compatible with iLert's resolve event.
+No, unfortunately Sumologic's notification is not compatible with ilert's resolve event.
 
-**Can I connect Sumologic with multiple alert sources from iLert?**
+**Can I connect Sumologic with multiple alert sources from ilert?**
 
 Yes, simply add more connections in Sumologic.

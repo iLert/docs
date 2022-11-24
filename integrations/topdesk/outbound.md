@@ -1,5 +1,5 @@
 ---
-description: Create tickets in TOPdesk based on alert events from iLert
+description: Create tickets in TOPdesk based on alert events from ilert
 ---
 
 # TOPdesk Outbound Integration
@@ -8,19 +8,19 @@ description: Create tickets in TOPdesk based on alert events from iLert
 
 ### Create an API user <a href="#create-api-user" id="create-api-user"></a>
 
-1. Optional: create a dedicated iLert user in TOPdesk. This has the advantage that you can distinguish the TOPdesk tickets created by iLert.
+1. Optional: create a dedicated ilert user in TOPdesk. This has the advantage that you can distinguish the TOPdesk tickets created by ilert.
 2. Go to **Modules**, then to **Supporting Files**, and click on **Operator**
 
 ![](../../.gitbook/assets/tpdko1.png)
 
-1. In the **Surname** section, enter a name eg. iLert
+1. In the **Surname** section, enter a name eg. ilert
 2. In the **Site** section, choose **\[System]**
 3. In the **Email** section, enter a email eg. support@ilert.com
 4. In the **Login name** section, click on **Edit login data** button
 
 ![](../../.gitbook/assets/tpdko2.png)
 
-1. On the modal window, enter **Login Name**, **New Password**, **Repeat password** and click **OK**. Write down your username. You will need it later in iLert.
+1. On the modal window, enter **Login Name**, **New Password**, **Repeat password** and click **OK**. Write down your username. You will need it later in ilert.
 
 ![](../../.gitbook/assets/tpdko3.png)
 
@@ -46,11 +46,11 @@ description: Create tickets in TOPdesk based on alert events from iLert
 
 ![](../../.gitbook/assets/tpdko6.2.png)
 
-1. Write down your password. You will need it later in iLert.
+1. Write down your password. You will need it later in ilert.
 
 ![](../../.gitbook/assets/tpdko6.3.png)
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a TOPdesk Connector and Link to alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
@@ -82,7 +82,7 @@ description: Create tickets in TOPdesk based on alert events from iLert
 
 **Are updates to an alert published in the TOPdesk Ticket?**
 
-Yes, the state of the iLert Alert is reflected in the brief description of the TOPdesk ticket, eg \[RESOLVED] Host compute.infra is DOWN.
+Yes, the state of the ilert Alert is reflected in the brief description of the TOPdesk ticket, eg \[RESOLVED] Host compute.infra is DOWN.
 
 **Can I choose which updates to publish to an alert in TOPdesk?**
 

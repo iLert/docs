@@ -1,5 +1,5 @@
 ---
-description: The iLert Zendesk Integration helps you to easily connect iLert with Zendesk.
+description: The ilert Zendesk Integration helps you to easily connect ilert with Zendesk.
 ---
 
 # Zendesk Outbound Integration
@@ -8,7 +8,7 @@ description: The iLert Zendesk Integration helps you to easily connect iLert wit
 
 ## In Zendesk: Create API Token <a href="#api-token" id="api-token"></a>
 
-1. Optional: create a dedicated iLert user in Zendesk. That way, you will be able to distinguish tickets created by iLert.
+1. Optional: create a dedicated ilert user in Zendesk. That way, you will be able to distinguish tickets created by ilert.
 
 {% hint style="warning" %}
 **Admin permission required**
@@ -20,14 +20,14 @@ To set up the integration, the Zendesk user must have agent permissions.
 
 ![](../../.gitbook/assets/zd1.png)
 
-1. You will need this API token later in iLert. Make sure to copy and store it. You won't be able to see it again in Zendesk. Click **Save**.
+1. You will need this API token later in ilert. Make sure to copy and store it. You won't be able to see it again in Zendesk. Click **Save**.
 
-## In iLert: create a Zendesk connector and link it with an alert source <a href="#alarm-source" id="alarm-source"></a>
+## In ilert: create a Zendesk connector and link it with an alert source <a href="#alarm-source" id="alarm-source"></a>
 
 {% hint style="info" %}
 **Admin permission required**
 
-To set up the integration, you must have admin rights in iLert.
+To set up the integration, you must have admin rights in ilert.
 {% endhint %}
 
 1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
@@ -56,10 +56,10 @@ To set up the integration, you must have admin rights in iLert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Are tickets updated in Zendesk if the alert is updated in iLert?**
+**Are tickets updated in Zendesk if the alert is updated in ilert?**
 
-Yes, status updates to iLert Alerts are reflected in the title of the Zendesk ticket, e.g. `RESOLVED` host compute.infra is `DOWN`.
+Yes, status updates to ilert Alerts are reflected in the title of the Zendesk ticket, e.g. `RESOLVED` host compute.infra is `DOWN`.
 
 **Can I choose which updates to publish to a ticket in Zendesk?**
 
-Currently not. If that's something you'd like see in iLert, we look forward to your feedback via chat or e-mail.
+Currently not. If that's something you'd like see in ilert, we look forward to your feedback via chat or e-mail.

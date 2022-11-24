@@ -1,12 +1,12 @@
 ---
-description: Receive and respond to iLert alerts in Cisco Webex.
+description: Receive and respond to ilert alerts in Cisco Webex.
 ---
 
 # Cisco Webex
 
 [Cisco Webex](https://www.webex.com/) is the leading enterprise solution for video conferencing, online meetings, screen share, and webinars.
 
-## In iLert <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 ### Create the Cisco Webex Connector and link it to the alert source
 
@@ -18,7 +18,7 @@ description: Receive and respond to iLert alerts in Cisco Webex.
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_48.png)
 
-1. On the next page, choose **Cisco Webex** as type, name the connector and click on the save button to authorize iLert App with your Webex account.
+1. On the next page, choose **Cisco Webex** as type, name the connector and click on the save button to authorize ilert App with your Webex account.
 
 ![](../.gitbook/assets/Screenshot\_19\_03\_21\_\_07\_50.png)
 
@@ -37,7 +37,7 @@ description: Receive and respond to iLert alerts in Cisco Webex.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Can I link multiple Cisco Accounts to an iLert account?**
+**Can I link multiple Cisco Accounts to an ilert account?**
 
 Yes.
 

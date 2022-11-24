@@ -10,9 +10,9 @@ coverY: -157.98946088366438
 
 # IXON Cloud Integration
 
-This integration uses IXON's [Cloud Notify](https://support.ixon.cloud/hc/en-us/articles/360016840620) to dispatch real-time notifiations from your machine(s) to iLert. That way, you can leverage iLert's alerting, scheduling and escalation capabiltites to send critical alerts from your machines to the right personnel and take immediate action.
+This integration uses IXON's [Cloud Notify](https://support.ixon.cloud/hc/en-us/articles/360016840620) to dispatch real-time notifiations from your machine(s) to ilert. That way, you can leverage ilert's alerting, scheduling and escalation capabiltites to send critical alerts from your machines to the right personnel and take immediate action.
 
-### In iLert - create IXON Cloud alert source
+### In ilert - create IXON Cloud alert source
 
 1\. Go to the **Alert sources** tab and click on **Create new alert source**
 
@@ -28,23 +28,23 @@ This integration uses IXON's [Cloud Notify](https://support.ixon.cloud/hc/en-us/
 
 ### Advanced routing configuration
 
-By default iLert will route the alerts of your IXON alert source to the configured escalation policy.\
+By default ilert will route the alerts of your IXON alert source to the configured escalation policy.\
 However if you need a more flexible routing for your IXON use cases you may use our advanced routing options.
 
 ![](<../.gitbook/assets/image (52).png>)
 
 You may choose the fields **user id, system label or company id** as dynamic routing fields.\
-iLert will then extract the given value e.g. user id from the IXON event and search for an escalation policy that has a matching routing key.
+ilert will then extract the given value e.g. user id from the IXON event and search for an escalation policy that has a matching routing key.
 
 Navigate to the escalation policy that you wish to route to and set its routing key to the IXON value:
 
 ![](<../.gitbook/assets/image (47).png>)
 
-Note that if no match for the routing key is found, iLert will fall back to using the configured escalation policy.
+Note that if no match for the routing key is found, ilert will fall back to using the configured escalation policy.
 
 ### In IXON Cloud
 
-#### Create iLert webhook
+#### Create ilert webhook
 
 1\. Navigate and login to Ixon Cloud Portal at [https://portal.ixon.cloud/](https://portal.ixon.cloud/)&#x20;
 
@@ -56,19 +56,19 @@ Note that if no match for the routing key is found, iLert will fall back to usin
 
 ![](../.gitbook/assets/ixon-webhook.png)
 
-4\. Add the name of the webhook and the webhook url of the iLert alert source from above.
+4\. Add the name of the webhook and the webhook url of the ilert alert source from above.
 
 ![](../.gitbook/assets/ixon-newwebhook.png)
 
 #### Setup alarm and alarm trigger
 
-Now that the iLert webhook is configured, we're going to setup an alarm and alarm trigger to test the integration. Refer to this [support article](https://support.ixon.cloud/hc/en-us/articles/360016805380) from the IXON documentation for information on how to setup alarms.
+Now that the ilert webhook is configured, we're going to setup an alarm and alarm trigger to test the integration. Refer to this [support article](https://support.ixon.cloud/hc/en-us/articles/360016805380) from the IXON documentation for information on how to setup alarms.
 
 1\. Navigate to [**Fleet Manager**](https://portal.ixon.cloud/fleet-manager) **** by clicking on the ![](https://cdn.ixon.cloud/support/website/images/gui-icons/apps\_rounded.svg)  icon on the top right  and selecting ![](https://cdn.ixon.cloud/support/website/images/gui-icons/gear\_outline.svg) **Fleet Manager**
 
 ![](../.gitbook/assets/ixon-tofleet.png)
 
-2\. Go to  **Devices** ![](https://cdn.ixon.cloud/support/website/images/gui-icons/cloud\_connectors\_outline.svg) and select the device that you need create an iLert alarm trigger for
+2\. Go to  **Devices** ![](https://cdn.ixon.cloud/support/website/images/gui-icons/cloud\_connectors\_outline.svg) and select the device that you need create an ilert alarm trigger for
 
 ![](../.gitbook/assets/ixon-device.png)
 
@@ -80,7 +80,7 @@ Now that the iLert webhook is configured, we're going to setup an alarm and alar
 
 ![](../.gitbook/assets/ixon-variable.png)
 
-5\. Add Alarms by clicking on the **Alarm Triggers** and based on the alarm trigger, a message will be sent through Webhook and alerts will be created in iLert
+5\. Add Alarms by clicking on the **Alarm Triggers** and based on the alarm trigger, a message will be sent through Webhook and alerts will be created in ilert
 
 ![](../.gitbook/assets/ixon-trigger.png)
 

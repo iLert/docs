@@ -1,5 +1,5 @@
 ---
-description: Create alerts in iLert from Grafana 9 alerts.
+description: Create alerts in ilert from Grafana 9 alerts.
 ---
 
 # Grafana Integration (v 9.x)
@@ -8,7 +8,7 @@ description: Create alerts in iLert from Grafana 9 alerts.
 Are you using Grafana 8.x or lower? Please refer to our [Grafana Integration](grafana-integration.md) guide.
 {% endhint %}
 
-## In iLert: Create Grafana alert source
+## In ilert: Create Grafana alert source
 
 1. Go to **Alert sources** and click on the **Create new alert source** button
 2. Set a name for your Grafana alert source and select an escalation policy
@@ -21,13 +21,13 @@ Are you using Grafana 8.x or lower? Please refer to our [Grafana Integration](gr
 
     <figure><img src="../../.gitbook/assets/graf2.jpeg" alt=""><figcaption></figcaption></figure>
 
-## In Grafana 9: Add iLert Webhook as Alerting Channel
+## In Grafana 9: Add ilert Webhook as Alerting Channel
 
 1. In the sidebar, go to **Alerting** -> **Contact points** and click on the **New contact point button.**
 2.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2022-09-08 at 16.31.10 (1).png" alt=""><figcaption></figcaption></figure>
-3. Select **Contact point type** Webhook and in the field **URL** insert the webhookurl generated in iLert. Set the HTTP Method to **POST**.
+3. Select **Contact point type** Webhook and in the field **URL** insert the webhookurl generated in ilert. Set the HTTP Method to **POST**.
 4.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2022-09-08 at 16.50.25.png" alt=""><figcaption></figcaption></figure>
@@ -38,7 +38,7 @@ Are you using Grafana 8.x or lower? Please refer to our [Grafana Integration](gr
 7.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2022-09-08 at 16.53.35.png" alt=""><figcaption></figcaption></figure>
-8. Check if an alert has been created in iLert.
+8. Check if an alert has been created in ilert.
 9. After the Contact Point has been created in Grafana 9, switch to any dashboard of your Grafana 9 installation and edit a graph.
 10.
 
@@ -73,14 +73,14 @@ Are you using Grafana 8.x or lower? Please refer to our [Grafana Integration](gr
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as an alert with "ok" has been resolved in Grafana, the associated alert in iLert will be resolved automatically.
+Yes, as soon as an alert with "ok" has been resolved in Grafana, the associated alert in ilert will be resolved automatically.
 
-**What happens when an alert is paused in Grafana, is the associated alert also accepted in iLert?**
+**What happens when an alert is paused in Grafana, is the associated alert also accepted in ilert?**
 
 Yes.
 
-**Can I link Grafana to multiple alert sources in iLert?**
+**Can I link Grafana to multiple alert sources in ilert?**
 
 Yes, create a **Notification Channel** per alert source in Grafana.

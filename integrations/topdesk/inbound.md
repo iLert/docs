@@ -1,12 +1,12 @@
 ---
-description: Create alerts in iLert based on tickets from TOPdesk
+description: Create alerts in ilert based on tickets from TOPdesk
 ---
 
 # TOPdesk Inbound Integration
 
-With the iLert TOPdesk integration, you can create alerts in iLert based on TOPdesk event such as tickets or calls.
+With the ilert TOPdesk integration, you can create alerts in ilert based on TOPdesk event such as tickets or calls.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a TOPdesk alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -21,7 +21,7 @@ With the iLert TOPdesk integration, you can create alerts in iLert based on TOPd
 
 ## In TOPdesk <a href="#in-topdesk" id="in-topdesk"></a>
 
-> In this guide we will use **First Line Ticket** service for the integration. You can use any other service to sync with iLert.
+> In this guide we will use **First Line Ticket** service for the integration. You can use any other service to sync with ilert.
 
 ### Create action sequences <a href="#create-action-sequences" id="create-action-sequences"></a>
 
@@ -41,7 +41,7 @@ With the iLert TOPdesk integration, you can create alerts in iLert based on TOPd
 2. In the **Available** section, ensure that the **Active**, **Apply in the Self-Service Portal** and **Apply in the Operator's Section** checkboxes are checked
 3. In the **Step 1** section **Name** field, enter a name e.g. `ilert_create_incident`
 4. In the **Step 1** section **HTTP Method** field, choose **POST**
-5. In the **Step 1** section **URL** field, paste the **Webhook URL** that you generated in iLert
+5. In the **Step 1** section **URL** field, paste the **Webhook URL** that you generated in ilert
 6. In the **Step 1** section **Headers** field, add **Content-Type: application/json** and **Accept: application/json**
 7. In the **Step 1** section **Body** field, copy and paste the following JSON payload
 
@@ -55,11 +55,11 @@ With the iLert TOPdesk integration, you can create alerts in iLert based on TOPd
 
 ![](../../.gitbook/assets/tpdki6.1.png)
 
-1. _Optional_: Add more entries to the request body to show custom information in an iLert alert. You can find more TOPdesk variables in the **DataDict**
+1. _Optional_: Add more entries to the request body to show custom information in an ilert alert. You can find more TOPdesk variables in the **DataDict**
 
 ![](../../.gitbook/assets/tpdki7.png)
 
-**For example:** to add ticket caller to iLert alert details just add `persoonid` variable on the top-level of json body
+**For example:** to add ticket caller to ilert alert details just add `persoonid` variable on the top-level of json body
 
 ```javascript
 {
@@ -84,7 +84,7 @@ With the iLert TOPdesk integration, you can create alerts in iLert based on TOPd
 2. In the **Available** section, ensure that the **Active**, **Apply in the Self-Service Portal** and **Apply in the Operator's Section** checkboxes are checked
 3. In the **Step 1** section **Name** field, enter a name eg. `ilert_resolve_incident`
 4. In the **Step 1** section **HTTP Method** field, choose **POST**
-5. In the **Step 1** section **URL** field, paste the **Webhook URL** that you generated in iLert
+5. In the **Step 1** section **URL** field, paste the **Webhook URL** that you generated in ilert
 6. In the **Step 1** section **Headers** field, add **Content-Type: application/json** and **Accept: application/json**
 7. In the **Step 1** section **Body** field, copy and paste the following JSON payload
 
@@ -115,7 +115,7 @@ With the iLert TOPdesk integration, you can create alerts in iLert based on TOPd
 2. In the **Details** section **Active** field, ensure that checkbox is checked
 3. In the **Details** section **Choose type** field, choose **New card**
 4. In the **Linked actions** section, choose the action sequence `iLert - Create Alert Action` that you created in the last step
-5. _Optional_: You can choose another card type (e.g. **Edit card**) and add conditions or specifications for your use case (e.g. Status changed to "Open"). In this case an iLert alert will be created only if event conditions and specifications match.
+5. _Optional_: You can choose another card type (e.g. **Edit card**) and add conditions or specifications for your use case (e.g. Status changed to "Open"). In this case an ilert alert will be created only if event conditions and specifications match.
 
 ![](../../.gitbook/assets/tpdki10.1.png)
 
@@ -133,7 +133,7 @@ With the iLert TOPdesk integration, you can create alerts in iLert based on TOPd
 2. In the **Details** section **Active** field, ensure that checkbox is checked
 3. In the **Details** section **Choose type** field, choose **Edit card**
 4. In the **Linked actions** section, choose the action sequence `iLert - Resolve alert` that you created in the last step
-5. _Optional_: You can add conditions or specifications for your use case (e.g. ticket was closed). In this case an iLert alert will be resolved only if event conditions and specifications match.
+5. _Optional_: You can add conditions or specifications for your use case (e.g. ticket was closed). In this case an ilert alert will be resolved only if event conditions and specifications match.
 
 ![](../../.gitbook/assets/tpdki10.2.png)
 
@@ -141,11 +141,11 @@ With the iLert TOPdesk integration, you can create alerts in iLert based on TOPd
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
 Yes
 
-**Can I connect TOPdesk with multiple alert sources from iLert?**
+**Can I connect TOPdesk with multiple alert sources from ilert?**
 
 Yes, simply create more action sequences in TOPdesk.
 

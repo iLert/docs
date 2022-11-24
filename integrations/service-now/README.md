@@ -1,6 +1,6 @@
 ---
 description: >-
-  The iLert ServiceNow Integration helps you to easily connect iLert with
+  The ilert ServiceNow Integration helps you to easily connect ilert with
   ServiceNow.
 ---
 

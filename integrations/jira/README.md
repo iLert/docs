@@ -1,5 +1,5 @@
 ---
-description: The iLert Jira Integration helps you to easily connect iLert with Jira.
+description: The ilert Jira Integration helps you to easily connect ilert with Jira.
 ---
 
 # Jira Integration

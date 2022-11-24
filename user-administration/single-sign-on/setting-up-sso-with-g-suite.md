@@ -16,12 +16,12 @@ You need to be the account owner to setup SSO.
 
 ![](<../../.gitbook/assets/Screenshot 2020-08-25 at 15.40.07.png>)
 
-4\. Optionally set **Allow login with username and password**, if you want to allow users in iLert that are not part of your GSuite organization, and therefore, will need to login via email/username and password.
+4\. Optionally set **Allow login with username and password**, if you want to allow users in ilert that are not part of your GSuite organization, and therefore, will need to login via email/username and password.
 
 5\. Optionally set **Provision new users on first sso login**, if you don't want to manually create users in advance and have them automatically created on their first SSO login.
 
 {% hint style="warning" %}
-If you revoke a user's access at your SSO provider, the user won't be able to login to iLert via SSO, but this will not delete the user in iLert. The user needs to be manually deleted in iLert by an admin or by the account owner.
+If you revoke a user's access at your SSO provider, the user won't be able to login to ilert via SSO, but this will not delete the user in ilert. The user needs to be manually deleted in ilert by an admin or by the account owner.
 {% endhint %}
 
 ## FAQ

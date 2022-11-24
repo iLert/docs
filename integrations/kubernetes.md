@@ -1,12 +1,12 @@
 ---
 description: >-
-  With the iLert Kubernetes integration, you can create alerts in iLert based on
+  With the ilert Kubernetes integration, you can create alerts in ilert based on
   Kubernetes events and metrics.
 ---
 
 # Kubernetes Integration
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Kubenetes alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -30,7 +30,7 @@ helm repo add ilert https://ilert.github.io/charts/
 helm repo update
 ```
 
-1. Deploy ilert-kube-agent with the API Key  that you generated in iLert&#x20;
+1. Deploy ilert-kube-agent with the API Key  that you generated in ilert&#x20;
 
 ```
 helm upgrade --install --namespace kube-system \
@@ -40,7 +40,7 @@ helm upgrade --install --namespace kube-system \
 
 ### b. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with terraform (recommended) <a href="#deploy-b" id="deploy-b"></a>
 
-1. Define module and paste the API Key that you generated in iLert&#x20;
+1. Define module and paste the API Key that you generated in ilert&#x20;
 
 ```
 module "ilert-kube-agent" {
@@ -66,7 +66,7 @@ terraform apply
 git clone https://github.com/iLert/ilert-kube-agent.git
 ```
 
-1. Paste the API Key that you generated in iLert into _./example/standard/30-deployment.yaml_
+1. Paste the API Key that you generated in ilert into _./example/standard/30-deployment.yaml_
 
 ```
 ...
@@ -93,14 +93,14 @@ ilert-kube-agent-64f7dfd4d-nsnzp   1/1     Running   0          37h
 ilert-kube-agent-64f7dfd4d-zx7fb   1/1     Running   0          37h
 ```
 
-Finished! Your Kubernetes alerts will now create alerts in iLert.
+Finished! Your Kubernetes alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as an alert has been resolved in ilert-kube-agent, the associated alert in iLert will be resolved automatically.
+Yes, as soon as an alert has been resolved in ilert-kube-agent, the associated alert in ilert will be resolved automatically.
 
-**Can I connect multiple Kuberenetes namespaces with multiple alert sources from iLert?**
+**Can I connect multiple Kuberenetes namespaces with multiple alert sources from ilert?**
 
 Yes, simply create multiple deployments per namespace in Kubernetes.

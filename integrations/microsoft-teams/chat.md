@@ -1,6 +1,6 @@
 ---
 description: >-
-  The iLert Microsoft Teams Chat Integration helps you to bring alerts into your
+  The ilert Microsoft Teams Chat Integration helps you to bring alerts into your
   channels, acknowledge or resolve alerts without leaving the chat.
 ---
 
@@ -10,7 +10,7 @@ description: >-
 
 ## In Microsoft Teams <a href="#in-microsoft-teams" id="in-microsoft-teams"></a>
 
-### Install the iLert bot application
+### Install the ilert bot application
 
 {% hint style="info" %}
 **Admin permission required**
@@ -19,7 +19,7 @@ To install the bot application, you must have admin rights in Microsoft Teams.
 {% endhint %}
 
 1. Open the application in Microsoft Teams: [https://teams.microsoft.com/l/app/8f3b287d-df09-44e2-93b3-35e0dfa90756](https://teams.microsoft.com/l/app/8f3b287d-df09-44e2-93b3-35e0dfa90756)
-2. Add the iLert bot to a team
+2. Add the ilert bot to a team
 
 ![](../../.gitbook/assets/General\_\_Demo\_\_\_\_Microsoft\_Teams.png)
 
@@ -27,23 +27,23 @@ To install the bot application, you must have admin rights in Microsoft Teams.
 
 ![](<../../.gitbook/assets/General\_\_Demo\_\_\_\_Microsoft\_Teams (1).png>)
 
-1. You should have received a welcome message in the previously selected channel, if you do not see the message or you want to reconnect use the `@iLert connect` command  to bring it up again. Click on the **Connect** button in the message, this will take you to iLert's login page to finish your connection.
+1. You should have received a welcome message in the previously selected channel, if you do not see the message or you want to reconnect use the `@iLert connect` command  to bring it up again. Click on the **Connect** button in the message, this will take you to ilert's login page to finish your connection.
 
 ![](<../../.gitbook/assets/General\_\_Demo\_\_\_\_Microsoft\_Teams (2).png>)
 
 {% hint style="info" %}
 **Admin permission required**
 
-To set up the integration, you must have admin rights in iLert.
+To set up the integration, you must have admin rights in ilert.
 {% endhint %}
 
-1. Login to the iLert account which you want to connect to Microsoft Teams and iLert will automatically setup the connection for you - _depending on your login state in Microsoft 365 you will have to login to Microsoft again, afterwards you will be automatically taken back to iLert_ and you should see a success message with your newly created connector.
+1. Login to the ilert account which you want to connect to Microsoft Teams and ilert will automatically setup the connection for you - _depending on your login state in Microsoft 365 you will have to login to Microsoft again, afterwards you will be automatically taken back to iLert_ and you should see a success message with your newly created connector.
 
 ![](<../../.gitbook/assets/iLert (97).png>)
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
-Now that the initial connection between your Microsoft Teams and iLert accounts has been setup, you may choose alert sources which should send update messages to your Microsoft Teams channels - this is done by creating Alert Actions in iLert.
+Now that the initial connection between your Microsoft Teams and ilert accounts has been setup, you may choose alert sources which should send update messages to your Microsoft Teams channels - this is done by creating Alert Actions in ilert.
 
 ### Link the Microsoft Teams Chat Connector to the alert source <a href="#link-the-microsoft-teams-chat-connector-to-the-alert-source" id="link-the-microsoft-teams-chat-connector-to-the-alert-source"></a>
 
@@ -61,7 +61,7 @@ Now that the initial connection between your Microsoft Teams and iLert accounts 
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Can I link multiple Microsoft Teams Accounts to an iLert account?**
+**Can I link multiple Microsoft Teams Accounts to an ilert account?**
 
 Yes.
 
@@ -77,7 +77,7 @@ Yes, the following updates to an alert are currently being published:
 
 No.
 
-**How can I uninstall the iLert App from my Microsoft Teams account?**
+**How can I uninstall the ilert App from my Microsoft Teams account?**
 
 1. Login to your Microsoft Teams Account and navigate to your team&#x20;
 2. Click on the **More options** menu and then on the **Manage team** option
@@ -87,14 +87,14 @@ No.
 
 
 
-**The iLert app does not see all team groups of my Microsoft Teams account, what can I do?**
+**The ilert app does not see all team groups of my Microsoft Teams account, what can I do?**
 
-The iLert app needs the `Group.ReadWrite.All` and `Team.ReadBasic.All` scopes to read the all team groups including legacy Skype groups. Please contact the Microsoft Teams admin who can give the permission for the iLert app. You can read more about the required scopes [here](https://docs.microsoft.com/en-us/graph/teams-list-all-teams).
+The ilert app needs the `Group.ReadWrite.All` and `Team.ReadBasic.All` scopes to read the all team groups including legacy Skype groups. Please contact the Microsoft Teams admin who can give the permission for the ilert app. You can read more about the required scopes [here](https://docs.microsoft.com/en-us/graph/teams-list-all-teams).
 
 
 
-**The iLert app does not see all channels of my team, what can I do?**
+**The ilert app does not see all channels of my team, what can I do?**
 
-The iLert app needs the `Channel.ReadBasic.All` scope to read the team groups. Please contact the Microsoft Teams admin who can give the permission for the iLert app. You can read more about the required scope [here](https://docs.microsoft.com/en-us/graph/api/channel-list).
+The ilert app needs the `Channel.ReadBasic.All` scope to read the team groups. Please contact the Microsoft Teams admin who can give the permission for the ilert app. You can read more about the required scope [here](https://docs.microsoft.com/en-us/graph/api/channel-list).
 
 If you still don't see all the channels, then those are private channels that are protected, and you need to invite the bot to the channel.

@@ -7,7 +7,7 @@ description: >-
 
 # AWS GuardDuty Integration
 
-## In iLert
+## In ilert
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
@@ -29,10 +29,10 @@ description: >-
 
 ![](../.gitbook/assets/awsguardduty-snstopic.png)
 
-* Select **HTTPS** Protocol and put the URL that was received from iLert side into the Endpoint field, keep the Enable raw message delivery checkbox **unchecked** and **Create Subscription**.
-* The subscription would be confirmed automatically on iLert side, but make sure the Subscription ID is not in **PendingConfirmation** state.
+* Select **HTTPS** Protocol and put the URL that was received from ilert side into the Endpoint field, keep the Enable raw message delivery checkbox **unchecked** and **Create Subscription**.
+* The subscription would be confirmed automatically on ilert side, but make sure the Subscription ID is not in **PendingConfirmation** state.
 * Search and select the Amazon GuardDuty console in the Service Search. Search for GuardDuty click **Enable GuardDuty** if this is the first time enabling Amazon GuardDuty.
-* If the GuardDuty is enabled, CloudWatch Event Rules can be configured to send alerts to iLert and please navigate to the CloudWatch console.
+* If the GuardDuty is enabled, CloudWatch Event Rules can be configured to send alerts to ilert and please navigate to the CloudWatch console.
 * To create a rule, select **Rules** under **Events** and then click **Create Rules**. Select GuardDuty as the Service Name and then choose GuardDuty Finding as the Event Type.
 
 ![](<../.gitbook/assets/awsguardduty-cloudwatchrule (1).png>)
@@ -42,9 +42,9 @@ description: >-
 
 ![](../.gitbook/assets/awsguardduty-rulemade.png)
 
-* In order to test this, go back to the Amazon GuardDuty console and generate sample findings, to create event in iLert.
+* In order to test this, go back to the Amazon GuardDuty console and generate sample findings, to create event in ilert.
 
 ![](../.gitbook/assets/awsguardduty-generatefindings.png)
 
 * Select Settings, then select Generate Sample Findings and then click Findings in the left navigation bar.
-* The sample findings should have been generated, and it will create the event in the iLert automatically.
+* The sample findings should have been generated, and it will create the event in the ilert automatically.

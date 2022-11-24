@@ -1,6 +1,6 @@
 ---
 description: >-
-  Details of alerts created by iLert's call routing number may be posted to
+  Details of alerts created by ilert's call routing number may be posted to
   Slack and Microsoft Team channels, as well as trigger external services using
   webhooks.
 ---
@@ -22,7 +22,7 @@ You will then be able to create a new outbound connection for your call routing 
 ![](<../.gitbook/assets/image (21).png>)
 
 {% hint style="info" %}
-Some alert actions (when setup for the first time) will require you to create a connector first (an entity that keeps your third party tool's secrets and urls safe) when selecting them in the menu, iLert will automatically take you to the create screen of these connectors.
+Some alert actions (when setup for the first time) will require you to create a connector first (an entity that keeps your third party tool's secrets and urls safe) when selecting them in the menu, ilert will automatically take you to the create screen of these connectors.
 {% endhint %}
 
 For the sake of this tutorial we stick to the webhook type which does not require a connector.

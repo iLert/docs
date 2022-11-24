@@ -4,7 +4,7 @@ description: Our open source client is available under MIT and Apache 2.0 Licens
 
 # Javascript / Node.js Client
 
-You can find the official iLert JS client on our Github organization: [https://github.com/iLert/ilert-js](https://github.com/iLert/ilert-js)
+You can find the official ilert JS client on our Github organization: [https://github.com/iLert/ilert-js](https://github.com/iLert/ilert-js)
 
 Install as usual with NPM `npm install ilert`
 
@@ -27,7 +27,7 @@ await ilert.incident(45678).resolve();
 await ilert.heartbeat("il1hbt0460d849fcdc753").ping();
 ```
 
-The iLert JS client also ships with Typescript definitions.
+The ilert JS client also ships with Typescript definitions.
 
 Please feel free to [reach out to us ](../../contact.md)with a Github issue in case you need help or have feature requests.
 

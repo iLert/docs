@@ -1,12 +1,12 @@
 ---
 description: >-
-  The iLert Azure Function Integration helps you to easily connect iLert with
+  The ilert Azure Function Integration helps you to easily connect ilert with
   Azure Function.
 ---
 
 # Azure Function Integration
 
-Beforehand make sure that you have created an Azure Function function in your Microsoft Azure project and got its public `URL` handy. You might also create an additional authorization value e.g. a secure random string that you are evaluating in the HTTP request `Authorization` header when you function is invoked by iLert, we actually suggest using this.
+Beforehand make sure that you have created an Azure Function function in your Microsoft Azure project and got its public `URL` handy. You might also create an additional authorization value e.g. a secure random string that you are evaluating in the HTTP request `Authorization` header when you function is invoked by ilert, we actually suggest using this.
 
 ## Create the connector <a href="#connector" id="connector"></a>
 

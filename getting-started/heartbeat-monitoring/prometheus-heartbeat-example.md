@@ -4,7 +4,7 @@ description: To ensure and monitor the uptime of your Prometheus Alert Manager
 
 # Prometheus Heartbeat Example
 
-A recipe for the Prometheus alert manager configuration to support liveness check of your alert manager using iLert's heartbeat alert sources.
+A recipe for the Prometheus alert manager configuration to support liveness check of your alert manager using ilert's heartbeat alert sources.
 
 Alter your **AM.yml**
 
@@ -16,7 +16,7 @@ route:
   routes:
   - receiver: ilert
     match:
-      alertname: iLert
+      alertname: ilert
     repeat_interval: 1m 
 
 receivers:

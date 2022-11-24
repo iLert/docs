@@ -1,12 +1,12 @@
 ---
-description: Create alerts in iLert from tickets in Zendesk.
+description: Create alerts in ilert from tickets in Zendesk.
 ---
 
 # Zendesk Inbound Integration
 
 [Zendesk](https://www.zendesk.com/) is a cloud-based help desk management solution offering customizable tools to build customer service portal, knowledge base and online communities.
 
-## In iLert <a href="#create-alert-source" id="create-alert-source"></a>
+## In ilert <a href="#create-alert-source" id="create-alert-source"></a>
 
 ### Create a Zendesk alert source
 
@@ -32,8 +32,8 @@ description: Create alerts in iLert from tickets in Zendesk.
 ![](<../../.gitbook/assets/a\_-\_Agent (1).png>)
 
 1. On the next page:
-2. In the **Title** section, enter a name eg. iLert
-3. In the **URL** section, paste the **Webhook URL** that you generated in iLert
+2. In the **Title** section, enter a name eg. ilert
+3. In the **URL** section, paste the **Webhook URL** that you generated in ilert
 4. In the **Method** section, choose **POST**
 5. In the **Content type** section, choose **JSON**
 6. In the bottom section choose **Create target**
@@ -48,13 +48,13 @@ description: Create alerts in iLert from tickets in Zendesk.
 ![](<../../.gitbook/assets/a\_-\_Agent (3).png>)
 
 1. On the next page:
-2. In the **Trigger name** section, enter a name eg. iLert
+2. In the **Trigger name** section, enter a name eg. ilert
 3. In the **Category** section, choose a category, e.g. Notifications
 4. In the **Meet ANY of following conditions** section, add **Ticket is created** and **Ticket is updated** rules
 
 ![](<../../.gitbook/assets/a\_-\_Agent (4).png>)
 
-* Scroll down to the **Actions** panel and choose the **iLert Notify target** that you created above
+* Scroll down to the **Actions** panel and choose the **ilert Notify target** that you created above
 * In the **JSON body** sections, paste the following  object:
 
 ```javascript
@@ -83,13 +83,13 @@ description: Create alerts in iLert from tickets in Zendesk.
 
 ## Zendesk Incident Lifecycle
 
-| When I create an Zendesk ticket with status... | ...then an iLert Alert...                                             |
+| When I create an Zendesk ticket with status... | ...then an ilert Alert...                                             |
 | ---------------------------------------------- | --------------------------------------------------------------------- |
 | **New** or **Open**                            | is created                                                            |
 | **Pending**                                    | is created                                                            |
 | **Solved** or **Closed**                       | <p>will not be created and a</p><p>400 (bad request) error occurs</p> |
 
-| When I update an Zendesk ticket with status... | ...and the iLert alert... | ...then the/an iLert Alert...                                         |
+| When I update an Zendesk ticket with status... | ...and the ilert alert... | ...then the/an ilert Alert...                                         |
 | ---------------------------------------------- | ------------------------- | --------------------------------------------------------------------- |
 | **New** or **Open**                            | does not exist            | is created                                                            |
 | **Solved** or **Closed**                       | does not exist            | <p>will not be created and a</p><p>400 (bad request) error occurs</p> |
@@ -100,7 +100,7 @@ description: Create alerts in iLert from tickets in Zendesk.
 
 ## Additional Custom Ticket Details <a href="#faq" id="faq"></a>
 
-You may provide an additional field for the Zendesk trigger template to render additional information into iLert alert details.
+You may provide an additional field for the Zendesk trigger template to render additional information into ilert alert details.
 
 ```javascript
 {
@@ -116,11 +116,11 @@ The `additional_ticket_details` map's values will be displayed in a human readab
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-### **Will alerts in iLert be resolved automatically?**
+### **Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as an Zendesk Ticket is completed, the alert in iLert will be resolved automatically.
+Yes, as soon as an Zendesk Ticket is completed, the alert in ilert will be resolved automatically.
 
-### **Can I connect Zendesk with multiple alert sources from iLert?**
+### **Can I connect Zendesk with multiple alert sources from ilert?**
 
 Yes, simply create more Webhooks in Zendesk.
 
@@ -128,6 +128,6 @@ Yes, simply create more Webhooks in Zendesk.
 
 No.
 
-### Are Zendesk comments synced with iLert alerts?
+### Are Zendesk comments synced with ilert alerts?
 
-Yes, if the variables `latest_comment` and `latest_comment_author_name` are provided in your Zendesk trigger JSON template the comments will be synced to iLert alerts.
+Yes, if the variables `latest_comment` and `latest_comment_author_name` are provided in your Zendesk trigger JSON template the comments will be synced to ilert alerts.

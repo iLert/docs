@@ -107,7 +107,7 @@ Once you have created all the necessary layers, check the timeline at the bottom
 If you want to make a one-time change to a schedule, create an override instead. See [here](./#overrides) for more info.
 {% endhint %}
 
-Whenever you need to make structural changes to the way you organize on-call, you will need to edit your schedule in iLert. Examples include when a new team member joins the on-call rotation, an existing team member leaves the rotation, you want to change the rotation (e.g. from weekly to bi-weekly), etc.
+Whenever you need to make structural changes to the way you organize on-call, you will need to edit your schedule in ilert. Examples include when a new team member joins the on-call rotation, an existing team member leaves the rotation, you want to change the rotation (e.g. from weekly to bi-weekly), etc.
 
 To edit an existing schedule ...
 

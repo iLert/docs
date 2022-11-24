@@ -1,13 +1,13 @@
 ---
 description: >-
-  Two improve your account's security, iLert suggests that you setup two-factor
+  Two improve your account's security, ilert suggests that you setup two-factor
   authentication for it. We especially encourage Account owners or Admins to use
   MFA.
 ---
 
 # 🔐 Two-factor authentication / MFA
 
-iLert supports two-factor authentication setups for every user account, unrelated to the purchased subscription plan. You may activate multiple 2FA methods e.g. authenticator app as backup for your U2F device.
+ilert supports two-factor authentication setups for every user account, unrelated to the purchased subscription plan. You may activate multiple 2FA methods e.g. authenticator app as backup for your U2F device.
 
 ## Two-factor methods
 
@@ -36,4 +36,4 @@ If available you may select "**Use security key**" option with your U2F / [WebAu
 
 If you have lost your app or device you may use your recovery-codes, handed out during initial setup of your 2FA to get access to the account. **Note**: you were handed out 5 recovery codes only and each becomes burnt when it is used. So it is highly adviced to immediately use the recovery codes to access and remove 2FA from your account (requires at least 2 recovery codes). Once removed you may setup 2FA again using a new device / app.
 
-In case you were using a FIDO device or you have lost / burnt your recovery codes you will need to contact [iLert support](../contact.md#support) providing additional details of verification e.g. passport to have 2FA reset from your account.
+In case you were using a FIDO device or you have lost / burnt your recovery codes you will need to contact [ilert support](../contact.md#support) providing additional details of verification e.g. passport to have 2FA reset from your account.

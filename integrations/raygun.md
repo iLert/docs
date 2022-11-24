@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert Raygun integration, you can create alerts in iLert based on
+  With the ilert Raygun integration, you can create alerts in ilert based on
   Raygun crash reports.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 [Raygun](https://raygun.com/) is a cloud-based platform that provides error, crash, and performance monitoring for your web and mobile applications.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Raygun alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -32,18 +32,18 @@ description: >-
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_14.png)
 
-1. On the next page,  paste the **Webhook URL** that you generated in iLert and lick on the **Save** button
+1. On the next page,  paste the **Webhook URL** that you generated in ilert and lick on the **Save** button
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_17.png)
 
-Finished! Your Raygun crash reports will now create alerts in iLert.
+Finished! Your Raygun crash reports will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as an alert has been completed in Raygun, the associated alert in iLert will be resolved automatically.
+Yes, as soon as an alert has been completed in Raygun, the associated alert in ilert will be resolved automatically.
 
-**Can I connect Raygun with multiple alert sources from iLert?**
+**Can I connect Raygun with multiple alert sources from ilert?**
 
 No

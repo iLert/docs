@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert Senty integration, you can create alerts in iLert based on
+  With the ilert Senty integration, you can create alerts in ilert based on
   Sentry issues.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 Sentry's platform helps developers diagnose, fix, and optimize the performance of their code.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Sentry alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -29,7 +29,7 @@ Sentry's platform helps developers diagnose, fix, and optimize the performance o
 
 ![](../.gitbook/assets/Screenshot\_25\_02\_21\_\_21\_58.png)
 
-1. On the next page,  **name** the integration e.g. iLert, paste the **Webhook URL** that you generated in iLert, enable **Alert Rule Action** option, give the read access to **Issue & Event** and in the **Webhooks** section choose **Issue** option, then click on **Save**
+1. On the next page,  **name** the integration e.g. ilert, paste the **Webhook URL** that you generated in ilert, enable **Alert Rule Action** option, give the read access to **Issue & Event** and in the **Webhooks** section choose **Issue** option, then click on **Save**
 
 ![](../.gitbook/assets/Screenshot\_25\_02\_21\_\_22\_53.png)
 
@@ -37,18 +37,18 @@ Sentry's platform helps developers diagnose, fix, and optimize the performance o
 
 ![](../.gitbook/assets/Screenshot\_25\_02\_21\_\_22\_08.png)
 
-1. On the next page,  **name** the alert rule e.g. iLert, in the **Then perform these actions** section choose **Send a notification via an  integration** and choose iLert, then click on **Create Alert Rule** button
+1. On the next page,  **name** the alert rule e.g. ilert, in the **Then perform these actions** section choose **Send a notification via an  integration** and choose ilert, then click on **Create Alert Rule** button
 
 ![](../.gitbook/assets/Screenshot\_25\_02\_21\_\_22\_10.png)
 
-Finished! Your Sentry alerts will now create alerts in iLert.
+Finished! Your Sentry alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as an alert has been resolved or ignored in Sentry, the associated alert in iLert will be resolved automatically.
+Yes, as soon as an alert has been resolved or ignored in Sentry, the associated alert in ilert will be resolved automatically.
 
-**Can I connect Sentry with multiple alert sources from iLert?**
+**Can I connect Sentry with multiple alert sources from ilert?**
 
 Yes, simply add more alert rules in Sentry.

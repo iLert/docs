@@ -1,18 +1,18 @@
 ---
-description: Create alerts in iLert from Prometheus Alertmanager alerts
+description: Create alerts in ilert from Prometheus Alertmanager alerts
 ---
 
 # Prometheus Integration
 
 [Prometheus](https://github.com/prometheus) is an open-source systems monitoring and alerting toolkit that uses a pull-based approach to collecting metrics in a timeseries database.
 
-With iLert's Prometheus integration, you can automatically create alerts in iLert using the Prometheus' Alertmanager. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When the Alertmanager triggers an alert, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
+With ilert's Prometheus integration, you can automatically create alerts in ilert using the Prometheus' Alertmanager. That way, you will never miss a critical alert and always alert the right person using ilert's on-call schedules, automatic escalation, and multiple alerting channels. When the Alertmanager triggers an alert, ilert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. ilert will automatically escalate to the next person, if the alert is not acknowledged. ilert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
 
 ## System Requirements <a href="#requirements" id="requirements"></a>
 
-* [Prometheus Alert Manager v0.6.0 / 2017-04-25](https://github.com/prometheus/alertmanager/releases/tag/v0.6.0) or higher. If you are using an older version of the Alertmanager, please contact the iLert support at [support@ilert.com](mailto:support@ilert.com).
+* [Prometheus Alert Manager v0.6.0 / 2017-04-25](https://github.com/prometheus/alertmanager/releases/tag/v0.6.0) or higher. If you are using an older version of the Alertmanager, please contact the ilert support at [support@ilert.com](mailto:support@ilert.com).
 
-## In iLert: Create Prometheus alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create Prometheus alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Go to **Services** --> **Alert sources** and click on **Create new alert source**
 2. Give it a name and chose an escalation policy
@@ -26,7 +26,7 @@ With iLert's Prometheus integration, you can automatically create alerts in iLer
 
 ## In Prometheus Alertmanager: add webhook receiver <a href="#add-webhook" id="add-webhook"></a>
 
-1. Add a [Webhook configuration](https://prometheus.io/docs/alerting/configuration/#webhook\_config) from the alert manager in the configuration file. Use the URL generated in iLert as the Webhook URL:
+1. Add a [Webhook configuration](https://prometheus.io/docs/alerting/configuration/#webhook\_config) from the alert manager in the configuration file. Use the URL generated in ilert as the Webhook URL:
 
 ```yaml
 receivers:
@@ -35,7 +35,7 @@ receivers:
   - url: 'https://api.ilert.com/api/v1/events/prometheus/e6bcfcbf-a38f-462a-af9d-1687809b7594'
 ```
 
-1. You can now configure any route in the Alert Manager. In the following example, all alerts that do not match another [route](https://prometheus.io/docs/alerting/configuration/#route) are sent to iLert:
+1. You can now configure any route in the Alert Manager. In the following example, all alerts that do not match another [route](https://prometheus.io/docs/alerting/configuration/#route) are sent to ilert:
 
 ```yaml
 route:
@@ -59,13 +59,13 @@ curl -d '[{"labels":{"Alertname":"iLert Test"},"annotations":{"summary":"iLert T
 
 iLert's Prometheus integration supports dynamic escalation policy routing with the help of routing keys.
 
-In iLert navigate to the **escalation policies** that you want to route to and enter a unique routing key for for each policy.
+In ilert navigate to the **escalation policies** that you want to route to and enter a unique routing key for for each policy.
 
 ![](<../.gitbook/assets/image (55) (1) (1).png>)
 
 In your Prometheus **alert rule** yml add a label called `ilert_routingkey` and set its value to the policy's routing key that you want to assign to the alert e.g. `ilert_routingkey: policy1`
 
-When iLert receives Prometheus alert events it will look for the first alert with the specific label and decide upon the routing. If the label is not present the escalation policy that is assigned to the alert source is used instead.
+When ilert receives Prometheus alert events it will look for the first alert with the specific label and decide upon the routing. If the label is not present the escalation policy that is assigned to the alert source is used instead.
 
 ## Supported custom labels <a href="#faq" id="faq"></a>
 
@@ -81,21 +81,21 @@ Note: for custom labels to be accepted they must be part of the **alert labels**
 
 ****
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
 Yes, Prometheus also sends resolved events by default, as long as the send\_resolved: false option is NOT set in the [Webhook configuration](https://prometheus.io/docs/alerting/configuration/#webhook\_config) of the alert manager. Furthermore, resolved events - just like firing events - are not sent until the next `group_interval` configuration in the alert manager.
 
-**Can I link Prometheus to multiple alert sources in iLert?**
+**Can I link Prometheus to multiple alert sources in ilert?**
 
-Yes, create several Webhook receivers in Prometheus and enter the URL of the alert source from iLert in the Webhook URL.
+Yes, create several Webhook receivers in Prometheus and enter the URL of the alert source from ilert in the Webhook URL.
 
 **What if my internet connection is interrupted? Are the alerts generated in Prometheus lost?**
 
 No, alerts are not lost. The alert manager has a retry mechanism. In addition, we recommend that you monitor your Internet connection with an external monitoring service (e.g. using [iLert's heartbeat feature](../getting-started/heartbeat-monitoring/) or uptime monitoring). See here for a [Prometheus Heartbeat Example](../getting-started/heartbeat-monitoring/prometheus-heartbeat-example.md).
 
-**Not all Prometheus Alerts alerts are created in iLert. Why?**
+**Not all Prometheus Alerts alerts are created in ilert. Why?**
 
-The alerts from Prometheus are grouped and sent to iLert and bundled in an alert. Grouping is affected by the `group_by` configuration in the Alert Manager route.
+The alerts from Prometheus are grouped and sent to ilert and bundled in an alert. Grouping is affected by the `group_by` configuration in the Alert Manager route.
 
 Example:
 

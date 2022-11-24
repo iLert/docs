@@ -6,7 +6,7 @@ description: >-
 
 # FreshService Integration
 
-## In iLert
+## In ilert
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
@@ -39,7 +39,7 @@ description: >-
 
 ![](../.gitbook/assets/freshservice-ticketraised.png)
 
-* Add **Action** by dragging Action box on the left to the editor, edit it and choose **Trigger Webhook** make sure **POST** is chosen, put the Callback URL as the **FreshService URL** that we got on iLert earlier
+* Add **Action** by dragging Action box on the left to the editor, edit it and choose **Trigger Webhook** make sure **POST** is chosen, put the Callback URL as the **FreshService URL** that we got on ilert earlier
 * Choose **JSON** encoding, and **Simple**
 * **IMPORTANT:** Make sure all the checkboxes in **Content** are checked, otherwise some of the info won't be filled in
 
@@ -49,8 +49,8 @@ description: >-
 
 ![](../.gitbook/assets/freshservice-activateautomator.png)
 
-* Now whenever ticket is created, new Incident will be created on iLert.
+* Now whenever ticket is created, new Incident will be created on ilert.
 
 ![](../.gitbook/assets/freshservice-createticket.png)
 
-* You can also create a new automator on ticket updated, and it will update the ticket on iLert on resolved or closed
+* You can also create a new automator on ticket updated, and it will update the ticket on ilert on resolved or closed

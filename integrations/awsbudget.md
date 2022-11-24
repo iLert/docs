@@ -1,14 +1,14 @@
 ---
-description: The iLert AWS Budget Integration helps you to easily connect iLert with AWS.
+description: The ilert AWS Budget Integration helps you to easily connect ilert with AWS.
 ---
 
 # AWS Budget Integration
 
 [AWS Budgets](https://aws.amazon.com/aws-cost-management/aws-budgets/) allows you to set custom budgets to track your cost and usage from the simplest to the most complex use cases.
 
-With iLert AWS Budget Integration, you can receive AWS Budget alert through iLert and easily extend AWS Budget functionality with SMS, push, voice, and iLert on-call schedules.
+With ilert AWS Budget Integration, you can receive AWS Budget alert through ilert and easily extend AWS Budget functionality with SMS, push, voice, and ilert on-call schedules.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create an AWS Budget alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -41,13 +41,13 @@ With iLert AWS Budget Integration, you can receive AWS Budget alert through iLer
 
 1. In the **Topic ARN** section, ensure that the **SNS Topic** that you generated is selected
 2. In the **Protocol** section, choose the **HTTPS** protocol
-3. In the **Endpoint** section, paste the **Webhook URL** that you generated in iLert
+3. In the **Endpoint** section, paste the **Webhook URL** that you generated in ilert
 4. In the **Enable raw message delivery** section, ensure that the checkbox is unchecked
 5. Click on **Create subscription**
 
 ![](<../.gitbook/assets/Simple\_Notification\_Service (2).png>)
 
-1. The subscription is **automatically confirmed by iLert** when it is created. After updating the overview, the status "PendingConfirmation" should disappear, and the ID should be displayed.
+1. The subscription is **automatically confirmed by ilert** when it is created. After updating the overview, the status "PendingConfirmation" should disappear, and the ID should be displayed.
 
 ### Billing Dashboard: Create budget and link to topic <a href="#create-phd-rule" id="create-phd-rule"></a>
 
@@ -79,10 +79,10 @@ You can now link any AWS Budget to the topic you have created. The following sec
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
 No.
 
-**Can I link AWS Budget to multiple alert sources in iLert?**
+**Can I link AWS Budget to multiple alert sources in ilert?**
 
 Yes, create an SNS topic subscription in AWS for each alert source.

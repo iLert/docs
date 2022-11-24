@@ -1,14 +1,14 @@
 ---
 description: >-
-  The iLert Server Density Integration helps you to easily connect iLert with
+  The ilert Server Density Integration helps you to easily connect ilert with
   Server Density.
 ---
 
 # Server Density
 
-With the iLert Server Density integration you can create alerts in iLert based on Server Density notifications.
+With the ilert Server Density integration you can create alerts in ilert based on Server Density notifications.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Server Density alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -25,13 +25,13 @@ With the iLert Server Density integration you can create alerts in iLert based o
 
 ### Create notification channel <a href="#create-action-sequences" id="create-action-sequences"></a>
 
-1. Go to Server Density and then to **Settings.** Click on **Notifications** to add a new notification channel for iLert
+1. Go to Server Density and then to **Settings.** Click on **Notifications** to add a new notification channel for ilert
 
 ![](../.gitbook/assets/Preferences\_-\_Server\_Density.png)
 
 1. In section **Type** choose **Webhook**.
 2. In the **Name** section, enter a name eg. `iLert`
-3. In the section **URL** field, paste the **Webhook URL** that you generated in iLert
+3. In the section **URL** field, paste the **Webhook URL** that you generated in ilert
 
 ![](../.gitbook/assets/Preferences\_-\_Server\_Density\_and\_Passwords.png)
 
@@ -49,14 +49,14 @@ With the iLert Server Density integration you can create alerts in iLert based o
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
 Yes
 
-**Will alerts in iLert be accepted automatically?**
+**Will alerts in ilert be accepted automatically?**
 
-No, unfortunately Server Density's notification is not compatible with iLert's accepted event.
+No, unfortunately Server Density's notification is not compatible with ilert's accepted event.
 
-**Can I connect Server Density with multiple alert sources from iLert?**
+**Can I connect Server Density with multiple alert sources from ilert?**
 
 Yes, simply create more notification channels in Server Density.

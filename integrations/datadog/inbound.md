@@ -1,12 +1,12 @@
 ---
-description: Create alerts in iLert from Datadog events.
+description: Create alerts in ilert from Datadog events.
 ---
 
 # Datadog Inbound Integration
 
-With the iLert Datadog integration, you can create alerts in iLert based on Datadog events.
+With the ilert Datadog integration, you can create alerts in ilert based on Datadog events.
 
-## In iLert: Create Datadog alert source <a id="alert-source"></a>
+## In ilert: Create Datadog alert source <a id="alert-source"></a>
 
 1. Switch to the **Alert Sources** tab and click on the "Create new alert source" button
 2. Assign name and select escalation chain
@@ -18,14 +18,14 @@ With the iLert Datadog integration, you can create alerts in iLert based on Data
 
 ![](../../.gitbook/assets/dd2.png)
 
-## In Datadog: Add iLert Webhook as alerting channel <a id="add-webhook"></a>
+## In Datadog: Add ilert Webhook as alerting channel <a id="add-webhook"></a>
 
 1. Go to Datadog integrations page and **install Webhooks integration**: [https://app.datadoghq.com/account/settings\#integrations](https://app.datadoghq.com/account/settings#integrations)
 2. Click an Webhooks integration, scroll to bottom and add a new webhook:
 
 ![](../../.gitbook/assets/dd3.png)
 
-1. Enter a name, the **Datadog webhook URL** from iLert alert source and **template payload**:
+1. Enter a name, the **Datadog webhook URL** from ilert alert source and **template payload**:
 
 ```text
 {
@@ -52,11 +52,11 @@ With the iLert Datadog integration, you can create alerts in iLert based on Data
 
 ## FAQ <a id="faq"></a>
 
-**Are alerts in iLert automatically resolved?**
+**Are alerts in ilert automatically resolved?**
 
-Yes, as soon as an Incident is closed in Datadog, the corresponding Alert is automatically resolved in iLert.
+Yes, as soon as an Incident is closed in Datadog, the corresponding Alert is automatically resolved in ilert.
 
-**Can I link Datadog to several alert sources in iLert?**
+**Can I link Datadog to several alert sources in ilert?**
 
 Yes, create a webhook in Datadog for each alert source.
 

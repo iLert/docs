@@ -1,7 +1,7 @@
 ---
 title: SMS Integration
 seoTitle: 'iLert: SMS for Alerting | Incident Response | Uptime'
-description: The iLert SMS Integration helps you to easily consume SMS messages
+description: The ilert SMS Integration helps you to easily consume SMS messages
 date: '2020-04-24T05:02:05.000Z'
 weight: 1
 ---

@@ -7,7 +7,7 @@ description: >-
 
 # Humio Integration
 
-## In iLert
+## In ilert
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
@@ -28,7 +28,7 @@ description: >-
 
 ![C](../.gitbook/assets/humio-newaaction.png)
 
-* Choose **Webhook** as type, fill in the name in this case **ilert-webhook**, and on Endpoint URL, put on the **Humio URL** that is generated on iLert
+* Choose **Webhook** as type, fill in the name in this case **ilert-webhook**, and on Endpoint URL, put on the **Humio URL** that is generated on ilert
 
 ![](../.gitbook/assets/humio-newwebhook.png)
 
@@ -44,5 +44,5 @@ description: >-
 
 ![](../.gitbook/assets/humio-alertdetails.png)
 
-* Save the alert, and upon the alert, the incident will be created on iLert side as well
+* Save the alert, and upon the alert, the incident will be created on ilert side as well
 * For more information about Humio Alerts please refer to the following: [https://library.humio.com/stable/docs/automated/alerts/](https://library.humio.com/stable/docs/automated/alerts/)

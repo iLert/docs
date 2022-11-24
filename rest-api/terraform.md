@@ -1,15 +1,15 @@
 ---
 description: >-
-  iLert's Hashicorp Terraform Integration helps you to create and manage iLert
+  ilert's Hashicorp Terraform Integration helps you to create and manage ilert
   resources.
 ---
 
 # Terraform
 
-Make monitoring and alerting part of your **Infrastructure as Code** projects and automate your requirments efficiently with iLert's Terraform provider.
+Make monitoring and alerting part of your **Infrastructure as Code** projects and automate your requirments efficiently with ilert's Terraform provider.
 
 {% hint style="success" %}
-You can find the official iLert Terraform Provider documentation in the [Terraform Registry](https://registry.terraform.io/providers/iLert/ilert/latest/docs)
+You can find the official ilert Terraform Provider documentation in the [Terraform Registry](https://registry.terraform.io/providers/iLert/ilert/latest/docs)
 {% endhint %}
 
 The the source code of the provider is also available on [Github](https://github.com/iLert/terraform-provider-ilert).

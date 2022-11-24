@@ -1,12 +1,12 @@
 ---
-description: Create events in Amazon EventBridge using iLert alerts.
+description: Create events in Amazon EventBridge using ilert alerts.
 ---
 
 # Amazon EventBridge Integration
 
 [Amazon EventBridge](https://aws.amazon.com/eventbridge/) is a serverless event bus that makes it easier to build event-driven applications at scale using events generated from your applications, integrated Software-as-a-Service (SaaS) applications, and AWS services.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create the Amazon EventBridge Alert Action
 
@@ -50,7 +50,7 @@ description: Create events in Amazon EventBridge using iLert alerts.
 
 ![](<../.gitbook/assets/Notification\_Center (4).png>)
 
-1. Finished! Now an Amazon EventBridge notification will be created for each alert that is created to the linked alert source in iLert.
+1. Finished! Now an Amazon EventBridge notification will be created for each alert that is created to the linked alert source in ilert.
 
 ## Event types sent to Amazon EventBridge event bus
 
@@ -206,7 +206,7 @@ description: Create events in Amazon EventBridge using iLert alerts.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Can I link multiple Amazon EventBridge sources to an iLert account?**
+**Can I link multiple Amazon EventBridge sources to an ilert account?**
 
 Yes.
 

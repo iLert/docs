@@ -1,12 +1,12 @@
 ---
-description: Create alerts in iLert from PRTG notifications.
+description: Create alerts in ilert from PRTG notifications.
 ---
 
 # PRTG Network Monitor Integration
 
-With PRTG integration, you can easily integrate PRTG with iLert and extend your existing PRTG monitoring with SMS, push and voice notifications as well as on-call schedules from iLert.
+With PRTG integration, you can easily integrate PRTG with ilert and extend your existing PRTG monitoring with SMS, push and voice notifications as well as on-call schedules from ilert.
 
-## In iLert: Create PRTG alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create PRTG alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Go to **Alert sources** and click on **Add a new alert source**
 2. Enter a name for your alert source (e.g. "PRTG") and select your desired escalation policy.
@@ -26,12 +26,12 @@ With PRTG integration, you can easily integrate PRTG with iLert and extend your 
 
 1. Add a new notification
 2. As notification method select **Execute HTTP ACTION**
-3. Copy the **URL** and **Postdata** fields from the iLert alert source. The API key is included in Postdata.
+3. Copy the **URL** and **Postdata** fields from the ilert alert source. The API key is included in Postdata.
 
 ![](../.gitbook/assets/pg4.png)
 
 1. Click on **Save**
-2. Next, we will use the newly created iLert notification method in PRTG. To do this, switch to the root group in the device overview and select the "Notifications" tab.
+2. Next, we will use the newly created ilert notification method in PRTG. To do this, switch to the root group in the device overview and select the "Notifications" tab.
 
 ![](../.gitbook/assets/pg5.png)
 
@@ -41,21 +41,21 @@ With PRTG integration, you can easily integrate PRTG with iLert and extend your 
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as the condition of a sensor in PRTG is OK again, the associated alert is resolved in iLert.
+Yes, as soon as the condition of a sensor in PRTG is OK again, the associated alert is resolved in ilert.
 
-**What if an alert is acknowledged in PRTG, is the associated alert also acknowledged in iLert?**
+**What if an alert is acknowledged in PRTG, is the associated alert also acknowledged in ilert?**
 
 No, in PRTG it is unfortunately not possible to send notifications for acknowledgements.
 
 **What if my internet connection is interrupted? Are the events generated in PRTG lost?**
 
-No, events will not be lost if you enable the "repeat every x minutes" option in PRTG (see above). In addition, we recommend that you monitor your Internet connection with an external monitoring service (e.g. using iLert's uptime monitoring or heartbeat monitoring). You can send these alerts to iLert.
+No, events will not be lost if you enable the "repeat every x minutes" option in PRTG (see above). In addition, we recommend that you monitor your Internet connection with an external monitoring service (e.g. using ilert's uptime monitoring or heartbeat monitoring). You can send these alerts to ilert.
 
-**Can I link PRTG to multiple alert sources in iLert?**
+**Can I link PRTG to multiple alert sources in ilert?**
 
-Yes, create multiple iLert notifications in PRTG. You can then associate them with objects in the PRTG object hierarchy.
+Yes, create multiple ilert notifications in PRTG. You can then associate them with objects in the PRTG object hierarchy.
 
 **The integration does not work. How do I find the issue?**
 

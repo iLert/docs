@@ -1,7 +1,7 @@
 ---
 description: >-
   To provide a more stable throughput and fairness among different accounts in
-  terms of resource consumption, iLert applies rate limiting to API and
+  terms of resource consumption, ilert applies rate limiting to API and
   integration requests.
 ---
 

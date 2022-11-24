@@ -1,6 +1,6 @@
 ---
 description: >-
-  Create iLert alerts from Sematext alerts and get alerted through iLert for
+  Create ilert alerts from Sematext alerts and get alerted through ilert for
   high priority issues.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 Sematext Cloud is an all-in-one infrastructure performance and log monitoring, real user, frontend, API, website, and uptime monitoring SaaS.
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Sematext alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -36,7 +36,7 @@ Sematext Cloud is an all-in-one infrastructure performance and log monitoring, r
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_03.png)
 
-1. On the next modal page, name the hook e.g. iLert, paste the **Webhook URL** that you generated in iLert, in the **Send data as** section choose **Json**, in the **HTTP method** section choose **POST**, in the **Parameters** section choose the following payload, then click on the **Save Notification Hook** button
+1. On the next modal page, name the hook e.g. ilert, paste the **Webhook URL** that you generated in ilert, in the **Send data as** section choose **Json**, in the **HTTP method** section choose **POST**, in the **Parameters** section choose the following payload, then click on the **Save Notification Hook** button
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_59.png)
 
@@ -52,18 +52,18 @@ Sematext Cloud is an all-in-one infrastructure performance and log monitoring, r
 }
 ```
 
-1. Edit your alert rule to send notification to iLert
+1. Edit your alert rule to send notification to ilert
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_08.png)
 
-Finished! Your Sematext alerts will now create alerts in iLert.
+Finished! Your Sematext alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as an alert has been completed in Sematext, the associated alert in iLert will be resolved automatically.
+Yes, as soon as an alert has been completed in Sematext, the associated alert in ilert will be resolved automatically.
 
-**Can I connect Sematext with multiple alert sources from iLert?**
+**Can I connect Sematext with multiple alert sources from ilert?**
 
 Yes, simply add more notification hooks in Sematext.

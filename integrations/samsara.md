@@ -1,6 +1,6 @@
 ---
 description: >-
-  With the iLert Samsara integration, you can create alerts in iLert based on
+  With the ilert Samsara integration, you can create alerts in ilert based on
   Samsara events.
 ---
 
@@ -8,7 +8,7 @@ description: >-
 
 Samsara's platform helps you to monitor and track your devices
 
-## In iLert
+## In ilert
 
 ### Create a Samsara alert source <a href="#create-alert-source" id="create-alert-source"></a>
 

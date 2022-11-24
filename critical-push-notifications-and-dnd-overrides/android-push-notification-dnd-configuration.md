@@ -12,7 +12,7 @@ Note: this guide is meant for Android users only.
 
 ## Prerequisite
 
-Make sure that you have installed and logged into the iLert mobile app on your device. Which will automatically generate and store a push token for your device in your iLert account.
+Make sure that you have installed and logged into the ilert mobile app on your device. Which will automatically generate and store a push token for your device in your ilert account.
 
 Under your **profile** settings (in web or mobile app) navigate to **Notification settings** and select Android push notifications for any desired notification option.
 
@@ -33,7 +33,7 @@ Now onto the tough part, in Android you will have to enable DND additional per s
 * then on **App info**
 * search for **iLert** in the list and tap on it
 * tap on **Notifications**
-* tap on the **sound channel e.g. merrychristmas** for the audio that you have selected in the iLert app for your high and low priority notifications - or do it for all in the list
+* tap on the **sound channel e.g. merrychristmas** for the audio that you have selected in the ilert app for your high and low priority notifications - or do it for all in the list
 * ensure the top selection is set on **Alerting** and not on _Silent_
 * tap on **Advanced**
 * enable the toggle for **Override Do Not Disturb** (probably also ensure the rest of the options is enabled to, but that should be their default state)

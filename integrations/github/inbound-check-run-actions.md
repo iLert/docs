@@ -1,16 +1,16 @@
 ---
 title: Github Inbound Check Run (Actions) Integration
 seoTitle: 'iLert: Github Actions Integration for Alerting | Incident Response | Uptime'
-description: Create alerts in iLert based on Check runs from GitHub.
+description: Create alerts in ilert based on Check runs from GitHub.
 date: '2020-04-21T07:00:00.000Z'
 weight: 1
 ---
 
 # GitHub Inbound Check Run \(Actions\) Integration
 
-With the iLert Github Check Run integration, you can add alerts in iLert based on "check run" from Github \(e.g. Github Actions\).
+With the ilert Github Check Run integration, you can add alerts in ilert based on "check run" from Github \(e.g. Github Actions\).
 
-## In iLert: Create Github alert source <a id="create-alert-source"></a>
+## In ilert: Create Github alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click "Create new alert source"
 2. Enter a name and select your desired escalation policy. Select "Github" as **Integration Type** and click **Save**.
@@ -29,7 +29,7 @@ With the iLert Github Check Run integration, you can add alerts in iLert based o
 
 ![](../../.gitbook/assets/ghch3.png)
 
-1. In the **Payload URL** section, set it to the **Webhook URL** generated in iLert
+1. In the **Payload URL** section, set it to the **Webhook URL** generated in ilert
 2. In the **Content type** section, change to **application/json**
 3. In the **Which events would you like to trigger this webhook?** section, change it to **Let me select individual events** and select the **Check runs** events
 
@@ -39,11 +39,11 @@ With the iLert Github Check Run integration, you can add alerts in iLert based o
 
 ## FAQ <a id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as the recovery conditions of check run are met, the alert in iLert will be resolved automatically.
+Yes, as soon as the recovery conditions of check run are met, the alert in ilert will be resolved automatically.
 
-**Can I connect Github with multiple alert sources from iLert?**
+**Can I connect Github with multiple alert sources from ilert?**
 
 Yes, simply create more webhooks in Github.
 

@@ -7,7 +7,7 @@ description: >-
 
 # StatusHub Integration
 
-## In iLert
+## In ilert
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
@@ -38,7 +38,7 @@ description: >-
 
 ![](../.gitbook/assets/statushub-subscribe.png)
 
-* Use the **StatusHub URL** that you generated in iLert and paste it in the URL field, and make sure the Content Type is **JSON**
+* Use the **StatusHub URL** that you generated in ilert and paste it in the URL field, and make sure the Content Type is **JSON**
 
 ![](../.gitbook/assets/statushub-subscribewebhook.png)
 
@@ -46,8 +46,8 @@ description: >-
 
 ![](../.gitbook/assets/statushub-customization.png)
 
-* To trigger the Incident in iLert, just create an Incident from StatusHub Dashboard
+* To trigger the Incident in ilert, just create an Incident from StatusHub Dashboard
 
 ![](../.gitbook/assets/statushub-incident.png)
 
-* The Incident will be created in iLert automatically upon creating an Incident in StatusHub
+* The Incident will be created in ilert automatically upon creating an Incident in StatusHub

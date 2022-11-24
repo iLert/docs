@@ -1,12 +1,12 @@
 ---
-title: iLert domains, emails & phone numbers
-seoTitle: 'iLert: Introduction to iLert: Domains, emails & phone numbers'
+title: ilert domains, emails & phone numbers
+seoTitle: 'iLert: Introduction to ilert: Domains, emails & phone numbers'
 date: '2018-12-29T05:02:05.000Z'
 weight: 2
-description: iLert getting started guide | Domains, emails & phone numbers
+description: ilert getting started guide | Domains, emails & phone numbers
 ---
 
-# iLert domains, ips, emails & phone numbers
+# ilert domains, ips, emails & phone numbers
 
 You can find information on our domains, notification email addresses, phone numbers below. We suggest whitelisting these in your tools and email clients.
 
@@ -23,7 +23,7 @@ You can find information on our domains, notification email addresses, phone num
 
 ## IP addresses <a href="#email-services" id="email-services"></a>
 
-iLert uses flexible serverless infrastructures to provide uptime checks and webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../../contact.md#support) if you are interested in using static IPs in case firewall whitelisting is required for your use case.
+ilert uses flexible serverless infrastructures to provide uptime checks and webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../../contact.md#support) if you are interested in using static IPs in case firewall whitelisting is required for your use case.
 
 | Address       | Region    | Description             |
 | ------------- | --------- | ----------------------- |
@@ -38,13 +38,13 @@ Additional IPs of **other regions e.g. US** will be provided on request.
 
 | Name            | Description                                          | Email                                     |
 | --------------- | ---------------------------------------------------- | ----------------------------------------- |
-| Notifications   | Email notifications sent by iLert                    | notifications@ilertnow.com                |
-| Incoming Emails | Emails sent by your tools to trigger alerts in iLert | {alert-source}@{your-domain}.ilertnow.com |
+| Notifications   | Email notifications sent by ilert                    | notifications@ilertnow.com                |
+| Incoming Emails | Emails sent by your tools to trigger alerts in ilert | {alert-source}@{your-domain}.ilertnow.com |
 | Help & Support  | Our support email                                    | support@ilert.com                         |
 
 ## SMS phone numbers <a href="#sms-alerts" id="sms-alerts"></a>
 
-The number that iLert uses to send SMS notifications depends on the target country:
+The number that ilert uses to send SMS notifications depends on the target country:
 
 | Country           | Number                                                                   |
 | ----------------- | ------------------------------------------------------------------------ |
@@ -63,7 +63,7 @@ The number that iLert uses to send SMS notifications depends on the target count
 
 ## Phone call numbers <a href="#voice-alerts" id="voice-alerts"></a>
 
-The number that iLert uses to send voice notifications depends on the target country:
+The number that ilert uses to send voice notifications depends on the target country:
 
 | Country           | Number                                                                                                                                                                                                                       | Description                                                    |
 | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |

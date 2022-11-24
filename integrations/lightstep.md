@@ -6,7 +6,7 @@ description: >-
 
 # Lightstep Integration
 
-## In iLert
+## In ilert
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
@@ -27,7 +27,7 @@ description: >-
 
 ![](../.gitbook/assets/lightstep-alert.png)
 
-* Complete the webhook creation, by putting in the name and put the **Lighstep URL** that we got earlier in iLert dashboard on URL field
+* Complete the webhook creation, by putting in the name and put the **Lighstep URL** that we got earlier in ilert dashboard on URL field
 
 ![](../.gitbook/assets/lightstep-webhook.png)
 
@@ -39,6 +39,6 @@ description: >-
 
 ![](../.gitbook/assets/lightstep-createalert.png)
 
-* Upon clicking "**Create**" button, the alert should be created and the Notification Destination should be assigned, and when the condition met, it will create an incident on iLert
+* Upon clicking "**Create**" button, the alert should be created and the Notification Destination should be assigned, and when the condition met, it will create an incident on ilert
 
 ![](../.gitbook/assets/lightstep-alertdone.png)

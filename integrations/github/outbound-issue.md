@@ -1,12 +1,12 @@
 ---
-description: Create issues in GitHub based on alerts from iLert.
+description: Create issues in GitHub based on alerts from ilert.
 ---
 
 # GitHub Outbound Issue Integration
 
-## In Github: Create iLert user and create API token <a href="#github-preparation" id="github-preparation"></a>
+## In Github: Create ilert user and create API token <a href="#github-preparation" id="github-preparation"></a>
 
-1. Optional: Create a dedicated iLert user in Github. This has the advantage that you can distinguish the Github tickets created by iLert.
+1. Optional: Create a dedicated ilert user in Github. This has the advantage that you can distinguish the Github tickets created by ilert.
 2. Go to **Profile Settings** --> **Developer settings** --> **Personal access tokens**, and click **Generate new token**.
 
 ![](../../.gitbook/assets/ghoi1.png)
@@ -15,13 +15,13 @@ description: Create issues in GitHub based on alerts from iLert.
 
 ![](../../.gitbook/assets/ghoi2.png)
 
-1. Click on **Create**. Keep your API key for later, as it is needed in iLert.
+1. Click on **Create**. Keep your API key for later, as it is needed in ilert.
 
 ![](../../.gitbook/assets/ghoi3.png)
 
 ![](../../.gitbook/assets/ghoi4.png)
 
-## In iLert: Create a Github Connector and link to an alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a Github Connector and link to an alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Click on the gear icon → **Connectors**
 
@@ -39,7 +39,7 @@ description: Create issues in GitHub based on alerts from iLert.
 
 ![](<../../.gitbook/assets/new\_incident\_action (5).png>)
 
-1. Select **Github** as the **type** then select the connector created in step 3 and fill in all fields. In the **Owner** and the **Repository** fields specify the owner and repository of the Github project where the iLert alerts should be published as Github Issue.
+1. Select **Github** as the **type** then select the connector created in step 3 and fill in all fields. In the **Owner** and the **Repository** fields specify the owner and repository of the Github project where the ilert alerts should be published as Github Issue.
 
 ![](<../../.gitbook/assets/iLert (76).png>)
 
@@ -51,7 +51,7 @@ description: Create issues in GitHub based on alerts from iLert.
 
 **Are updates to an alert published in the Github Ticket?**
 
-Yes, the state of the iLert Incident is reflected in the title of the Github ticket, eg. \[RESOLVED] Host compute.infra is DOWN.
+Yes, the state of the ilert Incident is reflected in the title of the Github ticket, eg. \[RESOLVED] Host compute.infra is DOWN.
 
 **Can I choose which updates should be published to an alert in Github?**
 

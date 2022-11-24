@@ -7,7 +7,7 @@ description: >-
 
 # MongoDB Atlas Integration
 
-## In iLert
+## In ilert
 
 * Go to the "**Alert sources**" tab and click "**Create new alert source**"
 
@@ -36,7 +36,7 @@ description: >-
 
 ![](../.gitbook/assets/mongodb\_project\_addalert.png)
 
-* If the Alert has been configured, it should show up in the **Alert Settings** tab and the Alert should be created in iLert.
+* If the Alert has been configured, it should show up in the **Alert Settings** tab and the Alert should be created in ilert.
 
 ![](../.gitbook/assets/mongodb\_project\_alertsettings.png)
 

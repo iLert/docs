@@ -1,12 +1,12 @@
 ---
 description: >-
-  With the iLert Search Guard integration, you can create alerts in iLert based
+  With the ilert Search Guard integration, you can create alerts in ilert based
   on Search Guard alerts.
 ---
 
 # Search Guard Integration
 
-## In iLert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
 ### Create a Search Guard alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -39,7 +39,7 @@ description: >-
 
 ![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_23\_00.png)
 
-1. Name the action e.g. **iLert**, paste the **Webhook URL** that you generated in iLert, change headers as required and paste the following **json** as body template
+1. Name the action e.g. **iLert**, paste the **Webhook URL** that you generated in ilert, change headers as required and paste the following **json** as body template
 
 ```
 {
@@ -54,14 +54,14 @@ description: >-
 
 1.  Click on **Create** to save the watch. &#x20;
 
-    Finished! Your Elastic Search Guard alerts will now create alerts in iLert.
+    Finished! Your Elastic Search Guard alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
 No, unfortunately Search Guard watch(es) will not fire resolve events for alerts.
 
-**Can I connect Search Guard with multiple alert sources from iLert?**
+**Can I connect Search Guard with multiple alert sources from ilert?**
 
 Yes, simply create more watches in Search Guard.

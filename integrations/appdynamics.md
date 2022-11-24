@@ -1,7 +1,7 @@
 ---
 title: AppDynamics Integration
 seoTitle: 'iLert: AppDynamics Integration for Alerting | Incident Response | Uptime'
-description: Create alerts in iLert based on custom thresholds from AppDynamics
+description: Create alerts in ilert based on custom thresholds from AppDynamics
 date: '2020-02-28T05:02:05.000Z'
 type: post
 ---
@@ -10,9 +10,9 @@ type: post
 
 AppDynamics provides application performance management \(APM\) and IT operations analytics across cloud computing environments as well as inside the data center.
 
-With iLert's AppDynamics integration, you can automatically create alerts in iLert based on custom thresholds from AppDynamics. That way, you will never miss a critical alert and always alert the right person using iLert's on-call schedules, automatic escalation, and multiple alerting channels. When a threshold in AppDynamics is exceeded, iLert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. iLert will automatically escalate to the next person, if the alert is not acknowledged. iLert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
+With ilert's AppDynamics integration, you can automatically create alerts in ilert based on custom thresholds from AppDynamics. That way, you will never miss a critical alert and always alert the right person using ilert's on-call schedules, automatic escalation, and multiple alerting channels. When a threshold in AppDynamics is exceeded, ilert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. ilert will automatically escalate to the next person, if the alert is not acknowledged. ilert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
 
-## In iLert: create an AppDynamics alert source <a id="create-alert-source"></a>
+## In ilert: create an AppDynamics alert source <a id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click "Create new alert source"
 2. Enter a name and select your desired escalation policy. Select "AppDynamics" as the **Integration Type**.
@@ -31,7 +31,7 @@ With iLert's AppDynamics integration, you can automatically create alerts in iLe
 
 ![](../.gitbook/assets/ad1.png)
 
-1. Give the template a name \(e.g. "iLert Notification"\) and add the following **Custom Templating Variables**:
+1. Give the template a name \(e.g. "ilert Notification"\) and add the following **Custom Templating Variables**:
 2. `ilertApiKey` - set it to the alert sources's API key from above
 3. `ilertEventType` - set it to `ALERT`
 4. In the **Request URL** section, set the the **Method** to `POST` and the **Raw URL** to `https://api.ilert.com/api/v1/events`
@@ -65,14 +65,14 @@ With iLert's AppDynamics integration, you can automatically create alerts in iLe
 
 ### Test the HTTP Request Template
 
-You can now test the template to make sure an alert is created in iLert.
+You can now test the template to make sure an alert is created in ilert.
 
 1. Click the _Test_ button at the bottom of the page
 2. Click _Add Event Type_ and select any event and then click _Run Test_.
 
 ![](../.gitbook/assets/ad6.png)
 
-1. Go to iLert and check that an alert has been created by AppDynamics.
+1. Go to ilert and check that an alert has been created by AppDynamics.
 
 ### Create action
 
@@ -84,11 +84,11 @@ You can now test the template to make sure an alert is created in iLert.
 
 ![](../.gitbook/assets/ad8.png)
 
-1. Give the action a name, e.g. "iLert Alert" and select the iLert **HTTP Request Template** from above and click on **Save**.
+1. Give the action a name, e.g. "ilert Alert" and select the ilert **HTTP Request Template** from above and click on **Save**.
 
 ![](../.gitbook/assets/ad9.png)
 
-1. Create another action that will be used to resolve alerts in iLert. Give the action a name \(e.g. “iLert Resolve”\) and select the same HTTP template again. Change the `iLertEventType` from `ALERT` to `RESOLVE`, then click **Save**.
+1. Create another action that will be used to resolve alerts in ilert. Give the action a name \(e.g. “ilert Resolve”\) and select the same HTTP template again. Change the `iLertEventType` from `ALERT` to `RESOLVE`, then click **Save**.
 
 ![](../.gitbook/assets/ad10.png)
 
@@ -98,17 +98,17 @@ You can now test the template to make sure an alert is created in iLert.
 
 ![](../.gitbook/assets/ad11.png)
 
-1. On the **Triggers** tab, create a new policy with the settings that should create alerts in iLert.
+1. On the **Triggers** tab, create a new policy with the settings that should create alerts in ilert.
 
 ![](../.gitbook/assets/ad12.png)
 
-1. Switch to the **Actions** tab and add the **iLert Alert** that you've created above. Then, click on **Save**. 
+1. Switch to the **Actions** tab and add the **ilert Alert** that you've created above. Then, click on **Save**. 
 
 ![](../.gitbook/assets/ad13.png)
 
 ![](../.gitbook/assets/ad14.png)
 
-1. Now repeat the last 3 steps with your desired recovery conditions to have alerts in iLert close automatically when your application, server or database in AppDynamics recovers.
+1. Now repeat the last 3 steps with your desired recovery conditions to have alerts in ilert close automatically when your application, server or database in AppDynamics recovers.
 
 ![](../.gitbook/assets/ad15.png)
 
@@ -116,15 +116,15 @@ You can now test the template to make sure an alert is created in iLert.
 
 ## FAQ <a id="faq"></a>
 
-**Will alerts in iLert be resolved automatically?**
+**Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as the recovery conditions of application, server or database are met, the alert in iLert will be resolved automatically.
+Yes, as soon as the recovery conditions of application, server or database are met, the alert in ilert will be resolved automatically.
 
-**Can I use AppDynamics with multiple alert sources from iLert?**
+**Can I use AppDynamics with multiple alert sources from ilert?**
 
-Yes, you can create arbitrary mappings between your applications in AppDynamics and alert sources in iLert. Simply create additional actions in AppDynamics using the same HTTP Request Template with a different `ilertApiKey`.
+Yes, you can create arbitrary mappings between your applications in AppDynamics and alert sources in ilert. Simply create additional actions in AppDynamics using the same HTTP Request Template with a different `ilertApiKey`.
 
 **Can I customize the alert messages?**
 
-Yes, you can customize the events sent to iLert by changing the JSON payload in the **Payload** section of the **HTTP Request Template**.
+Yes, you can customize the events sent to ilert by changing the JSON payload in the **Payload** section of the **HTTP Request Template**.
 

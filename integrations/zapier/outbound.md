@@ -1,7 +1,7 @@
 ---
 description: >-
-  User iLert as the trigger in Zapier and perform any action in Zapier for new
-  or updated alerts in iLert.
+  User ilert as the trigger in Zapier and perform any action in Zapier for new
+  or updated alerts in ilert.
 ---
 
 # Zapier Outbound Integration
@@ -22,7 +22,7 @@ description: >-
 
 ![](<../../.gitbook/assets/Edit\_a\_Step\_\_\_Zapier (1).png>)
 
-1. On the next slide, choose your iLert account. Then click on the **Continue** button.
+1. On the next slide, choose your ilert account. Then click on the **Continue** button.
 
 ![](<../../.gitbook/assets/Edit\_a\_Step\_\_\_Zapier (2).png>)
 
@@ -46,4 +46,4 @@ NOTE: you can't use an Zapier alert source here, as it will lead to an infinite 
 
 **Why the Zapier connector is in my alert source?**
 
-Every time you create a Zap with an iLert trigger, the Zapier connector in iLert is created automatically for the alert source you selected in the trigger.
+Every time you create a Zap with an ilert trigger, the Zapier connector in ilert is created automatically for the alert source you selected in the trigger.
