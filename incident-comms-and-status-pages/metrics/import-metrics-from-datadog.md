@@ -82,3 +82,5 @@ while this query is supported
 
 
 4. Preview your metric. You can make changes to your query and reload the data from Datadog. Note that once you have created your metric, you will no longer be able to change the metric query.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2022-11-25 at 00.28.29.png" alt=""><figcaption></figcaption></figure>

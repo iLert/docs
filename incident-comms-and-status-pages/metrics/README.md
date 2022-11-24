@@ -70,7 +70,7 @@ Metrics that are displayed as a single number provide the same aggregration func
 
 1. In the main navigation bar, click on **Status pages** (or **Incident comms**) --> **Metrics**
 2. Click on the **Create metric** button
-3. Chose your metric data source. You can either submit metric data using our [Series API](https://api.ilert.com/api-docs/#tag/Series/paths/\~1series\~1{key}/post) or import metrics from a 3rd party metrics provider such as Datadog or Prometheus.
+3. Chose your metric data source. You can either submit metric data using our [Series API](https://api.ilert.com/api-docs/#tag/Series/paths/\~1series\~1{key}/post) or import metrics from a 3rd party metrics provider such as [Datadog](import-metrics-from-datadog.md) or Prometheus.
 4. Configure your metric and click **Save**
 
 ## Add a metric to status page
