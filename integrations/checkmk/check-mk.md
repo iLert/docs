@@ -6,9 +6,17 @@ description: Use this guide for checkmk v 1.x
 
 With the ilert checkmk notification plugin you can easily integrate checkmk into ilert and extend your existing checkmk system with SMS, push and voice notifications as well as on-call schedules from ilert. The screenshots below are based on the checkmk Raw Edition (CRE) 1.2.8. The ilert checkmk plugin is compatible with all checkmk versions.
 
+{% hint style="success" %}
+Did you know we offer a [native integration for checkmk 2.x](native.md)
+{% endhint %}
+
 ## System requirements
 
-* Python >= 3.7.0&#x20;
+* Python >= 3.7 (alternatively Python >= 2.7.9, we suggest 2.7.10)
+
+{% hint style="warning" %}
+Python 2.x is EOL (end of life) we suggest to use Python >= 3.7
+{% endhint %}
 
 ## In ilert: create alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
@@ -106,15 +114,15 @@ Log in to checkmk's web GUI and continue there.
 
 ![](../../.gitbook/assets/mk5.jpg)
 
-1. Go to the notification settings of this user (by clicking on the "Notifications" icon).   &#x20;
+1. Go to the notification settings of this user (by clicking on the "Notifications" icon).
 
 ![](../../.gitbook/assets/mk6.jpg)
 
-1. Click on "New Rule" and select ilert checkmk Plugin as the "Notification Method". Enter your ilert API key (see above) as a parameter.   &#x20;
+1. Click on "New Rule" and select ilert checkmk Plugin as the "Notification Method". Enter your ilert API key (see above) as a parameter.
 
 ![](../../.gitbook/assets/mk7.jpg)
 
-1. Go back to the user list and activate your changes by clicking on "1 Changes":   &#x20;
+1. Go back to the user list and activate your changes by clicking on "1 Changes":
 
 ![](../../.gitbook/assets/mk8.jpg)
 

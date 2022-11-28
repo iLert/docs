@@ -9,10 +9,10 @@ With the ilert Nagios Notification Plugin, you can easily integrate Nagios with 
 ## System requirements <a href="#requirements" id="requirements"></a>
 
 * Nagios 2 (or higher)
-* Python >= 3.7.0 (alternatively Python >= 2.7.9 (we suggest 2.7.10))
+* Python >= 3.7 (alternatively Python >= 2.7.9, we suggest 2.7.10)
 
 {% hint style="warning" %}
-Python 2.x is at its end-of-life (EOL) please use Python 3.7 (or higher) for this integration.
+Python 2.x is EOL (end of life) we suggest to use Python >= 3.7
 {% endhint %}
 
 ## In ilert: create Nagios alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
@@ -154,4 +154,4 @@ No, events won't be lost. The plugin stores the events locally in a temporary di
 
 **The plugin does not work. What can I do?**
 
-First, please make sure that you have installed the correct Python version by using  `$ python --version` or `$ python3 --version` (Python 2.7.9+ or Python 3.7+). Also take a look at the log. The plugin uses the Unix / Linux system log for logging (e.g. under `/var/log/messages` or `/var/log/syslog` ). If you cannot find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
+First, please make sure that you have installed the correct Python version by using `$ python --version` or `$ python3 --version` (Python 2.7.9+ or Python 3.7+). Also take a look at the log. The plugin uses the Unix / Linux system log for logging (e.g. under `/var/log/messages` or `/var/log/syslog` ). If you cannot find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).

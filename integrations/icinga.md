@@ -13,10 +13,10 @@ With the ilert Icinga Notification Plugin, you can easily integrate Icinga with 
 ## System requirements <a href="#requirements" id="requirements"></a>
 
 * Icinga 2.x.
-* Python >= 3.7.0 (alternatively Python >= 2.7.9 (we suggest 2.7.10))
+* Python >= 3.7 (alternatively Python >= 2.7.9, we suggest 2.7.10)
 
 {% hint style="warning" %}
-Python 2.x is at its end-of-life (EOL) please use Python 3.7 (or higher) for this integration.
+Python 2.x is EOL (end of life) we suggest to use Python >= 3.7
 {% endhint %}
 
 > Are you using Icinga 1.x? Please refer to our [Nagios integration guide](nagios.md).
@@ -44,7 +44,7 @@ wget https://github.com/iLert/ilert-icinga/releases/latest/download/ilert-icinga
 unzip ilert-icinga.zip
 ```
 
-1. Move the plugin file `ilert-icinga.py` into the `/usr/local/bin` directory&#x20;
+1. Move the plugin file `ilert-icinga.py` into the `/usr/local/bin` directory
 
 {% tabs %}
 {% tab title="Python 3.7 (or higher)" %}
