@@ -69,9 +69,9 @@ To make a team private, navigate to the team's setting page and chose **Private*
 {% hint style="warning" %}
 **What happens to objects that are associated with both a private and a public team?**
 
-The private visibility setting of a team takes precedence over its public visibility. That is, if an object is assinged to two teams, one public and one private, the object will be visible to both teams **only** and won't be visible to members of other teams.&#x20;
+The private visibility setting of a team takes precedence over its public visibility. That is, if an object is assinged to two teams, one public and one private, the object will be visible to both teams **only** and won't be visible to members of other teams.
 
-Such objects will be marked with the icognito icon in the list views.
+Such objects will be marked with the incognito icon in the list views.
 {% endhint %}
 
 ## Team Roles
@@ -80,7 +80,7 @@ Such objects will be marked with the icognito icon in the list views.
 When working with teams, we recommend to keep all global users that do not require elevated permissions on the **Responder** role and use team roles instead. For example, instead of assigning a user the **User** role as their base role, use the **Responder** role as their base and assign the user the team role **User.**
 {% endhint %}
 
-Team roles extend the permissions of base roles within the context of a team. For example if you have been assigned the **Responder** role as your base role, and have been assigned the **Team User** role within a team, you will be granted the permissions of the User role within that team.&#x20;
+Team roles extend the permissions of base roles within the context of a team. For example if you have been assigned the **Responder** role as your base role, and have been assigned the **Team User** role within a team, you will be granted the permissions of the User role within that team.
 
 {% hint style="info" %}
 Note that you cannot be assigned a less permissive team role than your base role in a public team. For example if your base role is **User**, you cannot be assigned the **Team Responder** role within a public team. However, this is not the case for private teams. The team roles in a private take precedence over base roles. E.g. if your base role is **User**, you can be assigned **Team Responder** permissions in a private team.
@@ -150,7 +150,7 @@ This way alerts may still be shared across team contexts or re-assigned by highe
 The current team context will automatically be reflected in alert, on-call and notification reports. Meaning that the selected team filter will have a direct impact on the shown resources in the report, as well as the user permissions on the data accessible in any shared reports.
 
 {% hint style="info" %}
-Further restriction of resource permissions to a user will reflect onto shared report urls even after they are created e.g. when hiding an alert source from a user by placing it in a private team without his access, the shared alert report will also hide the alerts from this alert source automatically.&#x20;
+Further restriction of resource permissions to a user will reflect onto shared report urls even after they are created e.g. when hiding an alert source from a user by placing it in a private team without his access, the shared alert report will also hide the alerts from this alert source automatically.
 {% endhint %}
 
 ## FAQ
@@ -174,4 +174,3 @@ Absolutely. To achieve this, all users should have the global **Responder** role
 ### I am a Team Admin trying to add a user to my team but he does not appear in the users dropdown. What am I doing wrong?
 
 If you are certain that the user you are searching for exists in your ilert organization and he does not appear in the dropdown - there is a good chance that you have no permission to access him. Most likely this is related to him already being a member of a private team, take a look [here](teams.md#user-visibility).
-
