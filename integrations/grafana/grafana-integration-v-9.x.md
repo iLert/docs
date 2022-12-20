@@ -15,18 +15,19 @@ Are you using Grafana 8.x or lower? Please refer to our [Grafana Integration](gr
 3. In the field Integration type select **Grafana** and save.
 4.
 
-    <figure><img src="../../.gitbook/assets/graf1 (1).png" alt=""><figcaption></figcaption></figure>
-5. On the next page, a Webhook URL is generated. You will need this URL below when setting up in Grafana.
-6.
+<figure><img src="../../.gitbook/assets/graf1 (1).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../.gitbook/assets/graf2.jpeg" alt=""><figcaption></figcaption></figure>
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up in Grafana.
+2.
+
+<figure><img src="../../.gitbook/assets/graf2.jpeg" alt=""><figcaption></figcaption></figure>
 
 ## In Grafana 9: Add ilert Webhook as Alerting Channel
 
 1. In the sidebar, go to **Alerting** -> **Contact points** and click on the **New contact point button.**
 2.
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2022-09-08 at 16.31.10 (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2022-09-08 at 16.31.10 (2).png" alt=""><figcaption></figcaption></figure>
 3. Select **Contact point type** Webhook and in the field **URL** insert the webhookurl generated in ilert. Set the HTTP Method to **POST**.
 4.
 
@@ -39,12 +40,12 @@ Are you using Grafana 8.x or lower? Please refer to our [Grafana Integration](gr
 
     <figure><img src="../../.gitbook/assets/Screenshot 2022-09-08 at 16.53.35.png" alt=""><figcaption></figcaption></figure>
 8. Check if an alert has been created in ilert.
-9. After the Contact Point has been created in Grafana 9, switch to any dashboard of your Grafana 9 installation and edit a graph.
+9. After the Contact Point has been created in Grafana 9, switch to any dashboard of your Grafana 9 installation and edit a graph.Screenshot 2022-09-08 at 17.05.28.png
 10.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2022-09-08 at 17.05.28.png" alt=""><figcaption></figcaption></figure>
 11. In the edit view, open the **Alert** section via the left sidemenu and click on the blue **Create alert rule from this panel** button.
-12. Fill in the desired **Conditions**.&#x20;
+12. Fill in the desired **Conditions**.
 13.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2022-09-08 at 18.12.58.png" alt=""><figcaption></figcaption></figure>

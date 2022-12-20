@@ -13,7 +13,7 @@ description: >-
 
 ![](<../.gitbook/assets/ilert-create-alert (5).png>)
 
-* Enter a name and select your desired escalation policy.  &#x20;
+* Enter a name and select your desired escalation policy.
 * Select "**IBM Cloud Functions**" as the **Integration Type** and click **Save**.
 
 ![](../.gitbook/assets/ibmcloudfunctions\_alertsources.png)
@@ -72,14 +72,13 @@ function main(params) {
 	        throw error;
 	    });
 }
-
 ```
 
 * To trigger it, we need to pass the params, in this case click on "**Invoke with parameters**" on top right
 
 ![](../.gitbook/assets/ibmcloud-invokewithparams.png)
 
-* Put the following as a parameter, you can adjust the summary and details, however please replace the "**API\_KEY**" **** with the IBM Cloud Functions **API Key** that we go on ilert's dashboard earlier and **Apply** the parameters
+* Put the following as a parameter, you can adjust the summary and details, however please replace the "**API\_KEY**" \*\*\*\* with the IBM Cloud Functions **API Key** that we go on ilert's dashboard earlier and **Apply** the parameters
 
 ```
 {
@@ -102,4 +101,3 @@ function main(params) {
 2.  Is it possible to manage the incident, for example to accept or resolve the incident?
 
     Yes it is possible if the `eventType` is passed with value `ACCEPT` or `RESOLVE`, this should accept and resolve the issue respectively. In addition to that, you need to pass the `incidentKey` parameter on creation as well. All the parameter on event creation will be accepted. For more information, please refer to our API Documentation: [https://api.ilert.com/api-docs/#tag/Events/paths/\~1events/post](https://api.ilert.com/api-docs/#tag/Events/paths/\~1events/post)
-
