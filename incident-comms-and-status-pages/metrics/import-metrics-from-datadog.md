@@ -21,7 +21,7 @@
 2. Give the metrics data source a name (e.g. Datadog).
 3. Select **Datadog** in **Type** dropdown list.
 4. Select your Datadog region. You can identify your region by matching your Datadog website URL to the URL from the list.
-5.  Enter the API and Applicatio keys from above and click on **Create metric data source**.
+5.  Enter the API and Application keys from above and click on **Create metric data source**.
 
 
 
@@ -81,6 +81,6 @@ while this query is supported
     <figure><img src="../../.gitbook/assets/Screenshot 2022-11-25 at 00.16.56.png" alt=""><figcaption></figcaption></figure>
 
 
-4. Preview your metric. You can make changes to your query and reload the data from Datadog. Note that once you have created your metric, you will no longer be able to change the metric query.
+4. Preview your metric. You can make changes to your query and reload the data from Datadog. Note that once you have created your metric, you will no longer be able to change the metric query.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-11-25 at 00.28.29.png" alt=""><figcaption></figcaption></figure>
