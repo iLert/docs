@@ -34,18 +34,18 @@ The service is now ready to be used in incidents or included in status pages.
 
 ## Automation with alert sources
 
-You can automatically set the status of a service and create incidents using automated alert actions that are triggered by your alert sources.
+You can automatically set the status of a service and create incidents using alert actions that are triggered by your alert sources.
 
 To configure an automation
 
 * click on **Alert sources** -> **Alert sources** in the navigation bar
-* choose an Alert source and navigate to tab **Alert actions**
+* choose an alert source and navigate to the tab **Alert actions**
 * click on **Create first alert action**
 * select type ilert -> **Create incident or update status page or service**
 
 ![](<../.gitbook/assets/Screenshot 2023-01-10 at 13.36.57.png>)
 
-Once you configure an alert source's automation settings, any alert that will be created will automatically set the status of your service. Make sure trigger mode is set to **Automatic** for the alert action to trigger automatically for every alert:
+Once you have configured an automation's settings, any alert that will be created on the chosen alert source will automatically set the status of your service. Make sure that the trigger mode is set to **Automatic** for the alert action to trigger automatically for every alert:
 
 ![](<../.gitbook/assets/Screenshot 2023-01-10 at 13.34.17.png>)
 
