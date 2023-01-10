@@ -26,7 +26,7 @@ To create a new service, navigate to the Services page, click on the **Create ne
 
 ![](<../.gitbook/assets/Screenshot 2022-01-08 at 00.00.00 (2).png>)
 
-Give the service a name that is descriptive to the users of the service and click on **Create service**.&#x20;
+Give the service a name that is descriptive to the users of the service and click on **Create service**.
 
 ![](<../.gitbook/assets/Screenshot 2022-01-08 at 00.07.12.png>)
 
@@ -34,19 +34,20 @@ The service is now ready to be used in incidents or included in status pages.
 
 ## Automation with alert sources
 
-You can automatically set the status of a service and create incidents using automation rules that are triggered by your alert sources.&#x20;
+You can automatically set the status of a service and create incidents using automated alert actions that are triggered by your alert sources.
 
 To configure an automation
 
-* navigate to the **Automation** tab **** of a service
-* click on **Add alert source** and select the alert source that should trigger the automation
-* click on **Configure automation**
+* click on **Alert sources** -> **Alert sources** in the navigation bar
+* choose an Alert source and navigate to tab **Alert actions**
+* click on **Create first alert action**
+* select type ilert -> **Create incident or update status page or service**
 
-![](<../.gitbook/assets/Screenshot 2022-01-08 at 00.11.23.png>)
+![](<../.gitbook/assets/Screenshot 2023-01-10 at 13.36.57.png>)
 
-Once you configure an alert source's automation settings, any alert that will be created will automatically set the status of your service:
+Once you configure an alert source's automation settings, any alert that will be created will automatically set the status of your service. Make sure trigger mode is set to **Automatic** for the alert action to trigger automatically for every alert:
 
-![](<../.gitbook/assets/Screenshot 2022-01-08 at 00.12.32.png>)
+![](<../.gitbook/assets/Screenshot 2023-01-10 at 13.34.17.png>)
 
 ## Service uptime
 
@@ -55,7 +56,7 @@ Once you configure an alert source's automation settings, any alert that will be
 By default, a service's historical uptime is shown. You can chose to hide the historical uptime of a service in the service settings:
 
 1. Go the services page and click on the service for which you wan to hide the uptime
-2. In the **Settings** tab, uncheck the Option **Show historical uptime** ![](<../.gitbook/assets/image (52) (1) (1) (1).png>)****
+2. In the **Settings** tab, uncheck the Option **Show historical uptime** ![](<../.gitbook/assets/image (52) (1) (1) (1).png>)\*\*\*\*
 3. Click on save
 
 ### How is the uptime of a service calculated?
@@ -82,7 +83,7 @@ u=1-{5+(30*0.3) \above{1pt} 1440}=99.03 \%
 $$
 
 {% hint style="info" %}
-Outages that last less than a minute will be ignored and won't show up as downtime in the uptime graph.&#x20;
+Outages that last less than a minute will be ignored and won't show up as downtime in the uptime graph.
 {% endhint %}
 
 ## Add / remove subscribers to a service
