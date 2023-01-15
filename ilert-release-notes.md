@@ -6,15 +6,46 @@ description: >-
 
 # ilert Release Notes
 
+## January 2023
+
+#### New features
+
+* You may now backfill incidents via the API
+* New on-call widget in mobile apps for iOS and Android
+* Improved maintenance window creation
+* Improved 2FA login experience
+
+#### New and updated integrations
+
+* Further improvements to the ServiceNOW bidirectional integration
+* Status page service groups structure and metrics for [Terraform](https://registry.terraform.io/providers/iLert/ilert/latest)
+* Improved version of the [ilert browser extension](https://github.com/iLert/ilert-chrome)
+
+## December 2022
+
+#### New features
+
+* Metric data source credentials are now validated during creation
+* Status pages now support service groups
+* Dozens of new schedule override features that make it easier and faster to add overrides on the fly
+* Reworked My-on-calls features to take and pass on-call shifts
+* New end-of-escalation reached events for alert actions
+* Status page SMS and Webhook subscriptions
+
+#### New and updated integration
+
+* checkmk alert detail parsing has been improved
+* checkmk now supports custom detail labels
+
 ## November 2022
 
-### New features
+#### New features
 
 * We have updated our platform to our new logo and CI
 * automation rules (alert -> incident) have been integrated into alert actions and may now be manually triggered or configured with conditional execution
 * Status pages will now automatically collapse large amounts of services, SLA data and uptime graph are fetched on demand by opening collapsed services
 
-### New and updated integrations
+#### New and updated integrations
 
 * Prometheus metrics data source
 * new relic now supports the new [workflow](integrations/new-relic/new-relic-workflow.md) events
@@ -153,7 +184,7 @@ description: >-
 
 ### New features
 
-* [Status pages](incident-comms-and-status-pages/status-pages.md) and [Incident com 2.0](broken-reference) are now in GA
+* [Status pages](incident-comms-and-status-pages/status-pages.md) and [Incident com 2.0](broken-reference/) are now in GA
 * New [alert creation API](https://api.ilert.com/api-docs/#tag/Alerts/paths/\~1alerts/post) e.g. possible to target specific user
 * [2FA and MFA ](user-administration/two-factor-authentication-mfa.md)are now available for every ilert user
 * Call routing is now available in Italian
@@ -184,7 +215,7 @@ description: >-
 ### New features
 
 * We have launched the [ilert developer platform](rest-api/developing-ilert-apps/), which enables you to create your own applications on top of ilert's uptime platform and share them with other ilert users.
-* [Incident Communications](broken-reference) 2.0 is now in public BETA for all Premium users.
+* [Incident Communications](broken-reference/) 2.0 is now in public BETA for all Premium users.
 * Support for WhatsApp as a notification channel
 
 ### Improvements
@@ -204,7 +235,7 @@ description: >-
 * we have launched our Incident Communications 2.0 BETA, [reach out to us](contact.md) to join during the testing phase
 * On-call schedules: we now allow you to create more complex recurring schedules with [schedule layers](on-call-management-and-escalations/on-call-schedules/recurring-schedules.md#schedule-layers).
 * New alert view: as part of our new Incident Comms 2.0 feature, a brand new revamp of our Alert Detail View has been launched, including live updates for Alerts and Alert related information.
-* as part of our Incident Com 2 Feature, Stakeholder users may now  use the web login (they were previously limitted to the Mobile App only)
+* as part of our Incident Com 2 Feature, Stakeholder users may now use the web login (they were previously limitted to the Mobile App only)
 
 ### Improvements
 
@@ -411,7 +442,7 @@ description: >-
 ### New features
 
 * Irregular Schedules new calendar UI
-* Call Routing: You may now choose if an alert is resolved on agent/caller hang-up&#x20;
+* Call Routing: You may now choose if an alert is resolved on agent/caller hang-up
 
 ### New and updated integrations
 
@@ -490,7 +521,7 @@ description: >-
 ### New and updated integrations
 
 * [Autotask](integrations/autotask/)
-* [Zabbix](integrations/zabbix/native.md) (updated): Starting Zabbix 4.4, ilert can be integrated as a media type into Zabbix. Zabbix 5.0.4+ includes ilert as a media type by default. See also Zabbix blog post: [Working with multiple on-call teams using Zabbix and ilert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/)&#x20;
+* [Zabbix](integrations/zabbix/native.md) (updated): Starting Zabbix 4.4, ilert can be integrated as a media type into Zabbix. Zabbix 5.0.4+ includes ilert as a media type by default. See also Zabbix blog post: [Working with multiple on-call teams using Zabbix and ilert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/)
 * [Prometheus](integrations/prometheus.md) (updated): improved readabiltiy of prometheus alerts
 
 ### Improvements
@@ -512,14 +543,14 @@ description: >-
 
 ### Improvements
 
-* [Stakeholder engagement](broken-reference): stakeholders can now unsubscribe from alert update notifications
+* [Stakeholder engagement](broken-reference/): stakeholders can now unsubscribe from alert update notifications
 * Email login: Users can now login via email (in addition to username) . Usernames in ilert are deprecated and will be removed in the future.
 
 ## May 2020
 
 ### New features
 
-* [Stakeholder engagement](broken-reference): keep stakeholders in the loop during critical alerts ([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/)).
+* [Stakeholder engagement](broken-reference/): keep stakeholders in the loop during critical alerts ([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/)).
 
 ### New and updated integrations
 
