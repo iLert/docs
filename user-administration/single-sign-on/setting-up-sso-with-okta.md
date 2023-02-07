@@ -37,7 +37,7 @@ Log in to your ilert account as **account owner**, navigate to your **Account Se
 SSO with SAML requires your account to be on a Premium or Enterprise Plan, please always feel free to reach out in case you have any questions.
 {% endhint %}
 
-![](../../.gitbook/assets/iLert.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2023-02-07 at 11.07.07.png" alt=""><figcaption></figcaption></figure>
 
 Copy your **SAML Endpoint URL** and **Audience Restriction** values into the Okta SAML App settings, than choose **EmailAddress** in the **Name ID format** section. Scroll to bottom and click on the **Next** button
 
