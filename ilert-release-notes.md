@@ -280,7 +280,7 @@ description: >-
 
 ### New features
 
-* we have released a new version of our API check [here for more info](rest-api/api-version-history.md)
+* we have released a new version of our API check [here for more info](rest-api/api-version-history/)
 * we have added a new API resource [incident reports](https://api.ilert.com/api-docs/#tag/Reports)
 
 ### New and updated integrations
