@@ -108,7 +108,7 @@ When sending the old user schema in update (PUT) operations the user's contacts 
 
 Unless you are using the API or Terraform to manage user notification preferences there is no action required.
 
-If you are using custom workflows to create or update user preferences, your workflows should continue to work. However to prevent confusion of end-users wanting to make updates to their preferences using the new UI experience, we suggest removing the migrated fields from your user payload: `mobile, landline, notificationPreferences, lowPriorityNotificationPreferences, onCallNotificationPreferences, subscribedAlertUpdateStates, subscribedAlertUpdateNotificationTypes, susbcriptionNotificationTypes`
+If you are using custom workflows to create or update user preferences, your workflows should continue to work. However to prevent confusion of end-users wanting to make updates to their preferences using the new UI experience, we suggest removing the migrated fields from your user payload: `mobile, landline, notificationPreferences, lowPriorityNotificationPreferences, onCallNotificationPreferences, subscribedAlertUpdateStates, subscribedAlertUpdateNotificationTypes`
 
 {% hint style="info" %}
 Please make sure that your users have already started to use the new UI to manage their preferences, before removing the fields and running the updates - otherwise their preferences will be dropped.
