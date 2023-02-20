@@ -52,7 +52,7 @@ description: >-
 15.
 
     <figure><img src="../../.gitbook/assets/NR-14.png" alt=""><figcaption></figcaption></figure>
-16. On the next page click on **Activate workflow**, to safe and activate the workflow.
+16. On the next page click on **Activate workflow**, to save and activate the workflow.
 17.
 
     <figure><img src="../../.gitbook/assets/NR-15.png" alt=""><figcaption></figcaption></figure>

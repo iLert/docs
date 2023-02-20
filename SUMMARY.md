@@ -105,6 +105,7 @@
 * [Checkmk Integration](integrations/checkmk/README.md)
   * [Checkmk Integration (v 1.x)](integrations/checkmk/check-mk.md)
   * [Checkmk Integration (v 2.0+ )](integrations/checkmk/native.md)
+* [Cisco Meraki Integration](integrations/cisco-meraki.md)
 * [Cisco Webex](integrations/webex.md)
 * [Cloudflare Integration](integrations/cloudflare.md)
 * [Connectwise Manage Integration](integrations/connectwise-manage-integration.md)
