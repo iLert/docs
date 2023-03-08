@@ -25,12 +25,12 @@ An alert source represents the connection between your tools (usually a monitori
 
 ilert provides the following inbound integration options:
 
-| [**Tool integrations**](broken-reference)                        | These are pre-built integrations by ilert and work-out-of the box with your monitoring tools. If you're missing a tool, feel free to [suggest](contact.md) an integration that you'd like to see in ilert. |
-| ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**Email integration**](integrations/email/)                     | Forward emails to an alert source's email addres to integrate with ilert.                                                                                                                                  |
-| [**Event API**](https://api.ilert.com/api-docs/)                 | Write your own integration using our easy-to-use Event API.                                                                                                                                                |
-| **SMS integration**                                              | Send alerts to ilert via SMS.                                                                                                                                                                              |
-| [**Hearbeat monitoring**](getting-started/heartbeat-monitoring/) | A heartbeat alert source will automatically create an alert if it does not receive a heartbeat signal from your app at regular intervals.                                                                  |
+| [**Tool integrations**](broken-reference)                         | These are pre-built integrations by ilert and work-out-of the box with your monitoring tools. If you're missing a tool, feel free to [suggest](contact.md) an integration that you'd like to see in ilert. |
+| ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [**Email integration**](integrations/email/)                      | Forward emails to an alert source's email addres to integrate with ilert.                                                                                                                                  |
+| [**Event API**](https://api.ilert.com/api-docs/)                  | Write your own integration using our easy-to-use Event API.                                                                                                                                                |
+| **SMS integration**                                               | Send alerts to ilert via SMS.                                                                                                                                                                              |
+| [**Heartbeat monitoring**](getting-started/heartbeat-monitoring/) | A heartbeat alert source will automatically create an alert if it does not receive a heartbeat signal from your app at regular intervals.                                                                  |
 
 ![](<.gitbook/assets/image (1) (1) (1).png>)
 

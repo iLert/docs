@@ -1,6 +1,6 @@
 # Import metrics from Datadog
 
-## Create a Datadog metrics data source
+## Create a Datadog metric data source
 
 #### In Datadog
 

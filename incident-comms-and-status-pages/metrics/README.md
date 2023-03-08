@@ -70,7 +70,7 @@ Metrics that are displayed as a single number provide the same aggregration func
 
 1. In the main navigation bar, click on **Status pages** (or **Incident comms**) --> **Metrics**
 2. Click on the **Create metric** button
-3. Chose your metric data source. You can either submit metric data using our [Series API](https://api.ilert.com/api-docs/#tag/Series/paths/\~1series\~1{key}/post) or import metrics from a 3rd party metrics provider such as [Datadog](import-metrics-from-datadog.md) or Prometheus.
+3. Chose your metric data source. You can either submit metric data using our [Series API](https://api.ilert.com/api-docs/#tag/Series/paths/\~1series\~1{key}/post) or import metrics from a 3rd party metrics provider such as [Datadog](import-metrics-from-datadog.md) or [Prometheus](import-metrics-from-prometheus.md).
 4. Configure your metric and click **Save**
 
 ## Add a metric to status page
@@ -112,7 +112,7 @@ Note that the timestamp value is omitted in the JSON payload. In this case, the 
 Our API also support submitting multiple data points at once. Refer to our [API documentation](https://api.ilert.com/api-docs/#tag/Series/paths/\~1series\~1{key}/post) for more information.
 
 {% hint style="info" %}
-**iLert's Metric Data Storage**
+**ilert's Metric Data Storage**
 
 * A metric can store maximum 1 data point every 30 seconds. Each submitted data point is truncated to its nearest 30s interval.
 * Submitting data points with a higher resolution will result in the last data point being the only one stored.

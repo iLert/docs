@@ -1,6 +1,6 @@
 # Import metrics from Prometheus
 
-## Create a Prometheus metrics data source
+## Create a Prometheus metric data source
 
 #### In ilert
 
@@ -12,7 +12,7 @@
 2. Give the metrics data source a name (e.g. Prometheus).
 3. Select **Prometheus** in **Type** dropdown list.
 4. Type in your Prometheus URL. For ex.: [https://prometheus.example.org](https://prometheus.example.org).
-5. Choose your **Authentification** method.
+5. Choose your **Authentication** method.
 
 {% hint style="info" %}
 **Warning:** We recommend that you secure your Prometheus instance by using an authentication method.
