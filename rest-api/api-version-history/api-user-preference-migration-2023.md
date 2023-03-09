@@ -106,7 +106,7 @@ When sending the old user schema in update (PUT) operations the user's contacts 
 
 ### What action do I have to take?
 
-Unless you are using the API or Terraform to manage user notification preferences there is no action required.
+Unless you are using the API or Terraform to manage user notification preferences there is no action required. Refer to the section [Migrating ilert-go and/or Terraform](api-user-preference-migration-2023.md#migrating-ilert-go-and-or-terraform) to follow a migrating guide for both ilert-go and Terraform.
 
 If you are using custom workflows to create or update user preferences, your workflows should continue to work. However to prevent confusion of end-users wanting to make updates to their preferences using the new UI experience, we suggest removing the migrated fields from your user payload: `mobile, landline, notificationPreferences, lowPriorityNotificationPreferences, onCallNotificationPreferences, subscribedAlertUpdateStates, subscribedAlertUpdateNotificationTypes`
 
@@ -115,3 +115,120 @@ Please make sure that your users have already started to use the new UI to manag
 {% endhint %}
 
 In case you need support, feel free to [reach out](../../contact.md) any time.
+
+### Migrating ilert-go and/or Terraform
+
+Ilert-go and Terraform were both updated to a new major version.
+
+| Client                                                                                 | Old version | New version |
+| -------------------------------------------------------------------------------------- | ----------- | ----------- |
+| [ilert-go](https://github.com/iLert/ilert-go)                                          | v2.6.0      | **v3.0.0**  |
+| [terraform-provider-ilert](https://registry.terraform.io/providers/iLert/ilert/latest) | v1.11.4     | **v2.0.0**  |
+
+While many inconsistency issues were addressed and quality of life improvements plus bug fixes were implemented, the user resource was updated accordingly and new resources for user notification preferences were introduced in both clients.
+
+There are four possible cases for the migration:
+
+| <ol><li>You did not create/manage a user via Terraform/ilert-go</li></ol>                                                             | You do not have to take any action.                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <ol start="2"><li>You have referenced a user. (e.g. data source in Terraform, accessed user object in ilert-go)</li></ol>             | <p>Be aware of the <a href="api-user-preference-migration-2023.md#moved-resources">moved resources</a>.<br>When none of the migrated fields (except <code>email</code>) are referenced or used, you do not have to take any action.</p>                                                                                                                                                                                                                                                                      |
+| <ol start="3"><li>You have created/managed a user via Terraform/ilert-go <strong>without</strong> notification preferences.</li></ol> | <p><strong>Terraform:</strong> remove field <code>username</code> if used in user resource<br>(only references to the username are allowed)</p>                                                                                                                                                                                                                                                                                                                                                              |
+| <ol start="4"><li>You have created/managed a user via Terraform/ilert-go <strong>with</strong> notification preferences.</li></ol>    | <p><strong>Terraform/ilert-go:</strong> remove all fields associated to notification settings (and field <code>username</code>from user in <strong>Terraform</strong>) <br><br>use <code>user_email_contact</code>or     <code>user_phone_number_contact</code>to define your emails or phone numbers<br><br>use <code>user_alert_preference</code>, <code>user_duty_preference</code>, <code>user_subscription_preference</code>, <code>user_update_preference</code> to define your notification rules</p> |
+
+When all migration steps are done you can safely update your ilert-go/Terraform to the latest.
+
+### Migration example for Terraform
+
+The following example visualizes a transition of a pre-v2 user resource to the new user resource and notification settings resources.&#x20;
+
+**Pre v2 script**
+
+```
+resource "ilert_user" "example" {
+  email      = "example@example.com"
+  username   = "example"
+  first_name = "example"
+  last_name  = "example"
+
+  mobile {
+    region_code = "DE"
+    number      = "+4915123456789"
+  }
+
+  high_priority_notification_preference {
+    method = "EMAIL"
+    delay  = 0
+  }
+
+  low_priority_notification_preference {
+    method = "EMAIL"
+    delay  = 0
+  }
+
+  on_call_notification_preference {
+    method     = "EMAIL"
+    before_min = 60
+  }
+}
+```
+
+**New v2 script**
+
+```
+resource "ilert_user" "example" {
+  email      = "example@example.com"
+  first_name = "example"
+  last_name  = "example"
+}
+
+resource "ilert_user_phone_number_contact" "example" {
+  target      = "+4915123456789"
+  region_code = "DE"
+  user {
+    id = ilert_user.example.id
+  }
+}
+
+resource "ilert_user_email_contact" "example" {
+  target = "example@example.com"
+  user {
+    id = ilert_user.example.id
+  }
+}
+
+resource "ilert_user_alert_preference" "example_high" {
+  method = "EMAIL"
+  contact {
+    id = ilert_user_email_contact.example.id
+  }
+  delay_min = 0
+  type      = "HIGH_PRIORITY"
+  user {
+    id = ilert_user.example.id
+  }
+}
+
+resource "ilert_user_alert_preference" "example_low" {
+  method = "EMAIL"
+  contact {
+    id = ilert_user_email_contact.example.id
+  }
+  delay_min = 0
+  type      = "LOW_PRIORITY"
+  user {
+    id = ilert_user.example.id
+  }
+}
+
+resource "ilert_user_duty_preference" "example" {
+  method = "EMAIL"
+  contact {
+    id = ilert_user_email_contact.example.id
+  }
+  before_min = 60
+  type       = "ON_CALL"
+  user {
+    id = ilert_user.example.id
+  }
+}
+```
