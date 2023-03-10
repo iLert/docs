@@ -120,10 +120,10 @@ In case you need support, feel free to [reach out](../../contact.md) any time.
 
 Ilert-go and Terraform were both updated to a new major version.
 
-| Client                                                                                 | Old version | New version |
-| -------------------------------------------------------------------------------------- | ----------- | ----------- |
-| [ilert-go](https://github.com/iLert/ilert-go)                                          | v2.6.0      | **v3.0.0**  |
-| [terraform-provider-ilert](https://registry.terraform.io/providers/iLert/ilert/latest) | v1.11.4     | **v2.0.0**  |
+| Client                                                                                            | Old version | New version |
+| ------------------------------------------------------------------------------------------------- | ----------- | ----------- |
+| [ilert-go](https://github.com/iLert/ilert-go/releases/tag/v3.0.0)                                 | v2.6.0      | **v3.0.0**  |
+| [terraform-provider-ilert](https://github.com/iLert/terraform-provider-ilert/releases/tag/v2.0.2) | v1.11.4     | **v2.0.2**  |
 
 While many inconsistency issues were addressed and quality of life improvements plus bug fixes were implemented, the user resource was updated accordingly and new resources for user notification preferences were introduced in both clients.
 
