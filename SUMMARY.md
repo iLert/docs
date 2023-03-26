@@ -102,6 +102,7 @@
   * [Autotask Outbound Integration](integrations/autotask/outbound.md)
 * [Auvik Integration](integrations/auvik.md)
 * [Azure Function Integration](integrations/azure-functions.md)
+* [Checkly Integration](integrations/checkly.md)
 * [Checkmk Integration](integrations/checkmk/README.md)
   * [Checkmk Integration (v 1.x)](integrations/checkmk/check-mk.md)
   * [Checkmk Integration (v 2.0+ )](integrations/checkmk/native.md)
