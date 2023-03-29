@@ -10,34 +10,39 @@ With PRTG integration, you can easily integrate PRTG with ilert and extend your 
 
 1. Go to **Alert sources** and click on **Add a new alert source**
 2. Enter a name for your alert source (e.g. "PRTG") and select your desired escalation policy.
-3. In the Integration Type field, select **PRTG Network Monitor** and click on Save
+3. In the Integration Type field, select **PRTG Network Monitor** and click on Save.
 
-![](<../.gitbook/assets/Screenshot 2020-09-22 at 08.53.15.png>)
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-28 at 18.59.49 (1).png" alt=""><figcaption></figcaption></figure>
 
-1. On the next page,  **PRTG URL** and **PRTG Postdata** fields will be displayed.  You will need those two fields in the PRTG setup.
+4. Open the alert source details view by navigating to **Alert sources -->Alert sources** and **** clicking in the alert source that you have created. In the alert source details view, the fields **PRTG URL** and **PRTG Postdata** will be displayed. You will need those two fields in the PRTG setup below.
 
-![](<../.gitbook/assets/Screenshot 2020-09-22 at 09.04.21.png>)
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-28 at 19.13.16.png" alt=""><figcaption></figcaption></figure>
 
 ## In PRTG: Create new notification <a href="#create-notification" id="create-notification"></a>
 
-1. Got to notification settings
+1.  Got to **Setup** --> **Account Settings** --> **Notification Templates**\
+    ****
 
-![](../.gitbook/assets/pg3.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-03-29 at 17.43.55.png" alt=""><figcaption></figcaption></figure>
+2. Click on **Add Notification Template**&#x20;
+3. As notification method select **Execute HTTP ACTION**
+4.  Copy the **URL** and **Postdata** fields from the ilert alert source above and paste them in **URL** and **Payload** fields of the HTTP Action.\
+    \
 
-1. Add a new notification
-2. As notification method select **Execute HTTP ACTION**
-3. Copy the **URL** and **Postdata** fields from the ilert alert source. The API key is included in Postdata.
 
-![](../.gitbook/assets/pg4.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-03-29 at 17.58.10.png" alt=""><figcaption></figcaption></figure>
+5. Click on **Create**
+6.  Next, we will use the ilert notification template in PRTG. To do this, switch to the **Root** group in the device overview and select the **Notification Triggers** tab.
 
-1. Click on **Save**
-2. Next, we will use the newly created ilert notification method in PRTG. To do this, switch to the root group in the device overview and select the "Notifications" tab.
 
-![](../.gitbook/assets/pg5.png)
 
-1. Create the following status triggers. **Note**: We recommend the option "repeat this every 5 minutes" in case your internet connection goes down.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-03-29 at 18.05.37.png" alt=""><figcaption></figcaption></figure>
+7.  Create the following **Notification Triggers**. Note: We recommend to make use of the option **repeat every x minutes** in case your internet connection goes down.
 
-![](../.gitbook/assets/pg6.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-03-29 at 21.51.48.png" alt=""><figcaption></figcaption></figure>
+
+    \
+    You may adjust the trigger to fit your needs, e.g. adjust the time that PRTG waits before it sends a notification to ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
@@ -51,7 +56,7 @@ No, in PRTG it is unfortunately not possible to send notifications for acknowled
 
 **What if my internet connection is interrupted? Are the events generated in PRTG lost?**
 
-No, events will not be lost if you enable the "repeat every x minutes" option in PRTG (see above). In addition, we recommend that you monitor your Internet connection with an external monitoring service (e.g. using ilert's uptime monitoring or heartbeat monitoring). You can send these alerts to ilert.
+No, events will not be lost if you enable the "repeat every x minutes" option in PRTG (see above). In addition, we recommend that you monitor your Internet connection with ilert's [heartbeat monitoring](../getting-started/heartbeat-monitoring/).
 
 **Can I link PRTG to multiple alert sources in ilert?**
 
