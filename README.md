@@ -23,16 +23,9 @@ An alert can have the following states:
 
 An alert source represents the connection between your tools (usually a monitoring system, a ticketing tool, or an application) and ilert. We often refer to alert sources as **inbound integrations**.
 
-ilert provides the following inbound integration options:
-
-| [**Tool integrations**](broken-reference)                         | These are pre-built integrations by ilert and work-out-of the box with your monitoring tools. If you're missing a tool, feel free to [suggest](contact.md) an integration that you'd like to see in ilert. |
-| ----------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [**Email integration**](integrations/email/)                      | Forward emails to an alert source's email addres to integrate with ilert.                                                                                                                                  |
-| [**Event API**](https://api.ilert.com/api-docs/)                  | Write your own integration using our easy-to-use Event API.                                                                                                                                                |
-| **SMS integration**                                               | Send alerts to ilert via SMS.                                                                                                                                                                              |
-| [**Heartbeat monitoring**](getting-started/heartbeat-monitoring/) | A heartbeat alert source will automatically create an alert if it does not receive a heartbeat signal from your app at regular intervals.                                                                  |
-
-![](<.gitbook/assets/image (1) (1) (1).png>)
+{% content-ref url="alerting/alert-sources.md" %}
+[alert-sources.md](alerting/alert-sources.md)
+{% endcontent-ref %}
 
 ## Connectors and alert actions (aka outbound integrations)
 
@@ -77,29 +70,8 @@ See our incident comms documentation.
 
 ## Notifications
 
-In ilert, each user defines in their profile how they will be notified about an alert. A user with admin rights can also maintain the notification settings for other users. ilert supports the following notification channels:
+Notification settings configure when and how ilert sends out notifications to a user.
 
-* E-mail
-* SMS
-* Phone calls
-* iPhone and Android push notification
-* WhatsApp
-* Telegram
-
-Notifications in ilert are bi-directional, that is, you can respond to a notification using the same channel on which you were notified (without logging into ilert).
-
-You have the following response options:
-
-1. Acknowledge the alert
-2. Mark the alert as resolved
-3. Escalation to the next user
-
-You can find a list of caller IDs for sms and phone calls [here](getting-started/phone-numbers/#sms-alerts).
-
-To set your notification preferences
-
-1. Click on your name on then top right and select **My profile**
-2. Go to the **Notification settings** tab
-3. Change your notification preferences and click **Save**
-
-![](<.gitbook/assets/Screenshot 2020-11-25 at 13.30.30.png>)
+{% content-ref url="alerting/notification-settings.md" %}
+[notification-settings.md](alerting/notification-settings.md)
+{% endcontent-ref %}

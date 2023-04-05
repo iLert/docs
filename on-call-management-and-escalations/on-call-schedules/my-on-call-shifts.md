@@ -22,7 +22,7 @@ If a user is on-call by being directly included in the escalation policy, then o
 
 * **My on-call calendar**: shows the shifts for the selected escalation policy levels. The date picker on the left lets you quickly navigate between months and jump to a specic date. Moreover, it highlights days for which you are on-call with an orange dot.
 * **My escalation policies** selector lets you select the escalation levels that you wish to see on-call entries for. Note that escalation policies are only included in the list; if you are a member and they are used by at least one alert source. Your selection preference will be remembered.
-* **Timezone** selector **** lets you change the time zone in which you view the on-call entries. By default, the timezone of your user profile is taken.
+* **Timezone** selector lets you change the time zone in which you view the on-call entries. By default, the timezone of your user profile is taken.
 * **Schedule override** lets you create overrides for multiple schedules at once.&#x20;
 * **Export as calendar** lets you embed your on-call shifts in any calendar application.&#x20;
 

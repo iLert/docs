@@ -97,4 +97,4 @@ Example: [https://example.com:8443/webhooks/ilert](https://example.com:8443/webh
 
 ### I cannot rely on user-agent headers for my firewall, is there a way to whitelist ip addresses of the webhooks?
 
-Basically it is not possible to whitelist the ip addresses for all of our agents, as there are just too many blocks that may change at any time. However we do offer static IP agents in our Premium plan - the static ip addresses are listed [here](../getting-started/phone-numbers/#email-services).
+Basically it is not possible to whitelist the ip addresses for all of our agents, as there are just too many blocks that may change at any time. However we do offer static IP agents in our Premium plan - the static ip addresses are listed [here](../alerting/phone-numbers/#email-services).

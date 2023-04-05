@@ -6,7 +6,7 @@
 
 1.  Go to **Incident comms** --> **Metric data sources** and click on **Create metric data source.**
 
-    ****
+
 
     <figure><img src="../../.gitbook/assets/Screenshot 2022-12-19 at 16.14.41.png" alt=""><figcaption></figcaption></figure>
 2. Give the metrics data source a name (e.g. Prometheus).

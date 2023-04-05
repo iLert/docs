@@ -451,7 +451,7 @@ description: >-
 ### Improvements
 
 * Links and Images for Alerts with automatic connections
-* Adedd [international caller IDs for voice alerts](getting-started/phone-numbers/#voice-alerts) for USA and Canada, UK, Australia, Belgium and Netherlands
+* Adedd [international caller IDs for voice alerts](alerting/phone-numbers/#voice-alerts) for USA and Canada, UK, Australia, Belgium and Netherlands
 
 ## November 2020
 
@@ -533,7 +533,7 @@ description: >-
 
 ### New Features
 
-* [Heartbeat Monitoring](getting-started/heartbeat-monitoring/)
+* [Heartbeat Monitoring](alerting/heartbeat-monitoring/)
 
 ## June 2020
 

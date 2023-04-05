@@ -16,7 +16,7 @@ After you have created your alert source, you will see its details and should co
 
 ### Configuring your project settings
 
-![](<../.gitbook/assets/image (60).png>)
+![](<../.gitbook/assets/image (60) (2).png>)
 
 Login to your Hyperping account and navigate to **Project Settings**. Paste your alert source's **url** that we just copied in the step before into the webhook field. You may try and test your configuration using the provided **Down test** and **Up test** buttons.
 

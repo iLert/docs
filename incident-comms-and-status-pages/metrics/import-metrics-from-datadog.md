@@ -15,7 +15,7 @@
 
 1.  Go to **Status pages** (or **Incident comms**) --> **Metric data sources** and click on **Create metric data source**
 
-    ****
+
 
     <figure><img src="../../.gitbook/assets/Screenshot 2022-11-24 at 21.39.53.png" alt=""><figcaption></figcaption></figure>
 2. Give the metrics data source a name (e.g. Datadog).

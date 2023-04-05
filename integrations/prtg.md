@@ -14,14 +14,14 @@ With PRTG integration, you can easily integrate PRTG with ilert and extend your 
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-03-28 at 18.59.49 (1).png" alt=""><figcaption></figcaption></figure>
 
-4. Open the alert source details view by navigating to **Alert sources -->Alert sources** and **** clicking in the alert source that you have created. In the alert source details view, the fields **PRTG URL** and **PRTG Postdata** will be displayed. You will need those two fields in the PRTG setup below.
+4. Open the alert source details view by navigating to **Alert sources -->Alert sources** and clicking in the alert source that you have created. In the alert source details view, the fields **PRTG URL** and **PRTG Postdata** will be displayed. You will need those two fields in the PRTG setup below.
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-03-28 at 19.13.16.png" alt=""><figcaption></figcaption></figure>
 
 ## In PRTG: Create new notification <a href="#create-notification" id="create-notification"></a>
 
 1.  Got to **Setup** --> **Account Settings** --> **Notification Templates**\
-    ****
+
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-03-29 at 17.43.55.png" alt=""><figcaption></figcaption></figure>
 2. Click on **Add Notification Template**&#x20;
@@ -56,7 +56,7 @@ No, in PRTG it is unfortunately not possible to send notifications for acknowled
 
 **What if my internet connection is interrupted? Are the events generated in PRTG lost?**
 
-No, events will not be lost if you enable the "repeat every x minutes" option in PRTG (see above). In addition, we recommend that you monitor your Internet connection with ilert's [heartbeat monitoring](../getting-started/heartbeat-monitoring/).
+No, events will not be lost if you enable the "repeat every x minutes" option in PRTG (see above). In addition, we recommend that you monitor your Internet connection with ilert's [heartbeat monitoring](../alerting/heartbeat-monitoring/).
 
 **Can I link PRTG to multiple alert sources in ilert?**
 

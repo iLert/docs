@@ -218,11 +218,11 @@ Navigate to your alert source and switch to the **Alert actions** tab. Click on 
 
 If this is the first time you are creating a dynamic alert action. You will need to create a new connector (_requires Admin permissions_) that holds the information and optional credentials for your web service.
 
-![](<../../.gitbook/assets/image (61).png>)
+![](<../../.gitbook/assets/image (61) (1).png>)
 
 Enter the urls for your webservice and optional credentials (will be sent via HTTP **Authorization** header). Then save your connector.
 
-![](<../../.gitbook/assets/image (58).png>)
+![](<../../.gitbook/assets/image (58) (2).png>)
 
 Using your dynamic action connector you may now create a dynamic action alert connection, which will link the alert source to your webservice.
 

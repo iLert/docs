@@ -16,13 +16,13 @@ Click on the **Create a new alert source** button
 Enter a name for your new alert source and choose an escalation policy.\
 In the dropdown for integration type tool search for N-central and select it.
 
-![](<../.gitbook/assets/image (41).png>)
+![](<../.gitbook/assets/image (41) (1).png>)
 
 Click on **Save** to create your alert source.
 
 Your newly created N-central alert source will be opened, **copy** the N-central HTTP notification **URL** or click on the small copy icon right next to it.
 
-![](<../.gitbook/assets/image (42).png>)
+![](<../.gitbook/assets/image (42) (1).png>)
 
 We will need this URL to setup our N-central notification in the steps below.
 
@@ -44,7 +44,7 @@ Choose **Add** and create a new Third Party I**ntegration - HTTP** notification 
 
 Give it a proper name and paste the URL that you have copied _**from the new alert source**_ that you have created in ilert from the steps above as **Target URL**.
 
-![](<../.gitbook/assets/image (46).png>)
+![](<../.gitbook/assets/image (46) (1).png>)
 
 Click on **Save** to create the new notification method.
 

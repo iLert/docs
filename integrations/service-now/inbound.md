@@ -93,11 +93,7 @@ description: >-
 
 ## Advanced configuration
 
-
-
 iLert's ServiceNow integration allows you to easily configure advanced settings such as dynamic escalation policy routing and priority mapping.
-
-
 
 ![](<../../.gitbook/assets/image (57) (1) (1) (1).png>)
 
@@ -116,7 +112,7 @@ Afters you will get access to:
 
 When selecting priority mapping, ilert will contact your ServiceNow instance and fetch all available priorities of ServiceNow alerts. You will then be able to choose a mapping for each of these and determine how ilert will treat them when creating alerts in ilert.
 
-![](<../../.gitbook/assets/image (55) (1).png>)
+![](<../../.gitbook/assets/image (55) (1) (2).png>)
 
 ### Dynamic escalation policy routing
 
@@ -126,7 +122,7 @@ When selecting escalation policy routing, ilert will contact your ServiceNow ins
 
 You may choose to give escalation policies in ilert a unique routing key.
 
-![](<../../.gitbook/assets/image (54).png>)
+![](<../../.gitbook/assets/image (54) (3).png>)
 
 With an incoming event ilert will try to find the right escalation policy based on the routing key and assign the alert to the escalation policy. If no routing key is provided, ilert will use the assigned escalation policy of the alert source.
 
@@ -145,8 +141,6 @@ When saving the ServiceNow alert source with bidirectional setting enabled, it w
 In the bidirectional setup, ilert will try to map users automatically (if **Caller ID** in alert action is left empty) based on their email address. This accounts for actions taken in ilert and synced back to ServiceNow, as well as actions taken in ServiceNow and send to ilert.
 
 When providing a comment to the alert in ilert while resolving it, ilert will make sure sync the comments content as resolve information to the alert in ServiceNow.
-
-&#x20;
 
 ## FAQ <a href="#faq" id="faq"></a>
 

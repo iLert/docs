@@ -55,8 +55,6 @@ curl -d '[{"labels":{"Alertname":"iLert Test"},"annotations":{"summary":"iLert T
 
 ## Dynamic policy routing
 
-
-
 iLert's Prometheus integration supports dynamic escalation policy routing with the help of routing keys.
 
 In ilert navigate to the **escalation policies** that you want to route to and enter a unique routing key for for each policy.
@@ -79,7 +77,7 @@ Note: for custom labels to be accepted they must be part of the **alert labels**
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-****
+***
 
 **Will alerts in ilert be resolved automatically?**
 
@@ -91,7 +89,7 @@ Yes, create several Webhook receivers in Prometheus and enter the URL of the ale
 
 **What if my internet connection is interrupted? Are the alerts generated in Prometheus lost?**
 
-No, alerts are not lost. The alert manager has a retry mechanism. In addition, we recommend that you monitor your Internet connection with an external monitoring service (e.g. using [iLert's heartbeat feature](../getting-started/heartbeat-monitoring/) or uptime monitoring). See here for a [Prometheus Heartbeat Example](../getting-started/heartbeat-monitoring/prometheus-heartbeat-example.md).
+No, alerts are not lost. The alert manager has a retry mechanism. In addition, we recommend that you monitor your Internet connection with an external monitoring service (e.g. using [iLert's heartbeat feature](../alerting/heartbeat-monitoring/) or uptime monitoring). See here for a [Prometheus Heartbeat Example](../alerting/heartbeat-monitoring/prometheus-heartbeat-example.md).
 
 **Not all Prometheus Alerts alerts are created in ilert. Why?**
 
