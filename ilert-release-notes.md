@@ -6,6 +6,38 @@ description: >-
 
 # ilert Release Notes
 
+## March 2023
+
+### New features
+
+* We have launched a new feature for notification preferences: **live test notification** status
+* We have added additional states to our alert notification timeline events, that now allow you to (live) **track the status of outbound alert notifications** and see if they have been delivered to or (e.g. Whatsapp) read be the responder, they work seemlessly for all notification channels
+* We have launched an overhowl of our escalation policy list and detail views
+* We added additional details to delete dialogs across the platform
+* We have introduced the new ilert Free billing plan
+* The user list search has been improved
+* Alert email notifications links now come with an additional confirmation step
+
+### New and updated integrations
+
+* New Checkly inbound integration
+* Optimized Appdynamics inbound integration
+
+## February 2023
+
+### New features
+
+* Generic alert summary, details and routingKey templating with our **new template editor for alert sources**.
+* **We have launched a complete re-work of our Notification Preferences feature**
+* shiftColor is now supported in API
+* Public status pages may now receive unlimited subscriber imports in state INACTIVE, during activation a license with a fitting range of subscriptions is needed however.
+* We have enhanced the information in our /api/integrations resource
+
+### New and updated integrations
+
+* Cisco Meraki has been added as new inbound integration
+* We have optimized our PRTG inbound integration
+
 ## January 2023
 
 #### New features
