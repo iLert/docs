@@ -116,6 +116,52 @@ When providing credentials you may choose to activate bidirectional mode on the 
 
 When saving the Autotask alert source with bidirectional setting enabled, it will automatically create an outbound connector for you and take you to the creation page of the necessary alert action, please make sure to continue with the setup of the action to finish your bidirectional alert source setup.
 
+## Setting up multi workflows in Autotask
+
+To use Autotask workflows combined with holiday calendars to manage on-call availability, you will need to set up following 2 workflows:\
+
+
+1. Go to Autotask and then to **Admin -> Workflow Rules**
+2. In the **General -> Workflow Rule Name** section, enter a name eg. ilert (business hours)
+3. Ensure that **Active** is selected
+4. In the **Events -> CREATED/EDITED** section, activate the **Created by** and the **Edited by** fields and choose **Anyone**
+5.
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-04-17 at 22.29.39.png" alt=""><figcaption></figcaption></figure>
+6. In the **Conditions** section, select **Status Equal to New**.
+7.
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-04-17 at 22.33.38.png" alt=""><figcaption></figcaption></figure>
+8. Scroll down to the **Actions** panel and in the **Then Execute Extension Callout** section choose the **iLert Callout** that you created above
+9. Click on the **Save & New** button
+10.
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-04-17 at 22.34.04.png" alt=""><figcaption></figcaption></figure>
+
+
+
+1. Enter a name eg. ilert (no business hours)
+2. Ensure that **Active** is selected
+3. In the **Events -> CREATED/EDITED** section, activate the **Created by** and the **Edited by** fields and choose **Anyone**
+4.
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-04-17 at 22.34.50.png" alt=""><figcaption></figcaption></figure>
+5. In the **Conditions** section, select **Status Not equal to New**.
+6. Tick the **Time Sensitive** checkbox and select **Outside Business Hours of**.
+7.
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-04-17 at 22.36.21.png" alt=""><figcaption></figcaption></figure>
+8. Scroll down to the **Actions** panel and in the **Then Execute Extension Callout** section choose the **iLert Callout** that you created above
+9. Click on the **Save & New** button
+10.
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-04-17 at 22.37.23.png" alt=""><figcaption></figcaption></figure>
+
+
+
+\
+
+
 ## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in ilert be resolved automatically?**

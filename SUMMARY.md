@@ -12,7 +12,7 @@
 * [Critical Push Notifications and DND overrides](alerting/critical-push-notifications-and-dnd-overrides/README.md)
   * [iOS Critical Alerts Configuration](alerting/critical-push-notifications-and-dnd-overrides/ios-critical-alerts-configuration.md)
   * [Android Push Notification DND Configuration](alerting/critical-push-notifications-and-dnd-overrides/android-push-notification-dnd-configuration.md)
-* [ilert domains, ips, emails & phone numbers](alerting/phone-numbers/README.md)
+* [ilert sender IDs and domains](alerting/phone-numbers/README.md)
   * [SMS and voice alerts in China](alerting/phone-numbers/sms-and-voice-alerts-in-china.md)
 * [Alert sources](alerting/alert-sources.md)
 * [Heartbeat Monitoring](alerting/heartbeat-monitoring/README.md)

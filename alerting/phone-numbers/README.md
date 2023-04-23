@@ -3,44 +3,16 @@ title: ilert domains, emails & phone numbers
 seoTitle: 'iLert: Introduction to ilert: Domains, emails & phone numbers'
 date: '2018-12-29T05:02:05.000Z'
 weight: 2
-description: ilert getting started guide | Domains, emails & phone numbers
+description: >-
+  ilert's sender IDs used for outgoing notification (e.g. SMS phone numbers,
+  caller IDs, etc.)
 ---
 
-# ilert domains, ips, emails & phone numbers
+# ilert sender IDs and domains
 
 You can find information on our domains, notification email addresses, phone numbers below. We suggest whitelisting these in your tools and email clients.
 
-## Domains <a href="#web-services" id="web-services"></a>
-
-| Name              | URL                                                                                                               |
-| ----------------- | ----------------------------------------------------------------------------------------------------------------- |
-| Web application   | [https://app.ilert.com](https://app.ilert.com) and [https://your-domain.ilert.com](https://your-domain.ilert.com) |
-| Website           | [https://www.ilert.com](https://www.ilert.com)                                                                    |
-| Documentation     | [https://docs.ilert.com](https://docs.ilert.com)                                                                  |
-| API               | [https://api.ilert.com/api](https://api.ilert.com/api/v1)                                                         |
-| API documentation | [https://api.ilert.com/api-docs](https://api.ilert.com/api)                                                       |
-| Service Status    | [http://status.ilert.com](http://status.ilert.com)                                                                |
-
-## IP addresses for outgoing webhooks <a href="#email-services" id="email-services"></a>
-
-ilert uses flexible serverless infrastructures to provide webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../../contact.md#support) if you are interested in using static IPs in case firewall whitelisting is required for your use case.
-
-| Address       | Region    | Description |
-| ------------- | --------- | ----------- |
-| 18.159.7.25   | Frankfurt | webhooks    |
-| 3.123.64.23   | Frankfurt | webhooks    |
-| 54.73.206.214 | Dublin    | webhooks    |
-| 52.215.200.26 | Dublin    | webhooks    |
-
-Additional IPs of **other regions e.g. US** will be provided on request.
-
-## Email addresses <a href="#email-services" id="email-services"></a>
-
-| Name            | Description                                          | Email                                     |
-| --------------- | ---------------------------------------------------- | ----------------------------------------- |
-| Notifications   | Email notifications sent by ilert                    | notifications@ilertnow.com                |
-| Incoming Emails | Emails sent by your tools to trigger alerts in ilert | {alert-source}@{your-domain}.ilertnow.com |
-| Help & Support  | Our support email                                    | support@ilert.com                         |
+## &#x20;<a href="#web-services" id="web-services"></a>
 
 ## SMS phone numbers <a href="#sms-alerts" id="sms-alerts"></a>
 
@@ -75,3 +47,35 @@ The number that ilert uses to send voice notifications depends on the target cou
 | Netherlands       | <p>+31 97010252693<br>+31 97010241585</p>                                                                                                                                                                                    | <p>starting December 1st, 2020<br>starting March 1st, 2022</p> |
 | China             | <p>+1 201-277-1264</p><p>+1 201-277-4107</p><p>+1 201-277-4112</p><p>+1 201-277-4113</p><p>+1 201-277-4114</p><p>+1 201-277-4115</p><p>+1 201-277-4116</p><p>+1 201-277-4118</p><p>+1 201-277-4120</p><p>+1 202-951-5860</p> |                                                                |
 | Rest of the world | +49 157 3598 1212                                                                                                                                                                                                            |                                                                |
+
+## Email addresses <a href="#email-services" id="email-services"></a>
+
+| Name            | Description                                          | Email                                     |
+| --------------- | ---------------------------------------------------- | ----------------------------------------- |
+| Notifications   | Email notifications sent by ilert                    | notifications@ilertnow.com                |
+| Incoming Emails | Emails sent by your tools to trigger alerts in ilert | {alert-source}@{your-domain}.ilertnow.com |
+| Help & Support  | Our support email                                    | support@ilert.com                         |
+
+## Domains <a href="#web-services" id="web-services"></a>
+
+| Name              | URL                                                                                                               |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Web application   | [https://app.ilert.com](https://app.ilert.com) and [https://your-domain.ilert.com](https://your-domain.ilert.com) |
+| Website           | [https://www.ilert.com](https://www.ilert.com)                                                                    |
+| Documentation     | [https://docs.ilert.com](https://docs.ilert.com)                                                                  |
+| API               | [https://api.ilert.com/api](https://api.ilert.com/api/v1)                                                         |
+| API documentation | [https://api.ilert.com/api-docs](https://api.ilert.com/api)                                                       |
+| Service Status    | [http://status.ilert.com](http://status.ilert.com)                                                                |
+
+## IP addresses for outgoing webhooks <a href="#email-services" id="email-services"></a>
+
+ilert uses flexible serverless infrastructures to provide webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../../contact.md#support) if you are interested in using static IPs in case firewall whitelisting is required for your use case.
+
+| Address       | Region    | Description |
+| ------------- | --------- | ----------- |
+| 18.159.7.25   | Frankfurt | webhooks    |
+| 3.123.64.23   | Frankfurt | webhooks    |
+| 54.73.206.214 | Dublin    | webhooks    |
+| 52.215.200.26 | Dublin    | webhooks    |
+
+Additional IPs of **other regions e.g. US** will be provided on request.
