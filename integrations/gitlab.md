@@ -9,10 +9,29 @@ description: >-
 
 ## In ilert
 
-* Go to the "**Alert sources**" tab and click on "**Create new alert source**"
-* Enter a name and select your desired escalation policy.  &#x20;
-* Select "**GitLab**" as the **Integration Type** and click **Save**.
-* On the next page a **GitLab Integration URL** is generated. You will need the URL for the webhook configuration
+1. Go to the "**Alert sources**" tab and click on "**Create new alert source**"
+2. Enter a name and select your desired escalation policy.
+3. Select "**GitLab**" as the **Integration Type** and click **Save**.
+4.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-04-23 at 17.15.14.png" alt=""><figcaption></figcaption></figure>
+5. Now click on **GitLab Settings** to show the advanced settings
+6.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-04-23 at 18.19.15.png" alt=""><figcaption></figcaption></figure>
+7. You may now choose one of the given **Hook types** which this Alert source should process. (Leaving the selection on 'Select' will result to processing all incoming **Hook types**)
+8.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-04-23 at 14.57.15.png" alt=""><figcaption></figcaption></figure>
+9. Some **Hook types** do additionally have a selection for an **Event type**.
+10. Click on **Save** to proceed to the next step.
+11.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-04-23 at 14.57.56.png" alt=""><figcaption></figcaption></figure>
+12. On the next page a **GitLab Integration URL** is generated. You will need the URL for the webhook configuration
+13.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-04-23 at 18.13.43.png" alt=""><figcaption></figcaption></figure>
 
 ## In GitLab
 
@@ -24,7 +43,7 @@ description: >-
 
 ![](../.gitbook/assets/gitlab\_webhookselections.png)
 
-* Select "**Add Webhooks**"&#x20;
+* Select "**Add Webhooks**"
 * and if it is added successfully it will be shown at the bottom of the page.
 
 ![](../.gitbook/assets/gitlab\_savewebhook.png)
