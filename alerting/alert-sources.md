@@ -30,7 +30,7 @@ ilert provides the following inbound integration options:
 
 ilert provides you with the ability to set up custom templates for alert summaries and alert details. You can freely customise the content of your alert by using preset fields and functions depending on your alert source.
 
-{% hint style="warning" %}
+{% hint style="info" %}
 Alert template configuration is available only when editing an alert source, not when creating it.
 {% endhint %}
 

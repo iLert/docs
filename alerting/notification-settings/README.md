@@ -6,7 +6,7 @@ description: Configure how ilert should notify you.
 
 Each user defines in their profile how they will be notified about alerts, incidents and on-call shifts. To manage your notification settings, click on your avatar in the top right and go to **notification settings**.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-04-24 at 17.08.08.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-04-24 at 17.08.08.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 A user with admin rights can also change the notification settings for other users.&#x20;
@@ -27,15 +27,15 @@ ilert creates one email contact based on your login email by default. Push notif
 
 To add a notification contact, click on the **Add email** or **Add phone number** link.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-04-24 at 17.19.26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-04-24 at 17.19.26.png" alt=""><figcaption></figcaption></figure>
 
 Once you have added a notification contact, a list of supported notification channels will appear. Before you can send notifications to a contact through a channel, you need to activate the respective notification channel.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-04-24 at 17.24.57 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-04-24 at 17.24.57 (1).png" alt=""><figcaption></figcaption></figure>
 
 When you activate a notification channel, ilert will ask you for a verification code that will be sent to the respective channel.
 
-<figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Activating a phone number via SMS will also activate phone call notifications.
@@ -52,7 +52,7 @@ The process for activating a notification channel differs from channel to channe
 
 Once activation was successful, you are able to test the notification channel by clicking on the **Send test notification** link.\
 \
-![](<../.gitbook/assets/image (60).png>)
+![](<../../.gitbook/assets/image (60).png>)
 
 ### Define notification rules
 
@@ -72,12 +72,12 @@ To define notification rules
 1.  Choose a notification type (e.g. **High priority alerts**), expand the section and click on **Add notification rule**\
 
 
-    <figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
 2. Configure the notification rule by selecting a contact and channel  and click on **Save**.
 
 For alert notification rules, you will be able to set delays between notifications, like the following:
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Above rules will first notify you via Push (on all push devices), then (after 3 minutes) ilert will send you an SMS, unless you respond to the alert within 3 minutes. In this case, it will not notify you via SMS.
 

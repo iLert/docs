@@ -70,6 +70,6 @@ Incidents are the main way to communicate with your users when you are experienc
 
 A notification is a message that is sent to a user to inform them about alerts, incidents or on-call shifts. Users manage how they want to be notified in their notification settings.
 
-{% content-ref url="alerting/notification-settings.md" %}
-[notification-settings.md](alerting/notification-settings.md)
+{% content-ref url="alerting/notification-settings/" %}
+[notification-settings](alerting/notification-settings/)
 {% endcontent-ref %}
