@@ -77,7 +77,7 @@ To define notification rules
 
 For alert notification rules, you will be able to set delays between notifications, like the following:
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 Above rules will first notify you via Push (on all push devices), then (after 3 minutes) ilert will send you an SMS, unless you respond to the alert within 3 minutes. In this case, it will not notify you via SMS.
 
