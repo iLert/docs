@@ -43,10 +43,8 @@ description: Create Alerts in ilert from Microsoft SCOM
 10.
 
     <figure><img src="../.gitbook/assets/ms-scom-4.png" alt=""><figcaption></figcaption></figure>
-11. Enter following into the input fields:\
-
-12. Enter following into the input fields and click on **Finish**:\
-
+11. Enter following into the input fields:\\
+12. Enter following into the input fields and click on **Finish**:\\
 
     Full path of the command file:
 
@@ -56,7 +54,7 @@ description: Create Alerts in ilert from Microsoft SCOM
 
     \
     Command line parameters:\
-    _Replace the parameter string "Enter API Key" with your ilert API Key created in_ [_this step_](ms-scom.md#in-ilert-create-microsoft-scom-alert-source)__
+    _Replace the parameter string "Enter API Key" with your ilert API Key created in_ [_this step_](ms-scom.md#in-ilert-create-microsoft-scom-alert-source)\_\_
 
     ```powershell
     -F "C:\scripts\ilert\ilert.ps1" -AlertID "$Data[Default='NotPresent']/Context/DataItem/AlertId$" -AlertSourceKey "Enter API Key"
@@ -72,7 +70,7 @@ description: Create Alerts in ilert from Microsoft SCOM
 
     <figure><img src="../.gitbook/assets/ms-scom-5.png" alt=""><figcaption></figcaption></figure>
 14. Create a new Subscriber by right clicking on **Subscriber -> New subscriber...**
-15. ![](../.gitbook/assets/image.png)
+15. ![](<../.gitbook/assets/image (1).png>)
 16. Select a user as subscriber and click on **Next**
 17.
 
@@ -95,7 +93,7 @@ description: Create Alerts in ilert from Microsoft SCOM
     <figure><img src="../.gitbook/assets/ms-scom-12.png" alt=""><figcaption></figcaption></figure>
 26. Leave the schedule notification settings on **Always send notifications** and click on **Finish**
 27. Create a new Subscription by right clicking on **Subscription -> New subscription...**
-28. ****![](<../.gitbook/assets/image (2).png>)****
+28. ![](<../.gitbook/assets/image (2).png>)
 29. Set a name and proceed to the next step
 30.
 
@@ -126,8 +124,3 @@ Yes, as soon as an alert is being **closed** or marked as **resolved**, the aler
 **Will alerts in ilert be accepted automatically?**
 
 Yes, as soon as an alert is being marked as **acknowledged**, the alert in ilert will be accepted automatically.
-
-
-
-
-
