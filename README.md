@@ -1,7 +1,5 @@
 ---
-description: >-
-  ilert getting started guide. The most important concepts in ilert are
-  explained on this page.
+description: The most important concepts in ilert are explained on this page.
 ---
 
 # Core concepts
