@@ -6,7 +6,7 @@ description: >-
 
 # Core concepts
 
-ilert is a platform for alerting, on-call management and status pages. It helps teams to reduce response times to critical alerts by extending monitoring and ticketing tools with reliable alerting, automatic escalations, on-call schedules and other features to support the incident response process, such as [communicating with stakeholders,](broken-reference) updating status pages or creating tickets in external incident management tools. The most important concepts are explained in the following sections.
+ilert is a platform for alerting, on-call management and status pages. It helps teams to reduce response times to critical alerts by extending monitoring, ticketing tools and other alert sources with reliable alerting, automatic escalations, on-call schedules and other features to support the incident response process, such as [communicating with users and stakeholders,](broken-reference) updating status pages or creating tickets in external incident management tools. The most important concepts are explained in the following sections.
 
 ## Alert
 
@@ -60,9 +60,9 @@ On-call schedules determine who will be notified when an alert is created based 
 [on-call-schedules](on-call-management-and-escalations/on-call-schedules/)
 {% endcontent-ref %}
 
-## Services and Incidents
+## Incidents, Services and Status Pages
 
-See our incident comms documentation.
+Incidents are the main way to communicate with your users when you are experiencing user impacting issues with the services you provide to them. Services model business capabilities to which subscribers can subscribe to receive updates about incidents. Status pages are one way to help you inform users about outages and maintenances of one or more service. Any user in ilert can subscribe to incidents, services and status pages.
 
 {% content-ref url="broken-reference" %}
 [Broken link](broken-reference)
@@ -70,7 +70,7 @@ See our incident comms documentation.
 
 ## Notifications
 
-Notification settings configure when and how ilert sends out notifications to a user.
+A notification is a message that is sent to a user to inform them about alerts, incidents or on-call shifts. Users manage how they want to be notified in their notification settings.
 
 {% content-ref url="alerting/notification-settings.md" %}
 [notification-settings.md](alerting/notification-settings.md)
