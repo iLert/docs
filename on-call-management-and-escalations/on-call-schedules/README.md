@@ -50,9 +50,11 @@ Overrides are one-time changes to a schedule. Example uses of overrides include
 
 The main benefits of overrides are that they are easy to add, they do not change the underlying structure of the schedule, they only require Responder role permission, and they can be added via the mobile app.
 
+### Adding overrides in the web app
+
 To schedule an override in the web app
 
-1. Navigate to a schedule
+1. Navigate to a schedule detail view
 2. Click on the **Schedule override** button or click on click on a shift in the timeline view
 3. In the **Schedule override** dialog, select the user to you want to add as an override
 
@@ -62,10 +64,18 @@ Overrides can be deleted and overriden by another override. To delete an overrid
 
 ![](<../../.gitbook/assets/image (31).png>)
 
+You can also schedule overrides in the schedules list view by clicking on the **Override** button:
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-04-24 at 23.28.33.png" alt=""><figcaption></figcaption></figure>
+
+### Adding overrides in the mobile app
+
 To add an override in the mobile app, open the **Who is on-call?** screen and tap on **Override shift** on the shift you want to override.
 
 | <img src="../../.gitbook/assets/image (32).png" alt="" data-size="original"> | <img src="../../.gitbook/assets/image (33).png" alt="" data-size="original"> |
 | :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
+
+##
 
 ## FAQ
 
