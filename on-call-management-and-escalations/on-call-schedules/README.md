@@ -7,7 +7,7 @@ description: Maximize accountability and transparency with on-call schedules
 Use schedules to dynamically determine to whom an alert will be assigned to based on the time of the day. A few things to know about schedules:
 
 * Only one user per schedule can be on-call at a time.
-* Schedules are used in escalation policy. The members of a schedule will only be notified about inidents, if the schedule is part of an escalation policy.
+* Schedules are used in escalation policies. The members of a schedule will only be notified about inidents, if the schedule is part of an escalation policy.
 * To preserve the history of a schedule, any changes to schedules apply to current and future dates only. Shifts that are in the past cannot be deleted or modified.
 * Schedules can be embedded into any calendar application that supports the iCal format.
 
@@ -16,16 +16,16 @@ Use schedules to dynamically determine to whom an alert will be assigned to base
 {% hint style="info" %}
 **User role permissions required**
 
-* [User role permissions](../../user-administration/user-roles-and-permissions.md) are required to create or modify a schedule.&#x20;
+* [User role permissions](../../user-administration/user-roles-and-permissions.md) are required to create or modify a schedule.
 * Stakeholder users cannot be added to a schedule.
 {% endhint %}
 
 ilert offers two types of schedules - **recurring and static schedules**, which differ in the way a schedule is created and maintained. The schedule type cannot be changed after its creation.
 
-| [Recurring schedule](recurring-schedules.md)                                                                                                       | [Static schedule](static-schedules.md)                                                                                                                                                                                          |
-| -------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p><img src="../../.gitbook/assets/image (28).png" alt=""></p><p></p>                                                                              | <p><img src="../../.gitbook/assets/image (27).png" alt="" data-size="original"></p><p></p>                                                                                                                                      |
-| <ul><li>Use if shifts are recurring. </li><li>Example: every team member is on-call for a week.</li><li>Shifts are created automatically</li></ul> | <ul><li>Use if  you can’t plan your schedule beyond a specific time frame and want to schedule them manually on a regular basis.</li><li>Shifts are created manually by dragging and dropping users onto the calendar</li></ul> |
+| [Recurring schedule](recurring-schedules.md)                                                                                                      | [Static schedule](static-schedules.md)                                                                                                                                                                                         |
+| ------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="../../.gitbook/assets/image (28).png" alt="" data-size="original">                                                                      | <img src="../../.gitbook/assets/image (27).png" alt="" data-size="original">                                                                                                                                                   |
+| <ul><li>Use if shifts are recurring.</li><li>Example: every team member is on-call for a week.</li><li>Shifts are created automatically</li></ul> | <ul><li>Use if you can’t plan your schedule beyond a specific time frame and want to schedule them manually on a regular basis.</li><li>Shifts are created manually by dragging and dropping users onto the calendar</li></ul> |
 
 {% content-ref url="recurring-schedules.md" %}
 [recurring-schedules.md](recurring-schedules.md)
@@ -40,12 +40,12 @@ ilert offers two types of schedules - **recurring and static schedules**, which 
 {% hint style="info" %}
 **Responder role permissions required**
 
-Overrides can be added by users with **Responder** role privileges. A responder can only add herself as an override. Users with **User** privileges can add any user as an override.
+Overrides can be added by users with **Responder** role privileges. A responder can only add themself as an override. Users with **User** privileges can add any user as an override.
 {% endhint %}
 
 Overrides are one-time changes to a schedule. Example uses of overrides include
 
-* &#x20;when a user becomes sick, goes on vacation, or would like to swap a shift with another user
+* when a user becomes sick, goes on vacation, or would like to swap a shift with another user
 * scheduling different shifts for holidays
 
 The main benefits of overrides are that they are easy to add, they do not change the underlying structure of the schedule, they only require Responder role permission, and they can be added via the mobile app.
@@ -62,19 +62,19 @@ Overrides can be deleted and overriden by another override. To delete an overrid
 
 ![](<../../.gitbook/assets/image (31).png>)
 
-To add an override in the mobile app, open the **Who is on-call?** screen and tap on **Override shift** on the shift you want to override.&#x20;
+To add an override in the mobile app, open the **Who is on-call?** screen and tap on **Override shift** on the shift you want to override.
 
-| <p></p><p><img src="../../.gitbook/assets/image (32).png" alt=""></p> | <p></p><p><img src="../../.gitbook/assets/image (33).png" alt=""></p> |
-| :-------------------------------------------------------------------: | :-------------------------------------------------------------------: |
+| <img src="../../.gitbook/assets/image (32).png" alt="" data-size="original"> | <img src="../../.gitbook/assets/image (33).png" alt="" data-size="original"> |
+| :--------------------------------------------------------------------------: | :--------------------------------------------------------------------------: |
 
 ## FAQ
 
 #### What happens if there is a gap in a schedule?
 
-If an alert occurs during a time with no coverage in your schedule, then the alert will be escalated immediately to the next escalation level, without waiting for the escalation timeout. If no one is on-call on the entire escalation policy, no one will be notified.&#x20;
+If an alert occurs during a time with no coverage in your schedule, then the alert will be escalated immediately to the next escalation level, without waiting for the escalation timeout. If no one is on-call on the entire escalation policy, no one will be notified.
 
 #### Can I choose my own shift colour?
 
-Yes, you can change your shift colour in your profile settings. Click on your avatar in the navigation bar --> Contact details.&#x20;
+Yes, you can change your shift colour in your profile settings. Click on your avatar in the navigation bar --> Contact details.
 
 <figure><img src="../../.gitbook/assets/image (2) (2).png" alt=""><figcaption></figcaption></figure>
