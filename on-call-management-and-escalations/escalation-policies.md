@@ -4,7 +4,7 @@ description: Escalation policies define whom to notify about alerts.
 
 # Escalation policies
 
-Escalation policies define whom to assign an alert to when an alert is triggered by an alert source. They consist of rules that specify a target (a user or schedule) and an escalation timeout.&#x20;
+Escalation policies define whom to assign an alert to when an alert is triggered by an alert source. They consist of rules that specify a target (a user or schedule) and an escalation timeout.
 
 By defining multiple escalation rules, you can ensure that an alert doesn't get missed if the first responder fails to acknowledge the alert.
 
@@ -22,7 +22,7 @@ An escalation policy must have at least one escalation rule. You can add more ru
 {% hint style="info" %}
 **Alerting multiple users at the same time**
 
-The maxiumun number of users and on-call schedules that you can set in a single escalation level depends on your plan and is indicated in the escalation rule. In the above screenshot, the maximum number of targets per escalation level is 5.&#x20;
+The maxiumun number of users and on-call schedules that you can set in a single escalation level depends on your plan and is indicated in the escalation rule. In the above screenshot, the maximum number of targets per escalation level is 5.
 {% endhint %}
 
 ### Delayed escalation
@@ -33,7 +33,4 @@ With delayed escalation, you can delay escalation by a set period of time (up to
 
 ### Routing key (optional)
 
-By default, an alert source is associated with a single escalation policy and always uses the same policy for every alert that it creates. An escalation policy's routing key can be used in the Events API to overwrite an alert source's escalation policy and route alerts dynamically based on the escalation policy's routing key.
-
-
-
+By default, an alert source is associated with a single escalation policy and always uses the same policy for every alert that it creates. An escalation policy's routing key can be used in the Events API to overwrite an alert source's escalation policy and route alerts dynamically based on the escalation policy's routing key. You can also extract the routing from the alert payload using a [routing key template](../alerting/alert-sources.md#extract-escalation-policy-routing-key-using-dynamic-fields).
