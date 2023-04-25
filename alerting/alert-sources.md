@@ -1,5 +1,5 @@
 ---
-description: Connect your third party tools to ilert.
+description: Integrate third party tools with ilert.
 ---
 
 # Alert sources
@@ -28,7 +28,7 @@ ilert provides the following inbound integration options:
 
 ### Customize your alerts with alert templates
 
-ilert provides you with the ability to set up custom templates for alert summaries and alert details. You can freely customise the content of your alert by using preset fields and functions depending on your alert source.
+With alert templates, you can create you own template for the alert summary and alert details using preset fields from the integration.
 
 {% hint style="info" %}
 Alert template configuration is available only when editing an alert source, not when creating it.
@@ -36,17 +36,34 @@ Alert template configuration is available only when editing an alert source, not
 
 1. Click on **Alert sources -> Alert sources** and choose an alert source to edit
 2. Navigate to section **Alert templates** and check the boxes for **Alert summary** and/or **Alert details**
-3.  Select the **fields** you want to display for your alert. You are free to add text or symbols in between fields\
+3.  Create your custom template by selecting the **fields** you want use and entering any static text. \
+    The available fields are specific to the integration.\
 
 
     <figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
-4. Add field **functions** by clicking on the function icon next to a field to further edit the incoming fields\
 
+{% hint style="info" %}
+**Field colors and accessing raw fields**
 
-You can also use an alert field as an [escalation policy routing key](../on-call-management-and-escalations/escalation-policies.md#routing-key-optional).
+* Blue fields are preset fields provided by ilert.
+* Orange fields are extracted from past alerts in your account that were sent from the specific integration
+* Grey fields lets you extract any raw fields from the JSON payload by typing the name of the custom field, e.g. `custom_field`. You malso access nested fields and arrays, e.g. `custom_field.array_field[5].nested_field`
+{% endhint %}
+
+#### Manipulate alert fields by applying functions
+
+You can also use functions on dynamic fields to manipulate alert fields.
+
+To apply a function, hover over the field and click on the `f(x)` icon.
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-25 at 12.55.43.png" alt=""><figcaption></figcaption></figure>
+
+### Extract escalation policy routing key using dynamic fields
+
+With dynamic escalation policy routing, the escalation policy to be used will be determined based on the incoming alert, instead of always using the same escalation policy that is configured on the alert source.
+
+To extract the escalation policy [routing key](../on-call-management-and-escalations/escalation-policies.md#routing-key-optional) from the alert payload, add a routing key template  under **Advanced settings --> Escalation policy routing**
 
 <figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
-If an alert is now created from this alert source, its content will be adapted to your configuration.
-
-<figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption></figcaption></figure>
+In the above example, the field `Run location` (after it was transformed to lower case) from the alert payloadwill be used as the routing key.
