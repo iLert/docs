@@ -26,7 +26,7 @@ Service groups lets you group related services together on a status page. This a
 
 Below is an example service group from our status page. When the service group is collapsed, it shows a combined status and uptime graph. When the service group is expanded, it shows the status and uptime graph for each service individually. The overall status of multiple services in a service group is calculated by taking the status of the service with the highest impact. Similarly, the uptime percentage and outage graph is calculated by combining the outages of all services.
 
-![](<../.gitbook/assets/image (3).png>)![](<../.gitbook/assets/image (4).png>)
+![](../.gitbook/assets/image-14.png)![](../.gitbook/assets/image-15.png)
 
 To to create a service group
 
