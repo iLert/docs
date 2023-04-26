@@ -81,7 +81,7 @@ To add an override in the mobile app, open the **Who is on-call?** screen and ta
 
 The on-call widget in the navigation menu of the mobile app displays your current on-call status and quickly lets you take someone else's on-call.
 
-<img src="../../.gitbook/assets/image (3).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/image (3) (1).png" alt="" data-size="original">
 
 {% hint style="info" %}
 The on-call status is based on the selected policy levels from the [My on-call shifts](my-on-call-shifts.md) view. Therefore, the status **Not on-call** means that you are not on-call in any of the selected policies, but you could be on-call in other policies. Click on the **Select policies** link to modify your policy selection

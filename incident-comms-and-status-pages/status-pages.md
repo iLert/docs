@@ -20,29 +20,44 @@ Creating a status is a matter of few clicks.
 
 ![](<../.gitbook/assets/Screen Shot 2022-03-10 at 17.20.51.png>)
 
+## Service groups - group related services together
+
+Service groups lets you group related services together on a status page. This allows users to quickly see the overall health of a system and identify any issues that may be impacting multiple services.
+
+Below is an example service group from our status page. When the service group is collapsed, it shows a combined status and uptime graph. When the service group is expanded, it shows the status and uptime graph for each service individually. The overall status of multiple services in a service group is calculated by taking the status of the service with the highest impact. Similarly, the uptime percentage and outage graph is calculated by combining the outages of all services.
+
+![](<../.gitbook/assets/image (3).png>)![](<../.gitbook/assets/image (4).png>)
+
+To to create a service group
+
+1. Navigate to the status page for which you want to create a service group
+2. Go to the **Services** tab.
+3. Click on the **Create service group** button and give it a name.
+4. You can add services to the service group during creation or later in the by dragging and dropping services into the grouop
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-26 at 12.41.59.png" alt=""><figcaption></figcaption></figure>
+
 ## Public vs. private status pages
 
 Status pages in ilert can either be private or public. You change the page type any time. The table below compares both pages types:
 
-|                                      | Public page                                                         | Private page                                                                                                                                                                                             |
-| ------------------------------------ | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Use case**                         | For public incident communication with external users and customers | For private incident communication with employees and customers that either have an ilert account or a whitelisted IP address. **Note that a stakeholder license is sufficient to view status pages.**   |
-| **Visibility**                       | Publicly visible on the internet                                    | Visible to authenticated ilert users only or to users with whitelisted IP addresses                                                                                                                      |
-| **Supports custom domains with SSL** | :white\_check\_mark:                                                | :white\_check\_mark:                                                                                                                                                                                     |
-| **Supports IP Whitelist**            | :white\_check\_mark:                                                | :white\_check\_mark:                                                                                                                                                                                     |
+|                                      | Public page                                                         | Private page                                                                                                                                                                                           |
+| ------------------------------------ | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Use case**                         | For public incident communication with external users and customers | For private incident communication with employees and customers that either have an ilert account or a whitelisted IP address. **Note that a stakeholder license is sufficient to view status pages.** |
+| **Visibility**                       | Publicly visible on the internet                                    | Visible to authenticated ilert users only or to users with whitelisted IP addresses                                                                                                                    |
+| **Supports custom domains with SSL** | :white\_check\_mark:                                                | :white\_check\_mark:                                                                                                                                                                                   |
+| **Supports IP Whitelist**            | :x:                                                                 | :white\_check\_mark:                                                                                                                                                                                   |
 
 ## Update the status of your status page
 
 The status of your status page is automatically updated whenever
 
-* the status of a service that is included in the status page is updated (e.g. by setting a service to _Degraded_)&#x20;
+* the status of a service that is included in the status page is updated (e.g. by setting a service to _Degraded_)
 * an incident is created that affects any of the services from your status page
 
 [--> How to create an incident](incidents.md#create-and-communicate-incidents)
 
 {% embed url="https://www.loom.com/share/8f83ca49929247c49f33468461f08c91" %}
-
-
 
 ## Automation with alert sources
 
@@ -57,7 +72,7 @@ Both cases work by using a service's automation rules. See [-> Services: automat
 
 ## Setting up your custom domain <a href="#custom-domain" id="custom-domain"></a>
 
-Every status page (both private and public) comes with support for custom domains, so that you can make your status page accessible from your own subdomains (e.g. status.example.com).&#x20;
+Every status page (both private and public) comes with support for custom domains, so that you can make your status page accessible from your own subdomains (e.g. status.example.com).
 
 Setting up a custom domain consist of the following steps:
 
@@ -73,7 +88,7 @@ Go to your status page settings and enter a custom domain and click on **Save**.
 
 #### 2. Configure DNS
 
-Configuring DNS happens outside of ilert, at the DNS provider you are using for your domain.&#x20;
+Configuring DNS happens outside of ilert, at the DNS provider you are using for your domain.
 
 1. Create a new DNS record and select **CNAME** as the record type
 2. Enter the name for the CNAME record. The **name** or **DNS entry** is where you enter your subdomain. You might need to enter it in full (e.g. **status.example.com**) or you might just need to enter the part before your apex domain (e.g. **status**). If you're not sure which to use, check with your DNS provider.
@@ -89,11 +104,11 @@ Whenever possible, please **turn off Cloudflare proxying** (the orange cloud, al
 
 #### 3. Wait for the changes to take effect
 
-You might need to wait 1-48 hours for the DNS changes to take effect. This depends on the TTL setting of your DNS record and the time it takes until the DNS change is propagated throughout the internet.&#x20;
+You might need to wait 1-48 hours for the DNS changes to take effect. This depends on the TTL setting of your DNS record and the time it takes until the DNS change is propagated throughout the internet.
 
 ## Embed the status of your status page in your website <a href="#faq" id="faq"></a>
 
-Communicate incidents to your users right where they are using your service: on your web site or web app.&#x20;
+Communicate incidents to your users right where they are using your service: on your web site or web app.
 
 To embed the status of your status page in your web app or website, you can use ilert's floating staus widget or status badge. The status page widget will only be visible only if there is an ongoing incident or scheduled maintenance and will be hidden if all services are operating normally. The status widget will always be visible and show the overall status of your status page.
 
@@ -136,5 +151,4 @@ You probably forgot to activate your status page. Once you are satisfied with yo
 
 #### Can I make a status page accessible for certail IP addresses or IP ranges only?
 
-Yes, create private status page and configure an IP whitelist in the status page settings.
-
+Yes, create a private status page and configure an IP whitelist in the status page settings.
