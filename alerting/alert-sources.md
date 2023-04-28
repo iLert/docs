@@ -1,5 +1,5 @@
 ---
-description: Integrate third party tools with ilert.
+description: Connect your third party tools to ilert.
 ---
 
 # Alert sources
@@ -66,4 +66,31 @@ To extract the escalation policy [routing key](../on-call-management-and-escalat
 
 <figure><img src="../.gitbook/assets/image (56).png" alt=""><figcaption></figcaption></figure>
 
-In the above example, the field `Run location` (after it was transformed to lower case) from the alert payloadwill be used as the routing key.
+In the above example, the field `Run location` (after it was transformed to lower case) from the alert payload will be used as the routing key.
+
+### Customise your alerts with notification priority
+
+By using notification priority, you can easily customise your alert notification based on your notification rules.
+
+1. Click on **Alert sources -> Alert sources** and choose an alert source to edit
+2. Navigate to section **Advanced Settings** and see **Notification Priority**
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-18 at 13.26.24.png" alt=""><figcaption></figcaption></figure>
+
+&#x20;ilert provides different priority settings to customize your alerts.
+
+* **High (with escalation):** You will be notified based on your high-priority notification rules and an alert can be escalated based on escalation policy.
+* **Low (no escalation):** You will be notified based on your low-priority notification rules and an alert cannot be escalated.
+
+> By selecting **High during support hours, low priority** **otherwise** or **Low during support hours, high priority otherwise** you can easily arrange the support hours for each day of the week.
+
+* **High during support hours, low priority otherwise:** During your support hours, you are notified based on your high priority notification rules. At all other times, you are notified based on your low priority notification rules.
+* **Low during support hours, high priority otherwise:** During your support hours, you are notified based on your low priority notification rules. At all other times, you are notified based on your high priority notification rules.
+
+If you select **High during support hours, low priority otherwise,** you can choose to **Raise priority of all pending alerts** by ticking the checkbox located under the support hour selection. All your pending alerts for the current alert source will be raised to "high" when your support hours **begin**.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+If you select **Low during support hours, high priority otherwise,** you can choose to **Raise priority of all pending alerts** by ticking the checkbox located under the support hour selection. All your pending alerts for the current alert source will be raised to "high" when your support hours **end**.
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>

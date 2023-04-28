@@ -18,7 +18,7 @@ If a user is on-call by being directly included in the escalation policy, then o
 
 ### My on-call shifts page
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
 * **My on-call calendar**: shows the shifts for the selected escalation policy levels. The date picker on the left lets you quickly navigate between months and jump to a specic date. Moreover, it highlights days for which you are on-call with an orange dot.
 * **My escalation policies** selector lets you select the escalation levels that you wish to see on-call entries for. Note that escalation policies are only included in the list; if you are a member and they are used by at least one alert source. Your selection preference will be remembered.
@@ -57,7 +57,7 @@ You can override your shifts
 
 A pop up will appear showing you the shifts that will be affected by the override. You may change your end and start date and the affected shifts before finally scheduling any overrides.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 * Overrides that are created from the **My on-call shifts** page can only by deleted individually by going to each on-call schedule.

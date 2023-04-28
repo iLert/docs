@@ -54,9 +54,9 @@ With linear interpolation, missing data points will be shown by drawing a straig
 
 The following metric has missing data points. Below you can see the effect of interpolation.
 
-|                Interpolation enabled               |             Interpolation disabled             |
-| :------------------------------------------------: | :--------------------------------------------: |
-| ![](<../../.gitbook/assets/image (1) (4) (1).png>) | ![](<../../.gitbook/assets/image (4) (2).png>) |
+|              Interpolation enabled             |             Interpolation disabled             |
+| :--------------------------------------------: | :--------------------------------------------: |
+| ![](<../../.gitbook/assets/image (1) (5).png>) | ![](<../../.gitbook/assets/image (4) (2).png>) |
 
 ### Single number metric
 
