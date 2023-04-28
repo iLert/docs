@@ -168,6 +168,7 @@
 * [Oh Dear Integration](integrations/ohdear.md)
 * [PandoraFMS Integration](integrations/pandorafms.md)
 * [Pingdom Integration](integrations/pingdom.md)
+* [PostHog Integration](integrations/posthog.md)
 * [Prometheus Integration](integrations/prometheus.md)
 * [PRTG Network Monitor Integration](integrations/prtg.md)
 * [Push Notifications](integrations/push-notification.md)
