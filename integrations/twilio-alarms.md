@@ -26,7 +26,7 @@ description: Create alerts in ilert from Twilio Alarms.
 
 
     <figure><img src="../.gitbook/assets/twilio-1.png" alt=""><figcaption></figcaption></figure>
-2.  Select **Any Warning or Error** in the **Error code** field.
+2.  Select a desired Error in the **Error code** field.
 
 
 
