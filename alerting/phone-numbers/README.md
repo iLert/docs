@@ -50,11 +50,7 @@ The number that ilert uses to send voice notifications depends on the target cou
 
 ## Email addresses <a href="#email-services" id="email-services"></a>
 
-| Name            | Description                                          | Email                                     |
-| --------------- | ---------------------------------------------------- | ----------------------------------------- |
-| Notifications   | Email notifications sent by ilert                    | notifications@ilertnow.com                |
-| Incoming Emails | Emails sent by your tools to trigger alerts in ilert | {alert-source}@{your-domain}.ilertnow.com |
-| Help & Support  | Our support email                                    | support@ilert.com                         |
+<table><thead><tr><th width="212">Name</th><th width="251.66666666666669">Description</th><th>Email</th></tr></thead><tbody><tr><td>Notifications</td><td>Email notifications sent by ilert</td><td>notifications@ilertnow.com</td></tr><tr><td>Incoming Emails</td><td>Emails sent by your tools to trigger alerts in ilert</td><td>{alert-source}@{your-domain}.ilertnow.com</td></tr><tr><td>Help &#x26; Support</td><td>Our support email</td><td>support@ilert.com</td></tr></tbody></table>
 
 ## Domains <a href="#web-services" id="web-services"></a>
 
@@ -71,11 +67,6 @@ The number that ilert uses to send voice notifications depends on the target cou
 
 ilert uses flexible serverless infrastructures to provide webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../../contact.md#support) if you are interested in using static IPs in case firewall whitelisting is required for your use case.
 
-| Address       | Region    | Description |
-| ------------- | --------- | ----------- |
-| 18.159.7.25   | Frankfurt | webhooks    |
-| 3.123.64.23   | Frankfurt | webhooks    |
-| 54.73.206.214 | Dublin    | webhooks    |
-| 52.215.200.26 | Dublin    | webhooks    |
+<table><thead><tr><th>Address</th><th width="279.6666666666667">Region</th><th>Description</th></tr></thead><tbody><tr><td>18.159.7.25</td><td>Frankfurt</td><td>webhooks</td></tr><tr><td>3.123.64.23</td><td>Frankfurt</td><td>webhooks</td></tr><tr><td>54.73.206.214</td><td>Dublin</td><td>webhooks</td></tr><tr><td>52.215.200.26</td><td>Dublin</td><td>webhooks</td></tr></tbody></table>
 
 Additional IPs of **other regions e.g. US** will be provided on request.

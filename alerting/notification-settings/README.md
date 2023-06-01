@@ -58,12 +58,7 @@ Once activation was successful, you are able to test the notification channel by
 
 There are 5 different types of notification rules to configure:
 
-| High priority alerts   | notifies, when a high priority alert is assigned to the user (initially on alert creation, or when added as responder) |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| Low priority alerts    | notifies, when a low priority alert is assigned to the user (initially on alert creation, or when added as responder)  |
-| Alert status updates   | notifies, when user is already assigned to an alert and the alert status changes (e.g. another user accepts the alert) |
-| Incident notifications | notifies, when user is added to an incident as a subscriber (initially on incident creation, or when added manually)   |
-| On-call notifications  | notifies at the given point of time before the user is being on-call                                                   |
+<table data-header-hidden><thead><tr><th width="221">Category</th><th></th></tr></thead><tbody><tr><td>High priority alerts</td><td>notifies, when a high priority alert is assigned to the user (initially on alert creation, or when added as responder)</td></tr><tr><td>Low priority alerts</td><td>notifies, when a low priority alert is assigned to the user (initially on alert creation, or when added as responder)</td></tr><tr><td>Alert status updates</td><td>notifies, when user is already assigned to an alert and the alert status changes (e.g. another user accepts the alert)</td></tr><tr><td>Incident notifications</td><td>notifies, when user is added to an incident as a subscriber (initially on incident creation, or when added manually)</td></tr><tr><td>On-call notifications</td><td>notifies at the given point of time before the user is being on-call</td></tr></tbody></table>
 
 
 
