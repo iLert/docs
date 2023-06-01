@@ -8,12 +8,9 @@ description: Create alerts in ilert from Checkly checks
 
 1. Go to **Alert sources** and click on the **Create new alert source** button
 2. Set a name for your Checkly alert source and select an escalation policy
-3.  In the field Integration type select **Checkly** and click **Create**.\
+3.  In the field Integration type select **Checkly** and click **Create**.
 
-
-    <figure><img src="../.gitbook/assets/Screenshot 2023-06-01 at 13.57.38.png" alt=""><figcaption></figcaption></figure>
-
-
+    <figure><img src="../.gitbook/assets/Screenshot 2023-06-01 at 19.01.15.png" alt=""><figcaption></figcaption></figure>
 4. Skip any advanced settings for now and click **Save** on the next page.
 5.  Copy the **Checkly URL**. You will need in the Checkly configuration below.\
 
@@ -26,21 +23,13 @@ description: Create alerts in ilert from Checkly checks
 
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-06-01 at 17.59.20.png" alt=""><figcaption></figcaption></figure>
-
-
 2.  Browse to ilert in the list of channels and click on **Add channel**\
 
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-06-01 at 18.00.43.png" alt=""><figcaption></figcaption></figure>
-
-
-3.  Give the alert channel a name (e.g. ilert) and paste the **Checkly URL** from above in the URL field. Optionally change the notification events. Recovery notifications will resolve existing alerts in ilert that were created from checkly. **Do not edit the payload**.\
-    \
-
+3.  Give the alert channel a name (e.g. ilert) and paste the **Checkly URL** from above in the URL field. Optionally change the notification events. Recovery notifications will resolve existing alerts in ilert that were created from checkly. **Do not edit the payload**.
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-06-01 at 18.05.49.png" alt=""><figcaption></figcaption></figure>
-
-
 4. Click **Save ilert webhook**.
 
 ## FAQ <a href="#faq" id="faq"></a>
