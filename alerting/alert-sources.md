@@ -19,7 +19,7 @@ ilert provides the following inbound integration options:
 2.  Choose a name, an escalation policy and your integration type and create the alert source. Refer to our integration documentations for detailed information on how to set up each integration properly.\
 
 
-    ![](<../.gitbook/assets/image (1) (1) (1).png>)
+    ![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 ### Customize your alerts with alert templates
 
@@ -88,4 +88,4 @@ If you select **High during support hours, low priority otherwise,** you can cho
 
 If you select **Low during support hours, high priority otherwise,** you can choose to **Raise priority of all pending alerts** by ticking the checkbox located under the support hour selection. All your pending alerts for the current alert source will be raised to "high" when your support hours **end**.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
