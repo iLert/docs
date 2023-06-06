@@ -18,112 +18,118 @@ Are you using Zabbix 4.3 or lower? Please refer to our [Zabbix 2.2 - 4.3 Integra
 
 ## In ilert: Create an alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1. Go to **Alert sources** and click on **Add a new alert source**.
+1.  Go to **Alert sources** and click on **Add a new alert source**.\
 
-![](../../.gitbook/assets/zbn1.png)
 
-1. Set a name (e.g. "Zabbix") and select your desired escalation policy.
-2. Set the **Integration type** to Zabbix.
+    ![](../../.gitbook/assets/zbn1.png)
+2. Set a name (e.g. "Zabbix") and select your desired escalation policy.
+3.  Set the **Integration type** to Zabbix.\
 
-![](../../.gitbook/assets/zbn2.png)
 
-1. An API key is generated on the next page. You will need the API key below when creating an ilert user in Zabbix.
+    ![](../../.gitbook/assets/zbn2.png)
+4.  An API key is generated on the next page. You will need the API key below when creating an ilert user in Zabbix.\
 
-![](../../.gitbook/assets/zbn3.png)
+
+    ![](../../.gitbook/assets/zbn3.png)
 
 ## In Zabbix <a href="#zabbix" id="zabbix"></a>
 
-### Import ilert media type (optional as of Zabbix 5.0.4)
+<details>
 
-{% hint style="info" %}
-**Are you using Zabbix 5.0.4 or higher?**
+<summary>Import ilert media type (optional as of Zabbix 5.0.4)</summary>
 
-You can skip this section, if you're using Zabbix 5.0.4+, because as of Zabbix 5.0.4, the ilert media type is included in the distribution Zabbix.
-{% endhint %}
+<mark style="background-color:yellow;">**Are you using Zabbix 5.0.4 or higher?**</mark> <mark style="background-color:yellow;"></mark><mark style="background-color:yellow;">You can skip this section, if you're using Zabbix 5.0.4+, because as of Zabbix 5.0.4, the ilert media type is included in the distribution Zabbix.</mark>
 
-1. Download the ilert Zabbix Media Type file from the Zabbix repository&#x20;
+1\. Download the ilert Zabbix Media Type file from the Zabbix repository
 
 ```
 curl -o media_ilert.xml \
    https://raw.githubusercontent.com/iLert/ilert-zabbix/master/media_ilert.xml
 ```
 
-1. Go to the **Administration → Media types** tab and click the **Import** button.
+2\. Go to the **Administration → Media types** tab and click the **Import** button.
 
-![](../../.gitbook/assets/zbn4.png)
+<img src="../../.gitbook/assets/zbn4.png" alt="" data-size="original">
 
-1. Select import file `media_ilert.xml` and click the **Import** button at the bottom to import the ilert media type.
+3\. Select import file `media_ilert.xml` and click the **Import** button at the bottom to import the ilert media type.
 
-![](../../.gitbook/assets/zbn5.png)
+<img src="../../.gitbook/assets/zbn5.png" alt="" data-size="original">
 
-1. **Optional**: Go to **Media types** and open the imported **iLert** media type. You can overwrite the default alert summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
+4\. **Optional**: Go to **Media types** and open the imported **iLert** media type. You can overwrite the default alert summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
 
-![](../../.gitbook/assets/6.png)
+<img src="../../.gitbook/assets/6.png" alt="" data-size="original">
 
-1. Click on the **Update** button to save the media type.
+5\. Click on the **Update** button to save the media type.
+
+</details>
 
 ### Create ilert user and group
 
-1. Go to the **Administration → User groups** tab and click on the **Create user group** button.
+1\. Go to the **Administration → User groups** tab and click on the **Create user group** button.
 
 ![](../../.gitbook/assets/zbn7.png)
 
-1. Set the name for the ilert group (eg. "ilert group").
+2\. Set the name for the ilert group (eg. "ilert group").
 
 ![](../../.gitbook/assets/zbn8.png)
 
-1. Switch to the **Permissions** tab and select the **host groups** that the ilert group should have read access to, for sending notifications. Without read access, ilert cannot receive notifications for the hosts in the group (see also [here](https://www.zabbix.com/documentation/4.4/manual/quickstart/notification)).
-2. Click the **Add** button to save the group.
+3\. Switch to the **Permissions** tab and select the **host groups** that the ilert group should have read access to, for sending notifications. Without read access, ilert cannot receive notifications for the hosts in the group (see also [here](https://www.zabbix.com/documentation/4.4/manual/quickstart/notification)).
+
+4\. Click the **Add** button to save the group.
 
 ![](../../.gitbook/assets/zbn9.png)
 
-1. Switch to the Users tab and click on the **Create user** button.
+5\. Switch to the Users tab and click on the **Create user** button.
 
 ![](../../.gitbook/assets/zbn10.png)
 
-1. Assign an **alias** and **name** and add the user to the ilert group. No further details such as a password are required as this user will not log in to Zabbix.
+6\. Assign an **alias** and **name** and add the user to the ilert group. No further details such as a password are required as this user will not log in to Zabbix.
 
 ![](../../.gitbook/assets/zbn11.png)
 
-1. Switch to the **Media** tab and click on the **Add** link
-2. In the **media** window, select ilert as **Type**
-3. In the **Send to** field enter the alert source api key that you generated in ilert
-4. Click the **Add** button
+7\. Switch to the **Media** tab and click on the **Add** link
+
+8\. In the **media** window, select ilert as **Type**
+
+9\. In the **Send to** field enter the alert source api key that you generated in ilert
+
+10\. Click the **Add** button
 
 ![](../../.gitbook/assets/9.png)
 
-1. Click the **Add** button in the **Users** tab to save the user.
+11\. Click the **Add** button in the **Users** tab to save the user.
 
 ![](../../.gitbook/assets/zbn13.png)
 
 ### Create alert action
 
-1. Switch to the **Configuration → Actions** tab and click the **Create action** button
+1\. Switch to the **Configuration → Actions** tab and click the **Create action** button
 
 ![](../../.gitbook/assets/zbn14.png)
 
-1. Give the action a name, eg "ilert notifications".
+2\. Give the action a name, eg "ilert notifications".
 
 ![](../../.gitbook/assets/zbn15.png)
 
-1. Perform the following actions on the **Operations**, **Recovery operations** and **Acknowledgment operations** tabs
+3\. Perform the following actions on the **Operations**, **Recovery operations** and **Acknowledgment operations** tabs
 
 ![](../../.gitbook/assets/zbn16.png)
 
-1. Change the default subject and default message if you want.
-2. Click on the **New** link under **Operations** and select the **iLert** group created above under Send to User groups.
+4\. Change the default subject and default message if you want.
+
+5\. Click on the **New** link under **Operations** and select the **iLert** group created above under Send to User groups.
 
 ![](../../.gitbook/assets/zbn17.png)
 
-1. Click the **Add** button to save the action
+6\. Click the **Add** button to save the action
 
-## Mapping Zabbix problem severity to alert priority <a href="#faq" id="faq"></a>
+## Optional: Mapping Zabbix problem severity to alert priority <a href="#faq" id="faq"></a>
 
 ilert supports a mapping configuration for your Zabbix alert source that allows you to map the standard Zabbix severities to ilert priorities. Just enable the checkbox for **Priority mapping** under Zabbix settings.
 
 ![](<../../.gitbook/assets/image (55) (2).png>)
 
-## Bidirectional sync (acknowledges alerts in Zabbix) <a href="#faq" id="faq"></a>
+## Optional: Bidirectional sync (acknowledges alerts in Zabbix) <a href="#faq" id="faq"></a>
 
 As the Zabbix API allows for problems to be acknowledged, ilert offers a setting to configure your Zabbix alert source in bidirectional mode. This will automatically create a connector and alert action for your alert source that will pipe accept events from ilert to Zabbix and acknowledge the problem related to the ilert alert.
 
