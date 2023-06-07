@@ -51,27 +51,10 @@ You can let any Slack user (even if they don't have an ilert account) create an 
 
 <figure><img src="../../.gitbook/assets/Slack-1-new.png" alt="" width="375"><figcaption></figcaption></figure>
 
-### Re-authorizing the Slack bot in ilert
-
-1. In the navigation bar, click on the **cogwheel** and choose **Connectors.**
-
-<figure><img src="../../.gitbook/assets/Slack-4.png" alt=""><figcaption></figcaption></figure>
-
-2. Now choose **Slack Workspace Integration** in the connectors list.
-
-<figure><img src="../../.gitbook/assets/Slack-5.png" alt=""><figcaption></figcaption></figure>
-
-3. In the Slack Workspace Integration connectors view, click on the **Re-authorize Slack** button, to start the re-authorization process.
-
-<figure><img src="../../.gitbook/assets/Slack-6.png" alt=""><figcaption></figcaption></figure>
-
 ## FAQ
 
-**I have received following error messages:**
+#### **I have received following error messages:** There is no Slack alert source configured for this channel in ilert, which is required to enable alert creation for Slack users without an ilert account.
 
-* There is no Slack alert source configured for this channel in ilert, which is required to enable alert creation for unauthorized users.\
-  \
-  If an unauthorized user tries to create a new alert from Slack, the Slack bot requires the channel to be set in a Slack alert source in ilert. To fix this issue please follow the steps on [Option 2](create-alerts-in-slack.md#option-2-allow-any-slack-user-to-create-an-alert).
-* Your slack bot has not permission. Please reauthorize the bot.\
-  \
-  Please follow the this [guide](create-alerts-in-slack.md#re-authorizing-the-slack-bot-in-ilert), to re-authorize the Slack bot.\
+If an unauthorized user tries to create a new alert from Slack, the Slack bot requires the channel to be set in a Slack alert source in ilert. To fix this issue please follow the steps in [Option 2](create-alerts-in-slack.md#option-2-allow-any-slack-user-to-create-an-alert).
+
+If your slack bot has not permission. Please [reauthorize](./#re-authorizing-your-slack-workspace) your bot.\
