@@ -50,7 +50,7 @@ Click on the gear icon ⚙ → **Connectors**, then click on the **Slack Workspa
 
 ## Select your use case <a href="#in_slack" id="in_slack"></a>
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td><strong>Post alerts to a Slack channel</strong></td><td></td><td></td></tr><tr><td></td><td><strong>Create alerts within a Slack channel</strong></td><td></td><td><a href="create-alerts-in-slack.md">create-alerts-in-slack.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><strong>Post alerts to a Slack channel</strong></td><td>Receive and acknowledge alerts in a Slack channel of your choice.</td><td><a href="post-alerts-to-a-slack-channel.md">post-alerts-to-a-slack-channel.md</a></td></tr><tr><td align="center"><strong>Create alerts within a Slack channel</strong></td><td>Use Slack as an alert source and let Slack users create alerts from a dedicated Slack channel.</td><td><a href="create-alerts-in-slack.md">create-alerts-in-slack.md</a></td></tr></tbody></table>
 
 ## FAQ <a href="#faq" id="faq"></a>
 
