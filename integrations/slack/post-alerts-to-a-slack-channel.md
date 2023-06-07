@@ -3,7 +3,7 @@
 {% hint style="info" %}
 **Connect your Slack workspace with ilert first**
 
-Before you proceed, please make sure that a global admin has connected your Slack workspace with your ilert account (as described in our [Slack integration guide](./))
+Before you proceed, please make sure that a global admin has connected your Slack workspace with your ilert account (as described in our [integration for Slack guide](./))
 {% endhint %}
 
 ## In Slack: Add alert sources to Slack channels <a href="#in_slack" id="in_slack"></a>
@@ -47,6 +47,6 @@ No, alert sources of private teams can only be added via ilert's web interface, 
 
 #### **Why am I not seeing all of my Slack channels in the Connections UI?**
 
-This could be due to missing permission for private channels. Please try to invite the ilert Slack Bot into the desired (missing) channels and refresh the page.
+This could be due to missing permission for private channels. Please try to invite the ilert bot for Slack into the desired (missing) channels and refresh the page.
 
 ## &#x20;<a href="#faq" id="faq"></a>

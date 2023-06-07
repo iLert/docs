@@ -3,12 +3,12 @@ title: Slack Integration
 seoTitle: 'iLert: Slack Integration for Alerting | Incident Response | Uptime'
 date: '2018-12-29T05:02:05.000Z'
 weight: 1
-description: The ilert Slack Integration helps you to easily connect ilert with Slack.
+description: The ilert integration for Slack helps you to easily connect ilert with Slack.
 ---
 
 # Slack Integration
 
-Slack is a popular instant messaging service for team communication and collaboration. With the Slack integration you receive messages about alerts in Slack channels and can accept and resolve alerts within Slack.
+Slack is a popular instant messaging service for team communication and collaboration. With the integration for Slack you receive messages about alerts in Slack channels and can accept and resolve alerts within Slack.
 
 ## In ilert: Authorize your Slack workspace <a href="#in_ilert" id="in_ilert"></a>
 

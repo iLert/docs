@@ -7,16 +7,16 @@ description: Use Slack as an alert source
 {% hint style="info" %}
 **Connect your Slack workspace with ilert first**
 
-Before you proceed, please make sure that a global admin has connected your Slack workspace with your ilert account (as described in our [Slack integration guide](./))
+Before you proceed, please make sure that a global admin has connected your Slack workspace with your ilert account (as described in our [integration for Slack guide](./))
 {% endhint %}
 
-Our Slack integration lets you create alerts directly withing Slack and streamlines your incident management process, making it even easier for your team and stakeholders to report incidents.
+Our integration for Slack lets you create alerts directly withing Slack and streamlines your incident management process, making it even easier for your team and stakeholders to report incidents.
 
 ### Overview
 
 There are two ways to configure the alert creation feature in Slack:
 
-1. **Restrict to Slack users with an ilert account**: This mode doesn't require any additional configuration other than installing our Slack app (as described in the [Slack integration guide](./)).&#x20;
+1. **Restrict to Slack users with an ilert account**: This mode doesn't require any additional configuration other than installing our Slack app (as described in the [integration for Slack guide](./)).&#x20;
 2. **Allow any Slack user to create an alert:** This method requires the creation of a dedicated Slack alert source in ilert and allows you to control the Slack channels where users will be able to create an alert, to which escalation policy the alert is routed to and what [notification priority](../../alerting/alert-sources.md#customise-your-alerts-with-notification-priority) is used.&#x20;
 
 ### Option 1: Restrict to Slack users with an ilert account
@@ -55,6 +55,6 @@ You can let any Slack user (even if they don't have an ilert account) create an 
 
 #### **I have received following error messages:** There is no Slack alert source configured for this channel in ilert, which is required to enable alert creation for Slack users without an ilert account.
 
-If an unauthorized user tries to create a new alert from Slack, the Slack bot requires the channel to be set in a Slack alert source in ilert. To fix this issue please follow the steps in [Option 2](create-alerts-in-slack.md#option-2-allow-any-slack-user-to-create-an-alert).
+If an unauthorized user tries to create a new alert from Slack, the ilert bot for Slack requires the channel to be set in a Slack alert source in ilert. To fix this issue please follow the steps in [Option 2](create-alerts-in-slack.md#option-2-allow-any-slack-user-to-create-an-alert).
 
-If your slack bot has not permission. Please [reauthorize](./#re-authorizing-your-slack-workspace) your bot.\
+If your ilert bot for Slack has no permission. Please [reauthorize](./#re-authorizing-your-slack-workspace) your bot.\
