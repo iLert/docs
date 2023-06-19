@@ -45,4 +45,4 @@ description: >-
 ![](../.gitbook/assets/humio-alertdetails.png)
 
 * Save the alert, and upon the alert, the incident will be created on ilert side as well
-* For more information about Humio Alerts please refer to the following: [https://library.humio.com/stable/docs/automated/alerts/](https://library.humio.com/stable/docs/automated/alerts/)
+* For more information about Humio Alerts please refer to the following: [https://library.humio.com/data-analysis/automated-alerts.html](https://library.humio.com/data-analysis/automated-alerts.html)
