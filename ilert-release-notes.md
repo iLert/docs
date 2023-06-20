@@ -6,6 +6,46 @@ description: >-
 
 # ilert Release Notes
 
+## June 2023
+
+### New features
+
+* Migrated the platform to a new infrastructure, improving performance, scalability and availability
+* New session management, allowing for more secure and longer running sessions
+* Added remember me option for even longer running web sessions
+
+### New and updated integrations
+
+* Updated Slack bot
+* Added new create alert feature to Slack bot (note: you may optionally customize the behaviour using ilert [Slack alert sources](integrations/slack/create-alerts-in-slack.md))
+
+## May 2023
+
+### New features
+
+* New navbar widget for user onboarding and product updates
+* Improved performance of schedule UIs
+
+### New and updated integrations
+
+* Google Cloud Security Command Center inbound integration
+
+## April 2023
+
+### New features
+
+* Brand new alert source list and edit UI
+* Brand new call routing number list UI
+* Brand new maintenance window list UI
+* User list CSV export
+
+### New and updated integrations
+
+* Improved the Sentry inbound integration
+* New status field for Autotask outbound integration
+* Improved Autotask outbound company search, now dynamically fetching based on search input
+* Upgraded Jira outbound integration to dynamically detect Jira Cloud, Jira Server and other Jira versions and switch the API automatically so that old and new installations are seemlessly supported
+
 ## March 2023
 
 ### New features
