@@ -13,6 +13,8 @@ description: >-
 * Migrated the platform to a new infrastructure, improving performance, scalability and availability
 * New session management, allowing for more secure and longer running sessions
 * Added remember me option for even longer running web sessions
+* 2-FA codes are now supported by the mobile app's login
+* We launched [ilert AI](broken-reference), which adds advanced generative artificial intelligence features for responders along the incident management lifecycle
 
 ### New and updated integrations
 

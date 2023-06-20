@@ -58,6 +58,12 @@
 * [Adding webhooks and outbound chat messages](call-routing/adding-webhooks-and-outbound-chat-messages.md)
 * [Uploading custom audio responses](call-routing/uploading-custom-audio-responses.md)
 
+## 🪄 ilert AI
+
+* [Introduction](ilert-ai/introduction.md)
+* [Creating incidents with AI](ilert-ai/creating-incidents-with-ai.md)
+* [Updating incidents with AI](ilert-ai/updating-incidents-with-ai.md)
+
 ## REST API
 
 * [ilert REST API](rest-api/ilert-rest-api.md)
