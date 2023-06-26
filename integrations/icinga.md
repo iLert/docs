@@ -156,7 +156,7 @@ The plugin processes the notification types `PROBLEM` , `ACKNOWLEDGEMENT` and `R
 
 **What happens if my internet connection is lost? Are the events generated in Icinga lost?**
 
-There are no events lost. Because the plugin stores the events locally in a temporary directory (by default in /tmp/ilert-icinga ) and tries to send them to ilert every minute. This means that as soon as your connection is available again, cached events will be sent to ilert. In addition, we recommend that you monitor your Internet connection using our uptime monitoring feature.
+There are no events lost. Because the plugin stores the events locally in a temporary directory (by default in /tmp/ilert-icinga ) and tries to send them to ilert every minute. This means that as soon as your connection is available again, cached events will be sent to ilert. In addition, we recommend that you monitor your Internet connection using our [Heartbeats ](../alerting/heartbeat-monitoring/)feature.
 
 **Can I override the alert source default alert priority via the Icinga plugin?**
 
