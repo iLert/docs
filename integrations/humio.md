@@ -1,11 +1,15 @@
 ---
 description: >-
-  CrowdStrike Falcon LogScale provides logging and observability service that gives organizations
-  complete visibility to see anomalies, threats, and problems, and get to the
-  root of what happened.
+  CrowdStrike Falcon LogScale provides logging and observability service that
+  gives organizations complete visibility to see anomalies, threats, and
+  problems, and get to the root of what happened.
 ---
 
-# CrowdStrike Falcon LogScale (Humio) Integration
+# Humio Integration
+
+{% hint style="info" %}
+Humio has been renamed to CrowdStrike Falcon LogScale
+{% endhint %}
 
 ## In ilert
 
@@ -13,7 +17,7 @@ description: >-
 
 ![](<../.gitbook/assets/ilert-create-alert (4).png>)
 
-* Enter a name and select your desired escalation policy.  &#x20;
+* Enter a name and select your desired escalation policy.
 * Select "**Humio**" as the **Integration Type** and click **Save**.
 
 ![](../.gitbook/assets/humio\_alertsources.png)
