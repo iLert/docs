@@ -145,7 +145,7 @@
   * [Grafana Integration](integrations/grafana/grafana-integration.md)
   * [Grafana Integration (v 9.x)](integrations/grafana/grafana-integration-v-9.x.md)
 * [HashiCorp Consul](integrations/consul.md)
-* [Humio Integration](integrations/humio.md)
+* [CrowdStrike Falcon LogScale Integration](integrations/humio.md)
 * [IBM Cloud Functions Integration](integrations/ibmcloudfunctions.md)
 * [Icinga Integration](integrations/icinga.md)
 * [Instana Integration](integrations/instana.md)
