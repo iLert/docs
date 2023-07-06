@@ -27,77 +27,36 @@ description: >-
 {% tab title="Go" %}
 ```go
 import (
-	"bytes"
-	"encoding/json"
+	"context"
 	"log"
 	"net/http"
+	"github.com/go-resty/resty/v2"
 )
 
 type PubSubMessage struct {
 	Data []byte `json:"data"`
 }
 
-type WebhookPayload struct {
-	Message string `json:"message"`
-}
-
-func WebhookPubSub(w http.ResponseWriter, r *http.Request) {
-	var pubsubMessage PubSubMessage
-	err := json.NewDecoder(r.Body).Decode(&pubsubMessage)
-	if err != nil {
-		log.Printf("Error decoding Pub/Sub message: %v", err)
-		http.Error(w, "Bad Request", http.StatusBadRequest)
-		return
-	}
-
-	// Extract the Pub/Sub message data
-	message := string(pubsubMessage.Data)
-
-	// Create the webhook payload
-	payload := WebhookPayload{
-		Message: message,
-	}
-
-	// Convert the payload to JSON
-	payloadJSON, err := json.Marshal(payload)
-	if err != nil {
-		log.Printf("Error marshaling webhook payload: %v", err)
-		http.Error(w, "Internal Server Error", http.StatusInternalServerError)
-		return
-	}
+func WebhookPubSub(ctx context.Context, m PubSubMessage) {
 
 	// Send the webhook request with the Pub/Sub message as the content
 	webhookURL := "[WEBHOOK_URL]"
-	req, err := http.NewRequest("POST", webhookURL, bytes.NewBuffer(payloadJSON))
+
+	client := resty.New()
+	resp, err := client.R().
+		SetHeader("Content-Type", "application/json").
+		SetBody(m.Data).
+		Post(webhookURL)
 	if err != nil {
 		log.Printf("Error creating webhook request: %v", err)
-		http.Error(w, "Internal Server Error", http.StatusInternalServerError)
 		return
 	}
-
-	// Set the appropriate headers for the webhook request
-	req.Header.Set("Content-Type", "application/json")
-
-	// Send the webhook request
-	client := &http.Client{}
-	resp, err := client.Do(req)
-	if err != nil {
-		log.Printf("Error sending webhook request: %v", err)
-		http.Error(w, "Internal Server Error", http.StatusInternalServerError)
-		return
-	}
-	defer resp.Body.Close()
 
 	// Check the webhook response
-	if resp.StatusCode != http.StatusOK {
-		log.Printf("Webhook request failed with status code: %d", resp.StatusCode)
-		http.Error(w, "Internal Server Error", http.StatusInternalServerError)
+	if resp.StatusCode() != http.StatusAccepted {
+		log.Printf("Webhook request failed with status code: %d", resp.StatusCode())
 		return
 	}
-
-	// Webhook request successful
-	log.Println("Webhook request sent successfully")
-	w.WriteHeader(http.StatusOK)
 }
 ```
 {% endtab %}
