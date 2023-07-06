@@ -77,7 +77,7 @@ Note: for custom labels to be accepted they must be part of the **alert labels**
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-***
+
 
 **Will alerts in ilert be resolved automatically?**
 

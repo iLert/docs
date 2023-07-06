@@ -23,7 +23,7 @@ There are two ways to configure the alert creation feature in Slack:
 
 Once you have our Slack app installed in your Slack workspace, any Slack user with an ilert account can create an alert from any channel by invoking the the `/ilert alert` slash command.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 The user's permissions in ilert will be taken into account. Therefore, they will only see alert sources and escalation policies to which they have access to.&#x20;
 
@@ -51,7 +51,7 @@ You can let any Slack user (even if they don't have an ilert account) create an 
 
 <div align="center">
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (6).png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 

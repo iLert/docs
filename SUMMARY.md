@@ -141,6 +141,7 @@
 * [GitLab Integration](integrations/gitlab.md)
 * [Google Cloud Function Integration](integrations/gcf.md)
 * [Google Cloud Monitoring (formerly Stackdriver) Integration](integrations/google-stackdriver.md)
+* [Google Security Command Center](integrations/google-security-command-center.md)
 * [Grafana Integration](integrations/grafana/README.md)
   * [Grafana Integration](integrations/grafana/grafana-integration.md)
   * [Grafana Integration (v 9.x)](integrations/grafana/grafana-integration-v-9.x.md)

@@ -12,7 +12,7 @@ description: >-
 
 ![](<../.gitbook/assets/ilert-create-alert (5).png>)
 
-* Enter a name and select your desired escalation policy.  &#x20;
+* Enter a name and select your desired escalation policy.
 * Select "**Salesforce**" as the **Integration Type** and click **Save**.
 
 ![](../.gitbook/assets/ilert-salesforce.png)
@@ -110,14 +110,13 @@ To test this, simply create a **Case** in Salesforce.
 
 ## FAQ
 
-1. How to Debug in case something is not working?\
-   \
-   In order to Debug this, you need to add `System.debug()` either on the trigger or the class. To view this just navigate to **Gear Icon -> Setup -> Environment -> Logs -> Debug Logs**\
-   ****
+1.  How to Debug in case something is not working?\
+    \
+    In order to Debug this, you need to add `System.debug()` either on the trigger or the class. To view this just navigate to **Gear Icon -> Setup -> Environment -> Logs -> Debug Logs**\\
+
+
 2. I don't see my logs, why?\
    \
    Make sure that the **Expiration Date** settings in the Debug Logs settings are set in the future, just edit it if it was done in the past, and create Case again.
 
 ![](../.gitbook/assets/salesforce-debuglogs.png)
-
-&#x20;

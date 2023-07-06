@@ -24,4 +24,4 @@ More feature docs will follow soon...
 Note that AI features that share data with third-parties such as OpenAI require the account owner of the account to enable all AI features under **Account settings**, first party use cases are enabled independent of this setting
 {% endhint %}
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (1).png>)

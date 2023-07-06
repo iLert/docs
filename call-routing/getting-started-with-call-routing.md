@@ -18,11 +18,11 @@ Each call routing number has a unique phone number that will be set up for you b
 
 Once we have added a phone number to your account, you can configure its IVR menu, routing options, voicemail settings and more.
 
-![](<../.gitbook/assets/image (8) (1).png>)
+![](<../.gitbook/assets/image (8) (1) (1).png>)
 
 The general settings area allows you to configure a **name** as well as the **language** and **greeting** of your call routing number. The **name** will be read out to your on-call staff whenever they receive a call.
 
-The greeting that a caller of your number hears when they are calling is by default a combination of your provided **greeting** and the automatically generated **IVR menu**, that consists of the different routing options which you have chosen. A preview for the entire greeting is generated for you up front.&#x20;
+The greeting that a caller of your number hears when they are calling is by default a combination of your provided **greeting** and the automatically generated **IVR menu**, that consists of the different routing options which you have chosen. A preview for the entire greeting is generated for you up front.
 
 ![](<../.gitbook/assets/Screenshot 2021-10-28 at 09.23.45.png>)
 
@@ -42,7 +42,7 @@ Please note that escalation timeouts in escalation policies are skipped for poli
 
 ### Randomly selecting the user to call
 
-If you would like to randomly distribute incoming calls to a group of people, you can include multiple responders on an escalation rule.&#x20;
+If you would like to randomly distribute incoming calls to a group of people, you can include multiple responders on an escalation rule.
 
 <figure><img src="../.gitbook/assets/Screen Shot 2022-09-02 at 10.44.08.png" alt=""><figcaption></figcaption></figure>
 
