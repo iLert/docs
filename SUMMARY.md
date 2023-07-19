@@ -201,7 +201,7 @@
 * [StatusCake Integration](integrations/statuscake.md)
 * [StatusHub Integration](integrations/statushub.md)
 * [StatusPage Integration](integrations/statuspage-io.md)
-* [Sumo logic Integration](integrations/sumologic.md)
+* [Sumo Logic Integration](integrations/sumologic.md)
 * [Sysdig Integration](integrations/sysdig/README.md)
   * [Sysdig Inbound Integration](integrations/sysdig/inbound.md)
   * [Sysdig Outbound Integration](integrations/sysdig/outbound.md)

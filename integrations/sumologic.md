@@ -1,14 +1,14 @@
 ---
 description: >-
-  Create ilert alerts from Sumo logic monitoring and get alerted through ilert
+  Create ilert alerts from Sumo Logic monitoring and get alerted through ilert
   for high-priority issues.
 ---
 
-# Sumo logic Integration
+# Sumo Logic Integration
 
 ## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a Sumo logic alert source <a href="#create-alert-source" id="create-alert-source"></a>
+### Create a Sumo Logic alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 
@@ -18,15 +18,15 @@ description: >-
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_38.png)
 
-1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the connection in Sumologic.
+1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the connection in Sumo Logic.
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_39.png)
 
-## In Sumo logic <a href="#in-splunk" id="in-splunk"></a>
+## In Sumo Logic <a href="#in-splunk" id="in-splunk"></a>
 
 ### Create a notification setting <a href="#create-action-sequences" id="create-action-sequences"></a>
 
-1. Go to Sumologic, then to **Manage Data -> Monitoring**, click on the **Connections** tab and then on the **Add (+)** button
+1. Go to Sumo Logic, then to **Manage Data -> Monitoring**, click on the **Connections** tab and then on the **Add (+)** button
 
 <figure><img src="../.gitbook/assets/Sumo logic connect.png" alt=""><figcaption></figcaption></figure>
 
@@ -61,14 +61,14 @@ description: >-
 }
 ```
 
-Finished! Your Sumologic alerts will now create alerts in ilert.
+Finished! Your Sumo Logic alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in ilert be resolved automatically?**
 
-No, unfortunately Sumologic's notification is not compatible with ilert's resolve event.
+No, unfortunately, Sumo Logic's notification is not compatible with ilert's resolve event.
 
-**Can I connect Sumologic with multiple alert sources from ilert?**
+**Can I connect Sumo Logic with multiple alert sources from ilert?**
 
-Yes, simply add more connections in Sumologic.
+Yes, simply add more connections in Sumo Logic.
