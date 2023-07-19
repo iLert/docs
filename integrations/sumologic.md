@@ -1,14 +1,14 @@
 ---
 description: >-
-  Create ilert alerts from Sumologic alerts and get alerted through ilert for
-  high priority issues.
+  Create ilert alerts from Sumo logic monitoring and get alerted through ilert
+  for high-priority issues.
 ---
 
-# Sumologic Integration
+# Sumo logic Integration
 
 ## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a Sumologic alert source <a href="#create-alert-source" id="create-alert-source"></a>
+### Create a Sumo logic alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 
@@ -22,15 +22,15 @@ description: >-
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_39.png)
 
-## In Sumologic <a href="#in-splunk" id="in-splunk"></a>
+## In Sumo logic <a href="#in-splunk" id="in-splunk"></a>
 
 ### Create a notification setting <a href="#create-action-sequences" id="create-action-sequences"></a>
 
-1. Go to Sumologic, then to **Manage Data -> Alerts**, click on the **Connections** tab and then on the **Add (+)** button
+1. Go to Sumologic, then to **Manage Data -> Monitoring**, click on the **Connections** tab and then on the **Add (+)** button
 
-![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_42.png)
+<figure><img src="../.gitbook/assets/Sumo logic connect.png" alt=""><figcaption></figcaption></figure>
 
-1. On the next page,  click on the **Webhook** tile
+1. On the next page, click on the **Webhook** tile
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_44.png)
 
