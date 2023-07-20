@@ -1,7 +1,7 @@
 ---
 description: >-
   With the ilert ServiceNow integration, you can create alerts in ilert based on
-  ServiceNow alerts.
+  ServiceNow tickets or sync alert updates back to ServiceNow
 ---
 
 # ServiceNow Inbound Integration
@@ -93,7 +93,7 @@ description: >-
 
 ## Advanced configuration
 
-iLert's ServiceNow integration allows you to easily configure advanced settings such as dynamic escalation policy routing and priority mapping.
+ilert's ServiceNow integration allows you to easily configure advanced settings such as dynamic escalation policy routing and priority mapping.
 
 ![](<../../.gitbook/assets/image (57) (1) (1) (1).png>)
 
@@ -106,7 +106,7 @@ To get access to the advanced features, you will have to provide access credenti
 * `sys_choice`
 * `sys_dictionary`
 
-Afters you will get access to:
+This will grant you access to:
 
 ### Dynamic priority mapping
 
@@ -128,19 +128,40 @@ With an incoming event ilert will try to find the right escalation policy based 
 
 ### Bidirectional alert synchronisation
 
-When providing credentials you may choose to activate bidirectional mode on the ServiceNow alert source. This will cause your alert source to be automatically linked with an outbound connector and alert action. This way status changes to ilert alerts will synchronize to ServiceNow alerts.
+When providing credentials you may choose to activate bidirectional mode on the ServiceNow alert sources. This will cause your alert source to be automatically linked with an outbound connector and alert action. This way status changes to ilert alerts will synchronize to ServiceNow tickets.
 
 ![](<../../.gitbook/assets/image (53) (1) (1) (1).png>)
 
-When saving the ServiceNow alert source with bidirectional setting enabled, it will automatically create an outbound connector for you and take you to the creation page of the necessary alert action, please make sure to continue with the setup of the action to finish your bidirectional alert source setup.
+When saving the ServiceNow alert source with the bidirectional setting enabled, it will automatically create an outbound connector for you and take you to the creation page of the necessary alert action, **please make sure to continue with the setup of the action to finish your bidirectional alert source setup.**
+
+
 
 ![](<../../.gitbook/assets/image (56) (1).png>)
 
 ### Good to know
 
+\
 In the bidirectional setup, ilert will try to map users automatically (if **Caller ID** in alert action is left empty) based on their email address. This accounts for actions taken in ilert and synced back to ServiceNow, as well as actions taken in ServiceNow and send to ilert.
 
-When providing a comment to the alert in ilert while resolving it, ilert will make sure sync the comments content as resolve information to the alert in ServiceNow.
+{% hint style="warning" %}
+Remember to leave the Caller ID field in the alert action empty for automated user mapping to work properly
+{% endhint %}
+
+When providing a **comment** to the alert in ilert while **resolving** it, ilert will make sure sync the comments content as **resolve information** to the alert in ServiceNow.
+
+### Understanding ServiceNOW <-> ilert flows
+
+Synchronously mapping the the ServiceNOW ticket/incident lifecycle to the immutable lifecycle of an ilert alert, is not a simple back and forth. The connector runs a lot of state comparisons to identify if a ticket/incident update is needed based on the latest change event of an alert.
+
+| Incoming event                                                                                   | State check                                                                                                                                                                                                                | Outgoing change operation                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **New (1)** ticket event from ServiceNOW                                                         | If alert does not exist, it is created, otherwise the event is dropped (even if the corresponding alert for the ticket is in RESOLVED state) this is determined based on the **sys\_id** of the ticket                     | Nothing, except if the **priority** or **assignment** of the alert differs from the original ticket status e.g. through configurations of the alert source or escalation policy  |
+| **In Progress (2)** or **Complete/Resolved (6)** or **Closed (7)** ticket update from ServiceNOW | <p>If the alert does not exist, the event is dropped, otherwise:<br><strong>status -> transition</strong><br><strong>priority -> raise</strong><br><strong>assignment -> re-routing</strong><br>Operations might occur</p> | Usually there should be no outbound event triggered through this change, however a re-route operation will likely trigger an asynchronous escalation or more as follow up events |
+| Responder re-routes through ilert                                                                | A different escalation policy is assigned and escalation is restarted                                                                                                                                                      | If **assignmentGroup** or similar mappings are configured and they differ due to the changed **routingKey** of the assigned escalation policy the ticket will be updated         |
+| Responder accepts through ilert                                                                  | Alert is accepted                                                                                                                                                                                                          | If the ticket is not yet accepted, the status will be updated to In Progress if                                                                                                  |
+| Responder raises priority through ilert                                                          | Alert's priority is raised from **LOW** to **HIGH** and escalation of the assigned policy is triggered                                                                                                                     | Depending on the ticket's priority it is updated and                                                                                                                             |
+| Automated escalation of alert in ilert                                                           | Reaching the next escalation level, might add new responders to the alert                                                                                                                                                  | This might assign the ticket to a different user                                                                                                                                 |
+| Responder resolves through ilert                                                                 |                                                                                                                                                                                                                            | If the ticket is not yet in status **Complete/Resolved (6), Closed (7) or Canceled (8)** it will be updated                                                                      |
 
 ## FAQ <a href="#faq" id="faq"></a>
 
