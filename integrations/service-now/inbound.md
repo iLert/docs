@@ -141,7 +141,9 @@ When saving the ServiceNow alert source with the bidirectional setting enabled, 
 ### Good to know
 
 \
-In the bidirectional setup, ilert will try to map users automatically (if **Caller ID** in alert action is left empty) based on their email address. This accounts for actions taken in ilert and synced back to ServiceNow, as well as actions taken in ServiceNow and send to ilert.
+In the bidirectional setup, il
+
+ert will try to map users automatically (if **Caller ID** in alert action is left empty) based on their email address. This accounts for actions taken in ilert and synced back to ServiceNow, as well as actions taken in ServiceNow and send to ilert.
 
 {% hint style="warning" %}
 Remember to leave the Caller ID field in the alert action empty for automated user mapping to work properly
@@ -150,6 +152,10 @@ Remember to leave the Caller ID field in the alert action empty for automated us
 When providing a **comment** to the alert in ilert while **resolving** it, ilert will make sure sync the comments content as **resolve information** to the alert in ServiceNow.
 
 ### Understanding ServiceNOW <-> ilert flows
+
+{% hint style="info" %}
+This refers to the bidirectional setup
+{% endhint %}
 
 Synchronously mapping the the ServiceNOW ticket/incident lifecycle to the immutable lifecycle of an ilert alert, is not a simple back and forth. The connector runs a lot of state comparisons to identify if a ticket/incident update is needed based on the latest change event of an alert.
 
