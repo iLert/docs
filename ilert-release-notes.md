@@ -6,6 +6,20 @@ description: >-
 
 # ilert Release Notes
 
+##
+
+## July 2023
+
+### New features
+
+* Added a new text mode for alert source templates, you can use the top right icon in the input area to switch between text and block mode when creating alert templates
+* API key analytics are now available showing live API key resource usage for every user (Navi -> Profile -> Manage API keys) this feature also ships with an API resource for ADMINs to fetch account wide API usage information see [https://api.ilert.com/api-docs/#tag/Reports/paths/\~1reports\~1alerts\~1summary/get](https://api.ilert.com/api-docs/#tag/Reports/paths/\~1reports\~1alerts\~1summary/get)
+
+### Mobile app
+
+* All web UI maintenance window functionalities are now also available in the mobile app
+* The alert creation view has been reworked to match the features of the web UI
+
 ## June 2023
 
 ### New features
