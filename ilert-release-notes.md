@@ -6,8 +6,6 @@ description: >-
 
 # ilert Release Notes
 
-##
-
 ## July 2023
 
 ### New features
