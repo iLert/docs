@@ -13,5 +13,5 @@ The feature makes a smart guess on to which services should be included in the c
 
 ### What model is used?
 
-<table><thead><tr><th>Model</th><th width="200.66666666666669">Vendor</th><th data-type="checkbox">Available for this use case</th><th>Info</th></tr></thead><tbody><tr><td>il-LLaMA-1</td><td>ilert</td><td>true</td><td>ALPHA</td></tr><tr><td>il-ludwig-rnn-2</td><td>ilert</td><td>false</td><td></td></tr><tr><td>gpt-4</td><td>OpenAI</td><td>false</td><td></td></tr><tr><td>gpt-3.5-turbo-0xxx</td><td>OpenAI</td><td>true</td><td>default</td></tr><tr><td>text-davinci-003</td><td>OpenAI</td><td>true</td><td>deprecated</td></tr></tbody></table>
+<table><thead><tr><th>Model</th><th width="200.66666666666669">Vendor</th><th data-type="checkbox">Available for this use case</th><th>Info</th></tr></thead><tbody><tr><td>il-LLaMA-1</td><td>ilert</td><td>true</td><td>ALPHA</td></tr><tr><td>il-ludwig-rnn-2</td><td>ilert</td><td>false</td><td></td></tr><tr><td>gpt-4</td><td>OpenAI</td><td>true</td><td>BETA</td></tr><tr><td>gpt-3.5-turbo</td><td>OpenAI</td><td>true</td><td>default</td></tr><tr><td>text-davinci-003</td><td>OpenAI</td><td>true</td><td>deprecated</td></tr></tbody></table>
 

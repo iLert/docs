@@ -141,9 +141,7 @@ When saving the ServiceNow alert source with the bidirectional setting enabled, 
 ### Good to know
 
 \
-In the bidirectional setup, il
-
-ert will try to map users automatically (if **Caller ID** in alert action is left empty) based on their email address. This accounts for actions taken in ilert and synced back to ServiceNow, as well as actions taken in ServiceNow and send to ilert.
+In the bidirectional setup, ilert will try to map users automatically (if **Caller ID** in alert action is left empty) based on their email address. This accounts for actions taken in ilert and synced back to ServiceNow, as well as actions taken in ServiceNow and send to ilert.
 
 {% hint style="warning" %}
 Remember to leave the Caller ID field in the alert action empty for automated user mapping to work properly
