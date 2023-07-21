@@ -3,14 +3,18 @@ title: Slack Integration
 seoTitle: 'iLert: Slack Integration for Alerting | Incident Response | Uptime'
 date: '2018-12-29T05:02:05.000Z'
 weight: 1
-description: The ilert integration for Slack helps you to easily connect ilert with Slack.
+description: Post alerts to Slack or create alerts within a Slack channel
 ---
 
 # Slack Integration
 
-Slack is a popular instant messaging service for team communication and collaboration. With the integration for Slack you receive messages about alerts in Slack channels and can accept and resolve alerts within Slack.
+Slack is a popular instant messaging service for team communication and collaboration. With the integration for Slack you can receive messages about alerts in Slack channels and respond within Slack or you can create alerts from within a Slack channel.
 
-## In ilert: Authorize your Slack workspace <a href="#in_ilert" id="in_ilert"></a>
+## Select your use case <a href="#in_slack" id="in_slack"></a>
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Post alerts to a Slack channel</strong></td><td>Receive and acknowledge alerts in a Slack channel of your choice.</td><td><a href="post-alerts-to-a-slack-channel.md">post-alerts-to-a-slack-channel.md</a></td></tr><tr><td><strong>Create alerts within a Slack channel</strong></td><td>Use Slack as an alert source and let Slack users create alerts from Slack.</td><td><a href="create-alerts-in-slack.md">create-alerts-in-slack.md</a></td></tr></tbody></table>
+
+## Authorize your Slack workspace <a href="#in_ilert" id="in_ilert"></a>
 
 {% hint style="info" %}
 **Admin permission required**
@@ -47,10 +51,6 @@ Click on the gear icon ⚙ → **Connectors**, then click on the **Slack Workspa
 <img src="../../.gitbook/assets/iLert (101).png" alt="" data-size="original">
 
 </details>
-
-## Select your use case <a href="#in_slack" id="in_slack"></a>
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Post alerts to a Slack channel</strong></td><td>Receive and acknowledge alerts in a Slack channel of your choice.</td><td><a href="post-alerts-to-a-slack-channel.md">post-alerts-to-a-slack-channel.md</a></td></tr><tr><td><strong>Create alerts within a Slack channel</strong></td><td>Use Slack as an alert source and let Slack users create alerts from Slack.</td><td><a href="create-alerts-in-slack.md">create-alerts-in-slack.md</a></td></tr></tbody></table>
 
 ## FAQ <a href="#faq" id="faq"></a>
 

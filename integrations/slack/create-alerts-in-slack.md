@@ -10,7 +10,7 @@ description: Use Slack as an alert source
 Before you proceed, please make sure that a global admin has connected your Slack workspace with your ilert account (as described in our [integration for Slack guide](./))
 {% endhint %}
 
-Our integration for Slack lets you create alerts directly withing Slack and streamlines your incident management process, making it even easier for your team and stakeholders to report incidents.
+Our integration for Slack lets you create alerts directly within Slack and streamlines your incident management process, making it even easier for your team and stakeholders to report incidents.
 
 ### Overview
 
@@ -21,9 +21,9 @@ There are two ways to configure the alert creation feature in Slack:
 
 ### Option 1: Restrict to Slack users with an ilert account
 
-Once you have our Slack app installed in your Slack workspace, any Slack user with an ilert account can create an alert from any channel by invoking the the `/ilert alert` slash command.
+Once you have our Slack app installed in your Slack workspace, any Slack user with an ilert account can create an alert from any channel by invoking the the `/il-alert` slash command.
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
 
 The user's permissions in ilert will be taken into account. Therefore, they will only see alert sources and escalation policies to which they have access to.&#x20;
 
@@ -46,7 +46,7 @@ You can let any Slack user (even if they don't have an ilert account) create an 
 4. Now any Slack user in your workspace will be able to create alerts from then configured channels. They will be limited to the pre-configured escalation policies and the alert creation will take into account whatever is configured in the alert source (e.g. notification priority and other alert actions). To create a new alert, use the following command in any of the configured channel&#x20;
 
 ```
-/ilert alert
+/il-alert
 ```
 
 <div align="center">
