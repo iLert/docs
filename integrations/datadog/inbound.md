@@ -6,7 +6,7 @@ description: Create alerts in ilert from Datadog events.
 
 With the ilert Datadog integration, you can create alerts in ilert based on Datadog events.
 
-## In ilert: Create Datadog alert source <a id="alert-source"></a>
+## In ilert: Create Datadog alert source <a href="#alert-source" id="alert-source"></a>
 
 1. Switch to the **Alert Sources** tab and click on the "Create new alert source" button
 2. Assign name and select escalation chain
@@ -18,16 +18,16 @@ With the ilert Datadog integration, you can create alerts in ilert based on Data
 
 ![](../../.gitbook/assets/dd2.png)
 
-## In Datadog: Add ilert Webhook as alerting channel <a id="add-webhook"></a>
+## In Datadog: Add ilert Webhook as alerting channel <a href="#add-webhook" id="add-webhook"></a>
 
-1. Go to Datadog integrations page and **install Webhooks integration**: [https://app.datadoghq.com/account/settings\#integrations](https://app.datadoghq.com/account/settings#integrations)
+1. Go to Datadog integrations page and **install Webhooks integration**: [https://app.datadoghq.com/account/settings#integrations](https://app.datadoghq.com/account/settings#integrations)
 2. Click an Webhooks integration, scroll to bottom and add a new webhook:
 
 ![](../../.gitbook/assets/dd3.png)
 
 1. Enter a name, the **Datadog webhook URL** from ilert alert source and **template payload**:
 
-```text
+```
 {
  "body": "$EVENT_MSG",
  "last_updated": "$LAST_UPDATED",
@@ -50,7 +50,7 @@ With the ilert Datadog integration, you can create alerts in ilert based on Data
 1. Click **save** button
 2. The integration is now set up!
 
-## FAQ <a id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Are alerts in ilert automatically resolved?**
 
@@ -58,5 +58,11 @@ Yes, as soon as an Incident is closed in Datadog, the corresponding Alert is aut
 
 **Can I link Datadog to several alert sources in ilert?**
 
-Yes, create a webhook in Datadog for each alert source.
+Yes, create a webhook in Datadog for each alert source.\
 
+
+## Further References <a href="#faq" id="faq"></a>
+
+Here is the instruction on how to import metrics from Datadog and display them on your ilert status page: \
+\
+[Import metrics from Datadog](https://docs.ilert.com/incident-comms-and-status-pages/metrics/import-metrics-from-datadog)

@@ -84,3 +84,10 @@ while this query is supported
 4. Preview your metric. You can make changes to your query and reload the data from Datadog. Note that once you have created your metric, you will no longer be able to change the metric query.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2022-11-25 at 00.28.29.png" alt=""><figcaption></figcaption></figure>
+
+## Further References <a href="#faq" id="faq"></a>
+
+Here are the articles on how to connect Datadog and ilert: \
+\
+[Datadog Inbound Integration](https://docs.ilert.com/integrations/datadog/inbound) \
+[Datadog Outbound Integration](https://docs.ilert.com/integrations/datadog/outbound)
