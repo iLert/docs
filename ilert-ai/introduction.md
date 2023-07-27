@@ -1,10 +1,14 @@
 # Introduction
 
-{% hint style="info" %}
-Some of the AI features are still in closed BETA and not available to all customers yet
-{% endhint %}
-
 ## AI features overview
+
+{% hint style="info" %}
+Note that AI features that share data with third-parties such as OpenAI require the account owner of the account to enable all AI features under **Account settings**.&#x20;
+
+AI features that do not share data with third parties are enabled independent of this setting.
+
+![](<../.gitbook/assets/image (1) (3).png>)
+{% endhint %}
 
 {% content-ref url="generating-incidents-using-ai.md" %}
 [generating-incidents-using-ai.md](generating-incidents-using-ai.md)
@@ -14,14 +18,7 @@ Some of the AI features are still in closed BETA and not available to all custom
 [generating-incident-updates-through-ai.md](generating-incident-updates-through-ai.md)
 {% endcontent-ref %}
 
-More feature docs will follow soon...
 
 
 
 
-
-{% hint style="warning" %}
-Note that AI features that share data with third-parties such as OpenAI require the account owner of the account to enable all AI features under **Account settings**, first party use cases are enabled independent of this setting
-{% endhint %}
-
-![](<../.gitbook/assets/image (1) (3).png>)

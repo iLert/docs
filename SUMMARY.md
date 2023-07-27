@@ -61,8 +61,8 @@
 ## 🪄 ilert AI
 
 * [Introduction](ilert-ai/introduction.md)
-* [Generating incidents using AI](ilert-ai/generating-incidents-using-ai.md)
-* [Generating incident updates through AI](ilert-ai/generating-incident-updates-through-ai.md)
+* [Using ilert AI for efficient incident communication](ilert-ai/generating-incidents-using-ai.md)
+* [Using ilert AI for post-mortem creation (coming soon)](ilert-ai/generating-incident-updates-through-ai.md)
 
 ## REST API
 
