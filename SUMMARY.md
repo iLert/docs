@@ -192,7 +192,7 @@
   * [ServiceNow Outbound Integration](integrations/service-now/outbound.md)
 * [SignalFx Integration](integrations/signalfx.md)
 * [Single Sign-On Setup](integrations/sso.md)
-* [Slack Integration](integrations/slack/README.md)
+* [Integration for Slack](integrations/slack/README.md)
   * [Post alerts to a Slack channel](integrations/slack/post-alerts-to-a-slack-channel.md)
   * [Create alerts in Slack](integrations/slack/create-alerts-in-slack.md)
 * [SMS Integration](integrations/sms-integration.md)

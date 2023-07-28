@@ -130,6 +130,8 @@ To configure you status page floating widget:
 Changes to your status page will not propagate automatically to your pages. You need to update the code snippet in your target for any changes to take effect.
 {% endhint %}
 
+The localization of the widget will be automatically detected using the viewer's browser language. If you want to set the **language** to a fixed setting, you can optionally provide the query parameter `&lng=en` or `&lng=de` to the scripts already existing parameters.
+
 ## FAQ <a href="#faq" id="faq"></a>
 
 #### We are a managed service provider and would like use multiple status pages to communicate incidents to different customers with private pages without exposing data between customers. Is that possible?
