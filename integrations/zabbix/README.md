@@ -1,5 +1,5 @@
 ---
-description: ilert supports all versions of Zabbix.
+description: ilert supports different versions of Zabbix.
 ---
 
 # Zabbix Integration
