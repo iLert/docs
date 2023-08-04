@@ -4,8 +4,6 @@ description: Create tickets in Autotask PSA based on alerts from ilert.
 
 # Autotask Outbound Integration
 
-[Datto’s Autotask](https://www.datto.com/products/autotask-psa) Professional Services Automation (PSA) is a powerful and intuitive cloud-based PSA platform providing a singular view of the entire business - enabling MSPs to centralize business operations and make data-driven decisions to improve service, productivity and profitability.
-
 ## In Autotask <a href="#create-api-user" id="create-api-user"></a>
 
 ### Create an API user
