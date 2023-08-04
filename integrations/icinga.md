@@ -8,7 +8,7 @@ description: The ilert Icinga Integration helps you to easily connect ilert with
 
 # Icinga Integration
 
-With the ilert Icinga Notification Plugin, you can easily integrate Icinga with ilert and extend your existing Icinga with advanced alerting by SMS, phone calls, and push notifications as well as on-call schedules.
+[Icinga](https://icinga.com/) is an open-source, scalable, and extensible monitoring system that checks the availability of your network resources, notifies users of outages, and generates performance data for reporting. With the ilert Icinga Notification Plugin, you can easily integrate Icinga with ilert and extend your existing Icinga with advanced alerting by SMS, phone calls, and push notifications as well as on-call schedules.
 
 ## System requirements <a href="#requirements" id="requirements"></a>
 
