@@ -4,7 +4,7 @@ description: Create alerts in ilert from PRTG notifications.
 
 # PRTG Network Monitor Integration
 
-With PRTG integration, you can easily integrate PRTG with ilert and extend your existing PRTG monitoring with SMS, push and voice notifications as well as on-call schedules from ilert.
+PRTG Network Monitor is a robust network monitoring software developed by the German company Paessler AG. It allows system administrators and other IT professionals to manage and monitor their entire IT infrastructure, including servers, routers, switches, bandwidth usage, and more. With PRTG integration, you can easily integrate PRTG with ilert and extend your existing PRTG monitoring with SMS, push and voice notifications as well as on-call schedules from ilert.
 
 ## In ilert: Create PRTG alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
