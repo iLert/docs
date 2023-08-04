@@ -4,7 +4,9 @@ description: The ilert Nagios Integration helps you to easily connect ilert with
 
 # Nagios Integration
 
-With the ilert Nagios Notification Plugin, you can easily integrate Nagios with ilert and extend your existing Nagios system (and other Nagios forks) with advanced alerting by SMS, phone calls, and push notifications as well as on-call schedules.
+[Nagios](https://www.nagios.org/) is an open-source monitoring system that enables organizations to identify and resolve IT infrastructure problems before they affect critical business processes. It monitors the network for problems caused by overloaded data links or network connections, as well as monitoring routers, switches and more. Easily able to monitor the availability, uptime, and response time of every node on the network, Nagios can deliver the results in various visual representations and reports.
+
+With the ilert Nagios Notification Plugin, you can easily integrate Nagios with ilert and extend your existing Nagios system (and other Nagios forks) with advanced alerting by SMS, phone calls, and push notifications, as well as on-call schedules.
 
 ## System requirements <a href="#requirements" id="requirements"></a>
 
