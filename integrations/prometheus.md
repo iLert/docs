@@ -77,7 +77,7 @@ Note: for custom labels to be accepted they must be part of the **alert labels**
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-
+***
 
 **Will alerts in ilert be resolved automatically?**
 
@@ -114,3 +114,9 @@ route:
 **The integration does not work. How do I find the issue?**
 
 First, look in the log file of the alert manager. If you can not find the issue, please contact our support at [support@ilert.com](https://github.com/iLert/docs/tree/dfe03283a452516a115a55f8c20942698e279d7b/integrations/support@ilert.com).
+
+## Further References <a href="#faq" id="faq"></a>
+
+Here is the instruction on how to import metrics from Prometheus and display them on your ilert status page:
+
+[Import metrics from Prometheus](https://docs.ilert.com/incident-comms-and-status-pages/metrics/import-metrics-from-prometheus)
