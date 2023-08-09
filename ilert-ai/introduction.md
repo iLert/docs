@@ -7,7 +7,7 @@ Note that AI features that share data with third-parties such as OpenAI require 
 
 AI features that do not share data with third parties are enabled independent of this setting.
 
-![](<../.gitbook/assets/image (1) (3).png>)
+![](<../.gitbook/assets/image (1) (7).png>)
 {% endhint %}
 
 {% content-ref url="generating-incidents-using-ai.md" %}
