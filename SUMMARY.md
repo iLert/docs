@@ -165,6 +165,7 @@
   * [Microsoft Teams Chat Integration](integrations/microsoft-teams/chat.md)
   * [Microsoft Teams Meeting Integration](integrations/microsoft-teams/meeting.md)
   * [Microsoft Teams Integration via Incoming Webhook](integrations/microsoft-teams/incoming-webhook.md)
+  * [Create a channel for an existing alert in Microsoft Teams](integrations/microsoft-teams/create-a-channel-for-an-existing-alert-in-microsoft-teams.md)
   * [Create alerts in Microsoft Teams](integrations/microsoft-teams/create-alerts-in-microsoft-teams.md)
 * [MongoDB Atlas Integration](integrations/mongodbatlas.md)
 * [MXToolBox Integration](integrations/mxtoolbox.md)
