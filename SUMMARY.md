@@ -49,6 +49,12 @@
   * [Auto provisioning users & teams](user-administration/single-sign-on/auto-provisioning-users-and-teams.md)
 * [🔐 Two-factor authentication / MFA](user-administration/two-factor-authentication-mfa.md)
 
+## 🪄 ilert AI
+
+* [Introduction](ilert-ai/introduction.md)
+* [Using ilert AI for efficient incident communication](ilert-ai/generating-incidents-using-ai.md)
+* [Using ilert AI for post-mortem creation (coming soon)](ilert-ai/generating-incident-updates-through-ai.md)
+
 ## Call Routing
 
 * [Getting started with call routing](call-routing/getting-started-with-call-routing.md)
@@ -57,12 +63,6 @@
 * [Managing call routing alerts](call-routing/managing-call-routing-incidents.md)
 * [Adding webhooks and outbound chat messages](call-routing/adding-webhooks-and-outbound-chat-messages.md)
 * [Uploading custom audio responses](call-routing/uploading-custom-audio-responses.md)
-
-## 🪄 ilert AI
-
-* [Introduction](ilert-ai/introduction.md)
-* [Using ilert AI for efficient incident communication](ilert-ai/generating-incidents-using-ai.md)
-* [Using ilert AI for post-mortem creation (coming soon)](ilert-ai/generating-incident-updates-through-ai.md)
 
 ## REST API
 
