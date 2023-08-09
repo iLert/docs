@@ -37,18 +37,6 @@
   * [Import metrics from Datadog](incident-comms-and-status-pages/metrics/import-metrics-from-datadog.md)
   * [Import metrics from Prometheus](incident-comms-and-status-pages/metrics/import-metrics-from-prometheus.md)
 
-## User Administration
-
-* [User roles and permissions](user-administration/user-roles-and-permissions.md)
-* [Team-based organisation](user-administration/teams.md)
-* [Single sign on](user-administration/single-sign-on/README.md)
-  * [Setting up SSO with GSuite](user-administration/single-sign-on/setting-up-sso-with-g-suite.md)
-  * [Setting up SSO with Microsoft Azure Active Directory](user-administration/single-sign-on/setting-up-sso-with-azure-active-directory.md)
-  * [Setting up SSO with Okta](user-administration/single-sign-on/setting-up-sso-with-okta.md)
-  * [Setting up SSO with Auth0](user-administration/single-sign-on/setting-up-sso-with-auth0.md)
-  * [Auto provisioning users & teams](user-administration/single-sign-on/auto-provisioning-users-and-teams.md)
-* [🔐 Two-factor authentication / MFA](user-administration/two-factor-authentication-mfa.md)
-
 ## 🪄 ilert AI
 
 * [Introduction](ilert-ai/introduction.md)
@@ -63,6 +51,18 @@
 * [Managing call routing alerts](call-routing/managing-call-routing-incidents.md)
 * [Adding webhooks and outbound chat messages](call-routing/adding-webhooks-and-outbound-chat-messages.md)
 * [Uploading custom audio responses](call-routing/uploading-custom-audio-responses.md)
+
+## User Administration
+
+* [User roles and permissions](user-administration/user-roles-and-permissions.md)
+* [Team-based organisation](user-administration/teams.md)
+* [Single sign on](user-administration/single-sign-on/README.md)
+  * [Setting up SSO with GSuite](user-administration/single-sign-on/setting-up-sso-with-g-suite.md)
+  * [Setting up SSO with Microsoft Azure Active Directory](user-administration/single-sign-on/setting-up-sso-with-azure-active-directory.md)
+  * [Setting up SSO with Okta](user-administration/single-sign-on/setting-up-sso-with-okta.md)
+  * [Setting up SSO with Auth0](user-administration/single-sign-on/setting-up-sso-with-auth0.md)
+  * [Auto provisioning users & teams](user-administration/single-sign-on/auto-provisioning-users-and-teams.md)
+* [🔐 Two-factor authentication / MFA](user-administration/two-factor-authentication-mfa.md)
 
 ## REST API
 
