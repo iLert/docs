@@ -496,7 +496,7 @@ description: >-
 
 ### New features
 
-* [Advanced support hours routing](call-routing/routing-calls-based-on-support-hours.md) for call routing numbers
+* [Advanced support hours routing](call-routing/getting-started-with-call-routing/routing-calls-based-on-support-hours.md) for call routing numbers
 * Auto provision [teams and mobile](user-administration/single-sign-on/auto-provisioning-users-and-teams.md) numbers with SSO
 
 ### New and updated integrations

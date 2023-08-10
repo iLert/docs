@@ -45,11 +45,11 @@
 
 ## Call Routing
 
-* [Getting started with call routing](call-routing/getting-started-with-call-routing.md)
-* [Routing calls based on support hours](call-routing/routing-calls-based-on-support-hours.md)
-* [Voicemail only mode](call-routing/voicemail-only-mode.md)
-* [Managing call routing alerts](call-routing/managing-call-routing-incidents.md)
-* [Adding webhooks and outbound chat messages](call-routing/adding-webhooks-and-outbound-chat-messages.md)
+* [Getting started with call routing](call-routing/getting-started-with-call-routing/README.md)
+  * [Routing calls based on support hours](call-routing/getting-started-with-call-routing/routing-calls-based-on-support-hours.md)
+  * [Voicemail only mode](call-routing/getting-started-with-call-routing/voicemail-only-mode.md)
+  * [Managing call routing alerts](call-routing/getting-started-with-call-routing/managing-call-routing-incidents.md)
+  * [Adding webhooks and outbound chat messages](call-routing/getting-started-with-call-routing/adding-webhooks-and-outbound-chat-messages.md)
 * [Uploading custom audio responses](call-routing/uploading-custom-audio-responses.md)
 
 ## User Administration
@@ -66,7 +66,7 @@
 
 ## REST API
 
-* [ilert REST API](rest-api/ilert-rest-api.md)
+* [API Reference](https://api.ilert.com/api-docs/)
 * [API Version History](rest-api/api-version-history/README.md)
   * [API user preference migration 2023](rest-api/api-version-history/api-user-preference-migration-2023.md)
 * [Rate Limiting](rest-api/alertsource-throttle.md)
