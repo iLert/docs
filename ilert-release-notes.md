@@ -15,7 +15,10 @@ description: >-
 
 ### Mobile app
 
-* All web UI maintenance window functionalities are now also available in the mobile app
+*   [Maintenance windows](alerting/maintenance-windows.md) are now also available in the mobile app\
+
+
+    <figure><img src=".gitbook/assets/pika-1691784090207-1x.png" alt="" width="188"><figcaption></figcaption></figure>
 * The alert creation view has been reworked to match the features of the web UI
 
 ## June 2023
