@@ -23,10 +23,10 @@ ilert provides the following inbound integration options:
 
 ### Customize your alerts with alert templates
 
-With alert templates, you can create you own template for the alert summary and alert details using preset fields from the integration.
+With alert templates, you can create your own template for the alert summary and alert details using preset fields from the integration.
 
 {% hint style="info" %}
-Alert template configuration is available only when editing an alert source, not when creating it.
+Alert template configuration is not available during alert source creation.
 {% endhint %}
 
 1. Click on **Alert sources -> Alert sources** and choose an alert source to edit
