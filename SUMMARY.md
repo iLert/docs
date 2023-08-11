@@ -15,6 +15,7 @@
 * [ilert sender IDs and domains](alerting/phone-numbers/README.md)
   * [SMS and voice alerts in China](alerting/phone-numbers/sms-and-voice-alerts-in-china.md)
 * [Alert sources](alerting/alert-sources.md)
+* [Maintenance windows](alerting/maintenance-windows.md)
 * [Heartbeat Monitoring](alerting/heartbeat-monitoring/README.md)
   * [Prometheus Heartbeat Example](alerting/heartbeat-monitoring/prometheus-heartbeat-example.md)
   * [CLI Heartbeat Examples](alerting/heartbeat-monitoring/cli-heartbeat-examples.md)
