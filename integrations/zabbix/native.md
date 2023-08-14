@@ -57,7 +57,7 @@ curl -o media_ilert.xml \
 
 4\. **Optional**: Go to **Media types** and open the imported **iLert** media type. You can overwrite the default alert summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
 
-<img src="../../.gitbook/assets/6.png" alt="" data-size="original">
+<img src="../../.gitbook/assets/6 (2).png" alt="" data-size="original">
 
 5\. Click on the **Update** button to save the media type.
 
@@ -95,7 +95,7 @@ curl -o media_ilert.xml \
 
 10\. Click the **Add** button
 
-![](../../.gitbook/assets/9.png)
+![](<../../.gitbook/assets/9 (1).png>)
 
 11\. Click the **Add** button in the **Users** tab to save the user.
 

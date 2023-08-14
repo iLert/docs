@@ -24,23 +24,23 @@ To set up the integration, you must have admin rights in ilert.
 
 1. Select the channel in which you want to publish ilert Alerts and click **...** -> **Connectors**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 12.12.20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
 2. Type webhook in the search field and click **Add**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 12.14.49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 3. Again click on **Add**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 12.16.55.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 
 4. Now in **Connectors** click on **Configure**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 12.17.26.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
 
 5. Type the **connector Name** and click **Create**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 12.19.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
 
 6. Copy the **connector URL** and click **Done**.
 
@@ -52,15 +52,15 @@ To set up the integration, you must have admin rights in ilert.
 
 1. Select the channel in which you want to publish ilert Alerts and click **...** -> **Connectors**
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 12.12.20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
 2. In the **Manage** tab click on **Configured**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 12.23.17.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7.png" alt=""><figcaption></figcaption></figure>
 
 3. Now open up the dropdown list by clicking on **Configured** and click on the **Manage** button of the desired connector.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 12.23.53.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8.png" alt=""><figcaption></figcaption></figure>
 
 ## In ilert: Create the Microsoft Teams Connector and link it to the alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
@@ -68,30 +68,30 @@ To set up the integration, you must have admin rights in ilert.
 
 <div data-full-width="false">
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 12.40.58.png" alt="" width="167"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/9.png" alt="" width="177"><figcaption></figcaption></figure>
 
 </div>
 
 2. Click **Create Connector**
 3. Select **Microsoft Teams** as **Type**. Assign a name for the connector, enter the URL from [above](incoming-webhook.md#add-to-channel) and save it.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 12.42.56.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10.png" alt=""><figcaption></figcaption></figure>
 
 4. **Go to** the alert sources tab and open the alert source whose alerts you want to publish to Microsoft Teams. Click **Alert Actions → Add New Alert Action**.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 12.45.20.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/11.png" alt=""><figcaption></figcaption></figure>
 
 5. Select **Microsoft Teams** as the **type**, select the connector created in step 3, and name it.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 12.46.35.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/12.png" alt=""><figcaption></figcaption></figure>
 
 6. Select the alert filters and conditions for execution as needed and save the alert action.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 12.47.50.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/13.png" alt=""><figcaption></figcaption></figure>
 
 7. Finished! You can now test the connection by clicking on the button **Test this alert action**. Thereafter, a test message will be posted on the Microsoft Teams channel.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-14 at 12.48.48.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/14.png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 
