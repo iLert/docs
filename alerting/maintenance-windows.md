@@ -6,7 +6,7 @@ description: >-
 
 # Maintenance windows
 
-ilert's Maintenance Windows feature allows users to schedule downtime for alert sources and services. This ensures that on-call responders won't receive alerts from alert sources during maintenance and service and status subscribers will be informed about planned and ongoing service maintenance.
+ilert's Maintenance Windows feature allows users to schedule downtime for alert sources and services. This ensures that on-call responders won't receive alerts from alert sources during maintenance and service, and status page subscribers will be informed about planned and ongoing service maintenance.
 
 ## Overview
 
