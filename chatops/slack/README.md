@@ -6,13 +6,13 @@ weight: 1
 description: Post alerts to Slack or create alerts within a Slack channel
 ---
 
-# Slack Integration
+# Integration for Slack
 
 Slack is a popular instant messaging service for team communication and collaboration. With the integration for Slack you can receive messages about alerts in Slack channels and respond within Slack or you can create alerts from within a Slack channel.
 
 ## Select your use case <a href="#in_slack" id="in_slack"></a>
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Post alerts to a Slack channel</strong></td><td>Receive and acknowledge alerts in a Slack channel of your choice.</td><td><a href="post-alerts-to-a-slack-channel.md">post-alerts-to-a-slack-channel.md</a></td></tr><tr><td><strong>Create alerts within a Slack channel</strong></td><td>Use Slack as an alert source and let Slack users create alerts from Slack.</td><td><a href="create-alerts-in-slack.md">create-alerts-in-slack.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Receive and respond to alerts in Slack</strong></td><td>Receive and acknowledge alerts in a Slack channel of your choice.</td><td><a href="post-alerts-to-a-slack-channel.md">post-alerts-to-a-slack-channel.md</a></td></tr><tr><td><strong>Create alerts within a Slack channel</strong></td><td>Use Slack as an alert source and let Slack users create alerts from Slack.</td><td><a href="create-alerts-in-slack.md">create-alerts-in-slack.md</a></td></tr></tbody></table>
 
 ## Authorize your Slack workspace <a href="#in_ilert" id="in_ilert"></a>
 

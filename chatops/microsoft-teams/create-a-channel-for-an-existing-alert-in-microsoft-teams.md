@@ -1,15 +1,15 @@
 ---
 description: >-
-  The ilert Microsoft Teams integration makes it easier to tackle and discuss an
-  alert by creating a dedicated Microsoft Teams channel.
+  The ilert Microsoft Teams integration makes it easier to collaborate on
+  incidents by creating a dedicated Microsoft Teams channel.
 ---
 
 # Create a channel for an existing alert in Microsoft Teams
 
 {% hint style="info" %}
-Connect your Microsoft Teams workspace with ilert first
+**Connect your Microsoft Teams workspace with ilert first**
 
-Before you proceed, please make sure that a global admin has connected your Microsoft Teams workspace with your ilert account (as described in our [integration for Microsoft Teams guide](chat.md#install-the-ilert-bot-application))
+Before you proceed, please make sure that a global admin has connected your Microsoft Teams workspace with your ilert account (as described in our [integration for Microsoft Teams guide](chat/#install-the-ilert-bot-application))
 {% endhint %}
 
 Our Microsoft Teams connector allows you to create a channel to an existing alert in Microsoft Teams, making it even easier for your team to discuss incidents in an more isolated environment.

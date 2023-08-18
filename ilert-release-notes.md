@@ -34,7 +34,7 @@ description: >-
 ### New and updated integrations
 
 * Updated Slack bot
-* Added new create alert feature to Slack bot (note: you may optionally customize the behaviour using ilert [Slack alert sources](integrations/slack/create-alerts-in-slack.md))
+* Added new create alert feature to Slack bot (note: you may optionally customize the behaviour using ilert [Slack alert sources](chatops/slack/create-alerts-in-slack.md))
 
 ## May 2023
 
@@ -466,8 +466,8 @@ description: >-
 
 * New: [Zoom Chat](integrations/zoom/chat.md) Integration
 * New: [Zoom Meeting](integrations/zoom/meeting.md) Integration
-* New: [Microsoft Teams Chat](integrations/microsoft-teams/chat.md) Integration
-* New: [Microsoft Teams Meeting](integrations/microsoft-teams/meeting.md) Integration
+* New: [Microsoft Teams Chat](chatops/microsoft-teams/chat/) Integration
+* New: [Microsoft Teams Meeting](chatops/microsoft-teams/meeting.md) Integration
 * New: [MXToolBox](integrations/mxtoolbox.md) Integration
 * New: [Azure Alert Sentinel](integrations/azure-alerts/sentinel.md) Integration
 

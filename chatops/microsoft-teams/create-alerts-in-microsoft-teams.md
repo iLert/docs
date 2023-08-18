@@ -9,7 +9,7 @@ description: Use Microsoft Teams as an alert source
 {% hint style="info" %}
 Connect your Microsoft Teams workspace with ilert first
 
-Before you proceed, please make sure that a global admin has connected your Microsoft Teams workspace with your ilert account (as described in our [integration for Microsoft Teams guide](chat.md#install-the-ilert-bot-application))
+Before you proceed, please make sure that a global admin has connected your Microsoft Teams workspace with your ilert account (as described in our [integration for Microsoft Teams guide](chat/#install-the-ilert-bot-application))
 {% endhint %}
 
 Our integration for Microsoft Teams lets you create alerts directly withing Microsoft Teams and streamlines your incident management process, making it even easier for your team and stakeholders to report incidents.
@@ -18,7 +18,7 @@ Our integration for Microsoft Teams lets you create alerts directly withing Micr
 
 There are two ways to configure the alert creation feature in Microsoft Teams:
 
-1. **Restrict to Microsoft Teams users with an ilert account**: This mode doesn't require any additional configuration other than installing our Microsoft Teams app (as described in the [integration for Microsoft Teams guide](chat.md))
+1. **Restrict to Microsoft Teams users with an ilert account**: This mode doesn't require any additional configuration other than installing our Microsoft Teams app (as described in the [integration for Microsoft Teams guide](chat/))
 2. **Allow any Microsoft Teams user to create an alert:** This method requires the creation of a dedicated Microsoft Teams alert source in ilert and allows you to control the Microsoft Teams channels where users will be able to create an alert, to which escalation policy the alert is routed to and what [notification priority](../../alerting/alert-sources.md#customise-your-alerts-with-notification-priority) is used.
 
 ### Option 1: Restrict to Microsoft Teams users with an ilert account

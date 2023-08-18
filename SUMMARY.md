@@ -28,6 +28,19 @@
   * [Recurring schedules](on-call-management-and-escalations/on-call-schedules/recurring-schedules.md)
   * [Static schedules](on-call-management-and-escalations/on-call-schedules/static-schedules.md)
 
+## ChatOps
+
+* [Overview](chatops/overview.md)
+* [Integration for Slack](chatops/slack/README.md)
+  * [Receive and respond to alerts in Slack](chatops/slack/post-alerts-to-a-slack-channel.md)
+  * [Create alerts in Slack](chatops/slack/create-alerts-in-slack.md)
+* [Microsoft Teams Integration](chatops/microsoft-teams/README.md)
+  * [Microsoft Teams Chat Integration](chatops/microsoft-teams/chat/README.md)
+    * [Microsoft Teams Integration via Incoming Webhook](chatops/microsoft-teams/chat/incoming-webhook.md)
+  * [Microsoft Teams Meeting Integration](chatops/microsoft-teams/meeting.md)
+  * [Create a channel for an existing alert in Microsoft Teams](chatops/microsoft-teams/create-a-channel-for-an-existing-alert-in-microsoft-teams.md)
+  * [Create alerts in Microsoft Teams](chatops/microsoft-teams/create-alerts-in-microsoft-teams.md)
+
 ## Incident comms & status pages
 
 * [Getting started](incident-comms-and-status-pages/getting-started.md)
@@ -162,12 +175,6 @@
 * [Lightstep Integration](integrations/lightstep.md)
 * [Mattermost Integration](integrations/mattermost.md)
 * [Microsoft SCOM](integrations/ms-scom.md)
-* [Microsoft Teams Integration](integrations/microsoft-teams/README.md)
-  * [Microsoft Teams Chat Integration](integrations/microsoft-teams/chat.md)
-  * [Microsoft Teams Meeting Integration](integrations/microsoft-teams/meeting.md)
-  * [Microsoft Teams Integration via Incoming Webhook](integrations/microsoft-teams/incoming-webhook.md)
-  * [Create a channel for an existing alert in Microsoft Teams](integrations/microsoft-teams/create-a-channel-for-an-existing-alert-in-microsoft-teams.md)
-  * [Create alerts in Microsoft Teams](integrations/microsoft-teams/create-alerts-in-microsoft-teams.md)
 * [MongoDB Atlas Integration](integrations/mongodbatlas.md)
 * [MXToolBox Integration](integrations/mxtoolbox.md)
 * [N-central Integration](integrations/n-central-integration.md)
@@ -195,9 +202,6 @@
   * [ServiceNow Outbound Integration](integrations/service-now/outbound.md)
 * [SignalFx Integration](integrations/signalfx.md)
 * [Single Sign-On Setup](integrations/sso.md)
-* [Integration for Slack](integrations/slack/README.md)
-  * [Post alerts to a Slack channel](integrations/slack/post-alerts-to-a-slack-channel.md)
-  * [Create alerts in Slack](integrations/slack/create-alerts-in-slack.md)
 * [SMS Integration](integrations/sms-integration.md)
 * [SolarWinds Integration](integrations/solarwinds.md)
 * [Splunk Integration](integrations/splunk.md)
