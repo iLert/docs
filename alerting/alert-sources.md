@@ -25,10 +25,6 @@ ilert provides the following inbound integration options:
 
 With alert templates, you can create your own template for the alert summary and alert details using preset fields from the integration.
 
-{% hint style="info" %}
-Alert template configuration is not available during alert source creation.
-{% endhint %}
-
 1. Click on **Alert sources -> Alert sources** and choose an alert source to edit
 2. Navigate to section **Alert templates** and check the boxes for **Alert summary** and/or **Alert details**
 3.  Create your custom template by selecting the **fields** you want use and entering any static text. \
@@ -45,6 +41,19 @@ Alert template configuration is not available during alert source creation.
 * Grey fields lets you extract any raw fields from the JSON payload by typing the name of the custom field, e.g. `custom_field`. You malso access nested fields and arrays, e.g. `custom_field.array_field[5].nested_field`
 {% endhint %}
 
+#### Switching edit modes: Text <-> Block
+
+<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+
+You may switch between Text and Block mode when editing alert source templates.\
+ilert will automatically translate your current template.
+
+#### Testing your templates before saving
+
+<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+
+Using the preview button you may try out your current template, by default ilert will try to find one of the latest event payload's that was received by your alert source, if there is none present, we will render a fallback JSON doc, which you might alter as you like.
+
 #### Manipulate alert fields by applying functions
 
 You can also use functions on dynamic fields to manipulate alert fields.
@@ -52,6 +61,25 @@ You can also use functions on dynamic fields to manipulate alert fields.
 To apply a function, hover over the field and click on the `f(x)` icon.
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-04-25 at 12.55.43.png" alt=""><figcaption></figcaption></figure>
+
+#### Using the template text syntax
+
+By default ilert supports 3 different styles of template content:\
+\
+\- Text\
+\- Block Builder (currently in BETA)\
+\- JSON DSL (used by the API)
+
+Your alert source template fields will start in text mode by default (see switching the edit mode here for more info on how to switch to Block mode). In text mode you may use the "Insert data..." dropdown to help you add template variables quickly (see here to understand more about variables and how ilert automatically parses event data to offer additional variables to you) - the text syntax works like this:
+
+| Type                            | Sample                                 | Description                                                                                                                 |
+| ------------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| Text                            | Some text                              | You may of course add generic text content to your liking                                                                   |
+| Variable                        | **\{{** myEventData **\}}**            | Extract content of the event and insert it. Note: there is no further sanitizing of the values                              |
+| Variable Nested Access          | \{{ data**.**subfield**.**evenMore \}} | Access sub fields                                                                                                           |
+| Variable Index Access           | \{{ data.arrayField**\[0]**.more \}}   | Access array contents                                                                                                       |
+| Applying functions to variables | data**##**lowerCase                    | If you want to work with additional functions, we recommend switching to block mode to quickly generate the template syntax |
+| Passing arguments to functions  | data##substring((0**\|\|**10))         |                                                                                                                             |
 
 ### Extract escalation policy routing key using dynamic fields
 
