@@ -43,16 +43,18 @@ With alert templates, you can create your own template for the alert summary and
 
 #### Switching edit modes: Text <-> Block
 
-<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
-
 You may switch between Text and Block mode when editing alert source templates.\
 ilert will automatically translate your current template.
 
+<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
+
 #### Testing your templates before saving
 
-<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+Using the preview button you may try out your current template. By default, ilert will try to find one of the latest event payload's that was received by your alert source. If there is none present, we will render a fallback JSON doc, which you might alter as you like.
 
-Using the preview button you may try out your current template, by default ilert will try to find one of the latest event payload's that was received by your alert source, if there is none present, we will render a fallback JSON doc, which you might alter as you like.
+
+
+<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
 #### Manipulate alert fields by applying functions
 
@@ -64,22 +66,14 @@ To apply a function, hover over the field and click on the `f(x)` icon.
 
 #### Using the template text syntax
 
-By default ilert supports 3 different styles of template content:\
-\
-\- Text\
-\- Block Builder (currently in BETA)\
-\- JSON DSL (used by the API)
+By default ilert supports 2 different styles of template content:
 
-Your alert source template fields will start in text mode by default (see switching the edit mode here for more info on how to switch to Block mode). In text mode you may use the "Insert data..." dropdown to help you add template variables quickly (see here to understand more about variables and how ilert automatically parses event data to offer additional variables to you) - the text syntax works like this:
+* Text
+* Block Builder (currently in BETA)
 
-| Type                            | Sample                                 | Description                                                                                                                 |
-| ------------------------------- | -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Text                            | Some text                              | You may of course add generic text content to your liking                                                                   |
-| Variable                        | **\{{** myEventData **\}}**            | Extract content of the event and insert it. Note: there is no further sanitizing of the values                              |
-| Variable Nested Access          | \{{ data**.**subfield**.**evenMore \}} | Access sub fields                                                                                                           |
-| Variable Index Access           | \{{ data.arrayField**\[0]**.more \}}   | Access array contents                                                                                                       |
-| Applying functions to variables | data**##**lowerCase                    | If you want to work with additional functions, we recommend switching to block mode to quickly generate the template syntax |
-| Passing arguments to functions  | data##substring((0**\|\|**10))         |                                                                                                                             |
+Your alert source template fields will start in text mode by default (see [here](alert-sources.md#switching-edit-modes-text-less-than-greater-than-block)  for more info on how to switch to Block mode). In text mode you may use the **Insert data...** dropdown to help you add template variables quickly (see here to understand more about variables and how ilert automatically parses event data to offer additional variables to you) - the text syntax works like this:
+
+<table><thead><tr><th width="203">Type</th><th width="351.3333333333333">Sample</th><th>Description</th></tr></thead><tbody><tr><td>Text</td><td>Some text</td><td>You may of course add generic text content to your liking</td></tr><tr><td>Variable</td><td><strong><code>{{</code></strong><code>var</code><strong><code>}}</code></strong></td><td>Extract content of the event and insert it. Note: there is no further sanitizing of the values</td></tr><tr><td>Accessing nested variables</td><td><code>{{ var</code><strong><code>.</code></strong><code>subfield</code><strong><code>.</code></strong><code>evenMore }}</code></td><td>Access sub fields</td></tr><tr><td>Accessing fields of an array</td><td><code>{{ var.arrayField</code><strong><code>[0]</code></strong><code>.more }}</code></td><td>Access array contents</td></tr><tr><td>Applying functions to variables</td><td>{{<code>var</code><strong><code>##</code></strong><code>lowerCase}}</code></td><td>If you want to work with additional functions, we recommend switching to block mode to quickly generate the template syntax</td></tr><tr><td>Passing arguments to functions</td><td><code>{{var##substring((0</code><strong><code>||</code></strong><code>10))}}</code></td><td></td></tr></tbody></table>
 
 ### Extract escalation policy routing key using dynamic fields
 
