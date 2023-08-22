@@ -85,7 +85,15 @@ To extract the escalation policy [routing key](../on-call-management-and-escalat
 
 In the above example, the field `Run location` (after it was transformed to lower case) from the alert payload will be used as the routing key.
 
-### Customise your alerts with notification priority
+### Alert grouping
+
+
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-08-22 at 22.31.52.png" alt=""><figcaption></figcaption></figure>
+
+###
+
+### Notification priority and support hours
 
 By using notification priority, you can easily customise your alert notification based on your notification rules.
 
