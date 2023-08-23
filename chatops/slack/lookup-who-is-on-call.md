@@ -50,6 +50,4 @@ You can let any Slack user (even if they don't have an ilert account) lookup who
 /il-oncall
 ```
 
-&#x20;
-
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/pika-1692781954797-2x (1).png" alt=""><figcaption></figcaption></figure>
