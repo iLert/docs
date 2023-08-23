@@ -91,7 +91,7 @@ Alert grouping helps you reduce noise by clustering related alerts within a defi
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-08-22 at 22.31.52.png" alt=""><figcaption><p>Enable alert grouping during alert source creation or in the alert source's advanced settings</p></figcaption></figure>
 
-An alert source will alert grouping enabled will create only one alert within the defined time window. Grouped alerts will show up as events in the alert timeline. You can select relative time windows (e.g. 2 minutes, 5 minutes, etc) or an action-based time-window (e.g. until the alert is accepted or resolved).
+An alert source with alert grouping enabled will create only one alert within the defined time window. Grouped alerts will show up as events in the alert timeline. You can select relative time windows (e.g. 2 minutes, 5 minutes, etc) or an action-based time-window (e.g. until the alert is accepted or resolved).
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-08-22 at 22.33.18.png" alt="" width="142"><figcaption></figcaption></figure>
 
