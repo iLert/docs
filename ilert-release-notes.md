@@ -6,6 +6,30 @@ description: >-
 
 # ilert Release Notes
 
+## August 2023
+
+### New features
+
+* You may now choose your primary phone number, if you are using multiple contacts. The primary phone number will be preferred when making call routing agent calls or showing your number to other users in on-call requests
+* You can now choose a specific timed window to group your alerts in your alert source e.g. group all incoming events for 5 minutes, until creating the next alert
+* The alert source creation process has ben overhauled, there is a now a wizard that guides through the most important steps of the setup
+
+### New and updates integrations
+
+* New inbound integration Twilio Errors
+* New inbound integration Uptime Kuma
+* We have overhauled and enhanced our Github inbound integration, you may now choose specific alert action types and event types for which to create or resolve alerts, we also do support Github Advanced Security type webhook events now
+* Grafana v9 Links have been optimized, instead of showing general instance links we prefer to show specific dashboard links now
+* It is now possible to turn an alert source bidirectional even though it was already created
+* You can now choosen to enhance Autotask inbound alerts with company details, by enabling the specific setting for your Autotask alert source in ilert
+* You may now choose if you want to receive full text alert details or short forms in Microsoft Team channel notifications, by adjusting the **longDetails** field in your MS Teams connector
+
+### Chatops
+
+* Create dedicated channels in Microsoft Teams to communicate alert updates
+* Added new create alert feature to Microsoft Teams bot (note: you may optionally customize the behaviour using ilert [Microsoft Team alert sources](chatops/slack/create-alerts-in-slack.md#overview))
+* It is now possible to re-authorize your Microsoft Teams bot without removing your existing alert actions
+
 ## July 2023
 
 ### New features
