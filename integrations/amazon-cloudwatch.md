@@ -10,21 +10,51 @@ With ilert's CloudWatch integration, you can automatically create alerts in iler
 
 ## In ilert: Create CloudWatch alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
-1. Switch to the tab "alert sources" and click on the button "Create new alert source"
-2. Assign name and select escalation chain
-3. Select and save "Amazon CloudWatch" in the Integration Type field.
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**\
 
-![](<../.gitbook/assets/cw1 (1) (1) (1).png>)
 
-1. The URL shown on the next page is the HTTP endpoint for the SNS topic in Amazon and will be needed in later steps.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Amazon Cloudwatch** in the search field, click on the Amazon Cloudwatch tile and click on **Next**. \
 
-![](../.gitbook/assets/cw2.png)
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.\
+
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later. \
+
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In AWS SNS: create topic <a href="#create-topic" id="create-topic"></a>
 
+* Give your alert source a name, optionally assign teams and click **Next**.
+*   Select an **escalation policy** by creating a new one or assigning an existing one.\
+
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+
 > If you have already created an SNS topic for your CloudWatch alarms that you want to reuse, you can proceed to step 3.
 
+*   Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later. \
+
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+* The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+
 1. In the SNS Dashboard click on "Create topic"
+
+*   On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+
 
 ![](../.gitbook/assets/cw3.png)
 
