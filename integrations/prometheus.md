@@ -14,19 +14,33 @@ With ilert's Prometheus integration, you can automatically create alerts in iler
 
 ## In ilert: Create Prometheus alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1. Go to **Services** --> **Alert sources** and click on **Create new alert source**
-2. Give it a name and chose an escalation policy
-3. Select Prometheus as the **Integration type**
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**\
 
-![](<../.gitbook/assets/Screenshot 2021-04-26 at 13.04.18.png>)
 
-1. A webhook URL will be generated on the next page. You will need this URL later in Prometheus.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Prometheus** in the search field, click on the Prometheus tile and click on **Next**. \
 
-![](<../.gitbook/assets/Screenshot 2021-04-26 at 13.05.18.png>)
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.\
+
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later. \
+
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Prometheus Alertmanager: add webhook receiver <a href="#add-webhook" id="add-webhook"></a>
 
-1. Add a [Webhook configuration](https://prometheus.io/docs/alerting/configuration/#webhook\_config) from the alert manager in the configuration file. Use the URL generated in ilert as the Webhook URL:
+1\. Add a [Webhook configuration](https://prometheus.io/docs/alerting/configuration/#webhook\_config) from the alert manager in the configuration file. Use the URL generated in ilert as the Webhook URL:
 
 ```yaml
 receivers:
@@ -35,7 +49,7 @@ receivers:
   - url: 'https://api.ilert.com/api/v1/events/prometheus/e6bcfcbf-a38f-462a-af9d-1687809b7594'
 ```
 
-1. You can now configure any route in the Alert Manager. In the following example, all alerts that do not match another [route](https://prometheus.io/docs/alerting/configuration/#route) are sent to ilert:
+2\. You can now configure any route in the Alert Manager. In the following example, all alerts that do not match another [route](https://prometheus.io/docs/alerting/configuration/#route) are sent to ilert:
 
 ```yaml
 route:
@@ -46,8 +60,9 @@ repeat_interval: 1h
 receiver: 'ilert.web.hook'
 ```
 
-1. Restart the alert manager
-2. Optional: Send a test alert through the [Alert Manager API](https://prometheus.io/docs/alerting/clients/).
+3\. Restart the alert manager
+
+4\. Optional: Send a test alert through the [Alert Manager API](https://prometheus.io/docs/alerting/clients/).
 
 ```bash
 curl -d '[{"labels":{"Alertname":"iLert Test"},"annotations":{"summary":"iLert Test"}}]' http://localhost:9093/api/v1/alerts
@@ -55,7 +70,7 @@ curl -d '[{"labels":{"Alertname":"iLert Test"},"annotations":{"summary":"iLert T
 
 ## Dynamic policy routing
 
-iLert's Prometheus integration supports dynamic escalation policy routing with the help of routing keys.
+ilert's Prometheus integration supports dynamic escalation policy routing with the help of routing keys.
 
 In ilert navigate to the **escalation policies** that you want to route to and enter a unique routing key for for each policy.
 
