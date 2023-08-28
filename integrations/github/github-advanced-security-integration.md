@@ -9,22 +9,23 @@ With the ilert GitHub Advanced Security integration, you can create alerts in il
 ## In ilert: Create GitHub alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1. Go to the "**Alert sources**" tab and click "**Create new alert source**"
+2. Type "GitHub" into the search field and select the "GitHub" tile.
 
 <figure><img src="../../.gitbook/assets/github-1.png" alt=""><figcaption></figcaption></figure>
 
-2. Enter a name and click on **Next**
+3. Enter a name and click on **Next**
 
 <figure><img src="../../.gitbook/assets/github-2.png" alt=""><figcaption></figcaption></figure>
 
-3. Select your desired escalation policy.
+4. Select your desired escalation policy.
 
 <figure><img src="../../.gitbook/assets/github-3.png" alt=""><figcaption></figcaption></figure>
 
-4. Now choose an Event Type and an Action Type.
+5. Now choose an Event Type and an Action Type.
 
 <figure><img src="../../.gitbook/assets/github-4.png" alt=""><figcaption></figcaption></figure>
 
-5. On the next page, a Webhook URL is generated. You will need this URL below when setting up the hook in Github.
+6. On the next page, a Webhook URL is generated. You will need this URL below when setting up the hook in Github.
 
 <figure><img src="../../.gitbook/assets/github-5.png" alt=""><figcaption></figcaption></figure>
 
