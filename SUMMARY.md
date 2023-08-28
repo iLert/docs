@@ -150,6 +150,7 @@
 * [Email Outbound Integration](integrations/email-outbound-integration.md)
 * [FreshService Integration](integrations/freshservice.md)
 * [GitHub Integration](integrations/github/README.md)
+  * [GitHub Advanced Security Integration](integrations/github/github-advanced-security-integration.md)
   * [GitHub Inbound Check Run (Actions) Integration](integrations/github/inbound-check-run-actions.md)
   * [GitHub Inbound Issue Integration](integrations/github/inbound-issue.md)
   * [GitHub Outbound Issue Integration](integrations/github/outbound-issue.md)
