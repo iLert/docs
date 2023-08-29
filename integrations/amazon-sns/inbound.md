@@ -12,13 +12,11 @@ The A2A pub/sub functionality provides topics for high-throughput, push-based, m
 
 ## In ilert: Create a Amazon SNS alert source <a href="#in-ilert" id="in-ilert"></a>
 
-1. Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**\
-
+1. Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
 
-2. Search for **Amazon SNS** in the search field, click on the Amazon SNS tile and click on **Next**. \
-
+2. Search for **Amazon SNS** in the search field, click on the Amazon SNS tile and click on **Next**.&#x20;
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
 
