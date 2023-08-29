@@ -4,18 +4,28 @@ description: Create alerts in ilert based on Azure Activity Logs queries.
 
 # Azure Activity Logs
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create a Azure Alerts alert source <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a Azure Alerts alert source <a href="#create-alert-source" id="create-alert-source"></a>
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-1. Go to the "Alert sources" tab and click **Create new alert source**
-2. Enter a name and select your desired escalation policy. Select "Azure Alerts" as the **Integration Type** and click on **Save**.
+    <figure><img src="https://4017197022-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M76ygPnS4HUcFSX8ulm%2Fuploads%2FjX0cS4q7woTXKajZmc1W%2FScreenshot%202023-08-28%20at%2010.21.10.png?alt=media&#x26;token=8ef3666b-84eb-4b51-abee-f07303313941" alt=""><figcaption></figcaption></figure>
+2.  Search for **Azure** in the search field, click on the Azure tile and click on **Next**.&#x20;
 
-![](<../../.gitbook/assets/iLert (34).png>)
+    <figure><img src="https://4017197022-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M76ygPnS4HUcFSX8ulm%2Fuploads%2FlXzQlJpaTFSR49AZk0xA%2FScreenshot%202023-08-28%20at%2010.24.23.png?alt=media&#x26;token=cffeacb4-57b9-47d4-827d-b0f6b1afd914" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the alert action in Azure Alerts.
+    <figure><img src="https://4017197022-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M76ygPnS4HUcFSX8ulm%2Fuploads%2FNnuZqONaIhbOf6fn4OkZ%2FScreenshot%202023-08-28%20at%2011.37.47.png?alt=media&#x26;token=8a74f7b5-5bd2-4eea-97fa-1c1dbb041333" alt=""><figcaption></figcaption></figure>
+5. Select you [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-![](<../../.gitbook/assets/iLert (35).png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Azure <a href="#in-splunk" id="in-splunk"></a>
 
