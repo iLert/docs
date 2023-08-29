@@ -26,10 +26,6 @@ description: Create alerts in ilert based on Azure Metric.
 
 ## In Azure <a href="#in-splunk" id="in-splunk"></a>
 
-\
-\
-
-
 ### Create an alert <a href="#create-action-sequences" id="create-action-sequences"></a>
 
 {% hint style="info" %}
