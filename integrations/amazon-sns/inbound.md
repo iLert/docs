@@ -10,18 +10,31 @@ description: >-
 
 The A2A pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications. Using Amazon SNS topics, your publisher systems can fanout messages to a large number of subscriber systems including Amazon SQS queues, AWS Lambda functions and HTTPS endpoints, for parallel processing, and Amazon Kinesis Data Firehose. The A2P functionality enables you to send messages to users at scale via SMS, mobile push, and email.
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create a Amazon SNS alert source <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a Amazon SNS alert source <a href="#create-alert-source" id="create-alert-source"></a>
+1. Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**\
 
-1. Go to the "Alert sources" tab and click **Create new alert source**
-2. Enter a name and select your desired escalation policy. Select "Amazon SNS" as the **Integration Type** and click on **Save**.
 
-![](<../../.gitbook/assets/iLert (45).png>)
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
 
-3. On the next page, a Webhook URL is generated. You will need this URL below when setting up the SNS subscription in AWS Console.
+2. Search for **Amazon SNS** in the search field, click on the Amazon SNS tile and click on **Next**. \
 
-![](<../../.gitbook/assets/iLert (46).png>)
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4. Select an **escalation policy** by creating a new one or assigning an existing one.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+
+5. Select you [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7. On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In AWS Console <a href="#in-aws-console" id="in-aws-console"></a>
 
