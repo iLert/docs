@@ -34,43 +34,43 @@ description: Create alerts in ilert based on Azure Cost Budget.
 
 ![](<../../.gitbook/assets/Home\_-\_Microsoft\_Azure (4).png>)
 
-1. Then go to **Cost Management**
+2. Then go to **Cost Management**
 
 ![](../../.gitbook/assets/Cost\_Management\_\_\_Billing\_-\_Microsoft\_Azure.png)
 
-1. In the **Cost Management** section click on the **Cost alerts** tab and then click on the **Add** button\*\*.\*\*
+3. In the **Cost Management** section click on the **Cost alerts** tab and then click on the **Add** button\*\*.\*\*
 
 ![](../../.gitbook/assets/Cost\_Management\_\_Nutzungsbasierte\_Bezahlung\_-\_Microsoft\_Azure.png)
 
-1. On the next page, **name** the budget e.g. MyBudget, enter budget **amount** and click on the **Next** button
+4. On the next page, **name** the budget e.g. MyBudget, enter budget **amount** and click on the **Next** button
 
 ![](<../../.gitbook/assets/Cost\_Management\_\_Nutzungsbasierte\_Bezahlung\_-\_Microsoft\_Azure (1).png>)
 
-1. On the next page click on the **Manage action group** button
+5. On the next page click on the **Manage action group** button
 
 ![](<../../.gitbook/assets/Cost\_Management\_\_Nutzungsbasierte\_Bezahlung\_-\_Microsoft\_Azure (2).png>)
 
-1. On the next page, click on the **Add action group** button
+6. On the next page, click on the **Add action group** button
 
 ![](../../.gitbook/assets/Manage\_actions\_-\_Microsoft\_Azure.png)
 
-1. On the next page name the group e.g. **iLert** and click on the **Actions** tab.
+7. On the next page name the group e.g. **iLert** and click on the **Actions** tab.
 
 ![](<../../.gitbook/assets/Create\_action\_group\_-\_Microsoft\_Azure (3).png>)
 
-1. **\*\*On the** Actions **tab**, **click on the** Action type **and choose** Webhook.\*\*
+8. **\*\*On the** Actions **tab**, **click on the** Action type **and choose** Webhook.\*\*
 
 ![](<../../.gitbook/assets/Create\_action\_group\_-\_Microsoft\_Azure (4).png>)
 
-1. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in ilert and click on** OK\*\*. Name the action e.g.\*\* ilert **and click on the** Review + create\*\* button.
+9. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in ilert and click on** OK\*\*. Name the action e.g.\*\* ilert **and click on the** Review + create\*\* button.
 
 ![](<../../.gitbook/assets/Webhook\_-\_Microsoft\_Azure (1).png>)
 
-1. On the next page click on the **Create** button.
+10. On the next page click on the **Create** button.
 
 ![](<../../.gitbook/assets/Create\_action\_group\_-\_Microsoft\_Azure (5).png>)
 
-1. On the next page, enter the **% of budget** value and click on the **Create** button.
+11. On the next page, enter the **% of budget** value and click on the **Create** button.
 
 ![](<../../.gitbook/assets/Cost\_Management\_\_Nutzungsbasierte\_Bezahlung\_-\_Microsoft\_Azure (3).png>)
 
