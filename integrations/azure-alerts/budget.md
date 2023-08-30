@@ -4,24 +4,33 @@ description: Create alerts in ilert based on Azure Cost Budget.
 
 # Budget Alert
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create a Azure Alerts alert source <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a Azure Alerts alert source <a href="#create-alert-source" id="create-alert-source"></a>
+1. Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-1. Go to the "Alert sources" tab and click **Create new alert source**
-2. Enter a name and select your desired escalation policy. Select "Azure Alerts" as the **Integration Type** and click on **Save**.
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/iLert (34).png>)
+2. Search for **Azure Alerts** in the search field, click on the Azure Alerts tile and click on **Next**.
 
-1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the alert action in Azure Alerts.
+<figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
 
-![](<../../.gitbook/assets/iLert (35).png>)
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Azure <a href="#in-splunk" id="in-splunk"></a>
 
 ### Create an alert <a href="#create-action-sequences" id="create-action-sequences"></a>
 
-1. Go to [**Azure Portal**](https://portal.azure.com) and then to **Cost Management + Billing.**&#x20;
+1. Go to [**Azure Portal**](https://portal.azure.com) and then to **Cost Management + Billing.**
 
 ![](<../../.gitbook/assets/Home\_-\_Microsoft\_Azure (4).png>)
 
@@ -29,7 +38,7 @@ description: Create alerts in ilert based on Azure Cost Budget.
 
 ![](../../.gitbook/assets/Cost\_Management\_\_\_Billing\_-\_Microsoft\_Azure.png)
 
-1. In the **Cost Management** section click on the **Cost alerts** tab and then click on the **Add** button**.**
+1. In the **Cost Management** section click on the **Cost alerts** tab and then click on the **Add** button\*\*.\*\*
 
 ![](../../.gitbook/assets/Cost\_Management\_\_Nutzungsbasierte\_Bezahlung\_-\_Microsoft\_Azure.png)
 
@@ -53,7 +62,7 @@ description: Create alerts in ilert based on Azure Cost Budget.
 
 ![](<../../.gitbook/assets/Create\_action\_group\_-\_Microsoft\_Azure (4).png>)
 
-1. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in ilert and click on** OK**. Name the action e.g.** ilert **and click on the** Review + create\*\* button.
+1. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in ilert and click on** OK\*\*. Name the action e.g.\*\* ilert **and click on the** Review + create\*\* button.
 
 ![](<../../.gitbook/assets/Webhook\_-\_Microsoft\_Azure (1).png>)
 
