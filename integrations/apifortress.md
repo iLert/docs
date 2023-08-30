@@ -29,23 +29,23 @@ description: >-
 
 ## In API Fortress
 
-* Click the gear icon in the top right corner to access the settings menu
+1. Click the gear icon in the top right corner to access the settings menu
 
 ![](../.gitbook/assets/apifortress-settings.png)
 
-* Navigate to "**Alert groups**" and create a new alert group if no Alert Group exists yet
+2. Navigate to "**Alert groups**" and create a new alert group if no Alert Group exists yet
 
 ![](../.gitbook/assets/apifortress-alertgroup.png)
 
-* Click "**Socket icon**" -> "**+ Connector to this group**"
+3. Click "**Socket icon**" -> "**+ Connector to this group**"
 
 ![](../.gitbook/assets/apifortress-connector.png)
 
-* Select "**JSON Alert**" or "**JSON Alert /w threshold**", in this case we chose "JSON Alert /w threshold"
+4. Select "**JSON Alert**" or "**JSON Alert /w threshold**", in this case we chose "JSON Alert /w threshold"
 
 ![](../.gitbook/assets/apifortress-jsonalert.png)
 
-* Put the URL Settings based on the API Fortress URL that we've got earlier in ilert Dashboard
+5. Put the URL Settings based on the API Fortress URL that we've got earlier in ilert Dashboard
 
 More Details for "JSON Alert /w threshold" configs
 
@@ -57,9 +57,9 @@ More Details for "JSON Alert /w threshold" configs
 
 ![](../.gitbook/assets/apifortress-settingsproject.png)
 
-* Save the Config and go back to main dashboard
+6. Save the Config and go back to main dashboard
 
 ![](../.gitbook/assets/apifortress-project.png)
 
-* Click "**Settings**" on the project and assign the alert group
-* Upon meeting the alert criteria, JSON payload will be sent to the webhook URL, and Incident will be created in ilert
+7. Click "**Settings**" on the project and assign the alert group
+8. Upon meeting the alert criteria, JSON payload will be sent to the webhook URL, and Incident will be created in ilert
