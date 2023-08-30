@@ -6,7 +6,7 @@ description: >-
 
 # AppSignal Integration
 
-## In ilert
+## In ilert: Create a AppSignal alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
