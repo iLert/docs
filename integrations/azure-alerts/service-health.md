@@ -33,35 +33,35 @@ description: Create alerts in ilert based on Azure Service Health alerts.
 
 ![](<../../.gitbook/assets/Home\_-\_Microsoft\_Azure (5).png>)
 
-1. On the next page click on **Add service health alert** button\*\*.\*\*
+2. On the next page click on **Add service health alert** button\*\*.\*\*
 
 ![](../../.gitbook/assets/Service\_Health\_-\_Microsoft\_Azure.png)
 
-1. On the next page change the **Condition** for the alerts and click on the **Add action groups.**
+3. On the next page change the **Condition** for the alerts and click on the **Add action groups.**
 
 ![](<../../.gitbook/assets/Create\_alert\_rule\_-\_Microsoft\_Azure (4).png>)
 
-1. On the modal window click on the **Create action group** button.
+4. On the modal window click on the **Create action group** button.
 
 ![](<../../.gitbook/assets/Select\_an\_action\_group\_to\_attach\_to\_this\_alert\_rule\_-\_Microsoft\_Azure (1).png>)
 
-1. On the next page name the group e.g. **iLert** and click on the **Actions** tab.
+5. On the next page name the group e.g. **iLert** and click on the **Actions** tab.
 
 ![](<../../.gitbook/assets/Create\_action\_group\_-\_Microsoft\_Azure (3).png>)
 
-1. **\*\*On the** Actions **tab**, **click on the** Action type **and choose** Webhook.\*\*
+6. **\*\*On the** Actions **tab**, **click on the** Action type **and choose** Webhook.\*\*
 
 ![](<../../.gitbook/assets/Create\_action\_group\_-\_Microsoft\_Azure (4).png>)
 
-1. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in ilert and click on** OK\*\*. Name the action e.g.\*\* ilert **and click on the** Review + create\*\* button.
+7. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in ilert and click on** OK\*\*. Name the action e.g.\*\* ilert **and click on the** Review + create\*\* button.
 
 ![](<../../.gitbook/assets/Webhook\_-\_Microsoft\_Azure (1).png>)
 
-1. On the next page click on the **Create** button.
+8. On the next page click on the **Create** button.
 
 ![](<../../.gitbook/assets/Create\_action\_group\_-\_Microsoft\_Azure (5).png>)
 
-1. On the next page scroll down to the **Alert rule details** section, name the alert rule and click on the **Create alert rule** button.
+9. On the next page scroll down to the **Alert rule details** section, name the alert rule and click on the **Create alert rule** button.
 
 ![](../../.gitbook/assets/Create\_alert\_rule\_-\_Microsoft\_Azure1.png)
 
