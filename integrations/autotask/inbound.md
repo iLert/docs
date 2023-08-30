@@ -130,28 +130,28 @@ To use Autotask workflows combined with holiday calendars to manage on-call avai
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-17 at 22.29.39.png" alt=""><figcaption></figcaption></figure>
 
-6. In the **Conditions** section, select **Status Equal to New**.
+5. In the **Conditions** section, select **Status Equal to New**.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-17 at 22.33.38.png" alt=""><figcaption></figcaption></figure>
 
-7. Scroll down to the **Actions** panel and in the **Then Execute Extension Callout** section choose the **iLert Callout** that you created above
-8. Click on the **Save & New** button
+6. Scroll down to the **Actions** panel and in the **Then Execute Extension Callout** section choose the **iLert Callout** that you created above
+7. Click on the **Save & New** button
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-17 at 22.34.04.png" alt=""><figcaption></figcaption></figure>
 
-9. Enter a name eg. ilert (no business hours)
-10. Ensure that **Active** is selected
-11. In the **Events -> CREATED/EDITED** section, activate the **Created by** and the **Edited by** fields and choose **Anyone**
+8. Enter a name eg. ilert (no business hours)
+9. Ensure that **Active** is selected
+10. In the **Events -> CREATED/EDITED** section, activate the **Created by** and the **Edited by** fields and choose **Anyone**
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-17 at 22.34.50.png" alt=""><figcaption></figcaption></figure>
 
-12. In the **Conditions** section, select **Status Not equal to New**.
-13. Tick the **Time Sensitive** checkbox and select **Outside Business Hours of**.
+11. In the **Conditions** section, select **Status Not equal to New**.
+12. Tick the **Time Sensitive** checkbox and select **Outside Business Hours of**.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-17 at 22.36.21.png" alt=""><figcaption></figcaption></figure>
 
-14. Scroll down to the **Actions** panel and in the **Then Execute Extension Callout** section choose the **iLert Callout** that you created above
-15. Click on the **Save & New** button
+13. Scroll down to the **Actions** panel and in the **Then Execute Extension Callout** section choose the **iLert Callout** that you created above
+14. Click on the **Save & New** button
 
 ## FAQ <a href="#faq" id="faq"></a>
 
