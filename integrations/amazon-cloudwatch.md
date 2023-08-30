@@ -36,36 +36,27 @@ With ilert's CloudWatch integration, you can automatically create alerts in iler
 
 ## In AWS SNS: create topic <a href="#create-topic" id="create-topic"></a>
 
-1. Give your alert source a name, optionally assign teams and click **Next**.
-2. Select an **escalation policy** by creating a new one or assigning an existing one.
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
-
 > If you have already created an SNS topic for your CloudWatch alarms that you want to reuse, you can proceed to step 3.
 
-3. Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
-
-4. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
-5. In the SNS Dashboard click on "Create topic"
-6. On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+1. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+2. In the SNS Dashboard click on "Create topic"
+3. On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
 
 ![](../.gitbook/assets/cw3.png)
 
-7. Name the topic and click on "Create topic".
+4. Name the topic and click on "Create topic".
 
 ![](../.gitbook/assets/cw4.png)
 
-8. Click on "Create subscription" on the Topic Detail page
+5. Click on "Create subscription" on the Topic Detail page
 
 ![](../.gitbook/assets/cw5.png)
 
-9. Select "HTTPS" as the protocol and transfer the URL from the above-created alert source to ilert at Endpoint and click on "Create subscription".
+6. Select "HTTPS" as the protocol and transfer the URL from the above-created alert source to ilert at Endpoint and click on "Create subscription".
 
 ![](../.gitbook/assets/cw6.png)
 
-10. The subscription is automatically confirmed by ilert when it is created. After updating the overview, the status "PendingConfirmation" should disappear and the ID should be displayed.
+7. The subscription is automatically confirmed by ilert when it is created. After updating the overview, the status "PendingConfirmation" should disappear and the ID should be displayed.
 
 ![](../.gitbook/assets/cw7.png)
 
