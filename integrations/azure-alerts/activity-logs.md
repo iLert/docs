@@ -31,43 +31,43 @@ description: Create alerts in ilert based on Azure Activity Logs queries.
 
 ### Create an alert <a href="#create-action-sequences" id="create-action-sequences"></a>
 
-4. Go to [**Azure Portal**](https://portal.azure.com) and then to **Activity log.**
+1. Go to [**Azure Portal**](https://portal.azure.com) and then to **Activity log.**
 
 ![](<../../.gitbook/assets/Home\_-\_Microsoft\_Azure (3).png>)
 
-5. Find and click on the activity log for which you’d like to create an alert.
+2. Find and click on the activity log for which you’d like to create an alert.
 
 ![](../../.gitbook/assets/Activity\_log\_-\_Microsoft\_Azure.png)
 
-6. On the modal window click on the **New alert rule** button\*\*.\*\*
+3. On the modal window click on the **New alert rule** button\*\*.\*\*
 
 ![](../../.gitbook/assets/Delete\_action\_group\_-\_Microsoft\_Azure.png)
 
-7. On the next page change the **Condition** for the alerts and click on the **Add action groups.**
+4. On the next page change the **Condition** for the alerts and click on the **Add action groups.**
 
 ![](<../../.gitbook/assets/Create\_alert\_rule\_-\_Microsoft\_Azure (3).png>)
 
-8. On the modal window click on the **Create action group** button.
+5. On the modal window click on the **Create action group** button.
 
 ![](<../../.gitbook/assets/Select\_an\_action\_group\_to\_attach\_to\_this\_alert\_rule\_-\_Microsoft\_Azure (1).png>)
 
-9. On the next page name the group e.g. **iLert** and click on the **Actions** tab.
+6. On the next page name the group e.g. **iLert** and click on the **Actions** tab.
 
 ![](<../../.gitbook/assets/Create\_action\_group\_-\_Microsoft\_Azure (3).png>)
 
-10. **\*\*On the** Actions **tab**, **click on the** Action type **and choose** Webhook.\*\*
+7. **\*\*On the** Actions **tab**, **click on the** Action type **and choose** Webhook.\*\*
 
 ![](<../../.gitbook/assets/Create\_action\_group\_-\_Microsoft\_Azure (4).png>)
 
-11. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in ilert and click on** OK\*\*. Name the action e.g.\*\* ilert **and click on the** Review + create\*\* button.
+8. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in ilert and click on** OK\*\*. Name the action e.g.\*\* ilert **and click on the** Review + create\*\* button.
 
 ![](<../../.gitbook/assets/Webhook\_-\_Microsoft\_Azure (1).png>)
 
-12. On the next page click on the **Create** button.
+9. On the next page click on the **Create** button.
 
 ![](<../../.gitbook/assets/Create\_action\_group\_-\_Microsoft\_Azure (5).png>)
 
-13. On the next page scroll down to the **Alert rule details** section, name the alert rule and click on the **Create alert rule** button.
+10. On the next page scroll down to the **Alert rule details** section, name the alert rule and click on the **Create alert rule** button.
 
 ![](../../.gitbook/assets/Create\_alert\_rule\_-\_Microsoft\_Azure1.png)
 
