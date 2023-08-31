@@ -8,15 +8,23 @@ With the ilert Datadog integration, you can create alerts in ilert based on Data
 
 ## In ilert: Create Datadog alert source <a href="#alert-source" id="alert-source"></a>
 
-1. Switch to the **Alert Sources** tab and click on the "Create new alert source" button
-2. Assign name and select escalation chain
-3. Select **Datadog** in the Integration type field and save.
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-![](../../.gitbook/assets/dd1.png)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Datadog** in the search field, click on the Datadog tile and click on **Next**.&#x20;
 
-1. On the next page a **Webhook URL** is generated. You will need this URL at the bottom of the setup in Datadog.
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-![](../../.gitbook/assets/dd2.png)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Datadog: Add ilert Webhook as alerting channel <a href="#add-webhook" id="add-webhook"></a>
 
@@ -25,7 +33,7 @@ With the ilert Datadog integration, you can create alerts in ilert based on Data
 
 ![](../../.gitbook/assets/dd3.png)
 
-1. Enter a name, the **Datadog webhook URL** from ilert alert source and **template payload**:
+3. Enter a name, the **Datadog webhook URL** from ilert alert source and **template payload**:
 
 ```
 {
@@ -47,8 +55,8 @@ With the ilert Datadog integration, you can create alerts in ilert based on Data
 
 ![](../../.gitbook/assets/dd4.png)
 
-1. Click **save** button
-2. The integration is now set up!
+4. Click **save** button
+5. The integration is now set up!
 
 ## FAQ <a href="#faq" id="faq"></a>
 
