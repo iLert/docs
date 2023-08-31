@@ -12,14 +12,24 @@ ilert provides the following inbound integration options:
 
 ### Create an alert source
 
-1.  Click on **Alert sources -> Alert sources -> Create a new alert source**\
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**\
 
 
-    <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
-2.  Choose a name, an escalation policy and your integration type and create the alert source. Refer to our integration documentations for detailed information on how to set up each integration properly.\
+    <figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+2.  Select your integration type in the search search field click on **Next**.\
 
 
-    ![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
+    <figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one. \
+
+
+    <figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+5.  Select your [Alert grouping](alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.\
+
+
+    <figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+6. The next page shows additional settings such as custom alert templates or notification prioritiy. Click on **Finish setup** for now.
 
 ### Customize your alerts with alert templates
 
