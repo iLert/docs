@@ -8,19 +8,25 @@ description: >-
 
 With [Google Cloud Monitoring](https://cloud.google.com/monitoring) you can gain visibility into the performance, availability, and health of your applications and infrastructure.
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create a Google Cloud Monitoring alert source <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a Google Cloud Monitoring alert source
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-1. Switch to the tab "alert sources" and click on the button "Create new alert source"
-2. Assign name and select escalation chain
-3. Select and save in the Google Cloud Monitoring Integration Type field.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Google Cloud Monitoring** in the search field, click on the Google Cloud Monitoring tile and click on **Next**.&#x20;
 
-![](../.gitbook/assets/Screenshot\_27\_09\_21\_\_17\_08.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the Motification Channel in Google Cloud Console.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-![](../.gitbook/assets/Screenshot\_27\_09\_21\_\_17\_10.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Google Cloud Console <a href="#create-webhook-notification" id="create-webhook-notification"></a>
 
@@ -30,19 +36,19 @@ With [Google Cloud Monitoring](https://cloud.google.com/monitoring) you can gain
 
 ![](../.gitbook/assets/Screenshot\_27\_09\_21\_\_17\_12.png)
 
-1. On the Monitoring page go to **Alerting** and click on the **Edit Notification channels** button
+2. On the Monitoring page go to **Alerting** and click on the **Edit Notification channels** button
 
 ![](../.gitbook/assets/Screenshot\_27\_09\_21\_\_17\_15.png)
 
-1. On the Notification Channels page click on the **Add New** button beside the Webhooks channels.
+3. On the Notification Channels page click on the **Add New** button beside the Webhooks channels.
 
 ![](../.gitbook/assets/Screenshot\_27\_09\_21\_\_17\_17.png)
 
-1. Assign a **Display Name** on the following modal (e.g. ilert) and in the field "Endpoint URL" paste the **Webhook URL** that you generated in ilert and click on the **Save** button.
+4. Assign a **Display Name** on the following modal (e.g. ilert) and in the field "Endpoint URL" paste the **Webhook URL** that you generated in ilert and click on the **Save** button.
 
 ![](../.gitbook/assets/Screenshot\_27\_09\_21\_\_17\_21.png)
 
-1. After you've created the ilert webhook, you can use it as a notification in any Alerting Policy in Google Cloud Monitoring. The following screenshot will create a new Alerting Policy with ilert as the notification method.
+5. After you've created the ilert webhook, you can use it as a notification in any Alerting Policy in Google Cloud Monitoring. The following screenshot will create a new Alerting Policy with ilert as the notification method.
 
 ![](../.gitbook/assets/Screenshot\_27\_09\_21\_\_17\_25.png)
 
