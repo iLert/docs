@@ -8,26 +8,23 @@ With the ilert GitHub Advanced Security integration, you can create alerts in il
 
 ## In ilert: Create GitHub alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
-1. Go to the "**Alert sources**" tab and click "**Create new alert source**"
-2. Type "GitHub" into the search field and select the "GitHub" tile.
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-<figure><img src="../../.gitbook/assets/github-1.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **GitHub Advanced Security** in the search field, click on the GitHub Advanced Security tile and click on **Next**.&#x20;
 
-3. Enter a name and click on **Next**
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-<figure><img src="../../.gitbook/assets/github-2.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-4. Select your desired escalation policy.
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide
 
-<figure><img src="../../.gitbook/assets/github-3.png" alt=""><figcaption></figcaption></figure>
-
-5. Now choose an Event Type and an Action Type.
-
-<figure><img src="../../.gitbook/assets/github-4.png" alt=""><figcaption></figcaption></figure>
-
-6. On the next page, a Webhook URL is generated. You will need this URL below when setting up the hook in Github.
-
-<figure><img src="../../.gitbook/assets/github-5.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In GitHub <a href="#in-github" id="in-github"></a>
 
@@ -48,7 +45,7 @@ With the ilert GitHub Advanced Security integration, you can create alerts in il
 
 <figure><img src="../../.gitbook/assets/git-2.png" alt=""><figcaption></figcaption></figure>
 
-4. Click on **Save**
+5. Click on **Save**
 
 ## FAQ <a href="#faq" id="faq"></a>
 
