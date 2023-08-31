@@ -110,19 +110,19 @@ Log in to checkmk's web GUI and continue there.
 
 ![](../../.gitbook/assets/mk4.jpg)
 
-1. Fill in the fields marked below. Add the user to the contact groups to which the hosts or services that you want to be alerted for. Click on "Save".
+2. Fill in the fields marked below. Add the user to the contact groups to which the hosts or services that you want to be alerted for. Click on "Save".
 
 ![](../../.gitbook/assets/mk5.jpg)
 
-1. Go to the notification settings of this user (by clicking on the "Notifications" icon).
+3. Go to the notification settings of this user (by clicking on the "Notifications" icon).
 
 ![](../../.gitbook/assets/mk6.jpg)
 
-1. Click on "New Rule" and select ilert checkmk Plugin as the "Notification Method". Enter your ilert API key (see above) as a parameter.
+4. Click on "New Rule" and select ilert checkmk Plugin as the "Notification Method". Enter your ilert API key (see above) as a parameter.
 
 ![](../../.gitbook/assets/mk7.jpg)
 
-1. Go back to the user list and activate your changes by clicking on "1 Changes":
+5. Go back to the user list and activate your changes by clicking on "1 Changes":
 
 ![](../../.gitbook/assets/mk8.jpg)
 
