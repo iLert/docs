@@ -21,21 +21,27 @@ Python 2.x is EOL (end of life) we suggest to use Python >= 3.7
 
 > Are you using Icinga 1.x? Please refer to our [Nagios integration guide](nagios.md).
 
-## In ilert: create Icinga alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create Icinga alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1. Go to the "Alert sources" tab and click "Add a new alert source"
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-![](../.gitbook/assets/ici1.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Icinga** in the search field, click on the Icinga tile and click on **Next**.&#x20;
 
-1. Enter a name and select your desired escalation policy. Select "Icinga 2.x" as the **Integration Type** and click **Save**.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-![](../.gitbook/assets/ici2.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-1. On the next page, an API Key is generated. You will need this **API Key** below when setting up the Icinga Plugin.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
 
-![](../.gitbook/assets/ici3.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Icinga: install notification plugin <a href="#in-icinga" id="in-icinga"></a>
+## In Icinga: Install notification plugin <a href="#in-icinga" id="in-icinga"></a>
 
 1. Download the [ilert Icinga plugin](https://github.com/iLert/ilert-icinga) and unzip it
 
@@ -44,7 +50,7 @@ wget https://github.com/iLert/ilert-icinga/releases/latest/download/ilert-icinga
 unzip ilert-icinga.zip
 ```
 
-1. Move the plugin file `ilert-icinga.py` into the `/usr/local/bin` directory
+2. Move the plugin file `ilert-icinga.py` into the `/usr/local/bin` directory
 
 {% tabs %}
 {% tab title="Python 3.7 (or higher)" %}
@@ -63,7 +69,7 @@ mv ilert-icinga.py /usr/local/bin > chmod 755 /usr/local/bin/ilert-icinga.py
 
 > The file must be executable by both Icinga and the cron daemon
 
-1. Open the plugin configuration file `ilert-icinga.conf` and paste the **API Key** in the pager field of the user definition, e.g.
+3. Open the plugin configuration file `ilert-icinga.conf` and paste the **API Key** in the pager field of the user definition, e.g.
 
 ```
 object User "ilert" {
@@ -76,7 +82,7 @@ object User "ilert" {
 }
 ```
 
-1. Copy the file to the Icinga configuration directory (varies depending on the installation)
+4. Copy the file to the Icinga configuration directory (varies depending on the installation)
 
 {% tabs %}
 {% tab title="Python 3.7 (or higher)" %}
@@ -93,7 +99,7 @@ mv ilert-icinga.conf /etc/icinga2/conf.d/
 {% endtab %}
 {% endtabs %}
 
-5: _Optional:_ You can enable ilert as a notification contact using `vars.notification.enable_ilert = true` attribute in host and service definitions. To enable ilert for all hosts and services, add the attribute to the template `/etc/icinga2/conf.d/templates.conf`
+5. _Optional:_ You can enable ilert as a notification contact using `vars.notification.enable_ilert = true` attribute in host and service definitions. To enable ilert for all hosts and services, add the attribute to the template `/etc/icinga2/conf.d/templates.conf`
 
 ```
 template Host "generic-host" {
@@ -114,13 +120,13 @@ template Service "generic-service" {
 }
 ```
 
-1. Edit the crontab file from the icinga user
+6. Edit the crontab file from the icinga user
 
 ```bash
 crontab -u icinga -e
 ```
 
-1. Add the following entry:
+7. Add the following entry:
 
 {% tabs %}
 {% tab title="Python 3.7 (or higher)" %}
@@ -138,13 +144,13 @@ crontab -u icinga -e
 
 > Via this cron job, events are sent to ilert every minute that failed in the first send attempt (e.g. due to a network error).
 
-1. Restart Icinga:
+8. Restart Icinga:
 
 ```bash
 /etc/init.d/icinga restart
 ```
 
-1. After server restart you should see the ilert user in Icinga
+9. After server restart you should see the ilert user in Icinga
 
 ![](../.gitbook/assets/ici4.png)
 
