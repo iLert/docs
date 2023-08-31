@@ -9,18 +9,25 @@ description: >-
 | ![](<../.gitbook/assets/Consul Cloud Verified Badge\_Small (1).png>) | [HashiCorp Consul](https://www.consul.io/) is a service mesh solution providing a full featured control plane with service discovery, configuration, and segmentation functionality. This integration creates based on Consul health checks. |
 | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create an HashiCorp Consul alert source <a href="#in-ilert" id="in-ilert"></a>
 
-### Create an alert source <a href="#create-alert-source" id="create-alert-source"></a>
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-1. Go to the "Alert sources" tab and click **Create new alert source**
-2. Enter a name and select your desired escalation policy. Select "API" as the **Integration Type** and click on **Save**.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **HashiCorp Consul** in the search field, click on the HashiCorp Consul tile and click on **Next**.&#x20;
 
-![](<../.gitbook/assets/iLert (28).png>)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-1. On the next page, an API Key is generated. You will need this API Key below when setting up the Consul-Alerts tool.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-![](<../.gitbook/assets/iLert (29).png>)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Consul Server <a href="#in-topdesk" id="in-topdesk"></a>
 
@@ -33,13 +40,13 @@ description: >-
 curl -X PUT -d 'YOUR_API_KEY' http://localhost:8500/v1/kv/consul-alerts/config/notifiers/ilert/api-key
 ```
 
-1. Enable ilert notifications in Consul-Alerts.
+3. Enable ilert notifications in Consul-Alerts.
 
 ```bash
 curl -X PUT -d 'true' http://localhost:8500/v1/kv/consul-alerts/config/notifiers/ilert/enabled
 ```
 
-1. (Optional) Generating a test alert by having a health check fail to confirm the integration is working.
+4. (Optional) Generating a test alert by having a health check fail to confirm the integration is working.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
