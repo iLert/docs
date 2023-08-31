@@ -14,7 +14,7 @@ description: Create events in Amazon EventBridge using ilert alerts.
 
 ![](<../.gitbook/assets/iLert (90).png>)
 
-1. On the next page choose **Amazon EventBridge** as the type, name it, choose **Trigger mode**, enter your AWS **account ID**, choose AWS **region** and click on the **Save** button.
+2. On the next page choose **Amazon EventBridge** as the type, name it, choose **Trigger mode**, enter your AWS **account ID**, choose AWS **region** and click on the **Save** button.
 
 ![](<../.gitbook/assets/Notification\_Center (2).png>)
 
@@ -22,35 +22,35 @@ description: Create events in Amazon EventBridge using ilert alerts.
 
 ### Create an Amazon EventBridge event source <a href="#create-sns-topic-subscription" id="create-sns-topic-subscription"></a>
 
-1. Go to the AWS Console and then to **Amazon EventBridge**, then click on the **Partner event sources** link and on the **Event Source** that you created in the previous step**.**
+1. Go to the AWS Console and then to **Amazon EventBridge**, then click on the **Partner event sources** link and on the **Event Source** that you created in the previous step\*\*.\*\*
 
 ![](<../.gitbook/assets/Amazon\_EventBridge (1).png>)
 
-1. On the next page, click on the **Associate with event bus** button
+2. On the next page, click on the **Associate with event bus** button
 
 ![](../.gitbook/assets/Amazon\_EventBridge.png)
 
-1. On the next page in the permissions section, choose **Organization** and **My organization** - **\*\*then click on the** Associate\*\* button
+3. On the next page in the permissions section, choose **Organization** and **My organization** - **\*\*then click on the** Associate\*\* button
 
 ![](<../.gitbook/assets/Amazon\_EventBridge (2).png>)
 
-1. To finished the configuration, you need to create a rule for the new event bus e.g. a rule for Amazon SQS. To do that, go to the **EventBridge Rules,** choose the **Event bus** and click on the **Create rule** button
+4. To finished the configuration, you need to create a rule for the new event bus e.g. a rule for Amazon SQS. To do that, go to the **EventBridge Rules,** choose the **Event bus** and click on the **Create rule** button
 
 ![](<../.gitbook/assets/Amazon\_EventBridge (3).png>)
 
-1. On the next page in the **New and description** section, name the rule, e.g. my-rule and scroll down
+5. On the next page in the **New and description** section, name the rule, e.g. my-rule and scroll down
 
 ![](<../.gitbook/assets/Amazon\_EventBridge (4).png>)
 
-1. In the **Define pattern** section, choose **Pre-defined pattern by service**, in the **Service provider** section choose **All Events** and scroll down
+6. In the **Define pattern** section, choose **Pre-defined pattern by service**, in the **Service provider** section choose **All Events** and scroll down
 
 ![](<../.gitbook/assets/Notification\_Center (3).png>)
 
-1. In the **Select targets** section, choose **SQS queue** as target type and choose your queue, then scroll down and click on the **Create** button
+7. In the **Select targets** section, choose **SQS queue** as target type and choose your queue, then scroll down and click on the **Create** button
 
 ![](<../.gitbook/assets/Notification\_Center (4).png>)
 
-1. Finished! Now an Amazon EventBridge notification will be created for each alert that is created to the linked alert source in ilert.
+8. Finished! Now an Amazon EventBridge notification will be created for each alert that is created to the linked alert source in ilert.
 
 ## Event types sent to Amazon EventBridge event bus
 
