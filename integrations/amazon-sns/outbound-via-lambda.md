@@ -24,7 +24,7 @@ To set up the integration, you must have an Amazon SNS topic and the arn string 
 
 ![](../../.gitbook/assets/Lambda.png)
 
-**3. In the Change** default execution role section, choose **Create a new role from AWS policy template**, name the new role e.g. myIncidentHandlerRole, in the **Policy templates** section, choose **Amazon SNS publish policy** and click on the **Create function** button
+3. **In the Change** default execution role section, choose **Create a new role from AWS policy template**, name the new role e.g. myIncidentHandlerRole, in the **Policy templates** section, choose **Amazon SNS publish policy** and click on the **Create function** button
 
 ![](<../../.gitbook/assets/Lambda (1).png>)
 
