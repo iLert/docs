@@ -1,46 +1,55 @@
 ---
 title: Github Inbound Issue Integration
 seoTitle: 'iLert: Github Issue Integration for Alerting | Incident Response | Uptime'
-description: Create alerts in ilert based on issues from GitHub repositories.
 date: '2020-04-21T07:00:00.000Z'
 weight: 1
+description: Create alerts in ilert based on issues from GitHub repositories.
 ---
 
 # GitHub Inbound Issue Integration
 
 With the ilert Github Issue integration, you can create alerts in ilert based on repository issues from Github.
 
-## In ilert: Create a Github alert source <a id="create-alert-source"></a>
+## In ilert: Create a Github alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
-1. Go to the "Alert sources" tab and click "Create new alert source"
-2. Enter a name and select your desired escalation policy. Select "Github" as the **Integration Type** and click **Save**.
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-![](../../.gitbook/assets/ghii1.png)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **GitHub** in the search field, click on the GitHub tile and click on **Next**.&#x20;
 
-1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the hook in Github.
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-![](../../.gitbook/assets/ghii2.png)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-## In Github <a id="in-github"></a>
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
+
+## In Github <a href="#in-github" id="in-github"></a>
 
 ### Create a Repository Webhook
 
-1. Go to your Github repository and then to **Settings** --&gt; **Webhooks** and click on **Add webhook** to add a new webhook \(`https://github.com/<org>/<repo>/settings/hooks`\)
+1. Go to your Github repository and then to **Settings** --> **Webhooks** and click on **Add webhook** to add a new webhook (`https://github.com/<org>/<repo>/settings/hooks`)
 
 ![](../../.gitbook/assets/ghii3.png)
 
-1. In the **Payload URL** section, set the **Webhook URL** that you generated in ilert
-2. In the **Content type** section, set the **application/json**
+2. In the **Payload URL** section, set the **Webhook URL** that you generated in ilert
+3. In the **Content type** section, set the **application/json**
 
 ![](../../.gitbook/assets/ghii4.png)
 
-1. In the **Which events would you like to trigger this webhook?** section, change it to **Let me select individual events** and select the **Check runs** events
+4. In the **Which events would you like to trigger this webhook?** section, change it to **Let me select individual events** and select the **Check runs** events
 
 ![](../../.gitbook/assets/ghii5.png)
 
-1. Click **Save**
+5. Click **Save**
 
-## FAQ <a id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in ilert be resolved automatically?**
 
@@ -53,4 +62,3 @@ Yes, simply create more webhooks in Github.
 **Can I customize the alert messages?**
 
 No.
-
