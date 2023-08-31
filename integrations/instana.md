@@ -12,15 +12,23 @@ description: The ilert Instana Integration helps you to easily connect ilert wit
 
 ## In ilert: Create Instana alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1. Go to the **Alert sources** tab and click on **Create new alert source**
-2. Enter a name and select your desired escalation policy
-3. Select "Instana" as the **Integration type**
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-![](<../.gitbook/assets/i1-1 (1).png>)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Instana** in the search field, click on the Instana tile and click on **Next**.&#x20;
 
-1. The URL shown on the next page is the HTTP endpoint for the Webhook in Instana and will be needed below.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-![](../.gitbook/assets/i1-2.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Instana: Create webhook integration <a href="#create-webhook-integration" id="create-webhook-integration"></a>
 
@@ -29,8 +37,8 @@ description: The ilert Instana Integration helps you to easily connect ilert wit
 
 ![](../.gitbook/assets/i1-3.png)
 
-1. In the **Notify on** field, select the event types for which you want alerts from ilert.
-2. In the **Webhook URL** field, copy the URL from the alert source set up in ilert and click on **Save**.
+3. In the **Notify on** field, select the event types for which you want alerts from ilert.
+4. In the **Webhook URL** field, copy the URL from the alert source set up in ilert and click on **Save**.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
