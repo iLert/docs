@@ -27,11 +27,11 @@ With the native ilert notification integration in Checkmk, you can automatically
 
 ![](<../../.gitbook/assets/Picture 1.png>)
 
-1. In the **Notification configuration**, click on **Add rule**
+2. In the **Notification configuration**, click on **Add rule**
 
 ![](<../../.gitbook/assets/Picture 2.png>)
 
-1. In the **Notification Method** section choose ilert method. Enter enter the **API key** and click on **Save**.
+3. In the **Notification Method** section choose ilert method. Enter enter the **API key** and click on **Save**.
 
 ![](<../../.gitbook/assets/Picture 4.png>)
 
