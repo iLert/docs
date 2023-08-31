@@ -12,19 +12,25 @@ coverY: -157.98946088366438
 
 This integration uses IXON's [Cloud Notify](https://support.ixon.cloud/hc/en-us/articles/360016840620) to dispatch real-time notifiations from your machine(s) to ilert. That way, you can leverage ilert's alerting, scheduling and escalation capabiltites to send critical alerts from your machines to the right personnel and take immediate action.
 
-### In ilert - create IXON Cloud alert source
+### In ilert: Create IXON Cloud alert source
 
-1\. Go to the **Alert sources** tab and click on **Create new alert source**
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-![](<../.gitbook/assets/ilert-create-alert (2).png>)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **IXON Cloud** in the search field, click on the IXON Cloud tile and click on **Next**.&#x20;
 
-2\. Enter a name and select your desired escalation policy. Select **IXON Cloud** as the **Integration type** and click **Save**.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-![](../.gitbook/assets/ilert-ixoncloud.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-3\. On the next page, an **IXON Cloud URL** is generated. You will need the URL for the webhook configuration below
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
 
-![](../.gitbook/assets/ilert-ixoncloud-url.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Advanced routing configuration
 
@@ -46,7 +52,7 @@ Note that if no match for the routing key is found, ilert will fall back to usin
 
 #### Create ilert webhook
 
-1\. Navigate and login to Ixon Cloud Portal at [https://portal.ixon.cloud/](https://portal.ixon.cloud/)&#x20;
+1\. Navigate and login to Ixon Cloud Portal at [https://portal.ixon.cloud/](https://portal.ixon.cloud/)
 
 2\. Click on the ![](https://cdn.ixon.cloud/support/website/images/gui-icons/mail\_outline.svg) icon on the top right of the dashboard to navigate to **Messages**
 
@@ -64,15 +70,15 @@ Note that if no match for the routing key is found, ilert will fall back to usin
 
 Now that the ilert webhook is configured, we're going to setup an alarm and alarm trigger to test the integration. Refer to this [support article](https://support.ixon.cloud/hc/en-us/articles/360016805380) from the IXON documentation for information on how to setup alarms.
 
-1\. Navigate to [**Fleet Manager**](https://portal.ixon.cloud/fleet-manager) **** by clicking on the ![](https://cdn.ixon.cloud/support/website/images/gui-icons/apps\_rounded.svg)  icon on the top right  and selecting ![](https://cdn.ixon.cloud/support/website/images/gui-icons/gear\_outline.svg) **Fleet Manager**
+1\. Navigate to [**Fleet Manager**](https://portal.ixon.cloud/fleet-manager) \*\*\*\* by clicking on the ![](https://cdn.ixon.cloud/support/website/images/gui-icons/apps\_rounded.svg) icon on the top right and selecting ![](https://cdn.ixon.cloud/support/website/images/gui-icons/gear\_outline.svg) **Fleet Manager**
 
 ![](../.gitbook/assets/ixon-tofleet.png)
 
-2\. Go to  **Devices** ![](https://cdn.ixon.cloud/support/website/images/gui-icons/cloud\_connectors\_outline.svg) and select the device that you need create an ilert alarm trigger for
+2\. Go to **Devices** ![](https://cdn.ixon.cloud/support/website/images/gui-icons/cloud\_connectors\_outline.svg) and select the device that you need create an ilert alarm trigger for
 
 ![](../.gitbook/assets/ixon-device.png)
 
-3\. If you haven't added any Data Source, add a **Data Source.** In the screenshot below,  we chose **Modbus**
+3\. If you haven't added any Data Source, add a **Data Source.** In the screenshot below, we chose **Modbus**
 
 ![](../.gitbook/assets/ixon-datasource.png)
 
@@ -90,4 +96,4 @@ For more information on IXON Cloud, please refer to [https://support.ixon.cloud/
 
 ### References
 
-* [IXON support article: Expand on notifications: call, sms and more, using webhooks](https://support.ixon.cloud/hc/en-us/articles/360018158379-Expand-on-notifications-call-sms-and-more-using-webhooks)&#x20;
+* [IXON support article: Expand on notifications: call, sms and more, using webhooks](https://support.ixon.cloud/hc/en-us/articles/360018158379-Expand-on-notifications-call-sms-and-more-using-webhooks)
