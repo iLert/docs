@@ -14,24 +14,24 @@ description: Receive and respond to ilert alerts in Cisco Webex.
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_46.png)
 
-1. Click the **Create Connector** button
+2. Click the **Create Connector** button
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_48.png)
 
-1. On the next page, choose **Cisco Webex** as type, name the connector and click on the save button to authorize ilert App with your Webex account.
+3. On the next page, choose **Cisco Webex** as type, name the connector and click on the save button to authorize ilert App with your Webex account.
 
 ![](../.gitbook/assets/Screenshot\_19\_03\_21\_\_07\_50.png)
 
-1. On the next page, agree with the requested permissions and click on the **Authorize** button
-2. Go to **Services -> Alert sources** and open the alert source whose alerts you want to post to Cisco Webex. Click on the **Alert actions** tab and then on the **Add new alert action** button
+4. On the next page, agree with the requested permissions and click on the **Authorize** button
+5. Go to **Services -> Alert sources** and open the alert source whose alerts you want to post to Cisco Webex. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_04.png)
 
-1. On the next page choose **Cisco Webex** as the type, choose the connector created in step 3, name it**,** choose **alert events** and **\*\*the** space **to publish and click on the** Save\*\* button.
+6. On the next page choose **Cisco Webex** as the type, choose the connector created in step 3, name it\*\*,\*\* choose **alert events** and **\*\*the** space **to publish and click on the** Save\*\* button.
 
 ![](../.gitbook/assets/Screenshot\_19\_03\_21\_\_07\_54.png)
 
-1. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the Cisco Webex space.
+7. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the Cisco Webex space.
 
 ![](../.gitbook/assets/Screenshot\_19\_03\_21\_\_07\_21.png)
 
