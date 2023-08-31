@@ -11,11 +11,11 @@ description: Create issues in GitHub based on alerts from ilert.
 
 ![](../../.gitbook/assets/ghoi1.png)
 
-1. Give it a name and select **Repo Scope** for the token
+3. Give it a name and select **Repo Scope** for the token
 
 ![](../../.gitbook/assets/ghoi2.png)
 
-1. Click on **Create**. Keep your API key for later, as it is needed in ilert.
+4. Click on **Create**. Keep your API key for later, as it is needed in ilert.
 
 ![](../../.gitbook/assets/ghoi3.png)
 
@@ -27,23 +27,23 @@ description: Create issues in GitHub based on alerts from ilert.
 
 ![](<../../.gitbook/assets/go\_to\_connectors (7) (6).png>)
 
-1. Click on **Add Connector**
+2. Click on **Add Connector**
 
 ![](<../../.gitbook/assets/create\_connector\_button (1) (13).png>)
 
-1. Select **Github** as **type** and fill in all fields. Enter a name and the API key from above.
+2. Select **Github** as **type** and fill in all fields. Enter a name and the API key from above.
 
 ![](../../.gitbook/assets/ghoi7.png)
 
-1. **Go to** the alert sources tab and open the alert source whose alerts you want to publish in Github. Click on **Incident actions → Create alert action**.
+3. **Go to** the alert sources tab and open the alert source whose alerts you want to publish in Github. Click on **Incident actions → Create alert action**.
 
 ![](<../../.gitbook/assets/new\_incident\_action (5).png>)
 
-1. Select **Github** as the **type** then select the connector created in step 3 and fill in all fields. In the **Owner** and the **Repository** fields specify the owner and repository of the Github project where the ilert alerts should be published as Github Issue.
+4. Select **Github** as the **type** then select the connector created in step 3 and fill in all fields. In the **Owner** and the **Repository** fields specify the owner and repository of the Github project where the ilert alerts should be published as Github Issue.
 
 ![](<../../.gitbook/assets/iLert (76).png>)
 
-1. Finished! You can now test the alert action by clicking on the button **Test this connection**. Then a test issue will be published in the respective Github project.
+5. Finished! You can now test the alert action by clicking on the button **Test this connection**. Then a test issue will be published in the respective Github project.
 
 ![](<../../.gitbook/assets/iLert (77).png>)
 
