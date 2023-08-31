@@ -30,15 +30,15 @@ With ilert Cloudflare Integration, you can receive Cloudflare alert through iler
 
 ![](../.gitbook/assets/Account\_\_\_Cloudflare\_-\_Web\_Performance\_\_\_Security.png)
 
-1. On the next page,  click on the **Notifications** tab and then on the **Create** button
+2. On the next page, click on the **Notifications** tab and then on the **Create** button
 
 ![](../.gitbook/assets/Account\_\_\_Cloudflare\_-\_Web\_Performance\_\_\_Security\_and\_Slack\_\_\_Chris\_\_\_iLert.png)
 
-1. On the next page,  choose an **Event Type** and then on the **Next** button
+3. On the next page, choose an **Event Type** and then on the **Next** button
 
 ![](<../.gitbook/assets/Account\_\_\_Cloudflare\_-\_Web\_Performance\_\_\_Security (1).png>)
 
-1. On the next page,  name the notification e.g. ilert, paste the **email** paste that you created in ilert and click on the **Create** button
+4. On the next page, name the notification e.g. ilert, paste the **email** paste that you created in ilert and click on the **Create** button
 
 ![](<../.gitbook/assets/Account\_\_\_Cloudflare\_-\_Web\_Performance\_\_\_Security (2).png>)
 
