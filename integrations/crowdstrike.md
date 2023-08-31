@@ -6,39 +6,44 @@ description: >-
 
 # CrowdStrike Integration
 
-## In ilert
+## In ilert: Create a CrowdStrike alert source
 
-* Go to the "**Alert sources**" tab and click "**Create new alert source**"
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-![](<../.gitbook/assets/ilert-create-alert (4).png>)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **CrowdStrike** in the search field, click on the CrowdStrike tile and click on **Next**.&#x20;
 
-* Enter a name and select your desired escalation policy.  &#x20;
-* Select "**CrowdStrike**" as the **Integration Type** and click **Save**.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-![](../.gitbook/assets/crowdstrike\_alertsources.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-* On the next page, an **CrowdStrike URL** is generated. You will need the URL for the webhook configuration
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
 
-![](../.gitbook/assets/crowdstrike\_alerturl.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In CrowdStrike
 
-* Go to Workflows Dashboard by clicking the "**CrowdStrike**" logo on top left and choose **Workflows**
+1. Go to Workflows Dashboard by clicking the "**CrowdStrike**" logo on top left and choose **Workflows**
 
 ![](../.gitbook/assets/crowdstrike-workflow.png)
 
-* Click on **Create a Workflow** on top right, on the workflow workspace add a trigger, and choose "**New Detection"** additionally you can also add Condition, in this case we chose greater than **Medium** severity
+2. Click on **Create a Workflow** on top right, on the workflow workspace add a trigger, and choose "**New Detection"** additionally you can also add Condition, in this case we chose greater than **Medium** severity
 
 ![](../.gitbook/assets/crowdstrike-conditionworkflowdetection.png)
 
-* On creating Action choose Action type **Notification** and **Call webhook** as Action, you might need to configure it from store if you haven't done so. Go ahead and click the Store link, and click "**Configure**" on the Webhook.&#x20;
-* Add the **Name** in this case we name it as ilert-incident and put the **Webhook URL** that we got from ilert's dashboard earlier.
+3. On creating Action choose Action type **Notification** and **Call webhook** as Action, you might need to configure it from store if you haven't done so. Go ahead and click the Store link, and click "**Configure**" on the Webhook.
+4. Add the **Name** in this case we name it as ilert-incident and put the **Webhook URL** that we got from ilert's dashboard earlier.
 
 ![](<../.gitbook/assets/crowdstrike-webhook (1).png>)
 
-* Click **Save Configuration**, and it should be added to the Workflow workspace.
-* Choose the Webhook name based on the name that we set earlier, and choose **ALL** Data to include&#x20;
+5. Click **Save Configuration**, and it should be added to the Workflow workspace.
+6. Choose the Webhook name based on the name that we set earlier, and choose **ALL** Data to include
 
 ![](../.gitbook/assets/crowdstrike-saveworkflowdetection.png)
 
-* Save the configuration and turn the workflow on, and upon Detection creation, the incident will be created on ilert.
+7. Save the configuration and turn the workflow on, and upon Detection creation, the incident will be created on ilert.
