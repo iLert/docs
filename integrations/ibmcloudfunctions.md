@@ -7,32 +7,37 @@ description: >-
 
 # IBM Cloud Functions Integration
 
-## In ilert
+## In ilert: Create IBM Cloud Functions alert source
 
-* Go to the "**Alert sources**" tab and click "**Create new alert source**"
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-![](<../.gitbook/assets/ilert-create-alert (5).png>)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **IBM Cloud Functions** in the search field, click on the IBM Cloud Functions tile and click on **Next**.&#x20;
 
-* Enter a name and select your desired escalation policy.
-* Select "**IBM Cloud Functions**" as the **Integration Type** and click **Save**.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-![](../.gitbook/assets/ibmcloudfunctions\_alertsources.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-* On the next page, an **IBM Cloud Functions URL** is generated. You will need the URL for the webhook configuration
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
 
-![](../.gitbook/assets/ibmcloudfunctions\_alerturl.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In IBM Cloud Functions
 
-* On IBM Cloud Functions dashboard, create an Action by clicking "**Actions**" -> "**Create**"
+1. On IBM Cloud Functions dashboard, create an Action by clicking "**Actions**" -> "**Create**"
 
 ![](../.gitbook/assets/ibmcloud-createaction.png)
 
-* Choose the name of your choice, in this case we will name it as "ilert-incidents", and choose "**Node.js 12**" as a runtime
+2. Choose the name of your choice, in this case we will name it as "ilert-incidents", and choose "**Node.js 12**" as a runtime
 
 ![](../.gitbook/assets/ibmcloud-functionaction.png)
 
-* Paste the following on the code, and please replace the "**ILERT\_URL**" with the **IBM Cloud Functions URL** that we got earlier on ilert's dashboard
+3. Paste the following on the code, and please replace the "**ILERT\_URL**" with the **IBM Cloud Functions URL** that we got earlier on ilert's dashboard
 
 ```javascript
 /**
@@ -74,11 +79,11 @@ function main(params) {
 }
 ```
 
-* To trigger it, we need to pass the params, in this case click on "**Invoke with parameters**" on top right
+4. To trigger it, we need to pass the params, in this case click on "**Invoke with parameters**" on top right
 
 ![](../.gitbook/assets/ibmcloud-invokewithparams.png)
 
-* Put the following as a parameter, you can adjust the summary and details, however please replace the "**API\_KEY**" \*\*\*\* with the IBM Cloud Functions **API Key** that we go on ilert's dashboard earlier and **Apply** the parameters
+5. Put the following as a parameter, you can adjust the summary and details, however please replace the "**API\_KEY**" \*\*\*\* with the IBM Cloud Functions **API Key** that we go on ilert's dashboard earlier and **Apply** the parameters
 
 ```
 {
@@ -89,7 +94,7 @@ function main(params) {
 }
 ```
 
-* To trigger the creation of incidents on ilert simple click "**Invoke**" on the top right, and it should create the incident on ilert
+6. To trigger the creation of incidents on ilert simple click "**Invoke**" on the top right, and it should create the incident on ilert
 
 ![](../.gitbook/assets/ibmcloud-invokesuccess.png)
 
