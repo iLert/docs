@@ -11,11 +11,11 @@ description: Create JIRA issues from ilert alerts.
 
 ![](<../../.gitbook/assets/Screenshot 2020-08-05 at 13.15.25.png>)
 
-1. Click on the button **Create API token** &#x20;
+3. Click on the button **Create API token**
 
 ![](../../.gitbook/assets/ji2.png)
 
-1. Give a name and click **Create**. Write down your API key. You will need it later in ilert. &#x20;
+4. Give a name and click **Create**. Write down your API key. You will need it later in ilert.
 
 ![](../../.gitbook/assets/ji3.png)
 
@@ -27,19 +27,19 @@ description: Create JIRA issues from ilert alerts.
 
 ![](<../../.gitbook/assets/go\_to\_connectors (6).png>)
 
-1. Click **Add Connector**
+2. Click **Add Connector**
 
 ![](<../../.gitbook/assets/create\_connector\_button (5).png>)
 
-1. Select **JIRA** as **type** and fill in all fields. Enter as URL the URL of your JIRA instance and as password the API key above.
+3. Select **JIRA** as **type** and fill in all fields. Enter as URL the URL of your JIRA instance and as password the API key above.
 
 ![](<../../.gitbook/assets/iLert (63).png>)
 
-1. **Go to** the alert sources tab and open the alert source whose alerts you want to publish in JIRA. Click **Alert actions → Create new alert action**.
+4. **Go to** the alert sources tab and open the alert source whose alerts you want to publish in JIRA. Click **Alert actions → Create new alert action**.
 
 ![](<../../.gitbook/assets/new\_incident\_action (2).png>)
 
-1. Select **JIRA** as the **type** and in the secondary dropdown select the connector created in step 3. ilert will now try to fetch the available Projects and Issue Types from your provided Jira instance.
+5. Select **JIRA** as the **type** and in the secondary dropdown select the connector created in step 3. ilert will now try to fetch the available Projects and Issue Types from your provided Jira instance.
 
 ![](<../../.gitbook/assets/iLert (60).png>)
 
