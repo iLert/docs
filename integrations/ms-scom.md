@@ -6,16 +6,23 @@ description: Create Alerts in ilert from Microsoft SCOM
 
 ## In ilert: Create Microsoft SCOM alert source
 
-1. Go to **Alert sources** and click on the **Create new alert source** button
-2. Set a name for your Microsoft SCOM alert source and select an escalation policy
-3. In the field Integration type select **Microsoft SCOM** and save
-4.
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-    <figure><img src="../.gitbook/assets/ms-scom-il-2.png" alt=""><figcaption></figcaption></figure>
-5. On the next page, an API Key is generated. You will need this API Key below when setting up in Microsoft SCOM
-6.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Microsoft SCOM** in the search field, click on the Microsoft SCOM tile and click on **Next**.&#x20;
 
-    <figure><img src="../.gitbook/assets/ms-scom-il-1.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Microsoft SCOM: Add ilert Webhook as Channel
 
@@ -28,23 +35,23 @@ description: Create Alerts in ilert from Microsoft SCOM
     C:\scripts\ilert
     ```
 3. In Microsoft SCOM Operations Console open the **Administration** view.
-4.
 
-    <figure><img src="../.gitbook/assets/ms-scom-1.png" alt=""><figcaption></figcaption></figure>
-5. Navigate to **Notification**.
-6.
+<figure><img src="../.gitbook/assets/ms-scom-1.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/ms-scom-2.png" alt=""><figcaption></figcaption></figure>
-7. Create a new **Command** channel by right clicking on **Channels -> New channel -> Command...**
-8.
+4. Navigate to **Notification**.
 
-    <figure><img src="../.gitbook/assets/ms-scom-3.png" alt=""><figcaption></figcaption></figure>
-9. Enter a channel name and click on **Next**
-10.
+<figure><img src="../.gitbook/assets/ms-scom-2.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/ms-scom-4.png" alt=""><figcaption></figcaption></figure>
-11. Enter following into the input fields:\\
-12. Enter following into the input fields and click on **Finish**:\\
+5. Create a new **Command** channel by right clicking on **Channels -> New channel -> Command...**
+
+<figure><img src="../.gitbook/assets/ms-scom-3.png" alt=""><figcaption></figcaption></figure>
+
+6. Enter a channel name and click on **Next**
+
+<figure><img src="../.gitbook/assets/ms-scom-4.png" alt=""><figcaption></figcaption></figure>
+
+7. Enter following into the input fields:\\
+8.  Enter following into the input fields and click on **Finish**:\\
 
     Full path of the command file:
 
@@ -66,54 +73,53 @@ description: Create Alerts in ilert from Microsoft SCOM
     ```
     C:\windows\system32\windowspowershell\v1.0\
     ```
-13.
 
-    <figure><img src="../.gitbook/assets/ms-scom-5.png" alt=""><figcaption></figcaption></figure>
-14. Create a new Subscriber by right clicking on **Subscriber -> New subscriber...**
-15. ![](<../.gitbook/assets/image (4).png>)
-16. Select a user as subscriber and click on **Next**
-17.
+<figure><img src="../.gitbook/assets/ms-scom-5.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/ms-scom-8.png" alt=""><figcaption></figcaption></figure>
-18. Leave the schedule settings on default.
-19.
+9. Create a new Subscriber by right clicking on **Subscriber -> New subscriber...**
+10. ![](<../.gitbook/assets/image (4).png>)
+11. Select a user as subscriber and click on **Next**
 
-    <figure><img src="../.gitbook/assets/ms-scom-9.png" alt=""><figcaption></figcaption></figure>
-20. On the next view click on **Add...** to add a new subscriber address
-21.
+<figure><img src="../.gitbook/assets/ms-scom-8.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/ms-scom-10 (1).png" alt=""><figcaption></figcaption></figure>
-22. Enter an address name and click on **Next**
-23.
+12. Leave the schedule settings on default.
 
-    <figure><img src="../.gitbook/assets/ms-scom-11.png" alt=""><figcaption></figcaption></figure>
-24. Select **Command** as **Channel Type** and **ilert Webhook** as **Command Channel**
-25.
+<figure><img src="../.gitbook/assets/ms-scom-9.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/ms-scom-12.png" alt=""><figcaption></figcaption></figure>
-26. Leave the schedule notification settings on **Always send notifications** and click on **Finish**
-27. Create a new Subscription by right clicking on **Subscription -> New subscription...**
-28. ![](<../.gitbook/assets/image (2) (3).png>)
-29. Set a name and proceed to the next step
-30.
+13. On the next view click on **Add...** to add a new subscriber address
 
-    <figure><img src="../.gitbook/assets/ms-scom-17.png" alt=""><figcaption></figcaption></figure>
-31. Specify a criteria for your subscription(Note: If selecting a condition, please remove the "Notify on all alerts" to prevent multiple identical alert submission). Leave this as "Notify on all alerts" to receive a notification on all alerts.
-32.
+<figure><img src="../.gitbook/assets/ms-scom-10 (1).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/ms-scom-18.png" alt=""><figcaption></figcaption></figure>
-33. Add the previously made **Subscriber** to the **Subscription**
-34.
+14. Enter an address name and click on **Next**
 
-    <figure><img src="../.gitbook/assets/ms-scom-21.png" alt=""><figcaption></figcaption></figure>
-35. Add the previously made **Channel** to the **Subscription**
-36.
+<figure><img src="../.gitbook/assets/ms-scom-11.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/ms-scom-23.png" alt=""><figcaption></figcaption></figure>
-37. Finish the setup
-38.
+15. Select **Command** as **Channel Type** and **ilert Webhook** as **Command Channel**
 
-    <figure><img src="../.gitbook/assets/ms-scom-24.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/ms-scom-12.png" alt=""><figcaption></figcaption></figure>
+
+16. Leave the schedule notification settings on **Always send notifications** and click on **Finish**
+17. Create a new Subscription by right clicking on **Subscription -> New subscription...**
+18. ![](<../.gitbook/assets/image (2) (3).png>)
+19. Set a name and proceed to the next step
+
+<figure><img src="../.gitbook/assets/ms-scom-17.png" alt=""><figcaption></figcaption></figure>
+
+20. Specify a criteria for your subscription(Note: If selecting a condition, please remove the "Notify on all alerts" to prevent multiple identical alert submission). Leave this as "Notify on all alerts" to receive a notification on all alerts.
+
+<figure><img src="../.gitbook/assets/ms-scom-18.png" alt=""><figcaption></figcaption></figure>
+
+21. Add the previously made **Subscriber** to the **Subscription**
+
+<figure><img src="../.gitbook/assets/ms-scom-21.png" alt=""><figcaption></figcaption></figure>
+
+22. Add the previously made **Channel** to the **Subscription**
+
+<figure><img src="../.gitbook/assets/ms-scom-23.png" alt=""><figcaption></figcaption></figure>
+
+23. Finish the setup
+
+<figure><img src="../.gitbook/assets/ms-scom-24.png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ
 
