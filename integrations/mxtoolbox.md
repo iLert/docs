@@ -8,21 +8,25 @@ description: >-
 
 MxToolbox supports global Internet operations by providing free, fast and accurate network diagnostic and lookup tools. Millions of technology professionals use MxToolbox to help diagnose and resolve a wide range of infrastructure issues.
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create a MXToolBox alert source <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a MXToolBox alert source <a href="#create-alert-source" id="create-alert-source"></a>
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-1. Go to the "Alert sources" tab and click **Create new alert source**
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **MXToolBox** in the search field, click on the MXToolBox tile and click on **Next**.&#x20;
 
-![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_37.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-1. Enter a name and select your desired escalation policy. Select "MXToolBox" as the **Integration Type** and click on **Save**.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-![](<../.gitbook/assets/iLert (36).png>)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
 
-1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the notification callback in MXToolBox.
-
-![](<../.gitbook/assets/iLert (37).png>)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In MXToolBox <a href="#in-splunk" id="in-splunk"></a>
 
@@ -32,11 +36,11 @@ MxToolbox supports global Internet operations by providing free, fast and accura
 
 ![](../.gitbook/assets/Mozilla\_Firefox.png)
 
-1. On the next page,  click on the **Custom** tile
+2. On the next page, click on the **Custom** tile
 
 ![](<../.gitbook/assets/Mozilla\_Firefox (1).png>)
 
-1. Open the notification policy, in the **Callback** section paste the **Webhook URL** that you generated in ilert, in the **Format** section choose **Default.** Make sure that the **Webhook URL** was **\*\*saved and the** payload **matches the following format: \*\***
+3. Open the notification policy, in the **Callback** section paste the **Webhook URL** that you generated in ilert, in the **Format** section choose **Default.** Make sure that the **Webhook URL** was **\*\*saved and the** payload **matches the following format: \*\***
 
 ```javascript
 {
