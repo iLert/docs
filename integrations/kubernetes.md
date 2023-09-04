@@ -6,18 +6,25 @@ description: >-
 
 # Kubernetes Integration
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create a Kubernetes alert source <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a Kubenetes alert source <a href="#create-alert-source" id="create-alert-source"></a>
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-1. Go to the "Alert sources" tab and click **Create new alert source**
-2. Enter a name and select your desired escalation policy. Select "Kubernetes" as the **Integration Type** and click on **Save**.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Kubernetes** in the search field, click on the Kubernetes tile and click on **Next**.&#x20;
 
-![](<../.gitbook/assets/iLert (32).png>)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-1. On the next page, a API Key is generated. You will need it below when setting up the **ilert-kube-agent** deployment.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-![](<../.gitbook/assets/iLert (33).png>)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Kubernetes <a href="#in-kubernetes" id="in-kubernetes"></a>
 
@@ -30,7 +37,7 @@ helm repo add ilert https://ilert.github.io/charts/
 helm repo update
 ```
 
-1. Deploy ilert-kube-agent with the API Key  that you generated in ilert&#x20;
+1. Deploy ilert-kube-agent with the API Key that you generated in ilert
 
 ```
 helm upgrade --install --namespace kube-system \
@@ -40,7 +47,7 @@ helm upgrade --install --namespace kube-system \
 
 ### b. Deploy [ilert-kube-agent](https://github.com/iLert/ilert-kube-agent) with terraform (recommended) <a href="#deploy-b" id="deploy-b"></a>
 
-1. Define module and paste the API Key that you generated in ilert&#x20;
+1. Define module and paste the API Key that you generated in ilert
 
 ```
 module "ilert-kube-agent" {
