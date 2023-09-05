@@ -12,15 +12,23 @@ description: The ilert Pingdom Integration helps you to easily connect ilert wit
 
 ## In ilert: Create Pingdom alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1. Switch to the tab "alert sources" and click on the button "Create new alert source"
-2. Assign name and select escalation chain
-3. In the field Integration type select "Pingdom" and save.
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-![](../.gitbook/assets/pi1.jpg)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Pingdom** in the search field, click on the Pingdom tile and click on **Next**.&#x20;
 
-1. The Pingdom Webhook URL shown on the next page is required in Pingdom
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-![](../.gitbook/assets/pi2.jpg)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Pingdom: Create new integration <a href="#create-integration" id="create-integration"></a>
 
@@ -28,11 +36,11 @@ description: The ilert Pingdom Integration helps you to easily connect ilert wit
 
 ![](../.gitbook/assets/pi3.png)
 
-1. On the following page, click on the button "Add integration". In the pop-up dialog, select the integration type "Webhook" and assign a name (eg ilert). In the "URL" field, copy the Webhook URL from the alert source set up in ilert and click on "Save integration".
+2. On the following page, click on the button "Add integration". In the pop-up dialog, select the integration type "Webhook" and assign a name (eg ilert). In the "URL" field, copy the Webhook URL from the alert source set up in ilert and click on "Save integration".
 
 ![](../.gitbook/assets/pi4.png)
 
-1. The integration can now be used in pingdom checks. Switch to a pingdom check and click on "Edit". Activate the ilert Webhook integration and click on "Modify check".
+3. The integration can now be used in pingdom checks. Switch to a pingdom check and click on "Edit". Activate the ilert Webhook integration and click on "Modify check".
 
 ![](../.gitbook/assets/pi5.jpg)
 
