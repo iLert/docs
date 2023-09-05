@@ -8,21 +8,29 @@ description: >-
   Relic.
 ---
 
-# New Relic Integration
+# New Relic Integration (deprecated)
 
 With New Relic Integration, you can easily integrate New Relic Alerts with ilert. So you can easily extend New Relic with SMS, Push and Voice alerts, as well as ilert rosters. Alerts are created in ilert and automatically closed when the problem is resolved. In addition, the alerts in ilert created by New Relic include bounce links to the respective Incident in New Relic.
 
 ## In ilert: Create New Relic alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1. **Go to the alert sources tab** and click on the "Create new alert source" button
-2. Assign name and select escalation chain
-3. Select and save in the field Integration Type **New Relic**.
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-![](../../.gitbook/assets/nr1.png)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **New Relic** in the search field, click on the New Relic tile and click on **Next**.&#x20;
 
-1. On the next page, a Webhook URL is generated. You will need this URL below when setting up in New Relic.
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-![](../../.gitbook/assets/nr2.png)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In New Relic Alerts: Add Webhook notification channel <a href="#add-webhook" id="add-webhook"></a>
 
@@ -30,20 +38,20 @@ With New Relic Integration, you can easily integrate New Relic Alerts with ilert
 
 ![](../../.gitbook/assets/nr3.png)
 
-1. Select **Channel Type** Webhook and insert the generated in ilert field **Base URL**.
+2. Select **Channel Type** Webhook and insert the generated in ilert field **Base URL**.
 
 ![](../../.gitbook/assets/nr4\_png.png)
 
-1. After you click on **Create channel** , you have the opportunity to test the integration. Click **Send a test notification**.
+3. After you click on **Create channel** , you have the opportunity to test the integration. Click **Send a test notification**.
 
 ![](../../.gitbook/assets/nr5.png)
 
-1. Check if an alert has been created in ilert.
-2. After creating the **Notification Channel** in New Relic, add it to one or more **alert policies**. Go to the **Alert policies** tab and click **Add alert policy**.
+4. Check if an alert has been created in ilert.
+5. After creating the **Notification Channel** in New Relic, add it to one or more **alert policies**. Go to the **Alert policies** tab and click **Add alert policy**.
 
 ![](../../.gitbook/assets/nr6.png)
 
-1. The integration is now set up!
+6. The integration is now set up!
 
 ## FAQ <a href="#faq" id="faq"></a>
 
