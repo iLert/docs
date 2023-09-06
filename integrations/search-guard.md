@@ -6,18 +6,25 @@ description: >-
 
 # Search Guard Integration
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create a Search Guard alert source <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a Search Guard alert source <a href="#create-alert-source" id="create-alert-source"></a>
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-1. Go to the **Alert sources** tab and click on **Create new alert source**
-2. Enter a name and select your desired escalation policy. Select "Search Guard" as the **Integration Type** and click on **Save**.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Search Guard** in the search field, click on the Search Guard tile and click on **Next**.&#x20;
 
-![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_22\_47.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-1. On the next page a **Search Guard URL** is generated. You will need this URL below when setting up the webhook action in Search Guard.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_22\_48.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Search Guard <a href="#in-topdesk" id="in-topdesk"></a>
 
@@ -27,19 +34,19 @@ description: >-
 
 ![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_22\_49.png)
 
-1. On the next page click on the **New** button to create a new watch
+2. On the next page click on the **New** button to create a new watch
 
 ![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_22\_53.png)
 
-1. On the next view name the watch e.g. **My Watch** scroll down and configure the watch to your liking.
+3. On the next view name the watch e.g. **My Watch** scroll down and configure the watch to your liking.
 
 ![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_22\_56.png)
 
-1. Scroll down to **Actions** and add the **Webhook** action
+4. Scroll down to **Actions** and add the **Webhook** action
 
 ![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_23\_00.png)
 
-1. Name the action e.g. **iLert**, paste the **Webhook URL** that you generated in ilert, change headers as required and paste the following **json** as body template
+5. Name the action e.g. **iLert**, paste the **Webhook URL** that you generated in ilert, change headers as required and paste the following **json** as body template
 
 ```
 {
@@ -52,9 +59,9 @@ description: >-
 
 ![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_23\_06.png)
 
-1.  Click on **Create** to save the watch. &#x20;
+6. Click on **Create** to save the watch.
 
-    Finished! Your Elastic Search Guard alerts will now create alerts in ilert.
+Finished! Your Elastic Search Guard alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
