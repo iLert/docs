@@ -8,21 +8,25 @@ description: >-
 
 Sematext Cloud is an all-in-one infrastructure performance and log monitoring, real user, frontend, API, website, and uptime monitoring SaaS.
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create a Sematext alert source:  <a href="#in-ilert" id="in-ilert"></a>
 
-### Create a Sematext alert source <a href="#create-alert-source" id="create-alert-source"></a>
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-1. Go to the "Alert sources" tab and click **Create new alert source**
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Sematext** in the search field, click on the Sematext tile and click on **Next**.&#x20;
 
-![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_37.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-1. Enter a name and select your desired escalation policy. Select "Sematext" as the **Integration Type** and click on **Save**.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_56.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
 
-1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the notification hook in Sematext.
-
-![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_57.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Sematext <a href="#in-splunk" id="in-splunk"></a>
 
@@ -32,11 +36,11 @@ Sematext Cloud is an all-in-one infrastructure performance and log monitoring, r
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_00.png)
 
-1. On the next page,  click on the **Custom** tile
+2. On the next page, click on the **Custom** tile
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_03.png)
 
-1. On the next modal page, name the hook e.g. ilert, paste the **Webhook URL** that you generated in ilert, in the **Send data as** section choose **Json**, in the **HTTP method** section choose **POST**, in the **Parameters** section choose the following payload, then click on the **Save Notification Hook** button
+3. On the next modal page, name the hook e.g. ilert, paste the **Webhook URL** that you generated in ilert, in the **Send data as** section choose **Json**, in the **HTTP method** section choose **POST**, in the **Parameters** section choose the following payload, then click on the **Save Notification Hook** button
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_59.png)
 
@@ -52,7 +56,7 @@ Sematext Cloud is an all-in-one infrastructure performance and log monitoring, r
 }
 ```
 
-1. Edit your alert rule to send notification to ilert
+4. Edit your alert rule to send notification to ilert
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_08.png)
 
