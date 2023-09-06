@@ -6,20 +6,25 @@ description: >-
 
 # Salesforce Integration
 
-## In ilert
+## In ilert: Create Salesforce alert source
 
-* Go to the "**Alert sources**" tab and click "**Create new alert source**"
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-![](<../.gitbook/assets/ilert-create-alert (5).png>)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Salesforce** in the search field, click on the Salesforce tile and click on **Next**.&#x20;
 
-* Enter a name and select your desired escalation policy.
-* Select "**Salesforce**" as the **Integration Type** and click **Save**.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-![](../.gitbook/assets/ilert-salesforce.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-* On the next page, an **Salesforce URL** is generated. You will need the URL and the API Keys for the configuration from Salesforce side.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
 
-![](../.gitbook/assets/ilert-salesforce-url.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Salesforce
 
@@ -114,7 +119,7 @@ To test this, simply create a **Case** in Salesforce.
     \
     In order to Debug this, you need to add `System.debug()` either on the trigger or the class. To view this just navigate to **Gear Icon -> Setup -> Environment -> Logs -> Debug Logs**\\
 
-
+    ***
 2. I don't see my logs, why?\
    \
    Make sure that the **Expiration Date** settings in the Debug Logs settings are set in the future, just edit it if it was done in the past, and create Case again.
