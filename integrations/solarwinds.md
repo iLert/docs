@@ -8,17 +8,27 @@ description: >-
 
 With the ilert SolarWinds Integration you can easily integrate SolarWinds Orion products (eg [NPM](https://www.solarwinds.com/network-performance-monitor) and [SAM](https://www.solarwinds.com/server-application-monitor)) into ilert. The integration extends SolarWinds with SMS, push and voice notification as well as on-call schedules from ilert. Alerts are created in ilert and automatically resolved. Furthermore, alerts in ilert that were created by SolarWinds contain links to the respective alerts in SolarWinds.
 
-## In ilert: create alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create SolarWinds alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1. Go to **Alert sources** and click on the **Add a new alert source** button
-2. Enter a name for your alert source (e.g. SolarWinds) and select an escalation policy.
-3. In the **integration type** field, chose **SolarWinds**.
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-![](<../.gitbook/assets/Screenshot 2020-09-04 at 09.55.06.png>)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **SolarWinds** in the search field, click on the SolarWinds tile and click on **Next**.&#x20;
 
-1. A URL is generated on the next page. You will need this URL in the next section when setting up the integration in SolarWinds
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-![](<../.gitbook/assets/Screenshot 2020-09-04 at 09.58.49.png>)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
+
+## &#x20;<a href="#create-topic" id="create-topic"></a>
 
 ## In SolarWinds: create alert definition <a href="#alert-definition" id="alert-definition"></a>
 
@@ -26,33 +36,33 @@ With the ilert SolarWinds Integration you can easily integrate SolarWinds Orion 
 
 ![](../.gitbook/assets/sw3.png)
 
-1. Click on **ADD NEW ALERT**
+2. Click on **ADD NEW ALERT**
 
 ![](../.gitbook/assets/sw4.png)
 
-1. Fill out the **Alert Properties** according to your requirements and click on **NEXT**
+3. Fill out the **Alert Properties** according to your requirements and click on **NEXT**
 
 ![](../.gitbook/assets/sw5.png)
 
-1. Define the **trigger condition** on the next page and click on **NEXT**. The **trigger condition** defines the conditions under which you want to be alerted via ilert. You can use the full flexibility of SolarWinds here. In this example we define the following condition: Immediate alarm for all **nodes** that are not in the status **up**.
+4. Define the **trigger condition** on the next page and click on **NEXT**. The **trigger condition** defines the conditions under which you want to be alerted via ilert. You can use the full flexibility of SolarWinds here. In this example we define the following condition: Immediate alarm for all **nodes** that are not in the status **up**.
 
 ![](../.gitbook/assets/sw6.png)
 
-1. Define **reset condition** and click on **NEXT**. As soon as the **reset condition** occurs, the associated alert is resolved in ilert.
+5. Define **reset condition** and click on **NEXT**. As soon as the **reset condition** occurs, the associated alert is resolved in ilert.
 
 ![](../.gitbook/assets/sw7.png)
 
-1. Select **Time of Day** according to your requirements and click on **NEXT**.
+6. Select **Time of Day** according to your requirements and click on **NEXT**.
 
 ![](../.gitbook/assets/sw8.png)
 
-1. **TRIGGER ACTIONS**: Click **Add Action** and select **Send a GET or POST Request to a Web Server** to add **trigger action**.
+7. **TRIGGER ACTIONS**: Click **Add Action** and select **Send a GET or POST Request to a Web Server** to add **trigger action**.
 
 ![](../.gitbook/assets/sw9.png)
 
 ![](../.gitbook/assets/sw10.png)
 
-1. Enter the `HTTP POST` Action URL generated in ilert in the **URL** field and select Use **HTTP / S POST** . Enter the following in the **Body to POST** field:
+8. Enter the `HTTP POST` Action URL generated in ilert in the **URL** field and select Use **HTTP / S POST** . Enter the following in the **Body to POST** field:
 
 ![](../.gitbook/assets/sw11.png)
 
@@ -69,12 +79,12 @@ ObjectType=${N=Alerting;M=ObjectType}&
 Severity=${N=Alerting;M=Severity}
 ```
 
-1. **Optional**: Activate the **Repeat this action action every X minutes until the alert is acknowledged** option in the **execution settings**. This is for safety, if an alert could not be sent to ilert (e.g. due to a network problem).
+9. **Optional**: Activate the **Repeat this action action every X minutes until the alert is acknowledged** option in the **execution settings**. This is for safety, if an alert could not be sent to ilert (e.g. due to a network problem).
 
 ![](../.gitbook/assets/sw12.png)
 
-1. On **ADD ACTION** and then click **NEXT**.
-2. **RESET ACTIONS**: Click **Add Action** and select **Send a GET or POST Request to a Web Server** to add **Reset Action**. Enter the `HTTP POST` Action URL generated in ilert in the **URL** field and select Use **HTTP / S POST** . Enter the following in the **Body to POST** field :
+10. &#x20;On **ADD ACTION** and then click **NEXT**.
+11. &#x20;**RESET ACTIONS**: Click **Add Action** and select **Send a GET or POST Request to a Web Server** to add **Reset Action**. Enter the `HTTP POST` Action URL generated in ilert in the **URL** field and select Use **HTTP / S POST** . Enter the following in the **Body to POST** field :
 
 ![](../.gitbook/assets/sw13.png)
 
@@ -84,8 +94,8 @@ iLertIncidentKey=${N=Alerting;M=AlertObjectID}-${N=Alerting;M=AlertActiveID}&
 iLertEventSummary=${N=SwisEntity;M=DisplayName} (${N=SwisEntity;M=IP_Address}): ${N=SwisEntity;M=StatusDescription}
 ```
 
-1. On **ADD ACTION** and then click **NEXT**.
-2. Click **SUBMIT** on the **SUMMARY** page.
+12. &#x20;On **ADD ACTION** and then click **NEXT**.
+13. &#x20;Click **SUBMIT** on the **SUMMARY** page.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
