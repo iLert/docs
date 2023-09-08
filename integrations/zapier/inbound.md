@@ -21,6 +21,37 @@ You can connect Zapier with an existing alert source of any integration type. Sk
 
 ## In Zapier <a href="#in-topdesk" id="in-topdesk"></a>
 
+### Connect Zapier with ilert <a href="#create-action-sequences" id="create-action-sequences"></a>
+
+1. In the sidebar, click on **Apps**
+
+<figure><img src="../../.gitbook/assets/zapier-connect-1.png" alt="" width="297"><figcaption></figcaption></figure>
+
+2. Search for ilert in the search field and click on **Connect**
+
+<figure><img src="../../.gitbook/assets/zapier-connect-2.png" alt=""><figcaption></figcaption></figure>
+
+3. A pop up window will open and asks for an ilert **API Key**
+4. To create an ilert API Key, switch back to ilert and click on the **user icon -> Manage API keys**
+
+<figure><img src="../../.gitbook/assets/ilert-apikey-1.png" alt=""><figcaption></figcaption></figure>
+
+5. Now click on **Add API key**
+
+<figure><img src="../../.gitbook/assets/ilert-apikey-2.png" alt=""><figcaption></figcaption></figure>
+
+6. Enter a **Name** for the API key and click on **Save**
+
+<figure><img src="../../.gitbook/assets/ilert-apikey-3.png" alt=""><figcaption></figcaption></figure>
+
+7. A pop up window will now appear, containing the API key. Copy the key
+
+<figure><img src="../../.gitbook/assets/ilert-apikey-4.png" alt=""><figcaption></figcaption></figure>
+
+8. Paste the new generated API key into Zapier pop up window and click **Yes, Continue to iLert**
+
+<figure><img src="../../.gitbook/assets/zapier-connect-3.png" alt=""><figcaption></figcaption></figure>
+
 ### Create a Zap <a href="#create-action-sequences" id="create-action-sequences"></a>
 
 1. Go to Zapier and click on **Make a Zap**
