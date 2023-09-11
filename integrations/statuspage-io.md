@@ -12,15 +12,15 @@ description: Create StatusPage inicdents from ilert alerts.
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_38.png)
 
-1. On the next page click on the **Create key**
+2. On the next page click on the **Create key**
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_40.png)
 
-1. On the modal window, name the key e.g. ilert and click on the **Confirm** button
+3. On the modal window, name the key e.g. ilert and click on the **Confirm** button
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_42.png)
 
-1. On the next page, a API key is generated. You will need this key and the page id below when setting up the connector in ilert.
+4. On the next page, a API key is generated. You will need this key and the page id below when setting up the connector in ilert.
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_52.png)
 
@@ -32,23 +32,23 @@ description: Create StatusPage inicdents from ilert alerts.
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_46.png)
 
-1. Click the **Add Connector** button
+2. Click the **Add Connector** button
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_48.png)
 
-1. On the next page, choose **StatusPage** as type, name the connector, paste the **API Key** that you generated in StatusPage and click on the **Save** button.
+3. On the next page, choose **StatusPage** as type, name the connector, paste the **API Key** that you generated in StatusPage and click on the **Save** button.
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_49.png)
 
-1. Go to the alert sources tab and open the alert source whose alerts you want to create StatusPage Incidents. Click on the **Alert actions** tab and then on the **Add new alert action** button
+4. Go to the alert sources tab and open the alert source whose alerts you want to create StatusPage Incidents. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_16\_04.png)
 
-1. On the next page choose **StatusPage** as the type, choose the connector created in step 3, name it, choose **Trigger mode,** paste the **Page Id** and click on the **Save** button.
+5. On the next page choose **StatusPage** as the type, choose the connector created in step 3, name it, choose **Trigger mode,** paste the **Page Id** and click on the **Save** button.
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_51.png)
 
-1. Finished! Now an StatusPage alert will be created for each alert in automatic trigger mode or via manual alert action.
+6. Finished! Now an StatusPage alert will be created for each alert in automatic trigger mode or via manual alert action.
 
 ## StatusPage Incident Lifecycle
 
