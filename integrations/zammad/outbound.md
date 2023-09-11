@@ -19,15 +19,15 @@ To set up this integration, you must have admin rights in ilert.
 
 ![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_32.png)
 
-1. In the **Name** section, enter a name eg. ilert
+3. In the **Name** section, enter a name eg. ilert
 
 ![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_33.png)
 
-1. In the **Ticket** section,  choose **Agent**
+4. In the **Ticket** section, choose **Agent**
 
 ![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_34.png)
 
-1. Click on **Create**
+5. Click on **Create**
 
 {% hint style="warning" %}
 An agent token has a group scope
@@ -35,7 +35,7 @@ An agent token has a group scope
 An agent token has a group scope so if you want to use a group that the current user is not a member of, you need to create a token with the admin scope for all groups.
 {% endhint %}
 
-1. The modal window will open, copy the generated access token
+6. The modal window will open, copy the generated access token
 
 ![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_36.png)
 
@@ -47,27 +47,26 @@ An agent token has a group scope so if you want to use a group that the current 
 
 ![](<../../.gitbook/assets/go\_to\_connectors (4).png>)
 
-1. Click on **Add Connector**
+2. Click on **Add Connector**
 
 ![](<../../.gitbook/assets/create\_connector\_button (2).png>)
 
-1. Select **Zammad** as **type** and fill in all fields. Enter a name, the URL of your Zammad server and the access token that you have created in the previous step.
+3. Select **Zammad** as **type** and fill in all fields. Enter a name, the URL of your Zammad server and the access token that you have created in the previous step.
 
 ![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_39.png)
 
-1. Go to the alert sources tab and open the alert source whose alerts you want to publish in Zammad. Click on **Alert actions** and then on **Create alert action**.
+4. Go to the alert sources tab and open the alert source whose alerts you want to publish in Zammad. Click on **Alert actions** and then on **Create alert action**.
 
 ![](<../../.gitbook/assets/new\_incident\_action (12) (9).png>)
 
-1.  Select **Zammad** as the **type**; **futhermore** select the connector created in step 3, fill in all fields. &#x20;
+5. Select **Zammad** as the **type**; **futhermore** select the connector created in step 3, fill in all fields.
 
-    In the **Email** field enter the existing customer email of Zammad.
+In the **Email** field enter the existing customer email of Zammad.
 
 ![](<../../.gitbook/assets/iLert (74).png>)
 
-1.  Finished! You can now test the connection by clicking on the button **Test this connection**. &#x20;
-
-    A test ticket will be created in Zammad.
+6. Finished! You can now test the connection by clicking on the button **Test this connection**.
+7. A test ticket will be created in Zammad.
 
 ![](<../../.gitbook/assets/iLert (75).png>)
 
