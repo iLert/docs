@@ -22,24 +22,24 @@ description: >-
 
 ![](<../../.gitbook/assets/go\_to\_connectors (5).png>)
 
-1. Click on **Add Connector**
+2. Click on **Add Connector**
 
 ![](<../../.gitbook/assets/create\_connector\_button (3).png>)
 
-1. Select **Sysdig** as **type** and fill in all fields. Enter a name, the API Token that you copied in the last step.
+3. Select **Sysdig** as **type** and fill in all fields. Enter a name, the API Token that you copied in the last step.
 
 ![](<../../.gitbook/assets/iLert (5).png>)
 
-1. Go to the alert sources tab and open the alert source whose alerts you want to publish in Sysdig. Click on **Alert actions** and then on **Create alert action**.
+4. Go to the alert sources tab and open the alert source whose alerts you want to publish in Sysdig. Click on **Alert actions** and then on **Create alert action**.
 
 ![](<../../.gitbook/assets/new\_incident\_action (8).png>)
 
-1. Select **Sysdig** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the alert action name.
+5. Select **Sysdig** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the alert action name.
 
 ![](<../../.gitbook/assets/iLert (67).png>)
 
-1. Optional: You can define tags and event filters. More information about it can be found here: [https://docs.sysdig.com/en/events.html](https://docs.sysdig.com/en/events.html)
-2. Finished! You can now test the connection by clicking on the button **Test this connection**. Then a test event will be created in Sysdig.
+6. Optional: You can define tags and event filters. More information about it can be found here: [https://docs.sysdig.com/en/events.html](https://docs.sysdig.com/en/events.html)
+7. Finished! You can now test the connection by clicking on the button **Test this connection**. Then a test event will be created in Sysdig.
 
 ![](<../../.gitbook/assets/iLert (68).png>)
 
