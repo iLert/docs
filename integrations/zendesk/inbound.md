@@ -6,18 +6,25 @@ description: Create alerts in ilert from tickets in Zendesk.
 
 [Zendesk](https://www.zendesk.com/) is a cloud-based help desk management solution offering customizable tools to build customer service portal, knowledge base and online communities.
 
-## In ilert <a href="#create-alert-source" id="create-alert-source"></a>
+## In ilert: Create a Zendesk alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
-### Create a Zendesk alert source
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-1. Go to the "Alert sources" tab and click **Create new alert source**
-2. Enter a name and select your desired escalation policy. Select "Zendesk" as the **Integration Type** and click on **Save**.
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Zendesk** in the search field, click on the Zendesk tile and click on **Next**.&#x20;
 
-![](<../../.gitbook/assets/iLert (85).png>)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-1. On the next page, a **Webhook URL** is generated. You will need this URL below when setting up the Webhook in Zendesk.
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-![](<../../.gitbook/assets/iLert (86).png>)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Zendesk <a href="#in-topdesk" id="in-topdesk"></a>
 
@@ -27,17 +34,17 @@ description: Create alerts in ilert from tickets in Zendesk.
 
 ![](../../.gitbook/assets/a\_-\_Agent.png)
 
-1. On the next page click the **HTTP target** link
+2. On the next page click the **HTTP target** link
 
 ![](<../../.gitbook/assets/a\_-\_Agent (1).png>)
 
-1. On the next page:
-2. In the **Title** section, enter a name eg. ilert
-3. In the **URL** section, paste the **Webhook URL** that you generated in ilert
-4. In the **Method** section, choose **POST**
-5. In the **Content type** section, choose **JSON**
-6. In the bottom section choose **Create target**
-7. Click the **Submit** button
+3. On the next page:
+4. In the **Title** section, enter a name eg. ilert
+5. In the **URL** section, paste the **Webhook URL** that you generated in ilert
+6. In the **Method** section, choose **POST**
+7. In the **Content type** section, choose **JSON**
+8. In the bottom section choose **Create target**
+9. Click the **Submit** button
 
 ![](<../../.gitbook/assets/a\_-\_Agent (2).png>)
 
@@ -47,15 +54,15 @@ description: Create alerts in ilert from tickets in Zendesk.
 
 ![](<../../.gitbook/assets/a\_-\_Agent (3).png>)
 
-1. On the next page:
-2. In the **Trigger name** section, enter a name eg. ilert
-3. In the **Category** section, choose a category, e.g. Notifications
-4. In the **Meet ANY of following conditions** section, add **Ticket is created** and **Ticket is updated** rules
+2. On the next page:
+3. In the **Trigger name** section, enter a name eg. ilert
+4. In the **Category** section, choose a category, e.g. Notifications
+5. In the **Meet ANY of following conditions** section, add **Ticket is created** and **Ticket is updated** rules
 
 ![](<../../.gitbook/assets/a\_-\_Agent (4).png>)
 
-* Scroll down to the **Actions** panel and choose the **ilert Notify target** that you created above
-* In the **JSON body** sections, paste the following object:
+6. Scroll down to the **Actions** panel and choose the **ilert Notify target** that you created above
+7. In the **JSON body** sections, paste the following object:
 
 ```javascript
 {
@@ -78,7 +85,7 @@ description: Create alerts in ilert from tickets in Zendesk.
 }
 ```
 
-* Click on the **Create** button
+8. Click on the **Create** button
 
 ![](<../../.gitbook/assets/Notification\_Center (1).png>)
 
