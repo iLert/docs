@@ -10,11 +10,11 @@ description: The ilert Webhook Integration helps you to easily connect ilert wit
 
 ![](<../.gitbook/assets/new\_incident\_action (7).png>)
 
-1. Select **Webhook** as **type** and fill out all fields. In the **Filter Alert Events** field, select the alert events for which you want to receive a webhook call. Webhook events are sent as `HTTP POST` to the specified URL. The URL must be accessible from the internet. Click on **Save**.
+2. Select **Webhook** as **type** and fill out all fields. In the **Filter Alert Events** field, select the alert events for which you want to receive a webhook call. Webhook events are sent as `HTTP POST` to the specified URL. The URL must be accessible from the internet. Click on **Save**.
 
 ![](<../.gitbook/assets/iLert (56).png>)
 
-1. Finished!
+3. Finished!
 
 ## Webhook payload <a href="#payload" id="payload"></a>
 
