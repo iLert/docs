@@ -8,6 +8,10 @@ Before you proceed, please make sure that a global admin has connected your Slac
 
 Our integration for Slack lets you create alerts directly within Slack and streamlines your incident management process, making it even easier for your team and stakeholders to report incidents.
 
+{% hint style="warning" %}
+Note that the (shortcut) command /il-oncall is not available right now, as Slack app reviews are currently taking up to 8 weeks. In the mean time you can simply enter **/ilert oncall** to trigger the bot without the command directly.
+{% endhint %}
+
 ### Overview
 
 There are two ways to configure the on-call lookup feature in Slack:

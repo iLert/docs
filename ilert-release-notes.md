@@ -6,6 +6,13 @@ description: >-
 
 # ilert Release Notes
 
+## September 2023
+
+### New features
+
+* The ilert Slack bot now supports a new **who is on call** command ( /ilert oncall )
+* (_more to follow soon_)
+
 ## August 2023
 
 ### New features
