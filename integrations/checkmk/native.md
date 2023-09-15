@@ -6,20 +6,25 @@ description: The ilert checkmk native integration ships with checkmk version >= 
 
 With the native ilert notification integration in Checkmk, you can automatically create alerts in ilert from Checkmk alerts. That way, you will never miss a critical alert and always alert the right person using ilert's on-call schedules, automatic escalation, and multiple alerting channels. When checkmk creates an alert, ilert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. ilert will automatically escalate to the next person, if the alert is not acknowledged. ilert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
 
-## In ilert: create alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create Checkmk alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1. Create a new alert source in ilert
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-![](<../../.gitbook/assets/mk1 (1).png>)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Checkmk** in the search field, click on the Checkmk tile and click on **Next**.&#x20;
 
-1. Enter a name (e.g. "checkmk server") and select your desired escalation policy.
-2. Select the type **checkmk** and click save.
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-![](<../../.gitbook/assets/iLert (22).png>)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-1. An API key is generated. You will need it below when setting up the notification configuration in checkmk.
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
 
-![](<../../.gitbook/assets/iLert (23).png>)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In checkmk: configure ilert notification <a href="#configure-ilert-plugin" id="configure-ilert-plugin"></a>
 
