@@ -6,16 +6,23 @@ description: Create alerts in ilert from Checkly checks
 
 ## In ilert: Create Checkly alert source
 
-1. Go to **Alert sources** and click on the **Create new alert source** button
-2. Set a name for your Checkly alert source and select an escalation policy
-3.  In the field Integration type select **Checkly** and click **Create**.
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-06-01 at 19.01.15.png" alt=""><figcaption></figcaption></figure>
-4. Skip any advanced settings for now and click **Save** on the next page.
-5.  Copy the **Checkly URL**. You will need in the Checkly configuration below.\
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Checkly** in the search field, click on the Checkly tile and click on **Next**.&#x20;
 
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-06-01 at 17.33.27 (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Checkly: Add ilert alerting channel
 
