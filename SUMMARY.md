@@ -186,6 +186,7 @@
   * [New Relic Workflow Integration](integrations/new-relic/new-relic-workflow.md)
 * [Oh Dear Integration](integrations/ohdear.md)
 * [PandoraFMS Integration](integrations/pandorafms.md)
+* [Particle Integration](integrations/particle.md)
 * [Pingdom Integration](integrations/pingdom.md)
 * [PostHog Integration](integrations/posthog.md)
 * [Prometheus Integration](integrations/prometheus.md)
