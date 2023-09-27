@@ -26,9 +26,7 @@ description: Create alerts in ilert from tickets in Zendesk.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Zendesk <a href="#in-topdesk" id="in-topdesk"></a>
-
-### Create a Target
+## In Zendesk: Create a Target <a href="#in-topdesk" id="in-topdesk"></a>
 
 1. Go to Zendesk and then to **Settings -> Extensions** and click on the **Add target** button
 

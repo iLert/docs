@@ -6,7 +6,7 @@ description: The ilert Zendesk Integration helps you to easily connect ilert wit
 
 [Zendesk](https://www.zendesk.com/) is a cloud-based help desk management solution offering customizable tools to build customer service portal, knowledge base and online communities.
 
-## In Zendesk: Create API Token <a href="#api-token" id="api-token"></a>
+## In Zendesk: Create an API Token <a href="#api-token" id="api-token"></a>
 
 1. Optional: create a dedicated ilert user in Zendesk. That way, you will be able to distinguish tickets created by ilert.
 
@@ -22,7 +22,7 @@ To set up the integration, the Zendesk user must have agent permissions.
 
 3. You will need this API token later in ilert. Make sure to copy and store it. You won't be able to see it again in Zendesk. Click **Save**.
 
-## In ilert: create a Zendesk connector and link it with an alert source <a href="#alarm-source" id="alarm-source"></a>
+## In ilert: Create a Zendesk connector and link it with an alert source <a href="#alarm-source" id="alarm-source"></a>
 
 {% hint style="info" %}
 **Admin permission required**

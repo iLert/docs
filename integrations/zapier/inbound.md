@@ -30,9 +30,7 @@ You can connect Zapier with an existing alert source of any integration type. Sk
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Zapier <a href="#in-topdesk" id="in-topdesk"></a>
-
-### Connect Zapier with ilert <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Zapier: Connect Zapier with ilert <a href="#in-topdesk" id="in-topdesk"></a>
 
 1. In the sidebar, click on **Apps**
 

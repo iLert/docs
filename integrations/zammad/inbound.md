@@ -26,9 +26,7 @@ description: >-
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Zammad <a href="#in-topdesk" id="in-topdesk"></a>
-
-### Create ticket triggers <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Zammad: Create ticket triggers <a href="#in-topdesk" id="in-topdesk"></a>
 
 1. Go to Zammad and then to **Trigger**
 

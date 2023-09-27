@@ -12,7 +12,7 @@ description: >-
 
 With the UptimeRobot integration, you can easily integrate UptimeRobot notifications into ilert. So you can easily expand UptimeRobot with push and voice notification and duty rosters from ilert. Incidents are created in ilert and automatically closed again as soon as the problem has been resolved.
 
-## In ilert: Create UptimeRobot alert source <a href="#alert-source" id="alert-source"></a>
+## In ilert: Create an UptimeRobot alert source <a href="#alert-source" id="alert-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

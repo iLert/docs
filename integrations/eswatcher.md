@@ -70,7 +70,7 @@ To set up the integration, you must have X-Pack license with Watcher feature ena
 }
 ```
 
-Finished! Your X-Pack alerts will now create alerts in ilert.
+3. Finished! Your X-Pack alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 

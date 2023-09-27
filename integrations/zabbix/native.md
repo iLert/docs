@@ -16,7 +16,7 @@ Are you using Zabbix 4.3 or lower? Please refer to our [Zabbix 2.2 - 4.3 Integra
 
 * Zabbix 4.4+
 
-## In ilert: Create an alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a Zabbix alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -105,7 +105,7 @@ curl -o media_ilert.xml \
 
 ![](../../.gitbook/assets/zbn13.png)
 
-### Create alert action
+### Create an alert action
 
 1\. Switch to the **Configuration → Actions** tab and click the **Create action** button
 

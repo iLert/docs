@@ -4,9 +4,7 @@ description: Create tickets in TOPdesk based on alert events from ilert
 
 # TOPdesk Outbound Integration
 
-## In TOPdesk <a href="#in-topdesk" id="in-topdesk"></a>
-
-### Create an API user <a href="#create-api-user" id="create-api-user"></a>
+## In TOPdesk: Create an API user <a href="#in-topdesk" id="in-topdesk"></a>
 
 1. Optional: create a dedicated ilert user in TOPdesk. This has the advantage that you can distinguish the TOPdesk tickets created by ilert.
 2. Go to **Modules**, then to **Supporting Files**, and click on **Operator**
@@ -50,9 +48,7 @@ description: Create tickets in TOPdesk based on alert events from ilert
 
 ![](../../.gitbook/assets/tpdko6.3.png)
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
-
-### Create a TOPdesk Connector and Link to alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a TOPdesk Connector and link to alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1. Click on the gear icon and then on **Connectors** button
 

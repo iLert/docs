@@ -6,9 +6,7 @@ description: >-
 
 # Zapier Outbound Integration
 
-## In Zapier <a href="#in-ilert" id="in-ilert"></a>
-
-### Create a Zap <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Zapier: Create a Zap <a href="#in-ilert" id="in-ilert"></a>
 
 1. Go to Zapier and click on **Make a Zap**
 

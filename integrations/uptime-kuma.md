@@ -4,7 +4,7 @@ description: Create alerts in ilert from Uptime Kuma notifications
 
 # Uptime Kuma Integration
 
-## In ilert: Create Uptime Kuma alert source
+## In ilert: Create an Uptime Kuma alert source
 
 1. Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

@@ -1,6 +1,6 @@
 # Hyperping Integration
 
-## In ilert: Create an Hyperping alert source
+## In ilert: Create a Hyperping alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

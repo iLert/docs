@@ -17,7 +17,7 @@ Are you using Zabbix 4.4 or higher? Please refer our [Zabbix 4.4+ Integration](n
 * Zabbix 2.2 - 3.x
 * Python 3.x
 
-## In ilert: Create alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a Zabbix alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -37,9 +37,7 @@ Are you using Zabbix 4.4 or higher? Please refer our [Zabbix 4.4+ Integration](n
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Zabbix <a href="#zabbix" id="zabbix"></a>
-
-### Download the Zabbix plugin
+## In Zabbix: Download the Zabbix plugin <a href="#zabbix" id="zabbix"></a>
 
 1. Download the ilert Zabbix plugin script. The script must be executable by both Zabbix and the cron daemon:
 
@@ -111,7 +109,7 @@ When in doubt, check the file `zabbix_server.conf`.
 
 1. Click the **Add** button in the **Users** tab to save the user.
 
-### Create alert action
+### Create an alert action
 
 1. Switch to the **Configuration → Actions** tab and click the **Create action** button
 

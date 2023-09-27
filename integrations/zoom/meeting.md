@@ -4,9 +4,7 @@ description: Create Zoom Meeting from ilert alerts.
 
 # Zoom Meeting Integration
 
-## In ilert <a href="#create-alarm-source" id="create-alarm-source"></a>
-
-### Create the Zoom Meeting Connector and link it to the alert source
+## In ilert: Create the Zoom Meeting Connector and link it to the alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 {% hint style="info" %}
 **Admin permission required**

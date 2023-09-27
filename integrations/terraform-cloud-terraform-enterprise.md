@@ -26,9 +26,7 @@ description: >-
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Terraform Cloud / Terraform Enterprise <a href="#in-splunk" id="in-splunk"></a>
-
-### Create a notification setting <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Terraform Cloud / Terraform Enterprise: Create a notification setting <a href="#in-splunk" id="in-splunk"></a>
 
 1. Go to Terraform Cloud and then to **Your Workspace -> Settings -> Notifications**
 
@@ -42,7 +40,7 @@ description: >-
 
 ![](../.gitbook/assets/Screenshot\_25\_02\_21\_\_23\_06.png)
 
-Finished! Your Terraform Cloud run problems will now create alerts in ilert.
+4. Finished! Your Terraform Cloud run problems will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 

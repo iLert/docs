@@ -4,7 +4,7 @@ description: The ilert Webhook Integration helps you to easily connect ilert wit
 
 # Webhook Integration
 
-## In ilert: Create webhook alert action <a href="#create-webhook" id="create-webhook"></a>
+## In ilert: Create a webhook alert action <a href="#create-webhook" id="create-webhook"></a>
 
 1. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish via a webhook. Click on **Alert actions → Create new alert action**
 
@@ -13,8 +13,6 @@ description: The ilert Webhook Integration helps you to easily connect ilert wit
 2. Select **Webhook** as **type** and fill out all fields. In the **Filter Alert Events** field, select the alert events for which you want to receive a webhook call. Webhook events are sent as `HTTP POST` to the specified URL. The URL must be accessible from the internet. Click on **Save**.
 
 ![](<../.gitbook/assets/iLert (56).png>)
-
-3. Finished!
 
 ## Webhook payload <a href="#payload" id="payload"></a>
 

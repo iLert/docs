@@ -6,9 +6,7 @@ description: >-
 
 # Zoom Chat Integration
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
-
-### Create the Zoom Chat Connector and link it to the alert source
+## In ilert: Create the Zoom Chat Connector and link it to the alert source <a href="#in-ilert" id="in-ilert"></a>
 
 {% hint style="info" %}
 **Admin permission required**

@@ -10,9 +10,7 @@ description: >-
 To set up this integration, you must have admin rights in ilert.
 {% endhint %}
 
-## In Zammad <a href="#in-topdesk" id="in-topdesk"></a>
-
-### Create an API key <a href="#create-api-user" id="create-api-user"></a>
+## In Zammad: Create an API key <a href="#in-topdesk" id="in-topdesk"></a>
 
 1. Optional: create a dedicated ilert user in Zammad. This has the advantage that you can distinguish the Zammad tickets created by ilert.
 2. Go to **Profile**, then to **Token Access** and click on **Create**
@@ -39,9 +37,7 @@ An agent token has a group scope so if you want to use a group that the current 
 
 ![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_36.png)
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
-
-### Create a Zammad Connector and Link to the alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a Zammad Connector and link to the alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1. Click on the gear icon and then on the **Connectors** button
 

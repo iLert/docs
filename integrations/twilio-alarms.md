@@ -4,7 +4,7 @@ description: Create alerts in ilert from Twilio Alarms.
 
 # Twilio Alarms Integration
 
-## In ilert: Create Twilio Alarms alert source
+## In ilert: Create a Twilio Alarms alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
