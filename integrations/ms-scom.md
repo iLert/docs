@@ -99,9 +99,9 @@ description: Create Alerts in ilert from Microsoft SCOM
 <figure><img src="../.gitbook/assets/ms-scom-12.png" alt=""><figcaption></figcaption></figure>
 
 16. Leave the schedule notification settings on **Always send notifications** and click on **Finish**
-17. Create a new Subscription by right clicking on **Subscription -> New subscription...**
-18. ![](<../.gitbook/assets/image (2) (3).png>)
-19. Set a name and proceed to the next step
+17. Create a new Subscription by right clicking on **Subscription -> New subscription...**\
+    ![](<../.gitbook/assets/image (2) (3).png>)
+18. Set a name and proceed to the next step
 
 <figure><img src="../.gitbook/assets/ms-scom-17.png" alt=""><figcaption></figcaption></figure>
 
