@@ -6,7 +6,7 @@ description: >-
 
 # Cisco Meraki Integration
 
-## In ilert: Create Cisco Meraki alert source
+## In ilert: Create a Cisco Meraki alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

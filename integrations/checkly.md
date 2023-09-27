@@ -4,7 +4,7 @@ description: Create alerts in ilert from Checkly checks
 
 # Checkly Integration
 
-## In ilert: Create Checkly alert source
+## In ilert: Create a Checkly alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -24,7 +24,7 @@ description: Create alerts in ilert from Checkly checks
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Checkly: Add ilert alerting channel
+## In Checkly: Add an ilert alerting channel
 
 1.  Go to **Alerts** and click on **Add more channels**.\
 

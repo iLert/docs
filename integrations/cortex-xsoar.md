@@ -26,9 +26,7 @@ description: Create ilert alerts directly from Cortex XSOAR (formerly Demisto).
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Cortex XSOAR Server <a href="#in-cortex-xsoar" id="in-cortex-xsoar"></a>
-
-### Add Integration
+## In Cortex XSOAR Server: Add Integration <a href="#in-cortex-xsoar" id="in-cortex-xsoar"></a>
 
 1. Go to Cortex XSOAR, then to **Settings -> Integrations**, search for **iLert** integration and click on the **Add instance** button
 

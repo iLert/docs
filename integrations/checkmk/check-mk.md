@@ -18,7 +18,7 @@ Did you know we offer a [native integration for checkmk 2.x](native.md)
 Python 2.x is EOL (end of life) we suggest to use Python >= 3.7
 {% endhint %}
 
-## In ilert: Create Checkmk alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a Checkmk alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -38,7 +38,7 @@ Python 2.x is EOL (end of life) we suggest to use Python >= 3.7
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Checkmk: Configure ilert Plugin <a href="#configure-ilert-plugin" id="configure-ilert-plugin"></a>
+## In Checkmk: Configure the ilert plugin <a href="#configure-ilert-plugin" id="configure-ilert-plugin"></a>
 
 Download the [checkmk](https://github.com/iLert/ilert-nagios) plugin package and unzip it:
 

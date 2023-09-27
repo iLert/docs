@@ -6,9 +6,7 @@ description: Receive and respond to ilert alerts in Cisco Webex.
 
 [Cisco Webex](https://www.webex.com/) is the leading enterprise solution for video conferencing, online meetings, screen share, and webinars.
 
-## In ilert <a href="#create-alarm-source" id="create-alarm-source"></a>
-
-### Create the Cisco Webex Connector and link it to the alert source
+## In ilert: Create the Cisco Webex Connector and link it to the alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
 
