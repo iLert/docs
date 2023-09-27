@@ -18,21 +18,27 @@ Did you know we offer a [native integration for checkmk 2.x](native.md)
 Python 2.x is EOL (end of life) we suggest to use Python >= 3.7
 {% endhint %}
 
-## In ilert: create alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create Checkmk alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1. Create a new alert source in ilert
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-![](<../../.gitbook/assets/mk1 (1).png>)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for Nagios / Icinga in the search field, click on the Nagios / Icinga tile and click on **Next**.&#x20;
 
-1. Select the type **Nagios / Icinga** and click save.
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-![](../../.gitbook/assets/mk2.png)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-1. An API key is generated. You will need the API conclusions below when setting up the plugin.
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
 
-![](../../.gitbook/assets/mk3.png)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In checkmk: configure ilert Plugin <a href="#configure-ilert-plugin" id="configure-ilert-plugin"></a>
+## In Checkmk: Configure ilert Plugin <a href="#configure-ilert-plugin" id="configure-ilert-plugin"></a>
 
 Download the [checkmk](https://github.com/iLert/ilert-nagios) plugin package and unzip it:
 
