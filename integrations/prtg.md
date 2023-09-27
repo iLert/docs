@@ -6,17 +6,25 @@ description: Create alerts in ilert from PRTG notifications.
 
 [PRTG Network Monitor](https://www.paessler.com/prtg) is a network monitoring software developed by the German company Paessler AG. It allows system administrators and other IT professionals to manage and monitor their entire IT infrastructure, including servers, routers, switches, bandwidth usage, and more. With PRTG integration, you can easily integrate PRTG with ilert and extend your existing PRTG monitoring with SMS, push and voice notifications as well as on-call schedules from ilert.
 
-## In ilert: Create PRTG alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a PRTG alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1. Go to **Alert sources** and click on **Add a new alert source**
-2. Enter a name for your alert source (e.g. "PRTG") and select your desired escalation policy.
-3. In the Integration Type field, select **PRTG Network Monitor** and click on Save.
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-28 at 18.59.49 (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **PRTG** in the search field, click on the PRTG tile and click on **Next**.&#x20;
 
-4. Open the alert source details view by navigating to **Alert sources -->Alert sources** and clicking in the alert source that you have created. In the alert source details view, the fields **PRTG URL** and **PRTG Postdata** will be displayed. You will need those two fields in the PRTG setup below.
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-03-28 at 19.13.16.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In PRTG: Create new notification <a href="#create-notification" id="create-notification"></a>
 
@@ -43,6 +51,8 @@ description: Create alerts in ilert from PRTG notifications.
 
     \
     You may adjust the trigger to fit your needs, e.g. adjust the time that PRTG waits before it sends a notification to ilert.
+
+## &#x20;<a href="#create-topic" id="create-topic"></a>
 
 ## FAQ <a href="#faq" id="faq"></a>
 
