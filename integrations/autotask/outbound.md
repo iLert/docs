@@ -4,9 +4,7 @@ description: Create tickets in Autotask PSA based on alerts from ilert.
 
 # Autotask Outbound Integration
 
-## In Autotask <a href="#create-api-user" id="create-api-user"></a>
-
-### Create an API user
+## In Autotask: Create an API user <a href="#create-api-user" id="create-api-user"></a>
 
 1\. Sign in to Autotask and then go to **Admin -> Resources (Users)**
 
@@ -28,9 +26,7 @@ description: Create tickets in Autotask PSA based on alerts from ilert.
 
 ![](<../../.gitbook/assets/autotask3 (2).png>)
 
-## In ilert
-
-### Create a Autotask Connector and Link to alert source
+## In ilert: Create an Autotask Connector and Link to alert source
 
 1\. Click on the gear icon and then on **Connectors** button
 

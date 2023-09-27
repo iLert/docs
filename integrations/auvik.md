@@ -24,9 +24,7 @@ If you need more guidance on how to retrieve an Auvik API key check out [this gu
 
 ![](<../.gitbook/assets/image (48) (1) (1) (1).png>)
 
-## In Auvik
-
-### Configuring the integration
+## In Auvik: Configuring the integration
 
 1. Navigate to **Integrations** and click on **Add integration**
 

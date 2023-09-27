@@ -42,7 +42,7 @@ With the ilert Autotask inbound integration, you can create alerts in ilert base
 
 ![](<../../.gitbook/assets/autotask6 (1).png>)
 
-## In Autotask: Create Extension Callout <a href="#create-extension-callout" id="create-extension-callout"></a>
+## In Autotask: Create an Extension Callout <a href="#create-extension-callout" id="create-extension-callout"></a>
 
 1. Go to Autotask and then to **Admin -> Extensions & Integrations**
 
@@ -62,7 +62,7 @@ With the ilert Autotask inbound integration, you can create alerts in ilert base
 
 ![](<../../.gitbook/assets/autotask10 (2).png>)
 
-## In Autotask: Create Workflow Rule <a href="#create-workflow-rule" id="create-workflow-rule"></a>
+## In Autotask: Create a Workflow Rule <a href="#create-workflow-rule" id="create-workflow-rule"></a>
 
 1. Go to Autotask and then to **Admin -> Workflow Rules**
 

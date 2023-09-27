@@ -28,9 +28,7 @@ With ilert AWS Budget Integration, you can receive AWS Budget alert through iler
 
     <figure><img src="https://4017197022-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M76ygPnS4HUcFSX8ulm%2Fuploads%2Fi3TIOBvNYBQfDtNpmm0A%2FScreenshot%202023-08-28%20at%2011.47.34.png?alt=media&#x26;token=6cae965a-e448-4443-8c20-37cf501c43b2" alt=""><figcaption></figcaption></figure>
 
-## In AWS
-
-### Create an SNS topic <a href="#create-sns-topic" id="create-sns-topic"></a>
+## In AWS: Create a SNS topic
 
 > If you have already created an SNS topic for your AWS Budget, that you want to reuse, you can proceed to step 3.
 

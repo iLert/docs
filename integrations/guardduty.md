@@ -7,7 +7,7 @@ description: >-
 
 # AWS GuardDuty Integration
 
-## In ilert: Create AWS GuardDuty alert source <a href="#create-alert-source" id="create-alert-source"></a>
+## In ilert: Create an AWS GuardDuty alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

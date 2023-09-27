@@ -7,7 +7,7 @@ description: >-
 
 # API Fortress Integration
 
-## In ilert: Create a API Fortress alert source
+## In ilert: Create an API Fortress alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

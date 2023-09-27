@@ -22,7 +22,7 @@ And create a new connector. Choose AWS lambda as type (you may add the additiona
 
 Click on save to save the connector.
 
-## Create the alert action <a href="#connection" id="connection"></a>
+## Create an alert action <a href="#connection" id="connection"></a>
 
 Visit the alert source (view) whose alerts should trigger your serverless function. Navigate to the **Alert actions** tab and click on the **Create new alert action** button.
 

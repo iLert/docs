@@ -32,9 +32,7 @@ With ilert's AppDynamics integration, you can automatically create alerts in ile
 
     <figure><img src="https://4017197022-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M76ygPnS4HUcFSX8ulm%2Fuploads%2Fi3TIOBvNYBQfDtNpmm0A%2FScreenshot%202023-08-28%20at%2011.47.34.png?alt=media&#x26;token=6cae965a-e448-4443-8c20-37cf501c43b2" alt=""><figcaption></figcaption></figure>
 
-## In AppDynamics <a href="#in-appdynammics" id="in-appdynammics"></a>
-
-### Create HTTP Request Template
+## In AppDynamics: Create HTTP Request Template <a href="#in-appdynammics" id="in-appdynammics"></a>
 
 1. Go to **Alert & Respond** --> **HTTP Request Templates** and click on **New** to add a new template
 

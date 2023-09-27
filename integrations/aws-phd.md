@@ -15,7 +15,7 @@ description: Create alerts in ilert from issues AWS Personal Health Dashboard.
 
 With ilert's AWS Personal Health Dashboard integration, you can automatically create alerts in ilert from problems in AWS Personal Health Dashboard. That way, you will never miss a critical alert and always alert the right person using ilert's on-call schedules, automatic escalation, and multiple alerting channels. When AWS Personal Health Dashboard reports an issue, ilert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. ilert will automatically escalate to the next person, if the alert is not acknowledged. ilert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
 
-## In ilert: Create AWS Personal Health Dashboard alert source <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create an AWS Personal Health Dashboard alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -35,9 +35,7 @@ With ilert's AWS Personal Health Dashboard integration, you can automatically cr
 
     <figure><img src="https://4017197022-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F-M76ygPnS4HUcFSX8ulm%2Fuploads%2Fi3TIOBvNYBQfDtNpmm0A%2FScreenshot%202023-08-28%20at%2011.47.34.png?alt=media&#x26;token=6cae965a-e448-4443-8c20-37cf501c43b2" alt=""><figcaption></figcaption></figure>
 
-## In AWS
-
-### Create an SNS topic <a href="#create-sns-topic" id="create-sns-topic"></a>
+## In AWS: Create a SNS topic
 
 > If you have already created an SNS topic for your AWS Personal Health Dashboard that you want to reuse, you can proceed to step 3.
 
