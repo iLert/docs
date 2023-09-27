@@ -7,7 +7,7 @@ description: >-
 
 # Oh Dear Integration
 
-## In ilert: Create Oh Dear alert source
+## In ilert: Create an Oh Dear alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

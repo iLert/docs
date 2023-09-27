@@ -12,7 +12,7 @@ description: >-
 
 With New Relic Integration, you can easily integrate New Relic Alerts with ilert. So you can easily extend New Relic with SMS, Push and Voice alerts, as well as ilert rosters. Alerts are created in ilert and automatically closed when the problem is resolved. In addition, the alerts in ilert created by New Relic include bounce links to the respective Incident in New Relic.
 
-## In ilert: Create New Relic alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a New Relic alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

@@ -7,7 +7,7 @@ description: >-
 
 # MongoDB Atlas Integration
 
-## In ilert: Create MongoDB Atlas alert source
+## In ilert: Create a MongoDB Atlas alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

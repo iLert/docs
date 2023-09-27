@@ -17,7 +17,7 @@ With the ilert Nagios Notification Plugin, you can easily integrate Nagios with 
 Python 2.x is EOL (end of life) we suggest to use Python >= 3.7
 {% endhint %}
 
-## In ilert: create Nagios alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a Nagios alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -37,7 +37,7 @@ Python 2.x is EOL (end of life) we suggest to use Python >= 3.7
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Nagios: install the notification plugin <a href="#installation-guide" id="installation-guide"></a>
+## In Nagios: Install the notification plugin <a href="#installation-guide" id="installation-guide"></a>
 
 Download the [ilert Nagios plugin](https://github.com/iLert/ilert-nagios) and unzip it:
 

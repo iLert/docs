@@ -10,9 +10,7 @@ description: >-
 To set up this integration, you must have admin rights in ilert.
 {% endhint %}
 
-## In Mattermost <a href="#add-to-channel" id="add-to-channel"></a>
-
-### Create an incoming webhook
+## In Mattermost: Create an incoming webhook <a href="#add-to-channel" id="add-to-channel"></a>
 
 1. Go to the main menu and click **Integrations**
 
@@ -32,9 +30,7 @@ To set up this integration, you must have admin rights in ilert.
 
 5. Your webhook has now been set up. You will need the URL in the next step.
 
-## In ilert <a href="#create-alarm-source" id="create-alarm-source"></a>
-
-### Create the Mattermost Connector and link it to your alert source
+## In ilert: Create the Mattermost Connector and link it to your alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Click on the gear icon and navigate to → **Connectors**
 

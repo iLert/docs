@@ -6,7 +6,7 @@ description: >-
 
 # New Relic Workflow Integration
 
-## In ilert: Create New Relic alert source
+## In ilert: Create a New Relic alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

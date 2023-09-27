@@ -4,7 +4,7 @@ description: Create Alerts in ilert from Microsoft SCOM
 
 # Microsoft SCOM
 
-## In ilert: Create Microsoft SCOM alert source
+## In ilert: Create an Microsoft SCOM alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -103,19 +103,19 @@ description: Create Alerts in ilert from Microsoft SCOM
 
 <figure><img src="../.gitbook/assets/ms-scom-17.png" alt=""><figcaption></figcaption></figure>
 
-20. Specify a criteria for your subscription(Note: If selecting a condition, please remove the "Notify on all alerts" to prevent multiple identical alert submission). Leave this as "Notify on all alerts" to receive a notification on all alerts.
+19. Specify a criteria for your subscription(Note: If selecting a condition, please remove the "Notify on all alerts" to prevent multiple identical alert submission). Leave this as "Notify on all alerts" to receive a notification on all alerts.
 
 <figure><img src="../.gitbook/assets/ms-scom-18.png" alt=""><figcaption></figcaption></figure>
 
-21. Add the previously made **Subscriber** to the **Subscription**
+20. &#x20;Add the previously made **Subscriber** to the **Subscription**
 
 <figure><img src="../.gitbook/assets/ms-scom-21.png" alt=""><figcaption></figcaption></figure>
 
-22. Add the previously made **Channel** to the **Subscription**
+21. Add the previously made **Channel** to the **Subscription**
 
 <figure><img src="../.gitbook/assets/ms-scom-23.png" alt=""><figcaption></figcaption></figure>
 
-23. Finish the setup
+22. &#x20;Finish the setup
 
 <figure><img src="../.gitbook/assets/ms-scom-24.png" alt=""><figcaption></figcaption></figure>
 
