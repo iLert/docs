@@ -1,6 +1,6 @@
 # Azure Sentinel
 
-## In ilert: Create a Azure Alerts alert source <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create an Azure Alerts alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -20,9 +20,7 @@
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Azure <a href="#in-splunk" id="in-splunk"></a>
-
-### Create a query <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Azure: Create a query <a href="#in-splunk" id="in-splunk"></a>
 
 1. Go to [**Azure Portal**](https://portal.azure.com) and then to **Azure Sentinel.**
 
@@ -64,7 +62,7 @@
 
 ![](<../../.gitbook/assets/Create\_alert\_rule\_-\_Microsoft\_Azure (1).png>)
 
-Finished! Your Azure Sentinels alerts will now create alerts in ilert.
+11. Finished! Your Azure Sentinels alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 

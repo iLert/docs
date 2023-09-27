@@ -4,7 +4,7 @@ description: Create alerts in ilert based on Azure Cost Budget.
 
 # Budget Alert
 
-## In ilert: Create a Azure Alerts alert source <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create an Azure Alerts alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1. Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -26,9 +26,7 @@ description: Create alerts in ilert based on Azure Cost Budget.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Azure <a href="#in-splunk" id="in-splunk"></a>
-
-### Create an alert <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Azure: Create an alert <a href="#in-splunk" id="in-splunk"></a>
 
 1. Go to [**Azure Portal**](https://portal.azure.com) and then to **Cost Management + Billing.**
 
@@ -74,7 +72,7 @@ description: Create alerts in ilert based on Azure Cost Budget.
 
 ![](<../../.gitbook/assets/Cost\_Management\_\_Nutzungsbasierte\_Bezahlung\_-\_Microsoft\_Azure (3).png>)
 
-Finished! Your Azure Activity Logs alerts will now create alerts in ilert.
+12. Finished! Your Azure Activity Logs alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 

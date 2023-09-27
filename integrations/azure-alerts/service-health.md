@@ -4,7 +4,7 @@ description: Create alerts in ilert based on Azure Service Health alerts.
 
 # Azure Service Health
 
-## In ilert: Create a Azure Alerts alert source <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create an Azure Alerts alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -25,9 +25,7 @@ description: Create alerts in ilert based on Azure Service Health alerts.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Azure <a href="#in-splunk" id="in-splunk"></a>
-
-### Create an alert <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Azure: Create an alert <a href="#in-splunk" id="in-splunk"></a>
 
 1. Go to [**Azure Portal**](https://portal.azure.com) and then to **Service Health.**
 
@@ -65,7 +63,7 @@ description: Create alerts in ilert based on Azure Service Health alerts.
 
 ![](../../.gitbook/assets/Create\_alert\_rule\_-\_Microsoft\_Azure1.png)
 
-Finished! Your Azure Service Health alerts will now create alerts in ilert.
+10. Finished! Your Azure Service Health alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 

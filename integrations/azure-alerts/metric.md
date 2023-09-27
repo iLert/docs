@@ -4,7 +4,7 @@ description: Create alerts in ilert based on Azure Metric.
 
 # Azure Metric
 
-## In ilert: Create a Azure Alerts alert source <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create an Azure Alerts alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -24,9 +24,7 @@ description: Create alerts in ilert based on Azure Metric.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Azure <a href="#in-splunk" id="in-splunk"></a>
-
-### Create an alert <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Azure: Create an alert <a href="#in-splunk" id="in-splunk"></a>
 
 {% hint style="info" %}
 All Azure Metric based alerts are supported. However, this documentation page describes how to set up the Virtual machines based alerts.
@@ -72,7 +70,7 @@ All Azure Metric based alerts are supported. However, this documentation page de
 
 ![](../../.gitbook/assets/Create\_alert\_rule\_-\_Microsoft\_Azure1.png)
 
-Finished! Your Azure Metric alerts will now create alerts in ilert.
+11. Finished! Your Azure Metric alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
