@@ -8,9 +8,7 @@ description: >-
 
 [Discord](https://discord.com/) is the easiest way to talk over voice, video, and text. Talk, chat, hang out, and stay close with your friends and communities.
 
-## In Discord <a href="#in-discord" id="in-discord"></a>
-
-### Create a webhook <a href="#create-webhook" id="create-webhook"></a>
+## In Discord: Create a webhook <a href="#in-discord" id="in-discord"></a>
 
 1. Go to **Discord** and select a server
 2. Go to a **Text Channel**, then click on the **Edit Channel** button
@@ -25,9 +23,7 @@ description: >-
 
 ![](<../.gitbook/assets/general\_-\_Discord (1).png>)
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
-
-### Create a Discord Connector and Link to the alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a Discord Connector and link to the alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1. Click on the gear icon and then on the **Connectors** button
 

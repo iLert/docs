@@ -4,9 +4,7 @@ description: Create events in Datadog from ilert alerts.
 
 # Datadog Outbound Integration
 
-## In Datadog <a href="#in-topdesk" id="in-topdesk"></a>
-
-### Create an API key <a href="#create-api-user" id="create-api-user"></a>
+## In Datadog: Create an API key <a href="#in-topdesk" id="in-topdesk"></a>
 
 1. Go to **Integrations**, then click on **APIs**
 
@@ -18,9 +16,7 @@ description: Create events in Datadog from ilert alerts.
 
 3. Write down your API key. You will need it later in ilert.
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
-
-### Create a Datadog Connector and Link to alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a Datadog Connector and link to alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1. Click on the gear icon and then on **Connectors** button
 

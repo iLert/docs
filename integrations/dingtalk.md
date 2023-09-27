@@ -6,9 +6,7 @@ description: Receive and respond to ilert alerts in DingTalk.
 
 [DingTalk](https://www.dingtalk.com) is an intelligent working platform created by Alibaba Group to support tens of millions of enterprises to achieve higher working efficiency with the new digitalized working method.
 
-## In DingTalk <a href="#in-dingtalk" id="in-dingtalk"></a>
-
-### Add an ilert Robot to a group
+## In DingTalk: Add an ilert Robot to a group <a href="#in-dingtalk" id="in-dingtalk"></a>
 
 {% hint style="info" %}
 **Admin permission required**
@@ -48,9 +46,7 @@ To set up the integration, you must have admin rights in ilert.
 
 ![](../.gitbook/assets/Screenshot\_27\_05\_21\_\_15\_27.png)
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
-
-### Create the DingTalk Connector and link it to the alert source
+## In ilert: Create the DingTalk Connector and link it to the alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
 

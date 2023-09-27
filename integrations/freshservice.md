@@ -6,7 +6,7 @@ description: >-
 
 # FreshService Integration
 
-## In ilert: Create FreshService alert source&#x20;
+## In ilert: Create a FreshService alert source&#x20;
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

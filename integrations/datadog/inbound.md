@@ -6,7 +6,7 @@ description: Create alerts in ilert from Datadog events.
 
 With the ilert Datadog integration, you can create alerts in ilert based on Datadog events.
 
-## In ilert: Create Datadog alert source <a href="#alert-source" id="alert-source"></a>
+## In ilert: Create a Datadog alert source <a href="#alert-source" id="alert-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

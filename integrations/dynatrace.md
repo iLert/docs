@@ -32,9 +32,7 @@ With the ilert Dynatrace integration, you can add alerts in ilert based on probl
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Dynatrace <a href="#in-dynatrace" id="in-dynatrace"></a>
-
-### Create HTTP Request Template
+## In Dynatrace: Create a HTTP Request Template <a href="#in-dynatrace" id="in-dynatrace"></a>
 
 1. Go to **Settings** --> **Integration** --> **Problem Notifications** and click on **Set up notifications** to add a new template
 

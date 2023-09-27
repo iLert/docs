@@ -6,7 +6,7 @@ description: >-
 
 # Automatically resolve Alerts with Emails
 
-## Configuring auto Email Alert-Resolution
+## Configuring an auto Email Alert-Resolution
 
 When creating or editing your email alert sources in ilert, choose the alert creation type **Open and resolve alerts based alert keys extracted from emails**.
 
