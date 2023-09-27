@@ -1,14 +1,14 @@
 ---
 title: Zabbix Integration
 seoTitle: 'iLert: Zabbix Integration for Alerting | Incident Response | Uptime'
-description: The ilert Zabbix Integration helps you to easily connect ilert with Zabbix.
 date: '2018-12-29T05:02:05.000Z'
 weight: 1
+description: The ilert Zabbix Integration helps you to easily connect ilert with Zabbix.
 ---
 
-# Zabbix 2.2 - 4.3 Integration
+# Zabbix 2.2 – 4.3 Integration
 
-## System Requirements <a id="requirements"></a>
+## System Requirements <a href="#requirements" id="requirements"></a>
 
 {% hint style="info" %}
 Are you using Zabbix 4.4 or higher? Please refer our [Zabbix 4.4+ Integration](native.md) guide.
@@ -17,32 +17,42 @@ Are you using Zabbix 4.4 or higher? Please refer our [Zabbix 4.4+ Integration](n
 * Zabbix 2.2 - 3.x
 * Python 3.x
 
-## In ilert: Create alert source <a id="create-alarm-source"></a>
+## In ilert: Create alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1. Go to **Alert sources** and click on **Add a new alert source**.
-2. Set a name \(e.g. "Zabbix"\) and select your desired escalation policy.
-3. Set the **Integration type** to Zabbix.
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-![](../../.gitbook/assets/zb1.png)
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Zabbix** in the search field, click on the Zabbix tile and click on **Next**.&#x20;
 
-1. An API key is generated on the next page. You will need the API key below when setting up the plugin.
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-## In Zabbix <a id="zabbix"></a>
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
+
+## In Zabbix <a href="#zabbix" id="zabbix"></a>
 
 ### Download the Zabbix plugin
 
 1. Download the ilert Zabbix plugin script. The script must be executable by both Zabbix and the cron daemon:
 
-```text
+```
 > wget https://raw.githubusercontent.com/iLert/ilert-zabbix/master/ilert-zabbix.py 
 > chmod 755 ilert-zabbix.py
 ```
 
-1. Move the plugin into the `AlertsScriptsPath` directory. Typically, this is the `/usr/local/share/zabbix/alertscripts` or `/usr/lib/zabbix/alertscripts`. 
+1. Move the plugin into the `AlertsScriptsPath` directory. Typically, this is the `/usr/local/share/zabbix/alertscripts` or `/usr/lib/zabbix/alertscripts`.
 
 When in doubt, check the file `zabbix_server.conf`.
 
-```text
+```
 > mv ilert-zabbix.py /usr/lib/zabbix/alertscripts/
 ```
 
@@ -74,11 +84,11 @@ When in doubt, check the file `zabbix_server.conf`.
 
 ![](../../.gitbook/assets/zb5.png)
 
-1. Set the name for the ilert group \(eg "ilert group"\).
+1. Set the name for the ilert group (eg "ilert group").
 
 ![](../../.gitbook/assets/zb6.png)
 
-1. Switch to the **Permissions** tab and select the **host groups** that the ilert group should have read access to send notifications. Without read access, ilert cannot receive notifications for the hosts in the group \(see also [here](https://www.zabbix.com/documentation/3.4/manual/quickstart/notification)\).
+1. Switch to the **Permissions** tab and select the **host groups** that the ilert group should have read access to send notifications. Without read access, ilert cannot receive notifications for the hosts in the group (see also [here](https://www.zabbix.com/documentation/3.4/manual/quickstart/notification)).
 2. Click the Add button to save the group.
 
 ![](../../.gitbook/assets/zb7.png)
@@ -118,48 +128,48 @@ When in doubt, check the file `zabbix_server.conf`.
 **Operations**
 
 * **Default subject** `alert`
-* **Default message**
+*   **Default message**
 
-  ```text
-  {
-   "EVENT.ID": "{EVENT.ID}",
-   "TRIGGER.ID": "{TRIGGER.ID}",
-   "TRIGGER.VALUE": "{TRIGGER.VALUE}",
-   "TRIGGER.NAME": "{TRIGGER.NAME}",
-   "TRIGGER.DESCRIPTION": "{TRIGGER.DESCRIPTION}",
-   "TRIGGER.STATUS": "{TRIGGER.STATUS}",
-   "TRIGGER.SEVERITY": "{TRIGGER.SEVERITY}",
-   "TRIGGER.URL": "{TRIGGER.URL}",
-   "HOST.HOST": "{HOST.HOST}",
-   "HOST.IP": "{HOST.IP}"
-  }
-  ```
+    ```
+    {
+     "EVENT.ID": "{EVENT.ID}",
+     "TRIGGER.ID": "{TRIGGER.ID}",
+     "TRIGGER.VALUE": "{TRIGGER.VALUE}",
+     "TRIGGER.NAME": "{TRIGGER.NAME}",
+     "TRIGGER.DESCRIPTION": "{TRIGGER.DESCRIPTION}",
+     "TRIGGER.STATUS": "{TRIGGER.STATUS}",
+     "TRIGGER.SEVERITY": "{TRIGGER.SEVERITY}",
+     "TRIGGER.URL": "{TRIGGER.URL}",
+     "HOST.HOST": "{HOST.HOST}",
+     "HOST.IP": "{HOST.IP}"
+    }
+    ```
 
 ![](../../.gitbook/assets/zb14.png)
 
 #### Recovery operations
 
 * **Default subject** `resolve`
-* **Default message**
+*   **Default message**
 
-  ```text
-  {
-   "EVENT.ID": "{EVENT.ID}"
-  }
-  ```
+    ```
+    {
+     "EVENT.ID": "{EVENT.ID}"
+    }
+    ```
 
 ![](../../.gitbook/assets/zb15.png)
 
 #### Acknowledgment operations
 
 * **Default subject** `ack`
-* **Default message**
+*   **Default message**
 
-  ```text
-  {
-   "EVENT.ID": "{EVENT.ID}"
-  }
-  ```
+    ```
+    {
+     "EVENT.ID": "{EVENT.ID}"
+    }
+    ```
 
 ![](../../.gitbook/assets/zb16.png)
 
@@ -167,17 +177,17 @@ When in doubt, check the file `zabbix_server.conf`.
 
 ### Set up cron job
 
-In the event that the events generated by Zabbix cannot be sent to ilert on the first attempt \(e.g. due to a network problem\), a cron job is set up. This cron job is executed every minute and sends all failed events to ilert.
+In the event that the events generated by Zabbix cannot be sent to ilert on the first attempt (e.g. due to a network problem), a cron job is set up. This cron job is executed every minute and sends all failed events to ilert.
 
 1. Edit the crab file from the Zabbix user
 
-```text
+```
 > sudo crontab -u zabbix -e
 ```
 
 1. Add the following entry
 
-```text
+```
 * * * * * /usr/lib/zabbix/alertscripts/ilert-zabbix.py -m send
 ```
 
@@ -185,7 +195,7 @@ Adjust the directory according to your `AlertScriptsPath` configuration in Zabbi
 
 1. The Zabbix integration is now set up!
 
-## FAQ <a id="faq"></a>
+## FAQ <a href="#faq" id="faq"></a>
 
 **Are alerts automatically resolved in ilert?**
 
@@ -201,5 +211,4 @@ No events are lost. The plugin saves the events locally in a temporary directory
 
 **The plugin does not work. How do I find the mistake?**
 
-Please look first in the log file. The plugin uses the Unix / Linux system log for logging \(eg under `/var/log/messages` or `/var/log/syslog` \). If you can not find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
-
+Please look first in the log file. The plugin uses the Unix / Linux system log for logging (eg under `/var/log/messages` or `/var/log/syslog` ). If you can not find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
