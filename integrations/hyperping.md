@@ -1,6 +1,6 @@
 # Hyperping Integration
 
-## In ilert: Create your Hypering alert source
+## In ilert: Create an Hyperping alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -20,9 +20,7 @@
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Hyperping
-
-### Configuring your project settings
+## In Hyperping: Configuring your project settings
 
 ![](<../.gitbook/assets/image (60) (2).png>)
 
