@@ -5,6 +5,8 @@
 * [Core concepts](README.md)
 * [FAQ](getting-started/faq/README.md)
   * [Renaming of Incidents to Alerts](getting-started/faq/renaming-of-incidents-to-alerts.md)
+* [Import from PagerDuty](https://pagerduty-import.ilert.net)
+* [Import from StatusPage.io](https://statuspage-import.ilert.net)
 
 ## Alerting
 
