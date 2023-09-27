@@ -8,9 +8,7 @@ description: Create notifications in Amazon SNS  from ilert alerts.
 
 The A2A pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications. Using Amazon SNS topics, your publisher systems can fanout messages to a large number of subscriber systems including Amazon SQS queues, AWS Lambda functions and HTTPS endpoints, for parallel processing, and Amazon Kinesis Data Firehose. The A2P functionality enables you to send messages to users at scale via SMS, mobile push, and email.
 
-## In AWS Console <a href="#in-aws-console" id="in-aws-console"></a>
-
-### Create a AWS Lambda function for Amazon SNS <a href="#create-sns-topic-subscription" id="create-sns-topic-subscription"></a>
+## In AWS Console: Create an AWS Lambda function for Amazon SNS <a href="#in-aws-console" id="in-aws-console"></a>
 
 {% hint style="info" %}
 To set up the integration, you must have an Amazon SNS topic and the arn string for it.
@@ -90,9 +88,7 @@ exports.handler = async (event) => {
 
 ![](<../../.gitbook/assets/myIncidentHandler\_-\_Lambda (2).png>)
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
-
-### Create the AWS Lambda Connector and link it to the alert source
+## In ilert: Create an AWS Lambda Connector and link it to the alert source <a href="#in-ilert" id="in-ilert"></a>
 
 {% hint style="info" %}
 **Admin permission required**
