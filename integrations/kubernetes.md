@@ -100,7 +100,7 @@ ilert-kube-agent-64f7dfd4d-nsnzp   1/1     Running   0          37h
 ilert-kube-agent-64f7dfd4d-zx7fb   1/1     Running   0          37h
 ```
 
-Finished! Your Kubernetes alerts will now create alerts in ilert.
+5. Finished! Your Kubernetes alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
