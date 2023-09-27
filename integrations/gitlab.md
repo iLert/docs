@@ -9,12 +9,23 @@ description: >-
 
 ## In ilert: Create a GitLab alert source&#x20;
 
-1. Go to the "**Alert sources**" tab and click on "**Create new alert source**"
-2. Enter a name and select your desired escalation policy.
-3. Select "**GitLab**" as the **Integration Type** and click **Save**.
-4.
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-04-23 at 17.15.14.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **GitLab** in the search field, click on the GitLab tile and click on **Next**.&#x20;
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 ### GitLab advanced settings
 
@@ -23,22 +34,21 @@ This setting is optional but we still recommend enabling it for a better user ex
 {% endhint %}
 
 1. Now click on **GitLab Settings** to show the advanced settings
-2.
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-04-23 at 18.19.15.png" alt=""><figcaption></figcaption></figure>
-3. You may now choose one of the given **Hook types** which this alert source should process. (Leaving the selection on 'Select' will result the alert source to process all incoming **Hook types**)
-4.
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-23 at 18.19.15.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-04-23 at 14.57.15.png" alt=""><figcaption></figcaption></figure>
-5. Some **Hook types** do additionally have a selection for an **Event type**.
-6. Click on **Save** to proceed to the next step.
-7.
+2. You may now choose one of the given **Hook types** which this alert source should process. (Leaving the selection on 'Select' will result the alert source to process all incoming **Hook types**)
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-04-23 at 14.57.56.png" alt=""><figcaption></figcaption></figure>
-8. On the next page a **GitLab Integration URL** is generated. You will need the URL for the webhook configuration
-9.
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-23 at 14.57.15.png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-04-23 at 18.13.43.png" alt=""><figcaption></figcaption></figure>
+3. Some **Hook types** do additionally have a selection for an **Event type**.
+4. Click on **Save** to proceed to the next step.
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-23 at 14.57.56.png" alt=""><figcaption></figcaption></figure>
+
+5. On the next page a **GitLab Integration URL** is generated. You will need the URL for the webhook configuration
+
+<figure><img src="../.gitbook/assets/Screenshot 2023-04-23 at 18.13.43.png" alt=""><figcaption></figcaption></figure>
 
 ## In GitLab
 
