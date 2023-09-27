@@ -6,7 +6,7 @@ description: Create events in Amazon EventBridge using ilert alerts.
 
 [Amazon EventBridge](https://aws.amazon.com/eventbridge/) is a serverless event bus that makes it easier to build event-driven applications at scale using events generated from your applications, integrated Software-as-a-Service (SaaS) applications, and AWS services.
 
-## In ilert: Create an Amazon EventBridge Alert Action <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create an Amazon EventBridge alert action <a href="#in-ilert" id="in-ilert"></a>
 
 1. **\*\*Go to the alert sources tab and open the alert source whose alerts you want to publish to Amazon EventBridge. Click on the** Alert actions **tab and then on the** Add new alert action\*\* button
 
