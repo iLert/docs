@@ -28,9 +28,7 @@ With the ilert Server Density integration you can create alerts in ilert based o
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Server Density <a href="#in-topdesk" id="in-topdesk"></a>
-
-### Create notification channel <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Server Density: Create notification channel <a href="#in-topdesk" id="in-topdesk"></a>
 
 1. Go to Server Density and then to **Settings.** Click on **Notifications** to add a new notification channel for ilert
 
