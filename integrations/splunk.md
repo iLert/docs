@@ -26,9 +26,7 @@ description: >-
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Splunk <a href="#in-splunk" id="in-splunk"></a>
-
-### Create a search <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Splunk: Create a search <a href="#in-splunk" id="in-splunk"></a>
 
 1. Go to Splunk and then to **Search & Reporting.** Create a search for which you’d like to create an alert.
 
@@ -42,7 +40,7 @@ description: >-
 
 ![](../.gitbook/assets/Screenshot\_08\_02\_21\_\_20\_48.png)
 
-Finished! Your Splunk alerts will now create alerts in ilert.
+4. Finished! Your Splunk alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 

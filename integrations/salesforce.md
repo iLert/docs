@@ -6,7 +6,7 @@ description: >-
 
 # Salesforce Integration
 
-## In ilert: Create Salesforce alert source
+## In ilert: Create a Salesforce alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

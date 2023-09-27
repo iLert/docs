@@ -8,7 +8,7 @@ description: >-
 
 With the ilert SolarWinds Integration you can easily integrate SolarWinds Orion products (eg [NPM](https://www.solarwinds.com/network-performance-monitor) and [SAM](https://www.solarwinds.com/server-application-monitor)) into ilert. The integration extends SolarWinds with SMS, push and voice notification as well as on-call schedules from ilert. Alerts are created in ilert and automatically resolved. Furthermore, alerts in ilert that were created by SolarWinds contain links to the respective alerts in SolarWinds.
 
-## In ilert: Create SolarWinds alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a SolarWinds alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -30,7 +30,7 @@ With the ilert SolarWinds Integration you can easily integrate SolarWinds Orion 
 
 ## &#x20;<a href="#create-topic" id="create-topic"></a>
 
-## In SolarWinds: create alert definition <a href="#alert-definition" id="alert-definition"></a>
+## In SolarWinds: Create an alert definition <a href="#alert-definition" id="alert-definition"></a>
 
 1. Go to the **Settings → All Settings** tab and click **Manage Alerts**
 

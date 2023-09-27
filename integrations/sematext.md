@@ -28,9 +28,7 @@ Sematext Cloud is an all-in-one infrastructure performance and log monitoring, r
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Sematext <a href="#in-splunk" id="in-splunk"></a>
-
-### Create a notification hook <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Sematext: Create a notification hook <a href="#in-splunk" id="in-splunk"></a>
 
 1. Go to Sematext, then to **Alerts -> Notification Hooks** and then on the **New Notification Hook** button
 

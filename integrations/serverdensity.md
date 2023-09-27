@@ -8,7 +8,7 @@ description: >-
 
 With the ilert Server Density integration you can create alerts in ilert based on Server Density notifications.
 
-## In ilert: Create an Server Density alert source <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create a Server Density alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -28,7 +28,7 @@ With the ilert Server Density integration you can create alerts in ilert based o
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Server Density: Create notification channel <a href="#in-topdesk" id="in-topdesk"></a>
+## In Server Density: Create a notification channel <a href="#in-topdesk" id="in-topdesk"></a>
 
 1. Go to Server Density and then to **Settings.** Click on **Notifications** to add a new notification channel for ilert
 

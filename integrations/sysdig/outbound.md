@@ -6,17 +6,13 @@ description: >-
 
 # Sysdig Outbound Integration
 
-## In Sysdig <a href="#in-topdesk" id="in-topdesk"></a>
-
-### Copy API token <a href="#create-api-user" id="create-api-user"></a>
+## In Sysdig: Copy API token <a href="#in-topdesk" id="in-topdesk"></a>
 
 1. Go to **Settings**, then to **User Profile.** Write down your API Token. You will need it later in ilert.
 
 ![](<../../.gitbook/assets/Profile\_-\_Settings\_-\_Sysdig (1).png>)
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
-
-### Create a Sysdig Connector and Link to alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a Sysdig Connector and link to alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1. Click on the gear icon and then on **Connectors** button
 

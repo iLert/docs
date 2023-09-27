@@ -12,7 +12,7 @@ With ilert's Prometheus integration, you can automatically create alerts in iler
 
 * [Prometheus Alert Manager v0.6.0 / 2017-04-25](https://github.com/prometheus/alertmanager/releases/tag/v0.6.0) or higher. If you are using an older version of the Alertmanager, please contact the ilert support at [support@ilert.com](mailto:support@ilert.com).
 
-## In ilert: Create Prometheus alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a Prometheus alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**\
 
@@ -38,7 +38,7 @@ With ilert's Prometheus integration, you can automatically create alerts in iler
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Prometheus Alertmanager: add webhook receiver <a href="#add-webhook" id="add-webhook"></a>
+## In Prometheus Alertmanager: add a webhook receiver <a href="#add-webhook" id="add-webhook"></a>
 
 1\. Add a [Webhook configuration](https://prometheus.io/docs/alerting/configuration/#webhook\_config) from the alert manager in the configuration file. Use the URL generated in ilert as the Webhook URL:
 

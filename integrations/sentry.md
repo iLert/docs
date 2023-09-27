@@ -28,9 +28,7 @@ Sentry's platform helps developers diagnose, fix, and optimize the performance o
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Sentry <a href="#in-splunk" id="in-splunk"></a>
-
-### Create a search <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Sentry: Create a search <a href="#in-splunk" id="in-splunk"></a>
 
 1. Go to Sentry and then to **Settings -> Developer Settings**, then click on the **New Internal Integration**
 
@@ -48,7 +46,7 @@ Sentry's platform helps developers diagnose, fix, and optimize the performance o
 
 ![](../.gitbook/assets/Screenshot\_25\_02\_21\_\_22\_10.png)
 
-Finished! Your Sentry alerts will now create alerts in ilert.
+5. Finished! Your Sentry alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 

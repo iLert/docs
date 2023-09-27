@@ -8,9 +8,7 @@ description: >-
 
 ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Management (SM) software.
 
-## In ilert <a href="#in-ilert" id="in-ilert"></a>
-
-### Create a ServiceNow alert source <a href="#create-alert-source" id="create-alert-source"></a>
+## In ilert: Create a ServiceNow alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "ServiceNow" as the **Integration Type** and click on **Save**.
@@ -21,9 +19,7 @@ ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Mana
 
 ![](../../.gitbook/assets/Screenshot\_09\_02\_21\_\_07\_52.png)
 
-## In ServiceNow <a href="#in-servicenow" id="in-servicenow"></a>
-
-### Create business rule <a href="#create-business-rule" id="create-business-rule"></a>
+## In ServiceNow: Create a business rule <a href="#in-servicenow" id="in-servicenow"></a>
 
 1. Go to ServiceNow, search for **Incidents**, **\*\*then open the header menu and choose** Configure -> Business Rules\*\*
 

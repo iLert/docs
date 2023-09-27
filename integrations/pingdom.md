@@ -10,7 +10,7 @@ description: The ilert Pingdom Integration helps you to easily connect ilert wit
 
 [Pingdom](https://www.pingdom.com/) is a website monitoring service provided by SolarWinds that offers real-time performance and uptime monitoring for websites, applications, and servers. With Pingdom integration, you can easily integrate Pingdom into ilert. The integration uses the [webhooks](https://help.pingdom.com/hc/en-us/articles/207081599) from Pingdom. Thus, you can easily extend pingdom with SMS, push and voice messaging, as well as rosters from ilert.
 
-## In ilert: Create Pingdom alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a Pingdom alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -30,7 +30,7 @@ description: The ilert Pingdom Integration helps you to easily connect ilert wit
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Pingdom: Create new integration <a href="#create-integration" id="create-integration"></a>
+## In Pingdom: Create a new integration <a href="#create-integration" id="create-integration"></a>
 
 1. Click on "Integrations" in the Pingdom Dashboard and click on "Integrations" on the right side of the menu
 

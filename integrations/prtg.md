@@ -26,7 +26,7 @@ description: Create alerts in ilert from PRTG notifications.
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In PRTG: Create new notification <a href="#create-notification" id="create-notification"></a>
+## In PRTG: Create a new notification <a href="#create-notification" id="create-notification"></a>
 
 1.  Got to **Setup** --> **Account Settings** --> **Notification Templates**\
 

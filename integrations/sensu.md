@@ -8,7 +8,7 @@ description: >-
 
 [Sensu](https://sensu.io/) is a tool that functions as an observability pipeline which delivers monitoring as code on any cloud.
 
-## In ilert: Create Sensu alert source
+## In ilert: Create a Sensu alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

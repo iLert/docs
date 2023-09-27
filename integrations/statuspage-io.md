@@ -4,9 +4,7 @@ description: Create StatusPage inicdents from ilert alerts.
 
 # StatusPage Integration
 
-## In StatusPage <a href="#create-alarm-source" id="create-alarm-source"></a>
-
-### Create an API key
+## In StatusPage: Create an API key <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Go to your StatusPage, click on the **Profile** tile and then on the **API info** button
 
@@ -24,9 +22,7 @@ description: Create StatusPage inicdents from ilert alerts.
 
 ![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_17\_52.png)
 
-## In ilert <a href="#create-alarm-source" id="create-alarm-source"></a>
-
-### Create the Statuspage Connector and link it to the alert source
+## In ilert: Create the Statuspage Connector and link it to the alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
 

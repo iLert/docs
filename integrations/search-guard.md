@@ -26,9 +26,7 @@ description: >-
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Search Guard <a href="#in-topdesk" id="in-topdesk"></a>
-
-### Create watch <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Search Guard: Create watch <a href="#in-topdesk" id="in-topdesk"></a>
 
 1. Go to Search Guard to open the main menu and choose **Search Guard -> Signals**
 
@@ -60,8 +58,7 @@ description: >-
 ![](../.gitbook/assets/Screenshot\_10\_02\_21\_\_23\_06.png)
 
 6. Click on **Create** to save the watch.
-
-Finished! Your Elastic Search Guard alerts will now create alerts in ilert.
+7. Finished! Your Elastic Search Guard alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 

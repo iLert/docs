@@ -4,7 +4,7 @@ description: Create alerts in ilert from PandoraFMS alerts.
 
 # PandoraFMS Integration
 
-## In ilert: Create PandoraFMS alert source
+## In ilert: Create a PandoraFMS alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -82,17 +82,17 @@ description: Create alerts in ilert from PandoraFMS alerts.
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-19 at 16.15.51 (1).png" alt=""><figcaption></figcaption></figure>
 
-19. On the next step, enable **Alert recovery** to activate the automatical alert recovery in ilert.
+19. &#x20;On the next step, enable **Alert recovery** to activate the automatical alert recovery in ilert.
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-22 at 12.39.24.png" alt=""><figcaption></figcaption></figure>
 
-20. Create the template.
-21. In the sidebar, go to **Alerts** -> **List of Alerts** and click on the **Create** button.
-22. Enter a **Agent**, the **Module**, the previous created **Action**, and the **Template**.
+20. &#x20;Create the template.
+21. &#x20;In the sidebar, go to **Alerts** -> **List of Alerts** and click on the **Create** button.
+22. &#x20;Enter a **Agent**, the **Module**, the previous created **Action**, and the **Template**.
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-19 at 16.16.50.png" alt=""><figcaption></figcaption></figure>
 
-23. Click on **Add alert** to finish the integration.
+23. &#x20;Click on **Add alert** to finish the integration.
 
 <figure><img src="../.gitbook/assets/Screenshot 2022-09-19 at 16.17.15.png" alt=""><figcaption></figcaption></figure>
 

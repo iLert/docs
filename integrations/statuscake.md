@@ -32,9 +32,7 @@ With the ilert StatusCake integration, you can create alerts in ilert based on a
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In StatusCake <a href="#in-statuscake" id="in-statuscake"></a>
-
-### Create a Contact Group
+## In StatusCake: Create a Contact Group <a href="#in-statuscake" id="in-statuscake"></a>
 
 1. Go to StatusCake and then to **Alerting** and click on **New Contact Group** to add a new contact group (`https://app.statuscake.com/ContactGroup.php`)
 

@@ -7,7 +7,7 @@ description: >-
 
 # StatusHub Integration
 
-## In ilert: Create StatusHub alert source
+## In ilert: Create a StatusHub alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

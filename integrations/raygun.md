@@ -28,9 +28,7 @@ description: >-
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Raygun <a href="#in-splunk" id="in-splunk"></a>
-
-### Create a notification hook <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Raygun: Create a notification hook <a href="#in-splunk" id="in-splunk"></a>
 
 1. Go to Raygun, then to **Integrations** and click on the **Webhook** tile
 

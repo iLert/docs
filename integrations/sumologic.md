@@ -26,9 +26,7 @@ description: >-
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Sumo Logic <a href="#in-splunk" id="in-splunk"></a>
-
-### Create a notification setting <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Sumo Logic: Create a notification setting <a href="#in-splunk" id="in-splunk"></a>
 
 1. Go to Sumo Logic, then to **Manage Data -> Monitoring**, click on the **Connections** tab and then on the **Add (+)** button
 
@@ -65,7 +63,7 @@ description: >-
 }
 ```
 
-Finished! Your Sumo Logic alerts will now create alerts in ilert.
+4. Finished! Your Sumo Logic alerts will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 

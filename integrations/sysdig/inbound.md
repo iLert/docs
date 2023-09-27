@@ -28,9 +28,7 @@ With the ilert Sysdig integration you can create alerts in ilert based on Sysdig
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Sysdig <a href="#in-topdesk" id="in-topdesk"></a>
-
-### Create notification channel <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Sysdig: Create a notification channel <a href="#in-topdesk" id="in-topdesk"></a>
 
 1. Go to Sysdig and then to **Settings.** Click on **Notification Channels** and then on **Add Notification Channel** to add a new notification channel for ilert
 
