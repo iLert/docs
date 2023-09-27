@@ -9,7 +9,7 @@ description: >-
 | ![](<../.gitbook/assets/Consul Cloud Verified Badge\_Small (1).png>) | [HashiCorp Consul](https://www.consul.io/) is a service mesh solution providing a full featured control plane with service discovery, configuration, and segmentation functionality. This integration creates based on Consul health checks. |
 | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
-## In ilert: Create an HashiCorp Consul alert source <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create a HashiCorp Consul alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -29,9 +29,7 @@ description: >-
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Consul Server <a href="#in-topdesk" id="in-topdesk"></a>
-
-### Configure Consul-Alerts
+## In Consul Server: Configure Consul-Alerts <a href="#in-topdesk" id="in-topdesk"></a>
 
 1. Install Consul-Alerts as per the guide at [https://github.com/iLert/consul-alerts/blob/master/README.md](https://github.com/iLert/consul-alerts/blob/master/README.md)
 2. Once the Consul-Alerts are running, we can set the ilert integration key using curl.

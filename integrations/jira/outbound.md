@@ -4,7 +4,7 @@ description: Create JIRA issues from ilert alerts.
 
 # Jira Outbound Integration
 
-## In JIRA: Create ilert user and create API token <a href="#jira-preparation" id="jira-preparation"></a>
+## In JIRA: Create an ilert user and create API token <a href="#jira-preparation" id="jira-preparation"></a>
 
 1. Optional: create a dedicated ilert user in JIRA. This has the advantage that you can distinguish the JIRA tickets created by ilert.
 2. Go to **Atlassian account settings** **→** **Security** and click on **Create and Manage API Tokens**.
@@ -21,7 +21,7 @@ description: Create JIRA issues from ilert alerts.
 
 ![](../../.gitbook/assets/ji4.png)
 
-## In ilert: Create JIRA Connector and link to alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a JIRA Connector and link to alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Click the gear icon → **Connectors**
 

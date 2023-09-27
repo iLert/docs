@@ -10,7 +10,7 @@ description: The ilert Instana Integration helps you to easily connect ilert wit
 
 [Instana](https://www.instana.com/) is an application performance monitoring software for microservice applications. With the ilert Instana Integration, you can receive Instana alerts through ilert and easily extend Instana with SMS, Push, Voice, and ilert on-call-scheduling.
 
-## In ilert: Create Instana alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create an Instana alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -30,7 +30,7 @@ description: The ilert Instana Integration helps you to easily connect ilert wit
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Instana: Create webhook integration <a href="#create-webhook-integration" id="create-webhook-integration"></a>
+## In Instana: Create a webhook integration <a href="#create-webhook-integration" id="create-webhook-integration"></a>
 
 1. \_\*\*\_Open the Management Portal by clicking on Profile → Management Portal
 2. Go to the **Integration** tab and click on **WEBHOOK**.

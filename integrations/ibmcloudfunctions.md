@@ -7,7 +7,7 @@ description: >-
 
 # IBM Cloud Functions Integration
 
-## In ilert: Create IBM Cloud Functions alert source
+## In ilert: Create a IBM Cloud Functions alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

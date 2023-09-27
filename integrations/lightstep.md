@@ -6,7 +6,7 @@ description: >-
 
 # Lightstep Integration
 
-## In ilert: Create Lightstep alert source
+## In ilert: Create a Lightstep alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

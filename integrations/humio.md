@@ -11,7 +11,7 @@ description: >-
 Humio has been renamed to CrowdStrike Falcon LogScale
 {% endhint %}
 
-## In ilert: Create CrowdStrike Falcon LogScale alert source&#x20;
+## In ilert: Create a CrowdStrike Falcon LogScale alert source&#x20;
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

@@ -7,7 +7,7 @@ description: >-
 
 # Kentix AlarmManager
 
-## In ilert: Create Kentix AlarmManager alert source
+## In ilert: Create a Kentix AlarmManager alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

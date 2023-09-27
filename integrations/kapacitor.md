@@ -28,9 +28,7 @@ description: >-
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Kapacitor <a href="#in-kapacitor" id="in-kapacitor"></a>
-
-### Create an alert rule <a href="#create-alert-rule" id="create-alert-rule"></a>
+## In Kapacitor: Create an alert rule <a href="#in-kapacitor" id="in-kapacitor"></a>
 
 1. Go to Chronograph dashboard, then to **Alert Rule** and click on the **Create Rule** button
 

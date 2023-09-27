@@ -28,9 +28,7 @@ With the ilert Jira integration you can create alerts in ilert based on Jira iss
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Jira <a href="#in-topdesk" id="in-topdesk"></a>
-
-### Create webhook <a href="#create-action-sequences" id="create-action-sequences"></a>
+## In Jira: Create the webhook <a href="#in-topdesk" id="in-topdesk"></a>
 
 {% hint style="info" %}
 You need admin permissions to manage Jira webhooks.

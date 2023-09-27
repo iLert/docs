@@ -21,7 +21,7 @@ Python 2.x is EOL (end of life) we suggest to use Python >= 3.7
 
 > Are you using Icinga 1.x? Please refer to our [Nagios integration guide](nagios.md).
 
-## In ilert: Create Icinga alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create an Icinga alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

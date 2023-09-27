@@ -7,7 +7,7 @@ description: >-
 
 # JumpCloud Integration
 
-## In ilert: Create JumpCloud alert source
+## In ilert: Create a JumpCloud alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
