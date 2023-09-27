@@ -28,9 +28,7 @@ With [Google Cloud Monitoring](https://cloud.google.com/monitoring) you can gain
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Google Cloud Console <a href="#create-webhook-notification" id="create-webhook-notification"></a>
-
-### Create Webhook Notification Channel
+## In Google Cloud Console: Create Webhook Notification Channel <a href="#create-webhook-notification" id="create-webhook-notification"></a>
 
 1. Go to Google Cloud Console and search for Monitoring
 

@@ -7,9 +7,7 @@ description: >-
 
 # GitLab Integration
 
-## In ilert:
-
-### Create a GitLab alert source&#x20;
+## In ilert: Create a GitLab alert source&#x20;
 
 1. Go to the "**Alert sources**" tab and click on "**Create new alert source**"
 2. Enter a name and select your desired escalation policy.

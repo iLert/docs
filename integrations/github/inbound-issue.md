@@ -30,9 +30,7 @@ With the ilert Github Issue integration, you can create alerts in ilert based on
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Github <a href="#in-github" id="in-github"></a>
-
-### Create a Repository Webhook
+## In Github: Create a Repository Webhook <a href="#in-github" id="in-github"></a>
 
 1. Go to your Github repository and then to **Settings** --> **Webhooks** and click on **Add webhook** to add a new webhook (`https://github.com/<org>/<repo>/settings/hooks`)
 

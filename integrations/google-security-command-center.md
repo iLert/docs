@@ -6,7 +6,7 @@ description: >-
 
 # Google Security Command Center
 
-## In ilert: Create Google Security Command Center alert source
+## In ilert: Create a Google Security Command Center alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

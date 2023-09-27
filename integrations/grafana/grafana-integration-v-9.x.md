@@ -8,7 +8,7 @@ description: Create alerts in ilert from Grafana 9 alerts.
 Are you using Grafana 8.x or lower? Please refer to our [Grafana Integration](grafana-integration.md) guide.
 {% endhint %}
 
-## In ilert: Create Grafana alert source
+## In ilert: Create a Grafana alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 

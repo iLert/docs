@@ -4,7 +4,7 @@ description: Create issues in GitHub based on alerts from ilert.
 
 # GitHub Outbound Issue Integration
 
-## In Github: Create ilert user and create API token <a href="#github-preparation" id="github-preparation"></a>
+## In Github: Create an ilert user and create an API token <a href="#github-preparation" id="github-preparation"></a>
 
 1. Optional: Create a dedicated ilert user in Github. This has the advantage that you can distinguish the Github tickets created by ilert.
 2. Go to **Profile Settings** --> **Developer settings** --> **Personal access tokens**, and click **Generate new token**.

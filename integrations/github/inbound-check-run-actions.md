@@ -10,7 +10,7 @@ description: Create alerts in ilert based on Check runs from GitHub.
 
 With the ilert Github Check Run integration, you can add alerts in ilert based on "check run" from Github (e.g. Github Actions).
 
-## In ilert: Create Github alert source <a href="#create-alert-source" id="create-alert-source"></a>
+## In ilert: Create a Github alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -30,9 +30,7 @@ With the ilert Github Check Run integration, you can add alerts in ilert based o
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Github <a href="#in-github" id="in-github"></a>
-
-### Create a Repository Webhook
+## In Github: Create a Repository Webhook <a href="#in-github" id="in-github"></a>
 
 1. Go to your Github repository and then to **Settings** --> **Webhooks** and click on **Add webhook** to add a new webhook (`https://github.com/<org>/<repo>/settings/hooks`)
 
