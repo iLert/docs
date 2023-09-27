@@ -76,9 +76,8 @@ description: Create Alerts in ilert from Microsoft SCOM
 
 <figure><img src="../.gitbook/assets/ms-scom-5.png" alt=""><figcaption></figcaption></figure>
 
-9. Create a new Subscriber by right clicking on **Subscriber -> New subscriber...**
-10. ![](<../.gitbook/assets/image (4).png>)
-11. Select a user as subscriber and click on **Next**
+9. Create a new Subscriber by right clicking on **Subscriber -> New subscriber...**![](<../.gitbook/assets/image (4).png>)
+10. Select a user as subscriber and click on **Next**
 
 <figure><img src="../.gitbook/assets/ms-scom-8.png" alt=""><figcaption></figcaption></figure>
 
@@ -99,8 +98,7 @@ description: Create Alerts in ilert from Microsoft SCOM
 <figure><img src="../.gitbook/assets/ms-scom-12.png" alt=""><figcaption></figcaption></figure>
 
 16. Leave the schedule notification settings on **Always send notifications** and click on **Finish**
-17. Create a new Subscription by right clicking on **Subscription -> New subscription...**\
-    ![](<../.gitbook/assets/image (2) (3).png>)
+17. Create a new Subscription by right clicking on **Subscription -> New subscription...**![](<../.gitbook/assets/image (2) (3).png>)
 18. Set a name and proceed to the next step
 
 <figure><img src="../.gitbook/assets/ms-scom-17.png" alt=""><figcaption></figcaption></figure>
