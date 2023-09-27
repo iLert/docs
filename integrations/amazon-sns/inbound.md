@@ -10,7 +10,7 @@ description: >-
 
 The A2A pub/sub functionality provides topics for high-throughput, push-based, many-to-many messaging between distributed systems, microservices, and event-driven serverless applications. Using Amazon SNS topics, your publisher systems can fanout messages to a large number of subscriber systems including Amazon SQS queues, AWS Lambda functions and HTTPS endpoints, for parallel processing, and Amazon Kinesis Data Firehose. The A2P functionality enables you to send messages to users at scale via SMS, mobile push, and email.
 
-## In ilert: Create a Amazon SNS alert source <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create an Amazon SNS alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -31,9 +31,7 @@ The A2A pub/sub functionality provides topics for high-throughput, push-based, m
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In AWS Console <a href="#in-aws-console" id="in-aws-console"></a>
-
-### Create a SNS topic subscrition <a href="#create-sns-topic-subscription" id="create-sns-topic-subscription"></a>
+## In AWS Console: Create a SNS topic subscrition <a href="#in-aws-console" id="in-aws-console"></a>
 
 {% hint style="info" %}
 If you already have an Amazon SNS topic, please skip the steps 1 and 2.
@@ -59,7 +57,7 @@ If you already have an Amazon SNS topic, please skip the steps 1 and 2.
 Do not activate the checkbox **Enable raw message delivery**. ilert won't process those messages otherwise.
 {% endhint %}
 
-Finished! Your Amazon SNS notifications will now create alerts in ilert.
+5. Finished! Your Amazon SNS notifications will now create alerts in ilert.
 
 ## Custom attributes
 
