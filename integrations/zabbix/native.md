@@ -21,7 +21,7 @@ Are you using Zabbix 4.3 or lower? Please refer to our [Zabbix 2.2 - 4.3 Integra
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
-2.  Search for **Amazon Cloudwatch** in the search field, click on the Amazon Cloudwatch tile and click on **Next**.&#x20;
+2.  Search for **Zabbix** in the search field, click on the Zabbix tile and click on **Next**.&#x20;
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
 3. Give your alert source a name, optionally assign teams and click **Next**.
@@ -35,8 +35,6 @@ Are you using Zabbix 4.3 or lower? Please refer to our [Zabbix 2.2 - 4.3 Integra
 7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
-
-## &#x20;<a href="#create-topic" id="create-topic"></a>
 
 ## In Zabbix <a href="#zabbix" id="zabbix"></a>
 
