@@ -10,21 +10,27 @@ Cloudflare allows you to set alert notifications to track DDoS attacks, billing 
 
 With ilert Cloudflare Integration, you can receive Cloudflare alert through ilert and easily extend Cloudflare functionality with SMS, push, voice, and ilert on-call schedules.
 
-## In ilert <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create an email alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-### Create an email alert source
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-1. Go to **Alert sources** and click on **Add a new alert source**
-2. Enter a name and select an escalation policy
-3. Chose **Email** as integation type
-4. Enter an email address for the alert source, you will need this email below when setting up the notification in Cloudflare
-5. Save the email alert source
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **email** in the search field, click on the email tile and click on **Next**.&#x20;
 
-![](<../.gitbook/assets/Screenshot 2020-06-18 at 16.21.49.png>)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-## In Cloudflare
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-### Create a notification
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
+
+## In Cloudflare: Create a notification
 
 1. Go to Cloudflare and then to **Account Home**
 
