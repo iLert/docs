@@ -37,7 +37,7 @@ helm repo add ilert https://ilert.github.io/charts/
 helm repo update
 ```
 
-1. Deploy ilert-kube-agent with the API Key that you generated in ilert
+2. Deploy ilert-kube-agent with the API Key that you generated in ilert
 
 ```
 helm upgrade --install --namespace kube-system \
@@ -58,7 +58,7 @@ module "ilert-kube-agent" {
 }
 ```
 
-1. Apply changes
+2. Apply changes
 
 ```
 terraform init
@@ -73,7 +73,7 @@ terraform apply
 git clone https://github.com/iLert/ilert-kube-agent.git
 ```
 
-1. Paste the API Key that you generated in ilert into _./example/standard/30-deployment.yaml_
+2. Paste the API Key that you generated in ilert into _./example/standard/30-deployment.yaml_
 
 ```
 ...
@@ -84,13 +84,13 @@ git clone https://github.com/iLert/ilert-kube-agent.git
 ...
 ```
 
-1. Apply the deployment manifest to your kubernetes cluster
+3. Apply the deployment manifest to your kubernetes cluster
 
 ```
 kubectl apply -f deployment/standard/
 ```
 
-1. Verify that the ilert-kube-agent pods are running and ready
+4. Verify that the ilert-kube-agent pods are running and ready
 
 ```
 kubectl --namespace kube-system get pod -l app=ilert-kube-agent
