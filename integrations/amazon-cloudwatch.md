@@ -8,7 +8,7 @@ description: Create alerts in ilert from CloudWatch alarms.
 
 With ilert's CloudWatch integration, you can automatically create alerts in ilert from CloudWatch alarms. That way, you will never miss a critical alert and always alert the right person using ilert's on-call schedules, automatic escalation, and multiple alerting channels. When CloudWatch creates an alarm, ilert will alert the on-call person through their preferred channel, including SMS, phone calls, push notifications and Slack. ilert will automatically escalate to the next person, if the alert is not acknowledged. ilert also lets you define alerting rules based on support hours and delay alerts until your support hours start.
 
-## In ilert: Create CloudWatch alert source <a href="#create-alert-source" id="create-alert-source"></a>
+## In ilert: Create a CloudWatch alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**\
 
@@ -34,7 +34,7 @@ With ilert's CloudWatch integration, you can automatically create alerts in iler
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In AWS SNS: create topic <a href="#create-topic" id="create-topic"></a>
+## In AWS SNS: Create topic <a href="#create-topic" id="create-topic"></a>
 
 > If you have already created an SNS topic for your CloudWatch alarms that you want to reuse, you can proceed to step 3.
 
