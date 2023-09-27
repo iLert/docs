@@ -201,7 +201,7 @@
 * [Sematext Integration](integrations/sematext.md)
 * [Sensu Integration](integrations/sensu.md)
 * [Sentry Integration](integrations/sentry.md)
-* [Server Density](integrations/serverdensity.md)
+* [Server Density Integration](integrations/serverdensity.md)
 * [ServiceNow Integration](integrations/service-now/README.md)
   * [ServiceNow Inbound Integration](integrations/service-now/inbound.md)
   * [ServiceNow Outbound Integration](integrations/service-now/outbound.md)

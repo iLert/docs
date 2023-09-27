@@ -4,11 +4,11 @@ description: >-
   Server Density.
 ---
 
-# Server Density
+# Server Density Integration
 
 With the ilert Server Density integration you can create alerts in ilert based on Server Density notifications.
 
-## In ilert: Create a Server Density alert source <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create an Server Density alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
