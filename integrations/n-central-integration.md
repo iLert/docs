@@ -6,7 +6,7 @@ description: >-
 
 # N-central Integration
 
-## Setup in ilert
+## In ilert: Create an N-central alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
