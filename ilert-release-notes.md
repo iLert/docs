@@ -11,6 +11,10 @@ description: >-
 ### New features
 
 * The ilert Slack bot now supports a new [**who is on call**](chatops/slack/lookup-who-is-on-call.md) command ( /ilert oncall )
+*   Alerts with linked incidents are now marked with a :fire: icon\
+
+
+    <figure><img src=".gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
 #### Manual alert escalation
 
