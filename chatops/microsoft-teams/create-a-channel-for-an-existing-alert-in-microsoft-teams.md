@@ -14,7 +14,7 @@ Before you proceed, please make sure that a global admin has connected your Micr
 
 Our Microsoft Teams connector allows you to create a channel to an existing alert in Microsoft Teams, making it even easier for your team to discuss incidents in an more isolated environment.
 
-### Creating a and attach a Microsoft Teams channel
+### Creating a Microsoft Teams channel
 
 1. On the alert list, navigate to the desired alert for which you want to create a channel.
 

@@ -35,6 +35,7 @@
 * [Overview](chatops/overview.md)
 * [Integration for Slack](chatops/slack/README.md)
   * [Receive and respond to alerts in Slack](chatops/slack/post-alerts-to-a-slack-channel.md)
+  * [Create a dedicated Slack channel for an existing alert](chatops/slack/create-a-dedicated-slack-channel-for-an-existing-alert.md)
   * [Create alerts in Slack](chatops/slack/create-alerts-in-slack.md)
   * [Lookup who is on-call](chatops/slack/lookup-who-is-on-call.md)
 * [Microsoft Teams Integration](chatops/microsoft-teams/README.md)

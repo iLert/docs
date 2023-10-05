@@ -14,7 +14,7 @@ Simplify incident reporting by allowing team members to report issues directly f
 For major incidents, create dedicated channels to bring all stakeholders together. This centralized communication space ensures everyone is aligned and facilitates quicker resolution.
 
 * [Microsoft Teams Guide](microsoft-teams/create-a-channel-for-an-existing-alert-in-microsoft-teams.md)
-* Slack Guide (available soon)
+* [Slack Guide](slack/create-a-dedicated-slack-channel-for-an-existing-alert.md)
 
 ### **Receive and respond to alerts from your chat tools**
 

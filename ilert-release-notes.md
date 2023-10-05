@@ -33,7 +33,7 @@ You no longer need to lookup who's next in the escalation chain. You can now man
 
 #### Support for partial overrides on the My on-call shifts page
 
-Ever wanted to take someone else's on-call, but not their entire week long shift, but only for a day? Now you can do this from the **My on-call shifts** page when taking someone else's on-call and overriding your shifts. Until now, this was possible only on the on-call schedule itself.
+Ever wanted to take someone else's on-call, but not their entire week long shift, but only for a day? Now you can do this from the **My on-call shifts** (both in the web and mobile app) page when taking someone else's on-call and overriding your shifts. Until now, this was possible only on the on-call schedule itself.&#x20;
 
 <figure><img src=".gitbook/assets/partial-overrides.gif" alt=""><figcaption></figcaption></figure>
 
