@@ -8,7 +8,21 @@ description: >-
 
 ## September 2023
 
-### New features
+### New features and improvements
+
+* The schedule detail view calendar mode now creates shareable URLs that include your calender configuration
+* Static schedules received multiple improvements for QoL and a new default shift start setting that is remembered for your user profile
+* Call routing speech detection has been improved for certain scenarios where the input was not properly detected
+* The alert comment (messages) UI has been reworked
+* Alerts can now be manually linked to incidents (and also unlinked from them)
+* Last activity in (admin's) user list is updated more frequently for web UI activity
+* Status page enduser facing email communication now resolves the status page name as friendly email from address
+* We have relaxed the view permission checks for Maintenance Windows a little (Note: edit permissions stay the same) it is no longer required to have a permission to access every single related alert source and service, but now sufficient to have access to a single one of those related entities
+* You can now provide custom time ranges for overrides in my-oncalls, giving you more flexibility if you want to override partial shifts
+* The subscription button on private status pages now adjusts its state asynchronously depending on the current viewer
+* We have added an additional step to prevent accidental deletion of resource like alert sources
+
+<!---->
 
 * The ilert Slack bot now supports a new [**who is on call**](chatops/slack/lookup-who-is-on-call.md) command ( /ilert oncall )
 *   Alerts with linked incidents are now marked with a :fire: icon\
@@ -16,9 +30,28 @@ description: >-
 
     <figure><img src=".gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
-#### Manual alert escalation
+### Alert actions first party BETA
 
-You no longer need to manually lookup who's next in the escalation chain. You can now manually escalate alerts to an escalation level of your choice. The escalation process will resume from the selected level.
+This has been in the making for a while: we have completely overhauled our alert actions and connector UIs and APIs, giving tons of new QoL features like multi alert source assignments or team management to alert actions. We have launched the closed **BETA** and would love to hear your feeback on it - so if you are interested in trying it out just **reach out via email or live chat**.
+
+<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+### New and updated integrations
+
+* A new inbound integration has been added for Particle
+* The Grafana inbound integration now supports the cluster alert label to build alert summaries by default
+
+### Chatops
+
+* The ilert Slack bot now supports a new [**who is on call**](chatops/slack/lookup-who-is-on-call.md) command ( /ilert oncall )
+* Create dedicated channels in Microsoft Teams to communicate alert updates
+* New /il-alert command to create alerts from within Slack - you can customize this feature for your team and Slack channels using a Slack alert source
+* The Slack bot now supports further alert based interactions such as raise, reroute, escalate etc.
+* The Microsoft Teams bot now supports a new who is on call command (@iLert oncall) that can be customized for teams and channels using a Microsoft Teams alert source
+
+### Manual alert escalation
+
+You no longer need to lookup who's next in the escalation chain. You can now manually escalate alerts to an escalation level of your choice. The escalation process will resume from the selected level.
 
 <figure><img src=".gitbook/assets/manual-escalation.gif" alt=""><figcaption></figcaption></figure>
 
@@ -34,7 +67,7 @@ You no longer need to manually lookup who's next in the escalation chain. You ca
 
 * New inbound integration Twilio Errors
 * New inbound integration Uptime Kuma
-* We have overhauled and enhanced our Github inbound integration, you may now choose specific alert action types and event types for which to create or resolve alerts, we also do support Github Advanced Security type webhook events now
+* We have overhauled and enhanced our Github inbound integration, you may now choose specific alert action types and event types for which to create or resolve alerts, we also do support **Github Advanced Security** type webhook events now
 * Grafana v9 Links have been optimized, instead of showing general instance links we prefer to show specific dashboard links now
 * It is now possible to turn an alert source bidirectional even though it was already created
 * You can now choosen to enhance Autotask inbound alerts with company details, by enabling the specific setting for your Autotask alert source in ilert
