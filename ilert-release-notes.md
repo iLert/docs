@@ -10,8 +10,13 @@ description: >-
 
 ### New features
 
-* The ilert Slack bot now supports a new **who is on call** command ( /ilert oncall )
-* (_more to follow soon_)
+* The ilert Slack bot now supports a new [**who is on call**](chatops/slack/lookup-who-is-on-call.md) command ( /ilert oncall )
+
+#### Manual alert escalation
+
+You no longer need to manually lookup who's next in the escalation chain. You can now manually escalate alerts to an escalation level of your choice. The escalation process will resume from the selected level.
+
+<figure><img src=".gitbook/assets/manual-escalation.gif" alt=""><figcaption></figcaption></figure>
 
 ## August 2023
 
