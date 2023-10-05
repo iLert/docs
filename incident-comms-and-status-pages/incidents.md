@@ -29,8 +29,7 @@ An alert is automatically linked with an incident when
 
 Moreover, you can manually link alerts with incidents from the respective detail view:
 
-| ![](<../.gitbook/assets/Screenshot 2023-10-05 at 12.10.10.png>) | ![](<../.gitbook/assets/Screenshot 2023-10-05 at 12.11.23.png>) |
-| --------------------------------------------------------------- | --------------------------------------------------------------- |
+<table data-full-width="true"><thead><tr><th align="center"></th><th align="center"></th></tr></thead><tbody><tr><td align="center"><img src="../.gitbook/assets/Screenshot 2023-10-05 at 12.10.10.png" alt=""></td><td align="center"><img src="../.gitbook/assets/Screenshot 2023-10-05 at 12.11.23.png" alt=""></td></tr><tr><td align="center">Linking an alert with an incident</td><td align="center">Linking an incident with an alert</td></tr></tbody></table>
 
 ## Create and communicate incidents
 
