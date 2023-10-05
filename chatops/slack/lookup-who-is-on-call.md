@@ -6,20 +6,12 @@
 Before you proceed, please make sure that a global admin has connected your Slack workspace with your ilert account (as described in our [integration for Slack guide](./))
 {% endhint %}
 
-Our integration for Slack lets you create alerts directly within Slack and streamlines your incident management process, making it even easier for your team and stakeholders to report incidents.
-
-{% hint style="warning" %}
-Note that the (shortcut) command /il-oncall is not available right now, as Slack app reviews are currently taking up to 8 weeks. In the mean time you can simply enter **/ilert oncall** to trigger the bot without the command directly.
-{% endhint %}
-
 ### Overview
 
 There are two ways to configure the on-call lookup feature in Slack:
 
 1. **Restrict lookup to Slack users with an ilert account**: This mode doesn't require any additional configuration other than installing our Slack app (as described in the [integration for Slack guide](./)).&#x20;
 2. **Allow any Slack user to lookup who is on-call:** This method requires the creation of a dedicated Slack alert source in ilert and allows you to control the Slack channels where users will be able to lookup who is on-call. One way to use this feature is for example to configure the lookup for every team channel and letting any Slack user use the `/il-oncall` command to lookup the on-call responder for that team, without having to know the names of the escalation policy for that team.
-
-
 
 ### Option 1: Restrict to Slack users with an ilert account
 
@@ -41,8 +33,6 @@ You can let any Slack user (even if they don't have an ilert account) lookup who
 
     * the Slack channels from where Slack users should be able lookup who is on-call
     * and the escalation policies that will be used for the lookup
-
-
 
 
 
