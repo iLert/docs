@@ -21,9 +21,23 @@ description: >-
 * You can now provide custom time ranges for overrides in my-oncalls, giving you more flexibility if you want to override partial shifts
 * The subscription button on private status pages now adjusts its state asynchronously depending on the current viewer
 * We have added an additional step to prevent accidental deletion of resource like alert sources
-* Alerts with linked incidents are now marked with a :fire: icon
+*   Alerts with linked incidents are now marked with a :fire: icon
 
-<figure><img src=".gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src=".gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+
+#### Manual alert escalation
+
+You no longer need to lookup who's next in the escalation chain. You can now manually escalate alerts to an escalation level of your choice. The escalation process will resume from the selected level.
+
+<figure><img src=".gitbook/assets/manual-escalation.gif" alt=""><figcaption></figcaption></figure>
+
+#### Support for partial overrides on the My on-call shifts page
+
+Ever wanted to take someone else's on-call, but not their entire week long shift, but only for a day? Now you can do this from the **My on-call shifts** page when taking someone else's on-call and overriding your shifts. Until now, this was possible only on the on-call schedule itself.
+
+<figure><img src=".gitbook/assets/partial-overrides.gif" alt=""><figcaption></figcaption></figure>
+
+
 
 ### Alert actions first party BETA
 
@@ -43,12 +57,6 @@ This has been in the making for a while: we have completely overhauled our alert
 * New /il-alert command to create alerts from within Slack - you can customize this feature for your team and Slack channels using a Slack alert source
 * The Slack bot now supports further alert based interactions such as raise, reroute, escalate etc.
 * The Microsoft Teams bot now supports a new who is on call command (@iLert oncall) that can be customized for teams and channels using a Microsoft Teams alert source
-
-### Manual alert escalation
-
-You no longer need to lookup who's next in the escalation chain. You can now manually escalate alerts to an escalation level of your choice. The escalation process will resume from the selected level.
-
-<figure><img src=".gitbook/assets/manual-escalation.gif" alt=""><figcaption></figcaption></figure>
 
 ## August 2023
 

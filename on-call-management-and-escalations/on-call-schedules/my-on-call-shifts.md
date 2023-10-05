@@ -43,7 +43,7 @@ To take someone else's on-call
 1. Click on the **Take on-call** button
 2. Select the user whose shifts you want to take over
 3. Select the date range for when you want to take over shifts
-4. All shifts from the selected user between the selected date range will be shown grouped by schedule. You can optionally deselect indiviual shifts that you don't want to take over.
+4. All shifts from the selected user between the selected date range will be shown grouped by schedule. You can optionally deselect individual shifts that you don't want to take over. Moreover, you can chose to partially override a particular shift. Click the :pencil2: icon at the right to partially override the shift.
 5. Click on on the **Take on-call** button
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-24 at 22.34.08.png" alt=""><figcaption></figcaption></figure>
