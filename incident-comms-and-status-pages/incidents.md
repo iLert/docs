@@ -20,7 +20,7 @@ An incident has one or more affected services and will be
 
 The purpose of linking alerts with incidents is to reflect that the linked alerts contributed to the incident. Alerts that are linked with an incident will include a :fire: icon in the alert list:
 
-<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 An alert is automatically linked with an incident when
 

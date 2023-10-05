@@ -21,19 +21,15 @@ description: >-
 * You can now provide custom time ranges for overrides in my-oncalls, giving you more flexibility if you want to override partial shifts
 * The subscription button on private status pages now adjusts its state asynchronously depending on the current viewer
 * We have added an additional step to prevent accidental deletion of resource like alert sources
+* Alerts with linked incidents are now marked with a :fire: icon
 
-<!---->
-
-*   Alerts with linked incidents are now marked with a :fire: icon\
-
-
-    <figure><img src=".gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
 
 ### Alert actions first party BETA
 
 This has been in the making for a while: we have completely overhauled our alert actions and connector UIs and APIs, giving tons of new QoL features like multi alert source assignments or team management to alert actions. We have launched the closed **BETA** and would love to hear your feeback on it - so if you are interested in trying it out just **reach out via email or live chat**.
 
-<figure><img src=".gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### New and updated integrations
 
