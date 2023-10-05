@@ -16,6 +16,22 @@ An incident has one or more affected services and will be
 * Alerts are technical in nature and often contain technical details that are not relevant to non-technical users
 * An incident in ilert is the primary way to communicate with non-technical users and they are designed exactly for that purpose.
 
+### Linking alerts with incidents
+
+The purpose of linking alerts with incidents is to reflect that the linked alerts contributed to the incident. Alerts that are linked with an incident will include a :fire: icon in the alert list:
+
+<figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure>
+
+An alert is automatically linked with an incident when
+
+* the incident was created from an alert (on the alert detail view)
+* the incident was created through an [alert action](services.md#automation-with-alert-sources)
+
+Moreover, you can manually link alerts with incidents from the respective detail view:
+
+| ![](<../.gitbook/assets/Screenshot 2023-10-05 at 12.10.10.png>) | ![](<../.gitbook/assets/Screenshot 2023-10-05 at 12.11.23.png>) |
+| --------------------------------------------------------------- | --------------------------------------------------------------- |
+
 ## Create and communicate incidents
 
 There are 3 ways to create an incident

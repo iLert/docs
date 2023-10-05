@@ -1,6 +1,6 @@
 # Getting started
 
-iLert's incident comms product is a suite of capabilities to effectively communicate incidents to stakeholders and external users.
+ilert's incident comms product is a suite of capabilities to effectively communicate incidents to stakeholders and external users.
 
 ## What is incident communication?
 
