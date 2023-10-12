@@ -13,10 +13,4 @@ description: The ilert TOPdesk Integration helps you to easily connect to TOPdes
 
 Through ilert's integration with TOPdesk, incidents in ilert can be automatically generated from TOPdesk tickets while also enhancing TOPdesk with reliable alerting (via phone calls, SMS, push notifications, and more) on-call scheduling and automatic escalations.
 
-{% content-ref url="inbound.md" %}
-[inbound.md](inbound.md)
-{% endcontent-ref %}
-
-{% content-ref url="outbound.md" %}
-[outbound.md](outbound.md)
-{% endcontent-ref %}
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>TOPdesk Inbound Integration</strong></td><td>Create alerts in ilert based on TOPdesk events</td><td><a href="inbound.md">inbound.md</a></td></tr><tr><td><strong>TOPdesk Outbound Integration</strong></td><td>Create tickets in TOPdesk based on alerts from ilert</td><td><a href="outbound.md">outbound.md</a></td></tr></tbody></table>
