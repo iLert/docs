@@ -1,5 +1,5 @@
 ---
-description: The ilert Zendesk Integration helps you to easily connect ilert with Zendesk.
+description: Create tickets in Zendesk based on alerts from ilert
 ---
 
 # Zendesk Outbound Integration
