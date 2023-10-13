@@ -12,8 +12,10 @@ description: Create alerts in ilert on different Grafana versions
 
 The Grafana integration with ilert allows you to get Grafana alerts through various channels such as SMS, phone calls, push notifications, Slack, among others. When Grafana triggers an alert, ilert informs the appropriate individual, following on-call schedules and escalation policies until the alert is acknowledged.
 
-{% content-ref url="./" %}
-[.](./)
+
+
+{% content-ref url="grafana-integration.md" %}
+[grafana-integration.md](grafana-integration.md)
 {% endcontent-ref %}
 
 {% content-ref url="grafana-integration-v-9.x.md" %}
