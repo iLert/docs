@@ -1,7 +1,7 @@
 ---
 description: >-
-  User ilert as the trigger in Zapier and perform any action in Zapier for new
-  or updated alerts in ilert.
+  Use ilert as the trigger in Zapier and perform any action in Zapier for new or
+  updated alerts in ilert.
 ---
 
 # Zapier Outbound Integration
