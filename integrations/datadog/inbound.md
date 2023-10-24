@@ -11,29 +11,29 @@ With the ilert Datadog integration, you can create alerts in ilert based on Data
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
-2.  Search for **Datadog** in the search field, click on the Datadog tile and click on **Next**.&#x20;
+2.  Search for **Datadog** in the search field, click on the Datadog tile, and click **Next**.&#x20;
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
-3. Give your alert source a name, optionally assign teams and click **Next**.
+3. Give your alert source a name, optionally assign teams, and click **Next**.
 4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
-5.  Select you [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+5.  Select your [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
-6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
-7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+6. The next page shows additional settings, such as customer alert templates or notification priority. Click on **Finish setup** for now.
+7.  On the final page, an API key and/or webhook URL will be generated that you will need later in this guide.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In Datadog: Add ilert Webhook as alerting channel <a href="#add-webhook" id="add-webhook"></a>
+## In Datadog: Add ilert Webhook as an alerting channel <a href="#add-webhook" id="add-webhook"></a>
 
-1. Go to Datadog integrations page and **install Webhooks integration**: [https://app.datadoghq.com/account/settings#integrations](https://app.datadoghq.com/account/settings#integrations)
-2. Click an Webhooks integration, scroll to bottom and add a new webhook:
+1. Go to the Datadog integrations page and **install Webhooks integration**: [https://app.datadoghq.com/account/settings#integrations](https://app.datadoghq.com/account/settings#integrations)
+2. Click a Webhooks integration, scroll to the bottom, and add a new webhook:
 
 ![](../../.gitbook/assets/dd3.png)
 
-3. Enter a name, the **Datadog webhook URL** from ilert alert source and **template payload**:
+3. Enter a name, the **Datadog webhook URL** from the ilert alert source, and **template payload**:
 
 ```
 {
@@ -57,6 +57,10 @@ With the ilert Datadog integration, you can create alerts in ilert based on Data
 
 4. Click **save** button
 5. The integration is now set up!
+
+### Use webhooks in monitors/alerts
+
+You can now trigger the webhook and send alerts to ilert. To do so, include the name of the webhook with an _@webhook-_ in the text of the monitor’s alert. For example, if we use the example above, use _@webhook-main\_stream_.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
