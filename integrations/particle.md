@@ -4,6 +4,10 @@ description: Create alerts in ilert from Particle alerts.
 
 # Particle Integration
 
+[Particle.io](https://www.particle.io) is a platform that provides everything necessary for organizations to develop, deploy, and manage their Internet of Things (IoT) products. It serves as a comprehensive ecosystem for connected device development with robust tools, APIs, and hardware kits. With Particle.io, you can build IoT devices at scale, delivering connectivity, device management, and security features out-of-the-box.
+
+ilert's integration for Particle enables users to receive alerts from their devices via SMS, push, voice, and messenger notifications. It helps to connect Particle devices with other services and tools in the tech stack and speed up incident response.
+
 ## In ilert: Create a Particle alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
