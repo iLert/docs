@@ -6,6 +6,29 @@ description: >-
 
 # ilert Release Notes
 
+## October 2023
+
+### New features and improvemens
+
+* **Support hours** have been moved out of alert sources into their **own entity**, you can now share a support hour across multiple sources and use team ownerships to controll access
+* We have added a new **Mute notifications** feature in web and mobile app, responders can now mute their notifications for specified or customized time periods
+* The **incident postmortems** feature has reached closed BETA, reach out if you are interested in using before its GA
+* We have introduced a feature that autmatically archives historical layers of large repeating on-call schedules, to keep performance steady no matter the use-case
+* Integration icon and logo generation has been reworked for web and mobile to improve performance of the UI
+* Autotask alert actions via API
+* MicrosoftTeams alert actions via API
+* **Reworked SMS notifications** to allow for a better focus on alert summary content
+* Alerts in state ACCEPTED may now be accepted by responders that are not yet added to the responder list of the alert
+
+### New and updated integrations
+
+* Auvik alert creation has been improved (new fields)
+* The Grafana inbound integration now supports custom priority mapping based on label values
+
+### ChatOps
+
+* The Microsoft Teams bot now supports a new who is on call command (**@iLert oncall**) that can be customized for teams and channels using a Microsoft Teams alert source
+
 ## September 2023
 
 ### New features and improvements
@@ -56,7 +79,6 @@ This has been in the making for a while: we have completely overhauled our alert
 * Create dedicated channels in Microsoft Teams to communicate alert updates
 * New /il-alert command to create alerts from within Slack - you can customize this feature for your team and Slack channels using a Slack alert source
 * The Slack bot now supports further alert based interactions such as raise, reroute, escalate etc.
-* The Microsoft Teams bot now supports a new who is on call command (@iLert oncall) that can be customized for teams and channels using a Microsoft Teams alert source
 
 ## August 2023
 
