@@ -12,7 +12,7 @@ description: >-
 
 * **Support hours** have been moved out of alert sources into their **own entity**, you can now share a support hour across multiple sources and use team ownerships to controll access
 * We have added a new **Mute notifications** feature in web and mobile app, responders can now mute their notifications for specified or customized time periods
-* The **incident postmortems** feature has reached closed BETA, reach out if you are interested in using before its GA
+* The **AI assisted incident postmortems** feature has reached closed BETA, reach out if you are interested in using before its GA
 * We have introduced a feature that autmatically archives historical layers of large repeating on-call schedules, to keep performance steady no matter the use-case
 * Integration icon and logo generation has been reworked for web and mobile to improve performance of the UI
 * Autotask alert actions via API
@@ -28,6 +28,14 @@ description: >-
 ### ChatOps
 
 * The Microsoft Teams bot now supports a new who is on call command (**@iLert oncall**) that can be customized for teams and channels using a Microsoft Teams alert source
+* The Microsoft Teams Activity Feed display information for the bot's cards has been improved
+
+### Terraform
+
+* New alert action filter types have been added
+* Alert source templates (text form) are now available in Terraform
+* delayMin field for escalation policies
+* New alert source time based grouping options are now available in Terraform
 
 ## September 2023
 
