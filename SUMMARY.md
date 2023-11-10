@@ -14,6 +14,7 @@
   * [Critical Push Notifications and DND overrides](alerting/notification-settings/critical-push-notifications-and-dnd-overrides/README.md)
     * [iOS Critical Alerts Configuration](alerting/notification-settings/critical-push-notifications-and-dnd-overrides/ios-critical-alerts-configuration.md)
     * [Android Push Notification DND Configuration](alerting/notification-settings/critical-push-notifications-and-dnd-overrides/android-push-notification-dnd-configuration.md)
+  * [Mute notifications](alerting/notification-settings/mute-notifications.md)
 * [ilert sender IDs and domains](alerting/phone-numbers/README.md)
   * [SMS and voice alerts in China](alerting/phone-numbers/sms-and-voice-alerts-in-china.md)
 * [Alert sources](alerting/alert-sources.md)
@@ -45,6 +46,7 @@
   * [Microsoft Teams Meeting Integration](chatops/microsoft-teams/meeting.md)
   * [Create a channel for an existing alert in Microsoft Teams](chatops/microsoft-teams/create-a-channel-for-an-existing-alert-in-microsoft-teams.md)
   * [Create alerts in Microsoft Teams](chatops/microsoft-teams/create-alerts-in-microsoft-teams.md)
+  * [Look up who is on-call in Microsoft Teams](chatops/microsoft-teams/look-up-who-is-on-call-in-microsoft-teams.md)
 
 ## Incident comms & status pages
 
