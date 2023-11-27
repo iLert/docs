@@ -207,3 +207,12 @@ No, you should use the [ilert Nagios Integration](nagios.md).
 **The plugin does not work. How do I find the mistake?**
 
 Please look first in the log file. The plugin uses the Unix / Linux system log for logging (eg under `/var/log/messages` or `/var/log/syslog` ). If you can not find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
+
+**I received the following error: `import urllib.request ImportError: No module named request.`**\
+\
+This error message indicates that you are using the Python 3 script with Python 2. Please make sure that you are using the correct Python 2 script:
+
+```
+> cd python2 
+> mv ilert-icinga.py /usr/local/bin > chmod 755 /usr/local/bin/ilert-icinga.py
+```
