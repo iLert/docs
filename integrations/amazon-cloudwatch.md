@@ -10,7 +10,7 @@ With ilert's CloudWatch integration, you can automatically create alerts in iler
 
 ## In ilert: Create a CloudWatch alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
-1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**\
+1.  Go to **Alert sources** -> **Alert sources** and click on **Create new alert source**\
 
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
@@ -36,29 +36,29 @@ With ilert's CloudWatch integration, you can automatically create alerts in iler
 
 ## In AWS SNS: Create topic <a href="#create-topic" id="create-topic"></a>
 
-> If you have already created an SNS topic for your CloudWatch alarms that you want to reuse, you can proceed to step 3.
+{% hint style="info" %}
+If you have already created an SNS topic for your CloudWatch alarms that you want to reuse, you can proceed to step 3.
+{% endhint %}
 
-1. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
-2. In the SNS Dashboard click on "Create topic"
-3. On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+1.  In the SNS Dashboard click on "Create topic"\
 
-![](../.gitbook/assets/cw3.png)
 
-4. Name the topic and click on "Create topic".
+    ![](../.gitbook/assets/cw3.png)
+2.  Name the topic and click on "Create topic".\
 
-![](../.gitbook/assets/cw4.png)
 
-5. Click on "Create subscription" on the Topic Detail page
+    ![](../.gitbook/assets/cw4.png)
+3.  Click on "Create subscription" on the Topic Detail page
 
-![](../.gitbook/assets/cw5.png)
+    ![](../.gitbook/assets/cw5.png)
+4.  Select "HTTPS" as the protocol and copy the webhook URL from the above created alert source to ilert at Endpoint and click on "Create subscription".\
 
-6. Select "HTTPS" as the protocol and transfer the URL from the above-created alert source to ilert at Endpoint and click on "Create subscription".
 
-![](../.gitbook/assets/cw6.png)
+    ![](../.gitbook/assets/cw6.png)
+5.  The subscription is automatically confirmed by ilert when it is created. After updating the overview, the status "PendingConfirmation" should disappear and the ID should be displayed.\
 
-7. The subscription is automatically confirmed by ilert when it is created. After updating the overview, the status "PendingConfirmation" should disappear and the ID should be displayed.
 
-![](../.gitbook/assets/cw7.png)
+    ![](../.gitbook/assets/cw7.png)
 
 ## In AWS CloudWatch: Create alarm and link to topic <a href="#create-alarm" id="create-alarm"></a>
 
@@ -68,11 +68,14 @@ You can now link any CloudWatch alarm to the topic you have created. The followi
 
 ![](../.gitbook/assets/cw8.png)
 
-2. Click on "+ Notification" to add two "Notification Actions": one for the states ALARM and OK. In the "Send notification to:" box, select the topic created above.
+2.  Click on "+ Notification" to add two "Notification Actions": one for the states ALARM and OK. In the "Send notification to:" box, select the topic created above.\
 
-![](../.gitbook/assets/cw9.png)
 
-![](../.gitbook/assets/cw10.png)
+    ![](../.gitbook/assets/cw9.png)
+
+
+
+    ![](../.gitbook/assets/cw10.png)
 
 ## FAQ <a href="#faq" id="faq"></a>
 
