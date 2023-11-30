@@ -19,7 +19,7 @@ Are you using Zabbix 4.4 or higher? Please refer our [Zabbix 4.4+ Integration](n
 
 ## In ilert: Create a Zabbix alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
+1.  Go to **Alert sources** -> **Alert sources** and click on **Create new alert source**
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
 2.  Search for **Zabbix** in the search field, click on the Zabbix tile and click on **Next**.&#x20;
