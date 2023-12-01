@@ -33,9 +33,17 @@ To to create a service group
 1. Navigate to the status page for which you want to create a service group
 2. Go to the **Services** tab.
 3. Click on the **Create service group** button and give it a name.
-4. You can add services to the service group during creation or later in the by dragging and dropping services into the grouop
+4.  You can add services to the service group during creation or later in the by dragging and dropping services into the grouop\
 
-<figure><img src="../.gitbook/assets/Screenshot 2023-04-26 at 12.41.59.png" alt=""><figcaption></figcaption></figure>
+
+    <figure><img src="../.gitbook/assets/Screenshot 2023-12-01 at 15.57.41.png" alt=""><figcaption></figcaption></figure>
+
+Use the following settings on a service group and service to further customize how they appear on your status page:
+
+* **Expand group on page**: Activate this option if you want to expand the entire service group by default on your status page
+* **Show uptime history:** Activate this option, if you want to show the service's historical uptime and its SLA
+
+<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
 ## Services layout - single vs responsive columns
 
