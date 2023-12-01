@@ -51,13 +51,13 @@ Once you have configured an automation's settings, any alert that will be create
 
 ## Service uptime
 
-### How to hide service uptime
+### How to hide historical service uptime
 
-By default, a service's historical uptime is shown. You can chose to hide the historical uptime of a service in the service settings:
+By default, a service's historical uptime is shown and you can choose to hide service uptime on the status page. If you'd like to globally disable historical uptime, thus preventing any status page from displaying the historical uptime, you can do so in the service settings:
 
 1. Go the services page and click on the service for which you wan to hide the uptime
-2. In the **Settings** tab, uncheck the Option **Show historical uptime** ![](<../.gitbook/assets/image (52) (1) (1) (1).png>)\*\*\*\*
-3. Click on save
+2. In the **Settings** tab, check the option **Never show historical uptime** ![](<../.gitbook/assets/Screenshot 2023-12-01 at 12.56.38.png>)
+3. Click on **Save**
 
 ### How is the uptime of a service calculated?
 
