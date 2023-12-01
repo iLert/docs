@@ -1,7 +1,5 @@
 # Status pages
 
-## Set up your page
-
 Creating a status is a matter of few clicks.
 
 1\. Navigate to **Status pages** in the navigation bar and click on the **Create status page** button
@@ -20,7 +18,9 @@ Creating a status is a matter of few clicks.
 
 ![](<../.gitbook/assets/Screen Shot 2022-03-10 at 17.20.51.png>)
 
-## Service groups - group related services together
+## Status Page Layout Options
+
+### Service groups - group related services together
 
 Service groups lets you group related services together on a status page. This allows users to quickly see the overall health of a system and identify any issues that may be impacting multiple services.
 
@@ -36,6 +36,30 @@ To to create a service group
 4. You can add services to the service group during creation or later in the by dragging and dropping services into the grouop
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-04-26 at 12.41.59.png" alt=""><figcaption></figcaption></figure>
+
+## Services layout - single vs responsive columns
+
+You can choose between two layout options for displaying services on your status page.&#x20;
+
+* **Single column** presents items in a vertical list.&#x20;
+* **Responsive columns** arranges items in a grid with up to 3 columns that adapts to your screen size.
+
+|                                             Single column                                            |                                          Responsive columns                                          |
+| :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
+| <img src="../.gitbook/assets/Screenshot 2023-12-01 at 12.10.25 (1).png" alt="" data-size="original"> | <img src="../.gitbook/assets/Screenshot 2023-12-01 at 12.08.31 (1).png" alt="" data-size="original"> |
+
+To change the service on a status page
+
+1. Go **Status pages** and click on the status page you want to change its layout
+2. Click on the **Services** tab
+3.  Select your layout option and click save\
+
+
+    <figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+
+
+
+
 
 ## Public vs. private status pages
 
