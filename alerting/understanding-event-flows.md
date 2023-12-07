@@ -23,7 +23,7 @@ This illustration is an extraction of the core incoming event to outgoing notifi
 
 <figure><img src="../.gitbook/assets/shapes at 23-12-07 00.22.19.png" alt=""><figcaption></figcaption></figure>
 
-This illustration maps where in the core flow between receiving events and sending notifications rate limits, aggregations and suppressions may apply.
+This illustration maps the core flow between receiving events and sending notifications and shows where rate limits, aggregations and suppressions may apply.
 
 If you want to know more about event (alert source) API rate limits take a look at: REST API -> Rate Limiting
 
@@ -51,6 +51,6 @@ A note on "Grouping in time window" or "Allowing a single open/pending alert" th
 
 Until 2020 notifications were not aggregated.
 
-Until 2023 all notifications where automatically aggregated in a 3 minute window, per target per alert source, that started with each first notification.
+From 2020 - Dec 2023 all notifications were automatically aggregated in a 3 minute window, per target per alert source, that started with each first notification.
 
 \*Specific suppressions and deduplications start on: 11.12.2023
