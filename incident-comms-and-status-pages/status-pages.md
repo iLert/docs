@@ -45,7 +45,7 @@ Use the following settings on a service group and service to further customize h
 
 <figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
-## Services layout - single vs responsive columns
+### Services layout - single vs responsive columns
 
 You can choose between two layout options for displaying services on your status page.&#x20;
 
