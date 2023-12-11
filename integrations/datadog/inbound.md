@@ -62,6 +62,18 @@ With the ilert Datadog integration, you can create alerts in ilert based on Data
 
 You can now trigger the webhook and send alerts to ilert. To do so, include the name of the webhook with an _@webhook-_ in the text of the monitor’s alert. For example, if we use the example above, use _@webhook-main\_stream_.
 
+
+
+### Optional: Receive alerts based on specific event types
+
+To create alerts only for specific Datadog event types, open the advanced settings in your Datadog alert source and select the desired types from the **Event types** selection.
+
+{% hint style="info" %}
+Note that only the selected Datadog event types will create an alert in ilert; any other event types will be ignored. When no selections are made, all event types will create an alert.
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/datadog-advanced-1.png" alt=""><figcaption></figcaption></figure>
+
 ## FAQ <a href="#faq" id="faq"></a>
 
 **Are alerts in ilert automatically resolved?**
