@@ -27,7 +27,7 @@ ilert also offers an app for Tulip. This app allows users to send alerts to thei
 
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
-6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+6. The next page shows additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
 7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
 
 
