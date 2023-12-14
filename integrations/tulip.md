@@ -48,9 +48,9 @@ ilert also offers an app for Tulip. This app allows users to send alerts to thei
 
 <figure><img src="../.gitbook/assets/tulip-4.png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. In Tulip we can now configure basic and advanced alerts.\
-   Basic alert: Plain alert containing a summary and some details.\
-   Advanced alert: Contains more information such as event types and alerting key. Alerts have associations and can be accepted or resolved.
+4. In Tulip, we can now configure basic and advanced alerts.\
+   **Basic alert:** Plain alert containing a summary and some details.\
+   **Advanced alert:** Contains more information such as event types and alerting key. Alerts have associations and can be accepted or resolved.
 
 {% tabs %}
 {% tab title="Basic alerts" %}
