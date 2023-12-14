@@ -1,7 +1,7 @@
 ---
 description: >-
-  Activate the Mute Notifications feature to suppress all notifications from
-  ilert channels during periods when you're unavailable, such as vacations.
+  Activate the Mute Notifications feature to quiet all notifications from ilert
+  channels during periods when you're unavailable, such as vacations.
 ---
 
 # Mute notifications
