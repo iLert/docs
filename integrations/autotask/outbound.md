@@ -60,6 +60,8 @@ Yes.
 
 **Can Autotask alert sources use Autotask connections?**
 
-No, please create a different alert source.
+No, please create a different alert source or create a bi-directional Autotask alert source.
 
-\*\*\*\*
+**My API user gets blocked**
+
+Please ensure that you have correctly chosen "iLert " as Integration Vendor in Autotask when setting up your API user.
