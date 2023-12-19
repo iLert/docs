@@ -45,7 +45,7 @@ Besides managing access to e.g. LDAP groups on IdP side, ilert additionally offe
 It works by checking the provided SAML attribute field right before the auto provisioning, if you fill it e.g. with "`role`": when a user logs in through your IdP (for the first time), ilert will check if the SAML attribute "`role`" is present in the SAML response, if it is not, the user is redirected to an error page displaying the information that he/she should reach out to an account admin, otherwise the user is auto-provisioned and logged in.
 
 {% hint style="info" %}
-Note that role here is just an example, you may use any kind of SAML response attribute that you prefere to set. The value does not matter as well.
+Note that role here is just an example, you may use any kind of SAML response attribute that you prefer to set. The value does not matter as well.
 {% endhint %}
 
 As an admin or account manager, this gives you an additional option to controll the auto provisioning flow and you can make sure users that want/need to be onboarded are properly setup with their requirements before e.g. making sure a certain user is auto-provisioned with the correct role and team before his first login.

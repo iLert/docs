@@ -21,11 +21,15 @@ We consider the following changes to be backwards-compatible:
 
 ## Notable changes
 
-#### Moving user's notification preferences into stand-alone resources
+### Support hours becoming a real resource
+
+In November 2023 we changed the inline support hours object of alert sources to a referenced sub resource. This introduces the new `/api/support-hours` CRUD resource, as well as a new field in `alertSource.supportHours.id`. If the ID field is present, the API will treat it as a reference, if it is not, the API will fallback to the legacy behaviour and allow nesting the fields into the alert source.
+
+### Moving user's notification preferences into stand-alone resources
 
 In February 2023 we introduced a new management for user contacts and notification preferences. A specific explanation of this change as well as [migration information can be found here.](api-user-preference-migration-2023.md)
 
-#### Dropping URL versions globally
+### Dropping URL versions globally
 
 While renaming incidents to alerts in October 2021 we dediced that the best way to migrate the API to the new resources and fields was to introduce a new API version, however continuing further we did not want to stick to versioning through url paths in favor of developer experience. Which is why we decided to migrate the new resources away from the version path.
 

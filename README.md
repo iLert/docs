@@ -25,7 +25,7 @@ An alert source represents the connection between your tools (usually a monitori
 [alert-sources.md](alerting/alert-sources.md)
 {% endcontent-ref %}
 
-## Connectors and alert actions (aka outbound integrations)
+## Connector and alert action (aka outbound integration)
 
 Connectors and alert actions allow you to extend your alert response and communication to other tools. They allow you to either manually or automatically perform actions on alerts, such as
 
@@ -58,7 +58,7 @@ On-call schedules determine who will be notified when an alert is created based 
 [on-call-schedules](on-call-management-and-escalations/on-call-schedules/)
 {% endcontent-ref %}
 
-## Incidents, Services and Status Pages
+## Incident, Service and Status Page
 
 Incidents are the main way to communicate with your users when you are experiencing user impacting issues with the services you provide to them. Services model business capabilities to which subscribers can subscribe to receive updates about incidents. Status pages are one way to help you inform users about outages and maintenances of one or more service. Any user in ilert can subscribe to incidents, services and status pages.
 
@@ -66,7 +66,7 @@ Incidents are the main way to communicate with your users when you are experienc
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-## Notifications
+## Notification
 
 A notification is a message that is sent to a user to inform them about alerts, incidents or on-call shifts. Users manage how they want to be notified in their notification settings.
 

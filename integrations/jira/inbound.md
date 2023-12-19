@@ -58,6 +58,10 @@ You need admin permissions to manage Jira webhooks.
 
 Yes
 
+**When will alerts be resolved?**
+
+Alerts are resolved with the resolution event of a Jira ticket. _(Note: ticket status transition alone will not resolve an alert)_
+
 **Will alerts in ilert be accepted automatically?**
 
 No, unfortunately Jira events are not compatible with ilert accepted event.

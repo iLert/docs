@@ -6,6 +6,38 @@ description: >-
 
 # ilert Release Notes
 
+## November 2023
+
+### New features and improvements
+
+* Over the lifetime of a recurring on-call schedule it can accumulate a large sum of ended layers, that can reduce performance, we have introduced a new **layer archiving** feature that automatically archives older ended layers, keeping the schedule fast.
+* We have introduced a new feature for SSO SAML users to prevent auto-provisioning on the SdP side for certain users called: **provisioning required attribute**
+* The integrations API has been reworked to support a better catalogue experience and more information in the app's wizards
+* We have improved the unverified contact log entries in the alert timeline to properly identify which contact was not verified
+* We have added **dynamic priority templates to alert sources**, using these you can extract payload fields from your events and map them to the priority of your alerts
+* We have added **dynamic links templates to alert sources**, using these you can extract links directly from the event payload of your alerts
+
+### Status page updates
+
+* We have added a faster way to login to the ilert **mobile app using QR codes** (you can find the link in the push token area of your notification preferences in the web app)
+* We have added a **localized public status page subscription** experience for German status page visitors
+* We have added t**heming to status pages** and launched our first theme: dark (you can find the switch on your status page's edit view)
+* We have added a new **layout option for status page structures: responsive columns** this works especially well when displaying a large amount of services on your status page or when you want to render your status page horizontally
+* The **status page opt-in and opt-out pages** are no longer landing pages on the global webapp (app.ilert.com) but instead are **hosting on your status page directly**, allowing for less of break of CI for your customers
+* In addition to the new status page responsive layout, you may now decide if a group should open by default, as well as defining to display the SLA graph or not unrelated to the service's SLA history setting
+* We have also added countless improvements to the rendering experience of status pages e.g. font or colors
+
+### New and updated integrations
+
+* New inbound integration: **Tulip**
+* New inbound integration: **Graylog**
+* New inbound integration: **Catchpoint**
+* New inbound integration: **Loki**
+* New inbound integration: **Mimir**
+* New inbound integration: **Cortex**
+* We have **improved the Datadog** inbound integration to support different event type flavors e.g. downtimes
+* **MS Teams, Autotask and ServiceNow** alert actions can now be more easily managed through the API
+
 ## October 2023
 
 ### New features and improvemens
@@ -15,8 +47,6 @@ description: >-
 * The **AI assisted incident postmortems** feature has reached closed BETA, reach out if you are interested in using before its GA
 * We have introduced a feature that autmatically archives historical layers of large repeating on-call schedules, to keep performance steady no matter the use-case
 * Integration icon and logo generation has been reworked for web and mobile to improve performance of the UI
-* Autotask alert actions via API
-* MicrosoftTeams alert actions via API
 * **Reworked SMS notifications** to allow for a better focus on alert summary content
 * Alerts in state ACCEPTED may now be accepted by responders that are not yet added to the responder list of the alert
 
