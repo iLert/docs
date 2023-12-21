@@ -69,7 +69,7 @@ You can now trigger the webhook and send alerts to ilert. To do so, include the 
 To create alerts only for specific Datadog event types, open the advanced settings in your Datadog alert source and select the desired types from the **Event types** selection.
 
 {% hint style="info" %}
-Note that only the selected Datadog event types will create an alert in ilert; any other event types will be ignored. When no selections are made, all event types will create an alert.
+Note that only the selected Datadog event types will create or resolve an alert in ilert; any other event types will be ignored. When no selections are made, all event types will create an alert.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/datadog-advanced-1.png" alt=""><figcaption></figcaption></figure>
@@ -78,7 +78,7 @@ Note that only the selected Datadog event types will create an alert in ilert; a
 
 **Are alerts in ilert automatically resolved?**
 
-Yes, as soon as an Incident is closed in Datadog, the corresponding Alert is automatically resolved in ilert.
+Yes, as soon as an Incident is closed in Datadog, the corresponding Alert is automatically resolved in ilert. Note: Downtime monitors will only resolve if the alert source is configured with the [corresponding additional setting](inbound.md#optional-receive-alerts-based-on-specific-event-types).
 
 **Can I link Datadog to several alert sources in ilert?**
 
