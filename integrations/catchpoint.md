@@ -6,6 +6,10 @@ description: >-
 
 # Catchpoint Integration
 
+[Catchpoint](https://www.catchpoint.com) is a comprehensive platform offering a suite of internet performance monitoring tools designed to provide complete, actionable insights and visibility into an organization's entire digital ecosystem.
+
+With ilert integration for Catchpoin, you can enable multi-channel alerting for Catchpoint issues, assign them to specific team members, and use on-call schedules for uninterrupted observation of your system.
+
 ## In ilert: Create a Catchpoint alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
