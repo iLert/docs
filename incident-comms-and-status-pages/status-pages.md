@@ -186,3 +186,7 @@ You probably forgot to activate your status page. Once you are satisfied with yo
 #### Can I make a status page accessible for certain IP addresses or IP ranges only?
 
 Yes, create a private status page and configure an IP whitelist in the status page settings.
+
+**Can I export a list of status page subscribers?**
+
+Yes. To export a CSV file of your status page subscribers, go to Subscribers tab in Status Page Settings and click "Download subscribers" button in the upper right corner.&#x20;
