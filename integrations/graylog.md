@@ -6,6 +6,10 @@ description: >-
 
 # Graylog Integration
 
+[Graylog](https://graylog.org) is a sophisticated log management and Security Information and Event Management (SIEM) solution that assists teams in addressing security, application, and IT infrastructure issues. It achieves this by providing a platform to combine, enrich, correlate, query, and visualize all your log data in a single location. This centralized approach enhances the efficiency of managing large volumes of log data, which is crucial for monitoring systems, debugging applications, and maintaining security.
+
+With ilert integration for Graylog, you can receive alerts from Graylog via voice, push, SMS, and messenger notifications.
+
 ## In ilert: Create a Graylog alert source
 
 1.  Go to **Alert sources** -> **Alert sources** and click on **Create new alert source**
