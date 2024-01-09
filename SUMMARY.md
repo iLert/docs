@@ -227,7 +227,7 @@
 * [Sysdig Integration](integrations/sysdig/README.md)
   * [Sysdig Inbound Integration](integrations/sysdig/inbound.md)
   * [Sysdig Outbound Integration](integrations/sysdig/outbound.md)
-* [Telegram Integration](integrations/telegram-integration.md)
+* [Telegram Integration](integrations/telegram.md)
 * [TOPdesk Integration](integrations/topdesk/README.md)
   * [TOPdesk Inbound Integration](integrations/topdesk/inbound.md)
   * [TOPdesk Outbound Integration](integrations/topdesk/outbound.md)
