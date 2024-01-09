@@ -72,34 +72,37 @@ You could also split alert to high and low priority by creating two alert source
 1. Install Loki in any way that suits your needs.&#x20;
 2. Configure the Loki alert rules in order to trigger alerts regarding the rule expression. For example:
 
-{% code title="mimir-alert-rules.yaml" lineNumbers="true" %}
+{% code title="loki-alert-rules.yaml" lineNumbers="true" %}
 ```yaml
 groups:
-  - name: mimir-critical
+  - name: loki-critical
     rules:
-      - alert: MimirIngesterUnhealthy
+      - alert: stackoverflow
         expr: |
-          min by (cluster, namespace) (cortex_ring_members{state="Unhealthy", name="ingester"}) > 0
-        for: 15m
+          count_over_time({app=~".+"} |= "StackOverflow" [5m]) > 0
+        for: 0m
         labels:
           severity: critical
         annotations:
-          summary: Mimir cluster has unhealthy ingesters alert
-          description: "Mimir cluster has unhealthy ingesters \n  VALUE = {{ $value }}\n  LABELS = {{ $labels }}"
+          summary: StackOverflow alert
+          description: "StackOverflow logs found\n  VALUE = {{ $value }}\n  LABELS = {{ $labels }}"
 ```
 {% endcode %}
 
 3. Configure the Loki ruler to send alerts to an external alertmanager and point the alert rules folder:
 
-<pre class="language-yaml" data-title="mimir-config.yaml" data-line-numbers><code class="lang-yaml"><strong>ruler:
-</strong>  alertmanager_url: http://alertmanager:9093
+{% code title="loki-config.yaml" lineNumbers="true" %}
+```yaml
+ruler:
+  alertmanager_url: http://alertmanager:9093
   enable_api: true
-
-ruler_storage:
-  backend: local
-  local:
-    directory: /etc/alertmanager
-</code></pre>
+  enable_alertmanager_v2: true
+  storage:
+    type: local
+    local:
+      directory: /etc/alertmanager
+```
+{% endcode %}
 
 ## FAQ
 
