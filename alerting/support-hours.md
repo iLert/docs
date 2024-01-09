@@ -21,8 +21,6 @@ Define support hours for alert sources and call routing numbers to manage the pr
 {% hint style="info" %}
 **Global support hours are not yet available for call routing numbers**
 
-Support hours for call routing numbers are currently part of the call routing number. Very, you will able to reference global support hours in call routing numbers.
+Support hours for call routing numbers will be available very soon.
 {% endhint %}
-
-
 
