@@ -6,6 +6,20 @@ description: >-
 
 # ilert Release Notes
 
+{% hint style="success" %}
+These notes get usually updated retrospectively within the first 2 weeks of the following month
+{% endhint %}
+
+## December 2023
+
+### New features and improvements
+
+* The **notification aggregation** and suppression has been **reworked**, each notification channel now supports a unique suppression style e.g. voice calls now 3 per 3 minutes per alert source or push notifications now up to 20 per minute as long as their content is unique (_find out more in Alerting -> Understanding event flows -> Notification aggregation_)
+* AI assisted **postmortems** is now in **GA**, enable ilert AI in the account owner's account settings and visit an incident to try it out
+* Status pages now support themes: feel free to switch to our new **status page dark theme** if it fits your branding
+* The repeating schedules API has been stabilised for Terraform use cases
+* We have launched **ilert wrapped 2023** (check out your responder year recap, it will be available until 12.01.24)
+
 ## November 2023
 
 ### New features and improvements
@@ -21,7 +35,6 @@ description: >-
 ### Status page updates
 
 * We have added a **localized public status page subscription** experience for German status page visitors
-* We have added **theming to status pages** and launched our first **theme: dark** (you can find the switch on your status page's edit view)
 * We have added a new **layout option for status page structures: responsive columns** this works especially well when displaying a large amount of services on your status page or when you want to render your status page horizontally
 * The **status page opt-in and opt-out pages** are no longer landing pages on the global webapp (app.ilert.com) but instead are **hosting on your status page directly**, allowing for less of break of CI for your customers
 * In addition to the new status page responsive layout, you may now decide if a group should open by default, as well as defining to display the SLA graph or not unrelated to the service's SLA history setting
