@@ -86,6 +86,8 @@ Your alert source template fields will start in text mode by default (see [here]
 
 <table><thead><tr><th width="203">Type</th><th width="351.3333333333333">Sample</th><th>Description</th></tr></thead><tbody><tr><td>Text</td><td>Some text</td><td>You may of course add generic text content to your liking</td></tr><tr><td>Variable</td><td><strong><code>{{</code></strong><code>var</code><strong><code>}}</code></strong></td><td>Extract content of the event and insert it. Note: there is no further sanitizing of the values</td></tr><tr><td>Accessing nested variables</td><td><code>{{ var</code><strong><code>.</code></strong><code>subfield</code><strong><code>.</code></strong><code>evenMore }}</code></td><td>Access sub fields</td></tr><tr><td>Accessing fields of an array</td><td><code>{{ var.arrayField</code><strong><code>[0]</code></strong><code>.more }}</code></td><td>Access array contents</td></tr><tr><td>Applying functions to variables</td><td>{{<code>var</code><strong><code>##</code></strong><code>lowerCase}}</code></td><td>If you want to work with additional functions, we recommend switching to block mode to quickly generate the template syntax</td></tr><tr><td>Passing arguments to functions</td><td><code>{{var##substring((0</code><strong><code>||</code></strong><code>10))}}</code></td><td></td></tr></tbody></table>
 
+{% embed url="https://www.youtube.com/watch?t=3s&v=RIYsmc1Uajs" %}
+
 ### Alert links
 
 ilert can extract alert links from the alert payload. Extracted links will be added to the alert's links section.
@@ -161,7 +163,3 @@ Alert grouping helps you reduce noise by clustering related alerts within a defi
 An alert source with alert grouping enabled will group together alerts triggered within the defined time window and create only one alert. Grouped alerts will show up as events in the alert's timeline. You can select relative time windows (e.g. 2 minutes, 5 minutes, etc) or an action-based time-window (e.g. until the alert is accepted or resolved).
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-08-22 at 22.33.18.png" alt="" width="142"><figcaption></figcaption></figure>
-
-{% embed url="https://www.youtube.com/watch?v=RIYsmc1Uajs" %}
-Check-out our step-by-step tutorial on Youtube
-{% endembed %}

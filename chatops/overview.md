@@ -27,7 +27,7 @@ Stay informed in real-time. Receive critical alert notifications directly in you
 
 Need to find out who's on-call? Quickly view the on-call schedule directly from your chat tool, ensuring you can reach the right person at the right time.
 
-* Microsoft Teams Guide (available soon)
+* [Microsoft Teams Guide](https://docs.ilert.com/chatops/microsoft-teams/look-up-who-is-on-call-in-microsoft-teams)
 * [Slack Guide](slack/lookup-who-is-on-call.md)
 
 For detailed instructions on setting up and using these features with your preferred platform, please navigate to the respective guides.
