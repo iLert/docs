@@ -55,6 +55,10 @@ You can let any Slack user (even if they don't have an ilert account) create an 
 
 </div>
 
+{% embed url="https://www.youtube.com/watch?v=6NBcBElT5rI" %}
+Check out our step-by-step tutorial on Youtube
+{% endembed %}
+
 ## FAQ
 
 #### **I have received following error messages:** There is no Slack alert source configured for this channel in ilert, which is required to enable alert creation for Slack users without an ilert account.

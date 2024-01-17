@@ -35,6 +35,10 @@ Channel names are generated in advance and consist of the name of the alert sour
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-09 at 14.21.03.png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://www.youtube.com/watch?v=xwY6jz8sV4M" %}
+Check out your step-by-step tutorials on Youtube
+{% endembed %}
+
 ### Detaching a Microsoft Teams channel from an alert
 
 1. On the alert list, navigate to the desired alert for which you want to detach a channel.

@@ -31,3 +31,7 @@ It is important to know that incoming calls originating from call routing number
 When 'Mute Notifications' is active, your avatar will display a crossed-out bell icon. This signals to your team members that you are not receiving notifications during this time.
 
 <figure><img src="../../.gitbook/assets/03 mute notifications.png" alt=""><figcaption></figcaption></figure>
+
+{% embed url="https://www.youtube.com/watch?v=lWK2nQLRtyE" %}
+Check out our step-by-step tutorial on Youtube
+{% endembed %}

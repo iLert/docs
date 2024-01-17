@@ -2,6 +2,8 @@
 
 ## AI features overview
 
+{% embed url="https://www.youtube.com/watch?t=8s&v=mpSUj0sqSSo" %}
+
 {% hint style="info" %}
 Note that AI features that share data with third-parties such as OpenAI require the account owner of the account to enable all AI features under **Account settings**.&#x20;
 

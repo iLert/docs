@@ -36,3 +36,7 @@ You can let any Microsoft Teams user (even if they don't have an ilert account) 
 <figure><img src="../../.gitbook/assets/03 ms teams oncall.png" alt=""><figcaption></figcaption></figure>
 
 Now, any Microsoft Teams user in your workspace will be able to use the on-call lookup feature from the configured channels.&#x20;
+
+{% embed url="https://www.youtube.com/watch?v=_EzV_pEVvBc" %}
+Check out our step-by-step tutorials on Youtube
+{% endembed %}

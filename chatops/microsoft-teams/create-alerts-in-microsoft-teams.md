@@ -59,6 +59,10 @@ You can let any Microsoft Teams user (even if they don't have an ilert account) 
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-09 at 09.07.10.png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://www.youtube.com/watch?v=OcVYZpqM0iw" %}
+Check out ou step-by-step tutorials on Youtube
+{% endembed %}
+
 ## FAQ
 
 #### **I have received following error messages:** There is no Microsoft Teams alert source configured for this channel in ilert, which is required to enable alert creation for Microsoft Teams users without an ilert account.

@@ -22,6 +22,10 @@ Our Slack connector allows you to create a dedicated Slack channel for an existi
 2. Hover over the **View Slack channel** area and click on the  "x" Button
 3. Once detached, a message will be sent to the detached channel.
 
+{% embed url="https://www.youtube.com/watch?v=EOpxqECNyEM" %}
+Check out our step-by-step tutorial on Youtube
+{% endembed %}
+
 ## FAQ
 
 **Are the alerts in the created channel updated in real time?**

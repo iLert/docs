@@ -49,3 +49,8 @@ You can let any Slack user (even if they don't have an ilert account) lookup who
 ```
 
 <figure><img src="../../.gitbook/assets/pika-1692781954797-2x (1).png" alt=""><figcaption></figcaption></figure>
+
+{% embed url="https://www.youtube.com/watch?t=23s&v=D1yzy3o-u5g" %}
+Check out our step-by-step tutorial on Youtube
+{% endembed %}
+

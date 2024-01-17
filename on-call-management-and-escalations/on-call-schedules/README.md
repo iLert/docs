@@ -68,6 +68,10 @@ You can also schedule overrides in the schedules list view by clicking on the **
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-24 at 23.28.33.png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://www.youtube.com/watch?v=FNJv-zAcyAE" %}
+Check out our step-by-step Youtube tutorial
+{% endembed %}
+
 ### Adding overrides in the mobile app
 
 To add an override in the mobile app, open the **Who is on-call?** screen and tap on **Override shift** on the shift you want to override.
