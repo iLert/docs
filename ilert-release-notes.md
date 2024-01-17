@@ -15,7 +15,7 @@ These notes get usually updated retrospectively within the first 2 weeks of the 
 ### New features and improvements
 
 * The **notification aggregation** and suppression has been **reworked**, each notification channel now supports a unique suppression style e.g. voice calls now 3 per 3 minutes per alert source or push notifications now up to 20 per minute as long as their content is unique (_find out more in Alerting -> Understanding event flows -> Notification aggregation_)
-* AI assisted **postmortems** is now in **GA**, enable ilert AI in the account owner's account settings and visit an incident to try it out
+* AI assisted **postmortems** is now in **open beta**, enable ilert AI in the account owner's account settings and visit an incident to try it out
 * Status pages now support themes: feel free to switch to our new **status page dark theme** if it fits your branding
 * The repeating schedules API has been stabilised for Terraform use cases
 * We have launched **ilert wrapped 2023** (check out your responder year recap, it will be available until 12.01.24)
