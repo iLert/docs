@@ -18,6 +18,8 @@ Define support hours for alert sources and call routing numbers to manage the pr
 3. Select the team to which the support hours belong to (if any), give it a name, and enter your support hours.
 4. Click **Save**. You can now use these support hours in [alert sources](alert-sources.md#notification-priority-and-support-hours) and call routing numbers to set notification priority of alerts and route incoming call routing calls to different targets based on support hours.
 
+{% embed url="https://www.youtube.com/watch?v=jhugIuPxh9M" %}
+
 {% hint style="info" %}
 **Global support hours are not yet available for call routing numbers**
 
