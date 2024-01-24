@@ -22,7 +22,7 @@ An escalation policy must have at least one escalation rule. You can add more ru
 {% hint style="info" %}
 **Alerting multiple users at the same time**
 
-The maxiumun number of users and on-call schedules that you can set in a single escalation level depends on your plan and is indicated in the escalation rule. In the above screenshot, the maximum number of targets per escalation level is 5.
+The maxiumum number of users and on-call schedules that you can set in a single escalation level depends on your plan and is indicated in the escalation rule. In the above screenshot, the maximum number of targets per escalation level is 5.
 {% endhint %}
 
 ### Delayed escalation
