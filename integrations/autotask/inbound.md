@@ -24,6 +24,12 @@ With the ilert Autotask inbound integration, you can create alerts in ilert base
 
 ![](<../../.gitbook/assets/spaces\_-M76ygPnS4HUcFSX8ulm\_uploads\_git-blob-199ae32531f88ba7bcc6575b4cc9e08e5fc1c90c\_autotask3 (3).png>)
 
+{% hint style="danger" %}
+Please make sure that the Integration Vendor is selected properly
+{% endhint %}
+
+
+
 ## In ilert: Create an Autotask alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
 1. Go to the "Alert sources" tab and click on "Create new alert source"
