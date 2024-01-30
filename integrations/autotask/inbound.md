@@ -22,7 +22,7 @@ With the ilert Autotask inbound integration, you can create alerts in ilert base
 4. Click the **Generate key** button to generate a username and then the **Generate Secret** button to generate a password. You will need **Username** and **Secret** below when setting up the alert source.
 5. In the **Integration Vendor** section, choose **iLert - Alerts**
 
-![](<../../.gitbook/assets/autotask3 (3).png>)
+![](<../../.gitbook/assets/spaces\_-M76ygPnS4HUcFSX8ulm\_uploads\_git-blob-199ae32531f88ba7bcc6575b4cc9e08e5fc1c90c\_autotask3 (3).png>)
 
 ## In ilert: Create an Autotask alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
