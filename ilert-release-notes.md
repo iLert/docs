@@ -825,4 +825,4 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### Improvements
 
-* **Auto raise alert priority** lets you delay notifications and escalations until support hours start ([blog post](https://www.ilert.com/blog/2020-04-07-alert-reports-ilert-sso/#auto-raise))
+* **Auto raise alert priority** lets you delay notifications and escalations until support hours start ([blog post](https://www.ilert.com/blog/release-notes-incident-reports-sso-auto-raise-priority-new-integrations))
