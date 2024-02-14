@@ -14,7 +14,7 @@ To access and utilize call routing, you must be on the Professional plan or a hi
 
 ## Phone number availability
 
-We offer local phone numbers around the world. Please click on a continent below to see  supported countries.
+We offer local phone numbers around the world. Please click on a continent below to see  supported countries. For countries not listed below, please reach out to support@ilert.com to ask for availability.
 
 <details>
 
@@ -50,6 +50,7 @@ We offer local phone numbers around the world. Please click on a continent below
 <summary>Europe</summary>
 
 * Austria
+* Belgium
 * Bosnia and Herzegovina
 * Bulgaria
 * Croatia
@@ -61,13 +62,16 @@ We offer local phone numbers around the world. Please click on a continent below
 * Greece
 * Hungary
 * Ireland
+* Italy
 * Romania
 * Slovenia
 * Switzerland
+* Sweden
 * United Kingdom
 * Denmark
 * Finland
 * Netherlands
+* Norway
 * Poland
 
 </details>
@@ -113,7 +117,7 @@ We offer local phone numbers around the world. Please click on a continent below
 {% hint style="info" %}
 **Phone number availability is subject to regulation**
 
-Due to country-specific regulations, phone number provision may require identity documentation and location validation. Contact support@ilert.com to check availability in your desired locality.
+Due to country-specific regulations, phone number provisioning may require identity documentation and location validation. Contact support@ilert.com to check availability in your desired locality.
 {% endhint %}
 
 ## Configuration
