@@ -6,15 +6,15 @@ description: >-
 
 # Terraform
 
-Make monitoring and alerting part of your **Infrastructure as Code** projects and automate your requirments efficiently with ilert's Terraform provider.
+Make monitoring and alerting part of your **Infrastructure as Code** projects and automate your requirements efficiently with ilert's Terraform provider.
 
 {% hint style="success" %}
 You can find the official ilert Terraform Provider documentation in the [Terraform Registry](https://registry.terraform.io/providers/iLert/ilert/latest/docs)
 {% endhint %}
 
-The the source code of the provider is also available on [Github](https://github.com/iLert/terraform-provider-ilert).
+The source code of the provider is also available on [Github](https://github.com/iLert/terraform-provider-ilert).
 
-```text
+```
 provider "ilert" {
     organization = "your organization"
     username     = "your username"
@@ -65,4 +65,3 @@ resource "ilert_alert_source" "example" {
 ```
 
 Please feel free to [reach out to us](../contact.md) with a Github issue in case you need help or have feature requests.
-
