@@ -23,7 +23,7 @@
 * [Heartbeat Monitoring](alerting/heartbeat-monitoring/README.md)
   * [Prometheus Heartbeat Example](alerting/heartbeat-monitoring/prometheus-heartbeat-example.md)
   * [CLI Heartbeat Examples](alerting/heartbeat-monitoring/cli-heartbeat-examples.md)
-* [🏛 Understanding event flows](alerting/understanding-event-flows.md)
+* [🏛️ Understanding event flows](alerting/understanding-event-flows.md)
 
 ## On-call management & Escalations
 
@@ -172,6 +172,7 @@
   * [Grafana Integration (v 9.x)](integrations/grafana/grafana-integration-v-9.x.md)
 * [Graylog Integration](integrations/graylog.md)
 * [HashiCorp Consul](integrations/consul.md)
+* [HaloPSA Integration](integrations/halopsa.md)
 * [CrowdStrike Falcon LogScale Integration](integrations/humio.md)
 * [IBM Cloud Functions Integration](integrations/ibmcloudfunctions.md)
 * [Icinga Integration](integrations/icinga.md)
