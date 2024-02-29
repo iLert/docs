@@ -65,6 +65,7 @@ We offer local phone numbers around the world. Please click on a continent below
 * Italy
 * Romania
 * Slovenia
+* Spain
 * Switzerland
 * Sweden
 * United Kingdom
