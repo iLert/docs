@@ -176,6 +176,7 @@
 * [CrowdStrike Falcon LogScale Integration](integrations/humio.md)
 * [IBM Cloud Functions Integration](integrations/ibmcloudfunctions.md)
 * [Icinga Integration](integrations/icinga.md)
+* [InfluxDB Integration](integrations/influxdb.md)
 * [Instana Integration](integrations/instana.md)
 * [IXON Cloud Integration](integrations/ixon.md)
 * [Jira Integration](integrations/jira/README.md)

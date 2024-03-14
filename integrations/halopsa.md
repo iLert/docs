@@ -1,22 +1,29 @@
+---
+description: >-
+  HaloPSA is a comprehensive platform tailored for managed IT service providers,
+  offering a suite of tools for efficient business management, including service
+  desk, asset management, and billing.
+---
+
 # HaloPSA Integration
 
 ## In ilert: Create a HaloPSA alert source&#x20;
 
-1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
+1.  Go to **Alert sources** --> **Alert sources** and click **Create new alert source**.
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
-2.  Search for **HaloPSA** in the search field, click on the HaloPSA tile and click on **Next**.&#x20;
+2.  Search for **HaloPSA** in the search field, click the HaloPSA tile, and then **Next**.&#x20;
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
-3. Give your alert source a name, optionally assign teams and click **Next**.
+3. Give your alert source a name, optionally assign teams, and click **Next**.
 4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
-5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+5.  Select your [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
-6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
-7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
+7.  On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -24,43 +31,43 @@
 
 ## In HaloPSA: Create a Custom Webhook integration
 
-1. On the sidebar click on **Configuration**.
+1. On the sidebar, click **Configuration**.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 18.43.27.png" alt="" width="324"><figcaption></figcaption></figure>
 
-2. In the **search bar** enter "Custom integrations" and select **Custom integrations** from the result.
+2. In the **search bar** enter "Custom integrations" and select **Custom integrations** from the results.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 18.44.04.png" alt="" width="563"><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 18.44.58.png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. Click on **New**.
+3. Click **New**.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 18.45.41.png" alt=""><figcaption></figcaption></figure>
 
-4. Enter a Name and following Base URL `https://api.ilert.com/`.
+4. Enter a Name and the following Base URL `https://api.ilert.com/`.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 18.52.20.png" alt="" width="563"><figcaption></figcaption></figure>
 
 5. Save the custom integration.
-6. Now click on **Methods**.
+6. Now, click **Methods**.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 18.53.45.png" alt=""><figcaption></figcaption></figure>
 
-7. Now click on **New**.
+7. Then, click **New**.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 18.54.10.png" alt=""><figcaption></figcaption></figure>
 
 8. Enter a **Name**.
-9. Change the **Method** to POST and enter the previous created URL path into the field.
+9. Change the **Method** to POST and enter the previously created URL path into the field.
 
 <figure><img src="../.gitbook/assets/Pasted_Image_23_02_24__18_57.png" alt=""><figcaption></figcaption></figure>
 
-10. Click on **Body** and choose **JSON**.
+10. Click **Body** and choose **JSON**.
 
 <figure><img src="../.gitbook/assets/Screenshot_2024-02-23_at_18_59_49.png" alt=""><figcaption></figcaption></figure>
 
-11. Add following payload to the body.
+11. Add the following payload to the body.
 
 {% tabs %}
 {% tab title="Recommended payload" %}
@@ -120,7 +127,7 @@
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 19.07.53.png" alt="" width="563"><figcaption></figcaption></figure>
 
-14. Add following Events for the Runbook: "New Ticket Logged" and "Ticket Status Changed".
+14. Add the following Events for the Runbook: "New Ticket Logged" and "Ticket Status Changed."
 
 <div>
 
@@ -132,12 +139,12 @@
 
 </div>
 
-15. Now click on **Flow Chart** and **Edit**.
+15. Now click **Flow Chart** and **Edit**.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 19.59.25.png" alt="" width="563"><figcaption></figcaption></figure>
 
 16. Enter a **Step Name**.
-17. Change the Type to Action. Choose the **Action type** "Execute an Integration Method" and **Method** "ilert integration: send ticket to ilert" (the previous created method).
+17. Change the Type to Action. Choose the **Action type** "Execute an Integration Method" and **Method** "ilert integration: send ticket to ilert" (the previously created method).
 18. Save the Step.
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 20.01.07.png" alt="" width="563"><figcaption></figcaption></figure>
