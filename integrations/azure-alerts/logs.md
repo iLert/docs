@@ -40,31 +40,31 @@ description: Create alerts in ilert based on Azure Logs queries.
 
 4. On the next page change the **Condition** for the alerts and click on the **Add action groups.**
 
-![](<../../.gitbook/assets/1 (1) (1).png>)
+![](<../../.gitbook/assets/1 (1) (1) (1).png>)
 
 5. On the modal window click on the **Create action group** button.
 
-![](<../../.gitbook/assets/2 (1) (1).png>)
+![](<../../.gitbook/assets/2 (1) (1) (1).png>)
 
 6. On the next page name the group e.g. **iLert** and click on the **Actions** tab.
 
-![](<../../.gitbook/assets/3 (1) (1).png>)
+![](<../../.gitbook/assets/3 (1) (1) (1).png>)
 
 7. **\*\*On the** Actions **tab**, **click on the** Action type **and choose** Webhook.\*\*
 
-![](<../../.gitbook/assets/4 (1).png>)
+![](<../../.gitbook/assets/4 (1) (1).png>)
 
 8. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in ilert and click on** OK\*\*. Name the action e.g.\*\* ilert **and click on the** Review + create\*\* button.
 
-![](<../../.gitbook/assets/5 (1).png>)
+![](<../../.gitbook/assets/5 (1) (1).png>)
 
 9. On the next page click on the **Create** button.
 
-![](<../../.gitbook/assets/6 (1).png>)
+![](<../../.gitbook/assets/6 (1) (1).png>)
 
 10. On the next page scroll down to the **Alert rule details** section, name the alert rule and click on the **Create alert rule** button.
 
-![](<../../.gitbook/assets/7 (1).png>)
+![](<../../.gitbook/assets/7 (1) (1).png>)
 
 11. Finished! Your Azure Logs alerts will now create alerts in ilert.
 

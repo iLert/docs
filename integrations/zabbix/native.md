@@ -99,7 +99,7 @@ curl -o media_ilert.xml \
 
 10\. Click the **Add** button
 
-![](<../../.gitbook/assets/9 (1).png>)
+![](<../../.gitbook/assets/9 (1) (1).png>)
 
 11\. Click the **Add** button in the **Users** tab to save the user.
 
