@@ -172,6 +172,7 @@
   * [Grafana Integration](integrations/grafana/grafana-integration.md)
   * [Grafana Integration (v 9.x)](integrations/grafana/grafana-integration-v-9.x.md)
 * [Graylog Integration](integrations/graylog.md)
+* [HaloITSM Integration](integrations/haloitsm.md)
 * [HaloPSA Integration](integrations/halopsa.md)
 * [HashiCorp Consul](integrations/consul.md)
 * [Hyperping Integration](integrations/hyperping.md)
