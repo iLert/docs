@@ -57,6 +57,89 @@ To make sure that N-central events will reach your ilert alert sources it is imp
 * is your user part of an **Access Group** that is linked to the **Device**
 * is your user assigned as **Primary Notification** of the **Notification Profile** (_Configuration -> Monitoring -> Notifications -> Choose Notification Profile of your choice e.g. Connectivity Failed -> Primary Notification -> Selected Recipients_)
 
+## Acknowledgement and Resolving
+
+To acknowledge and resolve N-central events in ilert you will need to add following notification templates.
+
+1. On the sidebar navigate to **Administration -> Defaults -> Notification Templates**.
+
+{% tabs %}
+{% tab title="Acknowledgement" %}
+1. Click on **Notification Acknowledgement**.
+
+<figure><img src="../.gitbook/assets/2 (4).png" alt=""><figcaption></figcaption></figure>
+
+2. Scroll down to **HTTP MESSAGE TEMPLATE** and enter following template:
+
+```
+{{ActiveNotificationTriggerID}}
+{{CustomerName}}
+{{DeviceName}}
+{{DeviceURI}}
+
+{{ExternalCustomerID}}
+{{AffectedService}}
+{{TaskIdent}}
+{{NcentralURI}}
+{{QualitativeOldState}}
+{{QualitativeNewState}}
+{{TimeOfStateChange}}
+{{ProbeURI}}
+{{QuantitativeNewState()}}
+{{ServiceOrganizationName}}
+{{TimeOfNotification}}
+{{AcknowledgementTime}}
+{{AcknowledgementUser}}
+{{AcknowledgementNote}}
+```
+
+<figure><img src="../.gitbook/assets/2 (3).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+
+{% tab title="Resolving" %}
+1. Click on **Return To Normal Notification**.
+
+<figure><img src="../.gitbook/assets/3 (3).png" alt=""><figcaption></figcaption></figure>
+
+2. Scroll down to **HTTP MESSAGE TEMPLATE** and enter following template:
+
+```
+{{ActiveNotificationTriggerID}}
+{{CustomerName}}
+{{DeviceName}}
+{{DeviceURI}}
+
+{{ExternalCustomerID}}
+{{AffectedService}}
+{{TaskIdent}}
+{{NcentralURI}}
+{{QualitativeOldState}}
+{{QualitativeNewState}}
+{{TimeOfStateChange}}
+{{ProbeURI}}
+{{QuantitativeNewState()}}
+{{ServiceOrganizationName}}
+{{TimeOfNotification}}
+{{AcknowledgementTime}}
+{{AcknowledgementUser}}
+{{AcknowledgementNote}}
+```
+
+3. To activate resolving: On the sidebar navigate to **Configuration -> Monitoring -> Notifications**.
+
+<figure><img src="../.gitbook/assets/4 (3).png" alt="" width="281"><figcaption></figcaption></figure>
+
+4. Now select a desired **Notification**.
+5. Click on **Trigger Details** and either add or edit a trigger.
+
+<figure><img src="../.gitbook/assets/5 (3).png" alt=""><figcaption></figcaption></figure>
+
+6. Select the **Notify on return to Normal** checkbox and save the trigger.
+
+<figure><img src="../.gitbook/assets/6 (4).png" alt=""><figcaption></figcaption></figure>
+{% endtab %}
+{% endtabs %}
+
 ## FAQ
 
 ### I am having issues creating an N-central user
