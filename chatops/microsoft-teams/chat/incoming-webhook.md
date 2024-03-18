@@ -24,11 +24,11 @@ To set up the integration, you must have admin rights in ilert.
 
 1. Select the channel in which you want to publish ilert Alerts and click **...** -> **Connectors**
 
-<figure><img src="../../../.gitbook/assets/1 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Type webhook in the search field and click **Add**
 
-<figure><img src="../../../.gitbook/assets/2 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2 (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Again click on **Add**
 
@@ -52,7 +52,7 @@ To set up the integration, you must have admin rights in ilert.
 
 1. Select the channel in which you want to publish ilert Alerts and click **...** -> **Connectors**
 
-<figure><img src="../../../.gitbook/assets/1 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. In the **Manage** tab click on **Configured**.
 

@@ -1,19 +1,19 @@
 ---
 description: >-
-  With the ilert X-Pack Alerting integration, you can create alerts in ilert
-  based on Watcher alerts.
+  With the ilert Elastic Watcher(formerly X-Pack Alerting) integration, you can
+  create alerts in ilert based on Watcher alerts.
 ---
 
-# X-Pack Alerting (Elasticsearch Watcher) Integration
+# Elastic Watcher Integration
 
-[X-Pack](https://www.elastic.co/guide/en/x-pack/current/xpack-alerting.html) alerting is a set of administrative features that enable you to watch for changes or anomalies in your data and perform the necessary actions in response.
+[Elastic Watcher](https://www.elastic.co/guide/en/kibana/8.12/watcher-ui.html) is a set of administrative features that enable you to watch for changes or anomalies in your data and perform the necessary actions in response.
 
-## In ilert: Create a X-Pack Alerting alert source <a href="#in-ilert" id="in-ilert"></a>
+## In ilert: Create a Elastic Watcher alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
-2.  Search for **X-Pack Alerting** in the search field, click on the X-Pack Alerting tile and click on **Next**.&#x20;
+2.  Search for **Elastic Watcher** in the search field, click on the Elastic Watcher tile and click on **Next**.&#x20;
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
 3. Give your alert source a name, optionally assign teams and click **Next**.
@@ -28,28 +28,22 @@ description: >-
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## In X-Pack Alerting <a href="#in-splunk" id="in-splunk"></a>
-
-{% hint style="info" %}
-**X-Pack license required**
-
-To set up the integration, you must have X-Pack license with Watcher feature enabled.
-{% endhint %}
+## In Elastic Watcher <a href="#in-splunk" id="in-splunk"></a>
 
 ### Create a watcher <a href="#create-action-sequences" id="create-action-sequences"></a>
 
-1. Go to Kibana and then to **Management -> Watcher**, then click on the **Create** button and on the **Create advanced watch** button\*\*.\*\*
+1. Go to Stack Management and then to **Alerts and Insights -> Watcher**, then click on the **Create** button and on the **Create advanced watch** button.
 
-![](../.gitbook/assets/Kibana.png)
+<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
 2. On the next page, name the watcher e.g. ilert, define conditions and actions the **Webhook URL** that you generated in ilert as follows:
 
-![](<../.gitbook/assets/Kibana (1).png>)
+<figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
 
 ```
 {
     ...
-    [CONFIGURATIONS OF YOUR X-PACK ALERTING ALERT]
+    [CONFIGURATIONS OF YOUR ELASTIC WATCHER ALERT]
     ...
     "actions" : {
         "ilert" : {
@@ -70,14 +64,14 @@ To set up the integration, you must have X-Pack license with Watcher feature ena
 }
 ```
 
-3. Finished! Your X-Pack alerts will now create alerts in ilert.
+3. Finished! Your Elastic Watcher will now create alerts in ilert.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in ilert be resolved automatically?**
 
-No, unfortunately Watcher's notification is not compatible with ilert's resolve event.
+No, unfortunately Elastic Watcher's notification is not compatible with ilert's resolve event.
 
-**Can I connect X-Pack Alerting with multiple alert sources from ilert?**
+**Can I connect Elastic Watcher with multiple alert sources from ilert?**
 
-Yes, simply add more watchers in X-Pack Alerting.
+Yes, simply add more watchers in Elastic Watcher.
