@@ -38,7 +38,7 @@ description: Create alerts in ilert from Uptime Kuma notifications
 
 3. Now click on **Setup Notification**
 
-<figure><img src="../.gitbook/assets/5 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/5 (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Choose **Webhook** in the Notification Type field
 5. Add a **Friendly Name** for your the notification
