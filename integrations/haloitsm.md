@@ -153,3 +153,9 @@
 </div>
 
 20. &#x20;Save the Runbook.
+
+## FAQ <a href="#faq" id="faq"></a>
+
+**Will alerts in ilert be resolved automatically?**
+
+Yes, HaloITSM will resolve the ilert alert once the ticket is closed or resolved.
