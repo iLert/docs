@@ -1,4 +1,13 @@
+---
+description: >-
+  HaloITSM is an IT service management solution designed to streamline IT
+  support processes and operations through ticketing, asset management, and
+  workflow automation.
+---
+
 # HaloITSM Integration
+
+This integration enables you to connect ilert and HaloITSM easily and receive critical HaloITSM alerts via push, SMS, and voice notifications.&#x20;
 
 ## In ilert: Create a HaloITSM alert source&#x20;
 
