@@ -43,7 +43,7 @@ description: >-
 
 3. Click **New**.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 18.45.41.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 18.45.41.png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Enter a Name and the following Base URL `https://api.ilert.com/`.
 
@@ -52,20 +52,20 @@ description: >-
 5. Save the custom integration.
 6. Now, click **Methods**.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 18.53.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 18.53.45.png" alt="" width="563"><figcaption></figcaption></figure>
 
 7. Then, click **New**.
 
-<figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 18.54.10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot 2024-02-23 at 18.54.10.png" alt="" width="563"><figcaption></figcaption></figure>
 
 8. Enter a **Name**.
 9. Change the **Method** to POST and enter the previously created URL path into the field.
 
-<figure><img src="../.gitbook/assets/Pasted_Image_23_02_24__18_57.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Pasted_Image_23_02_24__18_57.png" alt="" width="563"><figcaption></figcaption></figure>
 
 10. Click **Body** and choose **JSON**.
 
-<figure><img src="../.gitbook/assets/Screenshot_2024-02-23_at_18_59_49.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Screenshot_2024-02-23_at_18_59_49.png" alt="" width="563"><figcaption></figcaption></figure>
 
 11. Add the following payload to the body.
 

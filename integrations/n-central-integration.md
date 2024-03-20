@@ -6,7 +6,9 @@ description: >-
 
 # N-central Integration
 
-## In ilert: Create a N-central alert source <a href="#create-alert-source" id="create-alert-source"></a>
+
+
+In ilert: Create a N-central alert source
 
 1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
@@ -66,9 +68,6 @@ To acknowledge and resolve N-central events in ilert you will need to add follow
 {% tabs %}
 {% tab title="Acknowledgement" %}
 1. Click on **Notification Acknowledgement**.
-
-<figure><img src="../.gitbook/assets/2 (4).png" alt=""><figcaption></figcaption></figure>
-
 2. Scroll down to **HTTP MESSAGE TEMPLATE** and enter following template:
 
 ```
@@ -98,9 +97,6 @@ To acknowledge and resolve N-central events in ilert you will need to add follow
 
 {% tab title="Resolving" %}
 1. Click on **Return To Normal Notification**.
-
-<figure><img src="../.gitbook/assets/3 (3).png" alt=""><figcaption></figcaption></figure>
-
 2. Scroll down to **HTTP MESSAGE TEMPLATE** and enter following template:
 
 ```
@@ -124,6 +120,8 @@ To acknowledge and resolve N-central events in ilert you will need to add follow
 {{AcknowledgementUser}}
 {{AcknowledgementNote}}
 ```
+
+<figure><img src="../.gitbook/assets/3 (3).png" alt=""><figcaption></figcaption></figure>
 
 3. To activate resolving: On the sidebar navigate to **Configuration -> Monitoring -> Notifications**.
 
