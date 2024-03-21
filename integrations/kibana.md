@@ -56,12 +56,12 @@ description: The ilert Kibana Integration helps you to easily connect ilert with
 
 <figure><img src="../.gitbook/assets/6.png" alt="" width="563"><figcaption></figcaption></figure>
 
-10. Enter a **name** and select Webhook as the **connector type**.
+11. Enter a **name** and select Webhook as the **connector type**.
 
 <figure><img src="../.gitbook/assets/7.png" alt="" width="375"><figcaption></figcaption></figure>
 
-11. Choose the previous created ilert connector as **Webhook connector**.
-12. Enter the following payload into the **Body** field:
+12. Choose the previous created ilert connector as **Webhook connector**.
+13. Enter the following payload into the **Body** field:
 
 ```mustache
 {
@@ -73,7 +73,7 @@ description: The ilert Kibana Integration helps you to easily connect ilert with
 
 <figure><img src="../.gitbook/assets/8.png" alt=""><figcaption></figcaption></figure>
 
-13. Save the rule.
+14. Save the rule.
 
 ## FAQ
 
