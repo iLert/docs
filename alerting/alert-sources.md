@@ -12,15 +12,15 @@ ilert provides the following inbound integration options:
 
 ## Create an alert source
 
-1.  Go to **Alert sources** -> **Alert sources** and click on **Create new alert source**\
+1.  Go to **Alert sources** -> **Alert sources** and click **Create new alert source.**\
 
 
     <figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
-2.  Select your integration type in the search search field click on **Next**.\
+2.  Select your integration type in the search field and click **Next**.\
 
 
     <figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
-3. Give your alert source a name, optionally assign teams and click **Next**.
+3. Give your alert source a name, optionally assign teams, and click **Next**.
 4.  Select an **escalation policy** by creating a new one or assigning an existing one. \
 
 
@@ -29,7 +29,17 @@ ilert provides the following inbound integration options:
 
 
     <figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
-6. The next page shows additional settings such as custom alert templates or notification prioritiy. Click on **Finish setup** for now.
+6. The next page shows additional settings, such as custom alert templates or notification priority. Click on **Finish setup** for now.
+
+## Event Explorer
+
+Event Explorer provides a more detailed view of alerts received from the specific alert source. To see alert information in JSON format, choose the alert source you are interested in and navigate to the "Event Explorer" section beneath the source title. Event Explorer facilitates the search for specific events linked to alert sources using keywords or time frames.
+
+<figure><img src="../.gitbook/assets/docs Event Explorer.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Event Explorer is available for a selected list of alert sources, with event history available from March 2022 and alert correlations from December 2023 onwards.
+{% endhint %}
 
 ## Alert template
 
