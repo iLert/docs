@@ -63,7 +63,8 @@
 
 * [Introduction](ilert-ai/introduction.md)
 * [Using ilert AI for efficient incident communication](ilert-ai/generating-incidents-using-ai.md)
-* [Using ilert AI for post-mortem creation (coming soon)](ilert-ai/generating-incident-updates-through-ai.md)
+* [Using ilert AI for post-mortem creation](ilert-ai/generating-incident-updates-through-ai.md)
+* [Using ilert AI for schedule generation](ilert-ai/using-ilert-ai-for-schedule-generation.md)
 
 ## Call Routing
 
@@ -73,6 +74,7 @@
   * [Managing call routing alerts](call-routing/getting-started-with-call-routing/managing-call-routing-incidents.md)
   * [Adding webhooks and outbound chat messages](call-routing/getting-started-with-call-routing/adding-webhooks-and-outbound-chat-messages.md)
 * [Uploading custom audio responses](call-routing/uploading-custom-audio-responses.md)
+* [Call Routing 2.0 (BETA)](call-routing/call-routing-2.0-beta.md)
 
 ## User Administration
 

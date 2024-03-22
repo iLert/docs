@@ -63,7 +63,7 @@ To change the service on a status page
 3.  Select your layout option and click save\
 
 
-    <figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (88) (1).png" alt=""><figcaption></figcaption></figure>
 
 
 

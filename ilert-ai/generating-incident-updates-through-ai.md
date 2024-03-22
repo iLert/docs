@@ -1,7 +1,7 @@
-# Using ilert AI for post-mortem creation (coming soon)
+# Using ilert AI for post-mortem creation
 
 
 
 {% hint style="info" %}
-This feature is currently being developed and will be available soon.
+Documentation is currently in progress for this feature
 {% endhint %}

@@ -12,7 +12,7 @@ Define support hours for alert sources and call routing numbers to manage the pr
 2.  Click on **Create new support hours**\
 
 
-    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
 
 
 3. Select the team to which the support hours belong to (if any), give it a name, and enter your support hours.

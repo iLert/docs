@@ -8,7 +8,7 @@ You need to be the account owner to setup SSO.
 
 1\. Click on the cog-icon on the top right and go to **Account settings**
 
-![](<../../.gitbook/assets/image (2) (1) (1).png>)
+![](<../../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 2\. Go to the **Single sign-on** tab.
 
@@ -29,4 +29,3 @@ If you revoke a user's access at your SSO provider, the user won't be able to lo
 #### Are multiple GSuite domains supported?
 
 No, only a single domain is supported.
-
