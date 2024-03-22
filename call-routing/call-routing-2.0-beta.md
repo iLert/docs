@@ -32,27 +32,59 @@ This section outlines the steps to create a call flow that connects incoming cal
 * **Audio message:** Plays an audio message to the caller
 * **Route call:** Connects the caller with a user.  Users can be selected directly or indirectly through a schedule. This node adds two branches to the flow `Call completed` and `No one available`
 
-### What are the differences between the new and legacy Call Routing experience?
+## FAQ
 
-* With Call Routing 2.0, incoming calls do not create alerts by default. To create alerts, you need to use a **Create Alert** node in your call flow
-* Call Routing 2.0 no longer relies on [escalation policies](../on-call-management-and-escalations/escalation-policies.md) to route calls. Instead, you can include users or schedules one by one
-* Call Routing 2.0 allows you to build complex call flows that were not possible with legacy call routing, e.g. multi-level IVR menus, PIN codes, or multi-language call flows.
+### What are the differences between the new and legacy Call Routing?
+
+Call Routing 2.0 introduces a radical transformation in how call flows are created and managed compared to the legacy call routing. Here's an overview of the key differences:
+
+#### Call Flow Design
+
+* **Legacy Call Routing** implemented a static call flow design, typically following a linear sequence: Greeting -> IVR Menu -> Voicemail.
+* **Call Routing 2.0** offers a dynamic and visual interface for building call flows. This flexibility allows for the design of complex scenarios, including multi-level IVR menus and multi-language call flows.
+
+#### Nodes and Features
+
+* **Legacy Call Routing** lacked the versatility in customizing call flows beyond the basic configurations.
+* **Call Routing 2.0** introduces nodes, a set of new features that expand functionality. For example, the "Ask for PIN code" node adds an extra layer of security by requiring callers to enter a PIN code.
+
+#### Alert Creation
+
+* In **Legacy Call Routing**, incoming calls might automatically generate alerts based on predefined conditions.
+* **Call Routing 2.0** changes this approach by not creating alerts by default. Instead, it employs a **Create Alert** node within the call flow to generate alerts, offering more control over when and how alerts are created.
+
+#### Use of Escalation Policies
+
+* **Legacy Call Routing** was somewhat restrictive in including users or schedules into call flows, and required you to use [escalation policies](../on-call-management-and-escalations/escalation-policies.md).&#x20;
+* **Call Routing 2.0** simplifies this process, allowing for the direct inclusion of users or schedules, facilitating a more streamlined approach to call routing based on schedules or static user rules.
+
+In summary, Call Routing 2.0 provides a more adaptable, feature-rich platform for call flow management, moving away from the limitations of our old call routing to embrace flexibility, enhanced security, and improved user experience.
 
 ### When do I need to migrate to Call Routing 2.0?
 
-Once Call Routing 2.0 is released from Beta and becomes generally available, current users will need to transition from their old call routing configurations to Call Routing 2.0. They will have **12 months** to complete this migration to Call Routing 2.0.
+Upon the general availability release of Call Routing 2.0, existing users must transition from their previous call routing setups to the new version. This migration must be completed within **12 months** of the release date.
 
-### How can I migrate my current legacy call configuration to Call Routing 2.0
+### How to migrate an existing phone number to the new call routing?
 
-The legacy call routing and new call routing will live side by side and are independent from each other. We recommend the following approach to migrate your legacy configuration to Call Routing 2.0:
+Follow the steps below to seamlessly transition your incoming call routing to the new Call Routing 2.0:
 
-1. Rebuild your legacy configuration using the new Call Flow builder. Do not assign a number yet.
-2. Save your Call Flow. If you are unsure about your call flow, feel free to ask our support to double check your configuration. Send an email to suppport@ilert.com and include a link to your legacy call routing number and the call flow that you have built.
-3. Once you're ready to publish your new call flow
-   1. Open the edit view of your call flow
-   2. Click on the **Incoming call** node and assign the phone number that you'd like to use for this call flow\
-      ![](<../.gitbook/assets/image (4).png>)
-   3. Click on the **Publish** button. You'll see a warning that your phone number is already being used by the legacy call routing. Click on **Save anyway**.
-   4. Incoming call will now use your new call flow. \
+**Prepare your new call flow**
 
+1. Rebuild your legacy configuration using the new Call Flow builder. Do not assign a phone number to it yet. Save your Call Flow by clicking in the **Save** button in the top right.
+2. (Optional) If you need assistance, our support team is here to help. Email suppport@ilert.com with a link to your legacy routing number and the call flow you've created for a review.
+
+**Publish your call flow**
+
+1. Once your Call Flow is ready, assign a phone number to it. Click on the Incoming call node within your Call Flow and select the number you'd like to use:\
+   ![](<../.gitbook/assets/image (4).png>)
+2. Publish your call flow by clicking on the **Publish** button.&#x20;
+3. A warning will appear if the phone number is already in use by the legacy routing system. Proceed by clicking **Publish anyway**.
+4. Incoming call will now use your new call flow.&#x20;
+
+### Limitations of Call Routing 2.0 during the Beta
+
+* Please do not use Call Routing 2.0 in mission critical workflows during the Beta phase.&#x20;
+* Call logs currently contain limited information and do not show you detailed execution steps of your call flow. We will introduce additional logs in the coming weeks.
+
+### &#x20;
 
