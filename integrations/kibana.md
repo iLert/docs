@@ -63,6 +63,12 @@ description: The ilert Kibana Integration helps you to easily connect ilert with
 12. Choose the previous created ilert connector as **Webhook connector**.
 13. Enter the following payload into the **Body** field:
 
+
+
+{% hint style="info" %}
+This payload contains [mustache](https://mustache.github.io/mustache.5.html) and is not valid for testing the connector.
+{% endhint %}
+
 ```mustache
 {
   "alert" : {{{ alert }}},
