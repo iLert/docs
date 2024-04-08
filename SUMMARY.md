@@ -246,6 +246,7 @@
 * [Twilio Errors Integration](integrations/twilio-errors.md)
 * [Uptime Kuma Integration](integrations/uptime-kuma.md)
 * [UptimeRobot Integration](integrations/uptime-robot.md)
+* [VictoriaMetrics Integration](integrations/victoria-metrics.md)
 * [Webhook Integration](integrations/webhook.md)
 * [Prisma Cloud Integration](integrations/prismacloud.md)
 * [Zabbix Integration](integrations/zabbix/README.md)
