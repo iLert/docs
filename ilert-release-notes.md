@@ -613,8 +613,8 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* New: [Zoom Chat](integrations/zoom/chat.md) Integration
-* New: [Zoom Meeting](integrations/zoom/meeting.md) Integration
+* New: [Zoom Chat](broken-reference) Integration
+* New: [Zoom Meeting](broken-reference) Integration
 * New: [Microsoft Teams Chat](chatops/microsoft-teams/chat/) Integration
 * New: [Microsoft Teams Meeting](chatops/microsoft-teams/meeting.md) Integration
 * New: [MXToolBox](integrations/mxtoolbox.md) Integration
@@ -718,7 +718,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* [Sysdig Inbound and Outbound Integration](integrations/sysdig/)
+* [Sysdig Inbound and Outbound Integration](integrations/sysdig.md)
 
 ### Improvements
 
@@ -795,9 +795,9 @@ This has been in the making for a while: we have completely overhauled our alert
 * [AWS Personal Health Dashboard](integrations/aws-phd.md)
 * [StatusCake](integrations/statuscake.md)
 * Serverless outbound integrations:
-  * [AWS Lambda](integrations/aws-lambda.md)
-  * [Google Cloud Functions](integrations/gcf.md)
-  * [Microsoft Azure Functions](integrations/azure-functions.md)
+  * [AWS Lambda](broken-reference)
+  * [Google Cloud Functions](broken-reference)
+  * [Microsoft Azure Functions](broken-reference)
 * [Icinga v2.x](integrations/icinga.md) (updated): there is a dedicated plugin for Icinga now on our [GitHub repo](https://github.com/iLert/ilert-icinga). You can now override the alert priority from within Icinga and we include the comments that you enter in Icinga when ack’ing a problem in the event log of the alert.
 * [JIRA](integrations/jira/) (updated): When you setup a connection from your alert source in ilert to your JIRA instance, projects and issue types are now dynamically fetched from your JIRA instance, so you can select the issue types when ilert syncs an alert to JIRA. You can even include custom fields.
 * [Webhook](integrations/webhook.md) (updated): you can now fully customize the payload for outbound webhooks.
