@@ -1,8 +1,8 @@
 ---
 description: >-
-  JumpCloud is a cloud based directory as a service platform that is used to
-  securely manage users identity, devices, and access across things such as VPN,
-  Wi-Fi, Servers and workstations.
+  JumpCloud is a cloud-based open directory platform that is used to securely
+  manage users' identity, devices, and access across things such as VPN, Wi-Fi,
+  Servers, and workstations.
 ---
 
 # JumpCloud Integration
