@@ -229,12 +229,9 @@
 * [Zabbix Integration](integrations/zabbix/README.md)
   * [Zabbix 4.4+ Integration](integrations/zabbix/native.md)
   * [Zabbix 2.2 – 4.3 Integration](integrations/zabbix/script.md)
-* [Zammad Integration](integrations/zammad/README.md)
-  * [Zammad Inbound Integration](integrations/zammad/inbound.md)
-* [Zapier Integration](integrations/zapier/README.md)
-  * [Zapier Inbound Integration](integrations/zapier/inbound.md)
-* [Zendesk Integration](integrations/zendesk/README.md)
-  * [Zendesk Inbound Integration](integrations/zendesk/inbound.md)
+* [Zammad Integration](integrations/zammad.md)
+* [Zapier Integration](integrations/zapier.md)
+* [Zendesk Integration](integrations/zendesk.md)
 
 ## Outbound integrations
 

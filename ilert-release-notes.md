@@ -653,7 +653,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* New: [Zammad Inbound](integrations/zammad/inbound.md) and [Outbound](outbound-integrations/zammad.md) Integration
+* New: [Zammad Inbound](broken-reference) and [Outbound](outbound-integrations/zammad.md) Integration
 * New: [Mattermost Outbound](outbound-integrations/mattermost.md) Integration
 * New: [Splunk Inbound](integrations/splunk.md) Integration
 * New: [Elastic Search Guard Inbound](integrations/search-guard.md) Integration
@@ -702,7 +702,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* New: Zapier [Inbound](integrations/zapier/inbound.md) and [Outbound](outbound-integrations/zapier.md) Integration
+* New: Zapier [Inbound](broken-reference) and [Outbound](outbound-integrations/zapier.md) Integration
 * New: Jira [Inbound](broken-reference) Integration
 * New: Server Density [Inbound](integrations/serverdensity.md) Integration
 * New: [Consul](integrations/consul.md) integration

@@ -1,60 +1,143 @@
 ---
-title: Zendesk Integration
-seoTitle: 'iLert: Zendesk Integration for Alerting | Incident Response | Uptime'
-description: The ilert Zendesk Integration helps you to easily connect ilert with Zendesk.
-date: '2018-12-29T05:02:05.000Z'
-weight: 1
+description: >-
+  Create alerts in ilert from Zendesk tickets and vice versa — with ilert's
+  Zendesk integration
 ---
 
 # Zendesk Integration
 
-**Admin Rights Required**
+[Zendesk](https://www.zendesk.com/) offers a range of products that streamline processes and enhance productivity for support teams, enabling them to provide more effective and personalized service experiences. The platform allows businesses to manage customer interactions across various communication channels, such as email, chat, and social media, consolidating them into a single, unified interface.
 
-You need to have admin rights to setup this integration.
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Zendesk Outbound Integration</strong></td><td>Create tickets in Zendesk from ilert alerts</td><td><a href="../outbound-integrations/zendesk.md">zendesk.md</a></td></tr></tbody></table>
 
-## In ilert: create a Zendesk connector and link it with an alert source <a id="alarm-source"></a>
+## In ilert: Create a Zendesk alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
-**Admin authorization required** To set up the integration, you must have admin rights in ilert.
+1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
 
-1. Click the gear icon → **Connectors**
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+2.  Search for **Zendesk** in the search field, click on the Zendesk tile and click on **Next**.&#x20;
 
-![](../.gitbook/assets/zd1.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+3. Give your alert source a name, optionally assign teams and click **Next**.
+4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
-2. Click on **Add Connector**
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select you [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
 
-3. Select **Zendesk Support** and fill in the details
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
+7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
 
-![](../.gitbook/assets/zd2.png)
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-4. Go to **Alert sources** and select the alert source you want to connect with Zendesk. Click on **Connections → Add new connections**.
+## In Zendesk: Create a Target <a href="#in-topdesk" id="in-topdesk"></a>
 
-![](../.gitbook/assets/zd3.png)
+1. Go to Zendesk and then to **Settings -> Extensions** and click on the **Add target** button
 
-5. Select **Zendesk Support** as Type and select the **Connector** that you've create in step 3. Pick a name and priority. Tickets created in Zendesk will have this priority. Click **Save**.
+![](../.gitbook/assets/a\_-\_Agent.png)
 
-![](../.gitbook/assets/zd4.png)
+2. On the next page click the **HTTP target** link
 
-6. You're done! You can now test this connection by clicking on **Test this connection**. A test ticket will be created in Zendesk.
+![](<../.gitbook/assets/a\_-\_Agent (1).png>)
 
-![](../.gitbook/assets/zd5.png)
+3. On the next page:
+4. In the **Title** section, enter a name eg. ilert
+5. In the **URL** section, paste the **Webhook URL** that you generated in ilert
+6. In the **Method** section, choose **POST**
+7. In the **Content type** section, choose **JSON**
+8. In the bottom section choose **Create target**
+9. Click the **Submit** button
 
-## In Zendesk: Create API Token <a id="api-token"></a>
+![](<../.gitbook/assets/a\_-\_Agent (2).png>)
 
-1. Optional: create a dedicated ilert user in Zendesk. That way, you will be able to distinguish tickets created by ilert.
+### Create a Trigger
 
-2. Go to admin settings, select the API channel, enable token access and create an API token. 
+1. Go to Zendesk and then to **Business Rules -> Triggers** and click on the **Add trigger** button
 
-![](../.gitbook/assets/zd6.png)
+![](<../.gitbook/assets/a\_-\_Agent (3).png>)
 
-3. You will need this API token later in ilert. Make sure to copy and store it. You won't be able to see it again in Zendesk. Click **Save**.
+2. On the next page:
+3. In the **Trigger name** section, enter a name eg. ilert
+4. In the **Category** section, choose a category, e.g. Notifications
+5. In the **Meet ANY of following conditions** section, add **Ticket is created** and **Ticket is updated** rules
 
-## FAQ <a id="faq"></a>
+![](<../.gitbook/assets/a\_-\_Agent (4).png>)
 
-**Are tickets updated in Zendesk if the alert is updated in ilert?**
+6. Scroll down to the **Actions** panel and choose the **ilert Notify target** that you created above
+7. In the **JSON body** sections, paste the following object:
 
-Yes, status updates to ilert Alerts are reflected in the title of the Zendesk ticket, e.g. `RESOLVED` host compute.infra is `DOWN`.
+```javascript
+{
+  "id": "{{ticket.id}}",
+  "title": "{{ticket.title}}",
+  "description": "{{ticket.description}}",
+  "via": "{{ticket.via}}",
+  "status": "{{ticket.status}}",
+  "priority": "{{ticket.priority}}",
+  "requester_name": "{{ticket.requester.name}}",
+  "group_name": "{{ticket.group.name}}",
+  "assignee_name": "{{ticket.assignee.name}}",
+  "account": "{{ticket.account}}",
+  "link": "{{ticket.link}}",
+  "latest_comment": "{{ticket.latest_comment}}",
+  "latest_comment_author_name": "
+{% raw %}
+{% for comment in ticket.comments limit:1 offset:0 %}{{comment.author.name}}{% endfor %}
+{% endraw %}"
+}
+```
 
-**Can I choose which updates to publish to a ticket in Zendesk?**
+8. Click on the **Create** button
 
-Currently not. If that's something you'd like see in ilert, we look forward to your feedback via chat or e-mail.
+![](<../.gitbook/assets/Notification\_Center (1).png>)
 
+## Zendesk Incident Lifecycle
+
+| When I create an Zendesk ticket with status... | ...then an ilert Alert...                                             |
+| ---------------------------------------------- | --------------------------------------------------------------------- |
+| **New** or **Open**                            | is created                                                            |
+| **Pending**                                    | is created                                                            |
+| **Solved** or **Closed**                       | <p>will not be created and a</p><p>400 (bad request) error occurs</p> |
+
+| When I update an Zendesk ticket with status... | ...and the ilert alert... | ...then the/an ilert Alert...                                         |
+| ---------------------------------------------- | ------------------------- | --------------------------------------------------------------------- |
+| **New** or **Open**                            | does not exist            | is created                                                            |
+| **Solved** or **Closed**                       | does not exist            | <p>will not be created and a</p><p>400 (bad request) error occurs</p> |
+| **Pending**                                    | does not exist            | is created                                                            |
+| **New** or **Open**                            | exists                    | doesn't change                                                        |
+| **Solved** or **Closed**                       | exists                    | change status to **Resolved** if not already resolved                 |
+| **Pending**                                    | exists                    | change status to **Accepted** if not already accepted                 |
+
+## Additional Custom Ticket Details <a href="#faq" id="faq"></a>
+
+You may provide an additional field for the Zendesk trigger template to render additional information into ilert alert details.
+
+```javascript
+{
+  "additional_ticket_details": {
+        "test": "{{ticket.title}}",
+        "two": 3,
+        "three": ["one", "two", "three"]
+    }
+}
+```
+
+The `additional_ticket_details` map's values will be displayed in a human readable format in the alert's detail section.
+
+## FAQ <a href="#faq" id="faq"></a>
+
+### **Will alerts in ilert be resolved automatically?**
+
+Yes, as soon as an Zendesk Ticket is completed, the alert in ilert will be resolved automatically.
+
+### **Can I connect Zendesk with multiple alert sources from ilert?**
+
+Yes, simply create more Webhooks in Zendesk.
+
+### **Can I customize the alert messages?**
+
+No.
+
+### Are Zendesk comments synced with ilert alerts?
+
+Yes, if the variables `latest_comment` and `latest_comment_author_name` are provided in your Zendesk trigger JSON template the comments will be synced to ilert alerts.
