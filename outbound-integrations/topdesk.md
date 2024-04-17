@@ -58,7 +58,7 @@ description: Create tickets in TOPdesk based on alert events from ilert
 
 ![](<../.gitbook/assets/create\_connector\_button (4).png>)
 
-3. Select **TOPdesk** as **type** and fill in all fields. Enter a name, the URL of your TOPdesk server, username and password of the API user that you created [in the last step](outbound-2.md).
+3. Select **TOPdesk** as **type** and fill in all fields. Enter a name, the URL of your TOPdesk server, username and password of the API user that you created [in the last step](topdesk.md).
 
 ![](<../.gitbook/assets/iLert (69).png>)
 
