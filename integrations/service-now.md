@@ -1,66 +1,179 @@
 ---
-title: ServiceNow Integration
-seoTitle: 'iLert: ServiceNow Integration for Alerting | Incident Response | Uptime'
 description: >-
   The ilert ServiceNow Integration helps you to easily connect ilert with
   ServiceNow.
-date: '2018-12-29T05:02:05.000Z'
-weight: 1
 ---
 
 # ServiceNow Integration
 
-## In ilert: Create ServiceNow Connector and link to alert source <a id="alarm-sources"></a>
+[ServiceNow ](https://www.servicenow.com/)is a cloud-based platform that provides workflow automation, IT service management (ITSM), and digital workflow solutions to enhance the efficiency of business operations. Initially recognized for its ITSM capabilities, ServiceNow has since expanded its services to include a broader range of business functions, including customer service, human resources, and security operations.
 
-1. Click the gear icon → **Connectors**
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>ServiceNow Outbound Integration</strong></td><td>Create ServiceNow tickets from ilert alerts</td><td><a href="../outbound-integrations/servicenow.md">servicenow.md</a></td></tr></tbody></table>
 
-![](../.gitbook/assets/sn5.png)
+ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Management (SM) software.
 
-2. Click **Add Connector**
+## In ilert: Create a ServiceNow alert source <a href="#in-ilert" id="in-ilert"></a>
 
-![](../.gitbook/assets/sn6.png)
+1. Go to the "Alert sources" tab and click **Create new alert source**
+2. Enter a name and select your desired escalation policy. Select "ServiceNow" as the **Integration Type** and click on **Save**.
 
-3. Select **ServiceNow** as **type** and fill out all fields.
+![](../.gitbook/assets/Screenshot\_09\_02\_21\_\_07\_51.png)
 
-![](../.gitbook/assets/sn7.png)
+1. On the next page, a **ServiceNow URL** is generated. You will need this URL below when setting up the hook in ServiceNow.
 
-4. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish in ServiceNow. Click on **Connections → Add new connection**
+![](../.gitbook/assets/Screenshot\_09\_02\_21\_\_07\_52.png)
 
-![](../.gitbook/assets/sn8.png)
+## In ServiceNow: Create a business rule <a href="#in-servicenow" id="in-servicenow"></a>
 
-5. Select **ServiceNow** as the **type**, select the connector created in step 3, fill in all fields.
+1. Go to ServiceNow, search for **Incidents**, **\*\*then open the header menu and choose** Configure -> Business Rules\*\*
 
-![](../.gitbook/assets/sn9.png)
+![](../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_40.png)
 
-6. Finished! You can now test the connection by clicking the **Test this connection** button. A test issue is then published in ServiceNow.
+1. In the **Business Rules** view click on **New** to create a new business rule
 
-![](../.gitbook/assets/sn10.png)
+![](../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_42.png)
 
-## In ServiceNow: Create ilert user <a id="create-user"></a>
+1. Name the business rule e.g. **ilert Alerts**, choose **Advanced** option, in the **When to run** section choose **async** then choose **Insert** and **Update** options
 
-1. Go to the **User Administration** area
+![](../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_43.png)
 
-![](../.gitbook/assets/sn1.png)
+1. Go to Advanced tab and paste the following code into the script section:
 
-2. Live an internal ilert user and click **Submit**
+```
+(function executeRule(current, previous /*null when async*/) {
 
-![](../.gitbook/assets/sn2.png)
+    var iLertUrl = "<your alert source URL here>";
 
-3. Call up the ilert user page and click the **Edit** button in the **Roles** tab.
 
-![](../.gitbook/assets/sn3.png)
+    function glideRecordToJson(gr) {
+        var obj = {};
+        for (var prop in gr) {
+            if (gr[prop]){
+                obj[prop] = gr.getValue(prop);
+            }
+        }
+        return obj;
+    }
 
-4. Select the **incident\_manager** role and click **Save** .
+    var obj = glideRecordToJson(current);
+    obj.server_url = gs.getProperty("glide.servlet.uri");
+    var body = JSON.stringify(obj);
+    var request = new sn_ws.RESTMessageV2();
+    request.setEndpoint(iLertUrl);
+    request.setHttpMethod("POST");
+    request.setRequestBody(body);
+    request.setRequestHeader("Accept", "application/json");
+    request.setRequestHeader("Content-Type", "application/json");
 
-![](../.gitbook/assets/sn4.png)
+    var response = request.execute();
+    gs.log(response.getBody());
 
-## FAQ <a id="faq"></a>
 
-**Are updates to an alert published in the ServiceNow Alert?**
+})(current, previous);
+```
 
-Yes, the status of the ilert Incident is shown in the title of the JIRA ticket, eg `RESOLVED` Host compute.infra is `DOWN`.
+1. Click on **Submit** or **Update** to save the business rule
 
-**Can I choose which updates to an alert are published in ServiceNow?**
+![](../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_46.png)
 
-Currently not. If you wish, we look forward to your feedback via chat or email.
+## ServiceNow Incident Lifecycle <a href="#lifecycle" id="lifecycle"></a>
 
+| When I create an ServiceNow ticket with status... | ...then an ilert Alert...                                             |
+| ------------------------------------------------- | --------------------------------------------------------------------- |
+| **New**                                           | is created                                                            |
+| **In Progress** or **Complete** or **Closed**     | <p>will not be created and a</p><p>400 (bad request) error occurs</p> |
+
+| When I update an ServiceNow ticket with status... | ...and the ilert alert... | ...then the/an ilert Alert...                                         |
+| ------------------------------------------------- | ------------------------- | --------------------------------------------------------------------- |
+| **New**                                           | does not exist            | is created                                                            |
+| **In Progress** or **Complete** or **Closed**     | does not exist            | <p>will not be created and a</p><p>400 (bad request) error occurs</p> |
+| **New**                                           | exists                    | doesn't change                                                        |
+| **Complete** or **Closed**                        | exists                    | change status to **Resolved** if not already resolved                 |
+| **In Progress**                                   | exists                    | change status to **Accepted** if not already accepted                 |
+
+## Advanced configuration
+
+ilert's ServiceNow integration allows you to easily configure advanced settings such as dynamic escalation policy routing and priority mapping.
+
+![](<../.gitbook/assets/image (57) (1) (1) (1).png>)
+
+To get access to the advanced features, you will have to provide access credentials to your ServiceNow instance first. The provided user will need the following permissions in ServiceNow:
+
+* `sys_user`
+* `sys_user_group`
+* `cmdb_ci_service`
+* `service_offering`
+* `sys_choice`
+* `sys_dictionary`
+
+This will grant you access to:
+
+### Dynamic priority mapping
+
+When selecting priority mapping, ilert will contact your ServiceNow instance and fetch all available priorities of ServiceNow alerts. You will then be able to choose a mapping for each of these and determine how ilert will treat them when creating alerts in ilert.
+
+![](<../.gitbook/assets/image (55) (1) (2).png>)
+
+### Dynamic escalation policy routing
+
+When selecting escalation policy routing, ilert will contact your ServiceNow instance and fetch all available alert fields. You will then be able to choose an alert field that should be used for incoming alerts in ilert to determine the routing key.
+
+![](<../.gitbook/assets/image (51) (1).png>)
+
+You may choose to give escalation policies in ilert a unique routing key.
+
+![](<../.gitbook/assets/image (54) (3).png>)
+
+With an incoming event ilert will try to find the right escalation policy based on the routing key and assign the alert to the escalation policy. If no routing key is provided, ilert will use the assigned escalation policy of the alert source.
+
+### Bidirectional alert synchronisation
+
+When providing credentials you may choose to activate bidirectional mode on the ServiceNow alert sources. This will cause your alert source to be automatically linked with an outbound connector and alert action. This way status changes to ilert alerts will synchronize to ServiceNow tickets.
+
+![](<../.gitbook/assets/image (53) (1) (1) (1).png>)
+
+When saving the ServiceNow alert source with the bidirectional setting enabled, it will automatically create an outbound connector for you and take you to the creation page of the necessary alert action, **please make sure to continue with the setup of the action to finish your bidirectional alert source setup.**
+
+
+
+![](<../.gitbook/assets/image (56) (1).png>)
+
+### Good to know
+
+\
+In the bidirectional setup, ilert will try to map users automatically (if **Caller ID** in alert action is left empty) based on their email address. This accounts for actions taken in ilert and synced back to ServiceNow, as well as actions taken in ServiceNow and send to ilert.
+
+{% hint style="warning" %}
+Remember to leave the Caller ID field in the alert action empty for automated user mapping to work properly
+{% endhint %}
+
+When providing a **comment** to the alert in ilert while **resolving** it, ilert will make sure sync the comments content as **resolve information** to the alert in ServiceNow.
+
+### Understanding ServiceNOW <-> ilert flows
+
+{% hint style="info" %}
+This refers to the bidirectional setup
+{% endhint %}
+
+Synchronously mapping the the ServiceNOW ticket/incident lifecycle to the immutable lifecycle of an ilert alert, is not a simple back and forth. The connector runs a lot of state comparisons to identify if a ticket/incident update is needed based on the latest change event of an alert.
+
+| Incoming event                                                                                   | State check                                                                                                                                                                                                                | Outgoing change operation                                                                                                                                                        |
+| ------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **New (1)** ticket event from ServiceNOW                                                         | If alert does not exist, it is created, otherwise the event is dropped (even if the corresponding alert for the ticket is in RESOLVED state) this is determined based on the **sys\_id** of the ticket                     | Nothing, except if the **priority** or **assignment** of the alert differs from the original ticket status e.g. through configurations of the alert source or escalation policy  |
+| **In Progress (2)** or **Complete/Resolved (6)** or **Closed (7)** ticket update from ServiceNOW | <p>If the alert does not exist, the event is dropped, otherwise:<br><strong>status -> transition</strong><br><strong>priority -> raise</strong><br><strong>assignment -> re-routing</strong><br>Operations might occur</p> | Usually there should be no outbound event triggered through this change, however a re-route operation will likely trigger an asynchronous escalation or more as follow up events |
+| Responder re-routes through ilert                                                                | A different escalation policy is assigned and escalation is restarted                                                                                                                                                      | If **assignmentGroup** or similar mappings are configured and they differ due to the changed **routingKey** of the assigned escalation policy the ticket will be updated         |
+| Responder accepts through ilert                                                                  | Alert is accepted                                                                                                                                                                                                          | If the ticket is not yet accepted, the status will be updated to In Progress if                                                                                                  |
+| Responder raises priority through ilert                                                          | Alert's priority is raised from **LOW** to **HIGH** and escalation of the assigned policy is triggered                                                                                                                     | Depending on the ticket's priority it is updated and                                                                                                                             |
+| Responder adds a comment                                                                         | Comment is added to alert                                                                                                                                                                                                  | The comment is added to the ticket's notes                                                                                                                                       |
+| Automated escalation of alert in ilert                                                           | Reaching the next escalation level, might add new responders to the alert                                                                                                                                                  | This might assign the ticket to a different user                                                                                                                                 |
+| Responder resolves through ilert                                                                 | Alert is resolved                                                                                                                                                                                                          | If the ticket is not yet in status **Complete/Resolved (6), Closed (7) or Canceled (8)** it will be updated                                                                      |
+
+## FAQ <a href="#faq" id="faq"></a>
+
+**Will alerts in ilert be resolved automatically?**
+
+Yes
+
+**Can I connect ServiceNow with multiple alert sources from ilert?**
+
+Yes, simply create more business rules in ServiceNow.

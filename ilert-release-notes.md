@@ -542,7 +542,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* added dynamic user-, priority- and policy mapping to our [ServiceNow integration](integrations/service-now/inbound.md)
+* added dynamic user-, priority- and policy mapping to our [ServiceNow integration](broken-reference)
 * updated [Jira inbound integration](broken-reference) to support alert creation on update events
 * added new fields for [ServiceNow outbound](outbound-integrations/servicenow.md) alert creation
 
@@ -657,7 +657,7 @@ This has been in the making for a while: we have completely overhauled our alert
 * New: [Mattermost Outbound](outbound-integrations/mattermost.md) Integration
 * New: [Splunk Inbound](integrations/splunk.md) Integration
 * New: [Elastic Search Guard Inbound](integrations/search-guard.md) Integration
-* New: [ServiceNow Inbound](integrations/service-now/inbound.md) Integration
+* New: [ServiceNow Inbound](broken-reference) Integration
 * Updated PRTG integration: custom alert summary and details based on PRTG placeholders.
 
 ### Improvements
