@@ -1,63 +1,85 @@
 ---
-description: >-
-  The ilert ServiceNow Outbound Integration helps you to easily connect ilert
-  with ServiceNow.
+description: Create tickets in TOPdesk based on alert events from ilert
 ---
 
-# ServiceNow Outbound Integration
+# TOPdesk Outbound Integration
 
-ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Management (SM) software.
+## In TOPdesk: Create an API user <a href="#in-topdesk" id="in-topdesk"></a>
 
-## In ilert: Create a ServiceNow Connector and link to alert source <a href="#alarm-sources" id="alarm-sources"></a>
+1. Optional: create a dedicated ilert user in TOPdesk. This has the advantage that you can distinguish the TOPdesk tickets created by ilert.
+2. Go to **Modules**, then to **Supporting Files**, and click on **Operator**
 
-1. Click the gear icon → **Connectors**
+![](../.gitbook/assets/tpdko1.png)
 
-![](<../../.gitbook/assets/go\_to\_connectors (1) (1) (4).png>)
+3. In the **Surname** section, enter a name eg. ilert
+4. In the **Site** section, choose **\[System]**
+5. In the **Email** section, enter a email eg. support@ilert.com
+6. In the **Login name** section, click on **Edit login data** button
 
-2. Click **Create Connector**
+![](../.gitbook/assets/tpdko2.png)
 
-![](<../../.gitbook/assets/create\_connector\_button (6).png>)
+7. On the modal window, enter **Login Name**, **New Password**, **Repeat password** and click **OK**. Write down your username. You will need it later in ilert.
 
-3. Select **ServiceNow** as **type** and fill out all fields.
+![](../.gitbook/assets/tpdko3.png)
 
-![](<../../.gitbook/assets/iLert (64).png>)
+8. Click on **Save**
+9. Go to **AUTHORIZATION** tab and click on **Links Wizard**
 
-4. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish in ServiceNow. Click on **Alert actions → Create alert action**
+![](../.gitbook/assets/tpdko4.png)
 
-![](<../../.gitbook/assets/new\_incident\_action (10).png>)
+10. &#x20;On the modal window, choose **\_API** permission and click on **Link**
 
-5. Select **ServiceNow** as the **type**, select the connector created in step 3, fill in all fields.
+![](../.gitbook/assets/tpdko5.png)
 
-![](<../../.gitbook/assets/iLert (65).png>)
+11. On the modal window, ensure that permisson group is linked and click on **OK**
 
-6. Finished! You can now test the connection by clicking the **Test this connection** button. A test issue is then published in ServiceNow.
+![](../.gitbook/assets/tpdko6.png)
 
-![](<../../.gitbook/assets/iLert (66).png>)
+12. &#x20;Logout and login with the new `iLert` account
+13. &#x20;Go to **My Settings** and click on **Add** in the **Application passwords** section
 
-## In ServiceNow: Create an ilert user <a href="#create-user" id="create-user"></a>
+![](../.gitbook/assets/tpdko6.1.png)
 
-1. Go to the **User Administration** area
+14. &#x20;Enter an **Application name** e.g. `iLert` and ensure that the **Expires on** date is far in the future and click on **Create**
 
-![](../../.gitbook/assets/sn1.png)
+![](../.gitbook/assets/tpdko6.2.png)
 
-2. Live an internal ilert user and click **Submit**
+15. &#x20;Write down your password. You will need it later in ilert.
 
-![](../../.gitbook/assets/sn2.png)
+![](../.gitbook/assets/tpdko6.3.png)
 
-3. Call up the ilert user page and click the **Edit** button in the **Roles** tab.
+## In ilert: Create a TOPdesk Connector and link to alert source <a href="#in-ilert" id="in-ilert"></a>
 
-![](../../.gitbook/assets/sn3.png)
+1. Click on the gear icon and then on **Connectors** button
 
-4. Select the **incident\_manager** role and click **Save**.
+![](<../.gitbook/assets/go\_to\_connectors (2).png>)
 
-![](../../.gitbook/assets/sn4.png)
+2. Click on **Add Connector**
+
+![](<../.gitbook/assets/create\_connector\_button (4).png>)
+
+3. Select **TOPdesk** as **type** and fill in all fields. Enter a name, the URL of your TOPdesk server, username and password of the API user that you created [in the last step](outbound-2.md).
+
+![](<../.gitbook/assets/iLert (69).png>)
+
+4. Go to the alert sources tab and open the alert source whose alerts you want to publish in TOPdesk. Click on **Alert actions** and then on **Create alert action**.
+
+![](<../.gitbook/assets/new\_incident\_action (9).png>)
+
+5. Select **TOPdesk** as the **type**, select the connector created in step 3, fill in all fields. In the **Name** field, specify the alert action name.
+
+![](<../.gitbook/assets/iLert (70).png>)
+
+6. Finished! You can now test the alert action by clicking on the button **Test this connection**. Then a test ticket will be published in TOPdesk.
+
+![](<../.gitbook/assets/iLert (71).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Are updates to an alert published in the ServiceNow Alert?**
+**Are updates to an alert published in the TOPdesk Ticket?**
 
-Yes, the status of the ilert Alert is shown in the title of the JIRA ticket, eg `RESOLVED` Host compute.infra is `DOWN`.
+Yes, the state of the ilert Alert is reflected in the brief description of the TOPdesk ticket, eg \[RESOLVED] Host compute.infra is DOWN.
 
-**Can I choose which updates to an alert are published in ServiceNow?**
+**Can I choose which updates to publish to an alert in TOPdesk?**
 
-Currently not. If you wish, we look forward to your feedback via chat or email.
+Currently not. If you wish, we look forward to your feedback via chat or e-mail.

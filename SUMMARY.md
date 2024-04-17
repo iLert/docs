@@ -244,20 +244,20 @@
 
 ## Outbound integrations
 
-* [Autotask Outbound Integration](outbound-integrations/outbound.md)
+* [Autotask Outbound Integration](outbound-integrations/autotask.md)
 * [DingTalk Integration](outbound-integrations/dingtalk.md)
 * [Discord Integration](outbound-integrations/discord.md)
 * [Email Outbound Integration](outbound-integrations/email-outbound-integration.md)
-* [Jira Outbound Integration](outbound-integrations/outbound-1.md)
+* [Jira Outbound Integration](outbound-integrations/outbound.md)
 * [GitHub Outbound Issue Integration](outbound-integrations/outbound-issue.md)
 * [Mattermost Integration](outbound-integrations/mattermost.md)
-* [ServiceNow Outbound Integration](outbound-integrations/outbound-2.md)
+* [ServiceNow Outbound Integration](outbound-integrations/outbound-1.md)
 * [Telegram Integration](outbound-integrations/telegram.md)
-* [TOPdesk Outbound Integration](outbound-integrations/outbound-3.md)
+* [TOPdesk Outbound Integration](outbound-integrations/outbound-2.md)
 * [Webhook Integration](outbound-integrations/webhook.md)
-* [Zammad Outbound Integration](outbound-integrations/outbound-4.md)
-* [Zapier Outbound Integration](outbound-integrations/outbound-5.md)
-* [Zendesk Outbound Integration](outbound-integrations/outbound-6.md)
+* [Zammad Outbound Integration](outbound-integrations/outbound-3.md)
+* [Zapier Outbound Integration](outbound-integrations/outbound-4.md)
+* [Zendesk Outbound Integration](outbound-integrations/outbound-5.md)
 
 ***
 

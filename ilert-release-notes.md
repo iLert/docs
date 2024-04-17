@@ -544,7 +544,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 * added dynamic user-, priority- and policy mapping to our [ServiceNow integration](integrations/service-now/inbound.md)
 * updated [Jira inbound integration](integrations/jira/inbound.md) to support alert creation on update events
-* added new fields for [ServiceNow outbound](outbound-integrations/outbound-2.md) alert creation
+* added new fields for [ServiceNow outbound](outbound-integrations/outbound-1.md) alert creation
 
 ### Improvements
 
@@ -653,7 +653,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* New: [Zammad Inbound](integrations/zammad/inbound.md) and [Outbound](outbound-integrations/outbound-4.md) Integration
+* New: [Zammad Inbound](integrations/zammad/inbound.md) and [Outbound](outbound-integrations/outbound-3.md) Integration
 * New: [Mattermost Outbound](outbound-integrations/mattermost.md) Integration
 * New: [Splunk Inbound](integrations/splunk.md) Integration
 * New: [Elastic Search Guard Inbound](integrations/search-guard.md) Integration
@@ -684,7 +684,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* New: [Autotask Outbound Integration](outbound-integrations/outbound.md)
+* New: [Autotask Outbound Integration](outbound-integrations/autotask.md)
 
 ### Improvements
 
@@ -702,7 +702,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* New: Zapier [Inbound](integrations/zapier/inbound.md) and [Outbound](outbound-integrations/outbound-5.md) Integration
+* New: Zapier [Inbound](integrations/zapier/inbound.md) and [Outbound](outbound-integrations/outbound-4.md) Integration
 * New: Jira [Inbound](integrations/jira/inbound.md) Integration
 * New: Server Density [Inbound](integrations/serverdensity.md) Integration
 * New: [Consul](integrations/consul.md) integration

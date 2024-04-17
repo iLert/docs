@@ -1,85 +1,85 @@
 ---
-description: Create tickets in TOPdesk based on alert events from ilert
+description: >-
+  With the Zammad Outbound Integration you can create Zammad Tickets right from
+  ilert alerts.
 ---
 
-# TOPdesk Outbound Integration
+# Zammad Outbound Integration
 
-## In TOPdesk: Create an API user <a href="#in-topdesk" id="in-topdesk"></a>
+{% hint style="warning" %}
+To set up this integration, you must have admin rights in ilert.
+{% endhint %}
 
-1. Optional: create a dedicated ilert user in TOPdesk. This has the advantage that you can distinguish the TOPdesk tickets created by ilert.
-2. Go to **Modules**, then to **Supporting Files**, and click on **Operator**
+## In Zammad: Create an API key <a href="#in-topdesk" id="in-topdesk"></a>
 
-![](../.gitbook/assets/tpdko1.png)
+1. Optional: create a dedicated ilert user in Zammad. This has the advantage that you can distinguish the Zammad tickets created by ilert.
+2. Go to **Profile**, then to **Token Access** and click on **Create**
 
-3. In the **Surname** section, enter a name eg. ilert
-4. In the **Site** section, choose **\[System]**
-5. In the **Email** section, enter a email eg. support@ilert.com
-6. In the **Login name** section, click on **Edit login data** button
+![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_32.png)
 
-![](../.gitbook/assets/tpdko2.png)
+3. In the **Name** section, enter a name eg. ilert
 
-7. On the modal window, enter **Login Name**, **New Password**, **Repeat password** and click **OK**. Write down your username. You will need it later in ilert.
+![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_33.png)
 
-![](../.gitbook/assets/tpdko3.png)
+4. In the **Ticket** section, choose **Agent**
 
-8. Click on **Save**
-9. Go to **AUTHORIZATION** tab and click on **Links Wizard**
+![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_34.png)
 
-![](../.gitbook/assets/tpdko4.png)
+5. Click on **Create**
 
-10. &#x20;On the modal window, choose **\_API** permission and click on **Link**
+{% hint style="warning" %}
+An agent token has a group scope
 
-![](../.gitbook/assets/tpdko5.png)
+An agent token has a group scope so if you want to use a group that the current user is not a member of, you need to create a token with the admin scope for all groups.
+{% endhint %}
 
-11. On the modal window, ensure that permisson group is linked and click on **OK**
+6. The modal window will open, copy the generated access token
 
-![](../.gitbook/assets/tpdko6.png)
+![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_36.png)
 
-12. &#x20;Logout and login with the new `iLert` account
-13. &#x20;Go to **My Settings** and click on **Add** in the **Application passwords** section
+## In ilert: Create a Zammad Connector and link to the alert source <a href="#in-ilert" id="in-ilert"></a>
 
-![](../.gitbook/assets/tpdko6.1.png)
+1. Click on the gear icon and then on the **Connectors** button
 
-14. &#x20;Enter an **Application name** e.g. `iLert` and ensure that the **Expires on** date is far in the future and click on **Create**
-
-![](../.gitbook/assets/tpdko6.2.png)
-
-15. &#x20;Write down your password. You will need it later in ilert.
-
-![](../.gitbook/assets/tpdko6.3.png)
-
-## In ilert: Create a TOPdesk Connector and link to alert source <a href="#in-ilert" id="in-ilert"></a>
-
-1. Click on the gear icon and then on **Connectors** button
-
-![](<../.gitbook/assets/go\_to\_connectors (2).png>)
+![](<../../.gitbook/assets/go\_to\_connectors (4).png>)
 
 2. Click on **Add Connector**
 
-![](<../.gitbook/assets/create\_connector\_button (4).png>)
+![](<../../.gitbook/assets/create\_connector\_button (2).png>)
 
-3. Select **TOPdesk** as **type** and fill in all fields. Enter a name, the URL of your TOPdesk server, username and password of the API user that you created [in the last step](outbound-3.md).
+3. Select **Zammad** as **type** and fill in all fields. Enter a name, the URL of your Zammad server and the access token that you have created in the previous step.
 
-![](<../.gitbook/assets/iLert (69).png>)
+![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_39.png)
 
-4. Go to the alert sources tab and open the alert source whose alerts you want to publish in TOPdesk. Click on **Alert actions** and then on **Create alert action**.
+4. Go to the alert sources tab and open the alert source whose alerts you want to publish in Zammad. Click on **Alert actions** and then on **Create alert action**.
 
-![](<../.gitbook/assets/new\_incident\_action (9).png>)
+![](<../../.gitbook/assets/new\_incident\_action (12) (9).png>)
 
-5. Select **TOPdesk** as the **type**, select the connector created in step 3, fill in all fields. In the **Name** field, specify the alert action name.
+5. Select **Zammad** as the **type**; **futhermore** select the connector created in step 3, fill in all fields.
 
-![](<../.gitbook/assets/iLert (70).png>)
+In the **Email** field enter the existing customer email of Zammad.
 
-6. Finished! You can now test the alert action by clicking on the button **Test this connection**. Then a test ticket will be published in TOPdesk.
+![](<../../.gitbook/assets/iLert (74).png>)
 
-![](<../.gitbook/assets/iLert (71).png>)
+6. Finished! You can now test the connection by clicking on the button **Test this connection**.
+7. A test ticket will be created in Zammad.
+
+![](<../../.gitbook/assets/iLert (75).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Are updates to an alert published in the TOPdesk Ticket?**
+**Are updates to an alert added to the Zammad Ticket?**
 
-Yes, the state of the ilert Alert is reflected in the brief description of the TOPdesk ticket, eg \[RESOLVED] Host compute.infra is DOWN.
+Yes, the state of the ilert Alert is reflected in the brief description of the Zammad ticket eg. _\[RESOLVED] Host compute.infra is DOWN._
 
-**Can I choose which updates to publish to an alert in TOPdesk?**
+**Can I choose which updates are to be published to a Zammad Ticket?**
 
-Currently not. If you wish, we look forward to your feedback via chat or e-mail.
+Currently not. If you wish to, we look forward to your feedback via chat or e-mail
+
+**Can I use custom group for the Zammad tickets?**
+
+Yes, you need to create an agent token and include the user in the group or create an admin token with the group scope.
+
+**Can I use multiple Zammad groups?**
+
+Yes, just create an alert action for each Zammad group.

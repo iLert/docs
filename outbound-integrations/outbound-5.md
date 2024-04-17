@@ -1,47 +1,65 @@
 ---
-description: >-
-  Use ilert as the trigger in Zapier and perform any action in Zapier for new or
-  updated alerts in ilert.
+description: Create tickets in Zendesk based on alerts from ilert
 ---
 
-# Zapier Outbound Integration
+# Zendesk Outbound Integration
 
-## In Zapier: Create a Zap <a href="#in-ilert" id="in-ilert"></a>
+[Zendesk](https://www.zendesk.com/) is a cloud-based help desk management solution offering customizable tools to build customer service portal, knowledge base and online communities.
 
-1. Go to Zapier and click on **Make a Zap**
+## In Zendesk: Create an API Token <a href="#api-token" id="api-token"></a>
 
-![](../../.gitbook/assets/Screenshot\_29\_10\_20\_\_16\_22.png)
-
-2. On the next page, search for **iLert** trigger source and choose it:
-
-![](../../.gitbook/assets/Edit\_a\_Step\_\_\_Zapier.png)
-
-3. In the section **Trigger Event** choose **New or Updated Alert** and click on the **Continue** button
-
-![](<../../.gitbook/assets/Edit\_a\_Step\_\_\_Zapier (1).png>)
-
-4. On the next slide, choose your ilert account. Then click on the **Continue** button.
-
-![](<../../.gitbook/assets/Edit\_a\_Step\_\_\_Zapier (2).png>)
-
-5. On the next slide, choose **an alert source** and **trigger types** e.g. Alert Created. Then click on the **Continue** button.
+1. Optional: create a dedicated ilert user in Zendesk. That way, you will be able to distinguish tickets created by ilert.
 
 {% hint style="warning" %}
-NOTE: you can't use an Zapier alert source here, as it will lead to an infinite loop
+**Admin permission required**
+
+To set up the integration, the Zendesk user must have agent permissions.
 {% endhint %}
 
-![](<../../.gitbook/assets/Edit\_a\_Step\_\_\_Zapier (3).png>)
+2. Go to admin settings, select the API channel, enable token access and create an API token.
 
-6. On the next slide, click on the **Test Trigger** button to see example data. Then click on the **Continue** button.
+![](../../.gitbook/assets/zd1.png)
 
-![](<../../.gitbook/assets/Edit\_a\_Step\_\_\_Zapier (4).png>)
+3. You will need this API token later in ilert. Make sure to copy and store it. You won't be able to see it again in Zendesk. Click **Save**.
 
-7. Now you can **add any action** available in Zapier, e.g. Jira to create a ticket on your Jira board
+## In ilert: Create a Zendesk connector and link it with an alert source <a href="#alarm-source" id="alarm-source"></a>
 
-![](../../.gitbook/assets/Edit\_Step\_\_\_Zapier.png)
+{% hint style="info" %}
+**Admin permission required**
+
+To set up the integration, you must have admin rights in ilert.
+{% endhint %}
+
+1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
+
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_46.png)
+
+2. Click the **Add Connector** button
+
+![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_48.png)
+
+3. On the next page, choose **Zendesk Support** as type, name the connector, enter your zendesk URL in the form [https://{your-domain}.zendesk.com](https://{your-domain}.zendesk.com), enter your Zendesk user **Email** and **API-Key** that you generated before _\*\*_ and click on the save button
+
+![](<../../.gitbook/assets/iLert (92).png>)
+
+4. Go to **Alert sources** and select the alert source you want to connect with Zendesk. Click on **Alert Actions → Add new alert action**.
+
+![](<../../.gitbook/assets/iLert (93).png>)
+
+5. On the next page choose **Zendesk Support** as the type, choose the connector created in step 3, name it, choose **Priority** of the Zendesk tickets and click on the **Save** button.
+
+![](<../../.gitbook/assets/iLert (95).png>)
+
+6. You're done! You can now test this connection by clicking on **Test this connection**. A test ticket will be created in Zendesk.
+
+![](<../../.gitbook/assets/iLert (96).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Why the Zapier connector is in my alert source?**
+**Are tickets updated in Zendesk if the alert is updated in ilert?**
 
-Every time you create a Zap with an ilert trigger, the Zapier connector in ilert is created automatically for the alert source you selected in the trigger.
+Yes, status updates to ilert Alerts are reflected in the title of the Zendesk ticket, e.g. `RESOLVED` host compute.infra is `DOWN`.
+
+**Can I choose which updates to publish to a ticket in Zendesk?**
+
+Currently not. If that's something you'd like see in ilert, we look forward to your feedback via chat or e-mail.

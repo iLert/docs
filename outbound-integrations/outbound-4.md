@@ -1,85 +1,47 @@
 ---
 description: >-
-  With the Zammad Outbound Integration you can create Zammad Tickets right from
-  ilert alerts.
+  Use ilert as the trigger in Zapier and perform any action in Zapier for new or
+  updated alerts in ilert.
 ---
 
-# Zammad Outbound Integration
+# Zapier Outbound Integration
+
+## In Zapier: Create a Zap <a href="#in-ilert" id="in-ilert"></a>
+
+1. Go to Zapier and click on **Make a Zap**
+
+![](../../.gitbook/assets/Screenshot\_29\_10\_20\_\_16\_22.png)
+
+2. On the next page, search for **iLert** trigger source and choose it:
+
+![](../../.gitbook/assets/Edit\_a\_Step\_\_\_Zapier.png)
+
+3. In the section **Trigger Event** choose **New or Updated Alert** and click on the **Continue** button
+
+![](<../../.gitbook/assets/Edit\_a\_Step\_\_\_Zapier (1).png>)
+
+4. On the next slide, choose your ilert account. Then click on the **Continue** button.
+
+![](<../../.gitbook/assets/Edit\_a\_Step\_\_\_Zapier (2).png>)
+
+5. On the next slide, choose **an alert source** and **trigger types** e.g. Alert Created. Then click on the **Continue** button.
 
 {% hint style="warning" %}
-To set up this integration, you must have admin rights in ilert.
+NOTE: you can't use an Zapier alert source here, as it will lead to an infinite loop
 {% endhint %}
 
-## In Zammad: Create an API key <a href="#in-topdesk" id="in-topdesk"></a>
+![](<../../.gitbook/assets/Edit\_a\_Step\_\_\_Zapier (3).png>)
 
-1. Optional: create a dedicated ilert user in Zammad. This has the advantage that you can distinguish the Zammad tickets created by ilert.
-2. Go to **Profile**, then to **Token Access** and click on **Create**
+6. On the next slide, click on the **Test Trigger** button to see example data. Then click on the **Continue** button.
 
-![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_32.png)
+![](<../../.gitbook/assets/Edit\_a\_Step\_\_\_Zapier (4).png>)
 
-3. In the **Name** section, enter a name eg. ilert
+7. Now you can **add any action** available in Zapier, e.g. Jira to create a ticket on your Jira board
 
-![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_33.png)
-
-4. In the **Ticket** section, choose **Agent**
-
-![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_34.png)
-
-5. Click on **Create**
-
-{% hint style="warning" %}
-An agent token has a group scope
-
-An agent token has a group scope so if you want to use a group that the current user is not a member of, you need to create a token with the admin scope for all groups.
-{% endhint %}
-
-6. The modal window will open, copy the generated access token
-
-![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_36.png)
-
-## In ilert: Create a Zammad Connector and link to the alert source <a href="#in-ilert" id="in-ilert"></a>
-
-1. Click on the gear icon and then on the **Connectors** button
-
-![](<../../.gitbook/assets/go\_to\_connectors (4).png>)
-
-2. Click on **Add Connector**
-
-![](<../../.gitbook/assets/create\_connector\_button (2).png>)
-
-3. Select **Zammad** as **type** and fill in all fields. Enter a name, the URL of your Zammad server and the access token that you have created in the previous step.
-
-![](../../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_39.png)
-
-4. Go to the alert sources tab and open the alert source whose alerts you want to publish in Zammad. Click on **Alert actions** and then on **Create alert action**.
-
-![](<../../.gitbook/assets/new\_incident\_action (12) (9).png>)
-
-5. Select **Zammad** as the **type**; **futhermore** select the connector created in step 3, fill in all fields.
-
-In the **Email** field enter the existing customer email of Zammad.
-
-![](<../../.gitbook/assets/iLert (74).png>)
-
-6. Finished! You can now test the connection by clicking on the button **Test this connection**.
-7. A test ticket will be created in Zammad.
-
-![](<../../.gitbook/assets/iLert (75).png>)
+![](../../.gitbook/assets/Edit\_Step\_\_\_Zapier.png)
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Are updates to an alert added to the Zammad Ticket?**
+**Why the Zapier connector is in my alert source?**
 
-Yes, the state of the ilert Alert is reflected in the brief description of the Zammad ticket eg. _\[RESOLVED] Host compute.infra is DOWN._
-
-**Can I choose which updates are to be published to a Zammad Ticket?**
-
-Currently not. If you wish to, we look forward to your feedback via chat or e-mail
-
-**Can I use custom group for the Zammad tickets?**
-
-Yes, you need to create an agent token and include the user in the group or create an admin token with the group scope.
-
-**Can I use multiple Zammad groups?**
-
-Yes, just create an alert action for each Zammad group.
+Every time you create a Zap with an ilert trigger, the Zapier connector in ilert is created automatically for the alert source you selected in the trigger.

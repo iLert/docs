@@ -1,82 +1,63 @@
 ---
-description: Create JIRA issues from ilert alerts.
+description: >-
+  The ilert ServiceNow Outbound Integration helps you to easily connect ilert
+  with ServiceNow.
 ---
 
-# Jira Outbound Integration
+# ServiceNow Outbound Integration
 
-## In JIRA: Create an ilert user and create API token <a href="#jira-preparation" id="jira-preparation"></a>
+ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Management (SM) software.
 
-1. Optional: create a dedicated ilert user in JIRA. This has the advantage that you can distinguish the JIRA tickets created by ilert.
-2. Go to **Atlassian account settings** **→** **Security** and click on **Create and Manage API Tokens**.
-
-![](<../../.gitbook/assets/Screenshot 2020-08-05 at 13.15.25.png>)
-
-3. Click on the button **Create API token**
-
-![](../../.gitbook/assets/ji2.png)
-
-4. Give a name and click **Create**. Write down your API key. You will need it later in ilert.
-
-![](../../.gitbook/assets/ji3.png)
-
-![](../../.gitbook/assets/ji4.png)
-
-## In ilert: Create a JIRA Connector and link to alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+## In ilert: Create a ServiceNow Connector and link to alert source <a href="#alarm-sources" id="alarm-sources"></a>
 
 1. Click the gear icon → **Connectors**
 
-![](<../../.gitbook/assets/go\_to\_connectors (6).png>)
+![](<../../.gitbook/assets/go\_to\_connectors (1) (1) (4).png>)
 
-2. Click **Add Connector**
+2. Click **Create Connector**
 
-![](<../../.gitbook/assets/create\_connector\_button (5).png>)
+![](<../../.gitbook/assets/create\_connector\_button (6).png>)
 
-3. Select **JIRA** as **type** and fill in all fields. Enter as URL the URL of your JIRA instance and as password the API key above.
+3. Select **ServiceNow** as **type** and fill out all fields.
 
-![](<../../.gitbook/assets/iLert (63).png>)
+![](<../../.gitbook/assets/iLert (64).png>)
 
-4. **Go to** the alert sources tab and open the alert source whose alerts you want to publish in JIRA. Click **Alert actions → Create new alert action**.
+4. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish in ServiceNow. Click on **Alert actions → Create alert action**
 
-![](<../../.gitbook/assets/new\_incident\_action (2).png>)
+![](<../../.gitbook/assets/new\_incident\_action (10).png>)
 
-5. Select **JIRA** as the **type** and in the secondary dropdown select the connector created in step 3. ilert will now try to fetch the available Projects and Issue Types from your provided Jira instance.
+5. Select **ServiceNow** as the **type**, select the connector created in step 3, fill in all fields.
 
-![](<../../.gitbook/assets/iLert (60).png>)
+![](<../../.gitbook/assets/iLert (65).png>)
 
-Select the desired Project and Issue Type that should be used to create issues and give the alert action a name, before clicking on save.
+6. Finished! You can now test the connection by clicking the **Test this connection** button. A test issue is then published in ServiceNow.
 
-## Custom Variables and request configuration <a href="#custom" id="custom"></a>
+![](<../../.gitbook/assets/iLert (66).png>)
 
-Optionally you may choose to customize the request that will be made to your JIRA instance, by choosing the custom fields option. (This will overwrite the HTTP request body content `fields` with your provided variables. Our template editor will help you to send a valid request), you may also click on "Show me the available issue type fields" in case you do not have the keys handy.
+## In ServiceNow: Create an ilert user <a href="#create-user" id="create-user"></a>
 
-![](../../.gitbook/assets/ji10.png)
+1. Go to the **User Administration** area
 
-In case of an invalid template the border will become red.
+![](../../.gitbook/assets/sn1.png)
 
-![](../../.gitbook/assets/ji11.png)
+2. Live an internal ilert user and click **Submit**
 
-In case of a valid template the border will turn green. As you may have noticed we also offer to use ilert related variables that will be swapped with the corresponding event related data when the request is made. These work, as described under the template field in simple mustache sytnax `{{ VARNAME }}`. Again our editor will tell you if you are using the variables incorrectly.
+![](../../.gitbook/assets/sn2.png)
 
-![](../../.gitbook/assets/ji12.png)
+3. Call up the ilert user page and click the **Edit** button in the **Roles** tab.
 
-Just save the connector and your done. You can now test the connection by clicking on the button **Test this connection**. A test issue will be published in the respective JIRA project. In case of a bad request we will show the response of your JIRA instance, which makes it easier for you to understand what went wrong.
+![](../../.gitbook/assets/sn3.png)
 
-![](<../../.gitbook/assets/iLert (61).png>)
+4. Select the **incident\_manager** role and click **Save**.
 
-In case your connection has been setup correctly you will see a successful message.
-
-![](../../.gitbook/assets/ji14.png)
+![](../../.gitbook/assets/sn4.png)
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Are updates to an alert published in the JIRA Ticket?**
+**Are updates to an alert published in the ServiceNow Alert?**
 
-Yes, the state of the ilert Alert is reflected in the title of the JIRA ticket, eg \[RESOLVED] Host compute.infra is DOWN.
+Yes, the status of the ilert Alert is shown in the title of the JIRA ticket, eg `RESOLVED` Host compute.infra is `DOWN`.
 
-**Can I choose which updates to publish to an alert in JIRA?**
+**Can I choose which updates to an alert are published in ServiceNow?**
 
-Currently not. If you wish, we look forward to your feedback via chat or e-mail.
-
-**I need to add more custom code to the template and the editor turns yellow**
-
-Dont worry, you will still be able to save the connector, even if the hint is yellow or red, just click on the save button as soon as your template is ready.
+Currently not. If you wish, we look forward to your feedback via chat or email.
