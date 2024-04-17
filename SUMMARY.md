@@ -147,7 +147,6 @@
 * [CrowdStrike Integration](integrations/crowdstrike.md)
 * [Datadog Integration](integrations/datadog/README.md)
   * [Datadog Inbound Integration](integrations/datadog/inbound.md)
-  * [Datadog Outbound Integration](integrations/datadog/outbound.md)
 * [Dynatrace Integration](integrations/dynatrace.md)
 * [Elastic Watcher Integration](integrations/eswatcher.md)
 * [Email Integration](integrations/email/README.md)
