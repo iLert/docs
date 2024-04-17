@@ -818,7 +818,7 @@ This has been in the making for a while: we have completely overhauled our alert
 ### New integrations
 
 * [AppDynamics](integrations/appdynamics.md)
-* [TopDesk](integrations/topdesk/)
+* [TopDesk](integrations/topdesk.md)
 * [Discord](outbound-integrations/discord.md)
 * [GitHub](integrations/github/)
 * [Dynatrace](integrations/dynatrace.md)
