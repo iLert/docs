@@ -544,7 +544,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 * added dynamic user-, priority- and policy mapping to our [ServiceNow integration](integrations/service-now/inbound.md)
 * updated [Jira inbound integration](integrations/jira/inbound.md) to support alert creation on update events
-* added new fields for [ServiceNow outbound](integrations/service-now/outbound.md) alert creation
+* added new fields for [ServiceNow outbound](outbound-integrations/outbound-2.md) alert creation
 
 ### Improvements
 
@@ -653,8 +653,8 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* New: [Zammad Inbound](integrations/zammad/inbound.md) and [Outbound](integrations/zammad/outbound.md) Integration
-* New: [Mattermost Outbound](integrations/mattermost.md) Integration
+* New: [Zammad Inbound](integrations/zammad/inbound.md) and [Outbound](outbound-integrations/outbound-4.md) Integration
+* New: [Mattermost Outbound](outbound-integrations/mattermost.md) Integration
 * New: [Splunk Inbound](integrations/splunk.md) Integration
 * New: [Elastic Search Guard Inbound](integrations/search-guard.md) Integration
 * New: [ServiceNow Inbound](integrations/service-now/inbound.md) Integration
@@ -684,7 +684,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* New: [Autotask Outbound Integration](integrations/autotask/outbound.md)
+* New: [Autotask Outbound Integration](outbound-integrations/outbound.md)
 
 ### Improvements
 
@@ -702,7 +702,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* New: Zapier [Inbound](integrations/zapier/inbound.md) and [Outbound](integrations/zapier/outbound.md) Integration
+* New: Zapier [Inbound](integrations/zapier/inbound.md) and [Outbound](outbound-integrations/outbound-5.md) Integration
 * New: Jira [Inbound](integrations/jira/inbound.md) Integration
 * New: Server Density [Inbound](integrations/serverdensity.md) Integration
 * New: [Consul](integrations/consul.md) integration
@@ -734,7 +734,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* [Email Outbound Integration](integrations/email-outbound-integration.md)
+* [Email Outbound Integration](outbound-integrations/email-outbound-integration.md)
 * [Kentix AlarmManager](integrations/kentix-am.md)
 * Datadog Outbound Integration now supports regions
 * Prometheus alert detail formatting has been updated
@@ -800,7 +800,7 @@ This has been in the making for a while: we have completely overhauled our alert
   * [Microsoft Azure Functions](broken-reference)
 * [Icinga v2.x](integrations/icinga.md) (updated): there is a dedicated plugin for Icinga now on our [GitHub repo](https://github.com/iLert/ilert-icinga). You can now override the alert priority from within Icinga and we include the comments that you enter in Icinga when ack’ing a problem in the event log of the alert.
 * [JIRA](integrations/jira/) (updated): When you setup a connection from your alert source in ilert to your JIRA instance, projects and issue types are now dynamically fetched from your JIRA instance, so you can select the issue types when ilert syncs an alert to JIRA. You can even include custom fields.
-* [Webhook](integrations/webhook.md) (updated): you can now fully customize the payload for outbound webhooks.
+* [Webhook](outbound-integrations/webhook.md) (updated): you can now fully customize the payload for outbound webhooks.
 
 ### Improvements
 
@@ -819,7 +819,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 * [AppDynamics](integrations/appdynamics.md)
 * [TopDesk](integrations/topdesk/)
-* [Discord](integrations/discord.md)
+* [Discord](outbound-integrations/discord.md)
 * [GitHub](integrations/github/)
 * [Dynatrace](integrations/dynatrace.md)
 
