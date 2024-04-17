@@ -758,7 +758,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* [Autotask](integrations/autotask/)
+* [Autotask](integrations/autotask.md)
 * [Zabbix](integrations/zabbix/native.md) (updated): Starting Zabbix 4.4, ilert can be integrated as a media type into Zabbix. Zabbix 5.0.4+ includes ilert as a media type by default. See also Zabbix blog post: [Working with multiple on-call teams using Zabbix and ilert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/)
 * [Prometheus](integrations/prometheus.md) (updated): improved readabiltiy of prometheus alerts
 
