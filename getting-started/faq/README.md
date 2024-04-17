@@ -14,7 +14,7 @@ ilert integrates with monitoring, ticketing, chat and collaboration tools.
 
 ## Which monitoring tools does ilert support?
 
-Please have a look at our [integrations](broken-reference) sections. If you're missing an integration, please contact us at support@ilert.com and we will make it available. Alternatively, you can use our [email integration](../../integrations/email/) in the meantime.
+Please have a look at our [integrations](broken-reference) sections. If you're missing an integration, please contact us at support@ilert.com and we will make it available. Alternatively, you can use our [email integration](../../inbound-integrations/email/) in the meantime.
 
 ## Which alerting channels does ilert support?
 
