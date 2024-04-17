@@ -543,7 +543,7 @@ This has been in the making for a while: we have completely overhauled our alert
 ### New and updated integrations
 
 * added dynamic user-, priority- and policy mapping to our [ServiceNow integration](integrations/service-now/inbound.md)
-* updated [Jira inbound integration](integrations/jira/inbound.md) to support alert creation on update events
+* updated [Jira inbound integration](broken-reference) to support alert creation on update events
 * added new fields for [ServiceNow outbound](outbound-integrations/servicenow.md) alert creation
 
 ### Improvements
@@ -703,7 +703,7 @@ This has been in the making for a while: we have completely overhauled our alert
 ### New and updated integrations
 
 * New: Zapier [Inbound](integrations/zapier/inbound.md) and [Outbound](outbound-integrations/zapier.md) Integration
-* New: Jira [Inbound](integrations/jira/inbound.md) Integration
+* New: Jira [Inbound](broken-reference) Integration
 * New: Server Density [Inbound](integrations/serverdensity.md) Integration
 * New: [Consul](integrations/consul.md) integration
 * Updated [Email integration](integrations/email/): email deduplication now also works for email threads
@@ -799,7 +799,7 @@ This has been in the making for a while: we have completely overhauled our alert
   * [Google Cloud Functions](broken-reference)
   * [Microsoft Azure Functions](broken-reference)
 * [Icinga v2.x](integrations/icinga.md) (updated): there is a dedicated plugin for Icinga now on our [GitHub repo](https://github.com/iLert/ilert-icinga). You can now override the alert priority from within Icinga and we include the comments that you enter in Icinga when ack’ing a problem in the event log of the alert.
-* [JIRA](integrations/jira/) (updated): When you setup a connection from your alert source in ilert to your JIRA instance, projects and issue types are now dynamically fetched from your JIRA instance, so you can select the issue types when ilert syncs an alert to JIRA. You can even include custom fields.
+* [JIRA](integrations/jira.md) (updated): When you setup a connection from your alert source in ilert to your JIRA instance, projects and issue types are now dynamically fetched from your JIRA instance, so you can select the issue types when ilert syncs an alert to JIRA. You can even include custom fields.
 * [Webhook](outbound-integrations/webhook.md) (updated): you can now fully customize the payload for outbound webhooks.
 
 ### Improvements
