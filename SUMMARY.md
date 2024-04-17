@@ -175,7 +175,7 @@
 * [IXON Cloud Integration](integrations/ixon.md)
 * [Jira Integration](integrations/jira.md)
 * [Kapacitor Integration](integrations/kapacitor.md)
-* [Kibana](integrations/kibana.md)
+* [Kibana Integration](integrations/kibana.md)
 * [JumpCloud Integration](integrations/jumpcloud.md)
 * [Kentix AlarmManager](integrations/kentix-am.md)
 * [Kubernetes Integration](integrations/kubernetes.md)
