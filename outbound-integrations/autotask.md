@@ -4,10 +4,6 @@ description: Create tickets in Autotask PSA based on alerts from ilert.
 
 # Autotask Outbound Integration
 
-
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Autotask inbound integration</strong></td><td>Create alerts in ilert based on tickets from Autotask</td><td><a href="../inbound-integrations/autotask.md">autotask.md</a></td></tr></tbody></table>
-
 ## In Autotask: Create an API user <a href="#create-api-user" id="create-api-user"></a>
 
 1\. Sign in to Autotask and then go to **Admin -> Resources (Users)**
@@ -69,3 +65,9 @@ No, please create a different alert source or create a bi-directional Autotask a
 **My API user gets blocked**
 
 Please ensure that you have correctly chosen "iLert " as Integration Vendor in Autotask when setting up your API user.
+
+## **Related articles**
+
+{% content-ref url="../inbound-integrations/autotask.md" %}
+[autotask.md](../inbound-integrations/autotask.md)
+{% endcontent-ref %}
