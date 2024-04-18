@@ -4,15 +4,19 @@ description: Create tickets in Autotask PSA based on alerts from ilert.
 
 # Autotask Outbound Integration
 
+
+
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Autotask inbound integration</strong></td><td>Create alerts in ilert based on tickets from Autotask</td><td><a href="../inbound-integrations/autotask.md">autotask.md</a></td></tr></tbody></table>
+
 ## In Autotask: Create an API user <a href="#create-api-user" id="create-api-user"></a>
 
 1\. Sign in to Autotask and then go to **Admin -> Resources (Users)**
 
-![](<../../.gitbook/assets/autotask1 (1) (2).png>)
+![](<../.gitbook/assets/autotask1 (1) (2).png>)
 
 2\. Click the **New** button and then navigate to **New API User**
 
-![](<../../.gitbook/assets/autotask2 (1).png>)
+![](<../.gitbook/assets/autotask2 (1).png>)
 
 3\. In the **First Name** section, enter a first name eg. ilert
 
@@ -24,33 +28,33 @@ description: Create tickets in Autotask PSA based on alerts from ilert.
 
 7\. In the **Integration Vendor** section, choose ilert or your custom internal integration
 
-![](<../../.gitbook/assets/autotask3 (2).png>)
+![](<../.gitbook/assets/autotask3 (2).png>)
 
 ## In ilert: Create an Autotask Connector and Link to alert source
 
 1\. Click on the gear icon and then on **Connectors** button
 
-![](<../../.gitbook/assets/iLert (16).png>)
+![](<../.gitbook/assets/iLert (16).png>)
 
 2\. Click on **Add Connector**
 
-![](<../../.gitbook/assets/iLert (17).png>)
+![](<../.gitbook/assets/iLert (17).png>)
 
 3\. Select **Autotask** as **type** and fill in all fields. Enter a name and the username/password pair that you created in the last step.
 
-![](<../../.gitbook/assets/iLert (18).png>)
+![](<../.gitbook/assets/iLert (18).png>)
 
 4\. Go to the alert sources tab and open the alert source whose alerts you want to publish in Autotask. Click on **Alert actions** and then on **Create alert action**.
 
-![](<../../.gitbook/assets/new\_incident\_action (3).png>)
+![](<../.gitbook/assets/new\_incident\_action (3).png>)
 
 5\. Select **Autotask** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the alert action name.
 
-![](<../../.gitbook/assets/iLert (58).png>)
+![](<../.gitbook/assets/iLert (58).png>)
 
 6\. Finished! You can now test the alert action by clicking on the button **Test this connection**. Then a test ticket will be created in Autotask.
 
-![](<../../.gitbook/assets/iLert (59).png>)
+![](<../.gitbook/assets/iLert (59).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 
