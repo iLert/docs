@@ -2,11 +2,9 @@
 description: Integrate ilert with 2,000+ apps through Zapier
 ---
 
-# Zapier Integration
+# Zapier Inbound Integration
 
 [Zapier](https://zapier.com/) is built for the automation of tasks between different web apps. Through its platform, users can create automated workflows by triggering a specific action in one app based on a defined trigger in another app.
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Zapier Outbound Integration</strong></td><td>Perform any action in Zapier for new or updated alerts in ilert</td><td><a href="../outbound-integrations/zapier.md">zapier.md</a></td></tr></tbody></table>
 
 ## In ilert: Create a Zapier alert source (optional) <a href="#in-ilert" id="in-ilert"></a>
 
@@ -115,3 +113,9 @@ Yes, you need to configure an **Resolve Alert** action with **Alert Key** for th
 **Can I connect Zapier with multiple alert sources from ilert?**
 
 Yes, simply create more Zaps in Zapier.
+
+## Related articles
+
+{% content-ref url="../outbound-integrations/zapier.md" %}
+[zapier.md](../outbound-integrations/zapier.md)
+{% endcontent-ref %}

@@ -60,3 +60,11 @@ Yes, simply create more webhooks in Github.
 **Can I customize the alert messages?**
 
 No.
+
+
+
+## Related articles
+
+{% content-ref url="../../outbound-integrations/github-issue.md" %}
+[github-issue.md](../../outbound-integrations/github-issue.md)
+{% endcontent-ref %}

@@ -2,7 +2,7 @@
 description: This page describes how to integrate ilert with any tool that can send emails.
 ---
 
-# Email Integration
+# Email Inbound Integration
 
 Email integration is the easiest way to integrate ilert with your monitoring system. Each email alert source in ilert has its own email address (e.g. _your-tool@your-domain.ilertnow.com_). As soon as your monitoring system sends an e-mail to this address, ilert will create an alert.
 
@@ -58,4 +58,12 @@ Yes, see [Automatically resolve Alerts with Emails](automatically-resolve-incide
 
 **I need more examples that illustrate regex alert key extraction from emails, where can I find them?**
 
-Take a look [here](email-key-extraction-and-resolve-examples.md)
+Take a look [here](email-key-extraction-and-resolve-examples.md).
+
+
+
+## Related articles
+
+{% content-ref url="../../outbound-integrations/email.md" %}
+[email.md](../../outbound-integrations/email.md)
+{% endcontent-ref %}

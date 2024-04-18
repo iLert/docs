@@ -4,11 +4,9 @@ description: >-
   alerts from tickets and vice versa.
 ---
 
-# Zammad Integration
+# Zammad Inbound Integration
 
 [Zammad](https://zammad.com/en) is an open-source helpdesk and customer support platform designed to help businesses manage communications and interactions with their customers.
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Zammad Outbound Integration</strong></td><td>Create tickets in Zammad from ilert alerts</td><td><a href="../outbound-integrations/zammad.md">zammad.md</a></td></tr></tbody></table>
 
 ## In ilert: Create a Zammad alert source <a href="#in-ilert" id="in-ilert"></a>
 
@@ -76,3 +74,9 @@ Yes, simply create more action sequences in Zammad.
 ### Will Zammad comments be synced to ilert?
 
 Yes, Zammad comments will automatically be attached to ilert alerts.
+
+## Related articles
+
+{% content-ref url="../outbound-integrations/zammad.md" %}
+[zammad.md](../outbound-integrations/zammad.md)
+{% endcontent-ref %}

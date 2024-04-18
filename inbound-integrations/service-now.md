@@ -4,11 +4,11 @@ description: >-
   ServiceNow.
 ---
 
-# ServiceNow Integration
+# ServiceNow Inbound Integration
 
 [ServiceNow ](https://www.servicenow.com/)is a cloud-based platform that provides workflow automation, IT service management (ITSM), and digital workflow solutions to enhance the efficiency of business operations. Initially recognized for its ITSM capabilities, ServiceNow has since expanded its services to include a broader range of business functions, including customer service, human resources, and security operations.
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>ServiceNow Outbound Integration</strong></td><td>Create ServiceNow tickets from ilert alerts</td><td><a href="../../outbound-integrations/servicenow.md">servicenow.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>ServiceNow Outbound Integration</strong></td><td>Create ServiceNow tickets from ilert alerts</td><td><a href="../outbound-integrations/servicenow.md">servicenow.md</a></td></tr></tbody></table>
 
 ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Management (SM) software.
 
@@ -17,25 +17,25 @@ ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Mana
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "ServiceNow" as the **Integration Type** and click on **Save**.
 
-![](../../.gitbook/assets/Screenshot\_09\_02\_21\_\_07\_51.png)
+![](../.gitbook/assets/Screenshot\_09\_02\_21\_\_07\_51.png)
 
 1. On the next page, a **ServiceNow URL** is generated. You will need this URL below when setting up the hook in ServiceNow.
 
-![](../../.gitbook/assets/Screenshot\_09\_02\_21\_\_07\_52.png)
+![](../.gitbook/assets/Screenshot\_09\_02\_21\_\_07\_52.png)
 
 ## In ServiceNow: Create a business rule <a href="#in-servicenow" id="in-servicenow"></a>
 
 1. Go to ServiceNow, search for **Incidents**, **\*\*then open the header menu and choose** Configure -> Business Rules\*\*
 
-![](../../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_40.png)
+![](../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_40.png)
 
 1. In the **Business Rules** view click on **New** to create a new business rule
 
-![](../../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_42.png)
+![](../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_42.png)
 
 1. Name the business rule e.g. **ilert Alerts**, choose **Advanced** option, in the **When to run** section choose **async** then choose **Insert** and **Update** options
 
-![](../../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_43.png)
+![](../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_43.png)
 
 1. Go to Advanced tab and paste the following code into the script section:
 
@@ -74,7 +74,7 @@ ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Mana
 
 1. Click on **Submit** or **Update** to save the business rule
 
-![](../../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_46.png)
+![](../.gitbook/assets/Screenshot\_08\_02\_21\_\_22\_46.png)
 
 ## ServiceNow Incident Lifecycle <a href="#lifecycle" id="lifecycle"></a>
 
@@ -95,7 +95,7 @@ ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Mana
 
 ilert's ServiceNow integration allows you to easily configure advanced settings such as dynamic escalation policy routing and priority mapping.
 
-![](<../../.gitbook/assets/image (57) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (57) (1) (1) (1).png>)
 
 To get access to the advanced features, you will have to provide access credentials to your ServiceNow instance first. The provided user will need the following permissions in ServiceNow:
 
@@ -112,17 +112,17 @@ This will grant you access to:
 
 When selecting priority mapping, ilert will contact your ServiceNow instance and fetch all available priorities of ServiceNow alerts. You will then be able to choose a mapping for each of these and determine how ilert will treat them when creating alerts in ilert.
 
-![](<../../.gitbook/assets/image (55) (1) (2).png>)
+![](<../.gitbook/assets/image (55) (1) (2).png>)
 
 ### Dynamic escalation policy routing
 
 When selecting escalation policy routing, ilert will contact your ServiceNow instance and fetch all available alert fields. You will then be able to choose an alert field that should be used for incoming alerts in ilert to determine the routing key.
 
-![](<../../.gitbook/assets/image (51) (1).png>)
+![](<../.gitbook/assets/image (51) (1).png>)
 
 You may choose to give escalation policies in ilert a unique routing key.
 
-![](<../../.gitbook/assets/image (54) (3).png>)
+![](<../.gitbook/assets/image (54) (3).png>)
 
 With an incoming event ilert will try to find the right escalation policy based on the routing key and assign the alert to the escalation policy. If no routing key is provided, ilert will use the assigned escalation policy of the alert source.
 
@@ -130,13 +130,13 @@ With an incoming event ilert will try to find the right escalation policy based 
 
 When providing credentials you may choose to activate bidirectional mode on the ServiceNow alert sources. This will cause your alert source to be automatically linked with an outbound connector and alert action. This way status changes to ilert alerts will synchronize to ServiceNow tickets.
 
-![](<../../.gitbook/assets/image (53) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (53) (1) (1) (1).png>)
 
 When saving the ServiceNow alert source with the bidirectional setting enabled, it will automatically create an outbound connector for you and take you to the creation page of the necessary alert action, **please make sure to continue with the setup of the action to finish your bidirectional alert source setup.**
 
 
 
-![](<../../.gitbook/assets/image (56) (1).png>)
+![](<../.gitbook/assets/image (56) (1).png>)
 
 ### Good to know
 
@@ -177,3 +177,11 @@ Yes
 **Can I connect ServiceNow with multiple alert sources from ilert?**
 
 Yes, simply create more business rules in ServiceNow.
+
+
+
+## Related articles
+
+{% content-ref url="../outbound-integrations/servicenow.md" %}
+[servicenow.md](../outbound-integrations/servicenow.md)
+{% endcontent-ref %}

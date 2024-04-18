@@ -33,3 +33,9 @@ If you chose an automatic alert action, there are no more actions needed, as the
 In case you chose manual (so called alert actions) you should now see an **action** in the alert context menu for your email alert action on each alert detail view of the selected alert source.
 
 ![](<../.gitbook/assets/Screenshot 2020-09-03 at 17.08.53.png>)
+
+## Related articles
+
+{% content-ref url="../inbound-integrations/email/" %}
+[email](../inbound-integrations/email/)
+{% endcontent-ref %}

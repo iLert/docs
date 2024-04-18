@@ -4,11 +4,9 @@ description: >-
   Zendesk integration
 ---
 
-# Zendesk Integration
+# Zendesk Inbound Integration
 
 [Zendesk](https://www.zendesk.com/) offers a range of products that streamline processes and enhance productivity for support teams, enabling them to provide more effective and personalized service experiences. The platform allows businesses to manage customer interactions across various communication channels, such as email, chat, and social media, consolidating them into a single, unified interface.
-
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Zendesk Outbound Integration</strong></td><td>Create tickets in Zendesk from ilert alerts</td><td><a href="../outbound-integrations/zendesk.md">zendesk.md</a></td></tr></tbody></table>
 
 ## In ilert: Create a Zendesk alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -141,3 +139,9 @@ No.
 ### Are Zendesk comments synced with ilert alerts?
 
 Yes, if the variables `latest_comment` and `latest_comment_author_name` are provided in your Zendesk trigger JSON template the comments will be synced to ilert alerts.
+
+## Related articles
+
+{% content-ref url="../outbound-integrations/zendesk.md" %}
+[zendesk.md](../outbound-integrations/zendesk.md)
+{% endcontent-ref %}

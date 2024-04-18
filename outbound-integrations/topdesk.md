@@ -83,3 +83,11 @@ Yes, the state of the ilert Alert is reflected in the brief description of the T
 **Can I choose which updates to publish to an alert in TOPdesk?**
 
 Currently not. If you wish, we look forward to your feedback via chat or e-mail.
+
+
+
+## Related articles
+
+{% content-ref url="../inbound-integrations/topdesk.md" %}
+[topdesk.md](../inbound-integrations/topdesk.md)
+{% endcontent-ref %}

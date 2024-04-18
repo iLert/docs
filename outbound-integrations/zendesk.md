@@ -18,7 +18,7 @@ To set up the integration, the Zendesk user must have agent permissions.
 
 2. Go to admin settings, select the API channel, enable token access and create an API token.
 
-![](../../.gitbook/assets/zd1.png)
+![](../.gitbook/assets/zd1.png)
 
 3. You will need this API token later in ilert. Make sure to copy and store it. You won't be able to see it again in Zendesk. Click **Save**.
 
@@ -32,27 +32,27 @@ To set up the integration, you must have admin rights in ilert.
 
 1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
 
-![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_46.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_46.png)
 
 2. Click the **Add Connector** button
 
-![](../../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_48.png)
+![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_48.png)
 
 3. On the next page, choose **Zendesk Support** as type, name the connector, enter your zendesk URL in the form [https://{your-domain}.zendesk.com](https://{your-domain}.zendesk.com), enter your Zendesk user **Email** and **API-Key** that you generated before _\*\*_ and click on the save button
 
-![](<../../.gitbook/assets/iLert (92).png>)
+![](<../.gitbook/assets/iLert (92).png>)
 
 4. Go to **Alert sources** and select the alert source you want to connect with Zendesk. Click on **Alert Actions → Add new alert action**.
 
-![](<../../.gitbook/assets/iLert (93).png>)
+![](<../.gitbook/assets/iLert (93).png>)
 
 5. On the next page choose **Zendesk Support** as the type, choose the connector created in step 3, name it, choose **Priority** of the Zendesk tickets and click on the **Save** button.
 
-![](<../../.gitbook/assets/iLert (95).png>)
+![](<../.gitbook/assets/iLert (95).png>)
 
 6. You're done! You can now test this connection by clicking on **Test this connection**. A test ticket will be created in Zendesk.
 
-![](<../../.gitbook/assets/iLert (96).png>)
+![](<../.gitbook/assets/iLert (96).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 
@@ -63,3 +63,9 @@ Yes, status updates to ilert Alerts are reflected in the title of the Zendesk ti
 **Can I choose which updates to publish to a ticket in Zendesk?**
 
 Currently not. If that's something you'd like see in ilert, we look forward to your feedback via chat or e-mail.
+
+## Related articles
+
+{% content-ref url="../inbound-integrations/zendesk.md" %}
+[zendesk.md](../inbound-integrations/zendesk.md)
+{% endcontent-ref %}

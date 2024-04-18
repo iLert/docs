@@ -7,7 +7,7 @@ type: pages
 description: The ilert TOPdesk Integration helps you to easily connect to TOPdesk.
 ---
 
-# TOPdesk Integration
+# TOPdesk Inbound Integration
 
 [TOPdesk](https://www.topdesk.com/en/) is a modular service management software that helps businesses manage IT support, facilities management, HR, and other services. It provides a centralized platform for ticketing, asset management, and workflow automation.
 
@@ -172,3 +172,9 @@ Yes, simply create more action sequences in TOPdesk.
 **Can I customize the alert messages?**
 
 Yes, any custom field will be shown in the alert details.
+
+## Related articles
+
+{% content-ref url="../outbound-integrations/topdesk.md" %}
+[topdesk.md](../outbound-integrations/topdesk.md)
+{% endcontent-ref %}
