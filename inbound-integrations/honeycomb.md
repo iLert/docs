@@ -43,11 +43,11 @@ description: >-
 4. In the popup window: Change the **Provider** to Webhook and choose a desired **Name**. Now insert the ilert Honeycomb URL and api key from [the previous created alert source](honeycomb.md#in-ilert-create-a-honeycomb-alert-source) into **Webhook URL** and **Shared Secret**.
 5. Click on **Add** to save the integration.
 
-<figure><img src="../.gitbook/assets/4 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/4 (5).png" alt="" width="563"><figcaption></figcaption></figure>
 
 6. Optionally: On the Trigger and SLO Recipients section, click on **Test**, to send a test webhook to ilert.
 
-<figure><img src="../.gitbook/assets/5 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/5 (5).png" alt="" width="563"><figcaption></figcaption></figure>
 
 7. Now on the sidebar, click on **Triggers**.
 
@@ -55,26 +55,26 @@ description: >-
 
 8. Select a desired trigger template. (This documentation uses Latency)
 
-<figure><img src="../.gitbook/assets/7 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/7 (4).png" alt="" width="563"><figcaption></figcaption></figure>
 
 9. Select a dataset and click on **Next**.
 
-<figure><img src="../.gitbook/assets/8 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/8 (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 10. After configuring the trigger, scroll down to the **Recipients** section and click on **Add Recipient**.
 
-<figure><img src="../.gitbook/assets/9 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/9 (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 11. Select the previously created webhook as **Recipient** and click on **Add**.
 12. Save the trigger.
 
-<figure><img src="../.gitbook/assets/10 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/10 (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 13. Optionally: In the triggers list click on the **Test** button to send a test webhook to ilert.
 
-<figure><img src="../.gitbook/assets/11 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/11 (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/12 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/12 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 
