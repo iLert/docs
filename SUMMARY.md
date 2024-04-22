@@ -166,6 +166,7 @@
 * [HaloITSM Integration](inbound-integrations/haloitsm.md)
 * [HaloPSA Integration](inbound-integrations/halopsa.md)
 * [HashiCorp Consul](inbound-integrations/consul.md)
+* [Honeycomb Integration](inbound-integrations/honeycomb.md)
 * [Hyperping Integration](inbound-integrations/hyperping.md)
 * [CrowdStrike Falcon LogScale Integration](inbound-integrations/humio.md)
 * [IBM Cloud Functions Integration](inbound-integrations/ibmcloudfunctions.md)
