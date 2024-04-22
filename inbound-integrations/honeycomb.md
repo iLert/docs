@@ -30,7 +30,7 @@ description: >-
 
 1. On the sidebar click on **Account -> Team settings**.
 
-<figure><img src="../.gitbook/assets/1 (7).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (7).png" alt="" width="188"><figcaption></figcaption></figure>
 
 2. On the next page click on **Integrations**.
 
@@ -38,7 +38,7 @@ description: >-
 
 3. Now scroll down and click on **Add Integration**.
 
-<figure><img src="../.gitbook/assets/3 (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (5).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. In the popup window: Change the **Provider** to Webhook and choose a desired **Name**. Now insert the ilert Honeycomb URL and api key from [the previous created alert source](honeycomb.md#in-ilert-create-a-honeycomb-alert-source) into **Webhook URL** and **Shared Secret**.
 5. Click on **Add** to save the integration.
