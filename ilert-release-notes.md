@@ -10,6 +10,64 @@ description: >-
 These notes get usually updated retrospectively within the first 2 weeks of the following month
 {% endhint %}
 
+
+
+## April 2024
+
+### New features and improvements
+
+* We have reworked the setup flow for Alert actions and Connectors, admins will now find a hugely **improved Connector UX**
+* We have launched **incident timelines** that give fine grained audit insights into what has changed by whom on an incident during its lifecycle
+* We have launched **call logs for call flows** (call routing 2.0) providing fine grained audit insights into what has happend during and outside of the call
+* The incident list will now live update, similar to the alert list
+* We have added a new inbound integration: Victoria Metrics
+* We have added a new inbound integration: Honeycomb
+* We have improved the inbound Email integration, now providing custom alert templates e.g. to include the sender in the alert summary
+
+
+
+## March 2024
+
+### New features and improvements
+
+* We have launched Call Flows aka **Call Routing 2.0** as closed BETA for selected customers, offering a completely new way to build and configure your call routing experience, reach out if you wish to join the BETA
+* **AI assisted schedule creation** is now in open BETA
+* We have added a new UI for Account owners and Admins to get information on the current plan, quota and usage of the account (find it via: Navigation -> Cog -> Usage and limits)
+* Public status pages now remind subscribers of their missing opt-in up to 1 week
+* Public status page subscriptions can now apply a filter to choose to subscribe to specific services only
+* We have added a new inbound integration: HaloITSM
+* We have added a new inbound integration: Kibana
+* We have reworked the Elastic Watcher integration
+
+
+
+## February 2024
+
+### New features and improvements
+
+* The Datadog integration has been improved
+* The reports API has been improved
+* The Slack and Microsoft Teams alert actions UI has been reworked
+* We have added **HaloPSA** as new inbound integration
+* We have added **InfluxDB** as new inbound integration
+* The NCentral integration has been improved
+
+
+
+## January 2024
+
+### New features and improvements
+
+* **Alert actions v2** is now in GA, offering a global top level alert action experience, team ownerships and multiple alert sources per alert action
+* The Telegram integration has been improved
+* Alert sources now offer an **Event Explorer** to discover and debug event traffic as well as alert creation
+* Status page SMS opt-ins now use ilert's link shortner service
+* Private status pages now send notifications to public subscriptions in IP range scenarios
+* There is now an option to export Teams as CSV for admins
+* The User CSV export has been improved
+
+
+
 ## December 2023
 
 ### New features and improvements
