@@ -8,8 +8,6 @@ description: >-
 
 [ServiceNow ](https://www.servicenow.com/)is a cloud-based platform that provides workflow automation, IT service management (ITSM), and digital workflow solutions to enhance the efficiency of business operations. Initially recognized for its ITSM capabilities, ServiceNow has since expanded its services to include a broader range of business functions, including customer service, human resources, and security operations.
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>ServiceNow Outbound Integration</strong></td><td>Create ServiceNow tickets from ilert alerts</td><td><a href="../outbound-integrations/servicenow.md">servicenow.md</a></td></tr></tbody></table>
-
 ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Management (SM) software.
 
 ## In ilert: Create a ServiceNow alert source <a href="#in-ilert" id="in-ilert"></a>
