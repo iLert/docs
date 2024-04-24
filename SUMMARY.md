@@ -235,7 +235,6 @@
 
 ## Outbound integrations
 
-* [Amazon EventBridge Integration](outbound-integrations/aws-event-bridge.md)
 * [Autotask Outbound Integration](outbound-integrations/autotask.md)
 * [DingTalk Integration](outbound-integrations/dingtalk.md)
 * [Discord Integration](outbound-integrations/discord.md)
