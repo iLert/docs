@@ -6,9 +6,11 @@ description: >-
 
 # Honeycomb Integration
 
+[Honeycomb](https://www.honeycomb.io/) is a tool for observability, designed to help developers understand and debug their software systems by providing real-time insights and detailed, queryable data about production environments.
+
 ## In ilert: Create a Honeycomb alert source&#x20;
 
-1.  Go to **Alert sources** --> **Alert sources** and click **Create new alert source**.
+1.  Go to **Alert sources** -> **Alert sources** and click **Create new alert source**.
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
 2.  Search for **Honeycomb** in the search field, click the Honeycomb tile, and then **Next**.&#x20;
