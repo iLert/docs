@@ -114,7 +114,6 @@
 ## Inbound Integrations
 
 * [Amazon CloudWatch Integration](inbound-integrations/amazon-cloudwatch.md)
-* [Amazon EventBridge Integration](inbound-integrations/aws-event-bridge.md)
 * [Amazon SNS Integration](inbound-integrations/amazon-sns/README.md)
   * [Amazon SNS Inbound Integration](inbound-integrations/amazon-sns/inbound.md)
   * [Amazon SNS Outbound via AWS Lambda](inbound-integrations/amazon-sns/outbound-via-lambda.md)
@@ -236,6 +235,7 @@
 
 ## Outbound integrations
 
+* [Amazon EventBridge Integration](outbound-integrations/aws-event-bridge.md)
 * [Autotask Outbound Integration](outbound-integrations/autotask.md)
 * [DingTalk Integration](outbound-integrations/dingtalk.md)
 * [Discord Integration](outbound-integrations/discord.md)
