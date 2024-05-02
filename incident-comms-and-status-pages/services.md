@@ -40,10 +40,10 @@ To configure an automation
 
 * click on **Alert sources** -> **Alert sources** in the navigation bar
 * choose an alert source and navigate to the tab **Alert actions**
-* click on **Create first alert action**
+* click on **Create new alert action**
 * select type ilert -> **Create incident or update status page or service**
 
-![](<../.gitbook/assets/Screenshot 2023-01-10 at 13.36.57.png>)
+![](<../.gitbook/assets/Alert sources (1).png>)
 
 Once you have configured an automation's settings, any alert that will be created on the chosen alert source will automatically set the status of your service. Make sure that the trigger mode is set to **Automatic** for the alert action to trigger automatically for every alert:
 
