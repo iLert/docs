@@ -190,3 +190,7 @@ Yes, create a private status page and configure an IP whitelist in the status pa
 **Can I export a list of status page subscribers?**
 
 Yes. To export a CSV file of your status page subscribers, go to Subscribers tab in Status Page Settings and click "Download subscribers" button in the upper right corner.&#x20;
+
+**What if a subscriber hasn't confirmed a status page subscription?**
+
+No worries, ilert will automatically send double opt-in confirmation reminders to your subscribers after 24 hours, three days, and one week.
