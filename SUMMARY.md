@@ -208,7 +208,6 @@
 * [Server Density Integration](inbound-integrations/serverdensity.md)
 * [ServiceNow Inbound Integration](inbound-integrations/service-now.md)
 * [SignalFx Integration](inbound-integrations/signalfx.md)
-* [Single Sign-On Setup](inbound-integrations/sso.md)
 * [SMS Integration](inbound-integrations/sms-integration.md)
 * [SolarWinds Integration](inbound-integrations/solarwinds.md)
 * [Splunk Integration](inbound-integrations/splunk.md)

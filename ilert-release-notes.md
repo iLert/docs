@@ -870,7 +870,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New features
 
-* [Single Sign On](inbound-integrations/sso.md): Single sign on makes it easy to manage access to your ilert account using an identity provider of your choice.
+* [Single Sign On](broken-reference): Single sign on makes it easy to manage access to your ilert account using an identity provider of your choice.
 * **Alert Reporting** includes key metrics such MTTA and MTTR ([blog post](https://www.ilert.com/blog/2020-04-07-alert-reports-ilert-sso/#reports)).
 
 ### New integrations
