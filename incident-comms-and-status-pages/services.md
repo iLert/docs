@@ -39,15 +39,18 @@ You can automatically set the status of a service and create incidents using ale
 To configure an automation
 
 * click on **Alert sources** -> **Alert sources** in the navigation bar
+
+![](<../.gitbook/assets/Alert sources (1).png>)
+
 * choose an alert source and navigate to the tab **Alert actions**
 * click on **Create new alert action**
 * select type ilert -> **Create incident or update status page or service**
 
-![](<../.gitbook/assets/Alert sources (1).png>)
+<figure><img src="../.gitbook/assets/pika-1714725348184-2x.png" alt=""><figcaption></figcaption></figure>
 
 Once you have configured an automation's settings, any alert that will be created on the chosen alert source will automatically set the status of your service. Make sure that the trigger mode is set to **Automatic** for the alert action to trigger automatically for every alert:
 
-![](<../.gitbook/assets/Screenshot 2023-01-10 at 13.34.17.png>)
+<figure><img src="../.gitbook/assets/pika-1714725588451-2x.png" alt=""><figcaption></figcaption></figure>
 
 ## Service uptime
 
