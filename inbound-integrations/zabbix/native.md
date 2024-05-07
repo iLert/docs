@@ -160,6 +160,10 @@ Yes, create several **ilert users** in Zabbix and store the corresponding **API 
 
 No events are lost. The zabbix server tries to send the events to ilert every 30 seconds with 10 attempts (can be configured in media type settings). As soon as your connection is available again, all events are sent to ilert. We also recommend that you monitor your Internet connection with an external monitoring service. You can then send these alerts to ilert too.
 
+**While testing the media type I am receiving "Invalid API key" responses, why?**
+
+When testing the media type, you will need to provide the ilert alert source API key again and replace the '`.ILERT.ALERT.SOURCE.KEY`' field, as it is _not filled automatically by Zabbix_.
+
 **The plugin does not work. How do I find the issue?**
 
 Please look at the **Problems View** in Zabbix under the actions column first. If you can not find the error, please contact our support at [support@ilert.com](mailto:support@ilert.com).
