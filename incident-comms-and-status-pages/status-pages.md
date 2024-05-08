@@ -100,7 +100,9 @@ You can automatically update your status page in the following ways:
 
 Both cases work by using a service's automation rules. See [-> Services: automation with alert sources](services.md#automation-with-alert-sources) for more information.
 
-{% embed url="https://www.loom.com/share/15eae496b3794d628c439d737156cd04" %}
+{% embed url="https://youtu.be/pDr8_ALyE14" %}
+[https://www.youtube.com/@ilertVideos](https://www.youtube.com/@ilertVideos)
+{% endembed %}
 
 ## Setting up your custom domain <a href="#custom-domain" id="custom-domain"></a>
 
