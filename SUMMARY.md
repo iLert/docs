@@ -249,9 +249,9 @@
 * [Zammad Outbound Integration](outbound-integrations/zammad.md)
 * [Zapier Outbound Integration](outbound-integrations/zapier.md)
 * [Zendesk Outbound Integration](outbound-integrations/zendesk.md)
-* [Zoom Integration](outbound-integrations/zoom-integration/README.md)
-  * [Zoom Chat Integration](outbound-integrations/zoom-integration/zoom-chat-integration.md)
-  * [Zoom Meeting Integration](outbound-integrations/zoom-integration/zoom-meeting-integration.md)
+* [Zoom Integration](outbound-integrations/zoom/README.md)
+  * [Zoom Chat Integration](outbound-integrations/zoom/zoom-chat-integration.md)
+  * [Zoom Meeting Integration](outbound-integrations/zoom/zoom-meeting-integration.md)
 
 ***
 
