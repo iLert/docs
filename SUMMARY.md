@@ -125,7 +125,6 @@
   * [Azure Service Health](inbound-integrations/azure-alerts/service-health.md)
   * [Azure Sentinel](inbound-integrations/azure-alerts/sentinel.md)
   * [Budget Alert](inbound-integrations/azure-alerts/budget.md)
-* [API Fortress Integration](inbound-integrations/apifortress.md)
 * [AppDynamics Integration](inbound-integrations/appdynamics.md)
 * [AppSignal Integration](inbound-integrations/appsignal.md)
 * [AWS Budget Integration](inbound-integrations/awsbudget.md)
