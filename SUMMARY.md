@@ -127,7 +127,7 @@
   * [Budget Alert](inbound-integrations/azure-alerts/budget.md)
 * [AppDynamics Integration](inbound-integrations/appdynamics.md)
 * [AppSignal Integration](inbound-integrations/appsignal.md)
-* [AWS Budget Integration](inbound-integrations/awsbudget.md)
+* [AWS Budgets Integration](inbound-integrations/awsbudget.md)
 * [AWS GuardDuty Integration](inbound-integrations/guardduty.md)
 * [AWS Personal Health Dashboard Integration](inbound-integrations/aws-phd.md)
 * [Autotask Inbound Integration](inbound-integrations/autotask.md)
