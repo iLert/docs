@@ -6,7 +6,7 @@ description: Palo Alto Network Prisma Cloud Integration
 
 ## In ilert: Create a Prisma Cloud alert source
 
-1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
+1.  Go to **Alert sources** -> **Alert sources** and click on **Create new alert source**
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
 2.  Search for **Prisma Cloud** in the search field, click on the Prisma Cloud tile and click on **Next**.&#x20;
