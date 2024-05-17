@@ -61,7 +61,7 @@ The number that ilert uses to send voice notifications depends on the target cou
 | Documentation     | [https://docs.ilert.com](https://docs.ilert.com)                                                                  |
 | API               | [https://api.ilert.com/api](https://api.ilert.com/api/v1)                                                         |
 | API documentation | [https://api.ilert.com/api-docs](https://api.ilert.com/api)                                                       |
-| Service Status    | [http://status.ilert.com](http://status.ilert.com)                                                                |
+| Service Status    | [http://status.ilert.com](https://status.ilert.com/)                                                              |
 
 ## IP addresses for outgoing webhooks <a href="#email-services" id="email-services"></a>
 
