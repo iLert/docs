@@ -18,17 +18,17 @@ In case of malformed values or states which are not allowed e.g.`role = ADMIN wi
 | lastName         | String                                         | parsed from Email (claim) |                                     |
 | position         | String                                         | None                      |                                     |
 | department       | String                                         | None                      |                                     |
-| role             | STAKEHOLDER, GUEST, RESPONDER, USER, ADMIN     | RESPONDER                 |                                     |
+| role             | STAKEHOLDER, GUEST, RESPONDER, USER, ADMIN     | STAKEHOLDER               |                                     |
 | mobileRegionCode | Region Code e.g. DE                            | None                      |                                     |
 | mobileNumber     | Phone Number without country e.g. 0221 123 123 | None                      | Requires mobileRegionCode to be set |
 | userProfileImage | absolute URL to image of user (500x500px)      | None                      |                                     |
 
 ### Auto provision team details
 
-| Attribute keys | Values                              | Default   | Info                                         |
-| -------------- | ----------------------------------- | --------- | -------------------------------------------- |
-| teamName       | String                              |           |                                              |
-| teamRole       | STAKEHOLDER, RESPONDER, USER, ADMIN | RESPONDER | if `role` is set, will default to role value |
+| Attribute keys | Values                              | Default   | Info |
+| -------------- | ----------------------------------- | --------- | ---- |
+| teamName       | String                              |           |      |
+| teamRole       | STAKEHOLDER, RESPONDER, USER, ADMIN | RESPONDER |      |
 
 If a team with the same name does not exist, it is created on the first login of this user. In any case the user will be added to the team.
 
