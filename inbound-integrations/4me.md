@@ -4,6 +4,8 @@ description: Create alerts in ilert based on problems or requests from 4me.
 
 # 4me Integration
 
+[4me](https://www.4me.com/) is a service management platform designed to streamline collaboration and workflow management across various departments and organizations. It focuses on providing seamless service integration and management capabilities, allowing businesses to handle IT, HR, and other service-related processes efficiently. Following the instructions below, you can connect 4me with ilert and automatically notify your team when a request or a problem is created within 4me.&#x20;
+
 ## In ilert: Create a 4me alert source&#x20;
 
 1.  Go to **Alert sources** -> **Alert sources** and click **Create new alert source**.
