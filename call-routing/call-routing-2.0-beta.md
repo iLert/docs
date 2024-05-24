@@ -1,9 +1,4 @@
-# Call Routing 2.0 (BETA)
-
-{% hint style="info" %}
-**Call Routing 2.0 Availability**\
-Call Routing 2.0 is currently available through our Early Access Program. To request access, please contact support@ilert.com.
-{% endhint %}
+# Call Routing 2.0
 
 Call Routing 2.0 introduces a new visual call flow builder that allows you to visually construt custom call flows using pre-defined nodes, such as such as IVR Menus, PIN Code Verification, Audio Messages, Support Hours, and more to tailor the call routing logic to your specific needs.
 
@@ -79,12 +74,7 @@ Follow the steps below to seamlessly transition your incoming call routing to th
    ![](<../.gitbook/assets/image (4).png>)
 2. Publish your call flow by clicking on the **Publish** button.&#x20;
 3. A warning will appear if the phone number is already in use by the legacy routing system. Proceed by clicking **Publish anyway**.
-4. Incoming call will now use your new call flow.&#x20;
-
-### Limitations of Call Routing 2.0 during the Beta
-
-* Please do not use Call Routing 2.0 in mission critical workflows during the Beta phase.&#x20;
-* Call logs currently contain limited information and do not show you detailed execution steps of your call flow. We will introduce additional logs in the coming weeks.
+4. Incoming calls will now use your new call flow.&#x20;
 
 ### &#x20;
 

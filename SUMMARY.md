@@ -74,7 +74,7 @@
   * [Managing call routing alerts](call-routing/getting-started-with-call-routing/managing-call-routing-incidents.md)
   * [Adding webhooks and outbound chat messages](call-routing/getting-started-with-call-routing/adding-webhooks-and-outbound-chat-messages.md)
 * [Uploading custom audio responses](call-routing/uploading-custom-audio-responses.md)
-* [Call Routing 2.0 (BETA)](call-routing/call-routing-2.0-beta.md)
+* [Call Routing 2.0](call-routing/call-routing-2.0-beta.md)
 
 ## User Administration
 
