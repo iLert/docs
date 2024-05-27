@@ -89,7 +89,9 @@ The status of your status page is automatically updated whenever
 
 [--> How to create an incident](incidents.md#create-and-communicate-incidents)
 
-{% embed url="https://www.loom.com/share/8f83ca49929247c49f33468461f08c91" %}
+{% embed url="https://www.youtube.com/watch?v=165HNbOqR7I" %}
+[https://www.youtube.com/@ilertVideos](https://www.youtube.com/@ilertVideos)
+{% endembed %}
 
 ## Automation with alert sources
 
