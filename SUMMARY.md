@@ -93,6 +93,7 @@
 * [API Reference](https://api.ilert.com/api-docs/)
 * [API Version History](rest-api/api-version-history/README.md)
   * [API user preference migration 2023](rest-api/api-version-history/api-user-preference-migration-2023.md)
+  * [Discontinuation of Uptime Monitoring](rest-api/api-version-history/discontinuation-of-uptime-monitoring.md)
 * [Rate Limiting](rest-api/alertsource-throttle.md)
 * [Client Libraries](rest-api/client-libraries/README.md)
   * [ilert Agent - ilagent](rest-api/client-libraries/ilagent.md)
