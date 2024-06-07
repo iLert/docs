@@ -1,9 +1,11 @@
 # 👩‍💻 ICL - ilert condition language
 
+Customize and fine tune your automation experience across the platform - if needed.
+
 ```
 event.summary not contains 'dev stage' and (
     event.customDetails.location in ["DE", "CH", "AT"]
-    or resetting_trigger_count.10m >= 100
+        or resetting_trigger_count.10m >= 100
 )
 ```
 
