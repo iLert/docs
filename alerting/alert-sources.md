@@ -155,6 +155,20 @@ To enable dynamic priority mapping
 ilert will fallback to the alert source's default priority, if a priority could not be extracted.
 {% endhint %}
 
+## Event filter
+
+Sometimes flagging alerts as low priority is not enough and it is necessary to drop events completely. e.g. `Grafana DatasourceNoData` This is why you can configure one or multiple event filter groups for your alert source to process only desired events into alerts.
+
+<figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+
+You may choose between properties of the known **ilert event payload** such as priority or summary, some more **advanced dynamic fields** like **trigger counts** which allow you define your own rate limits as well as **schedules** and **support hours** to fine tune accept windows - and of course **custom payload fields**.
+
+If you wish for even more customization you can switch the UI into the code editor mode and get full access to the ICL, find out more about it here:
+
+{% content-ref url="../rest-api/icl-ilert-condition-language.md" %}
+[icl-ilert-condition-language.md](../rest-api/icl-ilert-condition-language.md)
+{% endcontent-ref %}
+
 ## Alert grouping
 
 Alert grouping helps you reduce noise by clustering related alerts within a defined time window or by allowing only one open alert at a time per source.
