@@ -53,7 +53,7 @@ With alert templates, you can create your own template for the alert summary and
     The available fields are specific to the integration.\
 
 
-    <figure><img src="../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Field colors and accessing raw fields**
@@ -63,12 +63,6 @@ With alert templates, you can create your own template for the alert summary and
 * Grey fields lets you extract any raw fields from the JSON payload by typing the name of the custom field, e.g. `custom_field`. You malso access nested fields and arrays, e.g. `custom_field.array_field[5].nested_field`
 {% endhint %}
 
-#### Switching edit modes: Text <--> Block
-
-You may switch between Text and Block mode when editing alert source templates. ilert will automatically translate your current template.
-
-<figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure>
-
 #### Testing your templates before saving
 
 Using the preview button you may try out your current template. By default, ilert will try to find one of the latest event payload's that was received by your alert source. If there is none present, we will render a fallback JSON doc, which you might alter as you like.
@@ -77,24 +71,21 @@ Using the preview button you may try out your current template. By default, iler
 
 <figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
 
-#### Manipulate alert fields by applying functions
-
-You can also use functions on dynamic fields to manipulate alert fields.
-
-To apply a function, hover over the field and click on the `f(x)` icon.
-
-<figure><img src="../.gitbook/assets/Screenshot 2023-04-25 at 12.55.43.png" alt=""><figcaption></figcaption></figure>
-
 #### Using the template text syntax
 
-By default ilert supports 2 different styles of template content:
+Your alert source template fields will start in text mode by default. In text mode you may use the **Insert data...** dropdown to help you add template variables quickly (see here to understand more about variables and how ilert automatically parses event data to offer additional variables to you) - the text syntax works like this:
 
-* Text
-* Block Builder (currently in BETA)
+<table><thead><tr><th width="203">Type</th><th width="351.3333333333333">Sample</th><th>Description</th></tr></thead><tbody><tr><td>Text</td><td>Some text</td><td>You may of course add generic text content to your liking</td></tr><tr><td>Variable</td><td><strong><code>{{</code></strong><code>var</code><strong><code>}}</code></strong></td><td>Extract content of the event and insert it. Note: there is no further sanitizing of the values</td></tr><tr><td>Accessing nested variables</td><td><code>{{ var</code><strong><code>.</code></strong><code>subfield</code><strong><code>.</code></strong><code>evenMore }}</code></td><td>Access sub fields</td></tr><tr><td>Accessing fields of an array</td><td><code>{{ var.arrayField</code><strong><code>[0]</code></strong><code>.more }}</code></td><td>Access array contents</td></tr></tbody></table>
 
-Your alert source template fields will start in text mode by default (see [here](alert-sources.md#switching-edit-modes-text-less-than-greater-than-block)  for more info on how to switch to Block mode). In text mode you may use the **Insert data...** dropdown to help you add template variables quickly (see here to understand more about variables and how ilert automatically parses event data to offer additional variables to you) - the text syntax works like this:
 
-<table><thead><tr><th width="203">Type</th><th width="351.3333333333333">Sample</th><th>Description</th></tr></thead><tbody><tr><td>Text</td><td>Some text</td><td>You may of course add generic text content to your liking</td></tr><tr><td>Variable</td><td><strong><code>{{</code></strong><code>var</code><strong><code>}}</code></strong></td><td>Extract content of the event and insert it. Note: there is no further sanitizing of the values</td></tr><tr><td>Accessing nested variables</td><td><code>{{ var</code><strong><code>.</code></strong><code>subfield</code><strong><code>.</code></strong><code>evenMore }}</code></td><td>Access sub fields</td></tr><tr><td>Accessing fields of an array</td><td><code>{{ var.arrayField</code><strong><code>[0]</code></strong><code>.more }}</code></td><td>Access array contents</td></tr><tr><td>Applying functions to variables</td><td>{{<code>var</code><strong><code>##</code></strong><code>lowerCase}}</code></td><td>If you want to work with additional functions, we recommend switching to block mode to quickly generate the template syntax</td></tr><tr><td>Passing arguments to functions</td><td><code>{{var##substring((0</code><strong><code>||</code></strong><code>10))}}</code></td><td></td></tr></tbody></table>
+
+See ITL below to learn more about the templating language and its features for blocks, loops and functions:
+
+{% content-ref url="../rest-api/itl-ilert-template-language.md" %}
+[itl-ilert-template-language.md](../rest-api/itl-ilert-template-language.md)
+{% endcontent-ref %}
+
+
 
 {% embed url="https://www.youtube.com/watch?t=3s&v=RIYsmc1Uajs" %}
 
@@ -145,7 +136,7 @@ If you select **High during support hours, low priority otherwise,** you can cho
 
 If you select **Low during support hours, high priority otherwise,** you can choose to **Raise priority of all pending alerts** by ticking the checkbox located under the support hour selection. All your pending alerts for the current alert source will be raised to "high" when your support hours **end**.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Dynamic priority mapping
 
@@ -170,6 +161,36 @@ Alert grouping helps you reduce noise by clustering related alerts within a defi
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-08-22 at 22.31.52.png" alt=""><figcaption><p>Enable alert grouping during alert source creation or in the alert source's advanced settings</p></figcaption></figure>
 
-An alert source with alert grouping enabled will group together alerts triggered within the defined time window and create only one alert. Grouped alerts will show up as events in the alert's timeline. You can select relative time windows (e.g. 2 minutes, 5 minutes, etc) or an action-based time-window (e.g. until the alert is accepted or resolved).
+There are 5 types of alert grouping available:
+
+* Native integration based grouping
+* Time-based grouping
+* Grouping until accepted
+* Grouping until resolved
+* ilert AI similiarity based grouping
+
+### Native integration based grouping
+
+By default every alert source attempts to offer the best experience based on the features that the corresponding third party integration tool has available. Some tools offer more e.g. resolve events or proper alertKeys to group events, some tools offer a plain webhook without any additional context. ilert shows the integration features in the creation wizard:
+
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
+
+Integrations such as Autotask, Jira, Grafana or Prometheus provide rich payloads which ilert automatically uses to identify alertKey and eventTypes, which are used to automatically group incoming events, if an unresolved alert with the same identifier is found.
+
+### Time based grouping
+
+An alert source with alert grouping enabled will group together alerts triggered within the defined time window and create only one alert. Grouped alerts will show up as events in the alert's timeline. You can select relative time windows e.g. 2 minutes, 5 minutes, etc.
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-08-22 at 22.33.18.png" alt="" width="142"><figcaption></figcaption></figure>
+
+### Grouping until accepted / resolved
+
+Besides static relative windows you can also define action-based windows. By doing so alerts will be grouped until all alerts of the same alert source are accepted or resolved, before opening a new alert. (_You find these options at the end of the time-based selector_)
+
+### ilert AI based similarity grouping
+
+Check out the link below to see more about AI based grouping:
+
+{% content-ref url="../ilert-ai/using-ilert-ai-for-alert-grouping.md" %}
+[using-ilert-ai-for-alert-grouping.md](../ilert-ai/using-ilert-ai-for-alert-grouping.md)
+{% endcontent-ref %}

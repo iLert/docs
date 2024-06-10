@@ -24,7 +24,6 @@
   * [Prometheus Heartbeat Example](alerting/heartbeat-monitoring/prometheus-heartbeat-example.md)
   * [CLI Heartbeat Examples](alerting/heartbeat-monitoring/cli-heartbeat-examples.md)
 * [🏛️ Understanding event flows](alerting/understanding-event-flows.md)
-* [👩‍💻 ICL - ilert condition language](alerting/icl-ilert-condition-language.md)
 
 ## On-call management & Escalations
 
@@ -66,6 +65,7 @@
 * [Using ilert AI for efficient incident communication](ilert-ai/generating-incidents-using-ai.md)
 * [Using ilert AI for post-mortem creation](ilert-ai/generating-incident-updates-through-ai.md)
 * [Using ilert AI for schedule generation](ilert-ai/using-ilert-ai-for-schedule-generation.md)
+* [Using ilert AI for alert grouping](ilert-ai/using-ilert-ai-for-alert-grouping.md)
 
 ## Call Routing
 
@@ -89,7 +89,7 @@
   * [Auto provisioning users & teams](user-administration/single-sign-on/auto-provisioning-users-and-teams.md)
 * [🔐 Two-factor authentication / MFA](user-administration/two-factor-authentication-mfa.md)
 
-## REST API
+## API <a href="#rest-api" id="rest-api"></a>
 
 * [API Reference](https://api.ilert.com/api-docs/)
 * [API Version History](rest-api/api-version-history/README.md)
@@ -102,6 +102,8 @@
   * [Rust Client](rest-api/client-libraries/rust-client.md)
   * [Javascript / Node.js Client](rest-api/client-libraries/javascript-node.js-client.md)
 * [Terraform](rest-api/terraform.md)
+* [👩‍💻 ICL - ilert condition language](rest-api/icl-ilert-condition-language.md)
+* [➿ ITL - ilert template language](rest-api/itl-ilert-template-language.md)
 * [API Samples](rest-api/api-samples/README.md)
   * [Sending events from PowerShell](rest-api/api-samples/sending-events-from-powershell.md)
 * [🔥 Developing ilert Apps](rest-api/developing-ilert-apps/README.md)
