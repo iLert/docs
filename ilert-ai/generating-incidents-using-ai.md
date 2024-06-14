@@ -35,9 +35,3 @@ For incident updates
 * The current status of the incident.
 * The entered message content is used as prompt.&#x20;
 
-### What model is used?
-
-We're experimenting with a variety of large language models, including open source ones. Any of the following models may be used:&#x20;
-
-<table><thead><tr><th>Model</th><th width="120.66666666666669">Provider</th><th width="160" data-type="checkbox">Available for this use case</th><th>Info</th></tr></thead><tbody><tr><td>il-LLaMA-1</td><td>ilert</td><td>true</td><td>ALPHA</td></tr><tr><td>il-ludwig-rnn-2</td><td>ilert</td><td>false</td><td></td></tr><tr><td>gpt-4</td><td>OpenAI</td><td>true</td><td>BETA</td></tr><tr><td>gpt-3.5-turbo</td><td>OpenAI</td><td>true</td><td>default</td></tr><tr><td>text-davinci-003</td><td>OpenAI</td><td>true</td><td>deprecated</td></tr></tbody></table>
-
