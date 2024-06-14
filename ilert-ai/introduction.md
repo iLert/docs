@@ -16,8 +16,8 @@ AI features that do not share data with third parties are enabled independent of
 [generating-incidents-using-ai.md](generating-incidents-using-ai.md)
 {% endcontent-ref %}
 
-{% content-ref url="generating-postmortems-through-ai.md" %}
-[generating-postmortems-through-ai.md](generating-postmortems-through-ai.md)
+{% content-ref url="generating-incident-updates-through-ai.md" %}
+[generating-incident-updates-through-ai.md](generating-incident-updates-through-ai.md)
 {% endcontent-ref %}
 
 

@@ -63,7 +63,7 @@
 
 * [Introduction](ilert-ai/introduction.md)
 * [Using ilert AI for efficient incident communication](ilert-ai/generating-incidents-using-ai.md)
-* [Using ilert AI for post-mortem creation](ilert-ai/generating-postmortems-through-ai.md)
+* [Using ilert AI for post-mortem creation](ilert-ai/generating-incident-updates-through-ai.md)
 * [Using ilert AI for schedule generation](ilert-ai/using-ilert-ai-for-schedule-generation.md)
 * [Using ilert AI for alert grouping](ilert-ai/using-ilert-ai-for-alert-grouping.md)
 
