@@ -56,7 +56,7 @@ For our sample alert the generated markdown version looks like this:
 
 <figure><img src="../.gitbook/assets/image (104).png" alt="" width="375"><figcaption></figcaption></figure>
 
-At the bottom right you will find the Open option which will contain a link to the raw textfile document of your generated postmortem. You will probably want to move this raw version of the document into a shared MS Word or Google Doc for further manual fine tuning and adjustments before sharing it with colleagues.
+At the bottom right you will find the **Open** option which will contain a link to the raw textfile document of your generated postmortem. You will probably want to move this raw version of the document into a shared MS Word or Google Doc for further manual fine tuning and adjustments before sharing it with colleagues.
 
 ## Publishing a postmortem
 
