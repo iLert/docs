@@ -12,6 +12,22 @@ These notes get usually updated retrospectively within the first 2 weeks of the 
 
 
 
+## May 2024
+
+### New features and improvements
+
+* We have introduced [event filters](alerting/alert-sources.md#event-filter) for alert source, you can now add custom conditions to create or drop alerts
+* We have introduced the [ICL ilert conditional language](rest-api/icl-ilert-condition-language.md)
+* We have introduced a new ilert AI feature [event content similarity grouping for alert sources](ilert-ai/using-ilert-ai-for-alert-grouping.md)
+* Private status pages now support a new authorization procedure, through magic link emails, you can define one or multiple domains (or specific emails) to allow users outside of your ilert organization to access the private status page (look for **email based login** in the Authorization tab)
+* We have reworked the Jira outbound integration
+* The Stackdriver/GCP inbound integration now supports the Error reporting payload
+* The MongoDB inbound integration has been updated to support new event types
+* We have introduce a new [inbound integration 4me](inbound-integrations/4me.md)
+* We have improved the alert source throttling API warning display and added it to the alert source list
+
+
+
 ## April 2024
 
 ### New features and improvements
