@@ -105,6 +105,7 @@
 * [👩‍💻 ICL - ilert condition language](rest-api/icl-ilert-condition-language.md)
 * [➿ ITL - ilert template language](rest-api/itl-ilert-template-language.md)
 * [API Samples](rest-api/api-samples/README.md)
+  * [Importing public status page subscribers](rest-api/api-samples/importing-public-status-page-subscribers.md)
   * [Sending events from PowerShell](rest-api/api-samples/sending-events-from-powershell.md)
 * [🔥 Developing ilert Apps](rest-api/developing-ilert-apps/README.md)
   * [Get started with ilert Apps](rest-api/developing-ilert-apps/get-started-with-ilert-apps.md)
