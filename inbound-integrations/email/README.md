@@ -46,6 +46,10 @@ Email filters allow you to ignore emails based on the content of the email's sub
 [automatically-resolve-incidents-with-emails.md](automatically-resolve-incidents-with-emails.md)
 {% endcontent-ref %}
 
+### Representation of Non-ASCII text in the headers
+
+Note that [RFC 822](https://datatracker.ietf.org/doc/html/rfc822) headers must contain only US-ASCII characters. To use non-ASCII characters in the headers, they must be encoded by the caller according to the rules of [RFC 1342](https://datatracker.ietf.org/doc/html/rfc1342).
+
 ## FAQ <a href="#faq" id="faq"></a>
 
 **Does ilert also process e-mails that are sent by forwarding to an alert source address?**
@@ -58,7 +62,11 @@ Yes, see [Automatically resolve Alerts with Emails](automatically-resolve-incide
 
 **I need more examples that illustrate regex alert key extraction from emails, where can I find them?**
 
-Take a look [here](email-key-extraction-and-resolve-examples.md).
+Take a look [here](email-key-extraction-and-resolve-examples.md).\
+\
+**Why do my alerts contain odd characters such as `'Ã¶'` ?**
+
+It seems like your email message does not follow the [RFC 822](https://datatracker.ietf.org/doc/html/rfc822) standard and contains Non-ASCII characters. Please refer to [this section](./#representation-of-non-ascii-text-in-the-headers).
 
 
 
