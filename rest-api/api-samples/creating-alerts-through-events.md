@@ -1,6 +1,6 @@
 # Creating alerts through events
 
-While there is the option to synchronously create alerts, we always recommend using the asynchronous events API to create and interact with alerts, especially in high volume or monitoring tool scenarios. The API endpoint allows you to not only create, but also accept, reroute, comment and resolve alerts.&#x20;
+While there is the option to synchronously create alerts, we always recommend using the asynchronous events API to create and interact with alerts, especially in high volume or monitoring tool scenarios. The API endpoint allows you to not only create, but also accept, reroute and resolve alerts.&#x20;
 
 More schema based information on this can be found in the [API reference](https://api.ilert.com/api-docs/#tag/events/post/events).
 
@@ -15,7 +15,7 @@ https://api.ilert.com/api/events
 ```json
 {
   "apiKey": "il...", // api key of the alert source (required)
-  "eventType": "ALERT", // ALERT for create, ACCEPT, COMMENT or RESOLVE (required)
+  "eventType": "ALERT", // ALERT for creation, ACCEPT or RESOLVE (required)
   "summary": "Your alert summary", // (required)
   "details": "", // (optional) larger content description of your alert (markdown supported)
   "alertKey": "abc123", // (optional) key used to group events together or ACCEPT and existing alert
@@ -37,7 +37,7 @@ Visit the web UI or the mobile app (under Alerts) to confirm your event created 
 
 ### alertKey
 
-Used to identify other open (unresolved, unaccepted) alerts and append additional events, or accept, comment or resolve them. The platform will always search for the last open matching alert with alertKey when processing new incoming events. The behaviour here also depends on the chosen grouping options in your alert source, for more information see **Alert grouping** section in:
+Used to identify other open (unresolved, unaccepted) alerts and append additional events, or accept or resolve them. The platform will always search for the last open matching alert with alertKey when processing new incoming events. The behaviour here also depends on the chosen grouping options in your alert source, for more information see **Alert grouping** section in:
 
 {% content-ref url="../../alerting/alert-sources.md" %}
 [alert-sources.md](../../alerting/alert-sources.md)
