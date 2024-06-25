@@ -6,7 +6,7 @@ More schema based information on this can be found in the [API reference](https:
 
 ## Creating an alert:
 
-Send a **POST** request to&#x20;
+Send a **POST** request to (dont forget to set the `Content-Type: application/json` header):
 
 ```
 https://api.ilert.com/api/events
@@ -50,8 +50,97 @@ However, the priority can be overridden by the event, if one of the following co
 
 * Integration type of the alert source is **Grafana** or **ServiceNow**
 * Custom priority template is configured in alert source (however in this case the template extraction might overrule the API field, depending on the configuration in your alert source)
-* Default priority of alert source is set to **HIGH** (_using support hours or setting the source to LOW will ignore your event priority field_**)**
+* Default priority of alert source is set to **HIGH** (_using support hours or setting the source to LOW will ignore your event priority field_)
 
-**routingKey**
+### **routingKey**
 
 The routingKey field is used to dynamically assign an escalation policy in case the event will create an new alert. By default the policy assigned to the alert source is used, however if an escalation policy with the matching routing key is found it will be used instead. (You can assign routing keys to escalation policies in their edit view)
+
+## Code samples
+
+{% tabs %}
+{% tab title="Shell" %}
+```sh
+curl --request POST \
+  --url https://api.ilert.com/api/events \
+  --header 'Accept: application/json' \
+  --header 'Content-Type: application/json' \
+  --data '{
+	"apiKey": "YOUR-ALERT-SOURCE-API-KEY",
+	"eventType": "ALERT",
+	"summary": "Hey, this is a test alert from the shell!"
+}'
+```
+{% endtab %}
+
+{% tab title="JavaScript" %}
+```javascript
+const axios = require("axios").default;
+
+const options = {
+  method: 'POST',
+  url: 'https://api.ilert.com/api/events',
+  headers: {'Content-Type': 'application/json', Accept: 'application/json'},
+  data: {
+    apiKey: 'YOUR-ALERT-SOURCE-API-KEY',
+    eventType: 'ALERT',
+    summary: 'Hey, this is a test alert from JS!'
+  }
+};
+
+axios.request(options).then(function (response) {
+  console.log(response.data);
+}).catch(function (error) {
+  console.error(error);
+});
+```
+{% endtab %}
+
+{% tab title="Python" %}
+```python
+import requests
+
+url = "https://api.ilert.com/api/events"
+
+payload = {
+    "apiKey": "YOUR-ALERT-SOURCE-API-KEY",
+    "eventType": "ALERT",
+    "summary": "Hey, this is a test alert from Python!"
+}
+
+headers = {
+    "Content-Type": "application/json",
+    "Accept": "application/json"
+}
+
+response = requests.request("POST", url, json=payload, headers=headers)
+
+print(response.text)
+```
+{% endtab %}
+
+{% tab title="Powershell" %}
+```powershell
+$headers=@{}
+$headers.Add("Content-Type", "application/json")
+$headers.Add("Accept", "application/json")
+$response = Invoke-WebRequest -Uri 'https://api.ilert.com/api/events' -Method POST -Headers $headers -ContentType 'application/json' -Body '{
+	"apiKey": "YOUR-ALERT-SOURCE-API-KEY",
+	"eventType": "ALERT",
+	"summary": "Hey, this is a test alert from Powershell!"
+}'
+```
+{% endtab %}
+
+{% tab title="Powershell2" %}
+```powershell
+$headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
+$headers.Add("content-type", "application/json")
+
+$body = "{`n  `"apiKey`": `".....YOUR SOURCE API KEY....`",`n  `"eventType`": `"ALERT`",`n  `"summary`": `"string`",`n  `"details`": `"string`",`n  `"incidentKey`": `"string`",`n  `"priority`": `"HIGH`",`n  `"images`": [`n    {`n      `"src`": `"string`",`n      `"href`": `"string`",`n      `"alt`": `"string`"`n    }`n  ],`n  `"links`": [`n    {`n      `"href`": `"string`",`n      `"text`": `"string`"`n    }`n  ],`n  `"customDetails`": {}`n}"
+
+$response = Invoke-RestMethod 'https://api.ilert.com/api/v1/events ' -Method 'POST' -Headers $headers -Body $body
+$response | ConvertTo-Json
+```
+{% endtab %}
+{% endtabs %}

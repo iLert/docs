@@ -2,10 +2,10 @@
 description: API Samples that help you to get started faster with ilert REST API.
 ---
 
-# API Samples
+# API endpoints / samples
 
-{% content-ref url="sending-events-from-powershell.md" %}
-[sending-events-from-powershell.md](sending-events-from-powershell.md)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
 
 {% content-ref url="importing-public-status-page-subscribers.md" %}

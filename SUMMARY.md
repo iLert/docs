@@ -107,7 +107,6 @@
 * [API endpoints / samples](rest-api/api-samples/README.md)
   * [Creating alerts through events](rest-api/api-samples/creating-alerts-through-events.md)
   * [Importing public status page subscribers](rest-api/api-samples/importing-public-status-page-subscribers.md)
-  * [Sending events from PowerShell](rest-api/api-samples/sending-events-from-powershell.md)
 * [🔥 Developing ilert Apps](rest-api/developing-ilert-apps/README.md)
   * [Get started with ilert Apps](rest-api/developing-ilert-apps/get-started-with-ilert-apps.md)
   * [Understanding OAuth2](rest-api/developing-ilert-apps/understanding-oauth2.md)
