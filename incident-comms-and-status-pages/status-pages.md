@@ -71,7 +71,7 @@ To change the service on a status page
 
 ## Public vs. private status pages
 
-Status pages in ilert can either be private or public. You can change the page type at any time. The table below compares both pages types:
+Status pages in ilert can either be private or public. You can change the page type at any time. The table below compares both page types:
 
 |                                                   | Public page                                                         | Private page                                                                                                                                                                                           |
 | ------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
