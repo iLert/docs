@@ -33,12 +33,11 @@ Connectors and alert actions allow you to extend your alert response and communi
 * Create a ticket in JIRA
 * Post a message in Slack
 * Post a webhook to a defined HTTP end point
-* Trigger a serverless function in AWS, GCP or Azure
 
-A **connector** is created globally in ilert and contains all the information to connect with the target system (e.g. a URL, an API key or username and password, etc.). An **alert action** is created at the alert source level and uses its connector to perform a concrete action. Example: Let's say we want to create an issue in JIRA for every alert in ilert. We need to create ...
+A **connector** is created globally in ilert and contains all the information to connect with the target system (e.g. a URL, an API key or username and password, etc.). An **alert action** can be created at the team-level and assigned to alert sources. An alert action uses its connector to perform a concrete action. Example: Let's say we want to create an issue in JIRA for every alert in ilert. We need to create ...
 
 * ... a JIRA **connector** that contains the URL of the JIRA server and the credentials to connect to it.
-* ... an **alert action** at the alert source level that contains information such as whether to trigger the connection manually or automatically for every alert, the JIRA project ID and issue type, and any custom fields that we might want to set in the JIRA issue.
+* ... an **alert action** that contains information such as whether to trigger the connection manually or automatically for every alert, the JIRA project ID and issue type, and any custom fields that we might want to set in the JIRA issue.
 
 We often refer to connectors and alert actions as **outbound integrations**.
 
