@@ -129,7 +129,7 @@ Once a call routing number was provisioned from ilert support, you'll find your 
 
 Additionally, you can check if your number is in use and see which call flow it's in.
 
-
+Next, create a call flow to configure your routing and assign a number to the call flow.
 
 {% content-ref url="call-routing-2.0-beta.md" %}
 [call-routing-2.0-beta.md](call-routing-2.0-beta.md)
