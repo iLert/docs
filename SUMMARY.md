@@ -69,13 +69,14 @@
 
 ## Call Routing
 
-* [Getting started with call routing](call-routing/getting-started-with-call-routing/README.md)
-  * [Routing calls based on support hours](call-routing/getting-started-with-call-routing/routing-calls-based-on-support-hours.md)
-  * [Voicemail only mode](call-routing/getting-started-with-call-routing/voicemail-only-mode.md)
-  * [Managing call routing alerts](call-routing/getting-started-with-call-routing/managing-call-routing-incidents.md)
-  * [Adding webhooks and outbound chat messages](call-routing/getting-started-with-call-routing/adding-webhooks-and-outbound-chat-messages.md)
-* [Uploading custom audio responses](call-routing/uploading-custom-audio-responses.md)
-* [Call Routing 2.0](call-routing/call-routing-2.0-beta.md)
+* [Getting started with call routing](call-routing/getting-started-with-call-routing.md)
+* [Routing calls using call flows](call-routing/call-routing-2.0-beta.md)
+* [Call routing (legacy)](call-routing/call-routing-legacy/README.md)
+  * [Routing calls based on support hours](call-routing/call-routing-legacy/routing-calls-based-on-support-hours.md)
+  * [Voicemail only mode](call-routing/call-routing-legacy/voicemail-only-mode.md)
+  * [Managing call routing alerts](call-routing/call-routing-legacy/managing-call-routing-incidents.md)
+  * [Adding webhooks and outbound chat messages](call-routing/call-routing-legacy/adding-webhooks-and-outbound-chat-messages.md)
+  * [Uploading custom audio responses](call-routing/call-routing-legacy/uploading-custom-audio-responses.md)
 
 ## User Administration
 

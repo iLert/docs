@@ -1,137 +1,10 @@
----
-description: Reach the right on-call responder immediately by calling a phone number
----
-
-# Getting started with call routing
-
-## **What is Call Routing?**
-
-Call routing is an add-on in ilert, designed to ensure incoming phone calls and voicemails are efficiently directed to the appropriate on-call responder. Calls are routed via ilert's intricate on-call schedules and escalation policies. With call routing, you are assigned a static, dedicated phone number (either local or toll-free, subject to availability). This number then intelligently and dynamically routes calls or voicemails to the current on-call responder in ilert.
-
-## Prerequisites
-
-To access and utilize call routing, you must be on the Professional plan or a higher tier. Once you have purchased the call routing add-on, contact ilert support at support@ilert.com to activate a phone number in your account.
-
-## Phone number availability
-
-We offer local phone numbers around the world. Please click on a continent below to see  supported countries. For countries not listed below, please reach out to support@ilert.com to ask for availability.
-
-<details>
-
-<summary><strong>North America</strong></summary>
-
-* United States
-* Canada
-* Barbados
-* Dominican Republic
-* El Salvador
-* Jamaica
-* Mexico
-* Panama
-* Puerto Rico
-
-</details>
-
-<details>
-
-<summary>South America</summary>
-
-* Argentina
-* Chile
-* Colombia
-* Ecuador
-* Grenada
-* Brazil
-
-</details>
-
-<details>
-
-<summary>Europe</summary>
-
-* Austria
-* Belgium
-* Bosnia and Herzegovina
-* Bulgaria
-* Croatia
-* Cyprus
-* Czech Republic&#x20;
-* Estonia
-* France
-* Germany
-* Greece
-* Hungary
-* Ireland
-* Italy
-* Romania
-* Slovenia
-* Spain
-* Switzerland
-* Sweden
-* United Kingdom
-* Denmark
-* Finland
-* Netherlands
-* Norway
-* Poland
-
-</details>
-
-<details>
-
-<summary>Asia</summary>
-
-* Indonesia
-* Israel
-* Japan
-* Macau
-* Philippines
-* Thailand
-
-</details>
-
-<details>
-
-<summary>Oceania</summary>
-
-* Australia
-* New Zealand
-
-</details>
-
-<details>
-
-<summary><strong>Africa &#x26; Middle East</strong></summary>
-
-* Benin
-* Ghana
-* Kenya
-* Mali
-* Mauritius
-* South Africa
-* Sudan
-* Tunisia
-* Uganda
-
-</details>
+# Call routing (legacy)
 
 {% hint style="info" %}
-**Phone number availability is subject to regulation**
+### Legacy call routing
 
-Due to country-specific regulations, phone number provisioning may require identity documentation and location validation. Contact support@ilert.com to check availability in your desired locality.
+This documentation covers the legacy version of our call routing feature. It is only available to customers who purchased the call routing add-on before May 2024.
 {% endhint %}
-
-## Configuration
-
-Once a call routing number was provisioned from ilert support, you'll find your call routing numbers in the navigation bar at the top under **Alert sources** --> **Call routing**.
-
-<figure><img src="../../.gitbook/assets/Screenshot 2023-08-10 at 13.48.38.png" alt=""><figcaption></figcaption></figure>
-
-Clicking on a call routing number will open its configuration page, where you can configure the following:
-
-1. **General settings** such as name, language, greeting message and hold music
-2. **Routing configuration:** the IVR menu, [time-based routing](routing-calls-based-on-support-hours.md) and voicemail.
-3. **Alert resolution behavior**
 
 ### General settings
 
@@ -143,7 +16,7 @@ Clicking on a call routing number will open its configuration page, where you ca
 
 
     ![](<../../.gitbook/assets/Screenshot 2021-10-28 at 09.23.45.png>)
-* **Hold music:** You may optionally [upload a custom audio file](../uploading-custom-audio-responses.md) for your greeting and hold music.
+* **Hold music:** You may optionally [upload a custom audio file](uploading-custom-audio-responses.md) for your greeting and hold music.
 
 ### Routing configuration
 
@@ -179,3 +52,4 @@ Yet if a voicemail is present instead, the caller will be redirected to the voic
 * [Handling automated incoming voice calls](voicemail-only-mode.md)
 * [Managing call routing alerts](managing-call-routing-incidents.md)
 * [Adding webhooks and outbound chat messages](adding-webhooks-and-outbound-chat-messages.md)
+* [Uploading custom audio responses](uploading-custom-audio-responses.md)

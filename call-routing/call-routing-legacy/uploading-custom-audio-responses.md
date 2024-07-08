@@ -12,7 +12,7 @@ description: >-
 Navigate to **Alert sources -> Call routing** and open the edit view of the desired call routing number which you want to configure.
 
 {% hint style="info" %}
-If you have no call routing number yet, [reach our to our support](../contact.md) to get a custom number for your local area.
+If you have no call routing number yet, [reach our to our support](../../contact.md) to get a custom number for your local area.
 {% endhint %}
 
 In the edit view you will find 3 upload options, always on the right side of the configuration options. You may upload:
@@ -21,7 +21,7 @@ In the edit view you will find 3 upload options, always on the right side of the
 * your custom hold music (as replacement for our default hold music)
 * a customized mailbox greeting (as replacement for your TTS mailbox text)
 
-![Simply click on Browse.. and choose your MP3 or WAV file](<../.gitbook/assets/image (59).png>)
+![Simply click on Browse.. and choose your MP3 or WAV file](<../../.gitbook/assets/image (59).png>)
 
 Please dont forget to click **Save** when you are done with your configuration.
 
@@ -45,29 +45,29 @@ You may download Audacity [here](https://www.audacityteam.org/). Note: ilert Gmb
 
 ### Import your audio file
 
-![](<../.gitbook/assets/Screenshot 2022-05-04 at 13.01.54.png>)
+![](<../../.gitbook/assets/Screenshot 2022-05-04 at 13.01.54.png>)
 
 Open up Audacity and drag and drop your audio file into the timeline, it will be imported. (You should be able to use any kind of modern audio format).
 
 ### Cut your audio file (optional)
 
-![](<../.gitbook/assets/Screenshot 2022-05-04 at 13.05.04.png>)
+![](<../../.gitbook/assets/Screenshot 2022-05-04 at 13.05.04.png>)
 
 This is an **optional** step, but in case your audio file is longer than needed, you may select the desired audio area by pressing down the left mouse on the timeline and drag it to desired end. Now click on the Scissors icon on the top-middle header (your selection has now been cut out) .Then remove the rest of the timeline, use the X icon on the left side. Then press Strg+V to copy the cut out sequence back into the timeline.
 
-![](<../.gitbook/assets/Screenshot 2022-05-04 at 13.08.32.png>)
+![](<../../.gitbook/assets/Screenshot 2022-05-04 at 13.08.32.png>)
 
 ### Converting the audio content from Stereo to Mono
 
 Most likely your audio file will be in Stereo. If it is already in Mono you may skip this step.
 
-![](<../.gitbook/assets/Screenshot 2022-05-04 at 16.38.10.png>)
+![](<../../.gitbook/assets/Screenshot 2022-05-04 at 16.38.10.png>)
 
 Left-click on the drop down next to the name of your audio in the timeline. And click on **Split Stereo to Mono**. _You will now end up with two channels on the timeline_, **make sure to delete one of them** (by clicking on the X icon next to the dropdown arrow that you have used before).
 
 ### Exporting your audio file
 
-![](<../.gitbook/assets/Screenshot 2022-05-04 at 16.44.04.png>)
+![](<../../.gitbook/assets/Screenshot 2022-05-04 at 16.44.04.png>)
 
 In the top bar go to **File -> Export -> Export Audio...** from the **File type** drop down select **WAV** as container. And in the **Encoding** selection choose **Unsigned 8-bit PCM** (if possible you may also choose **GSM 6.10**, however this will not allowe test playback in the browser after upload, but it might provide even better audio quality during the live call).
 

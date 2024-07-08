@@ -722,7 +722,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New features
 
-* [Advanced support hours routing](call-routing/getting-started-with-call-routing/routing-calls-based-on-support-hours.md) for call routing numbers
+* [Advanced support hours routing](call-routing/call-routing-legacy/routing-calls-based-on-support-hours.md) for call routing numbers
 * Auto provision [teams and mobile](user-administration/single-sign-on/auto-provisioning-users-and-teams.md) numbers with SSO
 
 ### New and updated integrations
