@@ -101,6 +101,10 @@ Once you have created all the necessary layers, check the timeline at the bottom
 
 ### Create a recurring schedule with the help of AI
 
+{% content-ref url="../../ilert-ai/using-ilert-ai-for-schedule-generation.md" %}
+[using-ilert-ai-for-schedule-generation.md](../../ilert-ai/using-ilert-ai-for-schedule-generation.md)
+{% endcontent-ref %}
+
 You can also use a conversational interface and set up a recurring schedule. To do so, after choosing "**Create recurring schedules**," find the button "**Create schedule with ilert AI**" at the top right corner. Share your scheduling requirements, including your team members' names, rotation frequency, and times. When ready, click "**Generate**."
 
 <figure><img src="../../.gitbook/assets/AI Schedule 03.gif" alt=""><figcaption></figcaption></figure>
