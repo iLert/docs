@@ -81,6 +81,14 @@ Status pages in ilert can either be private or public. You can change the page t
 | **Supports IP Whitelist**                         | :x:                                                                 | :white\_check\_mark:                                                                                                                                                                                   |
 | **Supports whitelisted emails and email domains** | :x:                                                                 | :white\_check\_mark:                                                                                                                                                                                   |
 
+### Authentication Options
+
+Only authenticated users can view ilert's private status pages. To adjust access, navigate to **Status Pages -> Authentication**, and select one or several authentication methods.
+
+* **Accessible to all users of your account**: All users with any roles will have access to the chosen status page. Please note that the page will be visible even if it belongs to a private team.
+* **IP Whitelist:** Specify IP addresses, and users without an ilert account will be able to see the status page.
+* **Passwordless Email Login**: Enter email addresses and/or domains that should have access to your status page.
+
 ## Update the status of your status page
 
 The status of your status page is automatically updated whenever
@@ -187,10 +195,6 @@ To isolate customers from each other, we recommend the following approach:
 You probably forgot to activate your status page. Once you are satisfied with your status page, click on the **Activate** button to make your page available and viewable to your users.
 
 ![](<../.gitbook/assets/image (59) (1).png>)
-
-#### Can I make a status page accessible for certain IP addresses or IP ranges only?
-
-Yes, create a private status page and configure an IP whitelist in the status page settings.
 
 **Can I export a list of status page subscribers?**
 
