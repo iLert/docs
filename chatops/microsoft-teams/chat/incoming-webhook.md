@@ -10,6 +10,10 @@ description: >-
 
 # Microsoft Teams Integration via Incoming Webhook
 
+{% hint style="danger" %}
+**Office 365 connectors within Microsoft Teams are deprecated.** Please migrate to Workflow.
+{% endhint %}
+
 {% hint style="warning" %}
 If possible we suggest to use [iLert's Microsoft Teams Bot](./) for the setup, this guide and integration is only suggested in case you do not want to grant any permissions to ilert
 {% endhint %}

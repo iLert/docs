@@ -44,6 +44,7 @@
 * [Microsoft Teams Integration](chatops/microsoft-teams/README.md)
   * [Microsoft Teams Chat Integration](chatops/microsoft-teams/chat/README.md)
     * [Microsoft Teams Integration via Incoming Webhook](chatops/microsoft-teams/chat/incoming-webhook.md)
+    * [Microsoft Teams Integration via Workflows](chatops/microsoft-teams/chat/workflows.md)
   * [Microsoft Teams Meeting Integration](chatops/microsoft-teams/meeting.md)
   * [Create a channel for an existing alert in Microsoft Teams](chatops/microsoft-teams/create-a-channel-for-an-existing-alert-in-microsoft-teams.md)
   * [Create alerts in Microsoft Teams](chatops/microsoft-teams/create-alerts-in-microsoft-teams.md)
