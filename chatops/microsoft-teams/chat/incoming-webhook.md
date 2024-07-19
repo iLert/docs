@@ -11,7 +11,7 @@ description: >-
 # Microsoft Teams Integration via Incoming Webhook
 
 {% hint style="danger" %}
-**Office 365 connectors within Microsoft Teams are deprecated.** Please migrate to Workflow.
+**Office 365 connectors within Microsoft Teams are deprecated, they will no longer work after 15.08.24.** Please use [Workflow](workflows.md), if you want to migrate an existing alert action you will need to create a new one.
 {% endhint %}
 
 {% hint style="warning" %}
