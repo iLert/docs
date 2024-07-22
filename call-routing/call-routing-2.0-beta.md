@@ -1,4 +1,4 @@
-# Call Routing 2.0
+# Routing calls using call flows
 
 Call Routing 2.0 introduces a new visual call flow builder that allows you to visually construct custom call flows using pre-defined nodes, such as IVR Menus, PIN Code Verification, Audio Messages, Support Hours, and more to tailor the call routing logic to your specific needs.
 
@@ -30,6 +30,14 @@ This section outlines the steps to create a call flow that connects incoming cal
 * **Ask for PIN code:** Asks callers to enter a PIN code and adds two branches: `Code match` and `No code match` to the flow. You can enter multiple PIN codes and associate each PIN code with a label (e.g. if you would like to assign a PIN code to individual customers).
 * **Audio message:** Plays an audio message to the caller
 * **Route call:** Connects the caller with a user.  Users can be selected directly or indirectly through a schedule. This node adds two branches to the flow: `Call completed` and `No one available`.
+
+{% hint style="info" %}
+💡 **Helpful Tip: Use ilert AI to turn text into speech.**
+
+Make your automatic call routing responses sound human-like. Type your message and choose one of six available voice options from the dropdown menu. Click ▶️ to preview the message.
+
+<img src="../.gitbook/assets/Call Flow AI TTS high rez.gif" alt="" data-size="original">
+{% endhint %}
 
 ## FAQ
 
