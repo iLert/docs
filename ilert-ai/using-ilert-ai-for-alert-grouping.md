@@ -51,3 +51,7 @@ As all alerts are suddenly grouped in a single group.
 {% hint style="info" %}
 Note that this is a sample case with demo content, in the wild monitoring tool specific payloads have large contents filled with technical language that will behave differently for each use case, so fine tuning as shown above will be required to reach your desired behaviour.
 {% endhint %}
+
+
+
+{% embed url="https://youtu.be/5-X66vOpoI4?si=8OsYImD8hx-0Ozo6&t=63" %}
