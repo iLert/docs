@@ -6,7 +6,7 @@ description: >-
 
 # Ubidots Integration
 
-Ubidots is an Industrial Internet of Things (IIoT) platform designed for developers and businesses to easily connect, collect, and visualize sensor data. It offers tools for data analysis, real-time monitoring, and automated actions, making it ideal for applications in industries such as manufacturing, healthcare, and environmental monitoring. This article provides step-by-step instructions on sending alerts from the Ubidots platform to ilert to ensure critical issues are escalated to responsible specialists as quickly as possible.
+[Ubidots](https://ubidots.com/) is an Industrial Internet of Things (IIoT) platform designed for developers and businesses to easily connect, collect, and visualize sensor data. It offers tools for data analysis, real-time monitoring, and automated actions, making it ideal for applications in industries such as manufacturing, healthcare, and environmental monitoring. This article provides step-by-step instructions on sending alerts from the Ubidots platform to ilert to ensure critical issues are escalated to responsible specialists as quickly as possible.&#x20;
 
 ## In ilert: Create a Ubidots alert source&#x20;
 
