@@ -203,6 +203,7 @@
 * [Particle Integration](inbound-integrations/particle.md)
 * [Pingdom Integration](inbound-integrations/pingdom.md)
 * [PostHog Integration](inbound-integrations/posthog.md)
+* [Postman Monitors](inbound-integrations/postman-monitors.md)
 * [Prometheus Integration](inbound-integrations/prometheus.md)
 * [PRTG Network Monitor Integration](inbound-integrations/prtg.md)
 * [Prisma Cloud Integration](inbound-integrations/prismacloud.md)

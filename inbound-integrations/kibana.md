@@ -2,7 +2,7 @@
 description: The ilert Kibana Integration helps you to easily connect ilert with Kibana.
 ---
 
-# Kibana
+# Kibana Integration
 
 [Kibana](https://www.elastic.co/kibana) is a powerful open-source analytics and visualization platform designed to work with Elasticsearch. It provides users with the tools to explore, visualize, and share insights into their data in real-time.
 
@@ -34,11 +34,11 @@ description: The ilert Kibana Integration helps you to easily connect ilert with
 
 2. Now click on **Create connector**.
 
-<figure><img src="../.gitbook/assets/2 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Select **Webhook**.
 
-<figure><img src="../.gitbook/assets/3.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Enter a **Connector name**.
 5. Under **Connector settings**, enter the previously generated ilert Elasticsearch Kibana alert source URL into the **URL** field and change the **Method** to POST.
@@ -46,7 +46,7 @@ description: The ilert Kibana Integration helps you to easily connect ilert with
 7. Enter the following header -> `key: Content-Type value: application/json`
 8. Save the connector.
 
-<figure><img src="../.gitbook/assets/4.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/4 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 9. Now, navigate to **Rules** under the **Alerts and Insights** category.
 
