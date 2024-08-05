@@ -177,6 +177,14 @@ Changes to your status page will not propagate automatically to your pages. You 
 
 The localization of the widget will be automatically detected using the viewer's browser language. If you want to set the **language** to a fixed setting, you can optionally provide the query parameter `&lng=en` or `&lng=de` to the scripts already existing parameters.
 
+## Announcement Bar <a href="#faq" id="faq"></a>
+
+Share essential announcements via your status page. Enable an announcement bar in the status page settings. To make your message more engaging, use simple Markdown and emojis. The announcement bar will be shown at the top of your status page.
+
+<figure><img src="../.gitbook/assets/announcement bar for the docs.png" alt=""><figcaption><p>Announcement bar settings</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/pika-1722854018521-2x.png" alt=""><figcaption><p>Example of the annoumcement bar</p></figcaption></figure>
+
 ## FAQ <a href="#faq" id="faq"></a>
 
 #### We are a managed service provider and would like to use multiple status pages to communicate incidents to different customers with private pages without exposing data between customers. Is that possible?
