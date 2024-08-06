@@ -26,6 +26,7 @@ These notes get usually updated retrospectively within the first 2 weeks of the 
 * We have made **ilert AI available for all customers**, by providing a service that automatically chooses EU mainland hosted large language models on ilert infrastructure for EU customers, making all of the ilert AI uses cases available to every user (customers may still choose to opt-out, to deactivate the features)
 * The **ilert Search BETA** is now available for non ADMIN users as it now individually validates permissions to all search results on demand for the current user
 * **ilert AI** now automatically **generated TTS audio content** for your **call flow** node text
+* We have introduced a **new alert source detail view**, which also provides insights into how effective grouping is used on the specific source
 
 ### Integration updates
 
