@@ -25,6 +25,7 @@ These notes get usually updated retrospectively within the first 2 weeks of the 
 * We have finalized our migration of all alert source event integrations to the new events API, enabling the event explorer feature for 99% of integrations (_HTTP request validation is slightly more strict, keep an eye out for your custom integrations, especially if you are unsure about: utf-8 compatibility, content-type / host header or API key integrity; reach out to support if needed_)
 * We have made **ilert AI available for all customers**, by providing a service that automatically chooses EU mainland hosted large language models on ilert infrastructure for EU customers, making all of the ilert AI uses cases available to every user (customers may still choose to opt-out, to deactivate the features)
 * The **ilert Search BETA** is now available for non ADMIN users as it now individually validates permissions to all search results on demand for the current user
+* **ilert AI** now automatically **generated TTS audio content** for your **call flow** node text
 
 ### Integration updates
 
@@ -38,7 +39,7 @@ These notes get usually updated retrospectively within the first 2 weeks of the 
 
 * We have overhauled the **event payload experience in the alert detail** view, it now shows information in regards to grouping and expected future grouping, as well gives a pagination over all alert related events and not just the event that created the alert initially - it is also interlinked with the event explorer feature, helping you jump right into the explorer at the point in time of the event
 * We have added a new alert action event type **unresolved** to act on alerts that have not been resolved in a given time window
-* We have added additional filters to the call flow session (Calls) view to filter for specific to numbers as well as from numbers
+* We have added additional **filters** to the **call flow** session (**Calls**) view to filter for specific to numbers as well as from numbers
 * The public status page SMS subscribers experience has been overhauled
 * Errors during manual alert action triggers on alerts will now expose the original error message of the third party system
 
