@@ -49,6 +49,20 @@ With the UptimeRobot integration, you can easily integrate UptimeRobot notificat
 
 5. The integration is now set up and the new Webhook can be activated in your monitors.
 
+## In UptimeRobot: Connect integrations to a monitor <a href="#add-webhook" id="add-webhook"></a>
+
+1. In the monitor view, click on **Edit**.
+
+<figure><img src="../.gitbook/assets/4 (7).png" alt="" width="563"><figcaption></figcaption></figure>
+
+2. On the next page, click on **Integrations & Team**.
+
+<figure><img src="../.gitbook/assets/5 (7).png" alt="" width="563"><figcaption></figcaption></figure>
+
+3. In the **Connect Integrations** section, tick the checkbox of the desired webhook. Click on **Save Changes** to finish.
+
+<figure><img src="../.gitbook/assets/6 (8).png" alt="" width="563"><figcaption></figcaption></figure>
+
 ## FAQ <a href="#faq" id="faq"></a>
 
 **Are alerts automatically resolved in ilert?**
