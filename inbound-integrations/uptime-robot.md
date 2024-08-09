@@ -30,29 +30,24 @@ With the UptimeRobot integration, you can easily integrate UptimeRobot notificat
 6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
 7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/il-1-1.png" alt=""><figcaption></figcaption></figure>
 
-## In UptimeRobot: Add ilert Webhook as Alert Contact <a href="#add-webhook" id="add-webhook"></a>
+## In UptimeRobot: Add ilert Webhook <a href="#add-webhook" id="add-webhook"></a>
 
-1. Go to the menu item "My Settings" and scroll down a little and click on "Add Alert Contact".
+1. On the sidebar, click on **Integrations & API**.
 
-![](../.gitbook/assets/ur3.png)
+![](../.gitbook/assets/1.png)
 
-2. Select Webhook as the type and in the URL to Notify field insert the webhookurl generated in ilert and add a "?" at the end of the URL. put ( add ), save now via "Create Alert Contact" button.
+2. Under the **Webhook** section, click on **Add**, to add a new webhook.
 
-![](../.gitbook/assets/ur4.png)
+![](../.gitbook/assets/2.png)
 
-3. Open the newly created alert contact, then open it again in edit mode.
+3. Now enter the integration url created in ilert into the **Webhook URL** field and enable **As query string of webhook URL**.
+4. Click on **Create Integration** to finish.
 
-![](../.gitbook/assets/ur5.png)
+![](../.gitbook/assets/3.png)
 
-4. Activate the checkbox that appears for "Default variables via query parameters", scroll down and confirm with "Save Changes".
-
-![](../.gitbook/assets/ur6.png)
-
-5. The integration is now set up and the new Alert Contact can be activated in your monitors.
-
-![](../.gitbook/assets/ur7.png)
+5. The integration is now set up and the new Webhook can be activated in your monitors.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
@@ -62,4 +57,4 @@ Yes, as soon as an alert is resolved with "ok" in UptimeRobot, the associated al
 
 **Can I link UptimeRobot to multiple alert sources in ilert?**
 
-Yes, create an **alert contact** for this in UptimeRobot for each alert source.
+Yes, create an **webhook** for this in UptimeRobot for each alert source.

@@ -38,7 +38,7 @@ description: >-
 
 2. Click **Notification Endpoints -> Create**.
 
-<figure><img src="../.gitbook/assets/2 (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Set HTTP as Destination and enter a Name.
 4. Under **HTTP Options**, set **HTTP Method** to POST and enter the previously generated in ilert alert source URL into the **URL**.

@@ -4,7 +4,7 @@ description: >-
   notifications
 ---
 
-# Postman Monitors
+# Postman Monitors Integration
 
 Postman is a platform for API development, allowing developers to design, test, document, and monitor APIs. It offers a user-friendly interface and a comprehensive suite of tools to simplify working with APIs, making creating, sharing, and troubleshooting API requests easier. Postman's monitor feature enables developers to schedule and automate API tests. By integrating ilert with Postman, users can automatically send alerts from Postman to their incident management platform, ensuring the prompt delivery of alerts. This guide will walk you through setting up a connection between ilert and Postman.
 
@@ -32,15 +32,15 @@ Postman is a platform for API development, allowing developers to design, test, 
 
 1. On the Home page, click **Integrations**.
 
-<figure><img src="../.gitbook/assets/1.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 2. Now click on **Browse All Integrations**.
 
-<figure><img src="../.gitbook/assets/2.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. In the search field, enter webhooks and click the **Webhooks** tile.
 
-<figure><img src="../.gitbook/assets/3.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Now in the **Post monitoring results** section, click on **Add integration**.
 
