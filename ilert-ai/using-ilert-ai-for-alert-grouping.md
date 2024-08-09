@@ -52,6 +52,20 @@ As all alerts are suddenly grouped in a single group.
 Note that this is a sample case with demo content, in the wild monitoring tool specific payloads have large contents filled with technical language that will behave differently for each use case, so fine tuning as shown above will be required to reach your desired behaviour.
 {% endhint %}
 
+### Alert grouping metrics
 
+<figure><img src="../.gitbook/assets/pika-1722248028947-2x 1.png" alt=""><figcaption></figcaption></figure>
+
+As soon as you enable alert grouping, new metrics will appear in the **Alert source settings**. You can adjust a timeframe to see how effective the feature is for the alert source for a specified period. The following metrics are available:
+
+* **Reduced alert volume.** The percentage by which the total number of alerts decreases after grouping similar alerts.&#x20;
+* **Grouping precision.** The percentage of correctly grouped related alerts based on feedback from responders in the alert detail view.&#x20;
+* **Improved response time.** The reduction in time to resolve alerts after using alert grouping, assuming each grouped alert saves 30 seconds.
+
+You can leave feedback for every group of alerts. To do so, click the alert and find 👍 and 👎 icons in the **Alert details** section.
+
+<figure><img src="../.gitbook/assets/pika-1723213808618-2x.png" alt=""><figcaption></figcaption></figure>
+
+### Video Tutorial: How to enable Intelligent alert grouping
 
 {% embed url="https://youtu.be/5-X66vOpoI4?si=8OsYImD8hx-0Ozo6&t=63" %}
