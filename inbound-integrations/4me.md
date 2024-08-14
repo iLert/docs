@@ -72,7 +72,7 @@ description: Create alerts in ilert based on problems or requests from 4me.
 
 <figure><img src="../.gitbook/assets/2-10 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-4. Add following webhooks each event: `problem.create`, `problem.update`, `request.create`, `request.update`.
+4. Add following webhooks each event: `problem.create`, `problem.update`, `request.create`, `request.update`, `automation_rule`.
 5. Enter a name, the Event type and your 4me alert source URL.
 
 <figure><img src="../.gitbook/assets/2-11.png" alt="" width="563"><figcaption></figcaption></figure>
