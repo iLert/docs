@@ -64,4 +64,4 @@ resource "ilert_alert_source" "example" {
 }
 ```
 
-Please feel free to [reach out to us](../contact.md) with a Github issue in case you need help or have feature requests.
+Please feel free to [reach out to us](../../contact.md) with a Github issue in case you need help or have feature requests.
