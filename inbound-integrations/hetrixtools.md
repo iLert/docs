@@ -6,7 +6,7 @@ description: >-
 
 # HetrixTools Integration
 
-HetrixTools is a platform that provides uptime monitoring, server monitoring, and blacklist monitoring to ensure optimal performance and security of IT infrastructure. This article provides step-by-step instructions on how to connect your HetrixTools monitoring with ilert.
+[HetrixTools](https://hetrixtools.com/) is a platform that provides uptime monitoring, server monitoring, and blacklist monitoring to ensure optimal performance and security of IT infrastructure. This article provides step-by-step instructions on how to connect your HetrixTools monitoring with ilert.
 
 ## In ilert: Create a HetrixTools alert source&#x20;
 
