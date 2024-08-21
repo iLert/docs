@@ -37,7 +37,7 @@ terraform import ilert_user.max_mustermann 123456
 ```
 
 {% hint style="info" %}
-Note that keys (identifiers) for the import might differ based on the resource (while in 99% it is the ID of the entity) you can find the import description at the bottom of each resource in the ilert Terraform provider's documentation.
+Note that while in 99% of the cases, the import keys (identifiers) are the same as the entity’s ID, they sometimes might differ. You can find the import description at the bottom of each resource in [the ilert Terraform provider’s documentation](https://registry.terraform.io/providers/iLert/ilert/latest).
 {% endhint %}
 
 After the import was successful, the block is now properly mapped to the identifer and you can continue as usual running `terraform plan` or `terraform apply`.
