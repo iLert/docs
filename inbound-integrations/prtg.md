@@ -72,6 +72,12 @@ No, events will not be lost if you enable the "repeat every x minutes" option in
 
 Yes, create multiple ilert notifications in PRTG. You can then associate them with objects in the PRTG object hierarchy.
 
+**PRTG still sends alerts while a monitor is in a paused state. How can i discard paused notifications in PRTG?**
+
+To discard paused notifications, go to the notification template settings and select "Discard notifications during paused status" in the "Notification Handling during Scheduled Pause" field.
+
+<figure><img src="../.gitbook/assets/faq-1.png" alt="" width="563"><figcaption></figcaption></figure>
+
 **The integration does not work. How do I find the issue?**
 
 If you can not find the error, please contact our support at [support@ilert.com](https://github.com/iLert/docs/tree/dfe03283a452516a115a55f8c20942698e279d7b/integrations/support@ilert.com).
