@@ -32,7 +32,7 @@ Samsara's platform helps you to monitor and track your devices
 
 1. In the sidebar, click on the Alert bell icon.
 
-<figure><img src="../.gitbook/assets/1 (10).png" alt="" width="43"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-2 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. On the next screen, click on **Create Alert**.
 
