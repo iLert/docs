@@ -1,4 +1,10 @@
+---
+description: Send ClusterControl Alarms to ilert
+---
+
 # ClusterControl Integration
+
+[**ClusterControl**](https://docs.severalnines.com/docs/clustercontrol/) by [**Severalnines**](https://severalnines.com/) is a comprehensive database operations orchestration platform designed to manage the entire lifecycle of open-source and proprietary databases in various environments, including on-premises, cloud, and hybrid setups. With this integration, you can send alerts from ClusterControl to ilert and notify engineers about critical issues via phone calls, SMS, push, and other types of notifications.&#x20;
 
 ## In ilert: Create a ClusterControl alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
@@ -26,11 +32,11 @@
 
 <figure><img src="../.gitbook/assets/1 (11).png" alt="" width="563"><figcaption></figcaption></figure>
 
-2. Now click on **Add your first service**.
+2. Now click **Add your first service**.
 
 <figure><img src="../.gitbook/assets/2 (10).png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. Enter an **Integration Name** and the ilert alert source url into the **Url** field.
+3. Enter an **Integration Name** and the ilert alert source URL into the **Url** field.
 
 <figure><img src="../.gitbook/assets/3 (9).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -38,7 +44,7 @@
 
 <figure><img src="../.gitbook/assets/4 (9).png" alt="" width="563"><figcaption></figcaption></figure>
 
-5. In the last step, choose the desired **Clusters** and **Event Triggers** you want to receive a notification from.
+5. In the last step, choose the desired **Clusters** and **Event Triggers** from which you want to receive a notification.
 
 <figure><img src="../.gitbook/assets/5 (8).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -46,4 +52,4 @@
 
 **Are alerts in ilert automatically resolved?**
 
-Yes, as soon as an event's status is set to ENDED in Samsara, the corresponding alert in ilert will be resolved.
+Yes, as soon as an event's status is set to ENDED in ClusterControl, the corresponding alert in ilert will be resolved.
