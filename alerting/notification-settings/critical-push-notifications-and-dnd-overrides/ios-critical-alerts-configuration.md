@@ -22,7 +22,7 @@ Note: this guide is meant for iOS users only. For Android, please refer to [this
 <img src="../../../.gitbook/assets/IMG_1405.jpg" alt="" data-size="original">
 
 {% hint style="warning" %}
-Note that only high priority alerts will be deliverd as critical alerts. Alerts with low priority will use low priority notification settings
+Note that only high priority alerts will be delivered as critical alerts. Alerts with low priority will use low priority notification settings
 {% endhint %}
 
 ## Are you an Apple Watch User?

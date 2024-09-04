@@ -4,7 +4,7 @@ description: >-
   Android devices.
 ---
 
-# Android Push Notification Configuration
+# Android Push Notification DND Configuration
 
 {% hint style="success" %}
 Note: this guide is meant for Android users only.
@@ -23,21 +23,16 @@ Under your **profile** settings (in web or mobile app) navigate to **Notificatio
 * tap on Push notification settings
 * select a custom sound (if desired) for **High** and **low priority** notifications (make sure that the radio button in the sound list is selected, just playing back the sound wont change your settings)
 * ensure you have enabled the toggle for **Critical alerts for high priority**
+* adjust **Critical alerts volume** to your needs
 
-### Enabling DND for sound channels
-
-Now onto the tough part, in Android you will have to enable DND additional per sound channel. Sadly Android Applications are not always allowed to configure these directly.
-
-* open your devices **Settings**
-* go to **Apps & notifications**
-* then on **App info**
-* search for **iLert** in the list and tap on it
-* tap on **Notifications**
-* tap on the **sound channel e.g. merrychristmas** for the audio that you have selected in the ilert app for your high and low priority notifications - or do it for all in the list
-* ensure the top selection is set on **Alerting** and not on _Silent_
-* tap on **Advanced**
-* enable the toggle for **Override Do Not Disturb** (probably also ensure the rest of the options is enabled to, but that should be their default state)
+When enabling **Critical alerts for high priority** you may be prompted to allow the ilert app to override DND settings on your device. By clicking on **Go to settings** you will be redirected to the device settings page. Search for **ilert** and allow DND overrides for the app.
 
 {% hint style="warning" %}
-Note: these settings are only offering overrides for the specific DND (do not disturb mode) in Android. If you switch your Android phone to silent mode (**Calls and notifications are muted**) overrides will not work and you will not hear a sound.
+Note: when allowing DND overrides, the first notification received will **disable DND mode** and also set your system sound mode to **Sound,** without reverting it back to the previous state.
 {% endhint %}
+
+## FAQ
+
+**Why is my DND mode turned off, and my device's sound mode set to Sound?**
+
+To be able to deliver critical alerts, ilert ensures those notifications are always heard. Unfortunately, Android is quite limited in enabling this functionality and does not provide a possibility to revert sound/DND settings to previous states.
