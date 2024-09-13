@@ -24,6 +24,7 @@
   * [Prometheus Heartbeat Example](alerting/heartbeat-monitoring/prometheus-heartbeat-example.md)
   * [CLI Heartbeat Examples](alerting/heartbeat-monitoring/cli-heartbeat-examples.md)
 * [🏛️ Understanding event flows](alerting/understanding-event-flows.md)
+* [Dashboard](alerting/dashboard.md)
 
 ## On-call management & Escalations
 
