@@ -10,21 +10,21 @@
 
 ## Alerting
 
+* [Dashboard](alerting/dashboard.md)
+* [Alert sources](alerting/alert-sources.md)
 * [Notification settings](alerting/notification-settings/README.md)
   * [Critical Push Notifications and DND overrides](alerting/notification-settings/critical-push-notifications-and-dnd-overrides/README.md)
     * [iOS Critical Alerts Configuration](alerting/notification-settings/critical-push-notifications-and-dnd-overrides/ios-critical-alerts-configuration.md)
     * [Android Push Notification DND Configuration](alerting/notification-settings/critical-push-notifications-and-dnd-overrides/android-push-notification-dnd-configuration.md)
   * [Mute notifications](alerting/notification-settings/mute-notifications.md)
-* [ilert sender IDs and domains](alerting/phone-numbers/README.md)
-  * [SMS and voice alerts in China](alerting/phone-numbers/sms-and-voice-alerts-in-china.md)
-* [Alert sources](alerting/alert-sources.md)
 * [Support hours](alerting/support-hours.md)
 * [Maintenance windows](alerting/maintenance-windows.md)
 * [Heartbeat Monitoring](alerting/heartbeat-monitoring/README.md)
   * [Prometheus Heartbeat Example](alerting/heartbeat-monitoring/prometheus-heartbeat-example.md)
   * [CLI Heartbeat Examples](alerting/heartbeat-monitoring/cli-heartbeat-examples.md)
 * [🏛️ Understanding event flows](alerting/understanding-event-flows.md)
-* [Dashboard](alerting/dashboard.md)
+* [ilert sender IDs and domains](alerting/phone-numbers/README.md)
+  * [SMS and voice alerts in China](alerting/phone-numbers/sms-and-voice-alerts-in-china.md)
 
 ## On-call management & Escalations
 
