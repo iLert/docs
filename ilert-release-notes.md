@@ -10,12 +10,38 @@ description: >-
 These notes get usually updated retrospectively within the first 2 weeks of the following month
 {% endhint %}
 
+## September 2024
+
+### New features and improvements
+
+* **ilert search** is now out of closed beta and available to all ilert users
+* The i**lert dashboard** is now available to all ilert users in its **editable** mode, you can now create, customize and share your own dashboards with specific users or the whole account
+* We have introduced a new feature to the **alert resolve bulk** action that automatically **suggest similar open alerts** based on ilert AI
+* ...
+
+### Integration updates
+
+* Github action check runs have been fixed to include the Failure subtype
+* ...
+
 ## August 2024
 
 ### New features and improvements
 
+* We have launched a new type of status page: "**Audience specific**" use it to let your status page show services and incidents dynamically based on the context of the current viewer
+* We have completely overhauled the **critical alert push notification experience on Android devices**, now allowing for the same smooth in-app setup as iOS users have already experienced for the last years
 * the ilert [Microsoft Teams](chatops/microsoft-teams/chat/) bot now automatically **adds user replies** (text, links and images) to the alert card thread in the chat tool as **comments** to the related ilert alert. (Note that this only works if your users in ilert are using the same email addresses in both tools and for images to be rendered properly they need to be marked as public/shared)
-* ...
+* the Header header banner messages have been moved to a new API to longer affect UI performance
+* we have fixed a performance issue that occured on on-call schedules with a huge amount of overrides
+
+### Integration updates
+
+* We have added a new inbound integration ClusterControl
+* We have added a new inbound integration NetData
+* We have improved the Samsara integration experience
+* We have improved the UptimeRobot integration experience
+* The 4me inbound integration now supports automation rules
+* The Cloudwatch inbound integration now supports test notifications (even if invalid JSON is provided)
 
 ## July 2024
 
