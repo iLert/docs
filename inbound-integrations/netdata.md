@@ -20,6 +20,28 @@
 
 <figure><img src="../.gitbook/assets/1 (12).png" alt="" width="563"><figcaption></figcaption></figure>
 
-{% hint style="info" %}
-This page is still under construction.
-{% endhint %}
+## In Netdata: Configure Agent Dispatched Notification
+
+1. Edit following configuration file: `health_alarm_notify.conf`
+2. Open the terminal and enter following:
+
+```bash
+cd /etc/netdata 2>/dev/null || cd /opt/netdata/etc/netdata
+sudo ./edit-config health_alarm_notify.conf
+```
+
+3. Insert the previous created alertsource URL as value for `ILERT_ALERT_SOURCE_URL`
+4. Example:
+
+```
+SEND_ILERT="YES"
+ILERT_ALERT_SOURCE_URL="https://api.ilert.com/api/v1/events/netdata/{API-KEY}"
+```
+
+
+
+## FAQ
+
+**Will alerts in ilert be resolved automatically?**
+
+Yes, as soon as Netdata sends a notification with a severity value of **clear** or **resolved**, the alert in ilert will be resolved automatically.
