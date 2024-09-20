@@ -165,6 +165,7 @@
   * [GitHub Advanced Security Integration](inbound-integrations/github/github-advanced-security-integration.md)
   * [GitHub Inbound Check Run (Actions) Integration](inbound-integrations/github/inbound-check-run-actions.md)
   * [GitHub Inbound Issue Integration](inbound-integrations/github/inbound-issue.md)
+  * [GitHub advanced settings](inbound-integrations/github/advanced-settings.md)
 * [GitLab Integration](inbound-integrations/gitlab.md)
 * [Google Cloud Monitoring (formerly Stackdriver) Integration](inbound-integrations/google-stackdriver.md)
 * [Google Security Command Center](inbound-integrations/google-security-command-center.md)

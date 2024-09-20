@@ -30,7 +30,7 @@ description: >-
 ### GitLab advanced settings
 
 {% hint style="info" %}
-This setting is optional but we still recommend enabling it for a better user expierence.
+This setting is optional but we still recommend enabling it for a better user experience.
 {% endhint %}
 
 1. Now click on **GitLab Settings** to show the advanced settings

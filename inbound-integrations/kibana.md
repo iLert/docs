@@ -34,7 +34,7 @@ description: The ilert Kibana Integration helps you to easily connect ilert with
 
 2. Now click on **Create connector**.
 
-<figure><img src="../.gitbook/assets/2 (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Select **Webhook**.
 

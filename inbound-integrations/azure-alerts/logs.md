@@ -40,11 +40,11 @@ description: Create alerts in ilert based on Azure Logs queries.
 
 4. On the next page change the **Condition** for the alerts and click on the **Add action groups.**
 
-![](<../../.gitbook/assets/1 (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/1 (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 5. On the modal window click on the **Create action group** button.
 
-![](<../../.gitbook/assets/2 (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/2 (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 6. On the next page name the group e.g. **iLert** and click on the **Actions** tab.
 
