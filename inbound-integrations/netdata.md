@@ -1,4 +1,12 @@
+---
+description: >-
+  ilert integrates with Netdata to provide real-time actionable alerts, enabling
+  fast response and resolution via multiple notification channels.
+---
+
 # Netdata Integration
+
+[Netdata](https://www.netdata.cloud/) is a high-performance, open-source monitoring tool that provides real-time insights into system and application metrics. It allows users to track and visualize performance data across distributed systems with minimal resource overhead. Pairing Netdata with ilert’s incident management platform enhances the monitoring experience by adding powerful alerting and incident response capabilities. Here is a step-by-step guide on how to connect Netdata with ilert.
 
 ## In ilert: Create a Netdata alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
