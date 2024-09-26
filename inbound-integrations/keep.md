@@ -4,6 +4,8 @@ description: Connect ilert with an open-source AIOps platform Keep.
 
 # Keep Integration
 
+The ilert provider for Keep allows users to create, update, and resolve events or incidents within ilert platform, utilizing its incident management and event notification features to ensure a streamlined and efficient response to incidents.
+
 ## In ilert: Create a Keep alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1.  Go to **Alert sources** -> **Alert sources** and click **Create new alert source**.
