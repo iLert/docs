@@ -6,7 +6,7 @@ description: >-
 
 # Samsara Integration
 
-Samsara's platform helps you to monitor and track your devices
+If Samsara's fleet management system identifies a problem, such as a vehicle malfunction or a driver safety incident, ilert can promptly send alerts to the relevant team members, ensuring a quick response. Here's a step-by-step guide on how to connect Samsara and ilert.
 
 ## In ilert: Create a Samsara alert source
 
