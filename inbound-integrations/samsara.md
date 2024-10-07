@@ -32,7 +32,7 @@ If Samsara's fleet management system identifies a problem, such as a vehicle mal
 
 1. In the sidebar, click on the Alert bell icon.
 
-<figure><img src="../.gitbook/assets/1-2 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-2 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. On the next screen, click on **Create Alert**.
 

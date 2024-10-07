@@ -42,12 +42,12 @@ description: >-
 
 3. Enter a **Contact List Name** and expand the **ilert** section.
 
-<figure><img src="../.gitbook/assets/1-1.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-1 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Enter the previously created alert source api key into the **ilert API Key** field.
 5. Optional: Click on the **Send test notification** to test the integration.
 
-<figure><img src="../.gitbook/assets/1-2.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-2 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 6. Now navigate to the monitor you want to receive an alert from.
 7. Click on **\[No Contact List]** to select a contact list.

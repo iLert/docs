@@ -1,6 +1,12 @@
+---
+description: Enable multi-channel alerting for the Ansible Automation Platform.
+---
+
 # Ansible Automation Platform Integration
 
-## In ilert: Create a Ansible Automation Platform alert source&#x20;
+[Ansible Automation Platform](https://www.redhat.com/en/technologies/management/ansible) is a comprehensive toolset for automating IT tasks, such as configuration management, application deployment, and orchestration. It provides a scalable framework for automating workflows across diverse systems and environments, simplifying complex processes and enhancing operational efficiency. Here's a guide on enabling ilert's multi-channel alerting for the Ansible Automation Platform.
+
+## In ilert: Create an Ansible Automation Platform alert source&#x20;
 
 1.  Go to **Alert sources** -> **Alert sources** and click **Create new alert source**.
 
@@ -28,11 +34,11 @@
 
 <figure><img src="../.gitbook/assets/1 (14).png" alt="" width="563"><figcaption></figcaption></figure>
 
-2. On the next page, click on **Add**, to add a new notification template.
+2. On the next page, click **Add**, to add a new notification template.
 
 <figure><img src="../.gitbook/assets/2 (12).png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. Enter a **Name** and change the **Type** to 'Webhook'.
+3. Enter a **Name** and change the **Type** to 'Webhook.'
 
 <figure><img src="../.gitbook/assets/3 (11).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -41,15 +47,15 @@
 
 <figure><img src="../.gitbook/assets/4 (10).png" alt="" width="563"><figcaption></figcaption></figure>
 
-6. Optional: You can send a test notification by clicking on the **Test** button.
+6. Optional: You can send a test notification by clicking the **Test** button.
 
 <figure><img src="../.gitbook/assets/5 (9).png" alt="" width="563"><figcaption></figcaption></figure>
 
-7. Navigate back to your projects and click on on of the desired projects.
+7. Navigate back to your projects and click on one of the desired projects.
 
 <figure><img src="../.gitbook/assets/6 (10).png" alt="" width="563"><figcaption></figcaption></figure>
 
-8. On the navigation bar, click on **Notifications** and enable 'Failure' for the just created nofication template.
+8. On the navigation bar, click on **Notifications** and enable 'Failure' for the just created notification template.
 
 <figure><img src="../.gitbook/assets/7 (7).png" alt="" width="563"><figcaption></figcaption></figure>
 

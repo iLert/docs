@@ -28,25 +28,25 @@ description: Send ClusterControl Alarms to ilert
 
 ## In ClusterControl: Create a Webhook
 
-1. On the sidebar, click on **Integrations**.
+1. On the sidebar, click on **Settings** **->** **Notification services**.
 
-<figure><img src="../.gitbook/assets/1 (11).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-1.png" alt="" width="563"><figcaption></figcaption></figure>
 
-2. Now click **Add your first service**.
+2. Now click **Add new integration**.
 
-<figure><img src="../.gitbook/assets/2 (10).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-2.png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. Enter an **Integration Name** and the ilert alert source URL into the **Url** field.
+3. Select **Webhook** and click on **Continue**.
 
-<figure><img src="../.gitbook/assets/3 (9).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-3.png" alt="" width="563"><figcaption></figcaption></figure>
 
-4. Optionally: Click on **Test** to test the webhook.
+4. Choose an **Integration name** and enter the previous in ilert created alert source Url into the **Url** field.
 
-<figure><img src="../.gitbook/assets/4 (9).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-4.png" alt="" width="563"><figcaption></figcaption></figure>
 
 5. In the last step, choose the desired **Clusters** and **Event Triggers** from which you want to receive a notification.
 
-<figure><img src="../.gitbook/assets/5 (8).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1-5.png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 
