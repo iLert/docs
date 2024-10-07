@@ -28,7 +28,7 @@ ilert's Maintenance Windows feature allows users to schedule downtime for alert 
    * **Notify at End**: Subscribers are informed once the maintenance period concludes.
 7. Click **Schedule maintenance window**.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 
 

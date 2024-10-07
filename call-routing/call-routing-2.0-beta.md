@@ -15,7 +15,7 @@ This section outlines the steps to create a call flow that connects incoming cal
     <figure><img src="../.gitbook/assets/Screenshot 2024-03-19 at 22.22.13.png" alt=""><figcaption></figcaption></figure>
 2.  Add a node by clicking on the ➕ icon and select **Route call**.&#x20;
 
-    <figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 3.  In the **Route call** configuration, select the desired schedule and user and save the node configuration.
 
     <figure><img src="../.gitbook/assets/Screenshot 2024-03-19 at 22.27.42.png" alt=""><figcaption></figcaption></figure>

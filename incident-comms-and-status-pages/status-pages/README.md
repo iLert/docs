@@ -1,22 +1,50 @@
 # Status pages
 
-Creating a status is a matter of few clicks.
+## Create a status page
+
+Creating a status page is a matter of few clicks.
 
 1\. Navigate to **Status pages** in the navigation bar and click on the **Create status page** button
 
 2\. Select your page type, ilert URL and the teams that should manage the status page.
 
-![](<../.gitbook/assets/Screen Shot 2022-03-10 at 17.03.42.png>)
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 3\. Select the services that you would like to include in the status page. You can also create new service and add them to the status page from the drop down list.
 
-![](<../.gitbook/assets/Screen Shot 2022-03-10 at 17.17.06.png>)
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 4\. Optionally add your own logo and fav icon and click on **Save**.
 
 5\. Click on the **Visit status page** button to preview your status page. Once you are satisfied with your status page, click on the **Activate** button to make your page available and viewable to your users.
 
-![](<../.gitbook/assets/Screen Shot 2022-03-10 at 17.20.51.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-03-10 at 17.20.51.png>)
+
+## Update the status of your status page
+
+The status of your status page is automatically updated whenever
+
+* the status of a service that is included in the status page is updated (e.g. by setting a service to _Degraded_)
+* an [incident is created](../incidents.md#create-and-communicate-incidents) that affects any of the services from your status page
+
+[-> How to create an incident](../incidents.md#create-and-communicate-incidents)
+
+{% embed url="https://www.youtube.com/watch?v=165HNbOqR7I" %}
+[https://www.youtube.com/@ilertVideos](https://www.youtube.com/@ilertVideos)
+{% endembed %}
+
+### Automation with alert sources
+
+You can automatically update your status page in the following ways:
+
+* Automatically update the status of a service (for example, set the status to _Degraded_)
+* Automatically create an incident on your status page using an [incident template](../incidents.md#create-an-incident-template) and (optionally) notify subscribers
+
+Both cases work by using the **ilert incidents** alert action on an alert source. See [-> Services: automation with alert sources](../services.md#automation-with-alert-sources) for more information.
+
+{% embed url="https://youtu.be/pDr8_ALyE14" %}
+[https://www.youtube.com/@ilertVideos](https://www.youtube.com/@ilertVideos)
+{% endembed %}
 
 ## Status Page Layout Options
 
@@ -26,7 +54,7 @@ Service groups let you group related services together on a status page. This al
 
 Below is an example service group from our status page. When the service group is collapsed, it shows a combined status and uptime graph. When the service group is expanded, it shows the status and uptime graph for each service individually. The overall status of multiple services in a service group is calculated by taking the status of the service with the highest impact. Similarly, the uptime percentage and outage graph is calculated by combining the outages of all services.
 
-![](../.gitbook/assets/image-14.png)![](../.gitbook/assets/image-15.png)
+![](../../.gitbook/assets/image-14.png)![](../../.gitbook/assets/image-15.png)
 
 To create a service group
 
@@ -36,14 +64,14 @@ To create a service group
 4.  You can add services to the service group during creation or later in the by dragging and dropping services into the group\
 
 
-    <figure><img src="../.gitbook/assets/Screenshot 2023-12-01 at 15.57.41.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/Screenshot 2023-12-01 at 15.57.41.png" alt=""><figcaption></figcaption></figure>
 
 Use the following settings on a service group and service to further customize how they appear on your status page:
 
 * **Expand group on page**: Activate this option if you want to expand the entire service group by default on your status page
 * **Show uptime history:** Activate this option if you want to show the service's historical uptime and its SLA
 
-<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
 ### Services layout: single vs responsive columns
 
@@ -52,9 +80,9 @@ You can choose between two layout options for displaying services on your status
 * **Single column** presents items in a vertical list.&#x20;
 * **Responsive columns** arranges items in a grid with up to 3 columns that adapts to your screen size.
 
-|                                             Single column                                            |                                          Responsive columns                                          |
-| :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
-| <img src="../.gitbook/assets/Screenshot 2023-12-01 at 12.10.25 (1).png" alt="" data-size="original"> | <img src="../.gitbook/assets/Screenshot 2023-12-01 at 12.08.31 (1).png" alt="" data-size="original"> |
+|                                              Single column                                              |                                            Responsive columns                                           |
+| :-----------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: |
+| <img src="../../.gitbook/assets/Screenshot 2023-12-01 at 12.10.25 (1).png" alt="" data-size="original"> | <img src="../../.gitbook/assets/Screenshot 2023-12-01 at 12.08.31 (1).png" alt="" data-size="original"> |
 
 To change the service on a status page
 
@@ -63,57 +91,7 @@ To change the service on a status page
 3.  Select your layout option and click save\
 
 
-    <figure><img src="../.gitbook/assets/image (88) (1).png" alt=""><figcaption></figcaption></figure>
-
-
-
-
-
-## Public vs. private status pages
-
-Status pages in ilert can either be private or public. You can change the page type at any time. The table below compares both page types:
-
-|                                                   | Public page                                                         | Private page                                                                                                                                                                                           |
-| ------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Use case**                                      | For public incident communication with external users and customers | For private incident communication with employees and customers that either have an ilert account or a whitelisted IP address. **Note that a stakeholder license is sufficient to view status pages.** |
-| **Visibility**                                    | Publicly visible on the internet                                    | Visible to authenticated ilert users only or to users with whitelisted IP addresses                                                                                                                    |
-| **Supports custom domains with SSL**              | :white\_check\_mark:                                                | :white\_check\_mark:                                                                                                                                                                                   |
-| **Supports IP Whitelist**                         | :x:                                                                 | :white\_check\_mark:                                                                                                                                                                                   |
-| **Supports whitelisted emails and email domains** | :x:                                                                 | :white\_check\_mark:                                                                                                                                                                                   |
-
-### Authentication Options
-
-Only authenticated users can view ilert's private status pages. To adjust access, navigate to **Status Pages -> Authentication**, and select one or several authentication methods.
-
-* **Accessible to all users of your account**: All users with any roles will have access to the chosen status page. Please note that the page will be visible even if it belongs to a private team.
-* **IP Whitelist:** Specify IP addresses, and users without an ilert account will be able to see the status page.
-* **Passwordless Email Login**: Enter email addresses and/or domains that should have access to your status page.
-
-## Update the status of your status page
-
-The status of your status page is automatically updated whenever
-
-* the status of a service that is included in the status page is updated (e.g. by setting a service to _Degraded_)
-* an incident is created that affects any of the services from your status page
-
-[--> How to create an incident](incidents.md#create-and-communicate-incidents)
-
-{% embed url="https://www.youtube.com/watch?v=165HNbOqR7I" %}
-[https://www.youtube.com/@ilertVideos](https://www.youtube.com/@ilertVideos)
-{% endembed %}
-
-## Automation with alert sources
-
-You can automatically update your status page in the following ways:
-
-* Automatically update the status of a service (for example, set the status to _Degraded_)
-* Automatically create an incident on your status page using an [incident template](incidents.md#create-an-incident-template) and (optionally) notify subscribers
-
-Both cases work by using a service's automation rules. See [-> Services: automation with alert sources](services.md#automation-with-alert-sources) for more information.
-
-{% embed url="https://youtu.be/pDr8_ALyE14" %}
-[https://www.youtube.com/@ilertVideos](https://www.youtube.com/@ilertVideos)
-{% endembed %}
+    <figure><img src="../../.gitbook/assets/image (88) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Setting up your custom domain <a href="#custom-domain" id="custom-domain"></a>
 
@@ -129,7 +107,7 @@ Setting up a custom domain consists of the following steps:
 
 Go to your status page settings, enter a custom domain, and click **Save**.
 
-![](<../.gitbook/assets/Screen Shot 2022-03-14 at 16.19.12.png>)
+![](<../../.gitbook/assets/Screen Shot 2022-03-14 at 16.19.12.png>)
 
 #### 2. Configure DNS
 
@@ -167,7 +145,7 @@ To configure your status page floating widget:
 6. Paste the generated code snippet from step 4 into the `<head>` section of your target page.
 7. Test the widget by creating a test maintenance window or incident.
 
-<figure><img src="../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Making changes to your widget**
@@ -181,9 +159,9 @@ The localization of the widget will be automatically detected using the viewer's
 
 Share essential announcements via your status page. Enable an announcement bar in the status page settings. To make your message more engaging, use simple Markdown and emojis. The announcement bar will be shown at the top of your status page.
 
-<figure><img src="../.gitbook/assets/announcement bar for the docs.png" alt=""><figcaption><p>Announcement bar settings</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/announcement bar for the docs.png" alt=""><figcaption><p>Announcement bar settings</p></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/pika-1722854018521-2x.png" alt=""><figcaption><p>Example of the annoumcement bar</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/pika-1722854018521-2x.png" alt=""><figcaption><p>Example of the annoumcement bar</p></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 
@@ -193,7 +171,7 @@ Yes. Our Premium plan even gives you unlimited stakeholder licenses. That way, y
 
 To isolate customers from each other, we recommend the following approach:
 
-1. Create a team for every customer and make the team [private](../user-administration/teams.md#private-teams)
+1. Create a team for every customer and make the team [private](../../user-administration/teams.md#private-teams)
 2. Invite your customer to ilert choosing the **Stakeholder** role
 3. Add the customer to the respective customer team.
 4. Assign the status page to the respective customer team.
@@ -202,7 +180,7 @@ To isolate customers from each other, we recommend the following approach:
 
 You probably forgot to activate your status page. Once you are satisfied with your status page, click on the **Activate** button to make your page available and viewable to your users.
 
-![](<../.gitbook/assets/image (59) (1).png>)
+![](<../../.gitbook/assets/image (59) (1).png>)
 
 **Can I export a list of status page subscribers?**
 

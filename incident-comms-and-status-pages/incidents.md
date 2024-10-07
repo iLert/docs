@@ -20,7 +20,7 @@ An incident has one or more affected services and will be
 
 The purpose of linking alerts with incidents is to reflect that the linked alerts contributed to the incident. Alerts that are linked with an incident will include a :fire: icon in the alert list:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 An alert is automatically linked with an incident when
 
@@ -35,7 +35,7 @@ Moreover, you can manually link alerts with incidents from the respective detail
 
 There are 3 ways to create an incident
 
-1. Automatically when an alert is created through [automation rules](services.md#automation-with-alert-sources) of a service
+1. Automatically when an alert is created through the [alert source's alert action](services.md#automation-with-alert-sources)
 2. Manually from the **New incident** page
 3. Manually from a pending alert
 

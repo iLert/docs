@@ -47,7 +47,7 @@ These notes get usually updated retrospectively within the first 2 weeks of the 
 
 ### New features and improvements
 
-* We have added a new feature to status pages: [Announcements](incident-comms-and-status-pages/status-pages.md#faq-1), you may now add **announcements** to your page and the widget
+* We have added a new feature to status pages: [Announcements](incident-comms-and-status-pages/status-pages/#faq-1), you may now add **announcements** to your page and the widget
 * We have finalized our migration of all alert source event integrations to the new events API, enabling the event explorer feature for 99% of integrations (_HTTP request validation is slightly more strict, keep an eye out for your custom integrations, especially if you are unsure about: utf-8 compatibility, content-type / host header or API key integrity; reach out to support if needed_)
 * We have made **ilert AI available for all customers**, by providing a service that automatically chooses EU mainland hosted large language models on ilert infrastructure for EU customers, making all of the ilert AI uses cases available to every user (customers may still choose to opt-out, to deactivate the features)
 * The **ilert Search BETA** is now available for non ADMIN users as it now individually validates permissions to all search results on demand for the current user
@@ -257,7 +257,7 @@ Ever wanted to take someone else's on-call, but not their entire week long shift
 
 This has been in the making for a while: we have completely overhauled our alert actions and connector UIs and APIs, giving tons of new QoL features like multi alert source assignments or team management to alert actions. We have launched the closed **BETA** and would love to hear your feeback on it - so if you are interested in trying it out just **reach out via email or live chat**.
 
-<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### New and updated integrations
 
@@ -562,7 +562,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New features
 
-* [Status pages](incident-comms-and-status-pages/status-pages.md) and [Incident com 2.0](broken-reference/) are now in GA
+* [Status pages](incident-comms-and-status-pages/status-pages/) and [Incident com 2.0](broken-reference/) are now in GA
 * New [alert creation API](https://api.ilert.com/api-docs/#tag/Alerts/paths/\~1alerts/post) e.g. possible to target specific user
 * [2FA and MFA ](user-administration/two-factor-authentication-mfa.md)are now available for every ilert user
 * Call routing is now available in Italian

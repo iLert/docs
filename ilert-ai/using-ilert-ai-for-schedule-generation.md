@@ -2,13 +2,13 @@
 
 Creating a recurring schedule can be a challenge for users that are new to on-call duty management or sometimes can be a complex challenge when the required schedule in itself has a complex structure to it e.g. follow the sun with multiple teams and besides that some people might just prefer to use natural language to express their schedule structure instead of timelines and restrictions- this is why we build a schedule assistant into ilert AI.
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Head to On-call -> On-call schedules -> Create new schedule -> Create recurring schedule** and you will find the **Generate schedule with ilert AI** button at the top right (_if you have enabled ilert AI for your account_).
 
 A modal will appear on the right side of the screen asking you to describe your desired schedule:
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 While the assistant will automatically guide you, by asking questions for missing details for the schedule creation, keep in mind that you should provide some insights into
 
