@@ -1,8 +1,16 @@
+---
+description: >-
+  Hyperping is a monitoring tool that helps users track the uptime and
+  performance of their websites and web applications
+---
+
 # Hyperping Integration
+
+[Hyperping](https://hyperping.com/) is a monitoring tool that helps users track the uptime and performance of their websites and web applications by providing uptime checks, performance metrics, and incident alerts. Integrating Hyperping with ilert allows for centralized incident management, automated alerting, and improved response times, ensuring that teams can quickly address performance issues and maintain high service reliability.
 
 ## In ilert: Create a Hyperping alert source
 
-1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
+1.  Go to **Alert sources** -> **Alert sources** and click on **Create new alert source**
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
 2.  Search for **Hyperping** in the search field, click on the Hyperping tile and click on **Next**.&#x20;
