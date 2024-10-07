@@ -36,7 +36,7 @@ With the UptimeRobot integration, you can easily integrate UptimeRobot notificat
 
 1. On the sidebar, click on **Integrations & API**.
 
-![](<../.gitbook/assets/1 (1).png>)
+![](<../.gitbook/assets/1 (1) (1).png>)
 
 2. Under the **Webhook** section, click on **Add**, to add a new webhook.
 

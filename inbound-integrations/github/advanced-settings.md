@@ -4,7 +4,7 @@
 
 1. Click on GitHub settings to show the advanced settings.
 
-<figure><img src="../../.gitbook/assets/1.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. You may now choose one of the given **Event Types** which this alert source should process. (leaving the selection on 'Select' will result the alert source to process all incoming **Event Types**)\
    Supported **Event Types** are: `Issues, Check run, Code scanning alert, Secret scanning alert, Secret scanning alert location, Dependabot alert`.
