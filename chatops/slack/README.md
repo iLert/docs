@@ -58,3 +58,7 @@ Click on the gear icon ⚙ → **Connectors**, then click on the **Slack Workspa
 
 No, only one Slack Workspace can be linked to an ilert account.
 
+**Can multiple ilert accounts be linked to the same Slack workspace?**
+
+No, a Slack workspace can only be linked to one ilert account at a time.&#x20;
+
