@@ -190,7 +190,7 @@
 * [IXON Cloud Integration](inbound-integrations/ixon.md)
 * [Jira Inbound Integration](inbound-integrations/jira.md)
 * [JumpCloud Integration](inbound-integrations/jumpcloud.md)
-* [Apache Kafka Integration](inbound-integrations/kafka.md)
+* [Kafka Integration](inbound-integrations/kafka.md)
 * [Kapacitor Integration](inbound-integrations/kapacitor.md)
 * [Kentix AlarmManager](inbound-integrations/kentix-am.md)
 * [Keep Integration](inbound-integrations/keep.md)
