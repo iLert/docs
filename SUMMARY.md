@@ -202,7 +202,7 @@
 * [Mimir Integration](inbound-integrations/mimir.md)
 * [MongoDB Atlas Integration](inbound-integrations/mongodbatlas.md)
 * [MXToolBox Integration](inbound-integrations/mxtoolbox.md)
-* [MQTT](inbound-integrations/mqtt.md)
+* [MQTT Integration](inbound-integrations/mqtt.md)
 * [Nagios Integration](inbound-integrations/nagios.md)
 * [N-central Integration](inbound-integrations/n-central-integration.md)
 * [Netdata Integration](inbound-integrations/netdata.md)
