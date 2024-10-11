@@ -39,6 +39,6 @@ When wearing your apple watch, critical notifications will not appear on your ph
 
 ![](../../../.gitbook/assets/IMG\_1404.jpg)
 
-* Scroll down in the list to find the **iLert** app and disable the watch notifications for the app.
+* Scroll down in the list to find the **ilert** app and disable the watch notifications for the app.
 
-This will enforce critical alerts to be send to your iPhone even if you are wearing your Apple watch.
+This will enforce critical alerts to be sent to your iPhone even if you are wearing your Apple watch.
