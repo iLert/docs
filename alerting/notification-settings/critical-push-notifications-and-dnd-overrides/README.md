@@ -1,7 +1,7 @@
 ---
 description: >-
   This section contains information on critical push notifications or DND (do
-  not disturb) overrides for mobile devices
+  not disturb or Sleep Mode) overrides for mobile devices
 ---
 
 # Critical Push Notifications and DND overrides
