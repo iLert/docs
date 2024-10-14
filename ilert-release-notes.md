@@ -15,6 +15,9 @@ These notes get usually updated retrospectively within the first 2 weeks of the 
 ### New features and improvements
 
 * **ilert search** is now out of closed beta and available to all ilert users
+
+<figure><img src=".gitbook/assets/Search (1).gif" alt=""><figcaption></figcaption></figure>
+
 * The i**lert dashboard** is now available to all ilert users in its **editable** mode, you can now create, customize and share your own dashboards with specific users or the whole account
 * We have introduced a new feature to the **alert resolve bulk** action that automatically **suggest similar open alerts** based on ilert AI
 * ...
