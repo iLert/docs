@@ -19,27 +19,27 @@ A user in ilert can have one of the following roles:
 
 ### Stakeholder
 
-Stakeholders will only be able to see the incidents to which they have been added as a subscriber and won't be able to see any other data, such as alerts, alert sources, escalation policies, etc. Additionally, they can see the status pages and services to which they have been granted access. In order to grant a stakeholder user access to resources, the stakeholder needs to be added to a team that contains said resources. This role is only available as part of our Premium plan.
+Stakeholders will only be able to see the incidents to which they have been added as a subscriber and won't be able to see any other data, such as alerts, alert sources, escalation policies, etc. Additionally, they can see the status pages and services to which they have been granted access. In order to grant a stakeholder user access to resources, the stakeholder needs to be added to a team that contains said resources. This role is only available as part of our [Scale plan](https://www.ilert.com/pricing).
 
 ### Guest
 
-Guests users have access to the application, however they cannot see any resources or users unless they are added as member of a team, which gives them (depending on their team role) the permission to see or even edit the resources of the specific team.
+Guest users have access to the application. However, they cannot see any resources or users unless they are added as members of a team, which gives them (depending on their team role) permission to see or even edit the resources of the specific team.
 
 ### Responder
 
-Responders can use the web ui and mobile app to manage alerts just like **Users**, however they have no permission to create or modify any objects, such as alert sources, schedules, or escalation policies. Besides taking actions on alerts, Responders can add themselves as overrides to schedules.
+Responders can use the web UI and mobile app to manage alerts, just like Users. However, they have no permission to create or modify any objects, such as alert sources, schedules, or escalation policies. Besides taking actions on alerts, Responders can add themselves as overrides to schedules.
 
 ### User
 
-Users can create or modify entities like alert sources or on-call schedules, however they cannot create or modify (or invite) other users (of any role), as well as change account setttings. Users are also not able to create or modify Teams. Although users may edit public resources globally, they may not change the ownership of resource (team context).
+Users can create or modify entities like alert sources or on-call schedules; however, they cannot create or modify (or invite) other users (of any role) or change account settings. Users are also not able to create or modify Teams. Although users may edit public resources globally, they may not change the ownership of a resource (team context).
 
 ### Team Admin
 
-**Users** may not create or modify teams. But an **Admin** may grant a User, as member of a team, the right to modify certain team. A Team Admin is therefore actually not a role in itself, it is an additional permission that may be granted to a **User** on a team basis\*\*.\*\*
+**Users** may not create or modify teams. But an Admin may grant a User, as a member of a team, the right to modify a certain team. A Team Admin is, therefore actually not a role in itself; it is an additional permission that may be granted to a **User** on a team basis\*\*.\*\*
 
 ### Admin
 
-An Admin is a **User** with elevated priviliges. He may not access or modify the account settings. However he can create and modify **Users** as well as **Teams**, he may also change the role of **Users** and can create and edit connectors\*\*.\*\* An **Admin** has the right to add and remove team ownerships to/from resources.
+An Admin is a **User** with elevated priviliges. He may not access or modify the account settings. However, he can create and modify **Users** as well as **Teams**, he may also change the role of **Users,** and can create and edit connectors\*\*.\*\* An **Admin** has the right to add and remove team ownerships to/from resources.
 
 ### Account Owner
 
@@ -66,7 +66,7 @@ The table below gives an overview of the role permissions.
 
 \*Stakeholders have view access to shared (team membership) or subscribed incidents, services and status pages\
 \*\*_The actual data that is shown in reports will depend on the permissions of the current user._\
-_If the user has no access to a schedule for example, he will not see the on-call-duty data of this schedule when browsing reports. (_[_Read more here_](teams.md#report-visibility)_)_
+_If the user has no access to a schedule, for example, he will not see the on-call-duty data of this schedule when browsing reports. (_[_Read more here_](teams.md#report-visibility)_)_
 
 ## Change a user's role
 
