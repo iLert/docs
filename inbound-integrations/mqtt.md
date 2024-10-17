@@ -1,6 +1,6 @@
 # MQTT Integration
 
-[MQTT](https://mqtt.org/) is a lightweight, publish-subscribe, machine-to-machine network protocol for message queue/message queuing service. It is designed for connections with remote locations that have devices with resource constraints or limited network bandwidth, such as in the Internet of Things. While we don't directly support an MQTT broker to accept the publishing of messages, we do support integrations specifically meant to connect MQTT topics to ilert events and provide the **ilagent** tool to connect your MQTT brokers to ilert without actually writing the code yourself.
+[MQTT](https://mqtt.org/) is a lightweight, publish-subscribe, machine-to-machine network protocol for message queue/message queuing service. It is designed for connections with remote locations that have devices with resource constraints or limited network bandwidth, such as in the Internet of Things. While ilert doesn't directly support an MQTT broker to accept the publishing of messages, it supports integrations specifically meant to connect MQTT topics to ilert events and provides the **ilagent** tool to connect your MQTT brokers to ilert without actually writing the code yourself.
 
 ## In ilert: Create an MQTT alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
