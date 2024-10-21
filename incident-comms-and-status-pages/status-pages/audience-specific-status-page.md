@@ -33,7 +33,7 @@ After creating an audience-specific status page, you can manage which services a
     Navigate to the **Services and Metrics** tab in your status page settings. Here, add all the services and metrics that you want to include on your status page, regardless of the audience. This will serve as the complete list of items that can be displayed to any audience.
 2.  **Configure audience visibility**
 
-    Switch to the **Audience** tab to manage the visibility of services and metrics for each audience. In ilert, each audience corresponds to a team. Any team that owns one or more of the services or metrics you selected in step 1 will appear as an audience in this tab, with the relevant items listed.
+    Switch to the **Audience** tab to manage the visibility of services and metrics for each audience. In ilert, each audience corresponds to a team. Any team that owns one or more of the services or metrics you selected in Step 1 will appear as an audience in this tab, with the relevant items listed.
 
     *   **Making services or metrics Visible to an Audience**
 
@@ -48,19 +48,19 @@ After creating an audience-specific status page, you can manage which services a
 
 #### Do I need to purchase full user licenses to view an audience-specific status page?
 
-No, a [Stakeholder](../../user-administration/teams.md#team-roles) license is sufficient. Stakeholder license can be purchases in packages of 50, 100, 200, etc. Our enterprise plans also offer unlimited stakeholder users.&#x20;
+No, a [Stakeholder](../../user-administration/teams.md#team-roles) license is sufficient. Stakeholder licenses can be purchased in packages of 50, 100, 200, etc. Our enterprise plans also offer unlimited stakeholder users.&#x20;
 
 #### How can I create a new audience?
 
-Audiences are defined based on your [team-structure](../../user-administration/teams.md) in ilert. You can create as many teams as you like. You can also create teams specific for your audience specific status or re-use your already existing team structure. Too add a team as an audience, click opn the **+ Add teams** button and select an existing team or create a new team.
+Audiences are defined based on your [team-structure](../../user-administration/teams.md) in ilert. You can create as many teams as you like. You can also create teams specific to your audience-specific status or re-use your existing team structure. To add a team as an audience, click the **+ Add teams** button and select an existing team or create a new team.
 
 
 
 ## Frequently Asked Questions (FAQ)
 
-#### Do I need to purchase full user licenses for users to view an audience-specific status page?
+#### Do I need to purchase full user licenses so that users can view an audience-specific status page?
 
-No, a Stakeholder license is sufficient for users to access an audience-specific status page. Stakeholder licenses can be purchased in packages of 50, 100, 200, and so on. Additionally, our Enterprise plans offer unlimited stakeholder users, allowing you to provide access without worrying about per-user costs.
+No, a Stakeholder license is sufficient for users to access an audience-specific status page. Stakeholder licenses can be purchased in packages of 50, 100, 200, and so on.&#x20;
 
 ***
 
