@@ -6,6 +6,12 @@ description: >-
 
 # Microsoft Teams Integration
 
+### Certification Overview <a href="#certification-overview" id="certification-overview"></a>
+
+Our bot has undergone a rigorous certification process by Microsoft, ensuring it meets the high standards for security, privacy, and compliance set forth by Microsoft. This attestation confirms that our app adheres to best practices in software development and data handling.
+
+For a deeper understanding of what certification means and why it matters, please refer to the [Microsoft Certification Documentation](https://docs.microsoft.com/en-us/microsoft-365/compliance/offering-certifications?view=o365-worldwide) for third-party apps and services.
+
 ### Scope Definitions <a href="#scope-definitions" id="scope-definitions"></a>
 
 Below is a list and description of each scope used by our bot:
