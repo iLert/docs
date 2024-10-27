@@ -1,5 +1,7 @@
 ---
-description: Fine-tune your ilert homepage to your preferences and the needs of your team.
+description: >-
+  Build custom dashboards to monitor your team’s key metrics and gain valuable
+  insights into various aspects of ilert.
 ---
 
 # Dashboard
