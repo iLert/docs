@@ -8,7 +8,7 @@ description: >-
   caller IDs, etc.)
 ---
 
-# ilert sender IDs and domains
+# ilert sender IDs, domains and IPs
 
 You can find information on our domains, notification email addresses, phone numbers below. We suggest whitelisting these in your tools and email clients.
 
@@ -63,7 +63,13 @@ The number that ilert uses to send voice notifications depends on the target cou
 | API documentation | [https://api.ilert.com/api-docs](https://api.ilert.com/api)                                                       |
 | Service Status    | [http://status.ilert.com](https://status.ilert.com/)                                                              |
 
-## IP addresses for outgoing webhooks <a href="#email-services" id="email-services"></a>
+## IP addresses <a href="#email-services" id="email-services"></a>
+
+### Inbound <a href="#email-services" id="email-services"></a>
+
+ilert's inbound architecture is highly distributed and spread across different datacenters and regions. While it is possible to temporarily whitelist the IP blocks used, it is not recommended to do so. Inbound IPs are dynamic and though mostly reserved might change at any time.
+
+### Outgoing webhooks (alert actions) <a href="#email-services" id="email-services"></a>
 
 ilert uses flexible serverless infrastructures to provide webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../../contact.md#support) if you are interested in using static IPs in case firewall whitelisting is required for your use case.
 
