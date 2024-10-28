@@ -6,7 +6,7 @@
 
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
-2.  Search for **Amazon SNS** in the search field, click on the Amazon Cloudwatch tile and click on **Next**. \
+2.  Search for **Amazon SNS** in the search field, click on the Amazon SNS tile and click on **Next**. \
 
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
