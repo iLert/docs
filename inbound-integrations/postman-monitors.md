@@ -26,25 +26,25 @@ Postman is a platform for API development, allowing developers to design, test, 
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
 7. On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
-<figure><img src="../.gitbook/assets/il-1 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/il-1 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## In Postman: Create a Webhook
 
 1. On the Home page, click **Integrations**.
 
-<figure><img src="../.gitbook/assets/1 (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 2. Now click on **Browse All Integrations**.
 
-<figure><img src="../.gitbook/assets/2 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. In the search field, enter webhooks and click the **Webhooks** tile.
 
-<figure><img src="../.gitbook/assets/3 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Now in the **Post monitoring results** section, click on **Add integration**.
 
-<figure><img src="../.gitbook/assets/4.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/4 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 5. Enter a **Nickname**, choose a desired **workspace** and **Monitor**.
 6. Now enter the alert source url created in ilert into the **Webhook URL** field and select **Notify for 3 failures and then first success**.

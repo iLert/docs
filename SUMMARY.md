@@ -127,6 +127,7 @@
 * [4me Integration](inbound-integrations/4me.md)
 * [Ansible Automation Platform AWX Integration](inbound-integrations/awx.md)
 * [Amazon CloudWatch Integration](inbound-integrations/amazon-cloudwatch.md)
+* [Amazon Security Hub](inbound-integrations/amazon-security-hub.md)
 * [Amazon SNS Integration](inbound-integrations/amazon-sns/README.md)
   * [Amazon SNS Inbound Integration](inbound-integrations/amazon-sns/inbound.md)
   * [Amazon SNS Outbound via AWS Lambda](inbound-integrations/amazon-sns/outbound-via-lambda.md)

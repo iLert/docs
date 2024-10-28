@@ -38,13 +38,13 @@ description: >-
 
 2. Click **Notification Endpoints -> Create**.
 
-<figure><img src="../.gitbook/assets/2 (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Set HTTP as Destination and enter a Name.
 4. Under **HTTP Options**, set **HTTP Method** to POST and enter the previously generated in ilert alert source URL into the **URL**.
 5. Click **Create Notification Endpoint** to save.
 
-<figure><img src="../.gitbook/assets/3-2 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3-2 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 6. Navigate to **Checks -> Create** (this documentation uses threshold checks).
 
@@ -67,21 +67,21 @@ We recommend that you create a threshold for setting the check status to '**OK'*
 11. Click on the blue tick in the top right corner to save the check.
 12. Now navigate to **Notification Rules -> Create**.
 
-<figure><img src="../.gitbook/assets/4 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/4 (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 13. Add the following Notification Rules:
 
 {% tabs %}
 {% tab title="CRIT" %}
-<figure><img src="../.gitbook/assets/7 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/7 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="WARN" %}
-<figure><img src="../.gitbook/assets/8 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/8 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="OK" %}
-<figure><img src="../.gitbook/assets/9.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/9 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

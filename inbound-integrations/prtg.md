@@ -24,7 +24,7 @@ description: Create alerts in ilert from PRTG notifications.
 6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
 7.  On the final page, an API key, webhook URL and PRTG Postdata will be generated that you will need later in this guide.
 
-    <figure><img src="../.gitbook/assets/il-1.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/il-1 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In PRTG: Create a new notification <a href="#create-notification" id="create-notification"></a>
 

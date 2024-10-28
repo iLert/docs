@@ -30,7 +30,7 @@ description: Create alerts in ilert from Uptime Kuma notifications
 
 1. Select any monitor you want to send notifications from.
 
-<figure><img src="../.gitbook/assets/3 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Click on **Edit**
 
