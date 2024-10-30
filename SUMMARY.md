@@ -151,6 +151,7 @@
   * [Checkmk Integration (v 1.x)](inbound-integrations/checkmk/check-mk.md)
   * [Checkmk Integration (v 2.0+ )](inbound-integrations/checkmk/native.md)
 * [Cisco Meraki Integration](inbound-integrations/cisco-meraki.md)
+* [Cisco ThousandEyes Integration](inbound-integrations/thousandeyes.md)
 * [Cisco Webex](inbound-integrations/webex.md)
 * [Cloudflare Integration](inbound-integrations/cloudflare.md)
 * [ClusterControl Integration](inbound-integrations/clustercontrol.md)
