@@ -1,4 +1,12 @@
+---
+description: >-
+  Connect ilert and ThousandEyes and receive critical notifications via SMS,
+  push, voice and messenger notifications
+---
+
 # Cisco ThousandEyes Integration
+
+[ThousandEyes by Cisco](https://www.thousandeyes.com/) is a network intelligence platform that monitors the performance of internet-based networks and applications, helping businesses quickly detect and troubleshoot connectivity issues. By connecting it to ilert, users can receive real-time alerts on network disruptions, ensuring rapid response and minimal downtime for critical services.
 
 ## In ilert: Create a Cisco ThousandEyes alert source&#x20;
 
@@ -43,7 +51,7 @@
 
 <figure><img src="../.gitbook/assets/6 (11).png" alt=""><figcaption></figcaption></figure>
 
-7. Now open the three dot menu and click on **Manage Alert Rules**.
+7. Now open the three-dot menu and click on **Manage Alert Rules**.
 
 <figure><img src="../.gitbook/assets/7 (8).png" alt=""><figcaption></figcaption></figure>
 
