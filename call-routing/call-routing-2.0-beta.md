@@ -15,7 +15,7 @@ This section outlines the steps to create a call flow that connects incoming cal
     <figure><img src="../.gitbook/assets/Screenshot 2024-03-19 at 22.22.13.png" alt=""><figcaption></figcaption></figure>
 2.  Add a node by clicking on the ➕ icon and select **Route call**.&#x20;
 
-    <figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 3.  In the **Route call** configuration, select the desired schedule and user and save the node configuration.
 
     <figure><img src="../.gitbook/assets/Screenshot 2024-03-19 at 22.27.42.png" alt=""><figcaption></figcaption></figure>
@@ -83,7 +83,7 @@ Follow the steps below to seamlessly transition your incoming call routing to th
 **Publish your call flow**
 
 1. Once your Call Flow is ready, assign a phone number to it. Click on the Incoming call node within your Call Flow and select the number you'd like to use:\
-   ![](<../.gitbook/assets/image (4) (1).png>)
+   ![](<../.gitbook/assets/image (4) (1) (1).png>)
 2. Publish your call flow by clicking on the **Publish** button.&#x20;
 3. A warning will appear if the phone number is already in use by the legacy routing system. Proceed by clicking **Publish anyway**.
 4. Incoming calls will now use your new call flow.&#x20;

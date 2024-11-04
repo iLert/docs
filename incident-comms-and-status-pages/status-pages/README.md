@@ -8,11 +8,11 @@ Creating a status page is a matter of few clicks.
 
 2\. Select your page type, ilert URL and the teams that should manage the status page.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 3\. Select the services that you would like to include in the status page. You can also create new service and add them to the status page from the drop down list.
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4\. Optionally add your own logo and fav icon and click on **Save**.
 

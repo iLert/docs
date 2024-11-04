@@ -1,4 +1,12 @@
-# Amazon Security Hub
+# AWS Security Hub Integration
+
+## How this integration works <a href="#create-alert-source" id="create-alert-source"></a>
+
+AWS Security Hub generates finding events that are relayed by AWS EventBridge. If AWS EventBridge rules match, notifications will be published to specific Amazon Simple Notification Service (SNS) topics; the events will be sent to ilert.
+
+## Architecture <a href="#create-alert-source" id="create-alert-source"></a>
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In ilert: Create an Amazon SNS alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -31,11 +39,11 @@
 1. On the sidebar click on **Custom actions**.
 2. Click on **Create custom action**.
 
-<figure><img src="../.gitbook/assets/1 (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Enter a **Action name**, **Description** and a **Custom action ID**.
 
-<figure><img src="../.gitbook/assets/2 (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## In AWS SNS: Create a topic and a Subscription <a href="#create-topic" id="create-topic"></a>
 
@@ -45,7 +53,7 @@
 
 2. Select **Standard** and enter a **Name**.
 
-<figure><img src="../.gitbook/assets/4 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/4 (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Save the topic.
 4. Now create a new Subscription for this topic.

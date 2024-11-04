@@ -136,7 +136,7 @@ If you select **High during support hours, low priority otherwise,** you can cho
 
 If you select **Low during support hours, high priority otherwise,** you can choose to **Raise priority of all pending alerts** by ticking the checkbox located under the support hour selection. All your pending alerts for the current alert source will be raised to "high" when your support hours **end**.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Dynamic priority mapping
 
@@ -187,7 +187,7 @@ There are 5 types of alert grouping available:
 
 By default every alert source attempts to offer the best experience based on the features that the corresponding third party integration tool has available. Some tools offer more e.g. resolve events or proper alertKeys to group events, some tools offer a plain webhook without any additional context. ilert shows the integration features in the creation wizard:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 Integrations such as Autotask, Jira, Grafana or Prometheus provide rich payloads which ilert automatically uses to identify alertKey and eventTypes, which are used to automatically group incoming events, if an unresolved alert with the same identifier is found.
 

@@ -32,28 +32,28 @@ description: >-
 
 1. On the sidebar, click on the **Cog Wheel** icon.
 
-<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (2).png" alt=""><figcaption></figcaption></figure>
 
 2. Now click on **Alerts**.
 
-<figure><img src="../.gitbook/assets/2.png" alt="" width="293"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (2).png" alt="" width="293"><figcaption></figcaption></figure>
 
 3. Click on **Add Preset**.
 
-<figure><img src="../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (3).png" alt=""><figcaption></figcaption></figure>
 
 4. Choose **Webhook**.
 
-<figure><img src="../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/4 (2).png" alt=""><figcaption></figcaption></figure>
 
 5. Enter a name for the webhook.
 6. Change the **Method** to 'POST' and enter the alert source url previously generated in ilert into the URL field.
 
-<figure><img src="../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/5 (1).png" alt=""><figcaption></figcaption></figure>
 
 7. On the sidebar, click on the **Views** icon.
 
-<figure><img src="../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6 (1).png" alt=""><figcaption></figcaption></figure>
 
 8. On your desired view, click on **Edit alert**.
 

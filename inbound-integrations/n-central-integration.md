@@ -121,7 +121,7 @@ To acknowledge and resolve N-central events in ilert you will need to add follow
 {{AcknowledgementNote}}
 ```
 
-<figure><img src="../.gitbook/assets/3 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. To activate resolving: On the sidebar navigate to **Configuration -> Monitoring -> Notifications**.
 

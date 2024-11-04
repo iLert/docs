@@ -32,17 +32,17 @@ description: >-
 
 1. On the sidebar, navigate to **Integrations**.
 
-<figure><img src="../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Scroll to the **Webhooks** section and click on **Add**.
 
-<figure><img src="../.gitbook/assets/2 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Change the **Request Type** to 'POST'.
 4. Enter a **Label** and the previously in ilert created alert source url into the **WebHook URL** field.
 5. Click on **Add** to finish the setup.
 
-<figure><img src="../.gitbook/assets/3 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 
