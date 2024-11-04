@@ -67,4 +67,4 @@
 
 **Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as the status of an ServerGuard24 check is 'OK' again, the corresponding alert in ilert will be resolved.
+Yes, as soon as the status of an ServerGuard24 check is 'OK' again, corresponding alert in ilert will be resolved.

@@ -40,4 +40,4 @@
 
 **Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as the state of a Monitor in Rapidspike is on 'passing' again, the corresponding alert in ilert will be resolved.
+Yes, as soon as the state of a Monitor in Rapidspike is on 'passing' again, corresponding alert in ilert will be resolved.
