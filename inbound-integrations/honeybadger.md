@@ -1,4 +1,12 @@
+---
+description: >-
+  Receive critical alerts from Honeybadger via SMS, voice call, Slack, Microsoft
+  Teams and other channels
+---
+
 # Honeybadger Integration
+
+[Honeybadger](https://www.honeybadger.io/) is an application monitoring solution designed for developers to identify and resolve issues in real-time. It tracks errors, uptime, and performance, giving teams insight into problems before users report them. By connecting Honeybadger to ilert, users can streamline their incident management process, receiving alerts on critical errors via ilert’s flexible notification channels and escalation policies.
 
 ## In ilert: Create a Honeybadger alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
