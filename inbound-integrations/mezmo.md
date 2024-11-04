@@ -1,4 +1,12 @@
+---
+description: >-
+  Receive Mezmo's alerts via phone calls, push notifications, SMS and other
+  channels with the help of ilert
+---
+
 # Mezmo Integration
+
+[Mezmo](https://www.mezmo.com/) is a log management and observability platform designed to centralize and analyze application logs in real-time. By integrating Mezmo with ilert, users can benefit from seamless alerting and incident response capabilities based on their log data. This integration allows users to set up automatic alerts within ilert for critical log events detected by Mezmo.
 
 ## In ilert: Create a Mezmo alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
