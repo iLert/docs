@@ -1,11 +1,19 @@
-# Rapidspike Integration
+---
+description: >-
+  Receive critical RapidSpike alerts via SMS, voice calls, messenger and push
+  notifications
+---
 
-## In ilert: Create a Rapidspike alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+# RapidSpike Integration
+
+[RapidSpike](https://www.rapidspike.com/) is a digital experience monitoring tool that tracks website performance. Integrating it with ilert allows users to receive instant alerts for issues, enabling quicker response times, minimized downtime, and a better user experience.
+
+## In ilert: Create a RapidSpike alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1.  Go to **Alert sources** -> **Alert sources** and click **Create new alert source**.
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
-2.  Search for **Rapidspike** in the search field, click the Rapidspike tile, and then **Next**.&#x20;
+2.  Search for **RapidSpike** in the search field, click the RapidSpike tile, and then **Next**.&#x20;
 
     <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
 3. Give your alert source a name, optionally assign teams, and click **Next**.
@@ -20,7 +28,7 @@
 
 <figure><img src="../.gitbook/assets/il-1.png" alt="" width="563"><figcaption></figcaption></figure>
 
-## In Rapidspike: Create a Webhook
+## In RapidSpike: Create a Webhook
 
 1. On the sidebar, navigate to **Integrations**.
 
@@ -40,4 +48,4 @@
 
 **Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as the state of a Monitor in Rapidspike is on 'passing' again, corresponding alert in ilert will be resolved.
+Yes, as soon as the state of a Monitor in RapidSpike is on 'passing' again, corresponding alert in ilert will be resolved.

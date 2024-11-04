@@ -224,7 +224,7 @@
 * [PRTG Network Monitor Integration](inbound-integrations/prtg.md)
 * [Prisma Cloud Integration](inbound-integrations/prismacloud.md)
 * [Push Notifications](inbound-integrations/push-notification.md)
-* [Rapidspike Integration](inbound-integrations/rapidspike.md)
+* [RapidSpike Integration](inbound-integrations/rapidspike.md)
 * [Raygun Integration](inbound-integrations/raygun.md)
 * [Salesforce Integration](inbound-integrations/salesforce.md)
 * [Samsara Integration](inbound-integrations/samsara.md)
