@@ -28,7 +28,7 @@ description: Create alerts in ilert from Twilio Errors
 
 1. Navigate to **Monitor -> Logs -> Errors -> Webhook** and enter the [previous](twilio-errors.md#in-ilert-create-twilio-errors-alert-source) generated URL into the **Webhook URL** field.
 
-<figure><img src="../.gitbook/assets/3 (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Click on **Save** to finish the Setup
 
