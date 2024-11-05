@@ -1,5 +1,7 @@
 # Healthchecks.io Integration
 
+[Healthchecks.io](https://healthchecks.io/) is an online service designed to monitor the execution of cron jobs and other scheduled tasks. By generating unique ping URLs for each task, users can configure their jobs to send HTTP requests upon completion. If a task fails to ping within the expected timeframe, Healthchecks.io sends alerts to ilert.&#x20;
+
 ## In ilert: Create a Healthchecks.io alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1.  Go to **Alert sources** -> **Alert sources** and click **Create new alert source**.
