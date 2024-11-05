@@ -1,4 +1,13 @@
+---
+description: >-
+  Connecting ServerGuard24 with ilert enables real-time alerts and streamlined
+  incident management, allowing teams to respond swiftly to server issues and
+  minimize downtime
+---
+
 # ServerGuard24 Integration
+
+[ServerGuard24](https://www.serverguard24.com/index.html) is a comprehensive server monitoring service that ensures the availability and performance of your IT systems. It offers a range of monitoring solutions, including website monitoring, mail server monitoring, database server monitoring, and security monitoring. This guide helps to connect ServerGuard24 with ilert.
 
 ## In ilert: Create a ServerGuard24 alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
@@ -26,17 +35,17 @@
 
 <figure><img src="../.gitbook/assets/1 (16).png" alt=""><figcaption></figcaption></figure>
 
-2. Now on the sidebar navigate to **Integrations** and click on the **+ New Integration** button
+2. Now, on the sidebar, navigate to **Integrations** and click on the **+ New Integration** button.
 
 <figure><img src="../.gitbook/assets/2 (14).png" alt=""><figcaption></figcaption></figure>
 
 3. Change the **Type** to 'Custom'.
 4. Change the **Request Type** to 'POST Data'
-5. Now enter a **Description** and the in ilert previous generated alert source url into the **URL** field.
+5. Now, enter a **Description** and the previously generated alert source URL in the **URL** field.
 
 <figure><img src="../.gitbook/assets/3 (13).png" alt=""><figcaption></figcaption></figure>
 
-6. Enter following template into the **Data Template** field:
+6. Enter the following template into the **Data Template** field:
 
 ```json
 {
@@ -67,4 +76,4 @@
 
 **Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as the status of an ServerGuard24 check is 'OK' again, corresponding alert in ilert will be resolved.
+Yes, as soon as the status of a ServerGuard24 check is 'OK' again, the corresponding alert in ilert will be resolved.
