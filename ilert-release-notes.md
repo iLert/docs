@@ -7,8 +7,28 @@ description: >-
 # ilert Release Notes
 
 {% hint style="success" %}
-These notes get usually updated retrospectively within the first 2 weeks of the following month
+These notes get usually updated retrospectively within the first week of the following month _e.g. all November releases are added by 5th December_.
 {% endhint %}
+
+## October 2024
+
+### New features and improvements
+
+* We have launched the all new [**deployment events**](deployment-integrations/), by setting up deployment pipelines and integrating them with your **CI & CD** tools, ilert shows you insights of the latest potentially related deployments right in your alert details to provide even more context and help reduce MTTR. To kick-off we support 4 different options in integrating with [**Github actions**](deployment-integrations/github.md), while additional integrations e.g. Gitlab or Jenkins will follow up soon. Feel free to use the request option in the deployment pipeline list view, to share your integration request with our team.
+* The email alert action now supports CC and BCC fields
+* The [ilagent](rest-api/client-libraries/ilagent.md) has been updated to support Apache Kafka proxying from the CLI
+* Alert actions now support [ICL](rest-api/icl-ilert-condition-language.md) conditions, alertFilter has been deprecated, but will continue to work - we recommend migrating through, as the new conditions are a lot more powerful + allow for dynamic filtering of an alert's event payload content.
+
+### Integration updates
+
+* New inbound integration [Rapidspike](inbound-integrations/rapidspike.md)
+* New inbound integration [Honeybadger](inbound-integrations/honeybadger.md)
+* New inbound integration [Healthchecks.io](inbound-integrations/healthchecks-io.md)
+* New inbound integration [Mezmo](inbound-integrations/mezmo.md)
+* New inbound integration [Serverguard2024](inbound-integrations/serverguard24.md)
+* New inbound integration [Apache Kafka](inbound-integrations/kafka.md)
+* New inbound integration [MQTT](inbound-integrations/mqtt.md)
+* We now support [Cisco Thousandeyes](inbound-integrations/thousandeyes.md) for inbound events
 
 ## September 2024
 
@@ -20,12 +40,12 @@ These notes get usually updated retrospectively within the first 2 weeks of the 
 
 * The i**lert dashboard** is now available to all ilert users in its **editable** mode, you can now create, customize and share your own dashboards with specific users or the whole account
 * We have introduced a new feature to the **alert resolve bulk** action that automatically **suggest similar open alerts** based on ilert AI
-* ...
+* Alert detail markdown rendering has been adjusted to require explict header syntax `#` instead other inline versions e.g. `--` which caused confusion
 
 ### Integration updates
 
 * Github action check runs have been fixed to include the Failure subtype
-* ...
+* We have added the [Ansible AWX ](inbound-integrations/awx.md)inbound integration
 
 ## August 2024
 
@@ -39,8 +59,8 @@ These notes get usually updated retrospectively within the first 2 weeks of the 
 
 ### Integration updates
 
-* We have added a new inbound integration ClusterControl
-* We have added a new inbound integration NetData
+* We have added a new inbound integration [ClusterControl](inbound-integrations/clustercontrol.md)
+* We have added a new inbound integration [NetData](inbound-integrations/netdata.md)
 * We have improved the Samsara integration experience
 * We have improved the UptimeRobot integration experience
 * The 4me inbound integration now supports automation rules
