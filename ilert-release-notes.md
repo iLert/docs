@@ -17,7 +17,7 @@ These notes get usually updated retrospectively within the first week of the fol
 * We have launched the all new [**deployment events**](deployment-integrations/), by setting up deployment pipelines and integrating them with your **CI & CD** tools, ilert shows you insights of the latest potentially related deployments right in your alert details to provide even more context and help reduce MTTR. To kick-off we support 4 different options in integrating with [**Github actions**](deployment-integrations/github.md), while additional integrations e.g. Gitlab or Jenkins will follow up soon. Feel free to use the request option in the deployment pipeline list view, to share your integration request with our team.
 * The email alert action now supports CC and BCC fields
 * The [ilagent](rest-api/client-libraries/ilagent.md) has been updated to support Apache Kafka proxying from the CLI
-* Alert actions now support [ICL](rest-api/icl-ilert-condition-language.md) conditions, alertFilter has been deprecated, but will continue to work - we recommend migrating through, as the new conditions are a lot more powerful + allow for dynamic filtering of an alert's event payload content.
+* Alert actions now support [ICL](rest-api/icl-ilert-condition-language.md) conditions, alertFilter has been deprecated, but will continue to work - we recommend migrating though, as the new conditions are a lot more powerful + allow for dynamic filtering of an alert's event payload content
 
 ### Integration updates
 

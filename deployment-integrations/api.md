@@ -4,7 +4,7 @@ icon: webhook
 
 # API deployment pipeline
 
-If you wish to integration your custom deployment or CI & CD pipelines with ilert's deployment events, you can use the generic API deployment pipeline to generate an `integrationKey` and process your own events.  Additionally deployment events are not only bound to modern cloud based software deployments, instead other sectors and tools might fire relevant deployment events as well, such as:
+If you wish to integrate your custom deployment or CI & CD pipelines with ilert's deployment events, you can use the generic API deployment pipeline to generate an `integrationKey` and process your own events.  Additionally deployment events are not only bound to modern cloud based software deployments, instead other sectors and tools might fire relevant deployment events as well, such as:
 
 * Digital Marketing Campaigns (launching campaigns)
 * Product Launches in Retail
@@ -14,13 +14,13 @@ If you wish to integration your custom deployment or CI & CD pipelines with iler
 * Content Publishing
 * Healthcare Systems (health data)
 
-In any case our API deployment helps you setup such flows:
+In any case our API deployment pipeline helps you setup such flows:
 
 ## Setting up
 
 ### Creating your deployment pipeline in ilert
 
-In any way a pipeline is required, which will also generate a new `integrationKey` required to route deployment events when they occur. Head to your ilert account and navigate to **Alert sources -> Deployment events**
+To create the pipeline and generate a new `integrationKey` required to route deployment events when they occur. Head to your ilert account and navigate to **Alert sources -> Deployment events**
 
 <figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
