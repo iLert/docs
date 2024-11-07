@@ -1,5 +1,7 @@
 # AWS Security Hub Integration
 
+AWS Security Hub is a security service that provides a comprehensive view of security alerts and compliance status across AWS accounts by aggregating findings from various AWS services and third-party tools. When used with ilert, Security Hub’s alerts are instantly routed to the right team members through multi-channel notifications and escalation policies, ensuring rapid response to security threats.
+
 ## How this integration works <a href="#create-alert-source" id="create-alert-source"></a>
 
 AWS Security Hub generates finding events that are relayed by AWS EventBridge. If AWS EventBridge rules match, notifications will be published to specific Amazon Simple Notification Service (SNS) topics; the events will be sent to ilert.
