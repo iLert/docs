@@ -8,13 +8,13 @@ description: The ilert SMS Integration helps you to easily consume SMS messages
 
 # SMS Integration
 
-Our SMS integration lets you create alerts in ilert from incoming SMS messages. This feature allows you to send SMS messages directly to a dedicated number provisioned in your ilert account, which then automatically converts these messages into alerts. Here's how to set up and start using the SMS alert source in ilert.
+Our SMS alert source integration lets you create alerts in ilert from incoming SMS messages. This feature allows you to send SMS messages directly to a dedicated number provisioned in your ilert account, which then automatically converts these messages into alerts. Here's how to set up and start using the SMS alert source in ilert.
 
 ### Prerequisites
 
 Before you begin, you need to have the following:
 
-* An active ilert account with access to the Professional plan or higher.
+* An active ilert account with access to the [Scale plan](https://www.ilert.com/pricing) or higher.
 * The SMS alert source add-on purchased and active on your account.
 
 ### Instructions
