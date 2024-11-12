@@ -2,27 +2,36 @@
 
 The ITL enables you to customize and design alerts tailored to your specific use cases. In addition to offering flexibility in formatting and structuring alerts, it also provides a variety of built-in functions to further enhance the alerts' readablility.
 
-In the UI's text mode, you may use the **Insert data...** dropdown to help you add template variables quickly—the text syntax works like this:
+In the UI's text mode, you may use the **Insert data...** dropdown to help you add template variables quickly - the text syntax works like this:
 
-<table><thead><tr><th width="203">Type</th><th width="351.3333333333333">Sample</th><th>Description</th></tr></thead><tbody><tr><td>Text</td><td>Some text</td><td>You may, of course, add generic text content to your liking.</td></tr><tr><td>Variable</td><td><strong><code>{{</code></strong><code>var</code><strong><code>}}</code></strong></td><td>Extract content of the event and insert it. Note: there is no further sanitizing of the values.</td></tr><tr><td>Accessing nested variables</td><td><code>{{ var</code><strong><code>.</code></strong><code>subfield</code><strong><code>.</code></strong><code>evenMore }}</code></td><td>Access sub fields</td></tr><tr><td>Accessing fields of an array</td><td><code>{{ var.arrayField</code><strong><code>[0]</code></strong><code>.more }}</code></td><td>Access array contents</td></tr><tr><td>Applying functions to variables</td><td><code>{{var.lowerCase()}}</code></td><td></td></tr><tr><td>Passing arguments to functions</td><td><code>{{var.splitTakeAt("one two", 10)}}</code></td><td>We are in the process of reworking function calling in templates.</td></tr></tbody></table>
+<table><thead><tr><th width="203">Type</th><th width="351.3333333333333">Sample</th><th>Description</th></tr></thead><tbody><tr><td>Text</td><td>Some text</td><td>You may, of course, add generic text content to your liking.</td></tr><tr><td>Variable</td><td><strong><code>{{</code></strong><code>var</code><strong><code>}}</code></strong></td><td>Extract content of the event and insert it. Note: there is no further sanitizing of the values.</td></tr><tr><td>Accessing nested variables</td><td><code>{{ var</code><strong><code>.</code></strong><code>subfield</code><strong><code>.</code></strong><code>evenMore }}</code></td><td>Access sub fields</td></tr><tr><td>Accessing fields of an array</td><td><code>{{ var.arrayField</code><strong><code>[0]</code></strong><code>.more }}</code></td><td>Access array contents</td></tr><tr><td>Applying functions to variables</td><td><code>{{var.lowerCase</code><strong><code>()</code></strong><code>}}</code></td><td>See <strong>Functions</strong> below, for a list of all functions.</td></tr><tr><td>Passing arguments to functions</td><td><code>{{var.splitTakeAt(</code><strong><code>"one two", 10</code></strong><code>)}}</code></td><td></td></tr><tr><td>Sections (if/else blocks)</td><td><pre><code>{{ #var }}
+true
+{{ /var }}
+{{ ^var }}
+false
+{{ /var }}
+</code></pre></td><td>See <strong>Sections</strong> below.</td></tr><tr><td>Loops (for blocks)</td><td><pre><code><strong>{{ #array }}
+</strong>{{ firstName }} {{ lastName }}
+{{ #array }}
+</code></pre></td><td>See <strong>Loops</strong> below.</td></tr></tbody></table>
 
-
+{% hint style="info" %}
+Note that when rendering variables their content is not (HTML) escaped.
+{% endhint %}
 
 ## Functions
 
-ITL allows you to apply functions for different use cases, such as string manipulation, date-time formatting, joining arrays, and mustache conditions and loops. This flexibility makes it simple to handle text formatting, data extraction, and transformations, all within the same template.
-
-
+ITL allows you to apply functions for different use cases, such as string manipulation, date-time formatting, joining arrays. This flexibility makes it simple to handle text formatting, data extraction, and transformations, all within the same template.
 
 ### Descriptions
 
-<table data-full-width="false"><thead><tr><th>Function</th><th>Description</th><th>Parameters</th></tr></thead><tbody><tr><td>substring</td><td>Displays characters from the given start index(1) to the specified end index(2). (It is required to provide at least one parameter.)</td><td>substring(<strong>Integer(1)</strong>)<br><br>substring(<strong>Integer(1)</strong>, <strong>Integer(2)</strong>)</td></tr><tr><td>lowerCase</td><td>Displays characters in lower case.</td><td></td></tr><tr><td>upperCase</td><td>Displays characters in upper case.</td><td></td></tr><tr><td>replaceAll</td><td>Replaces each of a given character sequence(1) with a new sequence(2).</td><td>replaceAll(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>splitTakeAt</td><td>Divides a string into an array of substrings based on a character sequence as the delimiter. </td><td>splitTakeAt(<strong>String(1)</strong>, <strong>Integer(2)</strong>)</td></tr><tr><td>startsWithTake</td><td>Matches a given character sequence(1) with the start of a variable's value and replaces it with a different character sequence(2) if it matches.</td><td>startsWithTake(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>equalsTake</td><td>Matches a given character sequence(1) with a variable's value and replaces it with a different character sequence(2) if it matches.</td><td>equalsTake(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>endsWithTake</td><td>Matches a given character sequence(1) with the end of a variable's value and replaces it with a different character sequence(2) if it matches.</td><td>endsWithTake(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>containsTake</td><td>Replaces a variable's value with a character sequence(2) if it contains a given character sequence(1).</td><td>containsTake(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>startsWithTakeOrDrop</td><td>Matches a given character sequence(1) with the start of a variable's value and replaces it with a different character sequence(2) if it matches; otherwise, it does not display anything.</td><td>startsWithTakeOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>equalsTakeOrDrop</td><td>Matches a given character sequence(1) with a variable's value and replaces it with a different character sequence(2) if it matches; otherwise, it does not display anything.</td><td>equalsWithTakeOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>endsWithTakeOrDrop</td><td>Matches a given character sequence(1) with the end of a variable's value and replaces it with a different character sequence(2) if it matches; otherwise, it does not display anything.</td><td>endsWithTakeOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>containsTakeOrDrop</td><td>Replaces a variable's value with a character sequence(2) if it contains a given character sequence(1); otherwise, it does not display anything.</td><td>containsTakeOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>startsWithElse</td><td>Matches a given character sequence(1) with the start of a variable's value and replaces it with a different character sequence(2) if it doesn't match.</td><td>startsWithElse(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>equalsElse</td><td>Matches a given character sequence(1) with the variable's value and replaces it with a different character sequence(2) if it doesn't match.</td><td>equalsElse(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>endsWithElse</td><td>Matches a given character sequence(1) with the end of a variable's value and replaces it with a different character sequence(2) if it doesn't match.</td><td>endsWithElse(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>containsElse</td><td>Replaces a variable's value with a character sequence(2) if it doesn't contain a given character sequence(1).</td><td>containsElse(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>startsWithElseOrDrop</td><td>Matches a given character sequence(1) with the start of a variable's value and replaces it with a different character sequence(2) if it doesn't match; otherwise, it does not display anything.</td><td>startsWithElseOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>equalsElseOrDrop</td><td>Matches a given character sequence(1) with the variable's value and replaces it with a different character sequence(2) if it doesn't match; otherwise, it does not display anything.</td><td>equalsElseOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>endsWithElseOrDrop</td><td>Matches a given character sequence(1) with the end of a variable's value and replaces it with a different character sequence(2) if it doesn't match; otherwise, it does not display anything.</td><td>endsWithElseOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>containsElseOrDrop</td><td>Matches a given character sequence(1) with a variable's value and replaces it with a different character sequence(2) if it doesn't match; otherwise, it does not display anything.</td><td>containsElseOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>formatUnixMs</td><td><p>Formats a variable's value from milliseconds into <a href="https://www.iso.org/iso-8601-date-and-time-format.html">ISO-8601</a> date-time format. Additionally, it accepts a format style character (1) as a parameter.<br><br>Valid format characters are: </p><ul><li>F: Full text style (Sunday, January 29, 2023 at 12:05:37 AM Coordinated Universal Time)</li><li>L: Long text style(January 29, 2023 at 12:05:37 AM UTC)</li><li>M: Medium text style(Jan 29, 2023, 12:05:37 AM)</li><li>S: Short text style(1/29/23, 12:05 AM)</li></ul><p>Any other character will lead to medium text style as default.</p></td><td>formatUnixMs()<br><br>formatUnixMs(String(1))</td></tr><tr><td>formatUnixSec</td><td><p>Formats a variable's value from seconds into <a href="https://www.iso.org/iso-8601-date-and-time-format.html">ISO-8601</a> date-time format. Additionally, it accepts a format style character (1) as a parameter.<br><br>Valid format characters are: </p><ul><li>F: Full text style (Sunday, January 29, 2023 at 12:05:37 AM Coordinated Universal Time)</li><li>L: Long text style(January 29, 2023 at 12:05:37 AM UTC)</li><li>M: Medium text style(Jan 29, 2023, 12:05:37 AM)</li><li>S: Short text style(1/29/23, 12:05 AM)</li></ul><p>Any other character will lead to medium text style as default.</p></td><td>formatUnixSec()<br><br>formatUnixSec(String(1))</td></tr><tr><td>formatDateString</td><td><p>Formats a variable's value into <a href="https://www.iso.org/iso-8601-date-and-time-format.html">ISO-8601</a> date format. Additionally, it accepts a format style character (1) as a parameter.<br><br>Valid format characters are: </p><ul><li>F: Full text style (Sunday, January 29, 2023 at 12:05:37 AM Coordinated Universal Time)</li><li>L: Long text style(January 29, 2023 at 12:05:37 AM UTC)</li><li>M: Medium text style(Jan 29, 2023, 12:05:37 AM)</li><li>S: Short text style(1/29/23, 12:05 AM)</li></ul><p>Any other character will lead to medium text style as default.</p></td><td>formatDateString()<br><br>formatDateString(String(1))</td></tr><tr><td>join</td><td>Displays a text composed of array values joined by a given delimiter(1). If no delimiter is provided, the function defaults to <code>", "</code>.</td><td>join()<br><br>join(String(1))</td></tr><tr><td>joinFromObjectArray</td><td>Displays a text composed of object array(1) values joined by a given delimiter(2). If no delimiter is provided, the function defaults to a new line.</td><td>joinFromObjectArr(<strong>String(1)</strong>)<br><br>joinFromObjectArr(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="172">Function</th><th>Description</th><th>Parameters</th></tr></thead><tbody><tr><td>substring</td><td>Displays characters from the given start index(1) to the specified end index(2). (It is required to provide at least one parameter.)</td><td>substring(<strong>Integer(1)</strong>)<br><br>substring(<strong>Integer(1)</strong>, <strong>Integer(2)</strong>)</td></tr><tr><td>lowerCase</td><td>Displays characters in lower case.</td><td></td></tr><tr><td>upperCase</td><td>Displays characters in upper case.</td><td></td></tr><tr><td>replaceAll</td><td>Replaces each of a given character sequence(1) with a new sequence(2).</td><td>replaceAll(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>splitTakeAt</td><td>Divides a string into an array of substrings based on a character sequence as the delimiter. </td><td>splitTakeAt(<strong>String(1)</strong>, <strong>Integer(2)</strong>)</td></tr><tr><td>startsWithTake</td><td>Matches a given character sequence(1) with the start of a variable's value and replaces it with a different character sequence(2) if it matches.</td><td>startsWithTake(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>equalsTake</td><td>Matches a given character sequence(1) with a variable's value and replaces it with a different character sequence(2) if it matches.</td><td>equalsTake(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>endsWithTake</td><td>Matches a given character sequence(1) with the end of a variable's value and replaces it with a different character sequence(2) if it matches.</td><td>endsWithTake(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>containsTake</td><td>Replaces a variable's value with a character sequence(2) if it contains a given character sequence(1).</td><td>containsTake(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>startsWithTakeOrDrop</td><td>Matches a given character sequence(1) with the start of a variable's value and replaces it with a different character sequence(2) if it matches; otherwise, it does not display anything.</td><td>startsWithTakeOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>equalsTakeOrDrop</td><td>Matches a given character sequence(1) with a variable's value and replaces it with a different character sequence(2) if it matches; otherwise, it does not display anything.</td><td>equalsWithTakeOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>endsWithTakeOrDrop</td><td>Matches a given character sequence(1) with the end of a variable's value and replaces it with a different character sequence(2) if it matches; otherwise, it does not display anything.</td><td>endsWithTakeOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>containsTakeOrDrop</td><td>Replaces a variable's value with a character sequence(2) if it contains a given character sequence(1); otherwise, it does not display anything.</td><td>containsTakeOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>startsWithElse</td><td>Matches a given character sequence(1) with the start of a variable's value and replaces it with a different character sequence(2) if it doesn't match.</td><td>startsWithElse(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>equalsElse</td><td>Matches a given character sequence(1) with the variable's value and replaces it with a different character sequence(2) if it doesn't match.</td><td>equalsElse(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>endsWithElse</td><td>Matches a given character sequence(1) with the end of a variable's value and replaces it with a different character sequence(2) if it doesn't match.</td><td>endsWithElse(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>containsElse</td><td>Replaces a variable's value with a character sequence(2) if it doesn't contain a given character sequence(1).</td><td>containsElse(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>startsWithElseOrDrop</td><td>Matches a given character sequence(1) with the start of a variable's value and replaces it with a different character sequence(2) if it doesn't match; otherwise, it does not display anything.</td><td>startsWithElseOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>equalsElseOrDrop</td><td>Matches a given character sequence(1) with the variable's value and replaces it with a different character sequence(2) if it doesn't match; otherwise, it does not display anything.</td><td>equalsElseOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>endsWithElseOrDrop</td><td>Matches a given character sequence(1) with the end of a variable's value and replaces it with a different character sequence(2) if it doesn't match; otherwise, it does not display anything.</td><td>endsWithElseOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>containsElseOrDrop</td><td>Matches a given character sequence(1) with a variable's value and replaces it with a different character sequence(2) if it doesn't match; otherwise, it does not display anything.</td><td>containsElseOrDrop(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr><tr><td>formatUnixMs</td><td><p>Formats a variable's value from milliseconds into <a href="https://www.iso.org/iso-8601-date-and-time-format.html">ISO-8601</a> date-time format. Additionally, it accepts a format style character (1) as a parameter.<br><br>Valid format characters are: </p><ul><li>F: Full text style (Sunday, January 29, 2023 at 12:05:37 AM Coordinated Universal Time)</li><li>L: Long text style(January 29, 2023 at 12:05:37 AM UTC)</li><li>M: Medium text style(Jan 29, 2023, 12:05:37 AM)</li><li>S: Short text style(1/29/23, 12:05 AM)</li></ul><p>Any other character will lead to medium text style as default.</p></td><td>formatUnixMs()<br><br>formatUnixMs(String(1))</td></tr><tr><td>formatUnixSec</td><td><p>Formats a variable's value from seconds into <a href="https://www.iso.org/iso-8601-date-and-time-format.html">ISO-8601</a> date-time format. Additionally, it accepts a format style character (1) as a parameter.<br><br>Valid format characters are: </p><ul><li>F: Full text style (Sunday, January 29, 2023 at 12:05:37 AM Coordinated Universal Time)</li><li>L: Long text style(January 29, 2023 at 12:05:37 AM UTC)</li><li>M: Medium text style(Jan 29, 2023, 12:05:37 AM)</li><li>S: Short text style(1/29/23, 12:05 AM)</li></ul><p>Any other character will lead to medium text style as default.</p></td><td>formatUnixSec()<br><br>formatUnixSec(String(1))</td></tr><tr><td>formatDateString</td><td><p>Formats a variable's value into <a href="https://www.iso.org/iso-8601-date-and-time-format.html">ISO-8601</a> date format. Additionally, it accepts a format style character (1) as a parameter.<br><br>Valid format characters are: </p><ul><li>F: Full text style (Sunday, January 29, 2023 at 12:05:37 AM Coordinated Universal Time)</li><li>L: Long text style(January 29, 2023 at 12:05:37 AM UTC)</li><li>M: Medium text style(Jan 29, 2023, 12:05:37 AM)</li><li>S: Short text style(1/29/23, 12:05 AM)</li></ul><p>Any other character will lead to medium text style as default.</p></td><td>formatDateString()<br><br>formatDateString(String(1))</td></tr><tr><td>join</td><td>Displays a text composed of array values joined by a given delimiter(1). If no delimiter is provided, the function defaults to <code>", "</code>.</td><td>join()<br><br>join(String(1))</td></tr><tr><td>joinFromObjectArray</td><td>Displays a text composed of object array(1) values joined by a given delimiter(2). If no delimiter is provided, the function defaults to a new line.</td><td>joinFromObjectArr(<strong>String(1)</strong>)<br><br>joinFromObjectArr(<strong>String(1)</strong>, <strong>String(2)</strong>)</td></tr></tbody></table>
 
 
 
 ### Examples
 
-<table data-full-width="false"><thead><tr><th>Function</th><th>Sample</th><th>Input data</th><th>Output</th></tr></thead><tbody><tr><td>substring</td><td><code>{{ var.substring(3) }}</code><br><br><code>{{ var.substring(5, 7) }}</code></td><td><p></p><pre class="language-json"><code class="lang-json">{
+<table data-full-width="false"><thead><tr><th width="127">Function</th><th width="200">Sample</th><th width="311">Input data</th><th>Output</th></tr></thead><tbody><tr><td>substring</td><td><code>{{ var.substring(3) }}</code><br><br><code>{{ var.substring(5, 7) }}</code></td><td><p></p><pre class="language-json"><code class="lang-json">{
     "var": "Test result"
 }
 </code></pre></td><td>result<br><br>res</td></tr><tr><td>lowerCase</td><td><code>{{ var.lowerCase() }}</code></td><td><p></p><pre class="language-json"><code class="lang-json">{
@@ -43,10 +52,10 @@ ITL allows you to apply functions for different use cases, such as string manipu
 </code></pre></td><td>In your dreams - Bertram Gilfoyle</td></tr><tr><td>equalsTake</td><td><code>{{ var.equalsTake("I am better than Gilfoyle - Dinesh Chugtai", "Not true - Bertram Gilfoyle") }}</code></td><td><p></p><pre class="language-json"><code class="lang-json">{
     "var": "I am better than Gilfoyle - Dinesh Chugtai"
 }
-</code></pre></td><td>Not true - Bertram Gilfoyle</td></tr><tr><td>endsWithTake</td><td><code>{{ var.endsWithTake("Dinesh Chugtai", "Lies - Bertram Gilfoyle") }}</code></td><td><p></p><pre class="language-json"><code class="lang-json">{
+</code></pre></td><td>Not true - Bertram Gilfoyle</td></tr><tr><td>endsWithTake</td><td><code>{{ var.endsWithTake("Dinesh Chugtai", "Flys - Bertram Gilfoyle") }}</code></td><td><p></p><pre class="language-json"><code class="lang-json">{
     "var": "I am the fastest coder - Dinesh Chugtai"
 }
-</code></pre></td><td>Lies - Bertram Gilfoyle</td></tr><tr><td>containsTake</td><td><code>{{ var.containsTake("rocks", "Pied Piper rocks") }}</code></td><td><p></p><pre class="language-json"><code class="lang-json">{
+</code></pre></td><td>Flys - Bertram Gilfoyle</td></tr><tr><td>containsTake</td><td><code>{{ var.containsTake("rocks", "Pied Piper rocks") }}</code></td><td><p></p><pre class="language-json"><code class="lang-json">{
     "var": "Hooli rocks"
 }
 </code></pre></td><td>Pied Piper rocks</td></tr><tr><td>startsWithTakeOrDrop</td><td><code>{{ var.startsWithTakeOrDrop("I am the best", "In your dreams - Bertram Gilfoyle") }}</code></td><td><p>1:</p><pre class="language-json"><code class="lang-json">{
@@ -61,13 +70,13 @@ ITL allows you to apply functions for different use cases, such as string manipu
 </code></pre><p><br>2:</p><pre class="language-json"><code class="lang-json">{
     "var": "Pied Piper"
 }
-</code></pre></td><td>1: Not true - Bertram Gilfoyle<br><br>2:</td></tr><tr><td>endsWithTakeOrDrop</td><td><code>{{ var.endsWithTakeOrDrop("Dinesh Chugtai", "Lies - Bertram Gilfoyle") }}</code></td><td><p>1:</p><pre class="language-json" data-full-width="false"><code class="lang-json">{
+</code></pre></td><td>1: Not true - Bertram Gilfoyle<br><br>2:</td></tr><tr><td>endsWithTakeOrDrop</td><td><code>{{ var.endsWithTakeOrDrop("Dinesh Chugtai", "Flys - Bertram Gilfoyle") }}</code></td><td><p>1:</p><pre class="language-json" data-full-width="false"><code class="lang-json">{
     "var": "I am the fastest coder - Dinesh Chugtai"
 }
 </code></pre><p><br>2:</p><pre class="language-json"><code class="lang-json">{
     "var": "Pied Piper"
 }
-</code></pre></td><td>1: Lies - Bertram Gilfoyle<br><br>2:</td></tr><tr><td>containsTakeOrDrop</td><td><code>{{ var.containsTakeOrDrop("rocks", "Pied Piper rocks") }}</code></td><td><p></p><p>1:</p><pre class="language-json" data-full-width="false"><code class="lang-json">{
+</code></pre></td><td>1: Flys - Bertram Gilfoyle<br><br>2:</td></tr><tr><td>containsTakeOrDrop</td><td><code>{{ var.containsTakeOrDrop("rocks", "Pied Piper rocks") }}</code></td><td><p></p><p>1:</p><pre class="language-json" data-full-width="false"><code class="lang-json">{
     "var": "Hooli rocks"
 }
 </code></pre><p><br>2:</p><pre class="language-json"><code class="lang-json">{
@@ -86,13 +95,13 @@ ITL allows you to apply functions for different use cases, such as string manipu
 </code></pre><p><br>2:</p><pre class="language-json"><code class="lang-json">{
     "var": "Pied Piper"
 }
-</code></pre></td><td>1: I am better than Gilfoyle - Dinesh Chugtai<br><br>2: Not true - Bertram Gilfoyle</td></tr><tr><td>endsWithElse</td><td><code>{{ var.endsWithElse("Dinesh Chugtai", "Lies - Bertram Gilfoyle") }}</code></td><td><p></p><p>1:</p><pre class="language-json" data-full-width="false"><code class="lang-json">{
+</code></pre></td><td>1: I am better than Gilfoyle - Dinesh Chugtai<br><br>2: Not true - Bertram Gilfoyle</td></tr><tr><td>endsWithElse</td><td><code>{{ var.endsWithElse("Dinesh Chugtai", "Flys - Bertram Gilfoyle") }}</code></td><td><p></p><p>1:</p><pre class="language-json" data-full-width="false"><code class="lang-json">{
     "var": "I am the fastest coder - Dinesh Chugtai"
 }
 </code></pre><p><br>2:</p><pre class="language-json"><code class="lang-json">{
     "var": "Pied Piper"
 }
-</code></pre></td><td>1: I am the fastest coder - Dinesh Chugtai<br><br>2: Lies - Bertram Gilfoyle</td></tr><tr><td>containsElse</td><td><code>{{ var.containsElse("rocks", "Pied Piper rocks") }}</code></td><td><p></p><p>1:</p><pre class="language-json" data-full-width="false"><code class="lang-json">{
+</code></pre></td><td>1: I am the fastest coder - Dinesh Chugtai<br><br>2: Flys - Bertram Gilfoyle</td></tr><tr><td>containsElse</td><td><code>{{ var.containsElse("rocks", "Pied Piper rocks") }}</code></td><td><p></p><p>1:</p><pre class="language-json" data-full-width="false"><code class="lang-json">{
     "var": "Hooli rocks"
 }
 </code></pre><p><br>2:</p><pre class="language-json"><code class="lang-json">{
@@ -110,13 +119,13 @@ ITL allows you to apply functions for different use cases, such as string manipu
 </code></pre><p><br>2:</p><pre class="language-json"><code class="lang-json">{
     "var": "Pied Piper"
 }
-</code></pre></td><td>1:<br><br>2: Not true - Bertram Gilfoyle</td></tr><tr><td>endsWithElseOrDrop</td><td><code>{{ var.endsWithElseOrDrop("Dinesh Chugtai", "Lies - Bertram Gilfoyle") }}</code></td><td><p></p><p>1:</p><pre class="language-json" data-full-width="false"><code class="lang-json">{
+</code></pre></td><td>1:<br><br>2: Not true - Bertram Gilfoyle</td></tr><tr><td>endsWithElseOrDrop</td><td><code>{{ var.endsWithElseOrDrop("Dinesh Chugtai", "Flys - Bertram Gilfoyle") }}</code></td><td><p></p><p>1:</p><pre class="language-json" data-full-width="false"><code class="lang-json">{
     "var": "I am the fastest coder - Dinesh Chugtai"
 }
 </code></pre><p><br>2:</p><pre class="language-json"><code class="lang-json">{
     "var": "Pied Piper"
 }
-</code></pre></td><td>1:<br><br>2: Lies - Bertram Gilfoyle</td></tr><tr><td>containsElseOrDrop</td><td><code>{{ var.containsElseOrDrop("rocks", "Pied Piper rocks") }}</code></td><td><p></p><p>1:</p><pre class="language-json" data-full-width="false"><code class="lang-json">{
+</code></pre></td><td>1:<br><br>2: Flys - Bertram Gilfoyle</td></tr><tr><td>containsElseOrDrop</td><td><code>{{ var.containsElseOrDrop("rocks", "Pied Piper rocks") }}</code></td><td><p></p><p>1:</p><pre class="language-json" data-full-width="false"><code class="lang-json">{
     "var": "Hooli rocks"
 }
 </code></pre><p><br>2:</p><pre class="language-json"><code class="lang-json">{
@@ -158,21 +167,19 @@ ITL allows you to apply functions for different use cases, such as string manipu
 
 
 
-## Mustache in ITL
+## Blocks
 
-The ITL also supports mustache condition sections and loops, providing flexibility in handling complex templates and varying data sets efficiently.
+The ITL also supports block based sections and loops, providing flexibility in handling complex templates and varying data sets efficiently.
 
-
-
-{% hint style="info" %}
-[ITL functions](itl-ilert-template-language.md#functions) inside mustache sections and loop blocks will be ignored.
+{% hint style="warning" %}
+[ITL functions](itl-ilert-template-language.md#functions) are only applicable to absolute variable keys, therefore they cannot be used on the relative variable keys generated by loop blocks. While they are still resolved inside of the block, their content is repeated which each loop iteration.
 {% endhint %}
 
-### Sections
+### Sections \[if]
 
-Sections in mustache allow for conditional rendering, where specific content is displayed only if a certain value exists or meets a given condition. Positive conditions check if a value is present or "true," while inverted conditions render content when the value is "false" or missing.\
+Sections allow for conditional rendering, where specific content is displayed only if a certain value exists or meets a given condition. Positive conditions check if a value is present or `true`, while inverted conditions render content when the value is `false` or missing.\
 \
-A section begins with a hash `#` and ends with a slash `/`. Example:
+A section begins with a hash `#` and ends with a slash `/`.&#x20;
 
 {% tabs %}
 {% tab title="True condition" %}
@@ -219,9 +226,7 @@ World!
 {% endtab %}
 {% endtabs %}
 
-
-
-#### Inverted sections
+#### Inverted sections \[else]
 
 Inverted sections only render content based on the inverse value of a context key.&#x20;
 
@@ -255,7 +260,7 @@ Tim!
 {% endtab %}
 {% endtabs %}
 
-Using the following context:
+_Using the following context:_
 
 ```json
 {
@@ -278,13 +283,11 @@ Hello Tim!
 {% endtab %}
 {% endtabs %}
 
+### Loops \[for]
 
+Loops allow to iterate over each item of a list or array of data and display render them as text.
 
-### Loops
-
-Loops in mustache allow to iterate over each item of a list or array of data and display render them as text.
-
-A loop in Mustache is written in the same way as a section. It begins with a hash # and ends with a slash /. Inside the loop, you place the key that represents the list or array to be iterated over. Mustache will then automatically loop through each element in the array.
+A loop is written in the same way as a section. It begins with a hash `#` and ends with a slash `/`. Inside the loop, you place the key that represents the list or array item to be iterated over.
 
 {% tabs %}
 {% tab title="Simple array" %}
@@ -305,7 +308,7 @@ A loop in Mustache is written in the same way as a section. It begins with a has
 {% endtab %}
 {% endtabs %}
 
-Using the following context:
+_Using the following context:_
 
 ```json
 {

@@ -14,7 +14,7 @@ https://api.ilert.com/api/events
 
 ```json
 {
-  "apiKey": "il...", // api key of the alert source (required)
+  "integrationKey": "il...", // integration key of the alert source (required)
   "eventType": "ALERT", // ALERT for creation, ACCEPT or RESOLVE (required)
   "summary": "Your alert summary", // (required)
   "details": "", // (optional) larger content description of your alert (markdown supported)
@@ -28,7 +28,7 @@ https://api.ilert.com/api/events
 ```
 
 {% hint style="danger" %}
-Note that the`apiKey`field does not refer to a Bearer authentication token for the ilert API itself but instead to the API key of the desired alert source. The API key can be found in the detail view of the alert source, there is no need to provide the Authorization header for the events API.
+Note that the `integrationKey` field does not refer to a Bearer authentication token for the ilert API itself but instead to the integration key of the desired alert source. The API key can be found in the detail view of the alert source, there is no need to provide the Authorization header for the events API.
 {% endhint %}
 
 Visit the web UI or the mobile app (under Alerts) to confirm your event created a corresponding alert.
@@ -66,7 +66,7 @@ curl --request POST \
   --header 'Accept: application/json' \
   --header 'Content-Type: application/json' \
   --data '{
-	"apiKey": "YOUR-ALERT-SOURCE-API-KEY",
+	"integrationKey": "YOUR-ALERT-SOURCE-API-KEY",
 	"eventType": "ALERT",
 	"summary": "Hey, this is a test alert from the shell!"
 }'
@@ -82,7 +82,7 @@ const options = {
   url: 'https://api.ilert.com/api/events',
   headers: {'Content-Type': 'application/json', Accept: 'application/json'},
   data: {
-    apiKey: 'YOUR-ALERT-SOURCE-API-KEY',
+    integrationKey: 'YOUR-ALERT-SOURCE-API-KEY',
     eventType: 'ALERT',
     summary: 'Hey, this is a test alert from JS!'
   }
@@ -103,7 +103,7 @@ import requests
 url = "https://api.ilert.com/api/events"
 
 payload = {
-    "apiKey": "YOUR-ALERT-SOURCE-API-KEY",
+    "integrationKey": "YOUR-ALERT-SOURCE-API-KEY",
     "eventType": "ALERT",
     "summary": "Hey, this is a test alert from Python!"
 }
@@ -125,7 +125,7 @@ $headers=@{}
 $headers.Add("Content-Type", "application/json")
 $headers.Add("Accept", "application/json")
 $response = Invoke-WebRequest -Uri 'https://api.ilert.com/api/events' -Method POST -Headers $headers -ContentType 'application/json' -Body '{
-	"apiKey": "YOUR-ALERT-SOURCE-API-KEY",
+	"integrationKey": "YOUR-ALERT-SOURCE-API-KEY",
 	"eventType": "ALERT",
 	"summary": "Hey, this is a test alert from Powershell!"
 }'
@@ -137,7 +137,7 @@ $response = Invoke-WebRequest -Uri 'https://api.ilert.com/api/events' -Method PO
 $headers = New-Object "System.Collections.Generic.Dictionary[[String],[String]]"
 $headers.Add("content-type", "application/json")
 
-$body = "{`n  `"apiKey`": `".....YOUR SOURCE API KEY....`",`n  `"eventType`": `"ALERT`",`n  `"summary`": `"string`",`n  `"details`": `"string`",`n  `"incidentKey`": `"string`",`n  `"priority`": `"HIGH`",`n  `"images`": [`n    {`n      `"src`": `"string`",`n      `"href`": `"string`",`n      `"alt`": `"string`"`n    }`n  ],`n  `"links`": [`n    {`n      `"href`": `"string`",`n      `"text`": `"string`"`n    }`n  ],`n  `"customDetails`": {}`n}"
+$body = "{`n  `"integrationKey`": `".....YOUR SOURCE API KEY....`",`n  `"eventType`": `"ALERT`",`n  `"summary`": `"string`",`n  `"details`": `"string`",`n  `"incidentKey`": `"string`",`n  `"priority`": `"HIGH`",`n  `"images`": [`n    {`n      `"src`": `"string`",`n      `"href`": `"string`",`n      `"alt`": `"string`"`n    }`n  ],`n  `"links`": [`n    {`n      `"href`": `"string`",`n      `"text`": `"string`"`n    }`n  ],`n  `"customDetails`": {}`n}"
 
 $response = Invoke-RestMethod 'https://api.ilert.com/api/v1/events ' -Method 'POST' -Headers $headers -Body $body
 $response | ConvertTo-Json

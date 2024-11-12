@@ -11,10 +11,10 @@ event.summary not contains 'dev stage' and (
 
 The ICL is a flexible tool that appears in many places as events or calls flow through the ilert platform. It is is supported in:
 
-* Event flow (coming soon)
-* Alert source event filter
-* Alert action conditional execution (coming soon)
-* Call flow branch conditions
+* **Event flow (coming soon)**
+* **Alert source event filter**
+* **Alert action conditional execution**
+* **Call flow branch conditions**
 
 Usually the UI offers a condition builder for easy access to the powerful features of the ICL, however users that want more control over their flows can switch to the editor mode (or use the API/terraform to provide their customized expressions)
 
