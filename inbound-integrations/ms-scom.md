@@ -61,7 +61,7 @@ description: Create Alerts in ilert from Microsoft SCOM
 
     \
     Command line parameters:\
-    _Replace the parameter string "Enter API Key" with your ilert API Key created in_ [_this step_](ms-scom.md#in-ilert-create-microsoft-scom-alert-source)\_\_
+    &#xNAN;_&#x52;eplace the parameter string "Enter API Key" with your ilert API Key created in_ [_this step_](ms-scom.md#in-ilert-create-microsoft-scom-alert-source)\_\_
 
     ```powershell
     -F "C:\scripts\ilert\ilert.ps1" -AlertID "$Data[Default='NotPresent']/Context/DataItem/AlertId$" -AlertSourceKey "Enter API Key"

@@ -66,7 +66,7 @@ The table below gives an overview of the role permissions.
 
 \*Stakeholders have view access to shared (team membership) or subscribed incidents, services and status pages\
 \*\*_The actual data that is shown in reports will depend on the permissions of the current user._\
-_If the user has no access to a schedule, for example, he will not see the on-call-duty data of this schedule when browsing reports. (_[_Read more here_](teams.md#report-visibility)_)_
+&#xNAN;_&#x49;f the user has no access to a schedule, for example, he will not see the on-call-duty data of this schedule when browsing reports. (_[_Read more here_](teams.md#report-visibility)_)_
 
 ## Change a user's role
 

@@ -3,7 +3,7 @@
 Besides window based grouping and action-window based grouping we have introduced event content similiarity grouping using ilert AI for alert sources in 2024. With a few clicks users can setup and fine tune their similarity grouping for each alert source.
 
 {% hint style="warning" %}
-ilert AI for alert grouping **does not share data** with any third-parties in its AI processing, all models (and vector databases) that are used as part of the pipeline are (trained), maintained and hosted on ilert's servers.
+ilert AI for alert grouping **does not share data** with any third-parties in its AI processing, all models (and vector databases) that are used as part of the pipeline are (trained), maintained and hosted on ilert's infrastructure.
 {% endhint %}
 
 To get started head to your alert source's edit view and look in the **Advanced settings** section for the grouping options. Choose **Group by content similarity**.

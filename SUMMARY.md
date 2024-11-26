@@ -70,6 +70,8 @@
 * [Using ilert AI for post-mortem creation](ilert-ai/generating-incident-updates-through-ai.md)
 * [Using ilert AI for schedule generation](ilert-ai/using-ilert-ai-for-schedule-generation.md)
 * [Using ilert AI for alert grouping](ilert-ai/using-ilert-ai-for-alert-grouping.md)
+* [Global Search enhanced by ilert AI](ilert-ai/global-search-enhanced-by-ilert-ai/README.md)
+  * [Bulk resolving similar alerts](ilert-ai/global-search-enhanced-by-ilert-ai/bulk-resolving-similar-alerts.md)
 
 ## Call Routing
 
