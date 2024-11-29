@@ -32,7 +32,7 @@
 
 <figure><img src="../.gitbook/assets/2 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-3. Scroll down and choose **WebHook**.
+3. Scroll down and choose **ilert**.
 
 <figure><img src="../.gitbook/assets/5 (11).png" alt=""><figcaption></figcaption></figure>
 
