@@ -289,5 +289,6 @@
 * [DEPLOYMENT INTEGRATIONS](deployment-integrations/README.md)
   * [API deployment pipeline](deployment-integrations/api.md)
   * [Github deployment pipeline](deployment-integrations/github.md)
+  * [GitLab deployment pipeline](deployment-integrations/gitlab.md)
 * [Contact us](contact.md)
 * [ilert Release Notes](ilert-release-notes.md)
