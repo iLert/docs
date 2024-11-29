@@ -34,13 +34,13 @@
 
 3. Scroll down and choose **WebHook**.
 
-<figure><img src="../.gitbook/assets/3 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/5 (11).png" alt=""><figcaption></figcaption></figure>
 
 4. Enter the in ilert previous generated alert source url into the URL field.
 5. Select the error-related events for which you want to receive notifications.
 6. Click on Save to finish the setup.
 
-<figure><img src="../.gitbook/assets/4 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6 (12).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 
