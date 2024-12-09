@@ -10,6 +10,29 @@ description: >-
 These notes get usually updated retrospectively within the first week of the following month _e.g. all November releases are added by 5th December_.
 {% endhint %}
 
+## December 2024
+
+### New features and improvements
+
+* ilert now supports **Coverage Requests**, starting with the mobile app, you may now request a shift override from one of your on-call buddies, with the tap on a button your colleagues are notified immediately and can choose to accept or decline the request while you will receive another notificatin depending on their decision.
+* We have optimized the **call flow builder experience**, lots of internal and external feedback has been used to shape an even better UX when building flows, especially larger flows
+* Call flow "Route call" nodes now support a dedicated choice for **agent call timeout**s and the default has been reduced from 60 to 45 seconds (Note: the legacy call routing solution has always used 60 seconds)
+* There is a new call flow node **Agentic Concierge**, it has moved into closed BETA. It replaces your IVR menus and more; use a real-time AI agent to communicate with your caller to identify the callers intent and gather additional information, use the identified intent to decide your branch flow. Let us know if you would like to try it out, before it moves into GA.
+
+## November 2024
+
+### New features and improvements
+
+* We have introduced a [new templating language "ICL"](rest-api/icl-ilert-condition-language.md) for alert source templating. While improving the syntax, we now also support conditional blocks and loops.
+* A new internal alert action is available "Re-route" you may use this in combination with the unresolved or escalation ended alert events to automate a reroute action, assigning the alert to a different escalation policy.
+* **Audit logs** have moved into closed BETA, the long awaited enterprise feature. Let us know if you would like to try it out before it moves into GA.
+* Call flows now support a new node: **Block numbers**, it can be used to block unwanted incoming callers
+
+### Integration updates
+
+* We have overhauled the Raygun inbound integration, it now supports multi-alert scenarios as well
+* There is a new deployment integration: [Gitlab](deployment-integrations/gitlab.md)
+
 ## October 2024
 
 ### New features and improvements
@@ -323,7 +346,7 @@ This has been in the making for a while: we have completely overhauled our alert
 ### New features
 
 * Added a new text mode for alert source templates, you can use the top right icon in the input area to switch between text and block mode when creating alert templates
-* API key analytics are now available showing live API key resource usage for every user (Navi -> Profile -> Manage API keys) this feature also ships with an API resource for ADMINs to fetch account wide API usage information see [https://api.ilert.com/api-docs/#tag/Reports/paths/\~1reports\~1api-keys\~1usage/get](https://api.ilert.com/api-docs/#tag/Reports/paths/\~1reports\~1api-keys\~1usage/get)
+* API key analytics are now available showing live API key resource usage for every user (Navi -> Profile -> Manage API keys) this feature also ships with an API resource for ADMINs to fetch account wide API usage information see [https://api.ilert.com/api-docs/#tag/Reports/paths/\~1reports\~1api-keys\~1usage/get](https://api.ilert.com/api-docs/#tag/Reports/paths/~1reports~1api-keys~1usage/get)
 
 ### Mobile app
 
@@ -586,7 +609,7 @@ This has been in the making for a while: we have completely overhauled our alert
 ### New features
 
 * [Status pages](incident-comms-and-status-pages/status-pages/) and [Incident com 2.0](broken-reference/) are now in GA
-* New [alert creation API](https://api.ilert.com/api-docs/#tag/Alerts/paths/\~1alerts/post) e.g. possible to target specific user
+* New [alert creation API](https://api.ilert.com/api-docs/#tag/Alerts/paths/~1alerts/post) e.g. possible to target specific user
 * [2FA and MFA ](user-administration/two-factor-authentication-mfa.md)are now available for every ilert user
 * Call routing is now available in Italian
 
@@ -700,7 +723,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New features
 
-* added policy routingKeys to the [event API](https://api.ilert.com/api-docs/#tag/Events/paths/\~1events/post)
+* added policy routingKeys to the [event API](https://api.ilert.com/api-docs/#tag/Events/paths/~1events/post)
 * added a new uptime monitor type: SSL
 
 ### New and updated integrations
@@ -750,7 +773,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 * Added `team-context` HTTP header to control team context on a per request basis when using api keys
 * Escalation policy detail view has been added
-* Attaching comments to alerts is now additionally possible through the events [API](https://api.ilert.com/api-docs/#tag/Events/paths/\~1events/post)
+* Attaching comments to alerts is now additionally possible through the events [API](https://api.ilert.com/api-docs/#tag/Events/paths/~1events/post)
 
 ### Improvements
 
