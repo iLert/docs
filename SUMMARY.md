@@ -22,6 +22,7 @@
 * [Heartbeat Monitoring](alerting/heartbeat-monitoring/README.md)
   * [Prometheus Heartbeat Example](alerting/heartbeat-monitoring/prometheus-heartbeat-example.md)
   * [CLI Heartbeat Examples](alerting/heartbeat-monitoring/cli-heartbeat-examples.md)
+* [Deployment events](alerting/deployment-events.md)
 * [🏛️ Understanding event flows](alerting/understanding-event-flows.md)
 * [ilert sender IDs, domains and IPs](alerting/phone-numbers/README.md)
   * [SMS and voice alerts in China](alerting/phone-numbers/sms-and-voice-alerts-in-china.md)
