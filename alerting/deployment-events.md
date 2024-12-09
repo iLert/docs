@@ -42,11 +42,11 @@ To get you started fast, deployment events support a global account wide alert m
 Let's take [Github](../deployment-integrations/github.md) for example, the fastest way to kick of your integration would be to setup a global Github organisation webhook sending Releases or Merge events of all repositories to a single Github deployment pipeline in ilert. This will immediately start collecting and mapping deployment relations.
 {% endhint %}
 
-For ilert customer's that are compact enough to not use the [teams feature](../user-administration/teams.md), this might already do the trick and no further fine grained configuration might be needed.
+For ilert customers that are compact enough to not use the [teams feature](../user-administration/teams.md), this might already do the trick and no further fine grained configuration might be needed.
 
 ### Scaling in larger organisations: team based relation claiming
 
-However for larger or enterprise customers the global approach might help adopting the feature quickly, but a time based correlation at large scale will no longer provide relevant mappings. Here is where teams can start taking the matter into their own hands if they wish to receive more relevant deployment mappings for their own resources.
+However for larger or enterprise customers the global approach might help adopting the feature quickly, but a time based correlation at large scale will no longer provide relevant mappings. **Here is where teams can start taking the matter into their own hands** if they wish to receive more relevant deployment mappings for their own resources.
 
 All they need to do is setup their own deployment pipeline that hooks into their own repository events. While making sure that their deployment pipeline is assigned to their team, just like their alert sources and (even more important) escalation policies.
 
@@ -63,3 +63,6 @@ Jump into available native integrations or build your own using the generic API:
 {% content-ref url="../deployment-integrations/" %}
 [deployment-integrations](../deployment-integrations/)
 {% endcontent-ref %}
+
+
+
