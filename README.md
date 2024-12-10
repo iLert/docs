@@ -25,6 +25,14 @@ An alert source represents the connection between your tools (usually a monitori
 [alert-sources.md](alerting/alert-sources.md)
 {% endcontent-ref %}
 
+## Deployment events
+
+The deployment events view gives you a live overview of all deployments related to your account. If a deployment event can be correlated to an alert, ilert will enrich your alert's context with the most relevant deployment information.
+
+{% content-ref url="alerting/deployment-events.md" %}
+[deployment-events.md](alerting/deployment-events.md)
+{% endcontent-ref %}
+
 ## Connector and alert action (aka outbound integration)
 
 Connectors and alert actions allow you to extend your alert response and communication to other tools. They allow you to either manually or automatically perform actions on alerts, such as
