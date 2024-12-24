@@ -68,6 +68,6 @@ Please ensure that you have correctly chosen "iLert " as Integration Vendor in A
 
 ## **Related articles**
 
-{% content-ref url="../inbound-integrations-1/autotask.md" %}
-[autotask.md](../inbound-integrations-1/autotask.md)
+{% content-ref url="../inbound-integrations/autotask.md" %}
+[autotask.md](../inbound-integrations/autotask.md)
 {% endcontent-ref %}

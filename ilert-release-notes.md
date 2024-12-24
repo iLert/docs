@@ -51,7 +51,7 @@ These notes get usually updated retrospectively within the first week of the fol
 * New inbound integration [Serverguard2024](inbound-integrations-1/serverguard24.md)
 * New inbound integration [Apache Kafka](inbound-integrations-1/kafka.md)
 * New inbound integration [MQTT](inbound-integrations-1/mqtt.md)
-* We now support [Cisco Thousandeyes](inbound-integrations-1/thousandeyes.md) for inbound events
+* We now support [Cisco Thousandeyes](inbound-integrations/thousandeyes.md) for inbound events
 
 ## September 2024
 
@@ -68,7 +68,7 @@ These notes get usually updated retrospectively within the first week of the fol
 ### Integration updates
 
 * Github action check runs have been fixed to include the Failure subtype
-* We have added the [Ansible AWX ](inbound-integrations/awx.md)inbound integration
+* We have added the [Ansible AWX ](inbound-integrations-1/awx.md)inbound integration
 
 ## August 2024
 
@@ -82,7 +82,7 @@ These notes get usually updated retrospectively within the first week of the fol
 
 ### Integration updates
 
-* We have added a new inbound integration [ClusterControl](inbound-integrations-1/clustercontrol.md)
+* We have added a new inbound integration [ClusterControl](inbound-integrations/clustercontrol.md)
 * We have added a new inbound integration [NetData](inbound-integrations-1/netdata.md)
 * We have improved the Samsara integration experience
 * We have improved the UptimeRobot integration experience
@@ -804,7 +804,7 @@ This has been in the making for a while: we have completely overhauled our alert
 * New: [Microsoft Teams Chat](chatops/microsoft-teams/chat/) Integration
 * New: [Microsoft Teams Meeting](chatops/microsoft-teams/meeting.md) Integration
 * New: [MXToolBox](inbound-integrations-1/mxtoolbox.md) Integration
-* New: [Azure Alert Sentinel](inbound-integrations-1/azure-alerts/sentinel.md) Integration
+* New: [Azure Alert Sentinel](inbound-integrations/azure-alerts/sentinel.md) Integration
 
 ### New features
 
@@ -814,12 +814,12 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* New: Azure Alerts Integration for [Azure Activity Logs](inbound-integrations-1/azure-alerts/activity-logs.md)
-* New: Azure Alerts Integration for [Budget Alert](inbound-integrations-1/azure-alerts/budget.md)
-* New: Azure Alerts Integration for [Azure Logs](inbound-integrations-1/azure-alerts/logs.md)
-* New: Azure Alerts Integration for [Azure Metric](inbound-integrations-1/azure-alerts/metric.md)
-* New: Azure Alerts Integration for [Azure Sentinel](inbound-integrations-1/azure-alerts/sentinel.md)
-* New: Azure Alerts Integration for [Service Health](inbound-integrations-1/azure-alerts/service-health.md)
+* New: Azure Alerts Integration for [Azure Activity Logs](inbound-integrations/azure-alerts/activity-logs.md)
+* New: Azure Alerts Integration for [Budget Alert](inbound-integrations/azure-alerts/budget.md)
+* New: Azure Alerts Integration for [Azure Logs](inbound-integrations/azure-alerts/logs.md)
+* New: Azure Alerts Integration for [Azure Metric](inbound-integrations/azure-alerts/metric.md)
+* New: Azure Alerts Integration for [Azure Sentinel](inbound-integrations/azure-alerts/sentinel.md)
+* New: Azure Alerts Integration for [Service Health](inbound-integrations/azure-alerts/service-health.md)
 * New: [SignalFx Inbound](inbound-integrations-1/signalfx.md) Integration
 * New: [Terraform Cloud / Terraform Enterprise Inbound](inbound-integrations-1/terraform-cloud-terraform-enterprise.md) Integration
 * New: [Sentry Inbound](inbound-integrations-1/sentry.md) Integration
@@ -827,8 +827,8 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### Improvements <a href="#improvements" id="improvements"></a>
 
-* [Nagios](inbound-integrations-1/nagios.md) / [CheckMK](inbound-integrations-1/checkmk/check-mk.md) Plugin: Use proxy for the outbound traffic via `--proxy` flag
-* [Nagios](inbound-integrations-1/nagios.md) / [CheckMK](inbound-integrations-1/checkmk/check-mk.md) Plugin: Disable SSL certification validation (e.g. to use self-signed certificates) via `--insecure` flag
+* [Nagios](inbound-integrations-1/nagios.md) / [CheckMK](inbound-integrations/checkmk/check-mk.md) Plugin: Use proxy for the outbound traffic via `--proxy` flag
+* [Nagios](inbound-integrations-1/nagios.md) / [CheckMK](inbound-integrations/checkmk/check-mk.md) Plugin: Disable SSL certification validation (e.g. to use self-signed certificates) via `--insecure` flag
 
 ## February 2021
 
@@ -944,7 +944,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* [Autotask](inbound-integrations-1/autotask.md)
+* [Autotask](inbound-integrations/autotask.md)
 * [Zabbix](inbound-integrations-1/zabbix/native.md) (updated): Starting Zabbix 4.4, ilert can be integrated as a media type into Zabbix. Zabbix 5.0.4+ includes ilert as a media type by default. See also Zabbix blog post: [Working with multiple on-call teams using Zabbix and ilert](https://blog.zabbix.com/working-with-multiple-on-call-teams-using-zabbix-and-ilert/11847/)
 * [Prometheus](inbound-integrations-1/prometheus.md) (updated): improved readabiltiy of prometheus alerts
 
@@ -978,7 +978,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New and updated integrations
 
-* [AWS Personal Health Dashboard](inbound-integrations-1/aws-phd.md)
+* [AWS Personal Health Dashboard](inbound-integrations/aws-phd.md)
 * [StatusCake](inbound-integrations-1/statuscake.md)
 * Serverless outbound integrations:
   * [AWS Lambda](broken-reference)
@@ -1003,7 +1003,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New integrations
 
-* [AppDynamics](inbound-integrations-1/appdynamics.md)
+* [AppDynamics](inbound-integrations/appdynamics.md)
 * [TopDesk](inbound-integrations-1/topdesk.md)
 * [Discord](outbound-integrations/discord.md)
 * [GitHub](inbound-integrations-1/github/)
