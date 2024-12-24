@@ -129,10 +129,10 @@
 
 * [INBOUND INTEGRATIONS](inbound-integrations/README.md)
   * [4me Integration](inbound-integrations/4me.md)
+  * [Ansible Automation Platform AWX Integration](inbound-integrations/awx.md)
 
 ## Inbound Integrations
 
-* [Ansible Automation Platform AWX Integration](inbound-integrations-1/awx.md)
 * [Amazon CloudWatch Integration](inbound-integrations-1/amazon-cloudwatch.md)
 * [Amazon SNS Integration](inbound-integrations-1/amazon-sns/README.md)
   * [Amazon SNS Inbound Integration](inbound-integrations-1/amazon-sns/inbound.md)

@@ -68,7 +68,7 @@ These notes get usually updated retrospectively within the first week of the fol
 ### Integration updates
 
 * Github action check runs have been fixed to include the Failure subtype
-* We have added the [Ansible AWX ](inbound-integrations-1/awx.md)inbound integration
+* We have added the [Ansible AWX ](inbound-integrations/awx.md)inbound integration
 
 ## August 2024
 
