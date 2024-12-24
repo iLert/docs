@@ -66,6 +66,6 @@ Currently not. If you wish, we look forward to your feedback via chat or email.
 
 ## Related articles
 
-{% content-ref url="../inbound-integrations-1/service-now.md" %}
-[service-now.md](../inbound-integrations-1/service-now.md)
+{% content-ref url="../inbound-integrations/service-now.md" %}
+[service-now.md](../inbound-integrations/service-now.md)
 {% endcontent-ref %}

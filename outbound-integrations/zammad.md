@@ -86,6 +86,6 @@ Yes, just create an alert action for each Zammad group.
 
 ## Related articles
 
-{% content-ref url="../inbound-integrations-1/zammad.md" %}
-[zammad.md](../inbound-integrations-1/zammad.md)
+{% content-ref url="../inbound-integrations/zammad.md" %}
+[zammad.md](../inbound-integrations/zammad.md)
 {% endcontent-ref %}

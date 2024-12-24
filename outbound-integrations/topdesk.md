@@ -88,6 +88,6 @@ Currently not. If you wish, we look forward to your feedback via chat or e-mail.
 
 ## Related articles
 
-{% content-ref url="../inbound-integrations-1/topdesk.md" %}
-[topdesk.md](../inbound-integrations-1/topdesk.md)
+{% content-ref url="../inbound-integrations/topdesk.md" %}
+[topdesk.md](../inbound-integrations/topdesk.md)
 {% endcontent-ref %}

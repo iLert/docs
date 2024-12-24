@@ -85,6 +85,6 @@ Dont worry, you will still be able to save the connector, even if the hint is ye
 
 ## Related articles
 
-{% content-ref url="../inbound-integrations-1/jira.md" %}
-[jira.md](../inbound-integrations-1/jira.md)
+{% content-ref url="../inbound-integrations/jira.md" %}
+[jira.md](../inbound-integrations/jira.md)
 {% endcontent-ref %}

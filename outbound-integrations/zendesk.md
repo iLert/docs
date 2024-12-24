@@ -66,6 +66,6 @@ Currently not. If that's something you'd like see in ilert, we look forward to y
 
 ## Related articles
 
-{% content-ref url="../inbound-integrations-1/zendesk.md" %}
-[zendesk.md](../inbound-integrations-1/zendesk.md)
+{% content-ref url="../inbound-integrations/zendesk.md" %}
+[zendesk.md](../inbound-integrations/zendesk.md)
 {% endcontent-ref %}

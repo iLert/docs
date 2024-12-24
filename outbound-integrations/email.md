@@ -36,6 +36,6 @@ In case you chose manual (so called alert actions) you should now see an **actio
 
 ## Related articles
 
-{% content-ref url="../inbound-integrations-1/email/" %}
-[email](../inbound-integrations-1/email/)
+{% content-ref url="../inbound-integrations/email/" %}
+[email](../inbound-integrations/email/)
 {% endcontent-ref %}

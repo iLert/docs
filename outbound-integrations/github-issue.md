@@ -61,6 +61,6 @@ Currently not. If you wish we are looking forward to reading your feedback via c
 
 ## Related articles
 
-{% content-ref url="../inbound-integrations-1/github/inbound-issue.md" %}
-[inbound-issue.md](../inbound-integrations-1/github/inbound-issue.md)
+{% content-ref url="../inbound-integrations/github/inbound-issue.md" %}
+[inbound-issue.md](../inbound-integrations/github/inbound-issue.md)
 {% endcontent-ref %}

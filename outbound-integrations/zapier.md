@@ -48,6 +48,6 @@ Every time you create a Zap with an ilert trigger, the Zapier connector in ilert
 
 ## Related articles
 
-{% content-ref url="../inbound-integrations-1/zapier.md" %}
-[zapier.md](../inbound-integrations-1/zapier.md)
+{% content-ref url="../inbound-integrations/zapier.md" %}
+[zapier.md](../inbound-integrations/zapier.md)
 {% endcontent-ref %}

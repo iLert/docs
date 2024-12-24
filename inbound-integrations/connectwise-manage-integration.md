@@ -4,4 +4,4 @@ description: Create and resolve ilert alerts from Connectwise Manage Ticket upda
 
 # Connectwise Manage Integration
 
-The ilert Connectwise Manage integration has been deprecated, please refer to ilert's [email integration](../inbound-integrations-1/email/) to integrate with CWM and create and resolve alerts using Connectwise Ticket Email updates.
+The ilert Connectwise Manage integration has been deprecated, please refer to ilert's [email integration](email/) to integrate with CWM and create and resolve alerts using Connectwise Ticket Email updates.
