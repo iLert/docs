@@ -266,8 +266,6 @@
   * [Zapier Inbound Integration](inbound-integrations/zapier.md)
   * [Zendesk Inbound Integration](inbound-integrations/zendesk.md)
 
-## Inbound Integrations
-
 ## Outbound integrations
 
 * [Autotask Outbound Integration](outbound-integrations/autotask.md)
