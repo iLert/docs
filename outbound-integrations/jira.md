@@ -25,11 +25,11 @@ description: Create JIRA issues from ilert alerts.
 
 1. Click the gear icon → **Connectors**
 
-![](<../.gitbook/assets/go\_to\_connectors (6).png>)
+![](<../.gitbook/assets/go_to_connectors (6).png>)
 
 2. Click **Add Connector**
 
-![](<../.gitbook/assets/create\_connector\_button (5).png>)
+![](<../.gitbook/assets/create_connector_button (5).png>)
 
 3. Select **JIRA** as **type** and fill in all fields. Enter as URL the URL of your JIRA instance and as password the API key above.
 
@@ -37,7 +37,7 @@ description: Create JIRA issues from ilert alerts.
 
 4. **Go to** the alert sources tab and open the alert source whose alerts you want to publish in JIRA. Click **Alert actions → Create new alert action**.
 
-![](<../.gitbook/assets/new\_incident\_action (2).png>)
+![](<../.gitbook/assets/new_incident_action (2).png>)
 
 5. Select **JIRA** as the **type** and in the secondary dropdown select the connector created in step 3. ilert will now try to fetch the available Projects and Issue Types from your provided Jira instance.
 
@@ -85,6 +85,6 @@ Dont worry, you will still be able to save the connector, even if the hint is ye
 
 ## Related articles
 
-{% content-ref url="../inbound-integrations/jira.md" %}
-[jira.md](../inbound-integrations/jira.md)
+{% content-ref url="../inbound-integrations-1/jira.md" %}
+[jira.md](../inbound-integrations-1/jira.md)
 {% endcontent-ref %}

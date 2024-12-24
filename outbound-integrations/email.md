@@ -15,7 +15,7 @@ Navigate to your **Alert sources** and click on the desired alert source where t
 
 In the **Alert actions** view, click on **Create alert action** to get to the creation form.
 
-![](<../.gitbook/assets/new\_incident\_action (11).png>)
+![](<../.gitbook/assets/new_incident_action (11).png>)
 
 In the alert action creation view, choose **Email** as connection type.\
 You may now decide if this connection should be triggered **automatically** and select the alert events for which you would like to send emails or select **manually** and turn it into an alert action (as seen at the end of this document).
@@ -36,6 +36,6 @@ In case you chose manual (so called alert actions) you should now see an **actio
 
 ## Related articles
 
-{% content-ref url="../inbound-integrations/email/" %}
-[email](../inbound-integrations/email/)
+{% content-ref url="../inbound-integrations-1/email/" %}
+[email](../inbound-integrations-1/email/)
 {% endcontent-ref %}

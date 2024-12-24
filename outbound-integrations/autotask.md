@@ -42,7 +42,7 @@ description: Create tickets in Autotask PSA based on alerts from ilert.
 
 4\. Go to the alert sources tab and open the alert source whose alerts you want to publish in Autotask. Click on **Alert actions** and then on **Create alert action**.
 
-![](<../.gitbook/assets/new\_incident\_action (3).png>)
+![](<../.gitbook/assets/new_incident_action (3).png>)
 
 5\. Select **Autotask** as the **type**, select the connector created in step 3, fill in all fields. In the **Label** field, specify the alert action name.
 
@@ -68,6 +68,6 @@ Please ensure that you have correctly chosen "iLert " as Integration Vendor in A
 
 ## **Related articles**
 
-{% content-ref url="../inbound-integrations/autotask.md" %}
-[autotask.md](../inbound-integrations/autotask.md)
+{% content-ref url="../inbound-integrations-1/autotask.md" %}
+[autotask.md](../inbound-integrations-1/autotask.md)
 {% endcontent-ref %}

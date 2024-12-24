@@ -12,11 +12,11 @@ ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Mana
 
 1. Click the gear icon → **Connectors**
 
-![](<../.gitbook/assets/go\_to\_connectors (1) (1) (4).png>)
+![](<../.gitbook/assets/go_to_connectors (1) (1) (4).png>)
 
 2. Click **Create Connector**
 
-![](<../.gitbook/assets/create\_connector\_button (6).png>)
+![](<../.gitbook/assets/create_connector_button (6).png>)
 
 3. Select **ServiceNow** as **type** and fill out all fields.
 
@@ -24,7 +24,7 @@ ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Mana
 
 4. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish in ServiceNow. Click on **Alert actions → Create alert action**
 
-![](<../.gitbook/assets/new\_incident\_action (10).png>)
+![](<../.gitbook/assets/new_incident_action (10).png>)
 
 5. Select **ServiceNow** as the **type**, select the connector created in step 3, fill in all fields.
 
@@ -66,6 +66,6 @@ Currently not. If you wish, we look forward to your feedback via chat or email.
 
 ## Related articles
 
-{% content-ref url="../inbound-integrations/service-now.md" %}
-[service-now.md](../inbound-integrations/service-now.md)
+{% content-ref url="../inbound-integrations-1/service-now.md" %}
+[service-now.md](../inbound-integrations-1/service-now.md)
 {% endcontent-ref %}

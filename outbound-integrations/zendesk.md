@@ -32,11 +32,11 @@ To set up the integration, you must have admin rights in ilert.
 
 1. **\*\*Click the gear icon and then click on the** Connectors\*\* link
 
-![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_46.png)
+![](../.gitbook/assets/Screenshot_16_03_21__15_46.png)
 
 2. Click the **Add Connector** button
 
-![](../.gitbook/assets/Screenshot\_16\_03\_21\_\_15\_48.png)
+![](../.gitbook/assets/Screenshot_16_03_21__15_48.png)
 
 3. On the next page, choose **Zendesk Support** as type, name the connector, enter your zendesk URL in the form [https://{your-domain}.zendesk.com](https://{your-domain}.zendesk.com), enter your Zendesk user **Email** and **API-Key** that you generated before _\*\*_ and click on the save button
 
@@ -66,6 +66,6 @@ Currently not. If that's something you'd like see in ilert, we look forward to y
 
 ## Related articles
 
-{% content-ref url="../inbound-integrations/zendesk.md" %}
-[zendesk.md](../inbound-integrations/zendesk.md)
+{% content-ref url="../inbound-integrations-1/zendesk.md" %}
+[zendesk.md](../inbound-integrations-1/zendesk.md)
 {% endcontent-ref %}

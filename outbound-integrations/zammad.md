@@ -15,15 +15,15 @@ To set up this integration, you must have admin rights in ilert.
 1. Optional: create a dedicated ilert user in Zammad. This has the advantage that you can distinguish the Zammad tickets created by ilert.
 2. Go to **Profile**, then to **Token Access** and click on **Create**
 
-![](../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_32.png)
+![](../.gitbook/assets/Screenshot_07_02_21__13_32.png)
 
 3. In the **Name** section, enter a name eg. ilert
 
-![](../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_33.png)
+![](../.gitbook/assets/Screenshot_07_02_21__13_33.png)
 
 4. In the **Ticket** section, choose **Agent**
 
-![](../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_34.png)
+![](../.gitbook/assets/Screenshot_07_02_21__13_34.png)
 
 5. Click on **Create**
 
@@ -35,25 +35,25 @@ An agent token has a group scope so if you want to use a group that the current 
 
 6. The modal window will open, copy the generated access token
 
-![](../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_36.png)
+![](../.gitbook/assets/Screenshot_07_02_21__13_36.png)
 
 ## In ilert: Create a Zammad Connector and link to the alert source <a href="#in-ilert" id="in-ilert"></a>
 
 1. Click on the gear icon and then on the **Connectors** button
 
-![](<../.gitbook/assets/go\_to\_connectors (4).png>)
+![](<../.gitbook/assets/go_to_connectors (4).png>)
 
 2. Click on **Add Connector**
 
-![](<../.gitbook/assets/create\_connector\_button (2).png>)
+![](<../.gitbook/assets/create_connector_button (2).png>)
 
 3. Select **Zammad** as **type** and fill in all fields. Enter a name, the URL of your Zammad server and the access token that you have created in the previous step.
 
-![](../.gitbook/assets/Screenshot\_07\_02\_21\_\_13\_39.png)
+![](../.gitbook/assets/Screenshot_07_02_21__13_39.png)
 
 4. Go to the alert sources tab and open the alert source whose alerts you want to publish in Zammad. Click on **Alert actions** and then on **Create alert action**.
 
-![](<../.gitbook/assets/new\_incident\_action (12) (9).png>)
+![](<../.gitbook/assets/new_incident_action (12) (9).png>)
 
 5. Select **Zammad** as the **type**; **futhermore** select the connector created in step 3, fill in all fields.
 
@@ -86,6 +86,6 @@ Yes, just create an alert action for each Zammad group.
 
 ## Related articles
 
-{% content-ref url="../inbound-integrations/zammad.md" %}
-[zammad.md](../inbound-integrations/zammad.md)
+{% content-ref url="../inbound-integrations-1/zammad.md" %}
+[zammad.md](../inbound-integrations-1/zammad.md)
 {% endcontent-ref %}

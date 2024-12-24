@@ -25,11 +25,11 @@ description: Create issues in GitHub based on alerts from ilert.
 
 1. Click on the gear icon → **Connectors**
 
-![](<../.gitbook/assets/go\_to\_connectors (7) (6).png>)
+![](<../.gitbook/assets/go_to_connectors (7) (6).png>)
 
 2. Click on **Add Connector**
 
-![](<../.gitbook/assets/create\_connector\_button (1) (13).png>)
+![](<../.gitbook/assets/create_connector_button (1) (13).png>)
 
 2. Select **Github** as **type** and fill in all fields. Enter a name and the API key from above.
 
@@ -37,7 +37,7 @@ description: Create issues in GitHub based on alerts from ilert.
 
 3. **Go to** the alert sources tab and open the alert source whose alerts you want to publish in Github. Click on **Incident actions → Create alert action**.
 
-![](<../.gitbook/assets/new\_incident\_action (5).png>)
+![](<../.gitbook/assets/new_incident_action (5).png>)
 
 4. Select **Github** as the **type** then select the connector created in step 3 and fill in all fields. In the **Owner** and the **Repository** fields specify the owner and repository of the Github project where the ilert alerts should be published as Github Issue.
 
@@ -61,6 +61,6 @@ Currently not. If you wish we are looking forward to reading your feedback via c
 
 ## Related articles
 
-{% content-ref url="../inbound-integrations/github/inbound-issue.md" %}
-[inbound-issue.md](../inbound-integrations/github/inbound-issue.md)
+{% content-ref url="../inbound-integrations-1/github/inbound-issue.md" %}
+[inbound-issue.md](../inbound-integrations-1/github/inbound-issue.md)
 {% endcontent-ref %}
