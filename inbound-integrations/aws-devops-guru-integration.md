@@ -34,20 +34,20 @@ AWS DevOps Guru provides insights into operational anomalies. Notifications are 
 
 1. On the sidebar, click on **Topics** **->** **Create topic**.&#x20;
 
-<figure><img src="../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Choose **Standard** and enter a topic **Name**.
 3. Save the topic.
 
-<figure><img src="../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Now click on **Create subscription**.
 
-<figure><img src="../.gitbook/assets/3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 5. Select 'HTTPS' as **Protocol** and enter the alert source URL previously generated in ilert into the **Endpoint** field.
 
-<figure><img src="../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/4 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In AWS DevOps Guru: Add a Notification <a href="#create-topic" id="create-topic"></a>
 
@@ -55,7 +55,7 @@ AWS DevOps Guru provides insights into operational anomalies. Notifications are 
 2. Under the **Navigation** settings, choose 'Select an existing SNS topic'.
 3. Select the newly created topic from before.
 
-<figure><img src="../.gitbook/assets/5 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/5 (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 

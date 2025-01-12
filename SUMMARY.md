@@ -242,6 +242,7 @@
   * [ServerGuard24 Integration](inbound-integrations/serverguard24.md)
   * [ServiceNow Inbound Integration](inbound-integrations/service-now.md)
   * [SignalFx Integration](inbound-integrations/signalfx.md)
+  * [Site24x7 Integration](inbound-integrations/site24x7.md)
   * [SMS Integration](inbound-integrations/sms-integration.md)
   * [SolarWinds Integration](inbound-integrations/solarwinds.md)
   * [Splunk Integration](inbound-integrations/splunk.md)

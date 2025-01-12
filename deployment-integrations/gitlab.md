@@ -16,23 +16,23 @@ GitLab is a complete DevSecOps platform that enables teams to collaborate on pla
 
 In any way, a pipeline is required, which will also generate a new `integrationKey` required to route deployment events when they occur. Head to your ilert account and navigate to **Alert sources -> Deployment events.**
 
-<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
 
 Head over to the deployment pipelines tab and click on **Create new pipeline.**
 
-<figure><img src="../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
 
 Provide a name for your pipeline.
 
-<figure><img src="../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (1).png" alt=""><figcaption></figcaption></figure>
 
 **Optional**: If you are going to manage branch-specific deployments, choose the branches in the branch filter section for which you would like to create deployment events in ilert.
 
-<figure><img src="../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure>
 
 **Optional**: If you would like to use a global webhook flow, where you coordinate specific deployment events for different repositories across multiple pipelines, you can use the event filters to fine-tune which specific event types should create deployment events in ilert and drop other ones. (_This is mainly useful when using multiple GitLab account-wide webhooks_).
 
-<figure><img src="../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/5 (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 We generally recommend Release-based deployment events, as these are the easiest to set up and provide the most foundated correlations. Note that Push-based deployment events can become very spammy, especially when used with Github account-wide webhooks.
@@ -40,7 +40,7 @@ We generally recommend Release-based deployment events, as these are the easiest
 
 In any way, by clicking on Create, you should end up on the detail view of your GitLab deployment pipeline.
 
-<figure><img src="../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6 (1).png" alt=""><figcaption></figcaption></figure>
 
 Providing you with a freshly generated `integrationKey` and copy & pastable **URL** ready for your webhook setup.
 
@@ -48,7 +48,7 @@ Providing you with a freshly generated `integrationKey` and copy & pastable **UR
 
 Head to your (or your organization's) GitLab groups settings page **Home -> Groups -> Settings (left sidebar) -> Webhooks -> Add webhook.**
 
-<figure><img src="../.gitbook/assets/7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/7 (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/8.png" alt=""><figcaption></figcaption></figure>
 

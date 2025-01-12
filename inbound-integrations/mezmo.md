@@ -49,15 +49,15 @@ description: >-
 5. Enter a name for the webhook.
 6. Change the **Method** to 'POST' and enter the alert source url previously generated in ilert into the URL field.
 
-<figure><img src="../.gitbook/assets/5 (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/5 (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 7. On the sidebar, click on the **Views** icon.
 
-<figure><img src="../.gitbook/assets/6 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6 (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 8. On your desired view, click on **Edit alert**.
 
-<figure><img src="../.gitbook/assets/7 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/7 (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 9. Select the newly created webhook and save the alert.
 

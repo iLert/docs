@@ -20,17 +20,17 @@
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
 7. On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
-<figure><img src="../.gitbook/assets/il-1-2.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/il-1-2 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## In Honeybadger: Create a Webhook
 
 1. On the dashboard, click on **Settings**.
 
-<figure><img src="../.gitbook/assets/1 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Now click on **Alerts & integrations**.
 
-<figure><img src="../.gitbook/assets/2 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Scroll down and choose **ilert**.
 
