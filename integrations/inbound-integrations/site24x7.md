@@ -1,4 +1,12 @@
+---
+description: >-
+  Receive critical alerts from Site24x7 via SMS, phone call, and push
+  notifications
+---
+
 # Site24x7 Integration
+
+Site24x7 is a cloud-based monitoring solution that tracks the performance and availability of websites, applications, and IT infrastructure, and by connecting it to ilert, users can automate incident management, simplify on-call duty management, and ensure faster response to critical alerts.
 
 ## In ilert: Create a Site24x7 alert source&#x20;
 
@@ -60,4 +68,4 @@ Note: The following steps are important for alert resolution in ilert.
 
 **Will alerts in ilert be resolved automatically?**
 
-Yes, as long as the Manage Tickets option is set on Yes and Close Request is configured, corresponding alerts in ilert will be resolved automatically.
+Yes, as long as the Manage Tickets option is set to Yes and Close Request is configured, corresponding alerts in ilert will be resolved automatically.
