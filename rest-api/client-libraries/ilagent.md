@@ -11,8 +11,8 @@ The ilert agent application comes a single binary file that is available for all
 * It helps you easily manage events from the CLI
 * send (continuous) heartbeats from the CLI
 * run a network local proxy HTTP server to pipe events to the ilert REST API
-* run a network local [MQTT (proxy) to pipe events to ilert](../../inbound-integrations/mqtt.md)
-* run a network local [Apache Kafka (proxy) client to pipe events to ilert](../../inbound-integrations/kafka.md)
+* run a network local [MQTT (proxy) to pipe events to ilert](../../integrations/inbound-integrations/mqtt.md)
+* run a network local [Apache Kafka (proxy) client to pipe events to ilert](../../integrations/inbound-integrations/kafka.md)
 
 The source code of ilagent is open source [https://github.com/iLert/ilagent](https://github.com/iLert/ilagent) and managed on GitHub.\
 And run ilagent to see your command line options:

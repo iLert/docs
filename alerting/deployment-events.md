@@ -6,7 +6,7 @@ description: >-
 
 # Deployment events
 
-You may choose one of your native integrations like [Github](../deployment-integrations/github.md) or [Gitlab](../deployment-integrations/gitlab.md) or use the generic [API deployment pipeline](../deployment-integrations/api.md) to generate an `integrationKey` and process your own events.
+You may choose one of your native integrations like [Github](../integrations/deployment-integrations/github.md) or [Gitlab](../integrations/deployment-integrations/gitlab.md) or use the generic [API deployment pipeline](../integrations/deployment-integrations/api.md) to generate an `integrationKey` and process your own events.
 
 {% hint style="info" %}
 Just like alerts use alert sources to maintain their event configuration, deployment events use deployment pipelines to do the same.
@@ -39,7 +39,7 @@ If a deployment event can be correlated to an alert, ilert will enrich your aler
 To get you started fast, deployment events support a global account-wide alert mapping, which purely runs on a time-based correlation. If the alert is in a specific window of a deployment it will be mapped in its context.
 
 {% hint style="info" %}
-Let's take [Github](../deployment-integrations/github.md) as an example. The fastest way to kick off your integration would be to set up a global Github organization webhook sending Releases or Merge events of all repositories to a single Github deployment pipeline in ilert. This will immediately start collecting and mapping deployment relations.
+Let's take [Github](../integrations/deployment-integrations/github.md) as an example. The fastest way to kick off your integration would be to set up a global Github organization webhook sending Releases or Merge events of all repositories to a single Github deployment pipeline in ilert. This will immediately start collecting and mapping deployment relations.
 {% endhint %}
 
 For ilert customers that are compact enough not to use the [Teams feature](../user-administration/teams.md), this might already do the trick, and no further fine-grained configuration might be needed.
@@ -60,8 +60,8 @@ By assigning their team to policies and pipelines, a team can individually claim
 
 Jump into available native integrations or build your own using the generic API:
 
-{% content-ref url="../deployment-integrations/" %}
-[deployment-integrations](../deployment-integrations/)
+{% content-ref url="../integrations/deployment-integrations/" %}
+[deployment-integrations](../integrations/deployment-integrations/)
 {% endcontent-ref %}
 
 
