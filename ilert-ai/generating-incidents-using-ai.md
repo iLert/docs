@@ -1,5 +1,7 @@
 # Using ilert AI for efficient incident communication
 
+{% embed url="https://youtu.be/RiYI7ajoUQQ" %}
+
 In the heat of incident response, it's essential to keep your focus on resolving the issue at hand. Sometimes, drafting a comprehensive and accurate incident communication can be challenging, especially under stress. That's where ilert's AI-assisted incident communication comes into play.
 
 ### What does ilert's AI-assisted incident communication do?
