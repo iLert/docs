@@ -1,14 +1,14 @@
-# AWS DevOps Guru Integration
+# AWS Cloudtrail Integration
 
-AWS DevOps Guru is a machine learning-powered service that identifies operational issues and anomalies within applications running on AWS, providing insights and recommendations for performance improvements. By integrating AWS DevOps Guru with ilert, users gain proactive incident management capabilities, where detected anomalies and potential issues automatically trigger alerts in ilert.
+AWS CloudTrail is a service that records and monitors all actions taken within an AWS account, providing detailed logs of API calls and activity across resources. When connected to ilert, CloudTrail enhances incident response by triggering real-time alerts for critical changes or suspicious activity, such as unauthorized access attempts or modifications to security settings.
 
 ## How this integration works <a href="#create-alert-source" id="create-alert-source"></a>
 
-AWS DevOps Guru provides insights into operational anomalies. Notifications are published to specific Amazon Simple Notification Service (SNS) topics; the events are then sent to ilert.
+AWS CloudTrail logs and monitors account activity across your AWS infrastructure. Activity logs are published to specific Amazon Simple Notification Service (SNS) topics; the events are sent to ilert.
 
 ### Architecture <a href="#create-alert-source-2" id="create-alert-source-2"></a>
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 ## In ilert: Create an Amazon SNS alert source <a href="#create-alert-source-2" id="create-alert-source-2"></a>
 
@@ -26,7 +26,7 @@ AWS DevOps Guru provides insights into operational anomalies. Notifications are 
 
     ![](https://docs.ilert.com/~gitbook/image?url=https%3A%2F%2F3394882078-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-M76ygPnS4HUcFSX8ulm%252Fuploads%252FueugN4JgHn1c90ggFA6u%252FScreenshot%25202023-08-28%2520at%252011.38.24.png%3Falt%3Dmedia%26token%3Db8009daf-3ca8-4264-a6fa-e42ef7333205\&width=768\&dpr=4\&quality=100\&sign=4f5486f8\&sv=1)
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click on **Finish setup** for now.
-7.  On the final page, an API key and/or webhook URL will be generated, which you will need later in this guide.
+7.  On the final page, an API key and / or webhook URL will be generated, which you will need later in this guide.
 
     ![](https://docs.ilert.com/~gitbook/image?url=https%3A%2F%2F3394882078-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F-M76ygPnS4HUcFSX8ulm%252Fuploads%252Fq8AY87k6gfWEvNXuyKx5%252Fil-1.png%3Falt%3Dmedia%26token%3D2a93f17d-fb37-4a50-a9ac-acd877b06582\&width=768\&dpr=4\&quality=100\&sign=b65be3a5\&sv=1)
 
@@ -34,28 +34,35 @@ AWS DevOps Guru provides insights into operational anomalies. Notifications are 
 
 1. On the sidebar, click on **Topics** **->** **Create topic**.&#x20;
 
-<figure><img src="../../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Choose **Standard** and enter a topic **Name**.
 3. Save the topic.
 
-<figure><img src="../../.gitbook/assets/2 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Now click on **Create subscription**.
 
-<figure><img src="../../.gitbook/assets/3 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 5. Select 'HTTPS' as **Protocol** and enter the alert source URL previously generated in ilert into the **Endpoint** field.
 
-<figure><img src="../../.gitbook/assets/4 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-## In AWS DevOps Guru: Add a Notification <a href="#create-topic" id="create-topic"></a>
+## In AWS Cloudtrail: Enable a SNS Notification <a href="#create-topic" id="create-topic"></a>
 
-1. Navigate to Settings.
-2. Under the **Navigation** settings, choose 'Select an existing SNS topic'.
-3. Select the newly created topic from before.
+1. Choose a desired trail by clicking on the name.
 
-<figure><img src="../../.gitbook/assets/5 (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (2).png" alt=""><figcaption></figcaption></figure>
+
+2. In the **General details** tab, click on **Edit**.
+
+<figure><img src="../.gitbook/assets/4 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+
+3. Under **Additional settings**, enable **SNS notification delivery**.
+4. Choose **Existing** and search for the newly created topic from before.
+
+<figure><img src="../.gitbook/assets/6 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 

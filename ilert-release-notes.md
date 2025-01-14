@@ -31,7 +31,7 @@ These notes get usually updated retrospectively within the first week of the fol
 ### Integration updates
 
 * We have overhauled the Raygun inbound integration, it now supports multi-alert scenarios as well
-* There is a new deployment integration: [Gitlab](integrations/deployment-integrations/gitlab.md)
+* There is a new deployment integration: [Gitlab](deployment-integrations/gitlab.md)
 
 ## October 2024
 
@@ -44,13 +44,13 @@ These notes get usually updated retrospectively within the first week of the fol
 
 ### Integration updates
 
-* New inbound integration [Rapidspike](integrations/inbound-integrations/rapidspike.md)
-* New inbound integration [Honeybadger](integrations/inbound-integrations/honeybadger.md)
+* New inbound integration [Rapidspike](inbound-integrations/rapidspike.md)
+* New inbound integration [Honeybadger](inbound-integrations/honeybadger.md)
 * New inbound integration [Healthchecks.io](integrations/inbound-integrations/healthchecks-io.md)
-* New inbound integration [Mezmo](integrations/inbound-integrations/mezmo.md)
+* New inbound integration [Mezmo](inbound-integrations/mezmo.md)
 * New inbound integration [Serverguard2024](integrations/inbound-integrations/serverguard24.md)
-* New inbound integration [Apache Kafka](integrations/inbound-integrations/kafka.md)
-* New inbound integration [MQTT](integrations/inbound-integrations/mqtt.md)
+* New inbound integration [Apache Kafka](inbound-integrations/kafka.md)
+* New inbound integration [MQTT](inbound-integrations/mqtt.md)
 * We now support [Cisco Thousandeyes](integrations/inbound-integrations/thousandeyes.md) for inbound events
 
 ## September 2024

@@ -31,7 +31,7 @@ With the ilert Github Check Run integration, you can add alerts in ilert based o
     <figure><img src="../../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Customize the GitHub alert source with [advanced settings](advanced-settings.md) for a better user experience.
+Customize the GitHub alert source with [advanced settings](../../../inbound-integrations/github/advanced-settings.md) for a better user experience.
 {% endhint %}
 
 ## In Github: Create a Repository Webhook <a href="#in-github" id="in-github"></a>

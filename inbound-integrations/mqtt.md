@@ -7,30 +7,30 @@
 1.  Go to **Alert sources** -> **Alert sources** and click on **Create new alert source.**\
 
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
 2.  Search for **MQTT** in the search field, click on the MQTT tile, and click **Next**. \
 
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
 3. Give your alert source a name, optionally assign teams, and click **Next**.
 4.  Select an **escalation policy** by creating a new one or assigning an existing one.\
 
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
-5.  Select your [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later. \
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
+5.  Select your [Alert grouping](../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later. \
 
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click on **Finish setup** for now.
 7.  On the final page, an API key and/or webhook URL will be generated, which you will need later in this guide.
 
 
 
-    <figure><img src="../../.gitbook/assets/1 (1) (1) (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/1 (1) (1) (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## In your environment
 
-**Foreword**: you are free to use any MQTT client to subscribe to your topics and wire them into an API call to `POST api.ilert.com/api/v1/mqtt/{your-key-here}` (the endpoint accepts the payload of our generic [event API](https://api.ilert.com/api-docs/#tag/events/post/events). See also this [eventing guide](../../rest-api/api-samples/creating-alerts-through-events.md)).
+**Foreword**: you are free to use any MQTT client to subscribe to your topics and wire them into an API call to `POST api.ilert.com/api/v1/mqtt/{your-key-here}` (the endpoint accepts the payload of our generic [event API](https://api.ilert.com/api-docs/#tag/events/post/events). See also this [eventing guide](../rest-api/api-samples/creating-alerts-through-events.md)).
 
 However, if you don't wish to write your own software to wire subscriber and POST request, you may use our _swiss-army-knife tool_ **ilagent** which supports an MQTT mode where it subscribes to a specific MQTT topic to deliver events or heartbeats to ilert; it automatically buffers the messages in a local database to support retries as well. It is open source and can be found on [GitHub](https://github.com/iLert/ilagent).
 

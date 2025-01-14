@@ -6,7 +6,7 @@ description: >-
 
 # Deployment events
 
-You may choose one of your native integrations like [Github](../integrations/deployment-integrations/github.md) or [Gitlab](../integrations/deployment-integrations/gitlab.md) or use the generic [API deployment pipeline](../integrations/deployment-integrations/api.md) to generate an `integrationKey` and process your own events.
+You may choose one of your native integrations like [Github](../integrations/deployment-integrations/github.md) or [Gitlab](../deployment-integrations/gitlab.md) or use the generic [API deployment pipeline](../integrations/deployment-integrations/api.md) to generate an `integrationKey` and process your own events.
 
 {% hint style="info" %}
 Just like alerts use alert sources to maintain their event configuration, deployment events use deployment pipelines to do the same.
