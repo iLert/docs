@@ -34,7 +34,7 @@
   * [My on-call shifts](on-call-management-and-escalations/on-call-schedules/my-on-call-shifts.md)
   * [Recurring schedules](on-call-management-and-escalations/on-call-schedules/recurring-schedules.md)
   * [Static schedules](on-call-management-and-escalations/on-call-schedules/static-schedules.md)
-* [Coverage requests](on-call-management-and-escalations/coverage-requests.md)
+* [Coverage requests](on-call-management-and-escalations/on-call-coverage-requests.md)
 
 ## ChatOps
 
