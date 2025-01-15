@@ -50,5 +50,15 @@ description: >-
 
 **Will alerts in ilert be resolved automatically?**
 
-No, unfortunately Cisco Meraki is not compatible with ilert's resolve event.
+Yes, however, only certain types will automatically resolve the corresponding alerts in ilert. These types include:
 
+* cellular\_up
+* sensor\_water\_cable\_reconnected
+* sensor\_probe\_cable\_reconnected
+* sensor\_battery\_improved
+* port\_connected
+* power\_supply\_up
+* reconnected
+* started\_reporting
+* pcc\_outage\_end
+* bluetooth\_in
