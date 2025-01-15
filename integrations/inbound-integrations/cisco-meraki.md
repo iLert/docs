@@ -48,9 +48,9 @@ description: >-
 
 ## FAQ
 
-**Will alerts in ilert be resolved automatically?**
+#### **Will alerts in ilert be resolved automatically?**
 
-Yes, however, only certain types will automatically resolve the corresponding alerts in ilert. These types include:
+Yes, however, only certain alert type IDs will automatically resolve the corresponding alerts in ilert. These types include:
 
 * cellular\_up
 * sensor\_water\_cable\_reconnected
