@@ -100,6 +100,7 @@
 
 ## INTEGRATIONS
 
+* [Types of integrations](integrations/types-of-integrations.md)
 * [Inbound integrations](integrations/inbound-integrations/README.md)
   * [4me Integration](integrations/inbound-integrations/4me.md)
   * [Ansible Automation Platform AWX Integration](integrations/inbound-integrations/awx.md)
