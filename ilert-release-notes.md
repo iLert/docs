@@ -623,7 +623,7 @@ This has been in the making for a while: we have completely overhauled our alert
 ### New features
 
 * We have launched private and public status pages in closed BETA.
-* We have launched [dynamic alert actions](rest-api/application-hooks/dynamic-alert-actions.md) (application hooks) in closed BETA.
+* We have launched [dynamic alert actions](broken-reference) (application hooks) in closed BETA.
 
 ### Improvements
 
