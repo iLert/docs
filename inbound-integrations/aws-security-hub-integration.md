@@ -8,7 +8,7 @@ AWS Security Hub generates finding events that are relayed by AWS EventBridge. I
 
 ## Architecture <a href="#create-alert-source" id="create-alert-source"></a>
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In ilert: Create an Amazon SNS alert source <a href="#create-alert-source" id="create-alert-source"></a>
 
@@ -41,11 +41,11 @@ AWS Security Hub generates finding events that are relayed by AWS EventBridge. I
 1. On the sidebar click on **Custom actions**.
 2. Click on **Create custom action**.
 
-<figure><img src="../.gitbook/assets/1 (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1) (1) (1) (1) (1) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Enter a **Action name**, **Description** and a **Custom action ID**.
 
-<figure><img src="../.gitbook/assets/2 (1) (1) (1) (1) (1) (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1) (1) (1) (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## In AWS SNS: Create a topic and a Subscription <a href="#create-topic" id="create-topic"></a>
 

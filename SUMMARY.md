@@ -260,6 +260,7 @@
     * [Zoom Meeting Integration](integrations/outbound-integrations/zoom/zoom-meeting-integration.md)
 * [Deployment integrations](integrations/deployment-integrations/README.md)
   * [API deployment pipeline](integrations/deployment-integrations/api.md)
+  * [Argo CD deployment pipeline](integrations/deployment-integrations/argo-cd-deployment-pipeline.md)
   * [Github deployment pipeline](integrations/deployment-integrations/github.md)
   * [GitLab deployment pipeline](deployment-integrations/gitlab.md)
 

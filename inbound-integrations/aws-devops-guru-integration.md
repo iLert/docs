@@ -8,7 +8,7 @@ AWS DevOps Guru provides insights into operational anomalies. Notifications are 
 
 ### Architecture <a href="#create-alert-source-2" id="create-alert-source-2"></a>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
 
 ## In ilert: Create an Amazon SNS alert source <a href="#create-alert-source-2" id="create-alert-source-2"></a>
 
@@ -34,12 +34,12 @@ AWS DevOps Guru provides insights into operational anomalies. Notifications are 
 
 1. On the sidebar, click on **Topics** **->** **Create topic**.&#x20;
 
-<figure><img src="../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Choose **Standard** and enter a topic **Name**.
 3. Save the topic.
 
-<figure><img src="../.gitbook/assets/2 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Now click on **Create subscription**.
 

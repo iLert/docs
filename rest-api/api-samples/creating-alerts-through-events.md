@@ -22,8 +22,8 @@ https://api.ilert.com/api/events
   "priority": "HIGH", // (optional) HIGH (with escalation), LOW (no escalation)
   "images": [{"src": "https://...jpeg"}], // (optional) absolute image urls, will be rendered in web/app UI
   "links": [{"href": "https://...", "text": "A link"}], // (optional) deeplinks into tools etc., will be rendered in web/app UI
-  "customDetails": { "some": { "more": "fields" }} // (optional) additional fields used for templating, sharing or storing information
-  "routingKey": "abc123", // (optional) overwrite escalation policy of alert source for ALERT events
+  "customDetails": { "some": { "more": "fields" }}, // (optional) additional fields used for templating, sharing or storing information
+  "routingKey": "abc123" // (optional) overwrite escalation policy of alert source for ALERT events
 }
 ```
 

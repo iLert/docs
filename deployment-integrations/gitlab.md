@@ -1,9 +1,9 @@
 ---
+icon: gitlab
 description: >-
   GitLab is a complete DevSecOps platform that streamlines collaboration and
   simplifies CI/CD, enabling teams to plan, develop, and deploy software in a
   single application
-icon: gitlab
 ---
 
 # GitLab deployment pipeline
@@ -16,11 +16,11 @@ GitLab is a complete DevSecOps platform that enables teams to collaborate on pla
 
 In any way, a pipeline is required, which will also generate a new `integrationKey` required to route deployment events when they occur. Head to your ilert account and navigate to **Alert sources -> Deployment events.**
 
-<figure><img src="../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Head over to the deployment pipelines tab and click on **Create new pipeline.**
 
-<figure><img src="../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Provide a name for your pipeline.
 
