@@ -1,6 +1,6 @@
 # Argo CD deployment pipeline
 
-
+With ilert Deployment integration for [Argo CD](https://argoproj.github.io/), you can display your deployment pipelines in ilert and enrich alerts’ context. Real-time visibility helps you quickly assess whether a recent deployment triggered an incident. This instant insight is essential for identifying issues as they occur, allowing for a faster response and minimizing downtime.
 
 ## Setting up
 
