@@ -171,6 +171,7 @@
   * [Icinga Integration](integrations/inbound-integrations/icinga.md)
   * [InfluxDB Integration](integrations/inbound-integrations/influxdb.md)
   * [Instana Integration](integrations/inbound-integrations/instana.md)
+  * [IT-Conductor Integration](integrations/inbound-integrations/itconductor.md)
   * [IXON Cloud Integration](integrations/inbound-integrations/ixon.md)
   * [Jira Inbound Integration](integrations/inbound-integrations/jira.md)
   * [JumpCloud Integration](integrations/inbound-integrations/jumpcloud.md)
