@@ -1,5 +1,7 @@
 # IT-Conductor Integration
 
+[IT-Conductor](https://www.itconductor.com/) is a patented, cloud-based service platform designed to monitor, manage, and orchestrate enterprise IT through intelligent automation.
+
 ## In ilert: Create an IT-Conductor alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1.  Go to **Alert sources** -> **Alert sources** and click **Create new alert source**.
