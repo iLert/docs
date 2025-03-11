@@ -40,27 +40,6 @@ With the native ilert notification integration in Checkmk, you can automatically
 
 ![](<../../../.gitbook/assets/Picture 4.png>)
 
-## FAQ <a href="#faq" id="faq"></a>
-
-**Which notification types are processed?**
-
-The plugin processes the notification types `PROBLEM` , `ACKNOWLEDGEMENT` and `RECOVERY`. The remaining Notification Types (including `FLAPPING*` and `DOWNTIME*`) are ignored.
-
-checkmk has the following alarm types:
-
-| Types             | Description                                 |
-| ----------------- | ------------------------------------------- |
-| PROBLEM           | Normal host or service problem              |
-| RECOVERY          | Host / service goes UP / OK again           |
-| ACKNOWLEDGMENT    | Acknowledgment of a problem                 |
-| FLAPPINGSTART     | A host / service begins to be discontinuous |
-| FLAPPINGSTOP      | End of discontinuity                        |
-| DOWNTIMESTART     | Start of scheduled maintenance.             |
-| DOWNTIMEEND       | Normal end of maintenance                   |
-| DOWNTIMECANCELLED | Premature termination of maintenance        |
-| CUSTOM            | Alarm triggered manually by command         |
-| ALERT HANDLER     | Alerthandler execution (CEE from 1.4.0i2)   |
-
 ## Optional: Bidirectional sync (acknowledges alerts in Checkmk)
 
 As the Checkmk API allows for host and service problems to be acknowledged, ilert offers a setting to configure your Checkmk alert source in bidirectional mode. This will automatically create a connector and alert action for your alert source that will pipe accept events and comments from ilert to Checkmk and acknowledge the problem related to the ilert alert.\
@@ -81,7 +60,15 @@ As the Checkmk API allows for host and service problems to be acknowledged, iler
 You cannot add bidirectional mode after an alert source has already been created. You will have to create a new alert source. Bidirectional mode cannot be enabled through the API.
 {% endhint %}
 
-## FAQ
+## FAQ <a href="#faq" id="faq"></a>
+
+**Which notification types are processed?**
+
+The plugin processes the notification types `PROBLEM` , `ACKNOWLEDGEMENT` and `RECOVERY`. The remaining Notification Types (including `FLAPPING*` and `DOWNTIME*`) are ignored.
+
+checkmk has the following alarm types:
+
+<table><thead><tr><th>Types</th><th width="371.5">Description</th></tr></thead><tbody><tr><td>PROBLEM</td><td>Normal host or service problem</td></tr><tr><td>RECOVERY</td><td>Host / service goes UP / OK again</td></tr><tr><td>ACKNOWLEDGMENT</td><td>Acknowledgment of a problem</td></tr><tr><td>FLAPPINGSTART</td><td>A host / service begins to be discontinuous</td></tr><tr><td>FLAPPINGSTOP</td><td>End of discontinuity</td></tr><tr><td>DOWNTIMESTART</td><td>Start of scheduled maintenance.</td></tr><tr><td>DOWNTIMEEND</td><td>Normal end of maintenance</td></tr><tr><td>DOWNTIMECANCELLED</td><td>Premature termination of maintenance</td></tr><tr><td>CUSTOM</td><td>Alarm triggered manually by command</td></tr><tr><td>ALERT HANDLER</td><td>Alerthandler execution (CEE from 1.4.0i2)</td></tr></tbody></table>
 
 \
 **Will alerts in ilert be resolved automatically?**
