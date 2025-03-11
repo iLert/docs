@@ -42,9 +42,13 @@ With the native ilert notification integration in Checkmk, you can automatically
 
 ## Optional: Bidirectional sync (acknowledges alerts in Checkmk)
 
+{% hint style="info" %}
+**Please note:** Bi-directional sync requires an [ilert Scale plan](https://www.ilert.com/pricing) or higher.
+{% endhint %}
+
 As the Checkmk API allows for host and service problems to be acknowledged, ilert offers a setting to configure your Checkmk alert source in bidirectional mode. This will automatically create a connector and alert action for your alert source that will pipe accept events and comments from ilert to Checkmk and acknowledge the problem related to the ilert alert.\
 \
-1\. Enable the **Bidirectional** checkbox during your alert sources creation.&#x20;
+1\. Enable the **Bi-directional** checkbox during your alert sources creation.&#x20;
 
 <figure><img src="../../../.gitbook/assets/bidirectional-option.png" alt="" width="563"><figcaption></figcaption></figure>
 
