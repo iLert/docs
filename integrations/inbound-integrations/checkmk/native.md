@@ -61,6 +61,29 @@ checkmk has the following alarm types:
 | CUSTOM            | Alarm triggered manually by command         |
 | ALERT HANDLER     | Alerthandler execution (CEE from 1.4.0i2)   |
 
+## Optional: Bidirectional sync (acknowledges alerts in Checkmk)
+
+As the Checkmk API allows for host and service problems to be acknowledged, ilert offers a setting to configure your Checkmk alert source in bidirectional mode. This will automatically create a connector and alert action for your alert source that will pipe accept events and comments from ilert to Checkmk and acknowledge the problem related to the ilert alert.\
+\
+1\. Enable the **Bidirectional** checkbox during your alert sources creation.&#x20;
+
+<figure><img src="../../../.gitbook/assets/bidirectional-option.png" alt="" width="563"><figcaption></figcaption></figure>
+
+\
+\
+2\. Enter your Checkmk Url into the **Url** field, and fill in an API user's information in the **Username** and **Password** fields.
+
+<figure><img src="../../../.gitbook/assets/metadata.png" alt="" width="563"><figcaption></figcaption></figure>
+
+
+
+{% hint style="info" %}
+You cannot add bidirectional mode after an alert source has already been created. You will have to create a new alert source. Bidirectional mode cannot be enabled through the API.
+{% endhint %}
+
+## FAQ
+
+\
 **Will alerts in ilert be resolved automatically?**
 
 Yes, as soon as the state of a host / service is UP or OK again in checkmk, the associated alert is resolved in ilert. If a problem is acknowledged in checkmk, the associated alert in ilert is set to the status Accepted.
