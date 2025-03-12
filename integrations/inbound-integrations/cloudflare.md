@@ -17,7 +17,7 @@ With ilert Cloudflare Integration, you can receive Cloudflare alert through iler
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
 2.  Search for **email** in the search field, click on the email tile and click on **Next**.&#x20;
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/1 (19).png" alt=""><figcaption></figcaption></figure>
 3. Give your alert source a name, optionally assign teams and click **Next**.
 4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
@@ -26,9 +26,9 @@ With ilert Cloudflare Integration, you can receive Cloudflare alert through iler
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
 6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
-7.  On the final page, an API key and / or webhook URL will be generated that you will need later in this guide.
+7.  On the final page, an **Integration email** will be generated that you will need later in this guide.
 
-    <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/2 (17).png" alt=""><figcaption></figcaption></figure>
 
 ## In Cloudflare: Create a notification
 
