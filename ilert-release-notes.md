@@ -10,6 +10,46 @@ description: >-
 These notes get usually updated retrospectively within the first week of the following month _e.g. all November releases are added by 5th December_.
 {% endhint %}
 
+## February 2025
+
+### New features and improvements
+
+* We have launched a **new signup and onboarding experience**
+* The **user edit view** and **profile edit view** have been **overhauled** and use the new UI stack
+* We now show **user profile cards** on hover in alert and incident views
+* The **alert source create wizard** has new category options and **improved** search and setup features
+* **Status pages** support **Posthog** and **Google Analytics** tags
+* Static schedule edit view is now on the new UI stack
+
+### Mobile app
+
+* Completely **new alert list and alert detail experience** with tab separation and floating action toolbar
+* **Coverage request** now support **avatars** on iOS push notifications
+* Contact sync now respects and supports limited access to contacts
+
+### Integration updates
+
+* **ArgoCD** deployment pipeline integration
+* **checkmk** now supports **bidirectional** integrations
+* **SAP** Focused Run inbound integration
+* **IT-Conductor** inbound integration
+
+## January 2025
+
+### New features and improvements
+
+* New **heartbeat** experience is in closed **BETA**, supporting millions of heartbeats with sub minute ping intervals and additional features like assigning multiple heartbeats to the same alert source for individual grouping mechanics
+* We have launched our **new alert reports in GA**, it is the first report that gets updated, stay tuned as we overhaul the rest of the reports with a completely new UI stack and additional features in the next weeks
+* We have released a new iteration of **Audience Specific Status Pages**, enhancing many of its features (such as branding or notification content filters) and making it even easier to setup complex pages
+* We added a new **detailed** information widget to incident coms **publish info**, showing exactly which resources and susbcribers are notified
+
+### Integration updates
+
+* **Site24x7** inbound integration
+* Autotask outbound supports custom body fields now
+* SNS inbound integration has been enhanced to support a new \_ilert.parsedMessage field, which can be used to access the keys of JSON messages in ilert templating configurations
+* Cisco Meraki now supports auto resolving of alerts
+
 ## December 2024
 
 ### New features and improvements
@@ -18,6 +58,7 @@ These notes get usually updated retrospectively within the first week of the fol
 * We have optimized the **call flow builder experience**, lots of internal and external feedback has been used to shape an even better UX when building flows, especially larger flows
 * Call flow "Route call" nodes now support a dedicated choice for **agent call timeout**s and the default has been reduced from 60 to 45 seconds (Note: the legacy call routing solution has always used 60 seconds)
 * There is a new call flow node **Agentic Concierge**, it has moved into closed BETA. It replaces your IVR menus and more; use a real-time AI agent to communicate with your caller to identify the callers intent and gather additional information, use the identified intent to decide your branch flow. Let us know if you would like to try it out, before it moves into GA.
+* We launched **ilert wrapped 2024, hope you had a great year with us** :)
 
 ## November 2024
 
