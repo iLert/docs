@@ -36,9 +36,11 @@ ilert's Maintenance Windows feature allows users to schedule downtime for alert 
 
 Keeping subscribers informed is pivotal for maintaining trust. With ilert's flexible notification settings, you can ensure that your subscribers are always in the loop about any scheduled downtimes:
 
-* **Immediate Notification**: This is beneficial for any urgent maintenance windows or for those that you want to give your subscribers ample time to prepare for.
-* **Start Notification**: A gentle reminder that a scheduled downtime is commencing.
-* **End Notification**: Inform subscribers once the service is back online.
+* **Immediate notification**: This is beneficial for any urgent maintenance windows or for those that you want to give your subscribers ample time to prepare for.
+* **24 hours before the maintenance starts**.
+* **1 hour before this maintenance starts.**
+* **Start notification**: A gentle reminder that a scheduled downtime is commencing.
+* **End notification**: Inform subscribers once the service is back online.
 
 ### Using incident templates
 

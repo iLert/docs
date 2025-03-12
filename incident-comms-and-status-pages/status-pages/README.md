@@ -46,9 +46,19 @@ Both cases work by using the **ilert incidents** alert action on an alert source
 [https://www.youtube.com/@ilertVideos](https://www.youtube.com/@ilertVideos)
 {% endembed %}
 
-## Status Page Layout Options
+## Status page appearance
 
-### Service groups: how to group related services together
+You can adjust the appearance of your status page to reflect your company brand. Choose between light and dark mode and upload your logotype and favicon.
+
+<figure><img src="../../.gitbook/assets/pika-1741771045530-2x.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+**Note:** If you are using a private (including audience-specific) status page, your logotype, name of the page, and favicon will also be visible on the login page of your status page.&#x20;
+{% endhint %}
+
+## Status page layout options
+
+#### Service groups: how to group related services together
 
 Service groups let you group related services together on a status page. This allows users to quickly see the overall health of a system and identify any issues that may be impacting multiple services.
 
@@ -73,7 +83,7 @@ Use the following settings on a service group and service to further customize h
 
 <figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
 
-### Services layout: single vs responsive columns
+#### Services layout: single vs responsive columns
 
 You can choose between two layout options for displaying services on your status page.&#x20;
 
@@ -128,6 +138,16 @@ Whenever possible, please **turn off Cloudflare proxying** (the orange cloud, al
 #### 3. Wait for the changes to take effect
 
 You might need to wait 1-48 hours for the DNS changes to take effect. This depends on the TTL setting of your DNS record and the time it takes until the DNS change is propagated throughout the internet.
+
+## Status page analytics
+
+For pages with custom domains, it is possible to use external analytics tools. External tools can help you gain insights into your status page's most common traffic channels and user behavior.&#x20;
+
+You can choose from two options—Google Analytics and Posthog. You need a key for both solutions to connect an analytics platform and ilert.&#x20;
+
+{% hint style="info" %}
+Please beware that using external analytics often requires user agreement with data collection and processing. Consult with your legal department regarding the best approach to collecting information.
+{% endhint %}
 
 ## Embed the status of your status page on your website <a href="#faq" id="faq"></a>
 
