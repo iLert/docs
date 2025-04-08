@@ -48,7 +48,7 @@ If Samsara's fleet management system identifies a problem, such as a vehicle mal
 
 5. A new tab will open. Now click on **Manage**.
 
-<figure><img src="../../.gitbook/assets/3-3.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3-3 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 6. Click on **Add Webhook**.
 

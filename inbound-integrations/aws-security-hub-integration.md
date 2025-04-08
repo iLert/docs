@@ -71,7 +71,7 @@ AWS Security Hub generates finding events that are relayed by AWS EventBridge. I
 
 1. On the sidebar click on **Event buses** and then on **Create rule**.
 
-<figure><img src="../.gitbook/assets/6-2.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6-2 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Enter a Name for the rule.
 

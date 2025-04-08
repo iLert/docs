@@ -30,15 +30,15 @@
 
 <figure><img src="../../.gitbook/assets/2-2 (2).png" alt=""><figcaption></figcaption></figure>
 
-3. Now select **Webhook**.
+3. Now select **ilert**.
 
-<figure><img src="../../.gitbook/assets/3-2 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3-3.png" alt=""><figcaption></figcaption></figure>
 
 4. Now enter a **Name** and the previously in ilert created alert source url into the **URL** field.
 5. Optional: click on **Send test notification**, to test.
 6. Save the notification channel.
 
-<figure><img src="../../.gitbook/assets/4-2 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4-3.png" alt=""><figcaption></figcaption></figure>
 
 7. Navigate to **Alerting** -> **Notifications**.
 8. Create a **new notification rule** or **Edit** an existing one.
@@ -48,7 +48,7 @@
 9. In the **Notification channels** tab, click on **Add notification channel** and select the previously created notification channel.
 10. Click on **Save**.
 
-<figure><img src="../../.gitbook/assets/6 (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6-2.png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 
