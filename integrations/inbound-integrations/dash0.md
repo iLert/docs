@@ -1,4 +1,12 @@
+---
+description: >-
+  Dash0 is an AI-powered, OpenTelemetry-native observability tool for fast
+  incident analysis.
+---
+
 # Dash0 Integration
+
+Detect an issue in [Dash0](https://www.dash0.com/) and mobilize the right team members in ilert to resolve incidents with minimal downtime.
 
 ## In ilert: Create a Dash0 alert source&#x20;
 
@@ -22,7 +30,7 @@
 
 ## In Dash0: Create a  Notification channel
 
-1. In the sidebar navigate to the company Settings.
+1. In the sidebar, navigate to the company Settings.
 
 <figure><img src="../../.gitbook/assets/1-2 (3).png" alt=""><figcaption></figcaption></figure>
 
@@ -34,8 +42,8 @@
 
 <figure><img src="../../.gitbook/assets/3-3.png" alt=""><figcaption></figcaption></figure>
 
-4. Now enter a **Name** and the previously in ilert created alert source url into the **URL** field.
-5. Optional: click on **Send test notification**, to test.
+4. Enter a **Name** and the previously created alert source URL into the **URL** field.
+5. Optional: Click on **Send test notification** to test.
 6. Save the notification channel.
 
 <figure><img src="../../.gitbook/assets/4-3.png" alt=""><figcaption></figcaption></figure>
@@ -45,8 +53,8 @@
 
 <figure><img src="../../.gitbook/assets/5 (13).png" alt=""><figcaption></figcaption></figure>
 
-9. In the **Notification channels** tab, click on **Add notification channel** and select the previously created notification channel.
-10. Click on **Save**.
+9. In the **Notification channels** tab, click **Add notification channel** and select the previously created notification channel.
+10. Click **Save**.
 
 <figure><img src="../../.gitbook/assets/6-2.png" alt=""><figcaption></figcaption></figure>
 
@@ -54,4 +62,4 @@
 
 **Will alerts in ilert be resolved automatically?**
 
-Yes, as soon as Dash0 sends a notification with type "alert.resolved", corresponding alerts in ilert will be resolved automatically.
+Yes, as soon as Dash0 sends a notification with the type "alert.resolved", corresponding alerts in ilert will be resolved automatically.
