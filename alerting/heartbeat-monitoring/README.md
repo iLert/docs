@@ -6,8 +6,6 @@ description: The simplest way to monitor service, device or workflow health.
 
 ilert's heartbeat alert sources allow you to monitor services, devices, or workflows easily — depending only on an HTTPS outbound connection. It checks whether your systems or services are still running by expecting regular signals, and you get alerted automatically when those signals stop, indicating a failure or outage.&#x20;
 
-There are two ways to start monitoring via ilert heartbeat. Log into your account, click **Alert sources**, and **Create alert source**.
-
 To start monitoring via ilert heartbeat, log into your ilert account, click Alert sources, and find **Heartbeat monitors** in the dropdown menu. Then, click **Create heartbeat monitor**.
 
 <figure><img src="../../.gitbook/assets/Heartbeat monitor 02.png" alt="ilert Heartbeat monitor creation"><figcaption></figcaption></figure>
@@ -28,7 +26,7 @@ The heartbeat timer starts once the first ping is received. The heartbeat monito
 
 If you need to update the monitor, click the **pencil** icon. You can also delete your monitor using the same menu by clicking the bin icon.&#x20;
 
-To adjust alerting settings for your newly created Heartbeat monitor, go to Alert sources —> Alert sources and choose Heartbeat monitoring. You could have many heartbeats pointing to the same alert source and have unified alerting settings for all of them.
+To adjust alerting settings for your newly created Heartbeat monitor, go to **Alert sources**, then, again, **Alert sources,** and choose **Heartbeat** from the list of integrations. You can have many heartbeats pointing to the same alert source and have unified alerting settings for all of them.
 
 <figure><img src="../../.gitbook/assets/Heartbeat monitoring 05.png" alt="create ilert heartbeat monitoring"><figcaption></figcaption></figure>
 
