@@ -303,7 +303,7 @@ A loop is written in the same way as a section. It begins with a hash `#` and en
 <pre class="language-mustache"><code class="lang-mustache">
 <strong>{{ #nested }}
 </strong>{{ name }}
-{{ #nested }}
+{{ /nested }}
 </code></pre>
 {% endtab %}
 {% endtabs %}
