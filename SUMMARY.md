@@ -148,6 +148,7 @@
     * [Email Key Extraction and Resolve Examples](integrations/inbound-integrations/email/email-key-extraction-and-resolve-examples.md)
     * [Automatically resolve Alerts with Emails](integrations/inbound-integrations/email/automatically-resolve-incidents-with-emails.md)
   * [FreshService Integration](integrations/inbound-integrations/freshservice.md)
+  * [Gatus Integration](integrations/inbound-integrations/gatus.md)
   * [GitHub Integration](integrations/inbound-integrations/github/README.md)
     * [GitHub Advanced Security Integration](integrations/inbound-integrations/github/github-advanced-security-integration.md)
     * [GitHub Inbound Check Run (Actions) Integration](integrations/inbound-integrations/github/inbound-check-run-actions.md)

@@ -34,7 +34,7 @@ AWS Security Hub generates finding events that are relayed by AWS EventBridge. I
 
 
 
-    <figure><img src="../.gitbook/assets/il-1 (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/il-1 (1) (1) (1) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## In AWS Security Hub: Create a Custom action <a href="#create-topic" id="create-topic"></a>
 
