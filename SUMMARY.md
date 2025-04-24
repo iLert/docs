@@ -210,6 +210,7 @@
   * [Push Notifications](integrations/inbound-integrations/push-notification.md)
   * [RapidSpike Integration](inbound-integrations/rapidspike.md)
   * [Raygun Integration](integrations/inbound-integrations/raygun.md)
+  * [Rollbar Integration](integrations/inbound-integrations/rollbar.md)
   * [Salesforce Integration](integrations/inbound-integrations/salesforce.md)
   * [Samsara Integration](integrations/inbound-integrations/samsara.md)
   * [Search Guard Integration](integrations/inbound-integrations/search-guard.md)
