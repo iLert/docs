@@ -269,6 +269,12 @@
   * [Github deployment pipeline](integrations/deployment-integrations/github.md)
   * [GitLab deployment pipeline](deployment-integrations/gitlab.md)
 
+## Reports
+
+* [Overview](reports/overview.md)
+* [Alerts](reports/alerts.md)
+* [On-call duties](reports/on-call-duties.md)
+
 ## API <a href="#rest-api" id="rest-api"></a>
 
 * [API Reference](https://api.ilert.com/api-docs/)
