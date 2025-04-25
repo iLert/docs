@@ -125,7 +125,7 @@ By using notification priority, you can easily customise your alert notification
 
 ### Support hours based notification priority
 
-ilert also lets you dynamically set the notification priority based on the alert source's [support hours](support-hours.md). This lets you, for instance, use more obstrusive notification methods like phone calls outside of business hours and use not so obstrusive ones during business hours.
+ilert also lets you dynamically set the notification priority based on the alert source's [support hours](support-hours.md). This lets you, for instance, use more obtrusive notification methods like phone calls outside of business hours and use not so obtrusive ones during business hours.
 
 <figure><img src="../.gitbook/assets/Screenshot 2023-12-04 at 12.48.44.png" alt=""><figcaption></figcaption></figure>
 
@@ -145,7 +145,7 @@ With dynamic priority mapping, you can use alert fields to extract and map notif
 To enable dynamic priority mapping
 
 1. Click on **Alert sources -> Alert sources** and choose an alert source to edit
-2. Scroll down to the section **Notification priority** and check **Enable dynamic prioriuty mapping**
+2. Scroll down to the section **Notification priority** and check **Enable dynamic priority mapping**
 3. Enter template to to extract the priority field from the alert payload
 4. Add priority mappings. A priority mapping maps an extracted value from the alert payload to the ilert priority
 
@@ -161,7 +161,7 @@ Sometimes flagging alerts as low priority is not enough and it is necessary to d
 
 <figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
 
-You may choose between properties of the known **ilert event payload** such as priority or summary, some more **advanced dynamic fields** like **trigger counts** which allow you define your own rate limits as well as **schedules** and **support hours** to fine tune accept windows - and of course **custom payload fields**.
+You may choose between properties of the known **ilert event payload** such as priority or summary, some more **advanced dynamic fields** like **trigger counts** which allow you to define your own rate limits as well as **schedules** and **support hours** to fine tune accept windows - and of course **custom payload fields**.
 
 If you wish for even more customization you can switch the UI into the code editor mode and get full access to the ICL, find out more about it here:
 
@@ -181,7 +181,7 @@ There are 5 types of alert grouping available:
 * Time-based grouping
 * Grouping until accepted
 * Grouping until resolved
-* ilert AI similiarity based grouping
+* ilert AI similarity based grouping
 
 ### Native integration based grouping
 

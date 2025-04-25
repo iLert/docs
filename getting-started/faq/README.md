@@ -4,7 +4,7 @@
 
 ilert is a software for alerting, on-call management and incident comms and helps dev and ops teams to increase the uptime of critical services. Core features of ilert include
 
-* **Reliable alerting** via voice, SMS, push notifications, Slack and more and frictionless acknowledgement, allowing you acknowledge an alert on the same channel where you reveived the alert (e.g. by replying to an SMS).
+* **Reliable alerting** via voice, SMS, push notifications, Slack and more and frictionless acknowledgement, allowing you to acknowledge an alert on the same channel where you received the alert (e.g. by replying to an SMS).
 * **On-call management & escalations**: easily manage on-call duty with on-call schedules and automatic escalations.
 * **Call routing:** route incoming calls using on-call schedules and escalation policies to the right on-call person.
 * **Incident comms & status pages:** effectively communicate incidents to stakeholders and external users

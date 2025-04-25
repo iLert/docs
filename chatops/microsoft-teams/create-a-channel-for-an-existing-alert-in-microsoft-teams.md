@@ -12,7 +12,7 @@ description: >-
 Before you proceed, please make sure that a global admin has connected your Microsoft Teams workspace with your ilert account (as described in our [integration for Microsoft Teams guide](chat/#install-the-ilert-bot-application))
 {% endhint %}
 
-Our Microsoft Teams connector allows you to create a channel to an existing alert in Microsoft Teams, making it even easier for your team to discuss incidents in an more isolated environment.
+Our Microsoft Teams connector allows you to create a channel to an existing alert in Microsoft Teams, making it even easier for your team to discuss incidents in a more isolated environment.
 
 ### Creating a Microsoft Teams channel
 
@@ -20,7 +20,7 @@ Our Microsoft Teams connector allows you to create a channel to an existing aler
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-09 at 13.59.06.png" alt=""><figcaption></figcaption></figure>
 
-2. Now select a desired **Channel group**(Team) and enter a channel name.
+2. Now select a desired **Channel group** (Team) and enter a channel name.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-09 at 14.06.55.png" alt="" width="367"><figcaption></figcaption></figure>
 
@@ -48,7 +48,7 @@ Check out our step-by-step tutorial on Youtube
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-09 at 14.16.07.png" alt=""><figcaption></figcaption></figure>
 
-3. After detaching an alert from a channel, a message will be send to the detached channel.
+3. After detaching an alert from a channel, a message will be sent to the detached channel.
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-09 at 14.21.22.png" alt=""><figcaption></figcaption></figure>
 

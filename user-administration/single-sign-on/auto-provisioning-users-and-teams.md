@@ -48,4 +48,4 @@ It works by checking the provided SAML attribute field right before the auto pro
 Note that role here is just an example, you may use any kind of SAML response attribute that you prefer to set. The value does not matter as well.
 {% endhint %}
 
-As an admin or account manager, this gives you an additional option to controll the auto provisioning flow and you can make sure users that want/need to be onboarded are properly setup with their requirements before e.g. making sure a certain user is auto-provisioned with the correct role and team before his first login.
+As an admin or account manager, this gives you an additional option to control the auto provisioning flow and you can make sure users that want/need to be onboarded are properly setup with their requirements before e.g. making sure a certain user is auto-provisioned with the correct role and team before his first login.

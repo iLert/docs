@@ -34,7 +34,7 @@ Below is a list and description of each scope used by our bot:
 #### 4. `ChannelMember.Read.All` <a href="#id-4-channelmemberreadall" id="id-4-channelmemberreadall"></a>
 
 * **Description:** Allows reading the list of members in each channel.
-* **Use Case:** Necessary for bot that actions based on channel membership e.g. alert acknolegment.
+* **Use Case:** Necessary for bot that actions based on channel membership e.g. alert acknowledgment.
 
 #### 5. `ChannelMember.ReadWrite.All` <a href="#id-5-channelmemberreadwriteall" id="id-5-channelmemberreadwriteall"></a>
 
@@ -49,7 +49,7 @@ Below is a list and description of each scope used by our bot:
 #### 7. `Directory.Read.All` <a href="#id-7-directoryreadall" id="id-7-directoryreadall"></a>
 
 * **Description:** Allows reading data in your organization's directory, such as users, groups, and apps.
-* **Use Case:** Required for the bot to get basic information about a user who is active in ilert and microsoft teams, and then combine those activities together.
+* **Use Case:** Required for the bot to get basic information about a user who is active in ilert and Microsoft Teams, and then combine those activities together.
 
 #### 8. `Group.ReadWrite.All` <a href="#id-8-groupreadwriteall" id="id-8-groupreadwriteall"></a>
 
@@ -64,7 +64,7 @@ Below is a list and description of each scope used by our bot:
 #### 10. `User.Read.All` <a href="#id-11-userreadall" id="id-11-userreadall"></a>
 
 * **Description:** Allows reading basic profiles of all users in your organization.
-* **Use Case:**  Required for the bot to get basic information about a user who is active in ilert and microsoft teams, and then combine those activities together.
+* **Use Case:**  Required for the bot to get basic information about a user who is active in ilert and Microsoft Teams, and then combine those activities together.
 
 
 

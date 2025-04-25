@@ -39,7 +39,7 @@ Users can create or modify entities like alert sources or on-call schedules; how
 
 ### Admin
 
-An Admin is a **User** with elevated priviliges. He may not access or modify the account settings. However, he can create and modify **Users** as well as **Teams**, he may also change the role of **Users,** and can create and edit connectors\*\*.\*\* An **Admin** has the right to add and remove team ownerships to/from resources.
+An Admin is a **User** with elevated privileges. He may not access or modify the account settings. However, he can create and modify **Users** as well as **Teams**, he may also change the role of **Users,** and can create and edit connectors\*\*.\*\* An **Admin** has the right to add and remove team ownerships to/from resources.
 
 ### Account Owner
 

@@ -7,7 +7,7 @@ description: >-
 # iOS Critical Alerts Configuration
 
 {% hint style="info" %}
-Note: this guide is meant for iOS users only. For Android, please refer to [this page](android-push-notification-dnd-configuration.md)
+Note: this guide is meant for iOS users only. For Android, please refer to [this page](android-push-notification-dnd-configuration.md).
 {% endhint %}
 
 ## Setting up critical alerts on iPhones and iPads
@@ -22,23 +22,23 @@ Note: this guide is meant for iOS users only. For Android, please refer to [this
 <img src="../../../.gitbook/assets/IMG_1405.jpg" alt="" data-size="original">
 
 {% hint style="warning" %}
-Note that only high priority alerts will be delivered as critical alerts. Alerts with low priority will use low priority notification settings
+Note that only high priority alerts will be delivered as critical alerts. Alerts with low priority will use low priority notification settings.
 {% endhint %}
 
 ## Are you an Apple Watch User?
 
 {% hint style="danger" %}
-When wearing your apple watch, critical notifications will not appear on your phone, but on your watch and they will not use the custom sound as well as override volume settings. To prevent missing alerts you will have to make additional adjustments to your watch's settings.
+When wearing your Apple Watch, critical notifications will not appear on your phone, but on your watch and they will not use the custom sound as well as override volume settings. To prevent missing alerts you will have to make additional adjustments to your watch's settings.
 {% endhint %}
 
 * Open your **Watch** app on your iPhone
 
-![](<../../../.gitbook/assets/IMG\_1402 (1).jpg>)
+![](<../../../.gitbook/assets/IMG_1402 (1).jpg>)
 
 * Navigate to **Notifications**
 
-![](../../../.gitbook/assets/IMG\_1404.jpg)
+![](../../../.gitbook/assets/IMG_1404.jpg)
 
 * Scroll down in the list to find the **ilert** app and disable the watch notifications for the app.
 
-This will enforce critical alerts to be sent to your iPhone even if you are wearing your Apple watch.
+This will enforce critical alerts to be sent to your iPhone even if you are wearing your Apple Watch.

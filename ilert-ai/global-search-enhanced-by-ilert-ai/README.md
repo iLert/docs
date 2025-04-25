@@ -9,7 +9,7 @@ icon: magnifying-glass-waveform
 
 ### Searching for resources
 
-ilert global search is a super fast way to access any resource in your ilert account. No matter if master data like alert sources or dynamic data such as alerts or incidents.
+ilert global search is a superfast way to access any resource in your ilert account. No matter if master data like alert sources or dynamic data such as alerts or incidents.
 
 <figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 
@@ -37,7 +37,7 @@ Note that by hovering a result you can see the full text of the item
 
 You may use the search without interacting with your mouse.
 
-1. Press `CTRL / CMD + K` to open the seach bar
+1. Press `CTRL / CMD + K` to open the search bar
 2. Enter your search term
 3. Press Enter to open the detail view of the first top result
 

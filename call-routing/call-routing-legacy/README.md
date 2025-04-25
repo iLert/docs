@@ -27,7 +27,7 @@ When picking up the call, the agent may decide to accept or decline the call. If
 {% hint style="info" %}
 **Escalation timeouts in the escalation policy will be ignored**
 
-Please note that escalation timeouts in escalation policies are skipped for policies that are used as routing options - as a call always happens in real time. If an agent declines a call, the next agent in the policy will be called immediately, withouth waiting for the configured escalation timeout to elapse.
+Please note that escalation timeouts in escalation policies are skipped for policies that are used as routing options - as a call always happens in real time. If an agent declines a call, the next agent in the policy will be called immediately, without waiting for the configured escalation timeout to elapse.
 {% endhint %}
 
 #### Randomly selecting the user to call

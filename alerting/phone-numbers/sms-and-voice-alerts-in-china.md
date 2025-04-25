@@ -27,8 +27,8 @@ With the help of our platform solution and our partners ilert still tries to off
 ## Which alternatives are available?
 
 * Push notifications using the ilert mobile app for iOS or Android. Did you know, we offer iOS critical alerts and override DND mode for Android?
-* Webhooks and outbound integrations can help you piping alerts through third-party or custom solutions
+* Webhooks and outbound integrations can help you pipe alerts through third-party or custom solutions
 
 {% hint style="info" %}
-We are regularly validating additional options to move the chinese calling experience up to the same level as the rest of the global ilert call features.
+We are regularly validating additional options to move the Chinese calling experience up to the same level as the rest of the global ilert call features.
 {% endhint %}

@@ -1,6 +1,6 @@
 # Static schedules
 
-Static schedules work like regular calendars and do not support recurring shifts. Use simple schedules if you have no recurring pattern in your on-call organization and want to regulary update your schedule.
+Static schedules work like regular calendars and do not support recurring shifts. Use simple schedules if you have no recurring pattern in your on-call organization and want to regularly update your schedule.
 
 ## Create a static schedule
 

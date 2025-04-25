@@ -1,6 +1,6 @@
 ---
 description: >-
-  Two improve your account's security, ilert suggests that you setup two-factor
+  Two improve your account's security, ilert suggests that you set up two-factor
   authentication for it. We especially encourage Account owners or Admins to use
   MFA.
 ---
@@ -22,9 +22,9 @@ Most used / common authenticator apps:
 | Authy                   | [Link](https://apps.apple.com/de/app/twilio-authy/id494168017)            | [Link](https://play.google.com/store/apps/details?id=com.authy.authy\&hl=de\&gl=US)                        |
 | Microsoft Authenticator | [Link](https://apps.apple.com/de/app/microsoft-authenticator/id983156458) | [Link](https://play.google.com/store/apps/details?id=com.azure.authenticator\&hl=de\&gl=US)                |
 
-### FaceID, TouchID, Apple Watch or other device authentication
+### Face ID, Touch ID, Apple Watch or other device authentication
 
-Even if you are not in posession of a hardware token like a Yubico Security Key, you may choose the option "Use security key" with supporting Apple or Microsoft devices that offer biometrical authentication sensors e.g. TouchID or double-tap on Apple Watch. Do not forget that you have to register and validate again, meaning **you will be asked to verify twice during the setup** of this 2FA option.
+Even if you are not in possession of a hardware token like a Yubico Security Key, you may choose the option "Use security key" with supporting Apple or Microsoft devices that offer biometrical authentication sensors e.g. Touch ID or double-tap on Apple Watch. Do not forget that you have to register and validate again, meaning **you will be asked to verify twice during the setup** of this 2FA option.
 
 ### Hardware tokens / FIDO (U2F) Keys
 
@@ -32,8 +32,8 @@ If available you may select "**Use security key**" option with your U2F / [WebAu
 
 ## FAQ
 
-### I lost my authenticator app / TOPT generator / device how can I access my account?
+### I lost my authenticator app / TOTP generator / device how can I access my account?
 
-If you have lost your app or device you may use your recovery-codes, handed out during initial setup of your 2FA to get access to the account. **Note**: you were handed out 5 recovery codes only and each becomes burnt when it is used. So it is highly adviced to immediately use the recovery codes to access and remove 2FA from your account (requires at least 2 recovery codes). Once removed you may setup 2FA again using a new device / app.
+If you have lost your app or device you may use your recovery-codes, handed out during initial setup of your 2FA to get access to the account. **Note**: you were handed out 5 recovery codes only and each becomes burnt when it is used. So it is highly advised to immediately use the recovery codes to access and remove 2FA from your account (requires at least 2 recovery codes). Once removed you may set up 2FA again using a new device / app.
 
 In case you were using a FIDO device or you have lost / burnt your recovery codes you will need to contact [ilert support](../contact.md#support) providing additional details of verification e.g. passport to have 2FA reset from your account.

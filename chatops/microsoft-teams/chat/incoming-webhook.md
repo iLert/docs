@@ -15,7 +15,7 @@ description: >-
 {% endhint %}
 
 {% hint style="warning" %}
-If possible we suggest to use [iLert's Microsoft Teams Bot](./) for the setup, this guide and integration is only suggested in case you do not want to grant any permissions to ilert
+If possible we suggest to use [ilert's Microsoft Teams Bot](./) for the setup, this guide and integration is only suggested in case you do not want to grant any permissions to ilert
 {% endhint %}
 
 ## In Microsoft Teams: Add an ilert Connector to a channel <a href="#add-to-channel" id="add-to-channel"></a>
@@ -70,11 +70,7 @@ To set up the integration, you must have admin rights in ilert.
 
 1. Click the gear icon → **Connectors**
 
-<div data-full-width="false">
-
-<figure><img src="../../../.gitbook/assets/9 (1) (1).png" alt="" width="177"><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/9 (1) (1).png" alt="" width="177"><figcaption></figcaption></figure></div>
 
 2. Click **Create Connector**
 3. Select **Microsoft Teams** as **Type**. Assign a name for the connector, enter the URL from [above](incoming-webhook.md#add-to-channel) and save it.

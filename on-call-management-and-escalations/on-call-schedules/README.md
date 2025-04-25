@@ -7,7 +7,7 @@ description: Maximize accountability and transparency with on-call schedules
 Use schedules to dynamically determine to whom an alert will be assigned to based on the time of the day. A few things to know about schedules:
 
 * Only one user per schedule can be on-call at a time.
-* Schedules are used in escalation policies. The members of a schedule will only be notified about inidents, if the schedule is part of an escalation policy.
+* Schedules are used in escalation policies. The members of a schedule will only be notified about incidents, if the schedule is part of an escalation policy.
 * To preserve the history of a schedule, any changes to schedules apply to current and future dates only. Shifts that are in the past cannot be deleted or modified.
 * Schedules can be embedded into any calendar application that supports the iCal format.
 
@@ -40,7 +40,7 @@ ilert offers two types of schedules - **recurring and static schedules**, which 
 {% hint style="info" %}
 **Responder role permissions required**
 
-Overrides can be added by users with **Responder** role privileges. A responder can only add themself as an override. Users with **User** privileges can add any user as an override.
+Overrides can be added by users with **Responder** role privileges. A responder can only add themselves as an override. Users with **User** privileges can add any user as an override.
 {% endhint %}
 
 Overrides are one-time changes to a schedule. Example uses of overrides include
@@ -55,12 +55,12 @@ The main benefits of overrides are that they are easy to add, they do not change
 To schedule an override in the web app
 
 1. Navigate to a schedule detail view
-2. Click on the **Schedule override** button or click on click on a shift in the timeline view
+2. Click on the **Schedule override** button or click on a shift in the timeline view
 3. In the **Schedule override** dialog, select the user to you want to add as an override
 
 ![](<../../.gitbook/assets/image (30) (1).png>)
 
-Overrides can be deleted and overriden by another override. To delete an override, click on the override shift on the timeline, and then on the red **x** icon:
+Overrides can be deleted and overridden by another override. To delete an override, click on the override shift on the timeline, and then on the red **x** icon:
 
 ![](<../../.gitbook/assets/image (31).png>)
 
@@ -97,8 +97,8 @@ The on-call status is based on the selected policy levels from the [My on-call s
 
 If an alert occurs during a time with no coverage in your schedule, then the alert will be escalated immediately to the next escalation level, without waiting for the escalation timeout. If no one is on-call on the entire escalation policy, no one will be notified.
 
-#### Can I choose my own shift colour?
+#### Can I choose my own shift color?
 
-Yes, you can change your shift colour in your profile settings. Click on your avatar in the navigation bar --> Contact details.
+Yes, you can change your shift color in your profile settings. Click on your avatar in the navigation bar --> Contact details.
 
 <figure><img src="../../.gitbook/assets/image (2) (2) (1).png" alt=""><figcaption></figcaption></figure>

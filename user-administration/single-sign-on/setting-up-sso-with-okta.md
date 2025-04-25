@@ -7,7 +7,7 @@ description: >-
 
 # Setting up SSO with Okta
 
-When starting with Okta Apps things can be a bit complicated and overwhelming. In this guide we take your from zero to your own Okta SAML App that integrates with ilert's SSO login.
+When starting with Okta Apps things can be a bit complicated and overwhelming. In this guide we take you from zero to your own Okta SAML App that integrates with ilert's SSO login.
 
 ## Creating an SAML Application
 
@@ -39,15 +39,15 @@ SSO with SAML requires your account to be on a Premium or Enterprise Plan, pleas
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-02-07 at 11.07.07 (1).png" alt=""><figcaption></figcaption></figure>
 
-Copy your **SAML Endpoint URL** and **Audience Restriction** values into the Okta SAML App settings, than choose **EmailAddress** in the **Name ID format** section. Scroll to bottom and click on the **Next** button
+Copy your **SAML Endpoint URL** and **Audience Restriction** values into the Okta SAML App settings, then choose **EmailAddress** in the **Name ID format** section. Scroll to bottom and click on the **Next** button.
 
 ![](../../.gitbook/assets/okta7.png)
 
-On the next page choose **I'm an Okta customer adding an internal app** in the **Are you a customer or partner?** section and **This is an internal app that we have created** in the **App type** section, than click on the **Finish** button
+On the next page choose **I'm an Okta customer adding an internal app** in the **Are you a customer or partner?** section and **This is an internal app that we have created** in the **App type** section, then click on the **Finish** button.
 
 ![](../../.gitbook/assets/okta8.png)
 
-Before continuing with the the setup, make sure that the application username update settings are adjusted accordingly. This prevents the loss of account bindings in case of username updates in Okta. _(You can read more about these bindings at the end of this page)_
+Before continuing with the setup, make sure that the application username update settings are adjusted accordingly. This prevents the loss of account bindings in case of username updates in Okta. _(You can read more about these bindings at the end of this page)_
 
 ![](<../../.gitbook/assets/Screenshot 2020-08-17 at 15.07.14.png>)
 
@@ -63,17 +63,17 @@ Transfer the values to ilert's SSO settings
 
 ![](../../.gitbook/assets/okta11.png)
 
-Save the the ilert SSO settings. SSO is now configured, however to make the login process work properly you will have to do one more thing.
+Save the ilert SSO settings. SSO is now configured, however to make the login process work properly you will have to do one more thing.
 
 ## Adding Okta Users to your Okta SAML App
 
-Right now both your ilert account and your Okta App are properly configured. However you have not yet added any users to your app, which means no one is able to login currently. Lets change that.
+Right now both your ilert account and your Okta App are properly configured. However you have not yet added any users to your app, which means no one is able to login currently. Let's change that.
 
-Head to your app's **Assignments** and click on the **Assign** button and than on the **Assign to People** button (or **Assign to Groups**)
+Head to your app's **Assignments** and click on the **Assign** button and then on the **Assign to People** button (or **Assign to Groups**)
 
 ![](../../.gitbook/assets/okta12.png)
 
-Click on the **Assign** button beside your users that should be able to login to your ilert account. Confirm the assignment afterwards and click on the **Done** button
+Click on the **Assign** button beside your users that should be able to login to your ilert account. Confirm the assignment afterwards and click on the **Done** button.
 
 ![](../../.gitbook/assets/okta13.png)
 
@@ -87,7 +87,7 @@ Your users should now be able to login to ilert using their Okta accounts.
 
 ### Auto-provisioning Okta Users in ilert
 
-You can easily auto-provision users on their first SSO login by enabling the checkbox for **Provision new users on first sso login** in your ilert account's settings. This way user accounts will be automatically setup with the role **User** in ilert. Keep in mind that this will require your account to have enough seats booked.
+You can easily auto-provision users on their first SSO login by enabling the checkbox for **Provision new users on first SSO login** in your ilert account's settings. This way user accounts will be automatically setup with the role **User** in ilert. Keep in mind that this will require your account to have enough seats booked.
 
 ### Disable login with username and password
 
@@ -95,9 +95,9 @@ You can optionally disable the login for username and password combinations on y
 
 ### Understanding Okta <-> ilert account bindings
 
-Okta connects to your LDAP or OAuth2.0 or other identitiy provider and gives you quick access to import or export these users and groups for different kinds of applications, such as ilert.
+Okta connects to your LDAP or OAuth2.0 or other identity provider and gives you quick access to import or export these users and groups for different kinds of applications, such as ilert.
 
-When assigning a user in Okta to your ilert application, Okta creates a binding based on the configured application settings. If setup correctly, as described in this guide, this should be based on the username, which by default is the primary email address of the selected user. (These assignments are indivual for each relationship of a user and an application).
+When assigning a user in Okta to your ilert application, Okta creates a binding based on the configured application settings. If setup correctly, as described in this guide, this should be based on the username, which by default is the primary email address of the selected user. (These assignments are individual for each relationship of a user and an application).
 
 ![](<../../.gitbook/assets/Screenshot 2020-08-17 at 15.00.54.png>)
 
@@ -116,9 +116,9 @@ In ilert itself the Okta assigned application user name will be read from the SA
 In case of a username change, Okta might inform you in some cases that the changed user still exists and has to be deprovisioned manually from the application itself, however you can ignore these warnings.
 
 {% hint style="info" %}
-Please note that the email address can be changed without breaking the login or account binding. However the notifications of the ilert user will still be send to the old email address. The ilert user can safely change the email address for his notifications under profile settings.
+Please note that the email address can be changed without breaking the login or account binding. However the notifications of the ilert user will still be sent to the old email address. The ilert user can safely change the email address for his notifications under profile settings.
 {% endhint %}
 
 ### Passing additional attributes during auto-provisioning
 
-Besides the `NameID` you may pass additional parameters for the user or the team to be automatically setup on the first login, please checkout our [auto provisioning section](auto-provisioning-users-and-teams.md).
+Besides the `NameID` you may pass additional parameters for the user or the team to be automatically setup on the first login, please check out our [auto provisioning section](auto-provisioning-users-and-teams.md).

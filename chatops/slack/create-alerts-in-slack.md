@@ -21,7 +21,7 @@ There are two ways to configure the alert creation feature in Slack:
 
 ### Option 1: Restrict to Slack users with an ilert account
 
-Once you have our Slack app installed in your Slack workspace, any Slack user with an ilert account can create an alert from any channel by invoking the the `/il-alert` slash command.
+Once you have our Slack app installed in your Slack workspace, any Slack user with an ilert account can create an alert from any channel by invoking the `/il-alert` slash command.
 
 <figure><img src="../../.gitbook/assets/image (1) (1) (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
@@ -49,11 +49,7 @@ You can let any Slack user (even if they don't have an ilert account) create an 
 /il-alert
 ```
 
-<div align="center">
-
-<figure><img src="../../.gitbook/assets/image (1) (6).png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../../.gitbook/assets/image (1) (6).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% embed url="https://www.youtube.com/watch?v=6NBcBElT5rI" %}
 Check out our step-by-step tutorial on Youtube

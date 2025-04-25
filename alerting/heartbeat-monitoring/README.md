@@ -10,7 +10,7 @@ To start monitoring via ilert heartbeat, log into your ilert account, click Aler
 
 <figure><img src="../../.gitbook/assets/Heartbeat monitor 02.png" alt="ilert Heartbeat monitor creation"><figcaption></figcaption></figure>
 
-Assing new monitor to the [team](https://docs.ilert.com/user-administration/teams), name it, and choose an [alert source](https://docs.ilert.com/alerting/alert-sources) that will trigger an alert if the heartbeat ping is overdue.&#x20;
+Add new monitor to the [team](https://docs.ilert.com/user-administration/teams), name it, and choose an [alert source](https://docs.ilert.com/alerting/alert-sources) that will trigger an alert if the heartbeat ping is overdue.&#x20;
 
 Choose an interval after which the heartbeat will create an alert through the given alert source if it does not receive a response. You can choose between seconds, minutes, and hours.
 

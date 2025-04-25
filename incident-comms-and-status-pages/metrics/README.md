@@ -16,7 +16,7 @@ A metric is a numerical value that can track anything over time, such as API res
 
 ilert provides two ways to display a metric
 
-1. Line graph (optionally with an aggreated value)
+1. Line graph (optionally with an aggregated value)
 2. Single number
 
 ### Line Graph
@@ -27,7 +27,7 @@ Here's an example of a metric visualized as a line graph:
 
 * **Display name**: The name of the metric that will be displayed on the status page
 * **Period:** A metric can be visualized over a period of 24 hours (day), 7 days (week) or 28 days (month).
-* **Aggregated value:** An single value that combines all values over the selected period by applying an aggregration function. The aggregated value is shown in the top right corner of the graph and can be hidden. ilert provides four aggregations that you can choose from:
+* **Aggregated value:** An single value that combines all values over the selected period by applying an aggregation function. The aggregated value is shown in the top right corner of the graph and can be hidden. ilert provides four aggregations that you can choose from:
   * AVG: the arithmetic average of all values over the selected period
   * SUM: the arithmetic sum of all values over the selected period
   * MIN: the minimum value of all values over the selected period
@@ -35,11 +35,11 @@ Here's an example of a metric visualized as a line graph:
 * **Display unit:** this unit will be shown as a suffix. Note that this unit is just for display purposes and can be left empty.
 
 {% hint style="info" %}
-**Interval aggregration in graphs (aka rollup aggregration)**
+**Interval aggregation in graphs (aka rollup aggregation)**
 
-ilert stores a large number of data points per metric (up to one datapoint every 30 seconds). In most cases, there are more data points than what can be visualized on a graph. Therefore, ilert aggregates the values by combining them in time intervals. For example, when selecting Month as period, data points are aggregated into 2 hour intervals. To aggreate the values, ilert uses the same aggregation function that you select for the summary display in the right corner of the graph.
+ilert stores a large number of data points per metric (up to one datapoint every 30 seconds). In most cases, there are more data points than what can be visualized on a graph. Therefore, ilert aggregates the values by combining them in time intervals. For example, when selecting Month as period, data points are aggregated into 2 hour intervals. To aggregate the values, ilert uses the same aggregation function that you select for the summary display in the right corner of the graph.
 
-**Periods and Aggreation Intervals**
+**Periods and Aggregation Intervals**
 
 * Month - 2 hours
 * Week - 30 minutes
@@ -64,13 +64,13 @@ Here's an example of a metric that is displayed as a single number:
 
 <figure><img src="../../.gitbook/assets/Single metric.png" alt=""><figcaption></figcaption></figure>
 
-Metrics that are displayed as a single number provide the same aggregration functions from above. Additionally, you can chose to display the last reported value (i.e. the value with the latest timestamp).
+Metrics that are displayed as a single number provide the same aggregation functions from above. Additionally, you can choose to display the last reported value (i.e. the value with the latest timestamp).
 
 ## Create a metric
 
 1. In the main navigation bar, click on **Status pages** (or **Incident comms**) --> **Metrics**
 2. Click on the **Create metric** button
-3. Chose your metric data source. You can either submit metric data using our [Series API](https://api.ilert.com/api-docs/#tag/Series/paths/\~1series\~1{key}/post) or import metrics from a 3rd party metrics provider such as [Datadog](import-metrics-from-datadog.md) or [Prometheus](import-metrics-from-prometheus.md).
+3. Choose your metric data source. You can either submit metric data using our [Series API](https://api.ilert.com/api-docs/#tag/Series/paths/~1series~1{key}/post) or import metrics from a 3rd party metrics provider such as [Datadog](import-metrics-from-datadog.md) or [Prometheus](import-metrics-from-prometheus.md).
 4. Configure your metric and click **Save**
 
 ## Add a metric to status page
@@ -78,7 +78,7 @@ Metrics that are displayed as a single number provide the same aggregration func
 Once you have created a metric, you can add the metric to any of your status pages.
 
 1. Navigate to the status page to which you want to include the metric
-2.  Go to the the **Metrics** tab, click on the **Add metric** button and select the metrics that you would like to add to the status page.
+2.  Go to the **Metrics** tab, click on the **Add metric** button and select the metrics that you would like to add to the status page.
 
     <figure><img src="../../.gitbook/assets/Screen Shot 2022-10-20 at 15.47.08.png" alt=""><figcaption></figcaption></figure>
 3. The metric will now be displayed on your status page. You can change the order of metrics by reordering the metrics in the metrics tab of the status using drag and drop.
@@ -109,7 +109,7 @@ curl -L -X POST 'https://api.ilert.com/api/series/ilm110229945419465b5494fxxxxxx
 
 Note that the timestamp value is omitted in the JSON payload. In this case, the current time stamp will be used.
 
-Our API also support submitting multiple data points at once. Refer to our [API documentation](https://api.ilert.com/api-docs/#tag/Series/paths/\~1series\~1{key}/post) for more information.
+Our API also support submitting multiple data points at once. Refer to our [API documentation](https://api.ilert.com/api-docs/#tag/Series/paths/~1series~1{key}/post) for more information.
 
 {% hint style="info" %}
 **ilert's Metric Data Storage**

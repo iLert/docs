@@ -12,8 +12,6 @@ description: >-
 
 You can find information on our domains, notification email addresses, phone numbers below. We suggest whitelisting these in your tools and email clients.
 
-## &#x20;<a href="#web-services" id="web-services"></a>
-
 ## SMS phone numbers <a href="#sms-alerts" id="sms-alerts"></a>
 
 The number that ilert uses to send SMS notifications depends on the target country:
@@ -67,7 +65,7 @@ The number that ilert uses to send voice notifications depends on the target cou
 
 ### Inbound <a href="#email-services" id="email-services"></a>
 
-ilert's inbound architecture is highly distributed and spread across different datacenters and regions. While it is possible to temporarily whitelist the IP blocks used, it is not recommended to do so. Inbound IPs are dynamic and though mostly reserved might change at any time.
+ilert's inbound architecture is highly distributed and spread across different data centers and regions. While it is possible to temporarily whitelist the IP blocks used, it is not recommended to do so. Inbound IPs are dynamic and though mostly reserved might change at any time.
 
 ### Outgoing webhooks (alert actions) <a href="#email-services" id="email-services"></a>
 

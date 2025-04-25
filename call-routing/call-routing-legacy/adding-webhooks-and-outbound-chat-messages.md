@@ -22,14 +22,14 @@ You will then be able to create a new outbound connection for your call routing 
 ![](<../../.gitbook/assets/image (21).png>)
 
 {% hint style="info" %}
-Some alert actions (when setup for the first time) will require you to create a connector first (an entity that keeps your third party tool's secrets and urls safe) when selecting them in the menu, ilert will automatically take you to the create screen of these connectors.
+Some alert actions (when setup for the first time) will require you to create a connector first (an entity that keeps your third party tool's secrets and URLs safe) when selecting them in the menu, ilert will automatically take you to the create screen of these connectors.
 {% endhint %}
 
 For the sake of this tutorial we stick to the webhook type which does not require a connector.
 
 ![](<../../.gitbook/assets/image (23).png>)
 
-Make sure the **automatic** type is chosen, fill out your desired **label** and add the webhook's **url**.\
+Make sure the **automatic** type is chosen, fill out your desired **label** and add the webhook's **URL**.\
 Every incoming call that creates an alert will now also send the webhook including details to your third party system.
 
 Read more on alert actions [here](../../#connectors-and-incident-actions-outbound-integrations).

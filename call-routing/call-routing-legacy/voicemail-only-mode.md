@@ -4,6 +4,6 @@ The `Voicemail only mode` option will skip any greeting and IVR menu and send ev
 
 ![](<../../.gitbook/assets/image (17).png>)
 
-In case the message is detected to be english, a transcription, as well as the audio itself, will be appended to the alert in ilert.
+In case the message is detected to be English, a transcription, as well as the audio itself, will be appended to the alert in ilert.
 
 You may also like to [trigger further external tools based on incoming call routing alerts](adding-webhooks-and-outbound-chat-messages.md).

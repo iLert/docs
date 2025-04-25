@@ -26,7 +26,7 @@ In case your account requires a large number of teams, the team filter will auto
 
 The team filter is also available in the mobile app:
 
-![](<../.gitbook/assets/IMG\_7069 (3).jpeg>)
+![](<../.gitbook/assets/IMG_7069 (3).jpeg>)
 
 The team filter selection is stored for each user and synced across devices—meaning users will always continue where they left off, even when changing from desktop to mobile app.
 
@@ -157,7 +157,7 @@ Further restriction of resource permissions to a user will reflect onto shared r
 
 ### When using ilert, am I required to configure teams?
 
-No, you don't have to. Teams are meant to be an enhancement for larger organizations and enterprises to keep their users productive. When no teams are created in your account, the team-specific ui elements won't be shown, and you may use and share all resources globally across your account by default.
+No, you don't have to. Teams are meant to be an enhancement for larger organizations and enterprises to keep their users productive. When no teams are created in your account, the team-specific UI elements won't be shown, and you may use and share all resources globally across your account by default.
 
 ### Why is there no Guest team role?
 

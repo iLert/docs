@@ -15,7 +15,7 @@ Open the search by clicking on its icon at the top bar or press CTRL/CMD + K. Th
 **Click** on a matching alert in the search results.
 
 {% hint style="info" %}
-If your result hits an already resolved alert, try again, or widen your search in the category to find a PENDING alert. You may also of course just click on on such an alert in the list view if you can identify it directly.
+If your result hits an already resolved alert, try again, or widen your search in the category to find a PENDING alert. You may also of course just click on such an alert in the list view if you can identify it directly.
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>

@@ -58,7 +58,7 @@ Once you have configured an automation's settings, any alert that will be create
 
 By default, a service's historical uptime is shown and you can choose to hide service uptime on the status page. If you'd like to globally disable historical uptime, thus preventing any status page from displaying the historical uptime, you can do so in the service settings:
 
-1. Go the services page and click on the service for which you wan to hide the uptime
+1. Go the services page and click on the service for which you want to hide the uptime
 2. In the **Settings** tab, check the option **Never show historical uptime** ![](<../.gitbook/assets/Screenshot 2023-12-01 at 12.56.38.png>)
 3. Click on **Save**
 
@@ -66,7 +66,7 @@ By default, a service's historical uptime is shown and you can choose to hide se
 
 The uptime percentage of a service is calculated based on the status of the service over a given period. ilert displays the uptime over a period of up to 90 days. We consider the states **Operational**, **Degraded** and **Under maintenance** as uptime. The states **Major outage** and **Partial outage** are counted as downtime, where partial outage minutes only count 30% as much as major outages.
 
-Over a period _t_, the uptime percentage is calculated according the the following formula:
+Over a period _t_, the uptime percentage is calculated according the following formula:
 
 $$
 u=1-{m+(p*0.3) \above{1pt} t}

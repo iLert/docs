@@ -67,11 +67,11 @@ Here are the steps to create this schedule:
 
 1. Pick a **timezone** for the schedule. The timezone applies to all layers and cannot be edited after creation. In the above example, we select "America/Los\_Angeles"
 2. Create a layer for the US team:
-   * select the desired **users**, **rotation,** and **start time**. Note that the start time also denotes the handoff time between shifts. You can also pick a date in the past.
+   * Select the desired **users**, **rotation,** and **start time**. Note that the start time also denotes the handoff time between shifts. You can also pick a date in the past.
    * Restrict on-call to **specific times of the day**. In the above example, the US team is on-call every day from 9:00 AM - 9:00 PM
    * Optionally, enter a **name** for this layer by clicking on the pen icon in the header.
 3. Click on the **Add schedule layer** link to create another schedule layer for the EU team:
-   * select the desired **users**, **rotation,** and **start time**. Because shifts for the EU team start at 9:00 PM, we select 9:00 PM. Note that all times are local to the scheduled timezone "America/Los\_Angeles", i.e. 9:00 PM in "America/Los\_Angeles" is 6:00 AM in "Europe/Berlin" timezone.
+   * Select the desired **users**, **rotation,** and **start time**. Because shifts for the EU team start at 9:00 PM, we select 9:00 PM. Note that all times are local to the scheduled timezone "America/Los\_Angeles", i.e. 9:00 PM in "America/Los\_Angeles" is 6:00 AM in "Europe/Berlin" timezone.
    * Restrict on-call to **specific times of the day**. In the above example, the EU team is on-call every day from 9:00 PM - 9:00 AM.
    * Optionally enter a **name** for this layer.
 
@@ -89,11 +89,11 @@ The steps to create the schedule:
 
 1. Pick a **timezone** for the schedule. The timezone applies to all layers and cannot be edited after creation. In the above example, we select "Europe/Berlin"
 2. Create a layer for the users that are on-call on weekdays
-   * select the desired **users**, **rotation,** and **start time**. Note that the start time also denotes the handoff time between shifts. We select Monday 9:00 AM as the start time / shift handover-
+   * Select the desired **users**, **rotation,** and **start time**. Note that the start time also denotes the handoff time between shifts. We select Monday 9:00 AM as the start time / shift handover-
    * Restrict on-call to **specific times of the week** and add "Mon 9:00 - Fri 17:00"
    * Optionally, enter a **name** for this layer by clicking on the pen icon in the header.
 3. Click on the **Add schedule layer** link to create another schedule layer for the weekend shifts:
-   * select the desired **users**, **rotation,** and **start time**. Because shifts o the weekend start on Fridays 5:00 PM, we select Fri 5:00 PM for the start time.
+   * Select the desired **users**, **rotation,** and **start time**. Because shifts o the weekend start on Fridays 5:00 PM, we select Fri 5:00 PM for the start time.
    * Restrict on-call to **specific times of the week** and add "Fri 17:00 - Mon 09:00."
    * Optionally enter a **name** for this layer.
 
@@ -121,7 +121,7 @@ Whenever you need to make structural changes to the way you organize on-call, yo
 
 To edit an existing schedule ...
 
-1. click **On-call scheduling** -> **On-call schedules** in the navigation bar.
+1. Click **On-call scheduling** -> **On-call schedules** in the navigation bar.
 2. Select the desired schedule by clicking on the pen icon. Make sure it's a recurring schedule.
 
 You can now make the changes to the layer directly (e.g. add another team member) and select the date for the changes to take effect:

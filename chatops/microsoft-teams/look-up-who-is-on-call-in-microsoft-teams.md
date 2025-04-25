@@ -1,5 +1,5 @@
 ---
-description: Check who is on-call right from Microsoft Teams using  @ilert oncall command.
+description: Check who is on-call right from Microsoft Teams using @ilert oncall command.
 ---
 
 # Look up who is on-call in Microsoft Teams

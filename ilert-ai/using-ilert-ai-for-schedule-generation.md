@@ -15,10 +15,10 @@ While the assistant will automatically guide you, by asking questions for missin
 <figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 * who should be on call and at which time of the week or day?
-* what is the rotation every day, every week or bi weekly?
+* what is the rotation every day, every week or biweekly?
 * when does the schedule start and does it end or is it constantly ongoing?
 
-When the assistant has gathered all information required to setup the schedule for you it will process for a little moment and provide you with a button to **Generate the schedule**
+When the assistant has gathered all information required to set up the schedule for you, it will process for a little moment and provide you with a button to **Generate the schedule**
 
 <figure><img src="../.gitbook/assets/image (4) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 

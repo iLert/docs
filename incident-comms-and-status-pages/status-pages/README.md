@@ -143,7 +143,7 @@ You might need to wait 1-48 hours for the DNS changes to take effect. This depen
 
 For pages with custom domains, it is possible to use external analytics tools. External tools can help you gain insights into your status page's most common traffic channels and user behavior.&#x20;
 
-You can choose from two options—Google Analytics and Posthog. You need a key for both solutions to connect an analytics platform and ilert.&#x20;
+You can choose from two options—Google Analytics and PostHog. You need a key for both solutions to connect an analytics platform and ilert.&#x20;
 
 {% hint style="info" %}
 Please beware that using external analytics often requires user agreement with data collection and processing. Consult with your legal department regarding the best approach to collecting information.

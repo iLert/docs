@@ -31,7 +31,7 @@
 
 #### In Datadog
 
-1. Find the the metric you want to import to ilert, e.g. by opening a dashboard.&#x20;
+1. Find the metric you want to import to ilert, e.g. by opening a dashboard.&#x20;
 2.  Click on **Edit this widget**
 
 
@@ -44,14 +44,14 @@
     <figure><img src="../../.gitbook/assets/Screenshot 2022-11-24 at 23.48.31.png" alt=""><figcaption></figcaption></figure>
 
 
-4.  Copy the metric query. You will need the query below in ilert
+4.  Copy the metric query. You will need the query below in ilert.
 
 
 
     <figure><img src="../../.gitbook/assets/Screenshot 2022-11-24 at 23.53.00.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Note that metrics in ilert are are not dimensional. Therefore, only Datadog metrics without grouping can be imported. See the Datadog documentation on [Anatomy of a metric query](https://docs.datadoghq.com/metrics/#anatomy-of-a-metric-query).
+Note that metrics in ilert are not dimensional. Therefore, only Datadog metrics without grouping can be imported. See the Datadog documentation on [Anatomy of a metric query](https://docs.datadoghq.com/metrics/#anatomy-of-a-metric-query).
 
 <img src="../../.gitbook/assets/Screenshot 2022-11-24 at 23.59.35 (1).png" alt="" data-size="original">
 
@@ -74,7 +74,7 @@ while this query is supported
     <figure><img src="../../.gitbook/assets/Screenshot 2022-11-25 at 00.11.33.png" alt=""><figcaption></figcaption></figure>
 
 
-3.  On the next screen, enter a metric name, a display unit and paste the metric query from step 4 above. Click **Save** to preview your metric data
+3.  On the next screen, enter a metric name, a display unit and paste the metric query from step 4 above. Click **Save** to preview your metric data.
 
 
 

@@ -12,14 +12,14 @@ Each user defines in their profile how they will be notified about alerts, incid
 A user with admin rights can also change the notification settings for other users.&#x20;
 {% endhint %}
 
-Before you can receive notifications from ilert, your need to:
+Before you can receive notifications from ilert, you need to:
 
 1. Add notification contacts (such as an email address or phone number) and activate support channels (e.g. SMS, WhatsApp)
-2. Define notification rules, e.g. "for every high prio alert, first send me an SMS and call me after 5 minutes, if I do not respond to the alert".
+2. Define notification rules, e.g. "for every high priority alert, first send me an SMS and call me after 5 minutes, if I do not respond to the alert".
 
 ### Add notification contacts and activate supported channels
 
-ilert lets you add email addresses, phone numbers and push notification devices that you can use to setup notification channels.
+ilert lets you add email addresses, phone numbers and push notification devices that you can use to set up notification channels.
 
 {% hint style="info" %}
 ilert creates one email contact based on your login email by default. Push notification devices will appear automatically once you login to ilert via one of our mobile apps for Android or iOS.

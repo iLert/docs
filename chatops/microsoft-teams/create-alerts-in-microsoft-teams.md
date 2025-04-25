@@ -60,7 +60,7 @@ You can let any Microsoft Teams user (even if they don't have an ilert account) 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-08-09 at 09.07.10.png" alt=""><figcaption></figcaption></figure>
 
 {% embed url="https://www.youtube.com/watch?v=OcVYZpqM0iw" %}
-Check out our step-by-step tutorial on Youtube
+Check out our step-by-step tutorial on YouTube
 {% endembed %}
 
 ## FAQ

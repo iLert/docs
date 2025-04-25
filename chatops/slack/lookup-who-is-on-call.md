@@ -2,7 +2,7 @@
 description: Lookup who is on-call right from Slack using our /il-oncall Slash command.
 ---
 
-# Lookup who is on-call
+# Look up who is on-call
 
 {% hint style="info" %}
 **Connect your Slack workspace with ilert first**
@@ -12,14 +12,14 @@ Before you proceed, please make sure that a global admin has connected your Slac
 
 ### Overview
 
-The `/il-oncall` Slash command lets you lookup who is on-call from any Slack channel. There are two ways to configure the on-call lookup feature in Slack:
+The `/il-oncall` Slash command lets you look up who is on-call from any Slack channel. There are two ways to configure the on-call lookup feature in Slack:
 
 1. **Restrict lookup to Slack users with an ilert account**: This mode doesn't require any additional configuration other than installing our Slack app (as described in the [integration for Slack guide](./)).&#x20;
-2. **Allow any Slack user to lookup who is on-call:** This method requires the creation of a dedicated Slack alert source in ilert and allows you to control the Slack channels where users will be able to lookup who is on-call. One way to use this feature is for example to configure the lookup for every team channel and letting any Slack user use the `/il-oncall` command to lookup the on-call responder for that team, without having to know the names of the escalation policy for that team.
+2. **Allow any Slack user to lookup who is on-call:** This method requires the creation of a dedicated Slack alert source in ilert and allows you to control the Slack channels where users will be able to look up who is on-call. One way to use this feature is for example to configure the lookup for every team channel and letting any Slack user use the `/il-oncall` command to look up the on-call responder for that team, without having to know the names of the escalation policy for that team.
 
 ### Option 1: Restrict to Slack users with an ilert account
 
-Once you have our Slack app installed in your Slack workspace, any Slack user with an ilert account can lookup the on-call responder for any escalation policy or alert source by invoking the the `/il-oncall` slash command.
+Once you have our Slack app installed in your Slack workspace, any Slack user with an ilert account can look up the on-call responder for any escalation policy or alert source by invoking the `/il-oncall` slash command.
 
 <figure><img src="../../.gitbook/assets/image (75).png" alt="" width="563"><figcaption></figcaption></figure>
 
@@ -42,7 +42,7 @@ You can let any Slack user (even if they don't have an ilert account) lookup who
 
     <figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
 4. Save your changes.
-5. Now any Slack user in your workspace will be able to lookup who is on-call from the configured channels. The lookup will be limited to the pre-configured escalation policies. To lookup who is on-call, use the following the slash command in the configured Slack channel
+5. Now any Slack user in your workspace will be able to look up who is on-call from the configured channels. The lookup will be limited to the pre-configured escalation policies. To lookup who is on-call, use the following the slash command in the configured Slack channel
 
 ```
 /il-oncall

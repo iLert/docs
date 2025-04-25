@@ -21,7 +21,7 @@ Under your **profile** settings (in web or mobile app) navigate to **Notificatio
 * open the **Navigation** in your app (top left icon)
 * tap on the cog icon (top right in navigation) to open the **Settings** menu
 * tap on Push notification settings
-* select a custom sound (if desired) for **High** and **low priority** notifications (make sure that the radio button in the sound list is selected, just playing back the sound wont change your settings)
+* select a custom sound (if desired) for **High** and **low priority** notifications (make sure that the radio button in the sound list is selected, just playing back the sound won't change your settings)
 * ensure you have enabled the toggle for **Critical alerts for high priority**
 * adjust **Critical alerts volume** to your needs
 

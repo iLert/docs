@@ -20,7 +20,7 @@ If a user is on-call by being directly included in the escalation policy, then o
 
 <figure><img src="../../.gitbook/assets/image (1) (4).png" alt=""><figcaption></figcaption></figure>
 
-* **My on-call calendar**: shows the shifts for the selected escalation policy levels. The date picker on the left lets you quickly navigate between months and jump to a specic date. Moreover, it highlights days for which you are on-call with an orange dot.
+* **My on-call calendar**: shows the shifts for the selected escalation policy levels. The date picker on the left lets you quickly navigate between months and jump to a specific date. Moreover, it highlights days for which you are on-call with an orange dot.
 * **My escalation policies** selector lets you select the escalation levels that you wish to see on-call entries for. Note that escalation policies are only included in the list; if you are a member and they are used by at least one alert source. Your selection preference will be remembered.
 * **Timezone** selector lets you change the time zone in which you view the on-call entries. By default, the timezone of your user profile is taken.
 * **Take on-call** lets you take someone else's on-call
@@ -43,8 +43,8 @@ To take someone else's on-call
 1. Click on the **Take on-call** button
 2. Select the user whose shifts you want to take over
 3. Select the date range for when you want to take over shifts
-4. All shifts from the selected user between the selected date range will be shown grouped by schedule. You can optionally deselect individual shifts that you don't want to take over. Moreover, you can chose to partially override a particular shift. Click the :pencil2: icon at the right to partially override the shift.
-5. Click on on the **Take on-call** button
+4. All shifts from the selected user between the selected date range will be shown grouped by schedule. You can optionally deselect individual shifts that you don't want to take over. Moreover, you can choose to partially override a particular shift. Click the :pencil2: icon at the right to partially override the shift.
+5. Click on the **Take on-call** button
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-04-24 at 22.34.08.png" alt=""><figcaption></figcaption></figure>
 
@@ -55,18 +55,18 @@ You can override your shifts
 * by selection the dates in the calendar with your mouse
 * by clicking on the **Override my shifts** button
 
-A pop up will appear showing you the shifts that will be affected by the override. You may change your end and start date and the affected shifts before finally scheduling any overrides.
+A pop-up will appear showing you the shifts that will be affected by the override. You may change your end and start date and the affected shifts before finally scheduling any overrides.
 
 <figure><img src="../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-* Overrides that are created from the **My on-call shifts** page can only by deleted individually by going to each on-call schedule.
+* Overrides that are created from the **My on-call shifts** page can only be deleted individually by going to each on-call schedule.
 * Overrides only apply for on-call schedules and don't replace you in escalation policies.
 {% endhint %}
 
 ### Exporting your on-call shifts as calendar events
 
-You can subscribe to your on-call shifts by copying the calendar subscription link into your calendar app (Google Calendar, Apple Calendar, Outlook, etc.). The calendar subscription will include all your all your current and future on-call shifts.
+You can subscribe to your on-call shifts by copying the calendar subscription link into your calendar app (Google Calendar, Apple Calendar, Outlook, etc.). The calendar subscription will include all your current and future on-call shifts.
 
 ![](<../../.gitbook/assets/Screenshot 2021-08-04 at 17.26.55.png>)
 

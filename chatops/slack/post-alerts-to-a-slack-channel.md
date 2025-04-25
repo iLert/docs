@@ -1,4 +1,4 @@
-# Post alerts to a Slack channel
+# Receive and respond to alerts in Slack
 
 {% hint style="info" %}
 **Connect your Slack workspace with ilert first**
@@ -39,7 +39,7 @@ Yes, the following updates for an alert are currently being published:
 
 #### **Can I choose which updates to an alert are published in Slack?**
 
-Yes, you can configure this in the altert source's Alert action settings.
+Yes, you can configure this in the alert source's Alert action settings.
 
 **Can I manage alert sources from private teams using the `/ilert` slash command?**
 
