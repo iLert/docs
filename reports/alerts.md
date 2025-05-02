@@ -38,6 +38,10 @@ _The legend colours for alert sources and escalation policies are generated base
 
 The chart tooltip appears when hovering over the chart. The tooltip displays the names and values of a specific data point. It is vertically scrollable when the list is longer. Click anywhere on the chart to see the alerts on that point.
 
+{% hint style="info" %}
+When **Group by** is **Alert Source** or **Escalation Policy**, the entries in the tooltip are sorted by descending value.
+{% endhint %}
+
 ### Metric data table
 
 View metrics grouped by day, week or month and optionally group by alert source or escalation policy by using the **Group by** filter. Click the CSV button to download the table in a CSV file.
