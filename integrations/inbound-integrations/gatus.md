@@ -1,4 +1,10 @@
+---
+description: Improve your MTTA and MTTR with ilert integration for Gatus
+---
+
 # Gatus Integration
+
+Gatus is an open-source tool for monitoring uptime, designed to help you track the health and availability of your applications. With the Gatus and ilert integration, alerts can be automatically triggered in ilert whenever Gatus detects downtime or performance problems.
 
 ## In ilert: Create a Gatus alert source&#x20;
 

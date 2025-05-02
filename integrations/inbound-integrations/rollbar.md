@@ -1,4 +1,10 @@
+---
+description: Resolve application errors quicker—with ilert and Rollbar
+---
+
 # Rollbar Integration
+
+[Rollbar](https://rollbar.com/) is a tool for debugging errors, enabling developers to quickly identify, understand, and resolve application issues. When integrated with ilert, Rollbar can automatically trigger alerts in ilert whenever it detects new errors or critical events.
 
 ## In ilert: Create a Rollbar alert source&#x20;
 
