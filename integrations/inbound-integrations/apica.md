@@ -1,4 +1,10 @@
+---
+description: Trigger alerts in ilert based on issues or outages detected by Apica
+---
+
 # Apica Integration
+
+[Apica](https://www.apica.io/) is a data management and observability platform that helps organizations collect, manage, and analyze telemetry data across complex systems. By integrating Apica with ilert, users can automatically trigger incidents based on anomalies or performance issues detected by Apica, ensuring timely alerts and faster incident resolution.
 
 ## In ilert: Create a Apica alert source&#x20;
 
