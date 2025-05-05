@@ -127,7 +127,7 @@ View the alerts, including their ID, summary, alert source, escalation policy, r
 <figure><img src="../.gitbook/assets/alert-report-details-layout.png" alt=""><figcaption><p>Page layout of alert details</p></figcaption></figure>
 
 1. Filter toolbar
-2. Table
+2. Table of alerts matching the filters
 3. Download CSV report
 
 #### Filter toolbar
@@ -140,7 +140,7 @@ The last filter appears if **Group by** is not **None**. Use this filter to view
 
 #### Table
 
-The table displays the details of alerts. TTA and TTR columns may contain a hyphen `-` when nobody accepts an alert, or the alert is not resolved yet.
+The table displays the alerts matching the filters in the toolbar. TTA and TTR columns may contain a hyphen `-` when nobody accepts an alert, or the alert is not resolved yet.
 
 {% hint style="info" %}
 The date format of **Reported on** column changes based on selected **Time granularity**. For example, when **Day** is selected, only time is shown. If **Week** or **Month** is selected, both date and time are shown.

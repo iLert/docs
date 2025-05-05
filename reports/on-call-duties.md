@@ -38,7 +38,7 @@ The chart tooltip appears when hovering over the chart. The tooltip displays the
 
 Each row represents a data point in the chart. Click the CSV button to download the table in a CSV file.
 
-There is another table under the tab “Shifts by day.” This table further groups the metrics by day.
+There is another table under the tab **Shifts by day**. This table further groups the metrics by day.
 
 ### Report parameters
 
@@ -100,18 +100,23 @@ _When one or more filters are set to Excludes, these filters take precedence ove
 
 View the alerts, including their ID, summary, alert source, escalation policy, reported date, TTA, and TTR.
 
-<figure><img src="../.gitbook/assets/On-call details.png" alt=""><figcaption><p>Page layout of alert details</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/on-call-report-details-layout.png" alt=""><figcaption><p>Page layout of alert details</p></figcaption></figure>
 
-1. Table
-2. Download CSV button
+1. Filter toolbar
+2. Table of alerts matching the filters
+3. Download CSV button
 
-#### Table
+#### Filter toolbar
 
-The table displays the details of alerts.
+The **Search** field allows you to filter the rows. It searches text in every column and matches by words.
 
-{% hint style="info" %}
-The date format of the **Reported On** column changes based on the selected **Time granularity**. For example, when **Day** is selected, only time is shown. If **Week** or **Month** is selected, both date and time are shown.
-{% endhint %}
+Use the **Responder** filter to see alerts responded by a certain user. Only users who responded in the selected **Date range** can be selectable.
+
+The last filter appears when opening the **Alert details** view from the table under the **Shifts by day** tab. Use this filter to choose from the days on which the selected responder responded on some alerts.
+
+#### Table of alerts matching the filters
+
+The table displays the alerts matching the filters in the toolbar.
 
 #### Download CSV button
 
