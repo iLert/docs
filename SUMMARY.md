@@ -13,9 +13,6 @@
 * [Dashboard](alerting/dashboard.md)
 * [Alert sources](alerting/alert-sources.md)
 * [Notification settings](alerting/notification-settings/README.md)
-  * [Critical Push Notifications and DND overrides](alerting/notification-settings/critical-push-notifications-and-dnd-overrides/README.md)
-    * [iOS Critical Alerts Configuration](alerting/notification-settings/critical-push-notifications-and-dnd-overrides/ios-critical-alerts-configuration.md)
-    * [Android Push Notification DND Configuration](alerting/notification-settings/critical-push-notifications-and-dnd-overrides/android-push-notification-dnd-configuration.md)
   * [Mute notifications](alerting/notification-settings/mute-notifications.md)
 * [Support hours](alerting/support-hours.md)
 * [Maintenance windows](alerting/maintenance-windows.md)
@@ -305,3 +302,12 @@
 
 * [Contact us](contact.md)
 * [ilert Release Notes](ilert-release-notes.md)
+
+## Mobile App
+
+* [Getting started with ilert mobile app](mobile-app/getting-started-with-ilert-mobile-app.md)
+* [Mobile app notification settings](mobile-app/mobile-app-notification-settings.md)
+* [Critical push notifications and DND overrides](mobile-app/critical-push-notifications-and-dnd-overrides/README.md)
+  * [iOS critical alerts configuration](mobile-app/critical-push-notifications-and-dnd-overrides/ios-critical-alerts-configuration.md)
+  * [Android Push Notification DND Configuration](mobile-app/critical-push-notifications-and-dnd-overrides/android-push-notification-dnd-configuration.md)
+* [On-call widget](mobile-app/on-call-widget.md)
