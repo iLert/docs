@@ -22,7 +22,7 @@ Site24x7 is a cloud-based monitoring solution that tracks the performance and av
 
 <figure><img src="../../.gitbook/assets/il-1-2.png" alt=""><figcaption></figcaption></figure>
 
-## In Site24x7: Create a ilert Webhook
+## In Site24x7: Create an ilert Webhook
 
 1. On the side bar, click on **Admin**.
 
