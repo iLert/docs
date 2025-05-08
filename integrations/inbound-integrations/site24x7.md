@@ -22,7 +22,7 @@ Site24x7 is a cloud-based monitoring solution that tracks the performance and av
 
 <figure><img src="../../.gitbook/assets/il-1-2.png" alt=""><figcaption></figcaption></figure>
 
-## In Site24x7: Create a Webhook
+## In Site24x7: Create a ilert Webhook
 
 1. On the side bar, click on **Admin**.
 
@@ -32,34 +32,28 @@ Site24x7 is a cloud-based monitoring solution that tracks the performance and av
 
 <figure><img src="../../.gitbook/assets/2 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
-3. Click on **Webhooks** -> **Integrate Now**.
+3. Click **ilert** -> **Integrate Now**.
 
-<figure><img src="../../.gitbook/assets/3.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3-2 (4).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Now enter an **Integration Name** and the [previously created alert source url](site24x7.md#in-ilert-create-a-site24x7-alert-source) in ilert into the **Hook URL** field.
-5. Choose **POST** as **HTTP Method** and enable the **Post as JSON** option.
 
-<figure><img src="../../.gitbook/assets/4.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4-2 (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
-6. Enable all options for **Trigger Alerts for Monitor Status Change**.
+5. Enable all options for **Trigger Alerts for Monitor Status Change**.
 
-<figure><img src="../../.gitbook/assets/5.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5-2 (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Note: The following steps are important for alert resolution in ilert.
+Note: The following step is important for alert resolution in ilert.
 {% endhint %}
 
-7. In **Manage Tickets Configuration** choose **Yes** for **Manage Tickets**. This step is mandatory for alert resolution coming from Site24x7.
+6. In **Manually Close Incidents When My Monitor Status Changes to Up** choose **Yes**. This step is mandatory for alert resolution coming from Site24x7.
 
-<figure><img src="../../.gitbook/assets/6.png" alt="" width="563"><figcaption></figcaption></figure>
-
-8. In the Close Request section: Enter the [previously created alert source url](site24x7.md#in-ilert-create-a-site24x7-alert-source) in ilert into the **Hook URL**.
-9. Choose **POST** as **HTTP Method** and enable the **Post as JSON** option.
-
-<figure><img src="../../.gitbook/assets/7.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6-2 (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 
 **Will alerts in ilert be resolved automatically?**
 
-Yes, as long as the Manage Tickets option is set to Yes and Close Request is configured, corresponding alerts in ilert will be resolved automatically.
+Yes, as long as the Manually Close Incidents When My Monitor Status Changes to Up option is set to Yes, corresponding alerts in ilert will be resolved automatically.
