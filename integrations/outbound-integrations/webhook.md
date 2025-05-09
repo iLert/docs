@@ -4,95 +4,118 @@ description: The ilert Webhook Integration helps you to easily connect ilert wit
 
 # Webhook Integration
 
-## In ilert: Create a webhook alert action <a href="#create-webhook" id="create-webhook"></a>
+## In iLert: Create a Webhook Alert Action <a href="#create-webhook" id="create-webhook"></a>
 
-1. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish via a webhook. Click on **Alert actions → Create new alert action**
+1. Navigate to the **Alert Sources** tab and open the alert source whose alerts you want to publish via a webhook. Click on **Alert Actions → Create New Alert Action**.
 
-![](<../../.gitbook/assets/new_incident_action (7).png>)
+   ![](<../../.gitbook/assets/new_incident_action (7).png>)
 
-2. Select **Webhook** as **type** and fill out all fields. In the **Filter Alert Events** field, select the alert events for which you want to receive a webhook call. Webhook events are sent as `HTTP POST` to the specified URL. The URL must be accessible from the internet. Click on **Save**.
+2. Select **Webhook** as the action **Type** and fill out the required fields. 
+   - In the **Filter Alert Events** field, select the alert events that should trigger a webhook call. 
+   - Webhook events are sent as `HTTP POST` requests to the specified URL. The URL must be publicly accessible.
+   - Click **Save** to finalize the setup.
 
-![](<../../.gitbook/assets/iLert (56).png>)
+   ![](<../../.gitbook/assets/iLert (56).png>)
 
-## Webhook payload <a href="#payload" id="payload"></a>
+## Webhook Payload <a href="#payload" id="payload"></a>
 
-A sample webhook payload can be seen below.\
-To get more information on the **status** or **eventType** fields, visit the _Template variables explained_ section of this page.
+When an alert event occurs, iLert sends a webhook request with a JSON payload. Below is an example of a webhook payload:
 
-```
+```json
 {
      "id": "2983781",
      "status": "ACCEPTED",
      "summary": "PROBLEM Host Alert: app.compute is DOWN",
      "details": "details",
-     "reportTime": "2019-08-29T09: 52: 39.551Z",
+     "reportTime": "2019-08-29T09:52:39.551Z",
      "eventType": "incident-acknowledged",
      "priority": "LOW",
-     "alertKey": "zabbix-12345"
+     "alertKey": "zabbix-12345",
      "alertSource": {
          "id": 2101194,
          "name": "Nagios Network and Hosts"
      },
      "assignedTo": {
          "username": "abr",
-         "email": " example@example.com ",
+         "email": "example@example.com",
          "firstName": "Andreas",
-         "lastName": "farmer"
+         "lastName": "Farmer"
      }
 }
 ```
 
-## Custom webhook payload / request body <a href="#custom" id="custom"></a>
+For more details on the **status** or **eventType** fields, refer to the _Template Variables Explained_ section.
 
-In case you want to customize the HTTP Post request body of your webhook, you can simply enable the custom fields option.
+## Custom Webhook Payload / Request Body <a href="#custom" id="custom"></a>
+
+You can customize the webhook's HTTP POST request body by enabling the **Custom Fields** option.
 
 ![](../../.gitbook/assets/Notification_Center.png)
 
-This will allow you to add any kind of custom body that you want to send. In case of an invalid template the border will become yellow or red.
+This allows you to define a custom payload. If the template is invalid, the border will turn yellow or red.
 
 ![](../../.gitbook/assets/wh5.png)
 
-In case of a valid template the border will turn green. As you may have noticed we also offer to use ilert related variables that will be swapped with the corresponding event related data when the request is made. These work, as described under the template field in simple mustache sytnax `{{ VARNAME }}`. Our editor will tell you if you are using the variables incorrectly.
+If the template is valid, the border will turn green. You can also use iLert-specific variables, formatted in **Mustache syntax** (`{{ VARNAME }}`), to dynamically replace data in the payload.
 
 ![](../../.gitbook/assets/wh6.png)
 
-## Template variables explained
+## Template Variables Explained
 
-| Variable key         | Description                                                                                                                                                     |
-| -------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| alertId              | The ID of the alert                                                                                                                                             |
-| alertKey             | ID used to identify the initial event that created the alert                                                                                                    |
-| alertDetails         | Full alert details                                                                                                                                              |
-| alertSummary         | Alert summary                                                                                                                                                   |
-| alertStatus          | PENDING, ACCEPTED or RESOLVED                                                                                                                                   |
-| alertPriority        | HIGH or LOW                                                                                                                                                     |
-| alertUrl             | URL that links to the alert in ilert                                                                                                                            |
-| alertSourceId        | The ID of the alert's alert source                                                                                                                              |
-| alertSourceName      | The name of the alert's alert source                                                                                                                            |
-| escalationPolicyId   | The ID of the escalation policy of the alert's alert source                                                                                                     |
-| escalationPolicyName | The name of the escalation policy of the alert's alert source                                                                                                   |
-| reportTime           | ISO-8601 representation of the alert report time                                                                                                                |
-| link                 | If present, the first link in the alert's payload e.g. links to the origin monitoring tool that send the event initially                                        |
-| eventType            | alert-created, alert-assigned, alert-auto-escalated, alert-auto-resolved, alert-acknowledged, alert-rejected, alert-raised, alert-comment-added, alert-resolved |
+The following table describes the available template variables for webhooks:
+
+| Variable Key        | Description                                                                                      |
+|---------------------|--------------------------------------------------------------------------------------------------|
+| `alertId`          | The unique ID of the alert.                                                                      |
+| `alertKey`         | The identifier for the initial event that created the alert.                                     |
+| `alertDetails`     | Full details of the alert.                                                                       |
+| `alertSummary`     | A brief summary of the alert.                                                                    |
+| `alertStatus`      | Status of the alert (`PENDING`, `ACCEPTED`, or `RESOLVED`).                                     |
+| `alertPriority`    | The alert's priority (`HIGH` or `LOW`).                                                          |
+| `alertUrl`        | A URL linking to the alert in iLert.                                                             |
+| `alertSourceId`   | The unique ID of the alert's source.                                                             |
+| `alertSourceName` | The name of the alert's source.                                                                  |
+| `escalationPolicyId`   | The ID of the escalation policy related to the alert source.                                 |
+| `escalationPolicyName` | The name of the escalation policy related to the alert source.                              |
+| `reportTime`      | The alert report timestamp in ISO-8601 format.                                                   |
+| `link`            | The first link found in the alert payload (e.g., a link to the originating monitoring tool).     |
+| `eventType`       | The type of event (`alert-created`, `alert-assigned`, `alert-auto-escalated`, etc.).             |
+
+## Testing Webhooks with Beeceptor and Alternatives
+
+To test your webhook integration, you can use tools like:
+
+- **[Beeceptor](https://beeceptor.com/)** - A powerful tool for capturing and inspecting webhook requests.
+- **[Webhook.site](https://webhook.site/)** - Another alternative for testing and debugging webhooks.
+
+Simply replace the webhook URL in your alert action settings with the test endpoint provided by these tools to see and analyze the requests.
 
 ## FAQ <a href="#faq" id="faq"></a>
 
 ### **Do you support authentication?**
 
-Yes, **HTTP Basic Auth** is supported. The username and password must be specified in the URL.
+Yes, iLert webhooks support **HTTP Basic Authentication**. Include the username and password directly in the URL.
 
-Example: https: // username: password@example.com / webhooks / ilert
+**Example:**
+```
+https://username:password@example.com/webhooks/ilert
+```
+Special characters in the username or password must be [URL-encoded](https://www.w3schools.com/tags/ref_urlencode.asp).
 
-Special characters in the user name or password must be [encoded URL](https://www.w3schools.com/tags/ref_urlencode.asp).
+### **Can I specify a custom HTTP port?**
 
-### **Can you also specify the HTTP port?**
+Yes. By default, webhooks use:
 
-Yes. By default, port 80 is used for HTTP connections and port 443 for HTTPS connections. You can overwrite the port number by adding a colon : after the host address and the port.
+- **Port 80** for HTTP
+- **Port 443** for HTTPS
 
-incident-created, incident-assigned, incident-auto-escalated, incident-auto-resolved, incident-acknowledged, incident-rejected, incident-raised, incident-comment-added, incident-resolved
+To use a different port, append it after the host address using `:`.
 
-Example: [https://example.com:8443/webhooks/ilert](https://example.com:8443/webhooks/ilert)
+**Example:**
+```
+https://example.com:8443/webhooks/ilert
+```
 
-### I cannot rely on user-agent headers for my firewall, is there a way to whitelist ip addresses of the webhooks?
+### **Can I whitelist iLert webhook IP addresses for my firewall?**
 
-Basically it is not possible to whitelist the ip addresses for all of our agents, as there are just too many blocks that may change at any time. However we do offer static IP agents in our Premium plan - the static ip addresses are listed [here](../../alerting/phone-numbers/#email-services).
+Whitelisting all webhook IP addresses is not feasible as they may change. However, iLert offers **static IP agents** with its **Premium plan**. You can find the list of static IP addresses [here](../../alerting/phone-numbers/#email-services).
