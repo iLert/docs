@@ -8,19 +8,19 @@ description: >-
 
 With the ilert SolarWinds Integration you can easily integrate SolarWinds Orion products (eg [NPM](https://www.solarwinds.com/network-performance-monitor) and [SAM](https://www.solarwinds.com/server-application-monitor)) into ilert. The integration extends SolarWinds with SMS, push and voice notification as well as on-call schedules from ilert. Alerts are created in ilert and automatically resolved. Furthermore, alerts in ilert that were created by SolarWinds contain links to the respective alerts in SolarWinds.
 
-## In ilert: Create a SolarWinds alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+### In ilert: Create a SolarWinds alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
-1.  Go to **Alert sources** --> **Alert sources** and click on **Create new alert source**
+1.  Go to **Alert sources** **→** **Alert sources** and click on **Create new alert source**
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
-2.  Search for **SolarWinds** in the search field, click on the SolarWinds tile and click on **Next**.&#x20;
+2.  Search for **SolarWinds** in the search field, click on the SolarWinds tile, and click on **Next**.&#x20;
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
-3. Give your alert source a name, optionally assign teams and click **Next**.
+3. Give your alert source a name, optionally assign teams, and click **Next**.
 4.  Select an **escalation policy** by creating a new one or assigning an existing one.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.37.47.png" alt=""><figcaption></figcaption></figure>
-5.  Select you [Alert grouping](../../alerting/alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.&#x20;
+5.  Select your Alert grouping preference and click Continue setup. You may click "**Do not group alerts for now**" and change it later.&#x20;
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.38.24.png" alt=""><figcaption></figcaption></figure>
 6. The next page show additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
@@ -28,9 +28,9 @@ With the ilert SolarWinds Integration you can easily integrate SolarWinds Orion 
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
-## &#x20;<a href="#create-topic" id="create-topic"></a>
 
-## In SolarWinds: Create an alert definition <a href="#alert-definition" id="alert-definition"></a>
+
+### In SolarWinds: Create an alert definition <a href="#alert-definition" id="alert-definition"></a>
 
 1. Go to the **Settings → All Settings** tab and click **Manage Alerts**
 
@@ -97,7 +97,7 @@ iLertEventSummary=${N=SwisEntity;M=DisplayName} (${N=SwisEntity;M=IP_Address}): 
 12. &#x20;On **ADD ACTION** and then click **NEXT**.
 13. &#x20;Click **SUBMIT** on the **SUMMARY** page.
 
-## FAQ <a href="#faq" id="faq"></a>
+### FAQ <a href="#faq" id="faq"></a>
 
 **Are alerts automatically resolved in ilert?**
 
@@ -105,7 +105,7 @@ Yes, as soon as the **reset condition** for an alert has occurred in SolarWinds,
 
 **What if an alert is acknowledged in SolarWinds, is the associated alert also acknowledged in ilert?**
 
-No, in SolarWinds it is unfortunately not possible to perform an action after an **acknowledge**.
+No, in SolarWinds, it is unfortunately not possible to perform an action after an acknowledgment.
 
 **Can I link SolarWinds to multiple alert sources in ilert?**
 
@@ -113,7 +113,7 @@ Yes, create several alert definitions in SolarWinds and store the corresponding 
 
 **What if my internet connection is lost? Are the alerts generated in SolarWinds lost?**
 
-No, no alerts are lost if you have activated the option **Repeat this action action every X minutes until the alert is acknowledged** in SolarWinds (see above). We also recommend that you monitor your Internet connection with an external monitoring service, such as ilert's [Uptime monitoring](https://www.ilert.com/product/uptime-monitoring/).
+No, no alerts are lost if you have activated the option **Repeat this action every X minutes until the alert is acknowledged** in SolarWinds (see above). We also recommend that you monitor your Internet connection with an external monitoring service.
 
 **Can I change the content of the alert in ilert (e.g. the summary)?**
 

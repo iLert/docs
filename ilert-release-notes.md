@@ -1015,7 +1015,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New features
 
-* [Stakeholder engagement](broken-reference/): keep stakeholders in the loop during critical alerts ([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/)).
+* [Stakeholder engagement](broken-reference/): keep stakeholders in the loop during critical alerts.
 
 ### New and updated integrations
 
