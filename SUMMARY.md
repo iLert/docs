@@ -95,6 +95,21 @@
   * [Auto provisioning users & teams](user-administration/single-sign-on/auto-provisioning-users-and-teams.md)
 * [🔐 Two-factor authentication / MFA](user-administration/two-factor-authentication-mfa.md)
 
+## Reports
+
+* [Overview](reports/overview.md)
+* [Alerts](reports/alerts.md)
+* [On-call duties](reports/on-call-duties.md)
+
+## Mobile App
+
+* [Getting started with ilert mobile app](mobile-app/getting-started-with-ilert-mobile-app.md)
+* [Mobile app notification settings](mobile-app/mobile-app-notification-settings.md)
+* [Critical push notifications and DND overrides](mobile-app/critical-push-notifications-and-dnd-overrides/README.md)
+  * [iOS critical alerts configuration](mobile-app/critical-push-notifications-and-dnd-overrides/ios-critical-alerts-configuration.md)
+  * [Android Push Notification DND Configuration](mobile-app/critical-push-notifications-and-dnd-overrides/android-push-notification-dnd-configuration.md)
+* [On-call widget](mobile-app/on-call-widget.md)
+
 ## INTEGRATIONS
 
 * [Types of integrations](integrations/types-of-integrations.md)
@@ -266,12 +281,6 @@
   * [Github deployment pipeline](integrations/deployment-integrations/github.md)
   * [GitLab deployment pipeline](deployment-integrations/gitlab.md)
 
-## Reports
-
-* [Overview](reports/overview.md)
-* [Alerts](reports/alerts.md)
-* [On-call duties](reports/on-call-duties.md)
-
 ## API <a href="#rest-api" id="rest-api"></a>
 
 * [API Reference](https://api.ilert.com/api-docs/)
@@ -302,12 +311,3 @@
 
 * [Contact us](contact.md)
 * [ilert Release Notes](ilert-release-notes.md)
-
-## Mobile App
-
-* [Getting started with ilert mobile app](mobile-app/getting-started-with-ilert-mobile-app.md)
-* [Mobile app notification settings](mobile-app/mobile-app-notification-settings.md)
-* [Critical push notifications and DND overrides](mobile-app/critical-push-notifications-and-dnd-overrides/README.md)
-  * [iOS critical alerts configuration](mobile-app/critical-push-notifications-and-dnd-overrides/ios-critical-alerts-configuration.md)
-  * [Android Push Notification DND Configuration](mobile-app/critical-push-notifications-and-dnd-overrides/android-push-notification-dnd-configuration.md)
-* [On-call widget](mobile-app/on-call-widget.md)
