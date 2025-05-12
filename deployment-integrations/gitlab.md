@@ -1,9 +1,9 @@
 ---
-icon: gitlab
 description: >-
   GitLab is a complete DevSecOps platform that streamlines collaboration and
   simplifies CI/CD, enabling teams to plan, develop, and deploy software in a
   single application
+icon: gitlab
 ---
 
 # GitLab deployment pipeline
@@ -16,19 +16,19 @@ GitLab is a complete DevSecOps platform that enables teams to collaborate on pla
 
 In any way, a pipeline is required, which will also generate a new `integrationKey` required to route deployment events when they occur. Head to your ilert account and navigate to **Alert sources -> Deployment events.**
 
-<figure><img src="../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Head over to the deployment pipelines tab and click on **Create new pipeline.**
 
-<figure><img src="../.gitbook/assets/2 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Provide a name for your pipeline.
 
-<figure><img src="../.gitbook/assets/3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Optional**: If you are going to manage branch-specific deployments, choose the branches in the branch filter section for which you would like to create deployment events in ilert.
 
-<figure><img src="../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/4 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Optional**: If you would like to use a global webhook flow, where you coordinate specific deployment events for different repositories across multiple pipelines, you can use the event filters to fine-tune which specific event types should create deployment events in ilert and drop other ones. (_This is mainly useful when using multiple GitLab account-wide webhooks_).
 
