@@ -1,11 +1,11 @@
 # Panther Integration
 
-## In ilert: Create a LibreNMS alert source&#x20;
+## In ilert: Create a Panther alert source&#x20;
 
 1.  Go to **Alert sources** -> **Alert sources** and click **Create new alert source**.
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.21.10.png" alt=""><figcaption></figcaption></figure>
-2.  Search for **LibreNMS** in the search field, click the LibreNMS tile, and then **Next**.&#x20;
+2.  Search for **Panther** in the search field, click the Panther tile, and then **Next**.&#x20;
 
     <figure><img src="../../.gitbook/assets/Screenshot 2023-08-28 at 10.24.23.png" alt=""><figcaption></figcaption></figure>
 3. Give your alert source a name, optionally assign teams, and click **Next**.
