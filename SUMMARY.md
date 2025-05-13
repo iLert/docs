@@ -169,7 +169,7 @@
   * [GitLab Integration](integrations/inbound-integrations/gitlab.md)
   * [Google Cloud Monitoring (formerly Stackdriver) Integration](integrations/inbound-integrations/google-stackdriver.md)
   * [Google Security Command Center](integrations/inbound-integrations/google-security-command-center.md)
-  * [Grafana Integration](integrations/inbound-integrations/grafana/README.md)
+  * [Grafana Integration Overview](integrations/inbound-integrations/grafana/README.md)
     * [Grafana Integration](integrations/inbound-integrations/grafana/grafana-integration.md)
     * [Grafana Integration (v 9.x)](integrations/inbound-integrations/grafana/grafana-integration-v-9.x.md)
   * [Graylog Integration](integrations/inbound-integrations/graylog.md)
