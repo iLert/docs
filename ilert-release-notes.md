@@ -649,7 +649,7 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### New features
 
-* [Status pages](incident-comms-and-status-pages/status-pages/) and [Incident com 2.0](broken-reference/) are now in GA
+* [Status pages](incident-comms-and-status-pages/status-pages/) and[ Incident comms 2.0](broken-reference) are now in GA
 * New [alert creation API](https://api.ilert.com/api-docs/#tag/Alerts/paths/~1alerts/post) e.g. possible to target specific user
 * [2FA and MFA ](user-administration/two-factor-authentication-mfa.md)are now available for every ilert user
 * Call routing is now available in Italian
@@ -680,7 +680,7 @@ This has been in the making for a while: we have completely overhauled our alert
 ### New features
 
 * We have launched the [ilert developer platform](rest-api/developing-ilert-apps/), which enables you to create your own applications on top of ilert's uptime platform and share them with other ilert users.
-* [Incident Communications](broken-reference/) 2.0 is now in public BETA for all Premium users.
+* [Incident Communications 2.0](broken-reference) is now in public BETA for all Premium users.
 * Support for WhatsApp as a notification channel
 
 ### Improvements
@@ -1008,14 +1008,14 @@ This has been in the making for a while: we have completely overhauled our alert
 
 ### Improvements
 
-* [Stakeholder engagement](broken-reference/): stakeholders can now unsubscribe from alert update notifications
+* [Stakeholder engagement](user-administration/user-roles-and-permissions.md): stakeholders can now unsubscribe from alert update notifications
 * Email login: Users can now login via email (in addition to username) . Usernames in ilert are deprecated and will be removed in the future.
 
 ## May 2020
 
 ### New features
 
-* [Stakeholder engagement](broken-reference/): keep stakeholders in the loop during critical alerts.
+* [Stakeholder engagement](user-administration/user-roles-and-permissions.md): keep stakeholders in the loop during critical alerts.
 
 ### New and updated integrations
 
@@ -1032,7 +1032,7 @@ This has been in the making for a while: we have completely overhauled our alert
 ### Improvements
 
 * [API end point](https://api.ilert.com/api-docs/#tag/Uptime-Monitors) for uptime monitors
-* Uptime monitors: support for milliseconds in check timeout ([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/#uptime-monitoring))
+* Uptime monitors: support for milliseconds in check timeout
 * Flexible periods in repeating on-call schedules: set an arbitrary period length and chose between days and weeks as the period unit ([blog post](https://www.ilert.com/blog/2020-05-27-stakeholder-engagement-release-notes/#flexible-periods))
 
 ## April 2020
@@ -1040,7 +1040,7 @@ This has been in the making for a while: we have completely overhauled our alert
 ### New features
 
 * [Single Sign On](broken-reference): Single sign on makes it easy to manage access to your ilert account using an identity provider of your choice.
-* **Alert Reporting** includes key metrics such MTTA and MTTR ([blog post](https://www.ilert.com/blog/2020-04-07-alert-reports-ilert-sso/#reports)).
+* **Alert Reporting** includes key metrics such MTTA and MTTR.
 
 ### New integrations
 
