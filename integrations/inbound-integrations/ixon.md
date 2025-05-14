@@ -10,7 +10,7 @@ coverY: -157.98946088366438
 
 # IXON Cloud Integration
 
-This integration uses IXON's [Cloud Notify](https://support.ixon.cloud/hc/en-us/articles/360016840620) to dispatch real-time notifiations from your machine(s) to ilert. That way, you can leverage ilert's alerting, scheduling and escalation capabiltites to send critical alerts from your machines to the right personnel and take immediate action.
+This integration uses IXON's Cloud Notify to dispatch real-time notifiations from your machine(s) to ilert. That way, you can leverage ilert's alerting, scheduling and escalation capabiltites to send critical alerts from your machines to the right personnel and take immediate action.
 
 ### In ilert: Create an IXON Cloud alert source
 
