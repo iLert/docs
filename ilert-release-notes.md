@@ -19,6 +19,7 @@ These notes get usually updated retrospectively within the first week of the fol
 * We have launched a new **AI agent** "Alert Investigator" in closed **BETA** :tada:, which uses MCP servers to gather information e.g. ELK Logs or Github Deployment related source code to provide responders with a root-cause analysis right in their ilert alert detail view, reach out to us if you like to try it out.
 * Coverage requests now send an email to receivers that do not have the mobile app installed
 * The email alert action will now immediately stop sending emails if we detect bounces
+* Alert and incident list views now provide you with a little search shortcut which open the AI global search in category mode
 
 ### Mobile app
 
