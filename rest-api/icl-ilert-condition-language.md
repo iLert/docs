@@ -11,7 +11,7 @@ event.summary not contains 'dev stage' and (
 
 The ICL is a flexible tool that appears in many places as events or calls flow through the ilert platform. It is is supported in:
 
-* **Event flow (coming soon)**
+* **Event flow**
 * **Alert source event filter**
 * **Alert action conditional execution**
 * **Call flow branch conditions**
@@ -50,6 +50,8 @@ is treated like
 
 An ICL expression is evaluated in the context of an **event** or **alert** depending on where the filter is placed (alert source or alert action). You use a path in your ICL expression to access nested objects and arrays within the context payload. For example, an event path can access fields like `event.summary` or `alert.priority`. A customDetails path can be used to access values from the original JSON Event payload sent to ilert (e.g. `event.customDetails.alerts[0].severity`).
 
+In event flows and call flows the variable extraction entrypoint starts with **context** (e.g. `context.integrationType == 'PRTG'`). Note that event flows offer the `context.event.` to access the current state of the event payload (e.g. `context.event.customDetails.tags`).
+
 You can access object fields using dot notation ("."). Field names used with dot notation must be valid identifiers. Valid identifiers start with an ASCII letter (a-z, A-Z) or an underscore ("\_"), and the following characters can include these plus numerical digits (0-9).
 
 For object field names that don't follow this identifier rule, you can use bracket notation by providing the field name as a single-quoted string inside square brackets, for example, object\['an identifier']. Array elements can be accessed using numbers inside square brackets.
@@ -63,7 +65,7 @@ Imagine the following payload being sent to the ilert event API:
    "summary": "An alert summary",
    "customDetails": {
       "locationX": 0.54,
-      "key with spaces": {
+      "key wi:th spaces": {
          "some_field": "Hello there"
       }    
   },
@@ -80,7 +82,7 @@ event.summary -> "An alert summary"
 
 event.customDetails.locationX -> 0.54
 
-event.customDetails[key\ with\ spaces].some_field -> "Hello there"
+event.customDetails[key\ wi:th\ spaces].some_field -> "Hello there"
 
 event.links[0].href -> "https://awebsite.de/some/page"
 

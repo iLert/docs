@@ -10,6 +10,53 @@ description: >-
 These notes get usually updated retrospectively within the first week of the following month _e.g. all November releases are added by 5th December_.
 {% endhint %}
 
+## April 2025
+
+### New features and improvements
+
+* We have launched our new feature **Event Flows** in closed **BETA** :tada:, [reach out to us](contact.md) if you like to try it out; its like call flows, but for your events :smile:
+* **AI postmortem generation** now supports **deployments** as well
+* We have launched a new **AI agent** "Alert Investigator" in closed **BETA** :tada:, which uses MCP servers to gather information e.g. ELK Logs or Github Deployment related source code to provide responders with a root-cause analysis right in their ilert alert detail view, reach out to us if you like to try it out.
+* Coverage requests now send an email to receivers that do not have the mobile app installed
+* The email alert action will now immediately stop sending emails if we detect bounces
+
+### Mobile app
+
+* Coverage request push notifications now support user avatars on iOS as well
+* Navigation for push notification reactions has been improved
+* All push notification sounds are now available in a short and long variant
+* Push notification settings UI has been reworked
+* Coverage requests now stay visible for the last 24 hours after taken any action on them
+* Account page design has been reworked
+* Call flow calls and call log insights are now available
+
+### Integration updates
+
+* New inbound integration [Gatus](integrations/inbound-integrations/gatus.md)
+* New inbound integration [Rollbar](integrations/inbound-integrations/rollbar.md)
+* New inbound integration [LibreNMS](integrations/inbound-integrations/librenms.md)
+* New inbound integration [Panther](integrations/inbound-integrations/panther.md)
+* New inbound integration [TeamCity](integrations/inbound-integrations/teamcity.md)
+
+## March 2025
+
+### New features and improvements
+
+* **Support hours** now support exceptions (absolute date-time ranges) and **holiday** calendar imports
+* The ROUTE\_CALL call flow node, now skips agent confirmation if the target is no responder but an external phone number; this helps with connecting your call flows to third-party call hotlines. Note: number targets are an enterprise plan feature
+* Alert report fetch times have been improved using a new approach to validating access permissions on large amount of entities
+* We have introduced 4 new templates for alert source customization: **alert key extraction** and **event type (3) condition matching** (for now these are only active on types: API and EMAIL2)
+* **ITL** now supports 2 **new regex functions** (this is helpful for less complex event payloads e.g. emails with subject and body text fields, to help extract specific information)
+* We continue to improve default templates for alert source content customization
+* We have introduced a new call option for the ROUTE\_CALL call flow node: "simultaneous calling", you may use this to call all targets at once, instead of escalating through them
+* Whatsapp notifications have been moved to a new infrastructure, making their delivery more stable (while still lying under the good will of Meta though ;) )
+
+### Integration updates
+
+* We have **reworked our email alert source** (EMAIL2) to enable the same features that our API based event integrations provide, you may now use AI similarity grouping, content templating and other features like the event explorer. Old (EMAIL) alert sources will keep working as usual and may be updated through the old UI, new email alert sources will no longer show the "Advanced settings" menu tab, instead you can use the general templating mechanism to customize behaviour.
+* New inbound integration [Dash0](integrations/inbound-integrations/dash0.md)
+* New inbound integration [Apica](integrations/inbound-integrations/apica.md)
+
 ## February 2025
 
 ### New features and improvements
