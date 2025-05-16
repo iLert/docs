@@ -44,7 +44,7 @@ To set up the integration, you must have admin rights in ilert.
 
 5. Type the **connector Name** and click **Create**.
 
-<figure><img src="../../../.gitbook/assets/5 (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/5 (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 6. Copy the **connector URL** and click **Done**.
 

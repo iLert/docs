@@ -16,7 +16,7 @@ Head over to the deployment pipelines tab and click on **Create new pipeline.**
 
 Provide a name for your pipeline.
 
-<figure><img src="../../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 By clicking on Create, you should end up on the detail view of your Argo CD deployment pipeline.
 

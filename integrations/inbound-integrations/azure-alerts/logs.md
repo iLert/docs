@@ -56,7 +56,7 @@ description: Create alerts in ilert based on Azure Logs queries.
 
 8. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in ilert and click on** OK\*\*. Name the action e.g.\*\* ilert **and click on the** Review + create\*\* button.
 
-![](<../../../.gitbook/assets/5 (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/5 (1) (1) (1) (1) (1) (1).png>)
 
 9. On the next page click on the **Create** button.
 

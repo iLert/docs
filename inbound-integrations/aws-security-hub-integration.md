@@ -34,18 +34,18 @@ AWS Security Hub generates finding events that are relayed by AWS EventBridge. I
 
 
 
-    <figure><img src="../.gitbook/assets/il-1 (1) (1) (1) (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/il-1 (1) (1) (1) (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## In AWS Security Hub: Create a Custom action <a href="#create-topic" id="create-topic"></a>
 
 1. On the sidebar click on **Custom actions**.
 2. Click on **Create custom action**.
 
-<figure><img src="../.gitbook/assets/1 (1) (1) (1) (1) (1) (1) (2) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1) (1) (1) (1) (1) (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Enter a **Action name**, **Description** and a **Custom action ID**.
 
-<figure><img src="../.gitbook/assets/2 (1) (1) (1) (1) (1) (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1) (1) (1) (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## In AWS SNS: Create a topic and a Subscription <a href="#create-topic" id="create-topic"></a>
 
@@ -55,7 +55,7 @@ AWS Security Hub generates finding events that are relayed by AWS EventBridge. I
 
 2. Select **Standard** and enter a **Name**.
 
-<figure><img src="../.gitbook/assets/4 (1) (1) (1) (2) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/4 (1) (1) (1) (2) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Save the topic.
 4. Now create a new Subscription for this topic.
