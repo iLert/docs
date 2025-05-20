@@ -1,4 +1,13 @@
+---
+description: >-
+  Learn how to integrate Panther with ilert to automatically forward security
+  alerts and trigger real-time incident notifications via phone, SMS, push, and
+  more.
+---
+
 # Panther Integration
+
+[Panther](https://panther.com/) is a modern security information and event management (SIEM) platform that helps teams detect, investigate, and respond to threats at cloud scale. With the ilert integration, Panther can automatically send alerts to ilert, enabling real-time incident response through multi-channel notifications and on-call scheduling.
 
 ## In ilert: Create a Panther alert source&#x20;
 
