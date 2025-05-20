@@ -1,4 +1,13 @@
+---
+description: >-
+  Learn how to connect LibreNMS with ilert to automatically trigger alerts and
+  manage incident response through on-call schedules and multi-channel
+  notifications.
+---
+
 # LibreNMS Integration
+
+[LibreNMS](https://www.librenms.org/) is an open-source network monitoring system that offers auto-discovery, alerting, and performance graphing for a wide range of network devices. With the ilert integration, LibreNMS can automatically send alerts to ilert to trigger incident notifications and ensure timely response from your on-call team.
 
 ## In ilert: Create a LibreNMS alert source&#x20;
 
