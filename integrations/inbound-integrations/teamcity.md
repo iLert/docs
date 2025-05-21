@@ -1,4 +1,13 @@
+---
+description: >-
+  Learn how to integrate TeamCity with ilert to automatically send build and
+  deployment alerts, enabling real-time incident notifications and faster
+  response times.
+---
+
 # TeamCity integration
+
+[TeamCity](https://www.jetbrains.com/teamcity/) is a powerful continuous integration and delivery (CI/CD) server developed by JetBrains, used to build, test, and deploy code automatically. The ilert integration for TeamCity enables you to automatically send build and deployment alerts to ilert
 
 ## In ilert: Create a TeamCity alert source&#x20;
 
