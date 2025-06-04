@@ -7,7 +7,7 @@ description: This page describes how to integrate ilert with any tool that can s
 Email integration is the easiest way to integrate ilert with your monitoring system. Each email alert source in ilert has its own email address (e.g. _your-tool@your-domain.ilertnotify.com_). As soon as your monitoring system sends an email to this address, ilert will create an alert.
 
 {% hint style="info" %}
-If you are migrating from legqcy email settings, please follow [this](migrating-legacy-email-settings.md) guide for more info.
+If you are migrating legacy email settings, please follow [this](migrating-legacy-email-settings.md) guide for more info.
 {% endhint %}
 
 ## Create an email alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
