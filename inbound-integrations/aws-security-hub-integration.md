@@ -8,7 +8,7 @@ AWS Security Hub generates finding events that are relayed by AWS EventBridge. I
 
 ## Architecture <a href="#create-alert-source" id="create-alert-source"></a>
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (3).png" alt=""><figcaption></figcaption></figure>
 
 ## In ilert: Create an Amazon SNS alert source <a href="#create-alert-source" id="create-alert-source"></a>
 

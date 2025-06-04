@@ -6,15 +6,6 @@ description: >-
 
 # Email Key Extraction and Resolve Examples
 
-## Parsing UUIDv4 as alert key from the email subject
-
-Can be done by choosing `extract through regex` as alert key email extraction.\
-A sample regex to parse a UUID v4 format is the following:
-
-`[a-f0-9]{8}-[a-f0-9]{4}-4[a-f0-9]{3}-[89aAbB][a-f0-9]{3}-[a-f0-9]{12}`
-
-This regex will pull any kind of uuid matching somewhere in the email subject and use it as integration key to aggregate incoming emails on alerts.
-
 ## Extracing an alert key between two strings from the email subject
 
 A very common use case might be a monitoring tool that sends emails containing the actual alert origin embedded in the text like so:
@@ -35,15 +26,13 @@ In both cases this regex will extract from **Service:** to **is** in the example
 
 By adjusting a few more settings for the email alert source's resolve options, we can also make use of the third part of the subject the state and let all **OK** containing subjects resolve open alerts automatically.
 
-![](<../../../.gitbook/assets/Screenshot 2020-09-02 at 15.02.15.png>)
+<figure><img src="../../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
 
 In action the timeline will also show us how the incoming subjects change the status of the alert.
 
-![](<../../../.gitbook/assets/Screenshot 2020-09-03 at 17.49.05.png>)
+<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-And with the help of the alert source's **email log** we can also see how the incoming emails are treated (emails that fail to pass filters will also show up here, in case you need more information on why emails are not opening or closing alerts)
-
-![](<../../../.gitbook/assets/Screenshot 2020-09-02 at 15.01.59.png>)
+And with the help of the alert source's **event explorer** we can also see how the incoming emails are treated (emails that fail to pass filters will also show up here, in case you need more information on why emails are not opening or closing alerts).
 
 {% hint style="info" %}
 You may always reach out to our team when having any kind of questions for your integration use case.

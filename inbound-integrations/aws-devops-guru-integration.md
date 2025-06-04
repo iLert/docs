@@ -8,7 +8,7 @@ AWS DevOps Guru provides insights into operational anomalies. Notifications are 
 
 ### Architecture <a href="#create-alert-source-2" id="create-alert-source-2"></a>
 
-<figure><img src="../.gitbook/assets/image (2) (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In ilert: Create an Amazon SNS alert source <a href="#create-alert-source-2" id="create-alert-source-2"></a>
 

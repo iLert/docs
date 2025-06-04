@@ -159,6 +159,7 @@
   * [Email Inbound Integration](integrations/inbound-integrations/email/README.md)
     * [Email Key Extraction and Resolve Examples](integrations/inbound-integrations/email/email-key-extraction-and-resolve-examples.md)
     * [Automatically resolve Alerts with Emails](integrations/inbound-integrations/email/automatically-resolve-incidents-with-emails.md)
+    * [Migrating legacy email settings](integrations/inbound-integrations/email/migrating-legacy-email-settings.md)
   * [FreshService Integration](integrations/inbound-integrations/freshservice.md)
   * [Gatus Integration](integrations/inbound-integrations/gatus.md)
   * [GitHub Integration](integrations/inbound-integrations/github/README.md)

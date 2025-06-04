@@ -4,46 +4,54 @@ description: This page describes how to integrate ilert with any tool that can s
 
 # Email Inbound Integration
 
-Email integration is the easiest way to integrate ilert with your monitoring system. Each email alert source in ilert has its own email address (e.g. _your-tool@your-domain.ilertnow.com_). As soon as your monitoring system sends an e-mail to this address, ilert will create an alert.
+Email integration is the easiest way to integrate ilert with your monitoring system. Each email alert source in ilert has its own email address (e.g. _your-tool@your-domain.ilertnotify.com_). As soon as your monitoring system sends an email to this address, ilert will create an alert.
 
-## In ilert: create an email alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+{% hint style="info" %}
+If you are migrating from legqcy email settings, please follow [this](migrating-legacy-email-settings.md) guide for more info.
+{% endhint %}
 
-1. Go to **Alert sources** and click on **Add a new alert source**
-2. Enter a name and select an escalation policy
-3. Chose **Email** as integation type
+## Create an email alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
+
+1. Go to **Alert sources** and click on **Create new alert source**
+2. Select **Email**
+3. Enter a name and select an escalation policy
 4. Enter an email address for the alert source
-5. Save the email alert source
+5. Click on **Continue Setup**
 
-![](<../../../.gitbook/assets/Screenshot 2020-06-18 at 16.21.49.png>)
+Your email alert source is now active. Any email sent to the email address will create an alert in ilert and trigger the alerting process using the alert source's escalation policy. The default setting creates an alert in ilert for each incoming email.&#x20;
 
-Your email alert source is now active. Any email sent to the email address will create an alert in ilert and trigger the alerting process using the alert source's escalation policy. The default setting creates an alert in ilert for each incoming email. The next section explains advanced settings, such as deduplicating or filtering emails.
+<figure><img src="../../../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
 
 ## Fine-tuning email integration <a href="#advanced-settings" id="advanced-settings"></a>
 
-By default, ilert creates a new alert for every email sent to the alert source's email address. You can fine-tune this behavior by
+All basic features of an alert source are available for the email alert source as well, but there are a couple of options to further fine-tune your alert source to the email use-case. Additionally, there are settings for custom processing rules only available for the email integration type.&#x20;
 
-* adding email filter, which lets you filter emails based on defined conditions
-* modifying alert creation options
+### Event filter
 
-### Email filters
+The event filter allows you to ignore emails based on the content of the email's properties, such as subject, body, cc, bcc and from.
 
-Email filters allow you to ignore emails based on the content of the email's subject, body, or from address.
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-06-02 at 17.20.07.png" alt=""><figcaption><p>In the above settings, only emails from my-tool@acme.com that contain the word PROBLEM in the subject will be accepted.</p></figcaption></figure>
 
-![In the above sttings, only emails from my-tool@acme.com that contain the word PROBLEM in the subject will be accepted.](<../../../.gitbook/assets/image (40).png>)
+More information on event filters can be found [here](../../../alerting/alert-sources.md#event-filter).
 
-### Alert creation
+### Alert key extraction
 
-| Option                                                                                                    | Description                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
-| --------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Open a new alert for every email                                                                          | Each email sent to the alert source's email address will create a new alert.                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| Open a new alert for every new email subject                                                              | <p>Alerts are de-duplicated based on the subject of the emails. Case sensivitiy and whitespaces are ignored. Deduplication considers only the emails of open alerts.<br></p><p>If, for example, a monitoring system sends two e-mails in succession with the same subject, a new alert is created for the first e-mail and the second e-mail is appended to the created alert in the event log.</p>                                                                                                                                       |
-| Open a new alert only if all alerts in this alert source are in `RESOLVED` or `ACCEPTED OR RESOLVED`state | <p>An email sent to the alert source's email address will only open a new alert if an open alert does not already exist; otherwise, the email will be appended to the last open alert.<br><br>Example: You get alerted at 3 A.M. in the morning and accept the alert and decide to look at the problem the next morning. In the meantime, if a new (potentially critical) issue is reported to ilert, a new alert will be notified again. In this scenario, you need to chose <code>ACCEPTED ir RESOLVED</code> in the dropdown list.</p> |
-| Open and resolve alerts based alert keys extracted from emails                                            | Use defined rules to link emails to the same alert based on matching substrings in the email subject or body. See [Automatically resolve Alerts with Emails](automatically-resolve-incidents-with-emails.md)                                                                                                                                                                                                                                                                                                                              |
+You can choose any email field to be used as an alert key, serving as a unique identifier for open alerts. When another email with the same alert key is received, it will be correlated to any open alert with the same alert key, resulting in correlation and deduplication of emails. The alert key field makes use of the [ITL](../../../rest-api/itl-ilert-template-language.md).
 
-### Incident Resolution based on Emails
+<figure><img src="../../../.gitbook/assets/image (144).png" alt=""><figcaption><p>The subject of the email will be used as the alert key.</p></figcaption></figure>
+
+### Custom processing rules
+
+The email alert source allows for email-specific processing rules, determining when an incoming email should create, accept, or resolve an alert. A configuration via the [ICL](../../../rest-api/icl-ilert-condition-language.md) allows for complex rule setups.
+
+Examples of such setups can be found here:
 
 {% content-ref url="automatically-resolve-incidents-with-emails.md" %}
 [automatically-resolve-incidents-with-emails.md](automatically-resolve-incidents-with-emails.md)
+{% endcontent-ref %}
+
+{% content-ref url="email-key-extraction-and-resolve-examples.md" %}
+[email-key-extraction-and-resolve-examples.md](email-key-extraction-and-resolve-examples.md)
 {% endcontent-ref %}
 
 ### Representation of Non-ASCII text in the headers
@@ -52,13 +60,13 @@ Note that [RFC 822](https://datatracker.ietf.org/doc/html/rfc822) headers must c
 
 ## FAQ <a href="#faq" id="faq"></a>
 
-**Does ilert also process e-mails that are sent by forwarding to an alert source address?**
+**Does ilert also process emails that are sent by forwarding to an alert source address?**
 
-Yes, ilert evaluates the `TO` , `CC` and `BCC` fields as well as the `DELIVERED-TO` header when processing email.
+Yes, ilert evaluates the `TO` , `CC` and `BCC` fields as well as the `DELIVERED-TO` header when processing emails.
 
 **My monitoring system sends emails when an issue is recovered (e.g. `RECOVERY` emails in Nagios). Can ilert use these emails to resolve previously created alerts?**
 
-Yes, see [Automatically resolve Alerts with Emails](automatically-resolve-incidents-with-emails.md) for further information
+Yes, see [Automatically resolve Alerts with Emails](automatically-resolve-incidents-with-emails.md) for further information.
 
 **I need more examples that illustrate regex alert key extraction from emails, where can I find them?**
 
