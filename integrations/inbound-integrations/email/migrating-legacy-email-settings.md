@@ -29,3 +29,7 @@ Previously, only the email subject and body could be used for alert key extracti
 Adding rules for resolving an alert is now done by creating a resolve alert rule. They are defined like the event filter using [ICL](../../../rest-api/icl-ilert-condition-language.md). An improvement over the old design is the ability to create rules for not only resolving, but also creating and accepting alerts.
 
 <figure><img src="../../../.gitbook/assets/image (164).png" alt=""><figcaption></figcaption></figure>
+
+## Mail log
+
+With the new email alert source, the mail log was replaced in favor of the [event explorer](../../../alerting/alert-sources.md#event-explorer). But as before all incoming mails plus more data for each received mail is shown there, even if they did not create an alert.
