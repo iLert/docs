@@ -6,7 +6,7 @@ description: Create JIRA issues from ilert alerts.
 
 ## In JIRA: Create an ilert user and create API token <a href="#jira-preparation" id="jira-preparation"></a>
 
-1. Optional: create a dedicated ilert user in JIRA. This has the advantage that you can distinguish the JIRA tickets created by ilert.
+1. Optional: Create a dedicated ilert user in JIRA. This has the advantage that you can distinguish the JIRA tickets created by ilert.
 2. Go to **Atlassian account settings** **→** **Security** and click on **Create and Manage API Tokens**.
 
 ![](<../../.gitbook/assets/Screenshot 2020-08-05 at 13.15.25.png>)
