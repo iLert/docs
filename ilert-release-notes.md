@@ -10,13 +10,27 @@ description: >-
 These notes get usually updated retrospectively within the first week of the following month _e.g. all November releases are added by 5th December_.
 {% endhint %}
 
+## May 2025
+
+### New features and improvements
+
+* We have launched our new feature **Event Flows** in closed **BETA** :tada:, [reach out to us](contact.md) if you like to try it out; its like call flows, but for your events
+* We have launched a new **AI agent** "Alert Investigator" in closed **BETA** :tada:, which uses MCP servers to gather information e.g. ELK Logs or Github Deployment related source code to provide responders with a root-cause analysis right in their ilert alert detail view, reach out to us if you like to try it out.
+
+### Integration updates
+
+* **Autotask** outbound has been revamped
+* **ServiceNow** outbound has been revamped
+* bidirectional alert source creation no longer relies on redirects (multi forms) the whole creation now happens within the alert source wizard
+* New inbound integration [LibreNMS](integrations/inbound-integrations/librenms.md)
+* New inbound integration [Panther](integrations/inbound-integrations/panther.md)
+* New inbound integration [TeamCity](integrations/inbound-integrations/teamcity.md)
+
 ## April 2025
 
 ### New features and improvements
 
-* We have launched our new feature **Event Flows** in closed **BETA** :tada:, [reach out to us](contact.md) if you like to try it out; its like call flows, but for your events :smile:
 * **AI postmortem generation** now supports **deployments** as well
-* We have launched a new **AI agent** "Alert Investigator" in closed **BETA** :tada:, which uses MCP servers to gather information e.g. ELK Logs or Github Deployment related source code to provide responders with a root-cause analysis right in their ilert alert detail view, reach out to us if you like to try it out.
 * Coverage requests now send an email to receivers that do not have the mobile app installed
 * The email alert action will now immediately stop sending emails if we detect bounces
 * Alert and incident list views now provide you with a little search shortcut which open the AI global search in category mode
@@ -35,9 +49,6 @@ These notes get usually updated retrospectively within the first week of the fol
 
 * New inbound integration [Gatus](integrations/inbound-integrations/gatus.md)
 * New inbound integration [Rollbar](integrations/inbound-integrations/rollbar.md)
-* New inbound integration [LibreNMS](integrations/inbound-integrations/librenms.md)
-* New inbound integration [Panther](integrations/inbound-integrations/panther.md)
-* New inbound integration [TeamCity](integrations/inbound-integrations/teamcity.md)
 
 ## March 2025
 

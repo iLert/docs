@@ -80,6 +80,11 @@ _Alert Creation_
 * In Legacy Call Routing, incoming calls might automatically generate alerts based on predefined conditions.
 * Call Routing 2.0 changes this approach by not creating alerts by default. Instead, it employs a Create Alert node within the call flow to generate alerts, offering more control over when and how alerts are created.
 
+_Alert Acknowledgement_
+
+* In Legacy Call Routing the related alert was automatically accepted by the first agent to answer and confirm the call.
+* As described in "_Alert Creation_" above, Call Routing 2.0 does not create an alert by default and it also does not track the agent answer to this alert by default - however, due to many customers asking, we have introduced a feature that you can enable on the Create alert node to automatically accept the alert on any agent answer to replicate the legacy behaviour.
+
 _Use of Escalation Policies_
 
 * Legacy Call Routing was somewhat restrictive in including users or schedules into call flows and required you to use [escalation policies](../on-call-management-and-escalations/escalation-policies.md).&#x20;
