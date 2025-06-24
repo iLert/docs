@@ -1,6 +1,5 @@
 ---
 description: Check how on-call duties report works in ilert
-hidden: true
 ---
 
 # On-call duties
