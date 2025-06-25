@@ -56,7 +56,7 @@ ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Mana
 
 **Are updates to an alert published in the ServiceNow Alert?**
 
-Yes, the status of the ilert Alert is shown in the title of the JIRA ticket, eg `RESOLVED` Host compute.infra is `DOWN`.
+Yes, the status of the ilert Alert is shown in the title of the ServiceNow ticket, eg `RESOLVED` Host compute.infra is `DOWN`.
 
 **Can I choose which updates to an alert are published in ServiceNow?**
 
