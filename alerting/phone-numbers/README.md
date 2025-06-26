@@ -65,11 +65,11 @@ The number that ilert uses to send voice notifications depends on the target cou
 
 ### Inbound <a href="#email-services" id="email-services"></a>
 
-ilert's inbound architecture is highly distributed and spread across different data centers and regions. While it is possible to temporarily whitelist the IP blocks used, it is not recommended to do so. Inbound IPs are dynamic and though mostly reserved might change at any time.
+ilert's inbound architecture is highly distributed and spread across different data centers and regions. While it is possible to temporarily whitelist the IP blocks used, it is not recommended to do so. Inbound IPs are dynamic and, though mostly reserved, might change at any time.
 
 ### Outgoing webhooks (alert actions) <a href="#email-services" id="email-services"></a>
 
-ilert uses flexible serverless infrastructures to provide webhooks in regions around the world. We offer static IP addresses to our Premium plan customers, please reach out to our [support](../../contact.md#support) if you are interested in using static IPs in case firewall whitelisting is required for your use case.
+ilert uses flexible serverless infrastructures to provide webhooks in regions around the world. We offer static IP addresses to our[ Scale plan](https://www.ilert.com/pricing) customers. Please, reach out to our [support](../../contact.md#support) if you are interested in using static IPs in case firewall whitelisting is required for your use case.
 
 <table><thead><tr><th>Address</th><th width="279.6666666666667">Region</th><th>Description</th></tr></thead><tbody><tr><td>18.159.7.25</td><td>Frankfurt</td><td>webhooks</td></tr><tr><td>3.123.64.23</td><td>Frankfurt</td><td>webhooks</td></tr><tr><td>54.73.206.214</td><td>Dublin</td><td>webhooks</td></tr><tr><td>52.215.200.26</td><td>Dublin</td><td>webhooks</td></tr></tbody></table>
 
