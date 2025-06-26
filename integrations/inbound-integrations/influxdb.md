@@ -67,13 +67,13 @@ We recommend that you create a threshold for setting the check status to '**OK'*
 11. Click on the blue tick in the top right corner to save the check.
 12. Now navigate to **Notification Rules -> Create**.
 
-<figure><img src="../../.gitbook/assets/4 (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 13. Add the following Notification Rules:
 
 {% tabs %}
 {% tab title="CRIT" %}
-<figure><img src="../../.gitbook/assets/7 (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7 (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="WARN" %}
@@ -81,7 +81,7 @@ We recommend that you create a threshold for setting the check status to '**OK'*
 {% endtab %}
 
 {% tab title="OK" %}
-<figure><img src="../../.gitbook/assets/9 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/9 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

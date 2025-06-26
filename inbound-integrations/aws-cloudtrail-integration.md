@@ -34,20 +34,20 @@ AWS CloudTrail logs and monitors account activity across your AWS infrastructure
 
 1. On the sidebar, click on **Topics** **->** **Create topic**.&#x20;
 
-<figure><img src="../.gitbook/assets/1 (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Choose **Standard** and enter a topic **Name**.
 3. Save the topic.
 
-<figure><img src="../.gitbook/assets/1 (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1) (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 4. Now click on **Create subscription**.
 
-<figure><img src="../.gitbook/assets/2 (1) (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1) (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 5. Select 'HTTPS' as **Protocol** and enter the alert source URL previously generated in ilert into the **Endpoint** field.
 
-<figure><img src="../.gitbook/assets/3 (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (1) (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## In AWS Cloudtrail: Enable a SNS Notification <a href="#create-topic" id="create-topic"></a>
 
@@ -62,7 +62,7 @@ AWS CloudTrail logs and monitors account activity across your AWS infrastructure
 3. Under **Additional settings**, enable **SNS notification delivery**.
 4. Choose **Existing** and search for the newly created topic from before.
 
-<figure><img src="../.gitbook/assets/6 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6 (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 

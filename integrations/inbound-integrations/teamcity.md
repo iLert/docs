@@ -27,36 +27,36 @@ description: >-
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
 7. On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
-<figure><img src="../../.gitbook/assets/il-1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/il-1 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In TeamCity: Enable and configure Webhook
 
 1. On the side bar, navigate to **Admin** -> **Projects** -> **\<Root project>**.
 
-<figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Now click on **Parameters** -> **Add new parameter**.
 
-<figure><img src="../../.gitbook/assets/2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Add following parameter:\
    **Name**: `teamcity.internal.webhooks.enable`\
    **Value**: `true`
 
-<figure><img src="../../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (1).png" alt=""><figcaption></figcaption></figure>
 
 4. Add another parameter:\
    **Name**: `teamcity.internal.webhooks.url`\
    **Value**: enter the in ilert previous generated alert source url
 
-<figure><img src="../../.gitbook/assets/4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (1).png" alt=""><figcaption></figcaption></figure>
 
 5. Add another parameter:\
    **Name**: `teamcity.internal.webhooks.events`\
    **Value**: `BUILD_STARTED; BUILD_FINISHED; BUILD_INTERRUPTED`
 6. Click on **Save** to finish the setup.
 
-<figure><img src="../../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (1).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 

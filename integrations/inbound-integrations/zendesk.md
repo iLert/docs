@@ -79,9 +79,7 @@ description: >-
   "link": "{{ticket.link}}",
   "latest_comment": "{{ticket.latest_comment}}",
   "latest_comment_author_name": "
-{% raw %}
-{% for comment in ticket.comments limit:1 offset:0 %}{{comment.author.name}}{% endfor %}
-{% endraw %}"
+{% for comment in ticket.comments limit:1 offset:0 %}{{comment.author.name}}{% endfor %}"
 }
 ```
 

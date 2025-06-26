@@ -26,7 +26,7 @@ description: >-
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
 7. On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
-<figure><img src="../.gitbook/assets/il-1 (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/il-1 (1) (1) (1) (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## In Mezmo: Create an alert Webhook
 
@@ -53,7 +53,7 @@ description: >-
 
 7. On the sidebar, click on the **Views** icon.
 
-<figure><img src="../.gitbook/assets/6 (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6 (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 8. On your desired view, click on **Edit alert**.
 

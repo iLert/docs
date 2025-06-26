@@ -26,11 +26,11 @@
 
 1. On the dashboard, click on **Settings**.
 
-<figure><img src="../.gitbook/assets/1 (1) (1) (1) (1) (1) (1) (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1 (1) (1) (1) (1) (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 2. Now click on **Alerts & integrations**.
 
-<figure><img src="../.gitbook/assets/2 (1) (1) (1) (1) (1) (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2 (1) (1) (1) (1) (1) (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Scroll down and choose **ilert**.
 

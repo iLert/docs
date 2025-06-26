@@ -46,11 +46,11 @@ description: The ilert Kibana Integration helps you to easily connect ilert with
 7. Enter the following header -> `key: Content-Type value: application/json`
 8. Save the connector.
 
-<figure><img src="../../.gitbook/assets/4 (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 9. Now, navigate to **Rules** under the **Alerts and Insights** category.
 
-<figure><img src="../../.gitbook/assets/5 (1) (1) (1) (1).png" alt="" width="137"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (1) (1) (1) (1) (1).png" alt="" width="137"><figcaption></figcaption></figure>
 
 10. Click on **Create rule**.
 
@@ -58,7 +58,7 @@ description: The ilert Kibana Integration helps you to easily connect ilert with
 
 11. Enter a **name** and select Webhook as the **connector type**.
 
-<figure><img src="../../.gitbook/assets/7 (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7 (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 12. Choose the previous created ilert connector as **Webhook connector**.
 13. Enter the following payload into the **Body** field:

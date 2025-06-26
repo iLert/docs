@@ -121,7 +121,7 @@ This integration enables you to connect ilert and HaloITSM easily and receive cr
 
 12. In the next step add a new Runbook.
 
-<figure><img src="../../.gitbook/assets/10 (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 13. Enter a name for your newly created Runbook.
 

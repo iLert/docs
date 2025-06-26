@@ -44,7 +44,7 @@ Postman is a platform for API development, allowing developers to design, test, 
 
 4. Now in the **Post monitoring results** section, click on **Add integration**.
 
-<figure><img src="../../.gitbook/assets/4 (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 5. Enter a **Nickname**, choose a desired **workspace** and **Monitor**.
 6. Now enter the alert source url created in ilert into the **Webhook URL** field and select **Notify for 3 failures and then first success**.

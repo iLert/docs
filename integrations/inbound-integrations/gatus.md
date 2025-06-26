@@ -24,7 +24,7 @@ Gatus is an open-source tool for monitoring uptime, designed to help you track t
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
 7. On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
-<figure><img src="../../.gitbook/assets/il-1 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/il-1 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## In Gatus: Configure the ilert alert provider
 

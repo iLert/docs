@@ -26,11 +26,11 @@ Site24x7 is a cloud-based monitoring solution that tracks the performance and av
 
 1. On the side bar, click on **Admin**.
 
-<figure><img src="../../.gitbook/assets/1 (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Now click on **Third-Party Integrations**.
 
-<figure><img src="../../.gitbook/assets/2 (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Click **ilert** -> **Integrate Now**.
 

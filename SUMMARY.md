@@ -115,6 +115,7 @@
 * [Types of integrations](integrations/types-of-integrations.md)
 * [Inbound integrations](integrations/inbound-integrations/README.md)
   * [4me Integration](integrations/inbound-integrations/4me.md)
+  * [Alibaba CloudMonitor Integration](integrations/inbound-integrations/alibaba-cloud.md)
   * [Ansible Automation Platform AWX Integration](integrations/inbound-integrations/awx.md)
   * [Amazon CloudWatch Integration](integrations/inbound-integrations/amazon-cloudwatch.md)
   * [Amazon SNS Integration](integrations/inbound-integrations/amazon-sns/README.md)

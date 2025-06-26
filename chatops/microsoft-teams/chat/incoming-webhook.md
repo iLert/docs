@@ -40,11 +40,11 @@ To set up the integration, you must have admin rights in ilert.
 
 4. Now in **Connectors** click on **Configure**.
 
-<figure><img src="../../../.gitbook/assets/4 (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/4 (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 5. Type the **connector Name** and click **Create**.
 
-<figure><img src="../../../.gitbook/assets/5 (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/5 (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 6. Copy the **connector URL** and click **Done**.
 
@@ -60,7 +60,7 @@ To set up the integration, you must have admin rights in ilert.
 
 2. In the **Manage** tab click on **Configured**.
 
-<figure><img src="../../../.gitbook/assets/7 (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/7 (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 3. Now open up the dropdown list by clicking on **Configured** and click on the **Manage** button of the desired connector.
 
@@ -70,12 +70,12 @@ To set up the integration, you must have admin rights in ilert.
 
 1. Click the gear icon → **Connectors**
 
-<div data-full-width="false"><figure><img src="../../../.gitbook/assets/9 (1) (1).png" alt="" width="177"><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/9 (1) (1) (1).png" alt="" width="177"><figcaption></figcaption></figure></div>
 
 2. Click **Create Connector**
 3. Select **Microsoft Teams** as **Type**. Assign a name for the connector, enter the URL from [above](incoming-webhook.md#add-to-channel) and save it.
 
-<figure><img src="../../../.gitbook/assets/10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/10 (1).png" alt=""><figcaption></figcaption></figure>
 
 4. **Go to** the alert sources tab and open the alert source whose alerts you want to publish to Microsoft Teams. Click **Alert Actions → Add New Alert Action**.
 
