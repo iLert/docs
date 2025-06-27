@@ -2,7 +2,9 @@
 
 ## Getting Started
 
-* [Core concepts](README.md)
+* [Welcome to ilert](README.md)
+* [Quick Start Guide](getting-started/quick-start-guide.md)
+* [Troubleshooting](getting-started/troubleshooting.md)
 * [FAQ](getting-started/faq/README.md)
   * [Renaming of Incidents to Alerts](getting-started/faq/renaming-of-incidents-to-alerts.md)
 * [Import from PagerDuty](https://pagerduty-import.ilert.net)
