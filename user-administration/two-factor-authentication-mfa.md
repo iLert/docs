@@ -5,7 +5,7 @@ description: >-
   MFA.
 ---
 
-# 🔐 Two-factor authentication / MFA
+# Two-factor authentication / MFA
 
 ilert supports two-factor authentication setups for every user account, unrelated to the purchased subscription plan. You may activate multiple 2FA methods e.g. authenticator app as backup for your U2F device.
 

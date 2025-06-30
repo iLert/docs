@@ -5,7 +5,7 @@ description: >-
   other ilert accounts.
 ---
 
-# 🔥 Developing ilert Apps
+# Developing ilert Apps
 
 {% content-ref url="get-started-with-ilert-apps.md" %}
 [get-started-with-ilert-apps.md](get-started-with-ilert-apps.md)

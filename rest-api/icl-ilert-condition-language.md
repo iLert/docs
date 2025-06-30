@@ -1,4 +1,4 @@
-# 👩‍💻 ICL - ilert condition language
+# ICL - ilert condition language
 
 Customize and fine tune your automation experience across the platform - if needed.
 

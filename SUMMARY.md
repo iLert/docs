@@ -22,7 +22,8 @@
   * [Prometheus Heartbeat Example](alerting/heartbeat-monitoring/prometheus-heartbeat-example.md)
   * [CLI Heartbeat Examples](alerting/heartbeat-monitoring/cli-heartbeat-examples.md)
 * [Deployment events](alerting/deployment-events.md)
-* [🏛️ Understanding event flows](alerting/understanding-event-flows.md)
+* [Event flows](alerting/event-flows.md)
+* [Understanding event progression](alerting/understanding-event-flows.md)
 * [ilert sender IDs, domains and IPs](alerting/phone-numbers/README.md)
   * [SMS and voice alerts in China](alerting/phone-numbers/sms-and-voice-alerts-in-china.md)
 
@@ -64,7 +65,7 @@
   * [Import metrics from Datadog](incident-comms-and-status-pages/metrics/import-metrics-from-datadog.md)
   * [Import metrics from Prometheus](incident-comms-and-status-pages/metrics/import-metrics-from-prometheus.md)
 
-## 🪄 ilert AI
+## ilert AI
 
 * [Introduction](ilert-ai/introduction.md)
 * [Using ilert AI for efficient incident communication](ilert-ai/generating-incidents-using-ai.md)
@@ -95,7 +96,7 @@
   * [Setting up SSO with Okta](user-administration/single-sign-on/setting-up-sso-with-okta.md)
   * [Setting up SSO with Auth0](user-administration/single-sign-on/setting-up-sso-with-auth0.md)
   * [Auto provisioning users & teams](user-administration/single-sign-on/auto-provisioning-users-and-teams.md)
-* [🔐 Two-factor authentication / MFA](user-administration/two-factor-authentication-mfa.md)
+* [Two-factor authentication / MFA](user-administration/two-factor-authentication-mfa.md)
 
 ## Reports
 
@@ -302,12 +303,12 @@
   * [Javascript / Node.js Client](rest-api/client-libraries/javascript-node.js-client.md)
 * [Terraform](rest-api/terraform/README.md)
   * [Importing ilert UI resources into Terraform state](rest-api/terraform/importing-ilert-ui-resources-into-terraform-state.md)
-* [👩‍💻 ICL - ilert condition language](rest-api/icl-ilert-condition-language.md)
-* [➿ ITL - ilert template language](rest-api/itl-ilert-template-language.md)
+* [ICL - ilert condition language](rest-api/icl-ilert-condition-language.md)
+* [ITL - ilert template language](rest-api/itl-ilert-template-language.md)
 * [API endpoints / samples](rest-api/api-samples/README.md)
   * [Creating alerts through events](rest-api/api-samples/creating-alerts-through-events.md)
   * [Importing public status page subscribers](rest-api/api-samples/importing-public-status-page-subscribers.md)
-* [🔥 Developing ilert Apps](rest-api/developing-ilert-apps/README.md)
+* [Developing ilert Apps](rest-api/developing-ilert-apps/README.md)
   * [Get started with ilert Apps](rest-api/developing-ilert-apps/get-started-with-ilert-apps.md)
   * [Understanding OAuth2](rest-api/developing-ilert-apps/understanding-oauth2.md)
   * [Developing a Backend App with OAuth2](rest-api/developing-ilert-apps/developing-a-backend-app-with-oauth2.md)

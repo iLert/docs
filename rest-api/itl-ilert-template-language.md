@@ -1,4 +1,4 @@
-# ➿ ITL - ilert template language
+# ITL - ilert template language
 
 The ITL enables you to customize and design alerts tailored to your specific use cases. In addition to offering flexibility in formatting and structuring alerts, it also provides a variety of built-in functions to further enhance the alerts' readablility.
 
