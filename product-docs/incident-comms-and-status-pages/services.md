@@ -24,7 +24,7 @@ Service status changes on the service itself (i.e. without an incident) will not
 
 To create a new service, navigate to the Services page, click on the **Create new service** button.
 
-![](<../.gitbook/assets/Screenshot 2022-01-08 at 00.00.00 (2).png>)
+![](<../.gitbook/assets/Screenshot 2022-01-08 at 00.00.00 (7).png>)
 
 Give the service a name that is descriptive to the users of the service and click on **Create service**.
 

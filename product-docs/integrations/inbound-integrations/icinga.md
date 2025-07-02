@@ -1,8 +1,4 @@
 ---
-title: Icinga Integration
-seoTitle: 'iLert: Icinga Integration for Alerting | Incident Response | Uptime'
-date: '2020-05-19T04:02:05.000Z'
-weight: 1
 description: The ilert Icinga Integration helps you to easily connect ilert with Icinga.
 ---
 

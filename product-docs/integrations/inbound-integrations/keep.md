@@ -31,16 +31,16 @@ The ilert provider for [Keep](https://docs.keephq.dev/overview/introduction) all
 
 1. On the sidebar, click on **Providers**.
 
-<figure><img src="../../.gitbook/assets/1 (13).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (35).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Now enter 'ilert' into the **Filter providers** search bar and click on the ilert tile.
 
-<figure><img src="../../.gitbook/assets/2 (11).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (31).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Enter a Provider name and the previously created alert source API key into the **ilert API token** field.
 4. Click on **Connect** to finish the setup.
 
-<figure><img src="../../.gitbook/assets/3 (10).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (28).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 

@@ -1,8 +1,4 @@
 ---
-title: UptimeRobot Integration
-seoTitle: 'iLert: UptimeRobot Integration for Alerting | Incident Response | Uptime'
-date: '2018-12-29T05:02:05.000Z'
-weight: 1
 description: >-
   The ilert UptimeRobot Integration helps you to easily connect ilert with
   UptimeRobot.
@@ -36,16 +32,16 @@ With the UptimeRobot integration, you can easily integrate UptimeRobot notificat
 
 1. On the sidebar, click on **Integrations & API**.
 
-![](<../../.gitbook/assets/1 (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/1 (6).png>)
 
 2. Under the **Webhook** section, click on **Add**, to add a new webhook.
 
-![](<../../.gitbook/assets/2 (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/2 (7).png>)
 
 3. Now enter the integration url created in ilert into the **Webhook URL** field and enable **As query string of webhook URL**.
 4. Click on **Create Integration** to finish.
 
-![](<../../.gitbook/assets/3 (2) (1).png>)
+![](<../../.gitbook/assets/3 (5).png>)
 
 5. The integration is now set up and the new Webhook can be activated in your monitors.
 
@@ -53,15 +49,15 @@ With the UptimeRobot integration, you can easily integrate UptimeRobot notificat
 
 1. In the monitor view, click on **Edit**.
 
-<figure><img src="../../.gitbook/assets/4 (7).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (15).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. On the next page, click on **Integrations & Team**.
 
-<figure><img src="../../.gitbook/assets/5 (7).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (14).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. In the **Connect Integrations** section, tick the checkbox of the desired webhook. Click on **Save Changes** to finish.
 
-<figure><img src="../../.gitbook/assets/6 (8).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (14).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 

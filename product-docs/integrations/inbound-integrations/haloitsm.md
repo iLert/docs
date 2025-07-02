@@ -33,39 +33,39 @@ This integration enables you to connect ilert and HaloITSM easily and receive cr
 
 1. On the sidebar, click **Configuration**.
 
-<figure><img src="../../.gitbook/assets/1 (5).png" alt="" width="342"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (18).png" alt="" width="342"><figcaption></figcaption></figure>
 
 2. In the **search bar** enter "Custom integrations" and select **Custom integrations** from the results.
 
-<figure><img src="../../.gitbook/assets/2 (5).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (18).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/3 (4).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (14).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Click **New**.
 
-<figure><img src="../../.gitbook/assets/4 (4).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (12).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Enter a Name and the following Base URL `https://api.ilert.com/`.
 
-<figure><img src="../../.gitbook/assets/5 (4).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (11).png" alt="" width="563"><figcaption></figcaption></figure>
 
 5. Save the custom integration.
 6. Now, click **Methods**.
 
-<figure><img src="../../.gitbook/assets/6 (5).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (11).png" alt="" width="563"><figcaption></figcaption></figure>
 
 7. Then, click **New**.
 
-<figure><img src="../../.gitbook/assets/7 (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7 (8).png" alt="" width="563"><figcaption></figcaption></figure>
 
 8. Enter a **Name**.
 9. Change the **Method** to POST and enter the previously created URL path into the field.
 
-<figure><img src="../../.gitbook/assets/8 (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8 (4).png" alt="" width="563"><figcaption></figcaption></figure>
 
 10. Click **Body** and choose **JSON**.
 
-<figure><img src="../../.gitbook/assets/9 (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/9 (5).png" alt="" width="563"><figcaption></figcaption></figure>
 
 11. Add the following payload to the body.
 
@@ -121,7 +121,7 @@ This integration enables you to connect ilert and HaloITSM easily and receive cr
 
 12. In the next step add a new Runbook.
 
-<figure><img src="../../.gitbook/assets/10 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10 (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 13. Enter a name for your newly created Runbook.
 

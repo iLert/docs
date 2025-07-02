@@ -4,7 +4,7 @@ description: >-
   iOS devices.
 ---
 
-# iOS Critical Alerts Configuration
+# iOS critical alerts configuration
 
 {% hint style="info" %}
 Note: this guide is meant for iOS users only. For Android, please refer to [this page](android-push-notification-dnd-configuration.md).
@@ -19,7 +19,7 @@ Note: this guide is meant for iOS users only. For Android, please refer to [this
 * Navigate **back to the Settings** menu and tap on **Push notification settings** -> **Enable Critical alerts for high priority**
 * Choose an override volume for your critical alerts
 
-<img src="../../../.gitbook/assets/IMG_1405.jpg" alt="" data-size="original">
+<img src="../../.gitbook/assets/IMG_1405.jpg" alt="" data-size="original">
 
 {% hint style="warning" %}
 Note that only high priority alerts will be delivered as critical alerts. Alerts with low priority will use low priority notification settings.
@@ -33,11 +33,11 @@ When wearing your Apple Watch, critical notifications will not appear on your ph
 
 * Open your **Watch** app on your iPhone
 
-![](<../../../.gitbook/assets/IMG_1402 (1).jpg>)
+![](<../../.gitbook/assets/IMG_1402 (1).jpg>)
 
 * Navigate to **Notifications**
 
-![](../../../.gitbook/assets/IMG_1404.jpg)
+![](../../.gitbook/assets/IMG_1404.jpg)
 
 * Scroll down in the list to find the **ilert** app and disable the watch notifications for the app.
 

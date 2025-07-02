@@ -24,17 +24,17 @@ description: Send ClusterControl Alarms to ilert
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
 7. On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
-<figure><img src="../../.gitbook/assets/il-1 (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/il-1 (6).png" alt=""><figcaption></figcaption></figure>
 
 ## In ClusterControl: Create a Webhook
 
 1. On the sidebar, click on **Settings** **->** **Notification services**.
 
-<figure><img src="../../.gitbook/assets/1-1.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1-1 (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Now click **Add new integration**.
 
-<figure><img src="../../.gitbook/assets/1-2.png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1-2 (2).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Select **Webhook** and click on **Continue**.
 

@@ -13,11 +13,11 @@ SignalFx enables real-time cloud monitoring and observability for infrastructure
 1. Go to the "Alert sources" tab and click **Create new alert source**
 2. Enter a name and select your desired escalation policy. Select "SignalFx" as the **Integration Type** and click on **Save**.
 
-![](<../../.gitbook/assets/iLert (30).png>)
+![](<../../.gitbook/assets/iLert (43).png>)
 
 1. On the next page, a Webhook URL is generated. You will need this URL below when setting up the hook in SignalFx.
 
-![](<../../.gitbook/assets/iLert (31).png>)
+![](<../../.gitbook/assets/iLert (33).png>)
 
 ## In SignalFx: Create a search <a href="#in-splunk" id="in-splunk"></a>
 

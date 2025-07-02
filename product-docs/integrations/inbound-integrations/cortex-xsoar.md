@@ -30,11 +30,11 @@ description: Create ilert alerts directly from Cortex XSOAR (formerly Demisto).
 
 1. Go to Cortex XSOAR, then to **Settings -> Integrations**, search for **iLert** integration and click on the **Add instance** button
 
-![](../../.gitbook/assets/Settings.png)
+![](<../../.gitbook/assets/Settings (2).png>)
 
 2. On the modal window, name the instance, paste the ilert **API Key** that that you generated in ilert and click on the **Save & exit** button
 
-![](<../../.gitbook/assets/Settings (1).png>)
+![](../../.gitbook/assets/Settings.png)
 
 3. Type some available ilert command to test the integration, e.g.
 
@@ -42,7 +42,7 @@ description: Create ilert alerts directly from Cortex XSOAR (formerly Demisto).
 !iLert-submit-event summary="Test alert"
 ```
 
-![](<../../.gitbook/assets/Settings (2).png>)
+![](<../../.gitbook/assets/Settings (1).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

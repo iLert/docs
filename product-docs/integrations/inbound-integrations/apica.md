@@ -24,34 +24,34 @@ description: Trigger alerts in ilert based on issues or outages detected by Apic
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
 7. On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
-<figure><img src="../../.gitbook/assets/il-1 (4).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/il-1 (13).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## In Apica: Create an Alert Destination
 
 1. On the top menu bar, navigate to **Integrations -> Alert Destinations -> New Alert Destination**.
 
-<figure><img src="../../.gitbook/assets/1 (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (42).png" alt=""><figcaption></figcaption></figure>
 
 2. Now type "webhook" into the search field and select **Webhook**.
 
-<figure><img src="../../.gitbook/assets/2 (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (38).png" alt=""><figcaption></figcaption></figure>
 
 3. Enter a **Name** and the in ilert previously created alert source url into the **Url** field.
 
-<figure><img src="../../.gitbook/assets/3 (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (33).png" alt=""><figcaption></figcaption></figure>
 
 4. Now on the top menu bar, click on **Alerts**.
 
-<figure><img src="../../.gitbook/assets/4 (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (26).png" alt=""><figcaption></figcaption></figure>
 
 5. Select any Alert for which you want to receive a notification.
 6. Click on the **'+'** in the Destinations tab.
 
-<figure><img src="../../.gitbook/assets/5 (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (21).png" alt=""><figcaption></figcaption></figure>
 
 7. Now select the previously created **Alert Destination** and click on **Save**.
 
-<figure><img src="../../.gitbook/assets/6 (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (22).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 

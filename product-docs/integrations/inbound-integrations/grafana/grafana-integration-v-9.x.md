@@ -32,7 +32,7 @@ Are you using Grafana 8.x or lower? Please refer to our [Grafana Integration](gr
 
 1. In the sidebar, go to **Alerting** -> **Contact points** and click on the **New contact point button.**
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2022-09-08 at 16.31.10 (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Screenshot 2022-09-08 at 16.31.10.png" alt=""><figcaption></figcaption></figure>
 
 2. Select **Contact point type** Webhook and in the field **URL** insert the webhookurl generated in ilert. Set the HTTP Method to **POST**.
 

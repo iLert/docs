@@ -8,7 +8,7 @@ A recipe for the Prometheus alert manager configuration to support liveness chec
 
 Alter your **AM.yml**
 
-```text
+```
 route:
   receiver: default
   group_by:
@@ -25,6 +25,3 @@ receivers:
    - url: 'https://api.ilert.com/api/v1/heartbeats/${YOUR-APIKEY}'
      send_resolved: true
 ```
-
-
-

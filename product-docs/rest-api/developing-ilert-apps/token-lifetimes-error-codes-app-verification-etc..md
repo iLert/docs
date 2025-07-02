@@ -37,12 +37,12 @@ You may request multiple scopes by separating them with a space.
 
 ## OAuth2 endpoints overview
 
-| Method | Url                                                                                                                |
-| ------ | ------------------------------------------------------------------------------------------------------------------ |
-| `GET`  | [https://app.ilert.com/api/developers/oauth2/authorize](https://app.ilert.com/api/developers/oauth2/authorize)     |
-| `POST` | [https://api.ilert.com/api/developers/oauth2/token](https://api.ilert.com/api/developers/oauth2/token)             |
-| `POST` | [https://api.ilert.com/api/developers/oauth2/token\_info](https://api.ilert.com/api/developers/oauth2/token\_info) |
-| `POST` | [https://api.ilert.com/api/developers/oauth2/revoke](https://api.ilert.com/api/developers/oauth2/revoke)           |
+| Method | Url                                                                                                               |
+| ------ | ----------------------------------------------------------------------------------------------------------------- |
+| `GET`  | [https://app.ilert.com/api/developers/oauth2/authorize](https://app.ilert.com/api/developers/oauth2/authorize)    |
+| `POST` | [https://api.ilert.com/api/developers/oauth2/token](https://api.ilert.com/api/developers/oauth2/token)            |
+| `POST` | [https://api.ilert.com/api/developers/oauth2/token\_info](https://api.ilert.com/api/developers/oauth2/token_info) |
+| `POST` | [https://api.ilert.com/api/developers/oauth2/revoke](https://api.ilert.com/api/developers/oauth2/revoke)          |
 
 ## OAuth2 error codes overview
 

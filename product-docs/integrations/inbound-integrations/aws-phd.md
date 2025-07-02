@@ -1,11 +1,4 @@
 ---
-title: AWS Personal Health Dashboard Integration
-seoTitle: >-
-  ilert: AWS Personal Health Dashboard Integration for Alerting | Incident
-  Response | Uptime
-date: '2020-04-28T02:40:05.000Z'
-weight: 1
-type: post
 description: Create alerts in ilert from issues AWS Personal Health Dashboard.
 ---
 

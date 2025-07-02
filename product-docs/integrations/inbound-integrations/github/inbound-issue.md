@@ -1,8 +1,4 @@
 ---
-title: Github Inbound Issue Integration
-seoTitle: 'iLert: Github Issue Integration for Alerting | Incident Response | Uptime'
-date: '2020-04-21T07:00:00.000Z'
-weight: 1
 description: Create alerts in ilert based on issues from GitHub repositories.
 ---
 
@@ -33,7 +29,7 @@ With the ilert Github Issue integration, you can create alerts in ilert based on
 
 
     {% hint style="info" %}
-    Customize the GitHub alert source with [advanced settings](../../../inbound-integrations/github/advanced-settings.md) for a better user experience.
+    Customize the GitHub alert source with [advanced settings](advanced-settings.md) for a better user experience.
     {% endhint %}
 
 ## In Github: Create a Repository Webhook <a href="#in-github" id="in-github"></a>

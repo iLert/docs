@@ -16,7 +16,7 @@ To set up the integration, you must have admin rights in ilert.
 
 1. Go to DingTalk, select the group in which you want to publish ilert Alerts and click the **Context Menu** **->** **Group Assistant**
 
-![](../../.gitbook/assets/DingTalk.png)
+![](<../../.gitbook/assets/DingTalk (2).png>)
 
 2. Than click on the **Add Robot** button
 
@@ -58,7 +58,7 @@ To set up the integration, you must have admin rights in ilert.
 
 3. On the next page, choose **DingTalk** as type, name the connector and click on the **Save** button.
 
-![](<../../.gitbook/assets/iLert (83).png>)
+![](<../../.gitbook/assets/iLert (96).png>)
 
 4. Go to **Services -> Alert sources** and open the alert source whose alerts you want to post to DingTalk. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
@@ -66,11 +66,11 @@ To set up the integration, you must have admin rights in ilert.
 
 5. On the next page choose **DingTalk** as the type, choose the connector created in step 3, name it\*\*,\*\* choose **alert events** to publish and click on the **Save** button.
 
-![](<../../.gitbook/assets/iLert (84).png>)
+![](<../../.gitbook/assets/iLert (64).png>)
 
 6. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted on the DingTalk group.
 
-![](<../../.gitbook/assets/DingTalk (2).png>)
+![](../../.gitbook/assets/DingTalk.png)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

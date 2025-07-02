@@ -8,7 +8,7 @@ ilert AI for alert grouping **does not share data** with any third-parties in it
 
 To get started head to your alert source's edit view and look in the **Advanced settings** section for the grouping options. Choose **Group by content similarity**.
 
-<figure><img src="../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure>
 
 Content similarity grouping comes with two options that can be adjusted to fine tune the grouping behaviour. You can come back and adjust these at any time.
 
@@ -22,11 +22,11 @@ A value between **0.1 <-->0.995** where a value close to **1** describes almost 
 
 Clicking on the **set threshold** option will open a modal that runs an on demand clustering algorithm on up to 1000 alerts in the last 60 days that this alert source has received, every time you adjust the slider for threshold value.
 
-<figure><img src="../.gitbook/assets/image (108).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (224).png" alt="" width="375"><figcaption></figcaption></figure>
 
 A grouping preview will show you the sharpness of the selected threshold based on your live alerts that the alert source has processed in the described window.
 
-<figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Remember you need to have sent a few alerts to the alert source to see any grouping preview results (the set threshold option is not available during the creation wizard)
@@ -36,15 +36,15 @@ Remember you need to have sent a few alerts to the alert source to see any group
 
 As described, a higher threshold will result in more precise grouping based on the content of the alerts, shown in our sample above as no alert is grouped at all above. If we lower the threshold to 0.695 we see alerts being grouped.
 
-<figure><img src="../.gitbook/assets/image (110).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (226).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Lowering the threshold further our group continues to form over all desired alert contents:
 
-<figure><img src="../.gitbook/assets/image (111).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (227).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Seeing this it seems that for our sample use case might have a perfect threshold at around 0.53 <--> 0.63. If we continue to reduce our threshold we can see that our grouping becomes too generic:
 
-<figure><img src="../.gitbook/assets/image (112).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (228).png" alt="" width="375"><figcaption></figcaption></figure>
 
 As all alerts are suddenly grouped in a single group.
 

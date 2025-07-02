@@ -21,11 +21,11 @@ To install the bot application, you must have admin rights in Microsoft Teams.
 1. Open the application in Microsoft Teams: [https://teams.microsoft.com/l/app/8f3b287d-df09-44e2-93b3-35e0dfa90756](https://teams.microsoft.com/l/app/8f3b287d-df09-44e2-93b3-35e0dfa90756)
 2. Add the ilert bot to a team
 
-![](../../../.gitbook/assets/General__Demo____Microsoft_Teams.png)
+![](<../../../.gitbook/assets/General__Demo____Microsoft_Teams (1).png>)
 
 1. Choose a team and channel name and click on the **Set up a bot** button
 
-![](<../../../.gitbook/assets/General__Demo____Microsoft_Teams (1).png>)
+![](../../../.gitbook/assets/General__Demo____Microsoft_Teams.png)
 
 1. You should have received a welcome message in the previously selected channel, if you do not see the message or you want to reconnect use the `@iLert connect` command to bring it up again. Click on the **Connect** button in the message, this will take you to ilert's login page to finish your connection.
 
@@ -39,7 +39,7 @@ To set up the integration, you must have admin rights in ilert.
 
 1. Login to the ilert account which you want to connect to Microsoft Teams and ilert will automatically set up the connection for you - _depending on your login state in Microsoft 365 you will have to login to Microsoft again, afterwards you will be automatically taken back to ilert_ and you should see a success message with your newly created connector.
 
-![](<../../../.gitbook/assets/iLert (97).png>)
+![](<../../../.gitbook/assets/iLert (72).png>)
 
 ## In ilert <a href="#in-ilert" id="in-ilert"></a>
 
@@ -53,7 +53,7 @@ Now that the initial connection between your Microsoft Teams and ilert accounts 
 
 1. On the next page choose **Microsoft Teams** as the type, choose the connector created before, name your action\*\*,\*\* choose **Chat** as Teams Action, choose **Your team**, then choose **Your channel** and click on the **Save** button.
 
-![](<../../../.gitbook/assets/iLert (98).png>)
+![](<../../../.gitbook/assets/iLert (81).png>)
 
 1. Finished! You can now test the connection by clicking on the button **Test this connection**. Thereafter, a test message will be posted in your Microsoft Teams channel.
 

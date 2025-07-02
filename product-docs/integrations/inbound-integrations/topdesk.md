@@ -1,9 +1,4 @@
 ---
-title: TOPdesk Integration
-seoTitle: 'iLert: TOPdesk for Alerting | Incident Response | Uptime'
-date: '2020-04-23T05:02:05.000Z'
-icon: ti-topdesk
-type: pages
 description: The ilert TOPdesk Integration helps you to easily connect to TOPdesk.
 ---
 
@@ -55,7 +50,7 @@ With the ilert TOPdesk integration, you can create alerts in ilert based on TOPd
 
 3. On the modal window, choose a service you are interested in e.g. **Ticket Management - First Line Ticket** and click on **Create new action sequence**
 
-![](<../../.gitbook/assets/tpdki5 (1).png>)
+![](../../.gitbook/assets/tpdki5.png)
 
 4. In the **Name** section, enter a name eg. `iLert Create Alert Action`
 5. In the **Available** section, ensure that the **Active**, **Apply in the Self-Service Portal** and **Apply in the Operator's Section** checkboxes are checked
@@ -94,11 +89,11 @@ With the ilert TOPdesk integration, you can create alerts in ilert based on TOPd
 13. &#x20;Go to **Modules** again
 14. &#x20;Click on **Action Management** and then on **Action sequence** to add an action sequence
 
-![](<../../.gitbook/assets/tpdki4 (1) (1) (1).png>)
+![](<../../.gitbook/assets/tpdki4 (3).png>)
 
 15. &#x20;On the modal window, choose a service you are interested in e.g. **Ticket Management - First Line Ticket** and click on **Create new action sequence**
 
-![](<../../.gitbook/assets/tpdki5 (2).png>)
+![](<../../.gitbook/assets/tpdki5 (1) (1).png>)
 
 16. &#x20;In the **Name** section, enter a name eg. `iLert Create Alert Action`
 17. &#x20;In the **Available** section, ensure that the **Active**, **Apply in the Self-Service Portal** and **Apply in the Operator's Section** checkboxes are checked
@@ -125,11 +120,11 @@ With the ilert TOPdesk integration, you can create alerts in ilert based on TOPd
 1. Go to **Modules**
 2. Click on **Action Management** and then on **Event** to add a new event
 
-![](../../.gitbook/assets/tpdki8.png)
+![](<../../.gitbook/assets/tpdki8 (2).png>)
 
 3. On the modal window, choose a service you are interested in e.g. **Ticket Management - First Line Ticket** and click on **Create new event**
 
-![](<../../.gitbook/assets/tpdki9 (1) (1).png>)
+![](<../../.gitbook/assets/tpdki9 (2).png>)
 
 4. In the **Details** section **Name** field, enter a name eg. `iLert - Create Alert Event`
 5. In the **Details** section **Active** field, ensure that checkbox is checked
@@ -143,7 +138,7 @@ With the ilert TOPdesk integration, you can create alerts in ilert based on TOPd
 10. &#x20;Go to **Modules** again
 11. &#x20;Click on **Action Management** and then on **Event** to add a new event
 
-![](<../../.gitbook/assets/tpdki8 (1) (1) (1).png>)
+![](<../../.gitbook/assets/tpdki8 (1).png>)
 
 12. &#x20;On the modal window, choose a service you are interested in e.g. **Ticket Management - First Line Ticket** and click on **Create new event**
 

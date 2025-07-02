@@ -93,7 +93,7 @@ ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Mana
 
 ilert's ServiceNow integration allows you to easily configure advanced settings such as dynamic escalation policy routing and priority mapping.
 
-![](<../../.gitbook/assets/image (57) (1) (1) (1).png>)
+![](<../../.gitbook/assets/image (124).png>)
 
 To get access to the advanced features, you will have to provide access credentials to your ServiceNow instance first. The provided user will need the following permissions in ServiceNow:
 
@@ -110,17 +110,17 @@ This will grant you access to:
 
 When selecting priority mapping, ilert will contact your ServiceNow instance and fetch all available priorities of ServiceNow alerts. You will then be able to choose a mapping for each of these and determine how ilert will treat them when creating alerts in ilert.
 
-![](<../../.gitbook/assets/image (55) (1) (2).png>)
+![](<../../.gitbook/assets/image (55).png>)
 
 ### Dynamic escalation policy routing
 
 When selecting escalation policy routing, ilert will contact your ServiceNow instance and fetch all available alert fields. You will then be able to choose an alert field that should be used for incoming alerts in ilert to determine the routing key.
 
-![](<../../.gitbook/assets/image (51) (1).png>)
+![](<../../.gitbook/assets/image (47).png>)
 
 You may choose to give escalation policies in ilert a unique routing key.
 
-![](<../../.gitbook/assets/image (54) (3).png>)
+![](<../../.gitbook/assets/image (69).png>)
 
 With an incoming event ilert will try to find the right escalation policy based on the routing key and assign the alert to the escalation policy. If no routing key is provided, ilert will use the assigned escalation policy of the alert source.
 
@@ -128,13 +128,13 @@ With an incoming event ilert will try to find the right escalation policy based 
 
 When providing credentials you may choose to activate bidirectional mode on the ServiceNow alert sources. This will cause your alert source to be automatically linked with an outbound connector and alert action. This way status changes to ilert alerts will synchronize to ServiceNow tickets.
 
-![](<../../.gitbook/assets/image (53) (1) (1) (1).png>)
+![](../../.gitbook/assets/ExampleAutotask.png)
 
 When saving the ServiceNow alert source with the bidirectional setting enabled, it will automatically create an outbound connector for you and take you to the creation page of the necessary alert action, **please make sure to continue with the setup of the action to finish your bidirectional alert source setup.**
 
 
 
-![](<../../.gitbook/assets/image (56) (1).png>)
+![](<../../.gitbook/assets/image (137).png>)
 
 ### Good to know
 

@@ -26,13 +26,13 @@ Detect an issue in [Dash0](https://www.dash0.com/) and mobilize the right team m
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
 7. On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
-<figure><img src="../../.gitbook/assets/il-1 (5).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/il-1 (14).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## In Dash0: Create a  Notification channel
 
 1. In the sidebar, navigate to the company Settings.
 
-<figure><img src="../../.gitbook/assets/1-2 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1-2 (4).png" alt=""><figcaption></figcaption></figure>
 
 2. Navigate to **Notification Channels** -**>** **New notification channel**.
 
@@ -51,7 +51,7 @@ Detect an issue in [Dash0](https://www.dash0.com/) and mobilize the right team m
 7. Navigate to **Alerting** -> **Notifications**.
 8. Create a **new notification rule** or **Edit** an existing one.
 
-<figure><img src="../../.gitbook/assets/5 (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (22).png" alt=""><figcaption></figcaption></figure>
 
 9. In the **Notification channels** tab, click **Add notification channel** and select the previously created notification channel.
 10. Click **Save**.

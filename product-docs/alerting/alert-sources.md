@@ -15,20 +15,20 @@ ilert provides the following inbound integration options:
 1.  Go to **Alert sources** -> **Alert sources** and click **Create new alert source.**\
 
 
-    <figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure>
 2.  Select your integration type in the search field and click **Next**.\
 
 
-    <figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (199).png" alt=""><figcaption></figcaption></figure>
 3. Give your alert source a name, optionally assign teams, and click **Next**.
 4.  Select an **escalation policy** by creating a new one or assigning an existing one. \
 
 
-    <figure><img src="../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (200).png" alt=""><figcaption></figcaption></figure>
 5.  Select your [Alert grouping](alert-sources.md#alert-grouping) preference and click **Continue setup**. You may click **Do not group alerts** for now and change it later.\
 
 
-    <figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure>
 6. The next page shows additional settings, such as custom alert templates or notification priority. Click on **Finish setup** for now.
 
 ## Event Explorer
@@ -53,7 +53,7 @@ With alert templates, you can create your own template for the alert summary and
     The available fields are specific to the integration.\
 
 
-    <figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Field colors and accessing raw fields**
@@ -69,7 +69,7 @@ Using the preview button you may try out your current template. By default, iler
 
 
 
-<figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (196).png" alt=""><figcaption></figcaption></figure>
 
 #### Using the template text syntax
 
@@ -136,7 +136,7 @@ If you select **High during support hours, low priority otherwise,** you can cho
 
 If you select **Low during support hours, high priority otherwise,** you can choose to **Raise priority of all pending alerts** by ticking the checkbox located under the support hour selection. All your pending alerts for the current alert source will be raised to "high" when your support hours **end**.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (22).png" alt=""><figcaption></figcaption></figure>
 
 ### Dynamic priority mapping
 
@@ -159,7 +159,7 @@ ilert will fallback to the alert source's default priority, if a priority could 
 
 Sometimes flagging alerts as low priority is not enough and it is necessary to drop events completely. e.g. `Grafana DatasourceNoData` This is why you can configure one or multiple event filter groups for your alert source to process only desired events into alerts.
 
-<figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (214).png" alt=""><figcaption></figcaption></figure>
 
 You may choose between properties of the known **ilert event payload** such as priority or summary, some more **advanced dynamic fields** like **trigger counts** which allow you to define your own rate limits as well as **schedules** and **support hours** to fine tune accept windows - and of course **custom payload fields**.
 
@@ -187,7 +187,7 @@ There are 5 types of alert grouping available:
 
 By default every alert source attempts to offer the best experience based on the features that the corresponding third party integration tool has available. Some tools offer more e.g. resolve events or proper alertKeys to group events, some tools offer a plain webhook without any additional context. ilert shows the integration features in the creation wizard:
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (10).png" alt="" width="188"><figcaption></figcaption></figure>
 
 Integrations such as Autotask, Jira, Grafana or Prometheus provide rich payloads which ilert automatically uses to identify alertKey and eventTypes, which are used to automatically group incoming events, if an unresolved alert with the same identifier is found.
 

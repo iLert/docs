@@ -4,7 +4,7 @@ We are renaming **Incidents** to **Alerts**. This change is fully backwards-comp
 
 ### Why are we making this change?
 
-We're doing this in preparation for upcoming changes to how our [stakeholder communication](broken-reference) feature works in ilert. Currently, incidents in ilert are usually created by monitoring or ticketing tools.  On-call teams are notified about incidents and once a responder acknowledges an incident, they can add stakeholders to it to inform them that the incident likely has an impact on their business area. \
+We're doing this in preparation for upcoming changes to how our [stakeholder communication](broken-reference) feature works in ilert. Currently, incidents in ilert are usually created by monitoring or ticketing tools. On-call teams are notified about incidents and once a responder acknowledges an incident, they can add stakeholders to it to inform them that the incident likely has an impact on their business area.\
 \
 This approach has several shortcomings:
 
@@ -12,14 +12,14 @@ This approach has several shortcomings:
 * Stakeholder updates are currently hidden in the comments section of an incident and displayed along with other comments between team members.
 * You cannot use pre-defined incident templates for incident communication
 
-Therefore, we will rename incidents to what they really are: alerts! An alert is primarily targeted towards on-call responders and notifies them about potential incidents reported by monitoring or ticketing tools.&#x20;
+Therefore, we will rename incidents to what they really are: alerts! An alert is primarily targeted towards on-call responders and notifies them about potential incidents reported by monitoring or ticketing tools.
 
-But wait, this doesn't solve the aforementioned problems, you might think... Renaming will be the first step. In the next months, we will roll out several features to improve incident communication in ilert.&#x20;
+But wait, this doesn't solve the aforementioned problems, you might think... Renaming will be the first step. In the next months, we will roll out several features to improve incident communication in ilert.
 
 Among other things, we will introduce ...
 
 * **incidents** that are specifically designed for the purpose of communicating with your stakeholders
-* **services** that are meant to model business capabilities and to which stakeholders can subscribe to receive updates.&#x20;
+* **services** that are meant to model business capabilities and to which stakeholders can subscribe to receive updates.
 * **status pages** that help you inform stakeholders and users about outages and maintenances
 
 ### When will this change happen?

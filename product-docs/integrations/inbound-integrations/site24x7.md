@@ -26,15 +26,15 @@ Site24x7 is a cloud-based monitoring solution that tracks the performance and av
 
 1. On the side bar, click on **Admin**.
 
-<figure><img src="../../.gitbook/assets/1 (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (4).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Now click on **Third-Party Integrations**.
 
-<figure><img src="../../.gitbook/assets/2 (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (5).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Click **ilert** -> **Integrate Now**.
 
-<figure><img src="../../.gitbook/assets/3-2 (4).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3-2 (5).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Now enter an **Integration Name** and the [previously created alert source url](site24x7.md#in-ilert-create-a-site24x7-alert-source) in ilert into the **Hook URL** field.
 
@@ -50,7 +50,7 @@ Note: The following step is important for alert resolution in ilert.
 
 6. In **Manually Close Incidents When My Monitor Status Changes to Up** choose **Yes**. This step is mandatory for alert resolution coming from Site24x7.
 
-<figure><img src="../../.gitbook/assets/6-2 (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6-2 (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 

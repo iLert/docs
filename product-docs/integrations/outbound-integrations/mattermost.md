@@ -50,11 +50,11 @@ To set up this integration, you must have admin rights in ilert.
 
 5. Select **Mattermost** as the **type**, select the connector created in step 3 and give your connection a name.
 
-![](<../../.gitbook/assets/iLert (72).png>)
+![](<../../.gitbook/assets/iLert (31).png>)
 
 6. Finished! You can now test the connection by clicking on the **Test this connection** button. A test message will be posted in the Mattermost channel.
 
-![](<../../.gitbook/assets/iLert (73).png>)
+![](<../../.gitbook/assets/iLert (88).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

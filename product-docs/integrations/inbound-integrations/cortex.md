@@ -31,7 +31,7 @@ You can use our [example prometheus setup](https://github.com/iLert/prometheus-i
 5. The next page shows additional settings such as customer alert templates or notification prioritiy. Click on **Finish setup** for now.
 6. On the final page, a Cortex URL will be generated that you will need later in this guide.
 
-<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure>
 
 ## In Prometheus Alertmanager  <a href="#create-alert-source" id="create-alert-source"></a>
 

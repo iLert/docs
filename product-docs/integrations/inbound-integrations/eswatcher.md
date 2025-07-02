@@ -34,11 +34,11 @@ description: >-
 
 1. Go to Stack Management and then to **Alerts and Insights -> Watcher**, then click the **Create** button and the **Create advanced watch** button.
 
-<figure><img src="../../.gitbook/assets/1 (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (8).png" alt=""><figcaption></figcaption></figure>
 
 2. On the next page, name the watcher e.g. ilert, define conditions and actions the **Webhook URL** that you generated in ilert as follows:
 
-<figure><img src="../../.gitbook/assets/2 (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (9).png" alt=""><figcaption></figcaption></figure>
 
 ```
 {

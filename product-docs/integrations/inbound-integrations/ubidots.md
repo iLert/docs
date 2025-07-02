@@ -26,7 +26,7 @@ description: >-
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
 7.  On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
-    <figure><img src="../../.gitbook/assets/1-1 (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/1-1 (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -34,27 +34,27 @@ description: >-
 
 1. On the top bar, click on **Data** **->** **Events**.
 
-<figure><img src="../../.gitbook/assets/1 (9).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (22).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Now click on the "+" to create a new Trigger Event.
 
-<figure><img src="../../.gitbook/assets/2 (8).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (21).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Select a **Variable** and configure a trigger as you like. Click on **Next** to proceed to the next step.
 
-<figure><img src="../../.gitbook/assets/3 (7).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (17).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Now click on **ADD ACTION**.
 
-<figure><img src="../../.gitbook/assets/4 (6).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (14).png" alt="" width="563"><figcaption></figcaption></figure>
 
 5. Select **Trigger webhook** from the list.
 
-<figure><img src="../../.gitbook/assets/5 (6).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (13).png" alt="" width="563"><figcaption></figcaption></figure>
 
 6. Enter the previously in ilert created integration URL into the URL field.
 
-<figure><img src="../../.gitbook/assets/6 (7).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (13).png" alt="" width="563"><figcaption></figcaption></figure>
 
 7. Copy and paste the following payload:
 
@@ -74,13 +74,13 @@ description: >-
 
 8. Now fill the payload with the help of the tag button.
 
-<figure><img src="../../.gitbook/assets/10 (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/10 (4).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/7 (6).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7 (11).png" alt="" width="563"><figcaption></figcaption></figure>
 
 9. To send resolve events, click on **Back to Normal**.
 
-<figure><img src="../../.gitbook/assets/8 (5).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8 (7).png" alt="" width="563"><figcaption></figcaption></figure>
 
 10. Enable **Back to normal action** and copy following payload:
 
@@ -101,7 +101,7 @@ description: >-
 
 <figure><img src="../../.gitbook/assets/11 (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/9 (4).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/9 (7).png" alt="" width="563"><figcaption></figcaption></figure>
 
 12. Save the Trigger action to finish the setup.
 

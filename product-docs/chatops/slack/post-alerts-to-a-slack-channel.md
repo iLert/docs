@@ -21,7 +21,7 @@ Before you proceed, please make sure that a global admin has connected your Slac
 5. Create a test alert in the alert source in ilert. To do this, click on the link of the alert source in Slack _(New Relic in the example above)_.
 6.  A notice appears on the overview page of the alert source actions that alerts from this alert source will be published in Slack.
 
-    ![](<../../.gitbook/assets/iLert (104).png>)
+    ![](<../../.gitbook/assets/iLert (86).png>)
 7. Click on **Create Alert** (...) and create a test alert.
 8.  A message is now published in the configured channel with the alert information. You can accept the alert within Slack or resolve it.
 

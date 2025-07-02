@@ -39,11 +39,11 @@ If you already have an Amazon SNS topic, please skip the steps 1 and 2.
 
 1. Go to the AWS Console and then to **Amazon SNS**, then click on the **Topic** link and on the **Create topic** button\*\*.\*\*
 
-![](<../../../.gitbook/assets/Simple_Notification_Service (4).png>)
+![](<../../../.gitbook/assets/Simple_Notification_Service (3).png>)
 
 2. On the next page, choose **Standard** topic, name the topic e.g. ilert and click on the **Create topic** button
 
-![](<../../../.gitbook/assets/Simple_Notification_Service (5).png>)
+![](<../../../.gitbook/assets/Simple_Notification_Service (7).png>)
 
 3. On the topic overview page, click on the **Create subscription** button
 
@@ -51,7 +51,7 @@ If you already have an Amazon SNS topic, please skip the steps 1 and 2.
 
 4. On the next page, in the **Protocol** section choose **HTTPS**, on the **Endpoint** section paste the **Webhook URL** that you generated in ilert and click on the **Create subscription** button
 
-![](<../../../.gitbook/assets/Simple_Notification_Service (7).png>)
+![](<../../../.gitbook/assets/Simple_Notification_Service (5).png>)
 
 {% hint style="warning" %}
 Do not activate the checkbox **Enable raw message delivery**. ilert won't process those messages otherwise.

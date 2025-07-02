@@ -54,9 +54,9 @@ With linear interpolation, missing data points will be shown by drawing a straig
 
 The following metric has missing data points. Below you can see the effect of interpolation.
 
-|              Interpolation enabled             |             Interpolation disabled             |
-| :--------------------------------------------: | :--------------------------------------------: |
-| ![](<../../.gitbook/assets/image (1) (5).png>) | ![](<../../.gitbook/assets/image (4) (2).png>) |
+|             Interpolation enabled            |            Interpolation disabled           |
+| :------------------------------------------: | :-----------------------------------------: |
+| ![](<../../.gitbook/assets/image (101).png>) | ![](<../../.gitbook/assets/image (60).png>) |
 
 ### Single number metric
 
@@ -127,7 +127,7 @@ ilert lets you generate one time sample data for your metric
 2. Click on the `...` button in the top right and select **Generate demo data**
 3. Select the range for the random data and click on **Generate demo data**
 
-<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
 
 ### Clear metrics data
 

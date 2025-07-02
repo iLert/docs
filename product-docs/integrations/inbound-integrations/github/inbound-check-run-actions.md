@@ -1,8 +1,4 @@
 ---
-title: Github Inbound Check Run (Actions) Integration
-seoTitle: 'iLert: Github Actions Integration for Alerting | Incident Response | Uptime'
-date: '2020-04-21T07:00:00.000Z'
-weight: 1
 description: Create alerts in ilert based on Check runs from GitHub.
 ---
 
@@ -31,14 +27,14 @@ With the ilert Github Check Run integration, you can add alerts in ilert based o
     <figure><img src="../../../.gitbook/assets/Screenshot 2023-08-28 at 11.47.34 (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
-Customize the GitHub alert source with [advanced settings](../../../inbound-integrations/github/advanced-settings.md) for a better user experience.
+Customize the GitHub alert source with [advanced settings](advanced-settings.md) for a better user experience.
 {% endhint %}
 
 ## In Github: Create a Repository Webhook <a href="#in-github" id="in-github"></a>
 
 1. Go to your Github repository and then to **Settings** --> **Webhooks** and click on **Add webhook** to add a new webhook (`https://github.com/<org>/<repo>/settings/hooks`)
 
-![](../../../.gitbook/assets/ghch3.png)
+![](<../../../.gitbook/assets/ghii3 (1).png>)
 
 2. In the **Payload URL** section, set it to the **Webhook URL** generated in ilert
 3. In the **Content type** section, change to **application/json**

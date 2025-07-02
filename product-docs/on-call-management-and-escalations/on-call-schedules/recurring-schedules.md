@@ -6,13 +6,13 @@ Recurring schedules are a flexible way to create complex recurring schedules wit
 
 To create a recurring schedule, navigate to **On-call schedules,** click on **Create new on-call schedule,** and choose **Create recurring schedule** as the schedule type.
 
-![](<../../.gitbook/assets/image (34).png>)
+![](<../../.gitbook/assets/image (151).png>)
 
 ### Step 1: Add users
 
 Add the users from the dropdown menu. Users will rotate in the order in which they are listed. You can change the order via drag and drop and remove a user by clicking the x icon.
 
-![](<../../.gitbook/assets/image (35).png>)
+![](<../../.gitbook/assets/image (139).png>)
 
 ### Step 2: Set on-call rotation
 
@@ -24,7 +24,7 @@ In the **Starts on** field, choose the start time of your schedule. Note that th
 
 By default, the on-call coverage is 24 hours a day, 7 days a week, i.e., users are on-call all the time. If you want to restrict times on-call, e.g., to outside working hours only, you can do so in this step.
 
-![](<../../.gitbook/assets/image (36).png>)
+![](<../../.gitbook/assets/image (134).png>)
 
 Restricting your on-call coverage will result in gaps in your schedule where no one is on call. If an alert occurs during a time with no coverage in your schedule, then the alert will be escalated immediately to the next escalation level without waiting for the escalation timeout. If no one is on-call on the entire escalation policy, no one will be notified.
 
@@ -49,7 +49,7 @@ You can combine layers to create more complex schedules by having multiple activ
 Layers at the bottom take precedence over layers at the top. The example below illustrates the effect of this.
 {% endhint %}
 
-![In layer 1, John is on-call the entire week. In layer 2, Peter is on-call on weekends. Because layer 2 is lower than layer 1, the shifts from layer 2 take precedence and are included in the final schedule, which results in John not being on-call on the weekend.](<../../.gitbook/assets/image (59) (1) (1).png>)
+![In layer 1, John is on-call the entire week. In layer 2, Peter is on-call on weekends. Because layer 2 is lower than layer 1, the shifts from layer 2 take precedence and are included in the final schedule, which results in John not being on-call on the weekend.](<../../.gitbook/assets/image (174).png>)
 
 Let's look at a few examples to illustrate the power of schedule layers.
 
@@ -61,7 +61,7 @@ A follow-the-sun schedule lets you have 24/7 coverage without putting the burden
 
 Our final schedule configuration will look as follows:
 
-![](<../../.gitbook/assets/image (52) (1) (1).png>)
+![](<../../.gitbook/assets/image (76).png>)
 
 Here are the steps to create this schedule:
 
@@ -83,7 +83,7 @@ In this example, we have one team that is on-call during weekdays and a separate
 
 The final schedule configuration will look as follows:
 
-![](<../../.gitbook/assets/image (50) (1) (1).png>)
+![](<../../.gitbook/assets/image (85).png>)
 
 The steps to create the schedule:
 

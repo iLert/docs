@@ -40,4 +40,4 @@ func main() {
 ```
 
 Please feel free to [reach out to us](../../contact.md) with a Github issue in case you need help or have feature requests.[\
-](https://docs.ilert.com/rest-api/client-libraries)\
+](https://docs.ilert.com/rest-api/client-libraries)\\

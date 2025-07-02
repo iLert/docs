@@ -27,27 +27,27 @@ description: >-
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
 7. On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
-<figure><img src="../../.gitbook/assets/il-1 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/il-1 (2).png" alt=""><figcaption></figcaption></figure>
 
 ## In Panther: Create an Alert Destination
 
 1. On the sidebar, click on **Configure** -> **Alert Destinations**.
 
-<figure><img src="../../.gitbook/assets/1 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (2).png" alt=""><figcaption></figcaption></figure>
 
 2. Now select **Custom Webhook**.
 
-<figure><img src="../../.gitbook/assets/2 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (3).png" alt=""><figcaption></figcaption></figure>
 
 3. Enter a **Display Name**.
 4. Enter the in ilert previous generated alert source url into the **Custom Webhook URL** field.
 5. Click **Add Destination** to finish the setup.
 
-<figure><img src="../../.gitbook/assets/3 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (2).png" alt=""><figcaption></figcaption></figure>
 
 6. Optional: Send a test alert.
 
-<figure><img src="../../.gitbook/assets/4 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (2).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 

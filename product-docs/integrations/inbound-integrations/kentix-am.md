@@ -90,7 +90,7 @@ Navigate to the root **dashboard** view (top left item in sidebar), choose the A
 Scroll all the way down to the Alarmzone's **Webhooks** configuration.\
 And click on the **plus icon** to create a new assignment.
 
-![](<../../.gitbook/assets/screenshot-2020-08-18-at-15.14.17 (1).png>)
+![](<../../.gitbook/assets/Screenshot 2020-08-18 at 15.14.17.png>)
 
 It is important to choose **Alarmstate change** as alarm assignment otherwise the connection wont work properly.
 

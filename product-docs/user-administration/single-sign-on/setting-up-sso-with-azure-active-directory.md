@@ -45,7 +45,7 @@ Log in to your ilert account as **account owner**, navigate to your **Account Se
 SSO with SAML requires your account to be on a Premium or Enterprise Plan.
 {% endhint %}
 
-![](../../.gitbook/assets/iLert.png)
+![](<../../.gitbook/assets/iLert (52).png>)
 
 Copy your SAML Endpoint URL and Audience Restriction values into the Azure AD SAML App Basic Configuration.
 
@@ -57,7 +57,7 @@ Save and close the basic SAML settings. Scroll a bit down and copy the 3 values 
 
 Transfer the values to ilert's SSO settings.
 
-![](<../../.gitbook/assets/iLert (1).png>)
+![](<../../.gitbook/assets/iLert (1) (1).png>)
 
 Save the settings on both windows. SSO is now configured, however to make the login process work properly you will have to do 2 more things.
 

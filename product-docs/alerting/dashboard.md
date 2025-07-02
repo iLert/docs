@@ -16,11 +16,7 @@ To start with dashboards, click **Create new dashboard**, and give it a name.&#x
 
 Choose one of the three visibility types:
 
-<div align="center">
-
-<figure><img src="../.gitbook/assets/pika-1726218155326-2x.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="center"><figure><img src="../.gitbook/assets/pika-1726218155326-2x.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 * **View only**: The dashboard will be available for everyone within your organization, but they cannot change anything in it.
 * **View and edit**: The dashboard will be available for everyone within your organization, and they can make changes to it.

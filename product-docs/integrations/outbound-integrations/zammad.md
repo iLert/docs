@@ -41,11 +41,11 @@ An agent token has a group scope so if you want to use a group that the current 
 
 1. Click on the gear icon and then on the **Connectors** button
 
-![](<../../.gitbook/assets/go_to_connectors (4).png>)
+![](<../../.gitbook/assets/go_to_connectors (4) (1).png>)
 
 2. Click on **Add Connector**
 
-![](<../../.gitbook/assets/create_connector_button (2).png>)
+![](<../../.gitbook/assets/create_connector_button (1).png>)
 
 3. Select **Zammad** as **type** and fill in all fields. Enter a name, the URL of your Zammad server and the access token that you have created in the previous step.
 
@@ -59,12 +59,12 @@ An agent token has a group scope so if you want to use a group that the current 
 
 In the **Email** field enter the existing customer email of Zammad.
 
-![](<../../.gitbook/assets/iLert (74).png>)
+![](<../../.gitbook/assets/iLert (63).png>)
 
 6. Finished! You can now test the connection by clicking on the button **Test this connection**.
 7. A test ticket will be created in Zammad.
 
-![](<../../.gitbook/assets/iLert (75).png>)
+![](<../../.gitbook/assets/iLert (32).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

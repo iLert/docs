@@ -1,5 +1,7 @@
 ---
-description: Get started with ilert - the complete incident management platform for reliable alerting, on-call management, and status pages.
+description: >-
+  Get started with ilert - the complete incident management platform for
+  reliable alerting, on-call management, and status pages.
 ---
 
 # Welcome to ilert
@@ -18,38 +20,38 @@ ilert is a complete **incident management platform** that provides **reliable al
 
 ## ✨ Key Features
 
-- **🔔 Reliable Alerting**: Never miss critical incidents with SMS, phone calls, push notifications, Slack, Teams, and more
-- **👥 On-Call Management**: Automated escalations, schedules, and coverage requests to ensure the right person is always notified
-- **📱 Mobile App**: Full incident response capabilities on iOS and Android for on-the-go incident management
-- **🌐 Status Pages**: Communicate incidents to stakeholders and customers with professional status pages
-- **🔗 100+ Integrations**: Connect with your existing monitoring, ticketing, and collaboration tools
-- **🤖 AI-First**: Smart alert grouping, automated root cause analysis and post mortem creation to reduce noise and improve response times
+* **🔔 Reliable Alerting**: Never miss critical incidents with SMS, phone calls, push notifications, Slack, Teams, and more
+* **👥 On-Call Management**: Automated escalations, schedules, and coverage requests to ensure the right person is always notified
+* **📱 Mobile App**: Full incident response capabilities on iOS and Android for on-the-go incident management
+* **🌐 Status Pages**: Communicate incidents to stakeholders and customers with professional status pages
+* **🔗 100+ Integrations**: Connect with your existing monitoring, ticketing, and collaboration tools
+* **🤖 AI-First**: Smart alert grouping, automated root cause analysis and post mortem creation to reduce noise and improve response times
 
 ## 📚 Documentation Sections
 
-| Section | Description |
-|---------|-------------|
-| [**Getting Started**](getting-started/faq/README.md) | Quick setup guides and FAQs |
-| [**Alerting**](alerting/alert-sources.md) | Configure alert sources and reliable notifications |
-| [**On-Call Management**](on-call-management-and-escalations/escalation-policies.md) | Set up schedules and escalation policies |
-| [**Integrations**](integrations/types-of-integrations.md) | Connect your tools and workflows |
-| [**Incident Communication**](incident-comms-and-status-pages/getting-started.md) | Communicate incidents to stakeholders |
-| [**Mobile App**](mobile-app/getting-started-with-ilert-mobile-app.md) | iOS and Android app documentation |
-| [**API**](rest-api/client-libraries/README.md) | REST API and client libraries |
+| Section                                                                             | Description                                        |
+| ----------------------------------------------------------------------------------- | -------------------------------------------------- |
+| [**Getting Started**](getting-started/faq/)                                         | Quick setup guides and FAQs                        |
+| [**Alerting**](alerting/alert-sources.md)                                           | Configure alert sources and reliable notifications |
+| [**On-Call Management**](on-call-management-and-escalations/escalation-policies.md) | Set up schedules and escalation policies           |
+| [**Integrations**](integrations/types-of-integrations.md)                           | Connect your tools and workflows                   |
+| [**Incident Communication**](incident-comms-and-status-pages/getting-started.md)    | Communicate incidents to stakeholders              |
+| [**Mobile App**](mobile-app/getting-started-with-ilert-mobile-app.md)               | iOS and Android app documentation                  |
+| [**API**](rest-api/client-libraries/)                                               | REST API and client libraries                      |
 
 ## 🎯 Popular Use Cases
 
-- **Infrastructure Monitoring**: Connect Prometheus, CloudWatch, or Datadog for reliable infrastructure alerting
-- **Application Monitoring**: Integrate with Sentry, New Relic, or AppDynamics for application incident management
-- **Uptime Monitoring**: Use Pingdom, UptimeRobot, or StatusCake for website and service monitoring
-- **Security Alerts**: Connect AWS GuardDuty, Azure Sentinel, or CrowdStrike for security incident response
-- **CI/CD Pipelines**: Monitor deployments with GitHub, GitLab, or ArgoCD for deployment incident management
+* **Infrastructure Monitoring**: Connect Prometheus, CloudWatch, or Datadog for reliable infrastructure alerting
+* **Application Monitoring**: Integrate with Sentry, New Relic, or AppDynamics for application incident management
+* **Uptime Monitoring**: Use Pingdom, UptimeRobot, or StatusCake for website and service monitoring
+* **Security Alerts**: Connect AWS GuardDuty, Azure Sentinel, or CrowdStrike for security incident response
+* **CI/CD Pipelines**: Monitor deployments with GitHub, GitLab, or ArgoCD for deployment incident management
 
----
+***
 
 ## Core Concepts
 
-ilert is a complete incident management platform that helps teams reduce response times to critical incidents by providing reliable alerting, automatic escalations, on-call schedules, and incident communication features. The platform extends your monitoring, ticketing tools, and other alert sources with comprehensive incident response capabilities, including [communicating with users and stakeholders,](bincident-comms-and-status-pages/getting-started.md) updating status pages, or creating tickets in external incident management tools. The most important concepts are explained in the following sections.
+ilert is a complete incident management platform that helps teams reduce response times to critical incidents by providing reliable alerting, automatic escalations, on-call schedules, and incident communication features. The platform extends your monitoring, ticketing tools, and other alert sources with comprehensive incident response capabilities, including [communicating with users and stakeholders,](../bincident-comms-and-status-pages/getting-started.md) updating status pages, or creating tickets in external incident management tools. The most important concepts are explained in the following sections.
 
 ## Alert
 
@@ -114,8 +116,8 @@ On-call schedules determine who will be notified when an alert is created based 
 
 Incidents are the main way to communicate with your users when you are experiencing user impacting issues with the services you provide to them. Services model business capabilities to which subscribers can subscribe to receive updates about incidents. Status pages are one way to help you inform users about outages and maintenances of one or more service. Any user in ilert can subscribe to incidents, services and status pages.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../broken-reference/" %}
+[broken-reference](../broken-reference/)
 {% endcontent-ref %}
 
 ## Notification

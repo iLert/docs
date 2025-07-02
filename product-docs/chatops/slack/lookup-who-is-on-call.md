@@ -21,9 +21,9 @@ The `/il-oncall` Slash command lets you look up who is on-call from any Slack ch
 
 Once you have our Slack app installed in your Slack workspace, any Slack user with an ilert account can look up the on-call responder for any escalation policy or alert source by invoking the `/il-oncall` slash command.
 
-<figure><img src="../../.gitbook/assets/image (75).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (191).png" alt="" width="563"><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (78).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (194).png" alt="" width="563"><figcaption></figcaption></figure>
 
 The user's permissions in ilert will be taken into account. Therefore, they will only see alert sources and escalation policies to which they have access to.&#x20;
 
@@ -40,7 +40,7 @@ You can let any Slack user (even if they don't have an ilert account) lookup who
 
 
 
-    <figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (192).png" alt=""><figcaption></figcaption></figure>
 4. Save your changes.
 5. Now any Slack user in your workspace will be able to look up who is on-call from the configured channels. The lookup will be limited to the pre-configured escalation policies. To lookup who is on-call, use the following the slash command in the configured Slack channel
 

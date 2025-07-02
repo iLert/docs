@@ -26,11 +26,11 @@ While being built for CD, deployment events are not only bound to modern cloud-b
 
 The deployment events view gives you a live overview of all deployments related to your account.
 
-<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure>
 
 If a deployment event can be correlated to an alert, ilert will enrich your alert's context with the most relevant deployment information. Allowing you to save precious time when trying to resolve the alert's origin and in the end reducing MTTR.
 
-<figure><img src="../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (265).png" alt=""><figcaption></figcaption></figure>
 
 ## How correlation grows in larger accounts
 

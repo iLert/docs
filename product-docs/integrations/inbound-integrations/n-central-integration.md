@@ -32,21 +32,21 @@ In ilert: Create a N-central alert source
 
 Login to N-ABLE N-central and navigate to the users menu.
 
-![](<../../.gitbook/assets/image (43).png>)
+![](<../../.gitbook/assets/image (29).png>)
 
 Go ahead and click on the **email address** of the user for whose notifications you want to create alerts in ilert for. (We recommend creating a user just for this purpose, however that is not necessary).
 
 In the user's edit view, click on the _**User Details**_ tab and then on the **Notification Method** sub-tab.
 
-![](<../../.gitbook/assets/image (44).png>)
+![](<../../.gitbook/assets/image (84).png>)
 
 Choose **Add** and create a new Third Party I**ntegration - HTTP** notification method.
 
-![](<../../.gitbook/assets/image (45).png>)
+![](<../../.gitbook/assets/image (71).png>)
 
 Give it a proper name and paste the URL that you have copied _**from the new alert source**_ that you have created in ilert from the steps above as **Target URL**.
 
-![](<../../.gitbook/assets/image (46) (1).png>)
+![](<../../.gitbook/assets/image (170).png>)
 
 Click on **Save** to create the new notification method.
 
@@ -92,7 +92,7 @@ To acknowledge and resolve N-central events in ilert you will need to add follow
 {{AcknowledgementNote}}
 ```
 
-<figure><img src="../../.gitbook/assets/2 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (16).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="Resolving" %}
@@ -121,20 +121,20 @@ To acknowledge and resolve N-central events in ilert you will need to add follow
 {{AcknowledgementNote}}
 ```
 
-<figure><img src="../../.gitbook/assets/3 (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (13).png" alt=""><figcaption></figcaption></figure>
 
 3. To activate resolving: On the sidebar navigate to **Configuration -> Monitoring -> Notifications**.
 
-<figure><img src="../../.gitbook/assets/4 (3).png" alt="" width="281"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (11).png" alt="" width="281"><figcaption></figcaption></figure>
 
 4. Now select a desired **Notification**.
 5. Click on **Trigger Details** and either add or edit a trigger.
 
-<figure><img src="../../.gitbook/assets/5 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (10).png" alt=""><figcaption></figcaption></figure>
 
 6. Select the **Notify on return to Normal** checkbox and save the trigger.
 
-<figure><img src="../../.gitbook/assets/6 (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (10).png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 

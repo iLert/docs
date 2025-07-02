@@ -39,7 +39,7 @@ As the Authorization Code with PKCE grant is the suggested standard way of imple
 
 ## How does OAuth2 work?
 
-![](../../.gitbook/assets/iLert\_oauth2\_pkce.png)
+![](../../.gitbook/assets/iLert_oauth2_pkce.png)
 
 ### Authorization request
 
@@ -61,7 +61,7 @@ Finally as the client has received an access\_token in step 2, the client will b
 
 Access tokens have a limited lifetime, they will expire after 1 hour (may be subject to change, see token response for exact lifetime). If either the client secret was provided during the token request or the offline access scope was requested, the authorization server will also issue a refresh token with a lifetime of 1 year (may be subject to change, see token response for exact lifetime).
 
-![](../../.gitbook/assets/oauth2\_refresh\_flow.png)
+![](../../.gitbook/assets/oauth2_refresh_flow.png)
 
 1. when making requests with the access token in case of an invalid or expired token
 2. the resource server will respond with HTTP status 401

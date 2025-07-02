@@ -1,2 +1,2 @@
-# Singe sign on
+# Single sign on
 

@@ -80,7 +80,7 @@ description: Create alerts in ilert from PandoraFMS alerts.
 17. On the next step, select our created action as **Default action**.
 18. Set a **Condition type** and a **Value**(dependent on the type) for the event to get fired.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2022-09-19 at 16.15.51 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2022-09-19 at 16.15.51.png" alt=""><figcaption></figcaption></figure>
 
 19. &#x20;On the next step, enable **Alert recovery** to activate the automatical alert recovery in ilert.
 

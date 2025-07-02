@@ -21,7 +21,7 @@ In the edit view you will find 3 upload options, always on the right side of the
 * your custom hold music (as replacement for our default hold music)
 * a customized mailbox greeting (as replacement for your TTS mailbox text)
 
-![Simply click on Browse.. and choose your MP3 or WAV file](<../../.gitbook/assets/image (59).png>)
+![Simply click on Browse.. and choose your MP3 or WAV file](<../../.gitbook/assets/image (89).png>)
 
 Please don't forget to click **Save** when you are done with your configuration.
 

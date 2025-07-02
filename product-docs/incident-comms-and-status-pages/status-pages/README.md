@@ -12,11 +12,11 @@ Creating a status page is a matter of a few clicks.
 
 2\. Select your page type, ilert URL, and the teams that should manage the status page.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure>
 
 3\. Select the services that you would like to include in the status page. You can also create a new service and add it to the status page from the drop-down list.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (237).png" alt=""><figcaption></figcaption></figure>
 
 4\. Optionally add your own logo and fav icon and click on **Save**.
 
@@ -85,7 +85,7 @@ Use the following settings on a service group and service to further customize h
 * **Expand group on page**: Activate this option if you want to expand the entire service group by default on your status page
 * **Show uptime history:** Activate this option if you want to show the service's historical uptime and its SLA
 
-<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (205).png" alt=""><figcaption></figcaption></figure>
 
 #### Services layout: single vs responsive columns
 
@@ -105,7 +105,7 @@ To change the service on a status page
 3.  Select your layout option and click save\
 
 
-    <figure><img src="../../.gitbook/assets/image (88) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure>
 
 ### Setting up your custom domain <a href="#custom-domain" id="custom-domain"></a>
 
@@ -173,7 +173,7 @@ To configure your status page floating widget:
 6. Paste the generated code snippet from step 4 into the `<head>` section of your target page.
 7. Test the widget by creating a test maintenance window or incident.
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (125).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 **Making changes to your widget**
@@ -208,7 +208,7 @@ To isolate customers from each other, we recommend the following approach:
 
 You probably forgot to activate your status page. Once you are satisfied with your status page, click on the **Activate** button to make your page available and viewable to your users.
 
-![](<../../.gitbook/assets/image (59) (1).png>)
+![](<../../.gitbook/assets/image (157).png>)
 
 **Can I export a list of status page subscribers?**
 

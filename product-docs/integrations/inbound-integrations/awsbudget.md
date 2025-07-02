@@ -42,7 +42,7 @@ With ilert AWS Budgets Integration, you can receive AWS Budgets alert through il
 
 3. Click on **Create subscription** on the Topic Detail page.
 
-![](<../../.gitbook/assets/Simple_Notification_Service (1).png>)
+![](<../../.gitbook/assets/Simple_Notification_Service (2).png>)
 
 4. In the **Topic ARN** section, ensure that the **SNS Topic** that you generated is selected.
 5. In the **Protocol** section, choose the **HTTPS** protocol.
@@ -50,7 +50,7 @@ With ilert AWS Budgets Integration, you can receive AWS Budgets alert through il
 7. In the **Enable raw message delivery** section, ensure that the checkbox is unchecked.
 8. Click on **Create subscription.**
 
-![](<../../.gitbook/assets/Simple_Notification_Service (2).png>)
+![](<../../.gitbook/assets/Simple_Notification_Service (1).png>)
 
 9. The subscription is **automatically confirmed by ilert** when it is created. After updating the overview, the status "PendingConfirmation" should disappear, and the ID should be displayed.
 
@@ -60,15 +60,15 @@ You can now link any AWS Budgets to the topic you have created. The following se
 
 1. In AWS, click on the **Profile Menu** icon and select **My Billing Dashboard.**
 
-![](<../../.gitbook/assets/Simple_Notification_Service (3).png>)
+![](<../../.gitbook/assets/Simple_Notification_Service (4).png>)
 
 2. In the AWS Billing Dashboard click on **Budgets** and then click on **Create budget** to add a budget.
 
-![](<../../.gitbook/assets/Billing_Management_Console (1).png>)
+![](<../../.gitbook/assets/Billing_Management_Console (2).png>)
 
 3. On the **Select budget type** page, choose a budget type that interests you and click on **Set your budget**
 
-![](<../../.gitbook/assets/Billing_Management_Console (2).png>)
+![](<../../.gitbook/assets/Billing_Management_Console (5).png>)
 
 4. On the **Set your budget** page, choose the settings according to your liking and click on **Configure thresholds.**
 
@@ -80,7 +80,7 @@ You can now link any AWS Budgets to the topic you have created. The following se
 
 6. On the **Config budget** page click on **Create.**
 
-![](<../../.gitbook/assets/Billing_Management_Console (6).png>)
+![](<../../.gitbook/assets/Billing_Management_Console (1).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

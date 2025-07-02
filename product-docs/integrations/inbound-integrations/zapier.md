@@ -78,7 +78,7 @@ You can connect Zapier with an existing alert source of any integration type. Sk
 
 5. Enter **iLert** into the search field and click on the **ilert app**
 
-![](<../../.gitbook/assets/Screenshot_29_10_20__16_40 (1).png>)
+![](../../.gitbook/assets/Screenshot_29_10_20__16_40.png)
 
 6. In the **Action Event** section choose the **Create Alert** action **\*\*to create an alert when a Jira issue is created. Then click on the** Continue\*\* button.
 

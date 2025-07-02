@@ -1,8 +1,4 @@
 ---
-title: Pingdom Integration
-seoTitle: 'iLert: Pingdom Integration for Alerting | Incident Response | Uptime'
-date: '2018-12-29T05:02:05.000Z'
-weight: 1
 description: The ilert Pingdom Integration helps you to easily connect ilert with Pingdom.
 ---
 

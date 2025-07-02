@@ -12,7 +12,7 @@ description: >-
 
 1. Sign in to Autotask and then go to **Admin -> Resources (Users)**
 
-![](<../../.gitbook/assets/autotask1 (1) (2).png>)
+![](<../../.gitbook/assets/autotask1 (2) (1).png>)
 
 2. Click the **New** button and then navigate to **New API User**
 
@@ -34,7 +34,7 @@ Please make sure that the Integration Vendor is selected properly.
 
 1. Go to the "Alert sources" tab and click on "Create new alert source"
 
-![](<../../.gitbook/assets/autotask4 (1).png>)
+![](../../.gitbook/assets/autotask4.png)
 
 2. In the **Name** section, enter a name eg. ilert
 3. In the **Integration Type** section, choose "Autotask"
@@ -42,41 +42,41 @@ Please make sure that the Integration Vendor is selected properly.
 5. In the **Autotask Settings -> Secret** section, paste the API user secret generated above
 6. Select your desired escalation policy and click the **Save** button
 
-![](<../../.gitbook/assets/iLert (2).png>)
+![](<../../.gitbook/assets/iLert (102).png>)
 
 7. On the next page, a Webhook URL is generated. You will need this URL below when setting up the extension callout in Autotask.
 
-![](<../../.gitbook/assets/autotask6 (1).png>)
+![](../../.gitbook/assets/autotask6.png)
 
 ## In Autotask: Create an Extension Callout <a href="#create-extension-callout" id="create-extension-callout"></a>
 
 1. Go to Autotask and then to **Admin -> Extensions & Integrations**
 
-![](<../../.gitbook/assets/autotask7 (2).png>)
+![](<../../.gitbook/assets/autotask7 (1) (1).png>)
 
 2. Click the **Other Extensions & Tools** panel and then click on the **Extension Callout (Tickets)** link
 
-![](<../../.gitbook/assets/autotask8 (2).png>)
+![](<../../.gitbook/assets/autotask8 (1).png>)
 
 3. Click on **New Extension Callout**
 
-![](<../../.gitbook/assets/autotask9 (1).png>)
+![](../../.gitbook/assets/autotask9.png)
 
 4. In the **Name** section, enter a name eg. ilert
 5. In the **URL** section, paste the **Webhook URL** that you generated in ilert
 6. Ensure that **Active** is selected and click the **Save & Close** button
 
-![](<../../.gitbook/assets/autotask10 (2).png>)
+![](<../../.gitbook/assets/autotask10 (1).png>)
 
 ## In Autotask: Create a Workflow Rule <a href="#create-workflow-rule" id="create-workflow-rule"></a>
 
 1. Go to Autotask and then to **Admin -> Workflow Rules**
 
-![](<../../.gitbook/assets/autotask11 (2).png>)
+![](<../../.gitbook/assets/autotask11 (1) (1).png>)
 
 2. Click the **New** button
 
-![](<../../.gitbook/assets/autotask12 (1).png>)
+![](../../.gitbook/assets/autotask12.png)
 
 3. In the **General -> Workflow Rule Name** section, enter a name eg. ilert
 4. Ensure that **Active** is selected
@@ -87,7 +87,7 @@ Please make sure that the Integration Vendor is selected properly.
 6. Scroll down to the **Actions** panel and in the **Then Execute Extension Callout** section choose the **iLert Callout** that you created above
 7. Click on the **Save & Close** button
 
-![](<../../.gitbook/assets/autotask14 (1).png>)
+![](../../.gitbook/assets/autotask14.png)
 
 ## Autotask Alert Lifecycle
 
@@ -120,7 +120,7 @@ Please make sure that the Integration Vendor is selected properly.
 
 When providing credentials you may choose to activate bidirectional mode on the Autotask ticket source. This will cause your alert source to be automatically linked with an outbound connector and alert action. This way status changes to ilert alerts will synchronize to Autotask ticket.
 
-<figure><img src="../../.gitbook/assets/ExampleAutotask.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 
 When saving the Autotask alert source with bidirectional setting enabled, it will automatically create an outbound connector for you and take you to the creation page of the necessary alert action, please make sure to continue with the setup of the action to finish your bidirectional alert source setup.
 

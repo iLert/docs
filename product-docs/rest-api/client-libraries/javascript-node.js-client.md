@@ -30,4 +30,3 @@ await ilert.heartbeat("il1hbt0460d849fcdc753").ping();
 The ilert JS client also ships with Typescript definitions.
 
 Please feel free to [reach out to us ](../../contact.md)with a Github issue in case you need help or have feature requests.
-

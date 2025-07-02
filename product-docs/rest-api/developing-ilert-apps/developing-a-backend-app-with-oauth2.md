@@ -461,6 +461,4 @@ axios.request(options).then(function (response) {
 {% endtab %}
 {% endtabs %}
 
-
-
 Make sure to checkout [further information on OAuth2 apps](token-lifetimes-error-codes-app-verification-etc..md).

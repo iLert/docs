@@ -40,7 +40,7 @@ Auto provision will only execute if the user does not already exist, a simple lo
 
 Besides managing access to e.g. LDAP groups on IdP side, ilert additionally offers a simple way to restrict auto-provisioning of certain users on the SdP side. The SAML settings offer the "**Check provision attribute**" field. By default this field is empty and it is in no way required to be set, however if you would like to prevent certain users from being auto-provisioned you can use the field.
 
-<figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (206).png" alt=""><figcaption></figcaption></figure>
 
 It works by checking the provided SAML attribute field right before the auto provisioning, if you fill it e.g. with "`role`": when a user logs in through your IdP (for the first time), ilert will check if the SAML attribute "`role`" is present in the SAML response, if it is not, the user is redirected to an error page displaying the information that he/she should reach out to an account admin, otherwise the user is auto-provisioned and logged in.
 

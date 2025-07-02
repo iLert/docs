@@ -30,7 +30,7 @@ description: Create alerts in ilert based on Azure Cost Budget.
 
 1. Go to [**Azure Portal**](https://portal.azure.com) and then to **Cost Management + Billing.**
 
-![](<../../../.gitbook/assets/Home_-_Microsoft_Azure (4).png>)
+![](<../../../.gitbook/assets/Home_-_Microsoft_Azure (6).png>)
 
 2. Then go to **Cost Management**
 
@@ -38,15 +38,15 @@ description: Create alerts in ilert based on Azure Cost Budget.
 
 3. In the **Cost Management** section click on the **Cost alerts** tab and then click on the **Add** button\*\*.\*\*
 
-![](../../../.gitbook/assets/Cost_Management__Nutzungsbasierte_Bezahlung_-_Microsoft_Azure.png)
+![](<../../../.gitbook/assets/Cost_Management__Nutzungsbasierte_Bezahlung_-_Microsoft_Azure (1).png>)
 
 4. On the next page, **name** the budget e.g. MyBudget, enter budget **amount** and click on the **Next** button
 
-![](<../../../.gitbook/assets/Cost_Management__Nutzungsbasierte_Bezahlung_-_Microsoft_Azure (1).png>)
+![](<../../../.gitbook/assets/Cost_Management__Nutzungsbasierte_Bezahlung_-_Microsoft_Azure (2).png>)
 
 5. On the next page click on the **Manage action group** button
 
-![](<../../../.gitbook/assets/Cost_Management__Nutzungsbasierte_Bezahlung_-_Microsoft_Azure (2).png>)
+![](../../../.gitbook/assets/Cost_Management__Nutzungsbasierte_Bezahlung_-_Microsoft_Azure.png)
 
 6. On the next page, click on the **Add action group** button
 
@@ -58,7 +58,7 @@ description: Create alerts in ilert based on Azure Cost Budget.
 
 8. **\*\*On the** Actions **tab**, **click on the** Action type **and choose** Webhook.\*\*
 
-![](<../../../.gitbook/assets/Create_action_group_-_Microsoft_Azure (4).png>)
+![](<../../../.gitbook/assets/Create_action_group_-_Microsoft_Azure (5).png>)
 
 9. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in ilert and click on** OK\*\*. Name the action e.g.\*\* ilert **and click on the** Review + create\*\* button.
 
@@ -66,7 +66,7 @@ description: Create alerts in ilert based on Azure Cost Budget.
 
 10. On the next page click on the **Create** button.
 
-![](<../../../.gitbook/assets/Create_action_group_-_Microsoft_Azure (5).png>)
+![](<../../../.gitbook/assets/Create_action_group_-_Microsoft_Azure (1).png>)
 
 11. On the next page, enter the **% of budget** value and click on the **Create** button.
 

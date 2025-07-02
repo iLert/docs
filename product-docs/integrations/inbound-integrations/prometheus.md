@@ -74,7 +74,7 @@ ilert's Prometheus integration supports dynamic escalation policy routing with t
 
 In ilert navigate to the **escalation policies** that you want to route to and enter a unique routing key for for each policy.
 
-![](<../../.gitbook/assets/image (55) (1) (1).png>)
+![](<../../.gitbook/assets/image (147).png>)
 
 In your Prometheus **alert rule** yml add a label called `ilert_routingkey` and set its value to the policy's routing key that you want to assign to the alert e.g. `ilert_routingkey: policy1`
 

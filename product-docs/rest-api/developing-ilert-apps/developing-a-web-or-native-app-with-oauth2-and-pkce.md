@@ -16,7 +16,7 @@ You may find the whole source code project in [this Github repository](https://g
 Before we can start, we need to make sure that our ilert application is configured correctly.\
 Navigate to your application and make sure that you have entered a redirect url that fits your local or deployed webapp. Also copy the client id, as we will need it to configure your application.
 
-![](<../../.gitbook/assets/image (50) (1).png>)
+![](<../../.gitbook/assets/image (179).png>)
 
 ## Redirecting the user
 
@@ -335,7 +335,5 @@ axios.request(options).then(function (response) {
 ```
 {% endtab %}
 {% endtabs %}
-
-
 
 Make sure to checkout [further information on OAuth2 apps](token-lifetimes-error-codes-app-verification-etc..md).

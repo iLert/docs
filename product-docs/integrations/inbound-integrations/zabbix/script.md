@@ -1,8 +1,4 @@
 ---
-title: Zabbix Integration
-seoTitle: 'iLert: Zabbix Integration for Alerting | Incident Response | Uptime'
-date: '2018-12-29T05:02:05.000Z'
-weight: 1
 description: The ilert Zabbix Integration helps you to easily connect ilert with Zabbix.
 ---
 

@@ -30,15 +30,15 @@ description: The ilert Kibana Integration helps you to easily connect ilert with
 
 1. On the sidebar, click on **Connectors** under the **Alerts and Insights** category.
 
-<figure><img src="../../.gitbook/assets/1 (3).png" alt="" width="136"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (12).png" alt="" width="136"><figcaption></figcaption></figure>
 
 2. Now click on **Create connector**.
 
-<figure><img src="../../.gitbook/assets/2 (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (10).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Select **Webhook**.
 
-<figure><img src="../../.gitbook/assets/3 (1) (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (7).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Enter a **Connector name**.
 5. Under **Connector settings**, enter the previously generated ilert Elasticsearch Kibana alert source URL into the **URL** field and change the **Method** to POST.
@@ -46,19 +46,19 @@ description: The ilert Kibana Integration helps you to easily connect ilert with
 7. Enter the following header -> `key: Content-Type value: application/json`
 8. Save the connector.
 
-<figure><img src="../../.gitbook/assets/4 (1) (1) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (6).png" alt="" width="563"><figcaption></figcaption></figure>
 
 9. Now, navigate to **Rules** under the **Alerts and Insights** category.
 
-<figure><img src="../../.gitbook/assets/5 (1) (1) (1) (1) (1).png" alt="" width="137"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (5).png" alt="" width="137"><figcaption></figcaption></figure>
 
 10. Click on **Create rule**.
 
-<figure><img src="../../.gitbook/assets/6 (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (3).png" alt="" width="563"><figcaption></figcaption></figure>
 
 11. Enter a **name** and select Webhook as the **connector type**.
 
-<figure><img src="../../.gitbook/assets/7 (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7 (3).png" alt="" width="375"><figcaption></figcaption></figure>
 
 12. Choose the previous created ilert connector as **Webhook connector**.
 13. Enter the following payload into the **Body** field:
@@ -77,7 +77,7 @@ This payload contains [mustache](https://mustache.github.io/mustache.5.html) and
 }
 ```
 
-<figure><img src="../../.gitbook/assets/8 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/8 (1).png" alt=""><figcaption></figcaption></figure>
 
 14. Save the rule.
 

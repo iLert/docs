@@ -21,7 +21,7 @@ When starting with Auth0 Apps things can be a bit complicated and overwhelming. 
 
 3\. On the next page click on the **Addons** tab and enable the **SAML2** addon
 
-![](../../.gitbook/assets/Application_Details.png)
+![](<../../.gitbook/assets/Application_Details (1).png>)
 
 On the next page you need to fill in the information that you can find in your ilert account settings
 
@@ -33,7 +33,7 @@ On the next page you need to fill in the information that you can find in your i
 SSO with SAML requires your account to be on a Premium or Enterprise Plan, please always feel free to reach out in case you have any questions.
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-02-07 at 11.07.07.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-02-07 at 11.07.07 (1).png" alt=""><figcaption></figcaption></figure>
 
 2\. Go back to Auth0 and click on the **Settings** tab on the **SAML** modal window. Paste your **SAML Endpoint URL** value into the Auth0 **Application Callback URL** field, then paste the following settings by first replacing the **Audience Restriction** field:
 
@@ -46,17 +46,17 @@ SSO with SAML requires your account to be on a Premium or Enterprise Plan, pleas
 }
 ```
 
-![](<../../.gitbook/assets/Application_Details (1).png>)
+![](<../../.gitbook/assets/Application_Details (2).png>)
 
 3\. Scroll down and click on the **Save** button
 
 4\. After saving, click on the **Usage** tab. Here you can find all the values you need for ilert SSO.
 
-![](<../../.gitbook/assets/Application_Details (2).png>)
+![](../../.gitbook/assets/Application_Details.png)
 
 Transfer the values to ilert's SSO settings
 
-![](<../../.gitbook/assets/iLert (52).png>)
+![](<../../.gitbook/assets/iLert (13).png>)
 
 Save the ilert SSO settings. SSO is now configured, however to make the login process work properly you will have to do one more thing.
 

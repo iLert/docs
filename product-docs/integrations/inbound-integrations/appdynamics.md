@@ -1,8 +1,4 @@
 ---
-title: AppDynamics Integration
-seoTitle: 'iLert: AppDynamics Integration for Alerting | Incident Response | Uptime'
-date: '2020-02-28T05:02:05.000Z'
-type: post
 description: Create alerts in ilert based on custom thresholds from AppDynamics
 ---
 

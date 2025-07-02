@@ -8,7 +8,7 @@ description: Command line interface heartbeat examples
 
 Simple heartbeat call using curl
 
-```text
+```
 curl https://api.ilert.com/api/v1/heartbeats/${YOUR-APIKEY}
 ```
 
@@ -16,10 +16,8 @@ curl https://api.ilert.com/api/v1/heartbeats/${YOUR-APIKEY}
 
 Heartbeat after successful backup script cronjob execution
 
-```text
+```
 run_backup.sh && curl https://api.ilert.com/api/v1/heartbeats/${YOUR-APIKEY}
 
 ```
-
-
 

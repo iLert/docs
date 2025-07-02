@@ -29,7 +29,7 @@ description: Create alerts in ilert based on Azure Service Health alerts.
 
 1. Go to [**Azure Portal**](https://portal.azure.com) and then to **Service Health.**
 
-![](<../../../.gitbook/assets/Home_-_Microsoft_Azure (5).png>)
+![](../../../.gitbook/assets/Home_-_Microsoft_Azure.png)
 
 2. On the next page click on **Add service health alert** button\*\*.\*\*
 
@@ -37,11 +37,11 @@ description: Create alerts in ilert based on Azure Service Health alerts.
 
 3. On the next page change the **Condition** for the alerts and click on the **Add action groups.**
 
-![](<../../../.gitbook/assets/Create_alert_rule_-_Microsoft_Azure (4).png>)
+![](<../../../.gitbook/assets/Create_alert_rule_-_Microsoft_Azure (2).png>)
 
 4. On the modal window click on the **Create action group** button.
 
-![](<../../../.gitbook/assets/Select_an_action_group_to_attach_to_this_alert_rule_-_Microsoft_Azure (1).png>)
+![](../../../.gitbook/assets/Select_an_action_group_to_attach_to_this_alert_rule_-_Microsoft_Azure.png)
 
 5. On the next page name the group e.g. **iLert** and click on the **Actions** tab.
 
@@ -49,7 +49,7 @@ description: Create alerts in ilert based on Azure Service Health alerts.
 
 6. **\*\*On the** Actions **tab**, **click on the** Action type **and choose** Webhook.\*\*
 
-![](<../../../.gitbook/assets/Create_action_group_-_Microsoft_Azure (4).png>)
+![](<../../../.gitbook/assets/Create_action_group_-_Microsoft_Azure (5).png>)
 
 7. **On the modal window** in the **URI** section and **\*\*paste the** Webhook URL **that you generated in ilert and click on** OK\*\*. Name the action e.g.\*\* ilert **and click on the** Review + create\*\* button.
 
@@ -57,7 +57,7 @@ description: Create alerts in ilert based on Azure Service Health alerts.
 
 8. On the next page click on the **Create** button.
 
-![](<../../../.gitbook/assets/Create_action_group_-_Microsoft_Azure (5).png>)
+![](<../../../.gitbook/assets/Create_action_group_-_Microsoft_Azure (1).png>)
 
 9. On the next page scroll down to the **Alert rule details** section, name the alert rule and click on the **Create alert rule** button.
 

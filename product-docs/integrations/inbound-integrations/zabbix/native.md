@@ -1,8 +1,4 @@
 ---
-title: Zabbix Native Integration
-seoTitle: 'iLert: Zabbix Integration for Alerting | Incident Response | Uptime'
-date: '2020-07-02T08:02:05.000Z'
-weight: 1
 description: The ilert Zabbix Integration helps you to easily connect ilert with Zabbix.
 ---
 
@@ -61,7 +57,7 @@ curl -o media_ilert.xml \
 
 4\. **Optional**: Go to **Media types** and open the imported **iLert** media type. You can overwrite the default alert summary with a custom template using the `.ILERT.INCIDENT.SUMMARY` variable e.g. `{TRIGGER.NAME}: {TRIGGER.STATUS} for {HOST.HOST}`
 
-<img src="../../../.gitbook/assets/6 (2) (1).png" alt="" data-size="original">
+<img src="../../../.gitbook/assets/6 (8).png" alt="" data-size="original">
 
 5\. Click on the **Update** button to save the media type.
 
@@ -99,7 +95,7 @@ curl -o media_ilert.xml \
 
 10\. Click the **Add** button
 
-![](<../../../.gitbook/assets/9 (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/9 (4).png>)
 
 11\. Click the **Add** button in the **Users** tab to save the user.
 
@@ -131,13 +127,13 @@ curl -o media_ilert.xml \
 
 ilert supports a mapping configuration for your Zabbix alert source that allows you to map the standard Zabbix severities to ilert priorities. Just enable the checkbox for **Priority mapping** under Zabbix settings.
 
-![](<../../../.gitbook/assets/image (55) (2).png>)
+![](<../../../.gitbook/assets/image (49).png>)
 
 ## Optional: Bidirectional sync (acknowledges alerts in Zabbix) <a href="#faq" id="faq"></a>
 
 As the Zabbix API allows for problems to be acknowledged, ilert offers a setting to configure your Zabbix alert source in bidirectional mode. This will automatically create a connector and alert action for your alert source that will pipe accept events from ilert to Zabbix and acknowledge the problem related to the ilert alert.
 
-![](<../../../.gitbook/assets/image (56) (2).png>)
+![](<../../../.gitbook/assets/image (40).png>)
 
 Enable the **Bidirectional** checkbox during your alert sources creation.\
 The **Url** and **Api key** will show up under Zabbix settings, please provide both and create your alert source. You will see that a connector and alert action have been setup automatically for your alert source.

@@ -42,7 +42,7 @@ In the above configuration, ilert will first randomly select someone from the fi
 
 If no user is left and no voicemail has been configured (see below) the caller will hear a message that no one is currently available and the call will be ended. The alert that has been created for this incoming call will be escalated once again to the targeted escalation policy using regular alert notification and escalation rules.
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../.gitbook/assets/image (145).png>)
 
 Yet if a voicemail is present instead, the caller will be redirected to the voicemail. In case she leaves a voicemail, the voicemail will be attached to the alert of the incoming call and escalated once again to the targeted escalation.
 

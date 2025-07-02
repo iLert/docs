@@ -25,11 +25,11 @@ description: Create issues in GitHub based on alerts from ilert.
 
 1. Click on the gear icon → **Connectors**
 
-![](<../../.gitbook/assets/go_to_connectors (7) (6).png>)
+![](<../../.gitbook/assets/go_to_connectors (7) (6) (1).png>)
 
 2. Click on **Add Connector**
 
-![](<../../.gitbook/assets/create_connector_button (1) (13).png>)
+![](<../../.gitbook/assets/create_connector_button (7) (7).png>)
 
 2. Select **Github** as **type** and fill in all fields. Enter a name and the API key from above.
 
@@ -41,11 +41,11 @@ description: Create issues in GitHub based on alerts from ilert.
 
 4. Select **Github** as the **type** then select the connector created in step 3 and fill in all fields. In the **Owner** and the **Repository** fields specify the owner and repository of the Github project where the ilert alerts should be published as Github Issue.
 
-![](<../../.gitbook/assets/iLert (76).png>)
+![](<../../.gitbook/assets/iLert (6).png>)
 
 5. Finished! You can now test the alert action by clicking on the button **Test this connection**. Then a test issue will be published in the respective Github project.
 
-![](<../../.gitbook/assets/iLert (77).png>)
+![](<../../.gitbook/assets/iLert (40).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

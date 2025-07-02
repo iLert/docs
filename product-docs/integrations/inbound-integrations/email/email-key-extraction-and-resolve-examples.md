@@ -26,7 +26,7 @@ In both cases this regex will extract from **Service:** to **is** in the example
 
 By adjusting a few more settings for the email alert source's resolve options, we can also make use of the third part of the subject the state and let all **OK** containing subjects resolve open alerts automatically.
 
-<figure><img src="../../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (277).png" alt=""><figcaption></figcaption></figure>
 
 In action the timeline will also show us how the incoming subjects change the status of the alert.
 

@@ -1,8 +1,4 @@
 ---
-title: Dynatrace Integration
-seoTitle: 'iLert: Dynatrace Integration for Alerting | Incident Response | Uptime'
-date: '2020-02-28T05:02:05.000Z'
-type: post
 description: >-
   The ilert Dynatrace integration helps you to easily connect ilert with
   Dynatrace.

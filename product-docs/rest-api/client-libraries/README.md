@@ -4,18 +4,22 @@ description: The official ilert API client libraries.
 
 # Client Libraries
 
-{% page-ref page="go-client.md" %}
+{% content-ref url="go-client.md" %}
+[go-client.md](go-client.md)
+{% endcontent-ref %}
 
-{% page-ref page="rust-client.md" %}
+{% content-ref url="rust-client.md" %}
+[rust-client.md](rust-client.md)
+{% endcontent-ref %}
 
-{% page-ref page="javascript-node.js-client.md" %}
+{% content-ref url="javascript-node.js-client.md" %}
+[javascript-node.js-client.md](javascript-node.js-client.md)
+{% endcontent-ref %}
 
-{% page-ref page="ilagent.md" %}
-
-
+{% content-ref url="ilagent.md" %}
+[ilagent.md](ilagent.md)
+{% endcontent-ref %}
 
 {% hint style="info" %}
 Missing a client? Let us [know](../../contact.md)
 {% endhint %}
-
-

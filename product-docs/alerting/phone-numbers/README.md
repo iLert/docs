@@ -1,8 +1,4 @@
 ---
-title: ilert domains, emails & phone numbers
-seoTitle: 'iLert: Introduction to ilert: Domains, emails & phone numbers'
-date: '2018-12-29T05:02:05.000Z'
-weight: 2
 description: >-
   ilert's sender IDs used for outgoing notification (e.g. SMS phone numbers,
   caller IDs, etc.)

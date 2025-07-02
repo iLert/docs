@@ -52,12 +52,12 @@ You can either use the API or the UI to find the identifier of your resource:
 
 **In the UI** head to the detail view of your desired resource and copy the id param of your browser's URL:
 
-<figure><img src="../../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure>
 
 **For the API**, you may call the GET list resources of your entities e.g. `GET /api/alert-sources` and use the **id** field of the returned objects.
 
-<figure><img src="../../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure>
 
 Should you have many entities, we recommend using the _(inofficial)_ `?query=` param to search for the name of your desired resource:
 
-<figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure>

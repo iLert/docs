@@ -32,15 +32,15 @@ If Samsara's fleet management system identifies a problem, such as a vehicle mal
 
 1. In the sidebar, click on the Alert bell icon.
 
-<figure><img src="../../.gitbook/assets/1-2 (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1-2 (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. On the next screen, click on **Create Alert**.
 
-<figure><img src="../../.gitbook/assets/2 (9).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (22).png" alt="" width="563"><figcaption></figcaption></figure>
 
 3. Now select a desired **Trigger**.
 
-<figure><img src="../../.gitbook/assets/3 (8).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (18).png" alt="" width="563"><figcaption></figcaption></figure>
 
 4. Now open the **Add Action** menu and choose **Send Webhook**.
 
@@ -52,7 +52,7 @@ If Samsara's fleet management system identifies a problem, such as a vehicle mal
 
 6. Click on **Add Webhook**.
 
-<figure><img src="../../.gitbook/assets/4 (8).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (16).png" alt="" width="563"><figcaption></figcaption></figure>
 
 7. Enter a **Name**, the ilert alert source URL created in this [step](samsara.md#in-ilert-create-a-samsara-alert-source) into the **Payload URL** field, and select some desired **Event Subscriptions**.
 8. Click on **Create** to finish the webhook setup.
@@ -61,7 +61,7 @@ If Samsara's fleet management system identifies a problem, such as a vehicle mal
 
 9. Optional: Click on the **Test** button to send a test alert to ilert.
 
-<figure><img src="../../.gitbook/assets/6 (9).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (15).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 

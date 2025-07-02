@@ -32,11 +32,11 @@ MxToolbox supports global Internet operations by providing free, fast and accura
 
 1. Go to MXToolBox, then to **Notifications** and then create a new Notification policy or change the Default notifications policy
 
-![](../../.gitbook/assets/Mozilla_Firefox.png)
+![](<../../.gitbook/assets/Mozilla_Firefox (1).png>)
 
 2. On the next page, click on the **Custom** tile
 
-![](<../../.gitbook/assets/Mozilla_Firefox (1).png>)
+![](../../.gitbook/assets/Mozilla_Firefox.png)
 
 3. Open the notification policy, in the **Callback** section paste the **Webhook URL** that you generated in ilert, in the **Format** section choose **Default.** Make sure that the **Webhook URL** was **\*\*saved and the** payload **matches the following format: \*\***
 

@@ -12,7 +12,7 @@ ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Mana
 
 1. Click the gear icon → **Connectors**
 
-![](<../../.gitbook/assets/go_to_connectors (1) (1) (4).png>)
+![](<../../.gitbook/assets/go_to_connectors (2) (1).png>)
 
 2. Click **Create Connector**
 
@@ -20,19 +20,19 @@ ServiceNow is a platform-as-a-service (PaaS) provider of enterprise Service Mana
 
 3. Select **ServiceNow** as **type** and fill out all fields.
 
-![](<../../.gitbook/assets/iLert (64).png>)
+![](<../../.gitbook/assets/iLert (95).png>)
 
 4. Switch to the **alert sources** tab and open the alert source whose alerts you want to publish in ServiceNow. Click on **Alert actions → Create alert action**
 
-![](<../../.gitbook/assets/new_incident_action (10).png>)
+![](<../../.gitbook/assets/new_incident_action (1) (1).png>)
 
 5. Select **ServiceNow** as the **type**, select the connector created in step 3, fill in all fields.
 
-![](<../../.gitbook/assets/iLert (65).png>)
+![](<../../.gitbook/assets/iLert (4).png>)
 
 6. Finished! You can now test the connection by clicking the **Test this connection** button. A test issue is then published in ServiceNow.
 
-![](<../../.gitbook/assets/iLert (66).png>)
+![](<../../.gitbook/assets/iLert (5).png>)
 
 ## In ServiceNow: Create an ilert user <a href="#create-user" id="create-user"></a>
 

@@ -24,7 +24,7 @@ To set up the integration, you must have an Amazon SNS topic and the arn string 
 
 3. **In the Change** default execution role section, choose **Create a new role from AWS policy template**, name the new role e.g. myIncidentHandlerRole, in the **Policy templates** section, choose **Amazon SNS publish policy** and click on the **Create function** button
 
-![](<../../../.gitbook/assets/Lambda (1).png>)
+![](<../../../.gitbook/assets/Lambda (2).png>)
 
 4. On the next page, change Code source as follows:
 
@@ -74,11 +74,11 @@ exports.handler = async (event) => {
 
 5. Change the **topicArn** variable to the Amazon SNS topic arn and click on the **Deploy** button
 
-![](<../../../.gitbook/assets/myIncidentHandler_-_Lambda (3).png>)
+![](<../../../.gitbook/assets/myIncidentHandler_-_Lambda (1).png>)
 
 6. In the **Function overview** section, click on the **Add trigger** button
 
-![](<../../../.gitbook/assets/myIncidentHandler_-_Lambda (1).png>)
+![](<../../../.gitbook/assets/myIncidentHandler_-_Lambda (3).png>)
 
 7. On the next page, choose **API Gateway** as trigger type, in the **API** section choose **Create an API**, in the **API type** section choose **REST API**, in the **Security** section choose **API key** and click on the **Add** button
 
@@ -106,14 +106,14 @@ To set up the integration, you must have admin rights in ilert.
 
 3. On the next page, choose **AWS Lambda** as type, name the connector, paste the **API key** that you generated in AWS Lambda and click on the **Save** button
 
-![](<../../../.gitbook/assets/iLert (47).png>)
+![](<../../../.gitbook/assets/iLert (67).png>)
 
 4. Go to the alert sources tab and open the alert source whose alerts you want to publish to Amazon SNS. Click on the **Alert actions** tab and then on the **Add new alert action** button
 
-![](<../../../.gitbook/assets/iLert (48).png>)
+![](<../../../.gitbook/assets/iLert (101).png>)
 
 5. On the next page choose **AWS Lambda** as the type, choose the connector created in step 3, name it, choose **Trigger mode,** paste the **API URL** that you generated in AWS Lambda and click on the **Save** button.
 
-![](<../../../.gitbook/assets/iLert (49).png>)
+![](<../../../.gitbook/assets/iLert (90).png>)
 
 6. Finished! Now an Amazon SNS notification will be created for each alert in automatic trigger mode or via manual alert action.

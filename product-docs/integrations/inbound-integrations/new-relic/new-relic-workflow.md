@@ -38,7 +38,7 @@ description: >-
 
 3. On the sidebar go to **Alert conditions (Policies)**
 
-<figure><img src="../../../.gitbook/assets/NR-4-1 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/NR-4-1 (3).png" alt=""><figcaption></figcaption></figure>
 
 4. Click on the **New alert policy** button.
 

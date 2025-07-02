@@ -30,7 +30,7 @@ description: >-
 
 ## In Hyperping: Configuring your project settings
 
-![](<../../.gitbook/assets/image (60) (2).png>)
+![](<../../.gitbook/assets/image (24).png>)
 
 Login to your Hyperping account and navigate to **Project Settings**. Paste your alert source's **url** that we just copied in the step before into the webhook field. You may try and test your configuration using the provided **Down test** and **Up test** buttons.
 

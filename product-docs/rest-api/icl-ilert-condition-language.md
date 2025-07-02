@@ -18,11 +18,11 @@ The ICL is a flexible tool that appears in many places as events or calls flow t
 
 Usually the UI offers a condition builder for easy access to the powerful features of the ICL, however users that want more control over their flows can switch to the editor mode (or use the API/terraform to provide their customized expressions)
 
-<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption><p>The UI ICL builder helps users get started quickly</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (212).png" alt=""><figcaption><p>The UI ICL builder helps users get started quickly</p></figcaption></figure>
 
 Use the toggle on the top right to switch to the code editor mode:
 
-<figure><img src="../.gitbook/assets/image (97).png" alt=""><figcaption><p>The code editor allows for more advanced and fine tuned control</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (213).png" alt=""><figcaption><p>The code editor allows for more advanced and fine tuned control</p></figcaption></figure>
 
 {% hint style="success" %}
 Note that the editor will automatically switch to code mode if it encounters advanced syntax that is not easily displayable in the simplified view

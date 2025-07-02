@@ -1,8 +1,4 @@
 ---
-title: StatusCake Integration
-seoTitle: 'iLert: StatusCake Integration for Alerting | Incident Response | Uptime'
-date: '2020-04-24T07:00:00.000Z'
-weight: 1
 description: >-
   The ilert StatusCake integration helps you to easily connect ilert with
   StatusCake.

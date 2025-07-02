@@ -26,7 +26,7 @@
 
 1. On the top bar, navigate to **Management** -> **Notification** -> **Integration Providers**.
 
-<figure><img src="../../.gitbook/assets/1 (18).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (40).png" alt="" width="563"><figcaption></figcaption></figure>
 
 2. Click on the ilert symbole.
 
@@ -35,4 +35,4 @@
 3. Select the desired **Role** and **Gateway**.
 4. Add the Integration key of the ilert alert source into the Integration Key field.
 
-<figure><img src="../../.gitbook/assets/2 (16).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (36).png" alt="" width="563"><figcaption></figcaption></figure>

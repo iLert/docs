@@ -20,17 +20,17 @@
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
 7. On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
-<figure><img src="../../.gitbook/assets/il-1 (3).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/il-1 (12).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## In Healthchecks.io: Create a Webhook
 
 1. On the navigation bar, click on **INTEGRATIONS**.
 
-<figure><img src="../../.gitbook/assets/1 (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (39).png" alt=""><figcaption></figcaption></figure>
 
 2. Click on the **Add Integration** button next to **Webhook**.
 
-<figure><img src="../../.gitbook/assets/2 (15).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (35).png" alt=""><figcaption></figcaption></figure>
 
 3. Enter a Name.
 4. Enter the previously in ilert generated alert source url into the **URL** fields.
@@ -44,7 +44,7 @@ Content-Type: application/json
 
 7. Click on the **Save Integration** button to finish the setup.
 
-<figure><img src="../../.gitbook/assets/3 (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (32).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 

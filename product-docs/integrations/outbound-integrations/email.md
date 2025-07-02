@@ -20,7 +20,7 @@ In the **Alert actions** view, click on **Create alert action** to get to the cr
 In the alert action creation view, choose **Email** as connection type.\
 You may now decide if this connection should be triggered **automatically** and select the alert events for which you would like to send emails or select **manually** and turn it into an alert action (as seen at the end of this document).
 
-![](<../../.gitbook/assets/iLert (79).png>)
+![](<../../.gitbook/assets/iLert (16).png>)
 
 Don't forget to give your alert action a **label** and enter a comma separated list of emails _(one is fine),_ that should receive the alert actions emails on alert events, in the **send to** field.
 

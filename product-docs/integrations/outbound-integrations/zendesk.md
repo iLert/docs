@@ -40,19 +40,19 @@ To set up the integration, you must have admin rights in ilert.
 
 3. On the next page, choose **Zendesk Support** as type, name the connector, enter your zendesk URL in the form [https://{your-domain}.zendesk.com](https://{your-domain}.zendesk.com), enter your Zendesk user **Email** and **API-Key** that you generated before _\*\*_ and click on the save button
 
-![](<../../.gitbook/assets/iLert (92).png>)
+![](<../../.gitbook/assets/iLert (20).png>)
 
 4. Go to **Alert sources** and select the alert source you want to connect with Zendesk. Click on **Alert Actions → Add new alert action**.
 
-![](<../../.gitbook/assets/iLert (93).png>)
+![](<../../.gitbook/assets/iLert (11).png>)
 
 5. On the next page choose **Zendesk Support** as the type, choose the connector created in step 3, name it, choose **Priority** of the Zendesk tickets and click on the **Save** button.
 
-![](<../../.gitbook/assets/iLert (95).png>)
+![](<../../.gitbook/assets/iLert (75).png>)
 
 6. You're done! You can now test this connection by clicking on **Test this connection**. A test ticket will be created in Zendesk.
 
-![](<../../.gitbook/assets/iLert (96).png>)
+![](<../../.gitbook/assets/iLert (18).png>)
 
 ## FAQ <a href="#faq" id="faq"></a>
 

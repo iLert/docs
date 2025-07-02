@@ -27,23 +27,23 @@ description: >-
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
 7. On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
-<figure><img src="../../.gitbook/assets/il-1 (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/il-1 (16).png" alt=""><figcaption></figcaption></figure>
 
 ## In LibreNMS: Create an Alert Transport
 
 1. In the navigation bar, click **Alerts** **->** **Alert Transports**.
 
-<figure><img src="../../.gitbook/assets/1 (22).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (44).png" alt=""><figcaption></figcaption></figure>
 
 2. Now click on **Create alert transport**.
 
-<figure><img src="../../.gitbook/assets/2 (20).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (40).png" alt=""><figcaption></figcaption></figure>
 
 3. Enter a **Transport name** and choose 'ilert' as **Transport type**.
 4. Enter the **Integration Key** of the previously created alert source in ilert.
 5. Click on Save Transport to finish the setup.
 
-<figure><img src="../../.gitbook/assets/3 (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (35).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ
 

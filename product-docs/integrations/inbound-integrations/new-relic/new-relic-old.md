@@ -1,8 +1,4 @@
 ---
-title: New Relic Integration
-seoTitle: 'iLert: New Relic Integration for Alerting | Incident Response | Uptime'
-date: '2018-12-29T05:02:05.000Z'
-weight: 1
 description: >-
   The ilert New Relic Integration helps you to easily connect ilert with New
   Relic.

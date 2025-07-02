@@ -1,8 +1,4 @@
 ---
-title: Slack Integration
-seoTitle: 'iLert: Slack Integration for Alerting | Incident Response | Uptime'
-date: '2018-12-29T05:02:05.000Z'
-weight: 1
 description: Post alerts to Slack or create alerts within a Slack channel
 ---
 
@@ -24,15 +20,15 @@ You need to have global **Admin** privileges to set up the integration in ilert.
 
 1\. Click on the gear icon ⚙ → **Connectors**
 
-![](<../../.gitbook/assets/Notification\_Center (6).png>)
+![](../../.gitbook/assets/Notification_Center.png)
 
 2\. Click on the **Slack Workspace Integration**
 
-![](<../../.gitbook/assets/iLert (106).png>)
+![](<../../.gitbook/assets/iLert (62).png>)
 
 3\. Click on the **Authorize** button
 
-![](<../../.gitbook/assets/iLert (105).png>)
+![](<../../.gitbook/assets/iLert (19).png>)
 
 4\. You will be forwarded to Slack. If you are not already logged in to Slack, please log in and **allow ilert to access your Slack workspace**.
 
@@ -48,7 +44,7 @@ You **may** need to re-authorize the bot for your Slack workspace in case new fe
 
 Click on the gear icon ⚙ → **Connectors**, then click on the **Slack Workspace Integration** and on the **"Re-authorize Slack"** button
 
-<img src="../../.gitbook/assets/iLert (101).png" alt="" data-size="original">
+<img src="../../.gitbook/assets/iLert (82).png" alt="" data-size="original">
 
 </details>
 

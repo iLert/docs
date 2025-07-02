@@ -20,7 +20,7 @@ If you are migrating legacy email settings, please follow [this](migrating-legac
 
 Your email alert source is now active. Any email sent to the email address will create an alert in ilert and trigger the alerting process using the alert source's escalation policy. The default setting creates an alert in ilert for each incoming email.&#x20;
 
-<figure><img src="../../../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (268).png" alt=""><figcaption></figcaption></figure>
 
 ## Fine-tuning email integration <a href="#advanced-settings" id="advanced-settings"></a>
 
@@ -38,7 +38,7 @@ More information on event filters can be found [here](../../../alerting/alert-so
 
 You can choose any email field to be used as an alert key, serving as a unique identifier for open alerts. When another email with the same alert key is received, it will be correlated to any open alert with the same alert key, resulting in correlation and deduplication of emails. The alert key field makes use of the [ITL](../../../rest-api/itl-ilert-template-language.md).
 
-<figure><img src="../../../.gitbook/assets/image (144).png" alt=""><figcaption><p>The subject of the email will be used as the alert key.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (266).png" alt=""><figcaption><p>The subject of the email will be used as the alert key.</p></figcaption></figure>
 
 ### Custom processing rules
 

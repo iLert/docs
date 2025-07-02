@@ -24,26 +24,26 @@ description: Resolve application errors quicker—with ilert and Rollbar
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
 7. On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
-<figure><img src="../../.gitbook/assets/il-1 (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/il-1 (15).png" alt=""><figcaption></figcaption></figure>
 
 ## In Rollbar: Create a Webhook
 
 1. On the sidebar, navigate to **Projects**.
 
-<figure><img src="../../.gitbook/assets/1 (21).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (43).png" alt=""><figcaption></figcaption></figure>
 
 2. Select a desired project you want to receive notifications from.
 
-<figure><img src="../../.gitbook/assets/2 (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (39).png" alt=""><figcaption></figcaption></figure>
 
 3. Now navigate to **Notifications** and select **Webhook** from the available channels.
 
-<figure><img src="../../.gitbook/assets/3 (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (34).png" alt=""><figcaption></figcaption></figure>
 
 4. Enter the previously in ilert created integration url into the **URL** field.
 5. Click on **Enable Webhook Integration** to finish the setup.
 
-<figure><img src="../../.gitbook/assets/4 (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (27).png" alt=""><figcaption></figcaption></figure>
 
 ## FAQ <a href="#faq" id="faq"></a>
 

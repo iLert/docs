@@ -1,8 +1,4 @@
 ---
-title: Instana Integration
-seoTitle: 'iLert: Instana Integration for Alerting | Incident Response | Uptime'
-date: '2018-12-29T05:02:05.000Z'
-weight: 1
 description: The ilert Instana Integration helps you to easily connect ilert with Instana.
 ---
 

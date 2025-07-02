@@ -1,5 +1,7 @@
 ---
-description: Get up and running with ilert's incident management platform in 5 minutes with this step-by-step guide.
+description: >-
+  Get up and running with ilert's incident management platform in 5 minutes with
+  this step-by-step guide.
 ---
 
 # Quick Start Guide
@@ -8,8 +10,8 @@ This guide will help you set up ilert's incident management platform and create 
 
 ## Prerequisites
 
-- An ilert account ([sign up here](https://app.ilert.com/signup))
-- A monitoring tool or service you want to connect (optional for testing)
+* An ilert account ([sign up here](https://app.ilert.com/signup))
+* A monitoring tool or service you want to connect (optional for testing)
 
 ## Step 1: Sign Up and Log In
 
@@ -24,8 +26,8 @@ An alert source connects your monitoring tools to ilert for reliable incident al
 1. In the ilert dashboard, click **Alert sources** → **Alert sources**
 2. Click **Create new alert source**
 3. Choose your integration type:
-   - **For testing**: Select "Email" or "Event API"
-   - **For production**: Select your monitoring tool (e.g., Prometheus, CloudWatch, Datadog)
+   * **For testing**: Select "Email" or "Event API"
+   * **For production**: Select your monitoring tool (e.g., Prometheus, CloudWatch, Datadog)
 4. Give your alert source a descriptive name (e.g., "Production Server Monitoring")
 5. Click **Next**
 
@@ -60,11 +62,13 @@ Set up how you want to receive incident notifications for reliable alerting:
 Send a test alert alert to verify everything works:
 
 ### Option A: Using Email Integration
+
 1. Copy the email address from your alert source
 2. Send a test email to that address
 3. Check your notifications
 
 ### Option B: Using Event API
+
 ```bash
 curl -X POST https://api.ilert.com/api/events \
   -H "Content-Type: application/json" \
@@ -80,25 +84,25 @@ curl -X POST https://api.ilert.com/api/events \
 
 Download the ilert mobile app for iOS or Android to manage incidents on the go:
 
-- **iOS**: [App Store](https://apps.apple.com/app/ilert/id542915864)
-- **Android**: [Google Play](https://play.google.com/store/apps/details?id=de.ilert.client.iphone)
+* **iOS**: [App Store](https://apps.apple.com/app/ilert/id542915864)
+* **Android**: [Google Play](https://play.google.com/store/apps/details?id=de.ilert.client.iphone)
 
 ## What's Next?
 
 Now that you have the basics set up, explore these incident management features:
 
-- **[Connect more monitoring tools](integrations/types-of-integrations.md)** - Add your existing monitoring stack for comprehensive incident coverage
-- **[Set up on-call schedules](on-call-management-and-escalations/on-call-schedules/README.md)** - Create rotation schedules for your team
-- **[Configure status pages](incident-comms-and-status-pages/getting-started.md)** - Communicate incidents to stakeholders and customers
-- **[Explore ChatOps](chatops/overview.md)** - Integrate with Slack or Microsoft Teams for incident collaboration
-- **[Set up heartbeat monitoring](alerting/heartbeat-monitoring/README.md)** - Monitor connectivity to ilert for reliable incident response
+* [**Connect more monitoring tools**](../../getting-started/integrations/types-of-integrations.md) - Add your existing monitoring stack for comprehensive incident coverage
+* [**Set up on-call schedules**](../../getting-started/on-call-management-and-escalations/on-call-schedules/) - Create rotation schedules for your team
+* [**Configure status pages**](../../getting-started/incident-comms-and-status-pages/getting-started.md) - Communicate incidents to stakeholders and customers
+* [**Explore ChatOps**](../../getting-started/chatops/overview.md) - Integrate with Slack or Microsoft Teams for incident collaboration
+* [**Set up heartbeat monitoring**](../../getting-started/alerting/heartbeat-monitoring/) - Monitor connectivity to ilert for reliable incident response
 
 ## Need Help?
 
-- **Documentation**: Browse our [comprehensive incident management guides](README.md)
-- **Support**: Contact us at [support@ilert.com](mailto:support@ilert.com)
-- **Live Chat**: Available in the ilert app
+* **Documentation**: Browse our [comprehensive incident management guides](../../getting-started/)
+* **Support**: Contact us at [support@ilert.com](mailto:support@ilert.com)
+* **Live Chat**: Available in the ilert app
 
----
+***
 
-**Congratulations!** You've successfully set up ilert's incident management platform and are ready to respond to incidents faster and more effectively. 
+**Congratulations!** You've successfully set up ilert's incident management platform and are ready to respond to incidents faster and more effectively.

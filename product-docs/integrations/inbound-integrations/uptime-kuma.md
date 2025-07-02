@@ -30,26 +30,26 @@ description: Create alerts in ilert from Uptime Kuma notifications
 
 1. Select any monitor you want to send notifications from.
 
-<figure><img src="../../.gitbook/assets/3 (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (12).png" alt=""><figcaption></figcaption></figure>
 
 2. Click on **Edit**
 
-<figure><img src="../../.gitbook/assets/4 (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (10).png" alt=""><figcaption></figcaption></figure>
 
 3. Now click on **Setup Notification**
 
-<figure><img src="../../.gitbook/assets/5 (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/5 (9).png" alt=""><figcaption></figcaption></figure>
 
 4. Choose **Webhook** in the Notification Type field
 5. Add a **Friendly Name** for your the notification
 6. In Post URL add the [previous](uptime-kuma.md#in-ilert-create-uptime-kuma-alert-source) created **Uptime Kuma URL**
 7. Choose **application/json** as Content Type
 
-<figure><img src="../../.gitbook/assets/6 (3).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (9).png" alt="" width="375"><figcaption></figcaption></figure>
 
 8. Optional: click on **Test** to test the notification
 
-<figure><img src="../../.gitbook/assets/7 (2).png" alt="" width="350"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/7 (7).png" alt="" width="350"><figcaption></figcaption></figure>
 
 9. Click on **Save** to finish the Setup
 

@@ -44,11 +44,7 @@ To set up the integration, you must have admin rights in ilert.
 
 1. Go to the **Alert Sources → Alert Actions** page and click on the **Create new alert action** button
 
-<div data-full-width="false">
-
-<figure><img src="../../../.gitbook/assets/Screenshot 2024-07-19 at 14.38.07.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/Screenshot 2024-07-19 at 14.38.07.png" alt=""><figcaption></figcaption></figure></div>
 
 2. Select **Microsoft Teams** as **Type** and choose **Use webhook** option. Then click on the **Next** button.
 

@@ -1,8 +1,4 @@
 ---
-title: Microsoft Teams Integration via Incoming Webhook
-seoTitle: 'iLert: Microsoft Teams Integration for Alerting | Incident Response | Uptime'
-date: '2018-12-29T05:02:05.000Z'
-weight: 1
 description: >-
   The ilert Microsoft Teams Integration helps you to bring alerts into your
   channels without installing the app.
@@ -28,23 +24,23 @@ To set up the integration, you must have admin rights in ilert.
 
 1. Select the channel in which you want to publish ilert Alerts and click **...** -> **Connectors**
 
-<figure><img src="../../../.gitbook/assets/1 (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (15).png" alt=""><figcaption></figcaption></figure>
 
 2. Type webhook in the search field and click **Add**
 
-<figure><img src="../../../.gitbook/assets/2 (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/2 (13).png" alt=""><figcaption></figcaption></figure>
 
 3. Again click on **Add**
 
-<figure><img src="../../../.gitbook/assets/3 (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/3 (10).png" alt=""><figcaption></figcaption></figure>
 
 4. Now in **Connectors** click on **Configure**.
 
-<figure><img src="../../../.gitbook/assets/4 (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/4 (8).png" alt=""><figcaption></figcaption></figure>
 
 5. Type the **connector Name** and click **Create**.
 
-<figure><img src="../../../.gitbook/assets/5 (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/5 (7).png" alt=""><figcaption></figcaption></figure>
 
 6. Copy the **connector URL** and click **Done**.
 
@@ -56,21 +52,21 @@ To set up the integration, you must have admin rights in ilert.
 
 1. Select the channel in which you want to publish ilert Alerts and click **...** -> **Connectors**
 
-<figure><img src="../../../.gitbook/assets/1 (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/1 (15).png" alt=""><figcaption></figcaption></figure>
 
 2. In the **Manage** tab click on **Configured**.
 
-<figure><img src="../../../.gitbook/assets/7 (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/7 (5).png" alt=""><figcaption></figcaption></figure>
 
 3. Now open up the dropdown list by clicking on **Configured** and click on the **Manage** button of the desired connector.
 
-<figure><img src="../../../.gitbook/assets/8 (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/8 (3).png" alt=""><figcaption></figcaption></figure>
 
 ## In ilert: Create the Microsoft Teams Connector and link it to the alert source <a href="#create-alarm-source" id="create-alarm-source"></a>
 
 1. Click the gear icon → **Connectors**
 
-<div data-full-width="false"><figure><img src="../../../.gitbook/assets/9 (1) (1) (1).png" alt="" width="177"><figcaption></figcaption></figure></div>
+<div data-full-width="false"><figure><img src="../../../.gitbook/assets/9 (3).png" alt="" width="177"><figcaption></figcaption></figure></div>
 
 2. Click **Create Connector**
 3. Select **Microsoft Teams** as **Type**. Assign a name for the connector, enter the URL from [above](incoming-webhook.md#add-to-channel) and save it.

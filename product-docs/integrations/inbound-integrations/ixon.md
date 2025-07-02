@@ -44,7 +44,7 @@ ilert will then extract the given value e.g. user id from the IXON event and sea
 
 Navigate to the escalation policy that you wish to route to and set its routing key to the IXON value:
 
-![](<../../.gitbook/assets/image (47).png>)
+![](<../../.gitbook/assets/image (165).png>)
 
 Note that if no match for the routing key is found, ilert will fall back to using the configured escalation policy.
 

@@ -32,11 +32,11 @@ description: >-
 
 1. Go to Zendesk and then to **Settings -> Extensions** and click on the **Add target** button
 
-![](../../.gitbook/assets/a_-_Agent.png)
+![](<../../.gitbook/assets/a_-_Agent (2).png>)
 
 2. On the next page click the **HTTP target** link
 
-![](<../../.gitbook/assets/a_-_Agent (1).png>)
+![](../../.gitbook/assets/a_-_Agent.png)
 
 3. On the next page:
 4. In the **Title** section, enter a name eg. ilert
@@ -46,20 +46,20 @@ description: >-
 8. In the bottom section choose **Create target**
 9. Click the **Submit** button
 
-![](<../../.gitbook/assets/a_-_Agent (2).png>)
+![](<../../.gitbook/assets/a_-_Agent (1).png>)
 
 ### Create a Trigger
 
 1. Go to Zendesk and then to **Business Rules -> Triggers** and click on the **Add trigger** button
 
-![](<../../.gitbook/assets/a_-_Agent (3).png>)
+![](<../../.gitbook/assets/a_-_Agent (4).png>)
 
 2. On the next page:
 3. In the **Trigger name** section, enter a name eg. ilert
 4. In the **Category** section, choose a category, e.g. Notifications
 5. In the **Meet ANY of following conditions** section, add **Ticket is created** and **Ticket is updated** rules
 
-![](<../../.gitbook/assets/a_-_Agent (4).png>)
+![](<../../.gitbook/assets/a_-_Agent (3).png>)
 
 6. Scroll down to the **Actions** panel and choose the **ilert Notify target** that you created above
 7. In the **JSON body** sections, paste the following object:

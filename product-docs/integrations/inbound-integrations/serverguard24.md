@@ -27,23 +27,23 @@ description: >-
 6. The next page shows additional settings, such as customer alert templates or notification priority. Click **Finish setup** for now.
 7. On the final page, an API key and/or webhook URL will be generated. You will need it later.
 
-<figure><img src="../../.gitbook/assets/il-1 (2).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/il-1 (11).png" alt="" width="563"><figcaption></figcaption></figure>
 
 ## In ServerGuard24: Create a Webhook
 
 1. On the Dashboard, click on **Settings**.
 
-<figure><img src="../../.gitbook/assets/1 (16).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (38).png" alt=""><figcaption></figcaption></figure>
 
 2. Now, on the sidebar, navigate to **Integrations** and click on the **+ New Integration** button.
 
-<figure><img src="../../.gitbook/assets/2 (14).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/2 (34).png" alt=""><figcaption></figcaption></figure>
 
 3. Change the **Type** to 'Custom'.
 4. Change the **Request Type** to 'POST Data'
 5. Now, enter a **Description** and the previously generated alert source URL in the **URL** field.
 
-<figure><img src="../../.gitbook/assets/3 (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/3 (31).png" alt=""><figcaption></figcaption></figure>
 
 6. Enter the following template into the **Data Template** field:
 
@@ -68,7 +68,7 @@ description: >-
 }
 ```
 
-<figure><img src="../../.gitbook/assets/4 (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/4 (25).png" alt=""><figcaption></figcaption></figure>
 
 7. Click on **Save** to finish the setup.
 

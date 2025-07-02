@@ -3,11 +3,11 @@
 ilert integrations connect your tools and workflows for efficient incident management and reliable alerting. They are organized into three categories:
 
 1. **Inbound Integrations**\
-   Also called [alert sources](/alerting/alert-sources), they enable you to connect monitoring tools, ticketing systems, or applications to ilert for reliable incident alerting. Use pre-built integrations, email, Event API, SMS, or heartbeat monitoring to create and manage incidents effectively.
+   Also called [alert sources](../../alerting/alert-sources/), they enable you to connect monitoring tools, ticketing systems, or applications to ilert for reliable incident alerting. Use pre-built integrations, email, Event API, SMS, or heartbeat monitoring to create and manage incidents effectively.
 2. **CI/CD integrations**\
-   [Deployment events](/alerting/deployment-events) enrich incidents by bringing deployment activity, such as releases or merges, into your ilert incident management platform.
+   [Deployment events](../../alerting/deployment-events/) enrich incidents by bringing deployment activity, such as releases or merges, into your ilert incident management platform.
 3. **Outbound Integrations**\
-   Known as connectors and [alert actions](/#connector-and-alert-action-aka-outbound-integration), outbound integrations let you automate incident responses. Update status pages, create tickets in JIRA, or send notifications to Slack to ensure timely and coordinated incident response.
+   Known as connectors and [alert actions](../#connector-and-alert-action-aka-outbound-integration), outbound integrations let you automate incident responses. Update status pages, create tickets in JIRA, or send notifications to Slack to ensure timely and coordinated incident response.
 
 Learn how to configure each type of integration to enhance your incident management operations:
 

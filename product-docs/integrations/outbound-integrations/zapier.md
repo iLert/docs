@@ -30,11 +30,11 @@ description: >-
 NOTE: you can't use an Zapier alert source here, as it will lead to an infinite loop
 {% endhint %}
 
-![](<../../.gitbook/assets/Edit_a_Step___Zapier (3).png>)
+![](<../../.gitbook/assets/Edit_a_Step___Zapier (4).png>)
 
 6. On the next slide, click on the **Test Trigger** button to see example data. Then click on the **Continue** button.
 
-![](<../../.gitbook/assets/Edit_a_Step___Zapier (4).png>)
+![](<../../.gitbook/assets/Edit_a_Step___Zapier (3).png>)
 
 7. Now you can **add any action** available in Zapier, e.g. Jira to create a ticket on your Jira board
 
