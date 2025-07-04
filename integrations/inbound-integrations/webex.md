@@ -39,7 +39,7 @@ description: Receive and respond to ilert alerts in Webex.
 
 Yes.
 
-**Are updates to an alert published on the Cisco Webex space?**
+**Are updates to an alert published on the Webex space?**
 
 Yes, the following updates to an alert are currently being released:
 
@@ -47,6 +47,6 @@ Yes, the following updates to an alert are currently being released:
 * **Manual Assignments** : An alert is manually assigned to someone.
 * **Actions** : An alert is accepted or resolved.
 
-**Can I choose which updates to an alert will be published in Cisco Webex?**
+**Can I choose which updates to an alert will be published in Webex?**
 
 Yes.
