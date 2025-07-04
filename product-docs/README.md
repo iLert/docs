@@ -29,15 +29,15 @@ ilert is a complete **incident management platform** that provides **reliable al
 
 ## 📚 Documentation Sections
 
-| Section                                                                             | Description                                        |
-| ----------------------------------------------------------------------------------- | -------------------------------------------------- |
-| [**Getting Started**](getting-started/faq/)                                         | Quick setup guides and FAQs                        |
-| [**Alerting**](alerting/alert-sources.md)                                           | Configure alert sources and reliable notifications |
-| [**On-Call Management**](on-call-management-and-escalations/escalation-policies.md) | Set up schedules and escalation policies           |
-| [**Integrations**](integrations/types-of-integrations.md)                           | Connect your tools and workflows                   |
-| [**Incident Communication**](incident-comms-and-status-pages/getting-started.md)    | Communicate incidents to stakeholders              |
-| [**Mobile App**](mobile-app/getting-started-with-ilert-mobile-app.md)               | iOS and Android app documentation                  |
-| [**API**](rest-api/client-libraries/)                                               | REST API and client libraries                      |
+| Section                                                                                | Description                                        |
+| -------------------------------------------------------------------------------------- | -------------------------------------------------- |
+| [**Getting Started**](../getting-started/faq/)                                         | Quick setup guides and FAQs                        |
+| [**Alerting**](../alerting/alert-sources.md)                                           | Configure alert sources and reliable notifications |
+| [**On-Call Management**](../on-call-management-and-escalations/escalation-policies.md) | Set up schedules and escalation policies           |
+| [**Integrations**](../integrations/types-of-integrations.md)                           | Connect your tools and workflows                   |
+| [**Incident Communication**](../incident-comms-and-status-pages/getting-started.md)    | Communicate incidents to stakeholders              |
+| [**Mobile App**](../mobile-app/getting-started-with-ilert-mobile-app.md)               | iOS and Android app documentation                  |
+| [**API**](../rest-api/client-libraries/)                                               | REST API and client libraries                      |
 
 ## 🎯 Popular Use Cases
 
@@ -68,16 +68,16 @@ An alert can have the following states:
 
 An alert source represents the connection between your tools (usually a monitoring system, a ticketing tool, or an application) and ilert. We often refer to alert sources as **inbound integrations**.
 
-{% content-ref url="alerting/alert-sources.md" %}
-[alert-sources.md](alerting/alert-sources.md)
+{% content-ref url="../alerting/alert-sources.md" %}
+[alert-sources.md](../alerting/alert-sources.md)
 {% endcontent-ref %}
 
 ## Deployment events
 
 The deployment events view gives you a live overview of all deployments related to your account. If a deployment event can be correlated to an alert, ilert will enrich your alert's context with the most relevant deployment information to improve incident response.
 
-{% content-ref url="alerting/deployment-events.md" %}
-[deployment-events.md](alerting/deployment-events.md)
+{% content-ref url="../alerting/deployment-events.md" %}
+[deployment-events.md](../alerting/deployment-events.md)
 {% endcontent-ref %}
 
 ## Connector and alert action (aka outbound integration)
@@ -100,16 +100,16 @@ We often refer to connectors and alert actions as **outbound integrations**.
 
 An escalation policy connects an alert source with the users that are responsible for this alert source. It defines which users or on-call schedules should be notified when an alert is created to ensure reliable incident response.
 
-{% content-ref url="on-call-management-and-escalations/escalation-policies.md" %}
-[escalation-policies.md](on-call-management-and-escalations/escalation-policies.md)
+{% content-ref url="../on-call-management-and-escalations/escalation-policies.md" %}
+[escalation-policies.md](../on-call-management-and-escalations/escalation-policies.md)
 {% endcontent-ref %}
 
 ## On-call schedule
 
 On-call schedules determine who will be notified when an alert is created based on the time of day. Only one user per schedule can be on-call at a time. You can reference an on-call schedule in an escalation policy.
 
-{% content-ref url="on-call-management-and-escalations/on-call-schedules/" %}
-[on-call-schedules](on-call-management-and-escalations/on-call-schedules/)
+{% content-ref url="../on-call-management-and-escalations/on-call-schedules/" %}
+[on-call-schedules](../on-call-management-and-escalations/on-call-schedules/)
 {% endcontent-ref %}
 
 ## Incident, Service and Status Page
@@ -124,6 +124,6 @@ Incidents are the main way to communicate with your users when you are experienc
 
 A notification is a message that is sent to a user to inform them about alerts, incidents or on-call shifts. Users manage how they want to be notified in their notification settings to ensure reliable incident response.
 
-{% content-ref url="alerting/notification-settings/" %}
-[notification-settings](alerting/notification-settings/)
+{% content-ref url="../alerting/notification-settings/" %}
+[notification-settings](../alerting/notification-settings/)
 {% endcontent-ref %}
